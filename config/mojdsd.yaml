@@ -1,8 +1,8 @@
 ---
 providers:
-  config:
+  yaml:
     class: octodns.provider.yaml.YamlProvider
-    directory: ./config
+    directory: ./output
     default_ttl: 3600
     enforce_order: True
   route53:
@@ -12,4 +12,10 @@ zones:
   kube.dsd.io.:
     sources:
       - route53
-
+    targets:
+      - yaml
+#  justice.gov.uk.:
+#    sources:
+#      - route53
+#    targets:
+#      - yaml
