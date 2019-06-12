@@ -1,0 +1,28 @@
+---
+1018e5c0d6252d314938fff85ab11c78:
+  ttl: 10800
+  type: CNAME
+  value: 56a7d927b6497005309550f3bcd71bcaee4f7514.comodoca.com.
+email:
+- ttl: 300
+  type: MX
+  values:
+  - exchange: mxa.mailgun.org
+    preference: 10
+  - exchange: mxb.mailgun.org
+    preference: 20
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
+email.email:
+  ttl: 300
+  type: CNAME
+  value: mailgun.org
+krs._domainkey.email:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDteoKITipjAXeJqmOaIUCAcHnQZzRiWA+UG1WdKyoPow0Ii0zRIaS2W+6DMiHVHNAUcwTzSVTDS3tCqkWklgfRSTfj8OeGCxThpMo2mzuEX6Ic5cxDSXxELWsLJotvh2YQR7L7oryxqlqqaRkQLA1JkyuovuVxlczMOos8RYcxeQIDAQAB
+www:
+  ttl: 60
+  type: CNAME
+  value: www.signon.dsd.io.herokudns.com

@@ -1,0 +1,65 @@
+---
+_acme-challenge.prod-public:
+  ttl: 60
+  type: TXT
+  value: YAaEVbtcU504Ne9H9w2ZVDuGTcmMX4IcP7Sv1kpzLr0
+_acme-challenge.staging-public:
+  ttl: 60
+  type: TXT
+  value: _VxK0niE97sBASObqK5z5IJfh7NbD1M3_ZmwlE_-28A
+deployarn.813791f8.dev.familyjustice-caat:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/familyjustice-caat-dev-813791f8-CrossAccountRole-1ADRD8CHM0QAV
+deployarn.active.dev.familyjustice-caat:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/familyjustice-caat-dev-51529747-CrossAccountRole-16IXZVOI22BR9
+deployarn.active.prod.familyjustice-caat:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/familyjustice-caat-prod-a68d795e-CrossAccountRole-GGQL26ZM25M5
+deployarn.active.staging.familyjustice-caat:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/familyjustice-caat-staging-0d8544-CrossAccountRole-95JAVFCDNI7G
+stack.0d85446c.familyjustice-caat-staging:
+  ttl: 60
+  type: TXT
+  value: 0d85446c
+stack.1ca776e2.familyjustice-caat-prod:
+  ttl: 60
+  type: TXT
+  value: 1ca776e2
+stack.32e10b00.familyjustice-caat-staging:
+  ttl: 60
+  type: TXT
+  value: 32e10b00
+stack.649e1e22.familyjustice-caat-staging:
+  ttl: 60
+  type: TXT
+  value: 649e1e22
+stack.813791f8.familyjustice-caat-dev:
+  ttl: 60
+  type: TXT
+  value: 813791f8
+stack.51529747.familyjustice-caat-dev:
+  ttl: 60
+  type: TXT
+  value: '51529747'
+stack.a68d795e.familyjustice-caat-prod:
+  ttl: 60
+  type: TXT
+  value: a68d795e
+stack.active.familyjustice-caat-dev:
+  ttl: 300
+  type: TXT
+  value: '51529747'
+stack.active.familyjustice-caat-prod:
+  ttl: 60
+  type: TXT
+  value: a68d795e
+stack.active.familyjustice-caat-staging:
+  ttl: 60
+  type: TXT
+  value: 0d85446c

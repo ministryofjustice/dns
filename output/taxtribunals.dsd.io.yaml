@@ -1,0 +1,13 @@
+---
+3f01336ae12247b558dfbf417aab9613:
+  ttl: 300
+  type: CNAME
+  value: 9e03b4807ea546921468678e16496957f34b732b.comodoca.com.
+stack.active.glimr-dev:
+  ttl: 60
+  type: TXT
+  value: a70108c9
+stack.active.tt-payments-alpha-dev:
+  ttl: 60
+  type: TXT
+  value: b8e333a5

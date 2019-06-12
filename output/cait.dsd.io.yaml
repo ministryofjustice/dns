@@ -1,0 +1,107 @@
+---
+? ''
+: ttl: 1800
+  type: MX
+  value:
+    exchange: inbound-smtp.eu-west-1.amazonaws.com
+    preference: 10
+_acme-challenge.dev-public:
+  ttl: 60
+  type: TXT
+  value: 7L3zsLJ-2yDeclj-mVuV4rKbr6rcpnpZR4a9YgE9vdM
+_acme-challenge.prod-public:
+  ttl: 60
+  type: TXT
+  value: t4BSebj_XvNhlbfATwUmaivcrYA2mJq8cN8u5hknKY8
+_acme-challenge.staging-public:
+  ttl: 60
+  type: TXT
+  value: fXn11mRXCeH0DXjFlJ-s7pLfth5j-VK_3N59OEiUCKo
+_amazonses:
+  ttl: 1800
+  type: TXT
+  value: wBoZDxgLGco7ggaqhRNOLQCWSd18hW3qJkFuEqJ/W9Q=
+deployarn.active.dev.blah:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/blah-dev-239088b8-CrossAccountRole-1EGCGDZJ2B0Z0
+deployarn.active.dev.cait:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/cait-dev-2a633057-CrossAccountRole-13ASKXEBHUCN0
+deployarn.active.prod:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/cait-prod-33e630a4-CrossAccountRole-6J2PZEIKFCJE
+deployarn.active.prod.cait:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/cait-prod-33e630a4-CrossAccountRole-6J2PZEIKFCJE
+deployarn.active.staging.cait:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/cait-staging-a8091a25-CrossAccountRole-1Q4RTVQ6WOMR0
+deployarn.blue.dev.cait:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/cait-dev-2a633057-CrossAccountRole-13ASKXEBHUCN0
+deployarn.blue.prod.cait:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/cait-prod-33e630a4-CrossAccountRole-6J2PZEIKFCJE
+deployarn.blue.staging.cait:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/cait-staging-a8091a25-CrossAccountRole-1Q4RTVQ6WOMR0
+deployarn.test.dev.blah:
+  ttl: 60
+  type: TXT
+  value: None
+npuob65usx7nm6wtxlndokpvd7qg7aqs._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: npuob65usx7nm6wtxlndokpvd7qg7aqs.dkim.amazonses.com
+stack.63e505b7.cait-demo:
+  ttl: 60
+  type: TXT
+  value: 63e505b7
+stack.active.blah-dev:
+  ttl: 60
+  type: TXT
+  value: 239088b8
+stack.active.cait-dev:
+  ttl: 60
+  type: TXT
+  value: 2a633057
+stack.active.cait-prod:
+  ttl: 60
+  type: TXT
+  value: 33e630a4
+stack.active.cait-staging:
+  ttl: 60
+  type: TXT
+  value: a8091a25
+stack.blue.cait-dev:
+  ttl: 60
+  type: TXT
+  value: 2a633057
+stack.blue.cait-prod:
+  ttl: 60
+  type: TXT
+  value: 33e630a4
+stack.blue.cait-staging:
+  ttl: 60
+  type: TXT
+  value: a8091a25
+stack.test.blah-dev:
+  ttl: 60
+  type: TXT
+  value: None
+v56miggprnzrkah6pgqprbj7ex7dn2cz._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: v56miggprnzrkah6pgqprbj7ex7dn2cz.dkim.amazonses.com
+vi3ugo43evksbwf4qiexqgrgv6zqxqez._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: vi3ugo43evksbwf4qiexqgrgv6zqxqez.dkim.amazonses.com

@@ -1,0 +1,29 @@
+---
+deployarn.active.demo.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-demo-625cff59-CrossAccountRole-KQ58GGMUPW6C
+deployarn.active.production.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-production-b95-CrossAccountRole-B1XS4U6IP0GU
+deployarn.active.staging.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-staging-5117bc-CrossAccountRole-FG0R0PHRPFQJ
+stack.active.accelerated-claims-dev:
+  ttl: 60
+  type: TXT
+  value: 625cff59
+stack.active.accelerated-claims-production:
+  ttl: 60
+  type: TXT
+  value: b957cd51
+stack.active.accelerated-claims-staging:
+  ttl: 60
+  type: TXT
+  value: 58ff179a
+stack.paulw.accelerated-claims-demo:
+  ttl: 60
+  type: TXT
+  value: aa771b48

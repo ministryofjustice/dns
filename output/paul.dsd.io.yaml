@@ -1,0 +1,23 @@
+---
+? ''
+: ttl: 1800
+  type: MX
+  value:
+    exchange: inbound-smtp.eu-west-1.amazonaws.com
+    preference: 10
+2mwrnksz44dpe4pmbwiypbi6i7qt6iil._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: 2mwrnksz44dpe4pmbwiypbi6i7qt6iil.dkim.amazonses.com
+23vwmda6raijygnvpw5vr6gy6ielvoje._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: 23vwmda6raijygnvpw5vr6gy6ielvoje.dkim.amazonses.com
+_amazonses:
+  ttl: 1800
+  type: TXT
+  value: LOcLVfqFGfl8CL0InmV0zKbFdrDNOY0z9Wi1lt99MbI=
+tflm5sjoqvjeyk4q36nk55zarpqsxl5z._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: tflm5sjoqvjeyk4q36nk55zarpqsxl5z.dkim.amazonses.com

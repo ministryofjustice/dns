@@ -1,0 +1,15 @@
+---
+logging:
+  ttl: 300
+  type: CNAME
+  value: internal-core-mon-lb-1815791259.eu-west-1.elb.amazonaws.com
+metrics:
+  ttl: 300
+  type: A
+  value: 10.45.1.135
+test1:
+  ttl: 60
+  type: A
+  values:
+  - 10.45.1.12
+  - 10.45.1.194

@@ -1,0 +1,207 @@
+---
+? ''
+: ttl: 1800
+  type: MX
+  value:
+    exchange: inbound-smtp.eu-west-1.amazonaws.com
+    preference: 10
+_amazonses:
+  ttl: 1800
+  type: TXT
+  value: Bx40TAmFmbd/9Lwsb6fti8See5tAvwcck05h5Ix43HY=
+_amazonses.niall:
+  ttl: 300
+  type: TXT
+  value: Bx40TAmFmbd/9Lwsb6fti8See5tAvwcck05h5Ix43HY=
+deployarn.active.dev.helloworld:
+  ttl: 60
+  type: TXT
+  value: 'False'
+email:
+  ttl: 300
+  type: CNAME
+  value: u2748441.wl192.sendgrid.net
+s1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u2748441.wl192.sendgrid.net
+s2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u2748441.wl192.sendgrid.net
+stack.2cff62e2.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 2cff62e2
+stack.4a0a5293.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 4a0a5293
+stack.6f378ec5.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 6f378ec5
+stack.7caf1c2e.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 7caf1c2e
+stack.7fa3c29e.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 7fa3c29e
+stack.8a110aea.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 8a110aea
+stack.8c19e4c2.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 8c19e4c2
+stack.17b65611.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 17b65611
+stack.23db6ef3.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 23db6ef3
+stack.27bf7410.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 27bf7410
+stack.28c2ad98.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 28c2ad98
+stack.31ee877b.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 31ee877b
+stack.68b4539e.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 68b4539e
+stack.76f99024.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 76f99024
+stack.77bade47.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 77bade47
+stack.88d94cae.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 88d94cae
+stack.89c3dac2.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 89c3dac2
+stack.99eb500a.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 99eb500a
+stack.160d6152.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 160d6152
+stack.411d34aa.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 411d34aa
+stack.639da9ad.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 639da9ad
+stack.709e2876.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 709e2876
+stack.734e5e45.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 734e5e45
+stack.893d953c.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 893d953c
+stack.2925f8d8.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 2925f8d8
+stack.4747cedb.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 4747cedb
+stack.26642acc.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 26642acc
+stack.363237ed.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 363237ed
+stack.411618b9.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 411618b9
+stack.a60c375d.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: a60c375d
+stack.a252b118.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: a252b118
+stack.ad7bac67.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: ad7bac67
+stack.bd1347b6.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: bd1347b6
+stack.c3cdaaac.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: c3cdaaac
+stack.d1bf9c4a.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: d1bf9c4a
+stack.df301bbe.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: df301bbe
+stack.e5c18324.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: e5c18324
+stack.e70c3259.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: e70c3259
+stack.f28946b7.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: f28946b7
+stack.ff2f2205.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: ff2f2205
+stack.ff9a9bd7.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: ff9a9bd7
+stack.jump.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 214cefdd
+stack.jupiter.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 1bdf981f
+stack.red.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: e66e69fa
