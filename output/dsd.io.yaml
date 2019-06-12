@@ -1,0 +1,3466 @@
+---
+? ''
+: ttl: 1800
+  type: MX
+  value:
+    exchange: inbound-smtp.eu-west-1.amazonaws.com
+    preference: 10
+6acabe5a8c1e0c7d7ebb997665754f07.people-finder:
+  ttl: 300
+  type: CNAME
+  value: 04cbd2d2377b4efc490796eac15fd4e0162c32fb.comodoca.com
+7vyvfadjerzncwgstpglhj6bwd5ekpbo._domainkey.ppo:
+  ttl: 1800
+  type: CNAME
+  value: 7vyvfadjerzncwgstpglhj6bwd5ekpbo.dkim.amazonses.com
+9a2474c87eee0d38e76ee3835cac2c65.service:
+  ttl: 300
+  type: CNAME
+  value: 48d5fe716fb286bc6f06ccc00903366b44c15205.comodoca.com.
+57be36c831bfa6ee8da74a355127d7e4.scs-performance:
+  ttl: 1800
+  type: CNAME
+  value: ad30b6006e511fa79956311b5d157831c3b7d2f6.comodoca.com.
+767topg7v6qyf3jlozwlxhu2zcqb4fuk._domainkey.opg:
+  ttl: 1800
+  type: CNAME
+  value: 767topg7v6qyf3jlozwlxhu2zcqb4fuk.dkim.amazonses.com
+6757f7a880bf3aafa19037cd389bc385:
+  ttl: 10800
+  type: CNAME
+  value: 3b4418ae8b6c03942b2e90a2ff3e0a6300d93322.comodoca.com
+'*.branchrunner.acceleratedpossession-dev':
+  ttl: 300
+  type: CNAME
+  value: acceleratedpossession-dev.dsd.io
+'*.int-prisonvisits':
+  ttl: 30
+  type: A
+  value: 172.22.16.3
+'*.local':
+  ttl: 300
+  type: A
+  value: 127.0.0.1
+_6b6253eac9e7549bb70b0e42830e95b9.ci-hmcts.service:
+  ttl: 300
+  type: CNAME
+  value: _911134c8d386ffd7445e3b435f346286.ltfvzjuylp.acm-validations.aws.
+_24f86490dd8e8242d01b5914ce8e8019.kibana.service:
+  ttl: 300
+  type: CNAME
+  value: _daf1bf01939ece075dc4fec43a7bdf61.acm-validations.aws.
+_29e6fa072cabf1c4c8ed043652cb77dc.elasticsearch:
+  ttl: 300
+  type: CNAME
+  value: _68ab398fca862a92da625f9b21effe6d.acm-validations.aws.
+_29faedc51b99a21e6b546e9f0ae8f53a.tax-tribunals-fees-staging:
+  ttl: 300
+  type: CNAME
+  value: _e2ebb11a735d6cabe65ab6dc0789debb.tljzshvwok.acm-validations.aws.
+_48a95b0f6b9383b5850ca52940494730.www.elasticsearch:
+  ttl: 300
+  type: CNAME
+  value: _54ed4777b69c3ce620ad61078111bf87.acm-validations.aws.
+_0082c6a377f7331131d1d00eef006d32.kibana.test.service:
+  ttl: 300
+  type: CNAME
+  value: _0ac69cc5dae726038ce6de34ca1ca6ab.acm-validations.aws.
+_69133e86fceb234c531dae34bdeedfab.www.kibana.service:
+  ttl: 300
+  type: CNAME
+  value: _0af1643752ab295de404bc3cf57bf3b7.acm-validations.aws.
+_a5c3b9452c35b35389c1f1d9320e5c75.maintain:
+  ttl: 300
+  type: CNAME
+  value: _dbdace06d3074d2a389c061c507bdd98.acm-validations.aws.
+_acme-challenge.cp-pipeline-tests-circle:
+  ttl: 300
+  type: TXT
+  value: aayz_Rbu8GXkM04n5tckUaSsp_OjPOuTfE9TlgwmnlE
+_acme-challenge.letsencrypt-test-999.service:
+  ttl: 300
+  type: TXT
+  value: hKhGl72enVvUXC7cmlra8HTKMSMNPJx8nqz8HjwwHVQ
+_adda73ca742a1234e9f9d2c93f9882fd.status.service:
+  ttl: 300
+  type: CNAME
+  value: _7a7432de6a3202bc3b084011c61d9a53.acm-validations.aws
+_amazonses:
+  ttl: 1800
+  type: TXT
+  values:
+  - Eqf5BRJNj6Rn84SGmsbWc4YLnlRh2vabWbM62yGbMic=
+  - H8uHHtYVLQ/jS2tDU/bfzD5fVCkOoMPcNIrY1EZMVzs=
+_amazonses.courtfinder:
+  ttl: 1800
+  type: TXT
+  value: G1EwlYcGmbhzmDSuyG/gZq2q7QCQx6EFWpaR00Yn8yQ=
+_amazonses.opg:
+  ttl: 1800
+  type: TXT
+  value: bWOD7mXHLafhehCkT+4DNLWwmQKx3Kxsn/nxubU3Tbg=
+_amazonses.ppo:
+  ttl: 1800
+  type: TXT
+  value: Vk3y1zBydDzo+p+ekAMBa6sU62jDgU1NY9/j1/AE+UE=
+_amazonses.tribunals:
+  ttl: 1800
+  type: TXT
+  value: FotC+RkVmtjm3NvO4OIR5gsq8wlGxX1X7LdoJ1RITII=
+_bfa871d9ae35776361503dc9a3a10db1.tax-tribunals-datacapture-staging:
+  ttl: 300
+  type: CNAME
+  value: _c97c367e852ca6a18aa1f2119d71c3b9.tljzshvwok.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;fo=1\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+    ruf=mailto:dmarc-ruf@dmarc.service.gov.uk
+accelerated:
+  ttl: 300
+  type: A
+  value: 54.194.211.159
+acceleratedpossession:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1114.awsdns-11.org.
+  - ns-1772.awsdns-29.co.uk.
+  - ns-325.awsdns-40.com.
+  - ns-941.awsdns-53.net.
+addressfinder:
+  ttl: 300
+  type: CNAME
+  value: addressfinder-web-384482024.eu-west-1.elb.amazonaws.com
+adjudicationpanel:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+administrativeappealsdecisions:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+advocatedefencepayments:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1252.awsdns-28.org.
+  - ns-1596.awsdns-07.co.uk.
+  - ns-324.awsdns-40.com.
+  - ns-972.awsdns-57.net.
+ahmlr:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+api-sandbox-adp:
+  ttl: 300
+  type: CNAME
+  value: api-sandbox.advocatedefencepayments.dsd.io.
+archipelago:
+  ttl: 300
+  type: CNAME
+  value: moj-archipelago.herokuapp.com.
+assets-scs.service:
+  ttl: 300
+  type: CNAME
+  value: acs-prod-assets-692861923.eu-west-1.elb.amazonaws.com.
+asylum-support:
+  ttl: 300
+  type: A
+  value: 52.30.196.9
+azure:
+  ttl: 300
+  type: NS
+  values:
+  - ns1-08.azure-dns.com.
+  - ns2-08.azure-dns.net.
+  - ns3-08.azure-dns.org.
+  - ns4-08.azure-dns.info.
+b3a5b9a35c417a0b10d034e5a852d361.service:
+  ttl: 10800
+  type: CNAME
+  value: da0411b3a5d423ba89ee98d19d22e41f61e1c00c.comodoca.com.
+b38c79e4b77d9465b929e9765efd49b2:
+  ttl: 10800
+  type: CNAME
+  value: f710b29d8246b118772e86cec8bf0404cf13f3ee.comodoca.com
+blog-base:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com
+bzy75fcccsl3f4ii6ogijiguy2mu2hww._domainkey.ppo:
+  ttl: 1800
+  type: CNAME
+  value: bzy75fcccsl3f4ii6ogijiguy2mu2hww.dkim.amazonses.com
+c100:
+  ttl: 60
+  type: CNAME
+  value: c100.dsd.io.herokudns.com
+caat:
+  ttl: 600
+  type: NS
+  values:
+  - ns-1087.awsdns-07.org.
+  - ns-1893.awsdns-44.co.uk.
+  - ns-61.awsdns-07.com.
+  - ns-822.awsdns-38.net.
+cait:
+  ttl: 600
+  type: NS
+  values:
+  - ns-1021.awsdns-63.net.
+  - ns-1096.awsdns-09.org.
+  - ns-1729.awsdns-24.co.uk.
+  - ns-199.awsdns-24.com.
+can-you-get-legal-aid:
+  ttl: 300
+  type: CNAME
+  value: can-you-get-legal-aid.dsd.io.s3-website-eu-west-1.amazonaws.com
+carestandardstribunal:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+charitytdecisions:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+ci-lpa:
+  ttl: 300
+  type: A
+  value: 54.76.188.44
+ci.opg:
+  ttl: 300
+  type: A
+  value: 54.76.9.27
+cicap:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+civil-eligibility-calculator:
+  ttl: 300
+  type: A
+  value: 54.194.99.112
+civilclaims:
+  ttl: 300
+  type: A
+  value: 54.171.91.210
+civilclaimsdemo:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1245.awsdns-27.org.
+  - ns-1901.awsdns-45.co.uk.
+  - ns-214.awsdns-26.com.
+  - ns-519.awsdns-00.net.
+civilclaimsjenkins:
+  ttl: 300
+  type: A
+  value: 81.134.202.29
+civilclaimsstaging:
+  ttl: 300
+  type: A
+  value: 185.40.10.46
+cjg_blog:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+cjsm:
+  ttl: 300
+  type: CNAME
+  value: cjsm.dsd.io.s3-website-eu-west-1.amazonaws.com.
+cla:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1490.awsdns-58.org
+  - ns-1853.awsdns-39.co.uk
+  - ns-659.awsdns-18.net
+  - ns-84.awsdns-10.com
+cla-admin:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-154-59-10.eu-west-1.compute.amazonaws.com
+cla-admin.service:
+  ttl: 300
+  type: A
+  value: 83.151.212.52
+cla-backend:
+  ttl: 60
+  type: CNAME
+  value: backend-integration.cla.dsd.io
+cla-backend-training:
+  ttl: 300
+  type: CNAME
+  value: backend-training.cla.dsd.io
+cla-backend.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+cla-callmeback-training:
+  ttl: 300
+  type: CNAME
+  value: callmeback-training.cla.dsd.io
+cla-callmeback.service:
+  ttl: 300
+  type: A
+  value: 83.151.212.51
+cla-cases.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.53
+cla-docker:
+  ttl: 300
+  type: A
+  value: 54.76.204.83
+cla-frontend:
+  ttl: 60
+  type: CNAME
+  value: frontend-integration.cla.dsd.io
+cla-frontend-training:
+  ttl: 300
+  type: CNAME
+  value: frontend-training.cla.dsd.io
+cla-frontend.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+cla-monitoring.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+cla-public:
+  ttl: 60
+  type: CNAME
+  value: frontend-integration.cla.dsd.io
+cla-public-training:
+  ttl: 300
+  type: CNAME
+  value: public-training.cla.dsd.io
+cla-public.service:
+  ttl: 300
+  type: A
+  value: 83.151.212.50
+cla-registry:
+  ttl: 300
+  type: A
+  value: 52.16.69.126
+cla-training:
+  ttl: 300
+  type: CNAME
+  value: frontend-training.cla.dsd.io
+cla_providers_directory:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+clatest:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1087.awsdns-07.org.
+  - ns-1936.awsdns-50.co.uk.
+  - ns-224.awsdns-28.com.
+  - ns-785.awsdns-34.net.
+cloud-platform:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1392.awsdns-46.org.
+  - ns-1948.awsdns-51.co.uk.
+  - ns-247.awsdns-30.com.
+  - ns-862.awsdns-43.net.
+cmsd:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+core:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1119.awsdns-11.org.
+  - ns-1897.awsdns-45.co.uk.
+  - ns-442.awsdns-55.com.
+  - ns-714.awsdns-25.net.
+core-back.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+core-front.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+correspondence:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1058.awsdns-04.org.
+  - ns-1726.awsdns-23.co.uk.
+  - ns-479.awsdns-59.com.
+  - ns-801.awsdns-36.net.
+correspondence-tool-dev:
+  ttl: 300
+  type: CNAME
+  value: contact-moj-dev.dsd.io
+courtfinder-test:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-229-204-208.eu-west-1.compute.amazonaws.com
+courtfines:
+  ttl: 300
+  type: A
+  value: 62.208.144.80
+cp-pipeline-tests-circle:
+  ttl: 300
+  type: A
+  value: 18.218.229.188
+cp-pipeline-tests-j1:
+  ttl: 300
+  type: CNAME
+  value: cp-pipeline-tests-pn.dsd.io.
+cp-pipeline-tests-j2:
+  ttl: 300
+  type: CNAME
+  value: cp-pipeline-tests-pn.dsd.io
+cp-pipeline-tests-mn:
+  ttl: 300
+  type: A
+  value: 18.219.48.228
+cp-pipeline-tests-pn:
+  ttl: 300
+  type: A
+  value: 18.218.159.144
+cp-pipeline-tests-salt:
+  ttl: 300
+  type: A
+  value: 52.14.215.218
+crimebillingonline:
+  ttl: 60
+  type: NS
+  values:
+  - ns-1078.awsdns-06.org.
+  - ns-1859.awsdns-40.co.uk.
+  - ns-446.awsdns-55.com.
+  - ns-695.awsdns-22.net.
+cs_blog:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+csq3rs4wz5qtcmpg5zqhtu5slbbkcniu._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: csq3rs4wz5qtcmpg5zqhtu5slbbkcniu.dkim.amazonses.com
+ctf:
+  ttl: 300
+  type: CNAME
+  value: ctf.dsd.io.s3-website-eu-west-1.amazonaws.com
+dacp:
+  ttl: 300
+  type: A
+  value: 52.19.133.172
+ddc58e9848e1bda41d8d96549736abdf.service:
+  ttl: 10800
+  type: CNAME
+  value: 2355cbb018adaaabf8e9e3f43fec2bf044e97feb.comodoca.com
+ddc.opg-backoffice-integration:
+  ttl: 300
+  type: A
+  value: 54.194.221.57
+ddc.opg-backoffice-uat:
+  ttl: 300
+  type: A
+  value: 54.77.107.33
+defence-request:
+  type: NS
+  values:
+  - ns-1329.awsdns-38.org.
+  - ns-155.awsdns-19.com.
+  - ns-1949.awsdns-51.co.uk.
+  - ns-542.awsdns-03.net.
+demo1-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo2-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo3-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo4-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo5-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo-adp:
+  ttl: 300
+  type: CNAME
+  value: demoadp.advocatedefencepayments.dsd.io.
+demo-intranet:
+  ttl: 300
+  type: A
+  value: 54.246.235.16
+deployarn.0a37ce83.staging.correspondence-tool:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-tool-staging-0a37c-CrossAccountRole-2620LVA41J1S
+deployarn.0b31c29c.prod.elk:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-prod-0b31c29c-CrossAccountRole-ASOH4DDMJT3E
+deployarn.1c330e35.dev.sensu:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sensu-dev-1c330e35-CrossAccountRole-1X5G00AI846PI
+deployarn.1da82e0c.staging.correspondence-tool:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-tool-staging-1da82-CrossAccountRole-7TWY48VD86DO
+deployarn.2d02064c.staging.opsmanual:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/opsmanual-staging-2d02064c-CrossAccountRole-1SWX39IIUH2UR
+deployarn.4d49bdde.dev.prisoners-api:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/prisoners-api-dev-4d49bdde-CrossAccountRole-157VV62ZMH6D4
+deployarn.6aced870.staging.sensu:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sensu-staging-6aced870-CrossAccountRole-BR7Q70IBMJ4J
+deployarn.7c928508.production.accelerated-claims:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-production-424-CrossAccountRole-8ELG8P1CPKN7
+deployarn.9adbc548.dev.prisoners-api:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/prisoners-api-dev-9adbc548-CrossAccountRole-198LP5E5LSQGM
+deployarn.0017ddc9.dev.adp-stats-pusher:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/adp-stats-pusher-dev-0017ddc9-CrossAccountRole-19DOYEUSRYRMU
+deployarn.28c53915.staging.prisoners-api:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/prisoners-api-staging-28c53915-CrossAccountRole-VZBSTKC05DAU
+deployarn.33c0d65b.dev.docker-registry:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-dev-33c0d65b-CrossAccountRole-1IQDI7HUS9BZA
+deployarn.53f9820a.dev.helloniall:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/helloniall-dev-53f9820a-CrossAccountRole-1PR5OJ3WR8DYC
+deployarn.68ade87f.staging.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-NA8CPBYWBYJZ
+deployarn.1049b7df.staging.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-staging-1049b7-CrossAccountRole-GRHP7C52QR5B
+deployarn.3893f18a.dev.blah:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/blah-dev-cf64985c-CrossAccountRole-1PTB7K989HD8K
+deployarn.97484c08.dev.rot:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU
+deployarn.563646a3.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-115NC9VHVEKIN
+deployarn.active.cwdev.ci:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/ci-cwdev-441d68c3-CrossAccountRole-1IPJ2E30KYLIA
+deployarn.active.cwprod.postcodeinfo:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/postcodeinfo-cwprod-f1199b1c-CrossAccountRole-9N7SRQ7YL01J
+deployarn.active.cwstaging.postcodeinfo:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/postcodeinfo-cwstaging-5f8e37ca-CrossAccountRole-1FMG8UPT6WF1Q
+deployarn.active.demo.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-demo-ba0eaac-CrossAccountRole-D97QSQVYMM9T
+deployarn.active.demo.correspondence-tool:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-tool-demo-13f678c5-CrossAccountRole-1K3JCXY9JR6MT
+deployarn.active.dev.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-dev-c3477c63-CrossAccountRole-1MLS9UADWIMB3
+deployarn.active.dev.adp-stats-pusher:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/adp-stats-pusher-dev-0017ddc9-CrossAccountRole-19DOYEUSRYRMU
+deployarn.active.dev.blah:
+  ttl: 60
+  type: TXT
+  value: None
+deployarn.active.dev.chriswood-deploy:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/chriswood-deploy-dev-40561fe8-CrossAccountRole-1NVVVYIOBGD3U
+deployarn.active.dev.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-dev-31dafc67-CrossAccountRole-1LK7NIQET2YA
+deployarn.active.dev.courtfinder:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/courtfinder-dev-97187eb9-CrossAccountRole-ZOS047VPE89X
+deployarn.active.dev.demo:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/demo-dev-f947d970-CrossAccountRole-NBGJRG18K8YD
+deployarn.active.dev.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-dev-33c0d65b-CrossAccountRole-1IQDI7HUS9BZA
+deployarn.active.dev.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-dev-9123da83-CrossAccountRole-15U7M03UB7ZYQ
+deployarn.active.dev.graphite:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/graphite-dev-a918234f-CrossAccountRole-1R5QGDA4KTGFU
+deployarn.active.dev.helloniall:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/helloniall-dev-683c3e65-CrossAccountRole-PRVW9APKJ33T
+deployarn.active.dev.hubot:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/hubot-dev-c1b50cae-CrossAccountRole-33QFW2Y4G9F2
+deployarn.active.dev.huboto:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/huboto-dev-f6bf14f5-CrossAccountRole-8DOVJ11OKAA0
+deployarn.active.dev.intranet-jenkins:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/intranet-jenkins-dev-CrossAccountRole-TWIMA75Q44MY
+deployarn.active.dev.mattp:
+  ttl: 60
+  type: TXT
+  value: 'False'
+deployarn.active.dev.mps:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/mps-dev-7cdf6cd6-CrossAccountRole-19413BTY22JNK
+deployarn.active.dev.my-project:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/my-project-dev-addff241-CrossAccountRole-HT3QTKUDX2NK
+deployarn.active.dev.myproject:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/myproject-dev-5fd60641-CrossAccountRole-Y33DDZUEPOUW
+deployarn.active.dev.po:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/po-dev-5ecff3b9-CrossAccountRole-1MVPOUUZ4DR04
+deployarn.active.dev.prisoners-api:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/prisoners-api-dev-9adbc548-CrossAccountRole-198LP5E5LSQGM
+deployarn.active.dev.rabbitmq:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/rabbitmq-dev-459e3857-CrossAccountRole-E9X4BS81JAFN
+deployarn.active.dev.riemann:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/riemann-dev-42fe0ed2-CrossAccountRole-220SGN8K4YLH
+deployarn.active.dev.rot:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU
+deployarn.active.dev.sensu:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sensu-dev-1c330e35-CrossAccountRole-1X5G00AI846PI
+deployarn.active.dev.status:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/status-dev-5e7648d9-CrossAccountRole-16ZHLNT1IYNZ8
+deployarn.active.dev.tax-tribunals-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-downloader-dev-0690-CrossAccountRole-1T5WLVE32WS50
+deployarn.active.dev.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-0931d739-CrossAccountRole-16J2JQTXX5BIY
+deployarn.active.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-115NC9VHVEKIN
+deployarn.active.dev.test:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/test-dev-aa1f94c8-CrossAccountRole-1661CLJFSHL22
+deployarn.active.dev.test-anchor:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/test-anchor-dev-e8c7ec60-CrossAccountRole-184ZW28M6RING
+deployarn.active.dev.test-sensuplugins:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/test-sensuplugins-dev-4e91c9ad-CrossAccountRole-FHP8MU2GBBXF
+deployarn.active.dev.test-seq:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/test-seq-dev-92392eac-CrossAccountRole-1NZ6YTSK4RVT6
+deployarn.active.dev.tsung:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tsung-dev-28cb76ef-CrossAccountRole-MQGP3XI35FCF
+deployarn.active.dev.vault:
+  ttl: 60
+  type: TXT
+  value: 'False'
+deployarn.active.dev.vis:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vis-dev-f3b14a61-CrossAccountRole-1NKTWEPROFTJM
+deployarn.active.dev.zero:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/zero-dev-5eb371e5-CrossAccountRole-1ZGFKHJ28WLH
+deployarn.active.experimental.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-experimental-3341fb85-CrossAccountRole-1GIT2DB1SXO3L
+deployarn.active.experimental.sensu:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sensu-experimental-a187a52b-CrossAccountRole-1K3DD8XJBKU98
+deployarn.active.newprod.ci:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/ci-newprod-1973491d-CrossAccountRole-FEY1ZV8UEB4W
+deployarn.active.newprod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-newprod-b1ac058e-CrossAccountRole-1U81JQ26W2GL8
+deployarn.active.performance.graphite:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/graphite-performance-56e2c7bc-CrossAccountRole-W5219CXL7G2O
+deployarn.active.prod1.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prod1-7f97d29b-CrossAccountRole-T9EHJS1H4TWL
+deployarn.active.prod.ci:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/ci-prod-d14b3969-CrossAccountRole-YRWUMSKNLFAG
+deployarn.active.prod.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-prod-8653cd0-CrossAccountRole-1STF5ZMWTCS14
+deployarn.active.prod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-prod-768454e0-CrossAccountRole-1Y9KUI5NRMLI
+deployarn.active.prod.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-prod-6591eacf-CrossAccountRole-1V5OJXWLFEXTG
+deployarn.active.prod.graphite:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/graphite-prod-08e50510-CrossAccountRole-1F3JZI6JC0XYX
+deployarn.active.prod.moj-product-dashboard:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/moj-product-dashboard-prod-360e31-CrossAccountRole-VPW3FE8SHPGI
+deployarn.active.prod.mps:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/mps-prod-2015000b-CrossAccountRole-V2UT1GHVC3RL
+deployarn.active.prod.opsmanual:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/opsmanual-prod-d70f9032-CrossAccountRole-1GNPIR4LRRSYB
+deployarn.active.prod.po:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/po-prod-553a27f6-CrossAccountRole-BCXALGQKKIWA
+deployarn.active.prod.pvb:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/pvb-prod-ec347a26-CrossAccountRole-1B2N2N0Z22GJE
+deployarn.active.prod.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX
+deployarn.active.prod.status:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG
+deployarn.active.prod.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX
+deployarn.active.prod.vis:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vis-prod-92ac1d7b-CrossAccountRole-1QNJEEF7FTQ6N
+deployarn.active.prodpara.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prodpara-2f97e85c-CrossAccountRole-NDY5CG3HA6KW
+deployarn.active.production.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-production-424-CrossAccountRole-8ELG8P1CPKN7
+deployarn.active.staging-webops2.graphite:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/graphite-staging-webops2-65dd6a4b-CrossAccountRole-FX2CN20N2T5J
+deployarn.active.staging.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-staging-bf8677-CrossAccountRole-HO34YH5ZZYJK
+deployarn.active.staging.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-staging-7121-CrossAccountRole-1G1ETKLCKKTV5
+deployarn.active.staging.courtfinder:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/courtfinder-staging-dc5f8e4d-CrossAccountRole-6BX6WNAI0HKC
+deployarn.active.staging.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-staging-be1d76ab-CrossAccountRole-ED7XSEJU1VPG
+deployarn.active.staging.graphite:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/graphite-staging-aee3683e-CrossAccountRole-48O3A3QEG059
+deployarn.active.staging.moj-product-dashboard:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/moj-product-dashboard-staging-dff-CrossAccountRole-OQVFUENUWWWG
+deployarn.active.staging.mps:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/mps-staging-3149ba1f-CrossAccountRole-F7T9R50FW3DL
+deployarn.active.staging.opsmanual:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/opsmanual-staging-2d02064c-CrossAccountRole-1SWX39IIUH2UR
+deployarn.active.staging.po:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/po-staging-77c25fb8-CrossAccountRole-1NEVI39K1IUUG
+deployarn.active.staging.postcodeinfo:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/postcodeinfo-staging-6fd99f86-CrossAccountRole-EZHVSMZIOI6S
+deployarn.active.staging.prisoners-api:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/prisoners-api-staging-28c53915-CrossAccountRole-VZBSTKC05DAU
+deployarn.active.staging.pvb:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/pvb-staging-e8a8e0a4-CrossAccountRole-BF0F04ZRHV7P
+deployarn.active.staging.pvb2:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/pvb2-staging-8ab81d9c-CrossAccountRole-1PZ8YJZPJ6I9W
+deployarn.active.staging.sensu:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sensu-staging-6aced870-CrossAccountRole-BR7Q70IBMJ4J
+deployarn.active.staging.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY
+deployarn.active.staging.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-staging-1049b7-CrossAccountRole-GRHP7C52QR5B
+deployarn.active.staging.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-NA8CPBYWBYJZ
+deployarn.active.staging.tax-tribunals-wsproxy:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-wsproxy-staging-353-CrossAccountRole-6IIPSV8BG369
+deployarn.active.staging.vis:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vis-staging-6baf3383-CrossAccountRole-1RUFDC5RU4YJ
+deployarn.active.test.sensu:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sensu-test-84859d8d-CrossAccountRole-19SMNLQBKMP0V
+deployarn.ba0eaac5.demo.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-demo-ba0eaac-CrossAccountRole-D97QSQVYMM9T
+deployarn.bf867755e.staging.accelerated-claims:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-staging-bf8677-CrossAccountRole-HO34YH5ZZYJK
+deployarn.blue.staging.opsmanual:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/opsmanual-staging-4c6b4650-CrossAccountRole-Y31TBEM89Q9S
+deployarn.c3477c63.dev.accelerated-claims:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-dev-c3477c63-CrossAccountRole-1MLS9UADWIMB3
+deployarn.ca4070c2.prod.status:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG
+deployarn.dev2.dev.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-dev-31dafc67-CrossAccountRole-1LK7NIQET2YA
+deployarn.dev3.dev.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-dev-bf05067d-CrossAccountRole-1GF06VJY5NWU0
+deployarn.dev100.dev.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-dev-9123da83-CrossAccountRole-15U7M03UB7ZYQ
+deployarn.dev.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-71DT5GRG6VM0
+deployarn.green.prod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-prod-768454e0-CrossAccountRole-1Y9KUI5NRMLI
+deployarn.ltsampros2.staging.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY
+deployarn.new2.prod.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX
+deployarn.newdev3.dev.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-0931d739-CrossAccountRole-16J2JQTXX5BIY
+deployarn.omg1.dev.vault:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vault-dev-cacd90f1-CrossAccountRole-OMJN8J9MSSO1
+deployarn.prod1.prod.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX
+deployarn.prod2.prod.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-prod-eaf8d77-CrossAccountRole-3NFKHSM7O688
+deployarn.prod3.prod.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-prod-8653cd0-CrossAccountRole-1STF5ZMWTCS14
+deployarn.prod5x.prod.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-prod-6591eacf-CrossAccountRole-1V5OJXWLFEXTG
+deployarn.staging2.staging.correspondence-staff:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/correspondence-staff-staging-7121-CrossAccountRole-1G1ETKLCKKTV5
+deployarn.staging2.staging.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-1VXPGAW8XQRUE
+deployarn.staging5x.staging.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-staging-be1d76ab-CrossAccountRole-ED7XSEJU1VPG
+deployarn.standby.prod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: None
+deployarn.test2.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-U53ZPYJ237QC
+deployarn.test.dev.blah:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/blah-dev-3893f18a-CrossAccountRole-17ZLYHBB01DV7
+deployarn.test.dev.blah.dsd.io:
+  ttl: 60
+  type: TXT
+  value: None
+deployarn.trusty.staging.opsmanual:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/opsmanual-staging-f366db85-CrossAccountRole-16C2KSY6LO079
+deployarn.twocontainers.dev.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-3fc8a252-CrossAccountRole-19VQZQDIYLZNJ
+dev-adp:
+  ttl: 60
+  type: CNAME
+  value: dev.advocatedefencepayments.dsd.io
+dev-lfc:
+  ttl: 300
+  type: CNAME
+  value: dev.laafeecalculator.dsd.io.
+dev-lpa.service:
+  ttl: 300
+  type: A
+  value: 54.77.92.20
+dev.internal-router:
+  ttl: 60
+  type: CNAME
+  value: internal-elbinter-z5i2nme4sf0s-1252863027.eu-west-1.elb.amazonaws.com
+dev.mps:
+  ttl: 300
+  type: CNAME
+  value: mps-prototype.herokuapp.com
+dev.nomis-api-access:
+  ttl: 1500
+  type: NS
+  values:
+  - ns-1354.awsdns-41.org.
+  - ns-1627.awsdns-11.co.uk.
+  - ns-206.awsdns-25.com.
+  - ns-654.awsdns-17.net.
+dev.sensu-service:
+  ttl: 17800
+  type: NS
+  values:
+  - ns-1244.awsdns-27.org.
+  - ns-2045.awsdns-63.co.uk.
+  - ns-498.awsdns-62.com.
+  - ns-888.awsdns-47.net.
+digideps:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1144.awsdns-15.org
+  - ns-1683.awsdns-18.co.uk
+  - ns-357.awsdns-44.com
+  - ns-910.awsdns-49.net
+digideps.service:
+  ttl: 300
+  type: A
+  value: 54.194.218.14
+digital-justice:
+  ttl: 300
+  type: CNAME
+  value: shielded-retreat-3162.herokuapp.com
+disaster-adp:
+  ttl: 300
+  type: CNAME
+  value: disaster.advocatedefencepayments.dsd.io
+dockerails:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1163.awsdns-17.org.
+  - ns-1590.awsdns-06.co.uk.
+  - ns-421.awsdns-52.com.
+  - ns-842.awsdns-41.net.
+dockerails-dev:
+  ttl: 300
+  type: CNAME
+  value: elb-dev-623140939.eu-west-1.elb.amazonaws.com.
+dsd_blog:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+dutq2xwgepvjh4rjdqysfw73kmkpdyjz._domainkey.ppo:
+  ttl: 1800
+  type: CNAME
+  value: dutq2xwgepvjh4rjdqysfw73kmkpdyjz.dkim.amazonses.com
+e6211db0073064ade016ad4558767968:
+  ttl: 60
+  type: CNAME
+  value: www.digital.justice.gov.uk.
+e49894c2ca4a7bd0150643fb2103f347.rattic.service:
+  ttl: 10800
+  type: CNAME
+  value: 13dc82321c803e2a4a5907efe7c1bab93b80a1af.comodoca.com.
+eatd:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+ed364d5103ee1b92862a698dfec123df.staging-lpa.service:
+  ttl: 10800
+  type: CNAME
+  value: f9bd0bf5406d2d6b4a2bf46094ff11ef1bcea98d.comodoca.com.
+ed364d5103ee1b92862a698dfec123df.www.staging-lpa.service:
+  ttl: 10800
+  type: CNAME
+  value: f9bd0bf5406d2d6b4a2bf46094ff11ef1bcea98d.comodoca.com.
+elasticsearch.civilclaimsstaging:
+  ttl: 300
+  type: CNAME
+  value: monitoring.civilclaimsstaging.dsd.io.
+elasticsearch.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+elasticsearch.demo.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.demo.civilclaims.dsd.io
+elasticsearch.opg-backoffice-qa:
+  ttl: 300
+  type: A
+  value: 54.171.58.225
+elasticsearch.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+elasticsearch.prod.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.prod.civilclaims.dsd.io
+elasticsearch.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io.
+elasticsearch.stag-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+elasticsearch.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+em.email.digideps.service:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
+email.digideps.service:
+  ttl: 300
+  type: TXT
+  value: v=spf1 include:sendgrid.net ~all
+email.gitlab:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
+email.service:
+  ttl: 300
+  type: CNAME
+  value: u2748441.wl192.sendgrid.net
+email.staging:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
+employmentappeals:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+es-hmcts:
+  ttl: 300
+  type: CNAME
+  value: search-elasticseach-hmcts-z5qgdijlc4irggzljjowt2xwby.eu-west-1.es.amazonaws.com
+et:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1373.awsdns-43.org
+  - ns-1645.awsdns-13.co.uk
+  - ns-459.awsdns-57.com
+  - ns-731.awsdns-27.net
+et.dashboard:
+  ttl: 300
+  type: CNAME
+  value: et.dashboard.dsd.io.s3-website-eu-west-1.amazonaws.com
+fala:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1159.awsdns-16.org
+  - ns-126.awsdns-15.com
+  - ns-1885.awsdns-43.co.uk
+  - ns-932.awsdns-52.net
+familyassessment.dsd:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1293.awsdns-33.org
+  - ns-1735.awsdns-24.co.uk
+  - ns-458.awsdns-57.com
+  - ns-571.awsdns-07.net
+familymediators:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1021.awsdns-63.net.
+  - ns-1399.awsdns-46.org.
+  - ns-1538.awsdns-00.co.uk.
+  - ns-213.awsdns-26.com.
+familymediatorsapi:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1106.awsdns-10.org.
+  - ns-2028.awsdns-61.co.uk.
+  - ns-205.awsdns-25.com.
+  - ns-794.awsdns-35.net.
+fatt:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+feeremissions:
+  ttl: 86400
+  type: NS
+  values:
+  - ns-1263.awsdns-29.org.
+  - ns-1921.awsdns-48.co.uk.
+  - ns-70.awsdns-08.com.
+  - ns-847.awsdns-41.net.
+ftiacdailycourtlist:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+ftp:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+fyibmzgtfcszcfbnwmcysnrb6hjeq23s._domainkey.opg:
+  ttl: 1800
+  type: CNAME
+  value: fyibmzgtfcszcfbnwmcysnrb6hjeq23s.dkim.amazonses.com
+gamma-adp:
+  ttl: 300
+  type: CNAME
+  value: gamma.advocatedefencepayments.dsd.io
+git:
+  ttl: 300
+  type: A
+  value: 172.22.8.3
+gitlab:
+- ttl: 300
+  type: A
+  value: 172.22.5.91
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:sendgrid.net ~all
+gl_summit:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+grafana.civilclaimsstaging:
+  ttl: 300
+  type: CNAME
+  value: monitoring.civilclaimsstaging.dsd.io
+grafana.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+grafana.demo.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.demo.civilclaims.dsd.io.
+grafana.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+grafana.prod.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.prod.civilclaims.dsd.io
+grafana.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io.
+grafana.stag-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+grafana.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+graphite.civilclaimsstaging:
+  ttl: 300
+  type: CNAME
+  value: monitoring.civilclaimsstaging.dsd.io
+graphite.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+graphite.demo.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.demo.civilclaims.dsd.io
+graphite.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+graphite.prod.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.prod.civilclaims.dsd.io
+graphite.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io.
+graphite.stag-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+graphite.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+helpwithcourtfees:
+- ttl: 300
+  type: NS
+  values:
+  - ns-1474.awsdns-56.org.
+  - ns-1733.awsdns-24.co.uk.
+  - ns-293.awsdns-36.com.
+  - ns-518.awsdns-00.net.
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:sendgrid.net ~all
+hillsborough:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+hmpps:
+  ttl: 300
+  type: NS
+  values:
+  - ns1-02.azure-dns.com.
+  - ns2-02.azure-dns.net.
+  - ns3-02.azure-dns.org.
+  - ns4-02.azure-dns.info.
+holding.civilclaimsstaging:
+  ttl: 300
+  type: A
+  value: 54.76.161.19
+hwf:
+- ttl: 300
+  type: NS
+  values:
+  - ns-1015.awsdns-62.net
+  - ns-13.awsdns-01.com.
+  - ns-1346.awsdns-40.org.
+  - ns-1940.awsdns-50.co.uk.
+  - ns-658.awsdns-18.net.
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:sendgrid.net ~all
+immigrationservicestribunal:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+incidentresponse:
+  ttl: 300
+  type: CNAME
+  value: nagano-1094.herokussl.com
+informationtribunal:
+  ttl: 300
+  type: A
+  value: 52.30.196.9
+int-prisonvisits:
+  ttl: 30
+  type: A
+  value: 172.22.16.3
+integration:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1142.awsdns-14.org
+  - ns-189.awsdns-23.com
+  - ns-1988.awsdns-56.co.uk
+  - ns-868.awsdns-44.net
+intra:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1351.awsdns-40.org
+  - ns-143.awsdns-17.com
+  - ns-1952.awsdns-52.co.uk
+  - ns-537.awsdns-03.net
+intranet:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1100.awsdns-09.org.
+  - ns-1939.awsdns-50.co.uk.
+  - ns-399.awsdns-49.com.
+  - ns-517.awsdns-00.net.
+is:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1433.awsdns-51.org.
+  - ns-1723.awsdns-23.co.uk.
+  - ns-306.awsdns-38.com.
+  - ns-554.awsdns-05.net.
+is-prod:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1373.awsdns-43.org.
+  - ns-1646.awsdns-13.co.uk.
+  - ns-473.awsdns-59.com.
+  - ns-686.awsdns-21.net.
+jenkins:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-212-120.eu-west-1.compute.amazonaws.com
+jenkins-alpha:
+  ttl: 300
+  type: A
+  value: 172.22.6.53
+jenkins-next:
+  type: CNAME
+  value: ec2-54-194-212-120.eu-west-1.compute.amazonaws.com
+jenkins-old:
+  ttl: 300
+  type: A
+  value: 54.246.250.229
+jenkins-ubuntu:
+  ttl: 300
+  type: A
+  value: 54.194.38.138
+jenkins.opg:
+  ttl: 60
+  type: A
+  value: 54.229.206.68
+jonathan-wood:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+jurorsummons:
+  ttl: 300
+  type: A
+  value: 52.73.202.113
+jurysummons:
+  ttl: 60
+  type: NS
+  values:
+  - ns-1054.awsdns-03.org.
+  - ns-1832.awsdns-37.co.uk.
+  - ns-397.awsdns-49.com.
+  - ns-687.awsdns-21.net.
+justice-intranet:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1328.awsdns-38.org.
+  - ns-1926.awsdns-48.co.uk.
+  - ns-60.awsdns-07.com.
+  - ns-662.awsdns-18.net.
+kibana:
+  ttl: 300
+  type: CNAME
+  value: mon.dsd.io
+kibana-dev.service:
+  ttl: 60
+  type: CNAME
+  value: maintain.dsd.io
+kibana.civilclaimsstaging:
+  ttl: 300
+  type: CNAME
+  value: monitoring.civilclaimsstaging.dsd.io.
+kibana.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+kibana.demo.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.demo.civilclaims.dsd.io
+kibana.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+kibana.prod.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.prod.civilclaims.dsd.io
+kibana.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io.
+kibana.stag-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+kibana.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+knowthething:
+  ttl: 60
+  type: CNAME
+  value: knowthething.prod.wp.dsd.io
+ktt:
+  ttl: 300
+  type: CNAME
+  value: knowthething.dsd.io
+kube:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1187.awsdns-20.org.
+  - ns-1636.awsdns-12.co.uk.
+  - ns-453.awsdns-56.com.
+  - ns-583.awsdns-08.net.
+kwhainhpqlxqd3rncd7msr22adgpmc4e._domainkey.courtfinder:
+  ttl: 1800
+  type: CNAME
+  value: kwhainhpqlxqd3rncd7msr22adgpmc4e.dkim.amazonses.com
+laa-rota:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1259.awsdns-29.org.
+  - ns-1650.awsdns-14.co.uk.
+  - ns-487.awsdns-60.com.
+  - ns-804.awsdns-36.net.
+laafeecalculator:
+  ttl: 300
+  type: NS
+  values:
+  - ns-104.awsdns-13.com.
+  - ns-1147.awsdns-15.org.
+  - ns-1794.awsdns-32.co.uk.
+  - ns-620.awsdns-13.net.
+laalaa:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1455.awsdns-53.org
+  - ns-1610.awsdns-09.co.uk
+  - ns-245.awsdns-30.com
+  - ns-820.awsdns-38.net
+landstribunal:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+latest.sirius-dev:
+  ttl: 300
+  type: A
+  value: 54.76.128.160
+local:
+  ttl: 300
+  type: A
+  value: 127.0.0.1
+lpadown:
+  ttl: 60
+  type: A
+  value: 54.72.5.215
+lpawiki:
+  ttl: 300
+  type: A
+  value: 54.229.49.163
+maildrop:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-72-59-165.eu-west-1.compute.amazonaws.com
+maintenance:
+  ttl: 300
+  type: A
+  value: 54.93.44.205
+maintenance.staging.et:
+  ttl: 300
+  type: A
+  value: 51.140.8.203
+makeaplea:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1282.awsdns-32.org
+  - ns-1588.awsdns-06.co.uk
+  - ns-204.awsdns-25.com
+  - ns-995.awsdns-60.net
+mantis_lpa:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+mapit.service:
+  ttl: 300
+  type: CNAME
+  value: mapit-554887916.eu-west-1.elb.amazonaws.com
+master.active.dev.es:
+  ttl: 60
+  type: A
+  value: 54.154.200.180
+master.active.dev.hello:
+  ttl: 60
+  type: A
+  value: 52.18.88.140
+master.active.dev.hello-flask:
+  ttl: 60
+  type: A
+  value: 52.18.194.28
+master.active.dev.sensu:
+  ttl: 60
+  type: A
+  value: 52.18.143.82
+master.active.prod.elk:
+  ttl: 60
+  type: A
+  value: 52.18.40.29
+master.active.prod.graphite:
+  ttl: 60
+  type: A
+  value: 52.18.101.29
+master.active.staging.elk:
+  ttl: 60
+  type: A
+  value: 52.18.21.118
+master.active.staging.graphite:
+  ttl: 60
+  type: A
+  value: 52.17.24.88
+master.demo.civilclaims:
+  ttl: 300
+  type: A
+  value: 54.77.7.5
+master.dev.graphite:
+  ttl: 60
+  type: A
+  value: 54.77.16.159
+master.mmb123.civilclaims:
+  ttl: 600
+  type: A
+  value: 10.1.1.1
+master.production.civilclaims:
+  ttl: 300
+  type: A
+  value: 185.40.8.197
+master.staging.civilclaims:
+  ttl: 300
+  type: A
+  value: 185.40.10.46
+master.staging.graphite:
+  ttl: 60
+  type: A
+  value: 52.17.213.65
+mediation-content:
+  ttl: 300
+  type: CNAME
+  value: mediation-content.dsd.io.herokudns.com
+membrane-sirius.service:
+  ttl: 300
+  type: CNAME
+  value: sirius.service.dsd.io
+mojintranet:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1471.awsdns-55.org.
+  - ns-1618.awsdns-10.co.uk.
+  - ns-371.awsdns-46.com.
+  - ns-666.awsdns-19.net.
+mon:
+  ttl: 300
+  type: A
+  value: 54.194.12.181
+moneytoprisoners:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1101.awsdns-09.org.
+  - ns-1713.awsdns-22.co.uk.
+  - ns-481.awsdns-60.com.
+  - ns-825.awsdns-39.net.
+monitoring.civilclaimsstaging:
+  ttl: 300
+  type: A
+  value: 185.40.10.46
+monitoring.demo.civilclaims:
+  ttl: 300
+  type: A
+  value: 54.171.90.246
+monitoring.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+monitoring.prod.civilclaims:
+  ttl: 300
+  type: A
+  value: 185.40.8.197
+monitoring.scratch-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.10.45
+monitoring.staging-backoffice:
+  ttl: 300
+  type: A
+  value: 37.26.91.54
+monitoring.staging-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+niall:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1092.awsdns-08.org.
+  - ns-1710.awsdns-21.co.uk.
+  - ns-619.awsdns-13.net.
+  - ns-78.awsdns-09.com.
+noms:
+  ttl: 300
+  type: NS
+  values:
+  - ns1-03.azure-dns.com.
+  - ns2-03.azure-dns.net.
+  - ns3-03.azure-dns.org.
+  - ns4-03.azure-dns.info.
+o1.em.email.digideps.service:
+  ttl: 300
+  type: A
+  value: 198.21.4.244
+o1.email.gitlab:
+  ttl: 300
+  type: A
+  value: 198.21.4.244
+one3one:
+  ttl: 300
+  type: CNAME
+  value: one3one.dsd.io.s3-website-eu-west-1.amazonaws.com.
+openjustice:
+  ttl: 300
+  type: CNAME
+  value: ec2-34-248-250-65.eu-west-1.compute.amazonaws.com
+opg:
+- ttl: 300
+  type: A
+  value: 54.73.63.103
+- ttl: 300
+  type: NS
+  values:
+  - ns-1379.awsdns-44.org
+  - ns-1970.awsdns-54.co.uk
+  - ns-660.awsdns-18.net
+  - ns-75.awsdns-09.com
+opg-backoffice-ci:
+  ttl: 300
+  type: A
+  value: 54.77.190.125
+opg-backoffice-dev-jenkins:
+  ttl: 300
+  type: A
+  value: 54.171.121.42
+opg-backoffice-dev-jenkins-build:
+  ttl: 300
+  type: A
+  value: 54.171.153.71
+opg-backoffice-dev-jenkins-deploy:
+  ttl: 300
+  type: A
+  value: 54.76.55.169
+opg-backoffice-integration:
+  ttl: 300
+  type: A
+  value: 54.194.221.57
+opg-backoffice-jenkins:
+  ttl: 300
+  type: A
+  value: 54.77.174.13
+opg-backoffice-qa:
+  ttl: 300
+  type: A
+  value: 54.171.58.225
+opg-backoffice-review:
+  ttl: 300
+  type: A
+  value: 54.171.58.225
+opg-backoffice-scratch:
+  ttl: 300
+  type: A
+  value: 54.171.198.218
+opg-backoffice-snapshot:
+  ttl: 300
+  type: A
+  value: 54.77.190.125
+opg-backoffice-training:
+  ttl: 300
+  type: A
+  value: 54.72.135.104
+opg-backoffice-uat:
+  ttl: 300
+  type: A
+  value: 54.77.107.133
+opg_blog:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+opgbackoffice:
+  ttl: 300
+  type: A
+  value: 54.72.134.170
+osscsc:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+paul:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1249.awsdns-28.org.
+  - ns-1963.awsdns-53.co.uk.
+  - ns-212.awsdns-26.com.
+  - ns-579.awsdns-08.net.
+people-finder:
+  ttl: 300
+  type: CNAME
+  value: peoplefinder.service.gov.uk
+peoplefinder:
+  ttl: 300
+  type: CNAME
+  value: peoplefinder.service.gov.uk
+pf:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1113.awsdns-11.org
+  - ns-1800.awsdns-33.co.uk
+  - ns-451.awsdns-56.com
+  - ns-692.awsdns-22.net
+pf-demo:
+  ttl: 60
+  type: CNAME
+  value: demo.pf.dsd.io.
+pf-dev:
+  ttl: 60
+  type: CNAME
+  value: dev.pf.dsd.io
+pf-staging:
+  ttl: 60
+  type: CNAME
+  value: staging.pf.dsd.io
+pf-staging123:
+  ttl: 60
+  type: CNAME
+  value: pf-staging-rails-1310589295.eu-west-1.elb.amazonaws.com
+pingdom.service:
+  ttl: 300
+  type: CNAME
+  value: stats.pingdom.com
+platforms:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1273.awsdns-31.org
+  - ns-1988.awsdns-56.co.uk
+  - ns-382.awsdns-47.com
+  - ns-918.awsdns-50.net
+platforms-training:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1263.awsdns-29.org
+  - ns-1767.awsdns-28.co.uk
+  - ns-358.awsdns-44.com
+  - ns-733.awsdns-27.net
+pleaonline:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1018.awsdns-63.net.
+  - ns-111.awsdns-13.com.
+  - ns-1184.awsdns-20.org.
+  - ns-1887.awsdns-43.co.uk.
+postcode_lookup:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+ppo:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+pq:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1028.awsdns-00.org
+  - ns-199.awsdns-24.com
+  - ns-2036.awsdns-62.co.uk
+  - ns-847.awsdns-41.net
+prad:
+  ttl: 300
+  type: A
+  value: 52.19.133.172
+primaryhealthlistsdecisions:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+processmaker.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+prod.nomis-api-access:
+  ttl: 1500
+  type: NS
+  values:
+  - ns-1171.awsdns-18.org.
+  - ns-1794.awsdns-32.co.uk.
+  - ns-302.awsdns-37.com.
+  - ns-906.awsdns-49.net.
+production29:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-24-225.eu-west-1.compute.amazonaws.com
+production-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.8.196
+providercalc:
+  ttl: 300
+  type: A
+  value: 52.17.13.3
+pub:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1375.awsdns-43.org.
+  - ns-1928.awsdns-49.co.uk.
+  - ns-215.awsdns-26.com.
+  - ns-923.awsdns-51.net.
+pvb:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1123.awsdns-12.org
+  - ns-2043.awsdns-63.co.uk
+  - ns-900.awsdns-48.net
+  - ns-97.awsdns-12.com
+qv5qafpkf3ojddzw7222ktvoqmjckxzs._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: qv5qafpkf3ojddzw7222ktvoqmjckxzs.dkim.amazonses.com
+rattic.service:
+  ttl: 300
+  type: A
+  value: 172.22.6.47
+repo0:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-103-46.eu-west-1.compute.amazonaws.com
+repo1:
+  ttl: 300
+  type: A
+  value: 54.194.52.110
+rot-frontend-dev:
+  ttl: 300
+  type: A
+  value: 52.18.154.179
+s1._domainkey.service:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u2748441.wl192.sendgrid.net
+s2._domainkey.service:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u2748441.wl192.sendgrid.net
+scratch-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.10.45
+scratch-v1-lpa.service:
+  ttl: 300
+  type: A
+  value: 83.151.219.74
+scs:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1527.awsdns-62.org
+  - ns-1731.awsdns-24.co.uk
+  - ns-368.awsdns-46.com
+  - ns-615.awsdns-12.net
+scs-performance:
+  ttl: 300
+  type: CNAME
+  value: scs-performance.herokuapp.com
+scs-staging:
+  ttl: 300
+  type: CNAME
+  value: scs-staging-rails-1809791007.eu-west-1.elb.amazonaws.com
+scs.service:
+  ttl: 300
+  type: CNAME
+  value: scs-prod-rails-1856894970.eu-west-1.elb.amazonaws.com.
+search-noms-api:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
+search.noms:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
+sensu-service:
+  ttl: 78000
+  type: NS
+  values:
+  - ns-1387.awsdns-45.org.
+  - ns-1631.awsdns-11.co.uk.
+  - ns-3.awsdns-00.com.
+  - ns-828.awsdns-39.net.
+sensu.civilclaimsstaging:
+  ttl: 300
+  type: CNAME
+  value: monitoring.civilclaimsstaging.dsd.io.
+sensu.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+sensu.demo.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.demo.civilclaims.dsd.io.
+sensu.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+sensu.prod.civilclaims:
+  ttl: 300
+  type: CNAME
+  value: monitoring.prod.civilclaims.dsd.io
+sensu.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io.
+sensu.stag-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+sentry:
+  ttl: 300
+  type: CNAME
+  value: mon.dsd.io
+sentry.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+sentry.prod-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.prod-lpa.dsd.io
+sentry.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io
+sentry.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+service-mapper:
+  ttl: 300
+  type: CNAME
+  value: moj-archipelago.herokuapp.com.
+servicedeskblog:
+  ttl: 300
+  type: A
+  values:
+  - 192.30.252.153
+  - 192.30.252.154
+siaacd:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+signon:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1322.awsdns-37.org.
+  - ns-1851.awsdns-39.co.uk.
+  - ns-547.awsdns-04.net.
+  - ns-59.awsdns-07.com.
+sirius.service:
+  ttl: 300
+  type: A
+  value: 37.26.91.54
+smtpapi._domainkey:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.em.email.digideps.service:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email.digideps.service:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email.gitlab:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email.staging:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.gitlab:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+sscsvp:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+stack.0a0e49a5.vault-dev:
+  ttl: 60
+  type: TXT
+  value: 0a0e49a5
+stack.0a37ce83.correspondence-tool-staging:
+  ttl: 60
+  type: TXT
+  value: 0a37ce83
+stack.0a418344.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 0a418344
+stack.0b31c29c.elk-prod:
+  ttl: 300
+  type: TXT
+  value: 0b31c29c
+stack.0c2e2de6.ci-prod:
+  ttl: 60
+  type: TXT
+  value: 0c2e2de6
+stack.0c26f862.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: 0c26f862
+stack.0f20a191.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 0f20a191
+stack.00ff730a.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 00ff730a
+stack.1a9a02b8.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 1a9a02b8
+stack.1c330e35.sensu-dev:
+  ttl: 60
+  type: TXT
+  value: 1c330e35
+stack.1d4fb0c1.correspondence-public-demo:
+  ttl: 60
+  type: TXT
+  value: 1d4fb0c1
+stack.1da82e0c.correspondence-tool-staging:
+  ttl: 60
+  type: TXT
+  value: 1da82e0c
+stack.01e0ad05.mps-test:
+  ttl: 60
+  type: TXT
+  value: 01e0ad05
+stack.2bf5a5cf.sensu-dev:
+  ttl: 60
+  type: TXT
+  value: 2bf5a5cf
+stack.2d02064c.opsmanual-staging:
+  ttl: 60
+  type: TXT
+  value: 2d02064c
+stack.3e30b266.mps-test:
+  ttl: 60
+  type: TXT
+  value: 3e30b266
+stack.3e929528.vis-prod:
+  ttl: 60
+  type: TXT
+  value: 3e929528
+stack.4d49bdde.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: 4d49bdde
+stack.4ee65780.prisoners-api-staging:
+  ttl: 60
+  type: TXT
+  value: 4ee65780
+stack.5b0fddaa.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 5b0fddaa
+stack.5b70569c.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 5b70569c
+stack.5f81f0d0.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 5f81f0d0
+stack.6c57c14e.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 6c57c14e
+stack.6e1faf03.ci-test:
+  ttl: 60
+  type: TXT
+  value: 6e1faf03
+stack.7ae13f57.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 7ae13f57
+stack.7bacd908.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 7bacd908
+stack.7c928508.accelerated-claims-production:
+  ttl: 60
+  type: TXT
+  value: 7c928508
+stack.7d726426.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 7d726426
+stack.7f93f130.correspondence-tool-staging:
+  ttl: 60
+  type: TXT
+  value: 7f93f130
+stack.8cbff981.correspondence-public-demo:
+  ttl: 60
+  type: TXT
+  value: 8cbff981
+stack.9adbc548.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: 9adbc548
+stack.13f678c5.correspondence-tool-demo:
+  ttl: 60
+  type: TXT
+  value: 13f678c5
+stack.18d91f1f.ci-test:
+  ttl: 60
+  type: TXT
+  value: 18d91f1f
+stack.26fe1dea.prisoners-api-staging:
+  ttl: 60
+  type: TXT
+  value: 26fe1dea
+stack.28c53915.prisoners-api-staging:
+  ttl: 60
+  type: TXT
+  value: 28c53915
+stack.33c0d65b.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: 33c0d65b
+stack.43e1b4dc.sentry-test:
+  ttl: 60
+  type: TXT
+  value: 43e1b4dc
+stack.44eb8068.correspondence-public-demo:
+  ttl: 60
+  type: TXT
+  value: 44eb8068
+stack.53f6073e.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 53f6073e
+stack.53f9820a.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 53f9820a
+stack.68ade87f.tax-tribunals-uploader-downloader-staging:
+  ttl: 60
+  type: TXT
+  value: 68ade87f
+stack.94f88ee6.ci-staging:
+  ttl: 60
+  type: TXT
+  value: 94f88ee6
+stack.135f87ef.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 135f87ef
+stack.147a7d53.mps-test:
+  ttl: 60
+  type: TXT
+  value: 147a7d53
+stack.155ba466.correspondence-staff-demo:
+  ttl: 60
+  type: TXT
+  value: 155ba466
+stack.178ec2b5.mps-staging:
+  ttl: 60
+  type: TXT
+  value: 178ec2b5
+stack.0232f7eb.correspondence-staff-demo:
+  ttl: 60
+  type: TXT
+  value: 0232f7eb
+stack.0724d8de.prisoners-api-staging:
+  ttl: 60
+  type: TXT
+  value: 0724d8de
+stack.739fe526.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: 739fe526
+stack.910a5789.courtfinder-dev:
+  ttl: 60
+  type: TXT
+  value: 910a5789
+stack.929a2db8.ci-test:
+  ttl: 60
+  type: TXT
+  value: 929a2db8
+stack.955f2252.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 955f2252
+stack.1049b7df.tax-tribunals-fees-staging:
+  ttl: 60
+  type: TXT
+  value: 1049b7df
+stack.3220ec40.sentry-test:
+  ttl: 60
+  type: TXT
+  value: 3220ec40
+stack.3842edcf.correspondence-staff-staging:
+  ttl: 60
+  type: TXT
+  value: 3842edcf
+stack.3893f18a.blah-dev:
+  ttl: 60
+  type: TXT
+  value: cf64985c
+stack.5607f9b2.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: 5607f9b2
+stack.6517b655.elk-prod:
+  ttl: 60
+  type: TXT
+  value: 6517b655
+stack.6879f164.prisoners-api-staging:
+  ttl: 60
+  type: TXT
+  value: 6879f164
+stack.8851c2e8.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: 8851c2e8
+stack.33775e35.ci-test:
+  ttl: 60
+  type: TXT
+  value: 33775e35
+stack.35383dcc.tax-tribunals-wsproxy-staging:
+  ttl: 60
+  type: TXT
+  value: 35383dcc
+stack.46266fd5.accelerated-claims-staging:
+  ttl: 60
+  type: TXT
+  value: 46266fd5
+stack.46456bbd.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 46456bbd
+stack.69690c5e.ci-dev:
+  ttl: 60
+  type: TXT
+  value: 69690c5e
+stack.89924e1f.mps-test:
+  ttl: 60
+  type: TXT
+  value: 89924e1f
+stack.97376c14.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 97376c14
+stack.97484c08.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 97484c08
+stack.563646a3.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 563646a3
+stack.670656d6.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: 670656d6
+stack.864803c8.correspondence-public-staging:
+  ttl: 60
+  type: TXT
+  value: 864803c8
+stack.9410505d.correspondence-tool-demo:
+  ttl: 60
+  type: TXT
+  value: 9410505d
+stack.88089452.sentry-test:
+  ttl: 60
+  type: TXT
+  value: '88089452'
+stack.96296263.mps-test:
+  ttl: 60
+  type: TXT
+  value: '96296263'
+stack.a14bdbf7.courtfinder-dev:
+  ttl: 60
+  type: TXT
+  value: a14bdbf7
+stack.a29b35cf.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: a29b35cf
+stack.a95b8bc6.opsmanual-staging:
+  ttl: 60
+  type: TXT
+  value: a95b8bc6
+stack.a573ff59.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: a573ff59
+stack.abfe4fed.opsmanual-staging:
+  ttl: 60
+  type: TXT
+  value: abfe4fed
+stack.ac0f9b46.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: ac0f9b46
+stack.active.accelerated-claims-dev:
+  ttl: 60
+  type: TXT
+  value: c3477c63
+stack.active.accelerated-claims-production:
+  ttl: 60
+  type: TXT
+  value: 4240dcce
+stack.active.accelerated-claims-staging:
+  ttl: 60
+  type: TXT
+  value: bf86775e
+stack.active.adp-stats-pusher-dev:
+  ttl: 60
+  type: TXT
+  value: 0017ddc9
+stack.active.ashsalttest-ash-test:
+  ttl: 60
+  type: TXT
+  value: 2ae797d5
+stack.active.blah-dev:
+  ttl: 60
+  type: TXT
+  value: 3893f18a
+stack.active.chriswood-deploy-dev:
+  ttl: 60
+  type: TXT
+  value: 40561fe8
+stack.active.ci-cwdev:
+  ttl: 60
+  type: TXT
+  value: 441d68c3
+stack.active.ci-deploy-krs1:
+  ttl: 60
+  type: TXT
+  value: c1a26590
+stack.active.ci-hmcts:
+  ttl: 60
+  type: TXT
+  value: 947d340b
+stack.active.ci-newprod:
+  ttl: 60
+  type: TXT
+  value: 1973491d
+stack.active.ci-prod:
+  ttl: 60
+  type: TXT
+  value: 27a0c2a8
+stack.active.ci-staging:
+  ttl: 300
+  type: TXT
+  value: badc95fa
+stack.active.ci-test:
+  ttl: 300
+  type: TXT
+  value: 18d91f1f
+stack.active.ciprianctest-dev:
+  ttl: 60
+  type: TXT
+  value: d99bc8fd
+stack.active.correspondence-dev:
+  ttl: 60
+  type: TXT
+  value: dd811d38
+stack.active.correspondence-prod:
+  ttl: 60
+  type: TXT
+  value: a721c735
+stack.active.correspondence-public-demo:
+  ttl: 300
+  type: TXT
+  value: 44eb8068
+stack.active.correspondence-staff-demo:
+  ttl: 60
+  type: TXT
+  value: ba0eaac5
+stack.active.correspondence-staff-dev:
+  ttl: 60
+  type: TXT
+  value: 31dafc67
+stack.active.correspondence-staff-prod:
+  ttl: 60
+  type: TXT
+  value: 8653cd07
+stack.active.correspondence-staff-staging:
+  ttl: 60
+  type: TXT
+  value: 71212f7a
+stack.active.correspondence-tool-demo:
+  ttl: 300
+  type: TXT
+  value: 13f678c5
+stack.active.correspondence-tool-dev:
+  ttl: 60
+  type: TXT
+  value: 152fad81
+stack.active.correspondence-tool-prod:
+  ttl: 60
+  type: TXT
+  value: 7cdc790f
+stack.active.correspondence-tool-staging:
+  ttl: 60
+  type: TXT
+  value: 1da82e0c
+stack.active.courtfinder-dev:
+  ttl: 60
+  type: TXT
+  value: 97187eb9
+stack.active.courtfinder-staging:
+  ttl: 60
+  type: TXT
+  value: dc5f8e4d
+stack.active.demo-dev:
+  ttl: 60
+  type: TXT
+  value: d045d40c
+stack.active.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: 33c0d65b
+stack.active.docker-registry-newprod:
+  ttl: 60
+  type: TXT
+  value: b1ac058e
+stack.active.docker-registry-prod:
+  ttl: 60
+  type: TXT
+  value: 768454e0
+stack.active.docker-registry-staging:
+  ttl: 60
+  type: TXT
+  value: 3602d974
+stack.active.elk-dev:
+  ttl: 60
+  type: TXT
+  value: 9123da83
+stack.active.elk-experimental:
+  ttl: 60
+  type: TXT
+  value: 3341fb85
+stack.active.elk-prod:
+  ttl: 60
+  type: TXT
+  value: 6591eacf
+stack.active.elk-staging:
+  ttl: 60
+  type: TXT
+  value: be1d76ab
+stack.active.es-dev:
+  ttl: 60
+  type: TXT
+  value: 8f5874e1
+stack.active.glimr-dev:
+  ttl: 60
+  type: TXT
+  value: f6e2e5ff
+stack.active.graphite-dev:
+  ttl: 60
+  type: TXT
+  value: a918234f
+stack.active.graphite-performance:
+  ttl: 60
+  type: TXT
+  value: 5be12819
+stack.active.graphite-prod:
+  ttl: 60
+  type: TXT
+  value: 08e50510
+stack.active.graphite-staging:
+  ttl: 60
+  type: TXT
+  value: aee3683e
+stack.active.graphite-staging-webops2:
+  ttl: 60
+  type: TXT
+  value: 65dd6a4b
+stack.active.hello-dev:
+  ttl: 60
+  type: TXT
+  value: 328afd7e
+stack.active.hello-flask-dev:
+  ttl: 60
+  type: TXT
+  value: e808ddc3
+stack.active.hubot-dev:
+  ttl: 60
+  type: TXT
+  value: c1b50cae
+stack.active.hubot-dev2:
+  ttl: 60
+  type: TXT
+  value: 777da8bf
+stack.active.huboto-dev:
+  ttl: 60
+  type: TXT
+  value: f6bf14f5
+stack.active.ks-deploy-dev:
+  ttl: 60
+  type: TXT
+  value: 203cda55
+stack.active.loadtest-dev:
+  ttl: 60
+  type: TXT
+  value: 0de0d608
+stack.active.moj-product-dashboard-deploy-staging:
+  ttl: 60
+  type: TXT
+  value: 09162b05
+stack.active.moj-product-dashboard-prod:
+  ttl: 60
+  type: TXT
+  value: 360e31aa
+stack.active.moj-product-dashboard-staging:
+  ttl: 60
+  type: TXT
+  value: dff14c94
+stack.active.mps-dev:
+  ttl: 60
+  type: TXT
+  value: 7cdf6cd6
+stack.active.mps-prod:
+  ttl: 60
+  type: TXT
+  value: 2015000b
+stack.active.mps-staging:
+  ttl: 60
+  type: TXT
+  value: 3149ba1f
+stack.active.mps-test:
+  ttl: 300
+  type: TXT
+  value: 3e30b266
+stack.active.my-project-dev:
+  ttl: 60
+  type: TXT
+  value: addff241
+stack.active.myproject-dev:
+  ttl: 60
+  type: TXT
+  value: 5fd60641
+stack.active.mything-dev:
+  ttl: 60
+  type: TXT
+  value: 01f9f68f
+stack.active.opsmanual-prod:
+  ttl: 60
+  type: TXT
+  value: d70f9032
+stack.active.opsmanual-staging:
+  ttl: 60
+  type: TXT
+  value: 2d02064c
+stack.active.po-dev:
+  ttl: 60
+  type: TXT
+  value: 5ecff3b9
+stack.active.po-prod:
+  ttl: 60
+  type: TXT
+  value: 553a27f6
+stack.active.po-staging:
+  ttl: 60
+  type: TXT
+  value: 77c25fb8
+stack.active.postcodeinfo-cwprod:
+  ttl: 60
+  type: TXT
+  value: f1199b1c
+stack.active.postcodeinfo-cwstaging:
+  ttl: 60
+  type: TXT
+  value: 5f8e37ca
+stack.active.postcodeinfo-dev:
+  ttl: 60
+  type: TXT
+  value: '75744201'
+stack.active.postcodeinfo-staging:
+  ttl: 60
+  type: TXT
+  value: 6fd99f86
+stack.active.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: 9adbc548
+stack.active.prisoners-api-staging:
+  ttl: 60
+  type: TXT
+  value: 28c53915
+stack.active.pvb-prod:
+  ttl: 60
+  type: TXT
+  value: ec347a26
+stack.active.pvb-staging:
+  ttl: 60
+  type: TXT
+  value: e8a8e0a4
+stack.active.pvb-staging2:
+  ttl: 60
+  type: TXT
+  value: ccb5e469
+stack.active.rabbitmq-dev:
+  ttl: 60
+  type: TXT
+  value: 459e3857
+stack.active.riemann-dev:
+  ttl: 60
+  type: TXT
+  value: 42fe0ed2
+stack.active.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 97484c08
+stack.active.senrty-staging:
+  ttl: 300
+  type: TXT
+  value: cdde1be0
+stack.active.sensu-dev:
+  ttl: 60
+  type: TXT
+  value: 1c330e35
+stack.active.sensu-experimental:
+  ttl: 60
+  type: TXT
+  value: a187a52b
+stack.active.sensu-prod:
+  ttl: 60
+  type: TXT
+  value: 81d1cfc8
+stack.active.sensu-production:
+  ttl: 60
+  type: TXT
+  value: 65c323e4
+stack.active.sensu-staging:
+  ttl: 60
+  type: TXT
+  value: 6aced870
+stack.active.sensu-test:
+  ttl: 300
+  type: TXT
+  value: f89aedb7
+stack.active.sentry-prod:
+  ttl: 60
+  type: TXT
+  value: d816934f
+stack.active.sentry-prod1:
+  ttl: 60
+  type: TXT
+  value: 7f97d29b
+stack.active.sentry-prodpara:
+  ttl: 60
+  type: TXT
+  value: 2f97e85c
+stack.active.sentry-staging:
+  ttl: 60
+  type: TXT
+  value: cdde1be0
+stack.active.snd-dev:
+  ttl: 60
+  type: TXT
+  value: d41dfc31
+stack.active.staff-staging:
+  ttl: 60
+  type: TXT
+  value: '26063002'
+stack.active.tax-tribunals-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 0690ca98
+stack.active.tax-tribunals-fees-dev:
+  ttl: 60
+  type: TXT
+  value: 0931d739
+stack.active.tax-tribunals-fees-prod:
+  ttl: 60
+  type: TXT
+  value: f6885b5e
+stack.active.tax-tribunals-fees-staging:
+  ttl: 60
+  type: TXT
+  value: 1049b7df
+stack.active.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 563646a3
+stack.active.tax-tribunals-uploader-downloader-staging:
+  ttl: 60
+  type: TXT
+  value: 68ade87f
+stack.active.tax-tribunals-wsproxy-staging:
+  ttl: 60
+  type: TXT
+  value: 35383dcc
+stack.active.template-deploy-dev:
+  ttl: 60
+  type: TXT
+  value: f7a81cb0
+stack.active.test .dsd.io:
+  ttl: 300
+  type: TXT
+  value: dce2eb86
+stack.active.test-anchor-dev:
+  ttl: 60
+  type: TXT
+  value: e8c7ec60
+stack.active.test-anchors-dev:
+  ttl: 60
+  type: TXT
+  value: 871fdc9c
+stack.active.test-dev:
+  ttl: 60
+  type: TXT
+  value: 561ccbad
+stack.active.test-reboot-dev:
+  ttl: 60
+  type: TXT
+  value: 2b0f12f3
+stack.active.test-sensuplugins-dev:
+  ttl: 60
+  type: TXT
+  value: 4e91c9ad
+stack.active.test-seq-dev:
+  ttl: 60
+  type: TXT
+  value: 92392eac
+stack.active.tsung-dev:
+  ttl: 60
+  type: TXT
+  value: 28cb76ef
+stack.active.vault-dev:
+  ttl: 60
+  type: TXT
+  value: cacd90f1
+stack.active.vis-dev:
+  ttl: 60
+  type: TXT
+  value: f3b14a61
+stack.active.vis-prod:
+  ttl: 60
+  type: TXT
+  value: 92ac1d7b
+stack.active.vis-staging:
+  ttl: 60
+  type: TXT
+  value: 6baf3383
+stack.active.zero-dev:
+  ttl: 60
+  type: TXT
+  value: 5eb371e5
+stack.ae30a1cc.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: ae30a1cc
+stack.af6eae4a.tax-tribunals-wsproxy-staging:
+  ttl: 60
+  type: TXT
+  value: af6eae4a
+stack.b0e6c9da.rot-dev:
+  ttl: 60
+  type: TXT
+  value: b0e6c9da
+stack.b9dedd13.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: b9dedd13
+stack.b62bf4f3.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: b62bf4f3
+stack.b74a1674.ci-dev:
+  ttl: 60
+  type: TXT
+  value: b74a1674
+stack.b645b39b.ci-staging:
+  ttl: 60
+  type: TXT
+  value: b645b39b
+stack.b8265a50.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: b8265a50
+stack.b3410548.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: b3410548
+stack.b5203942.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: b5203942
+stack.ba0eaac5.correspondence-staff-demo:
+  ttl: 60
+  type: TXT
+  value: ba0eaac5
+stack.badc95fa.ci-staging:
+  ttl: 60
+  type: TXT
+  value: badc95fa
+stack.bae84994.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: bae84994
+stack.bd6805e8.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: bd6805e8
+stack.bf86775e.accelerated-claims-staging:
+  ttl: 300
+  type: TXT
+  value: bf86775e
+stack.blue.opsmanual-staging:
+  ttl: 60
+  type: TXT
+  value: 4c6b4650
+stack.c1e967fb.sensu-staging:
+  ttl: 60
+  type: TXT
+  value: c1e967fb
+stack.c074a307.sensu-staging:
+  ttl: 60
+  type: TXT
+  value: c074a307
+stack.c93a7ff7.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: c93a7ff7
+stack.c3477c63.accelerated-claims-dev:
+  ttl: 300
+  type: TXT
+  value: c3477c63
+stack.c8974cbe.correspondence-public-demo:
+  ttl: 60
+  type: TXT
+  value: c8974cbe
+stack.c2550272.ci-dev:
+  ttl: 60
+  type: TXT
+  value: c2550272
+stack.c9586697.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: c9586697
+stack.ca240f08.ci-test:
+  ttl: 60
+  type: TXT
+  value: ca240f08
+stack.ccadc6e9.ci-test:
+  ttl: 60
+  type: TXT
+  value: ccadc6e9
+stack.cf01d30e.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: cf01d30e
+stack.d10feede.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: d10feede
+stack.d66df80e.sentry-test:
+  ttl: 60
+  type: TXT
+  value: d66df80e
+stack.d99e6aa4.adp-stats-pusher-dev:
+  ttl: 60
+  type: TXT
+  value: d99e6aa4
+stack.d157e523.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: d157e523
+stack.d1113a7d.correspondence-public-demo:
+  ttl: 60
+  type: TXT
+  value: d1113a7d
+stack.dce2eb86.ci-test:
+  ttl: 60
+  type: TXT
+  value: dce2eb86
+stack.dd335ec2.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: dd335ec2
+stack.def77f40.prisoners-api-dev:
+  ttl: 60
+  type: TXT
+  value: def77f40
+stack.dev1.hello-leonidas-dev:
+  ttl: 60
+  type: TXT
+  value: 57385c77
+stack.dev2.correspondence-staff-dev:
+  ttl: 60
+  type: TXT
+  value: 31dafc67
+stack.dev2.hello-leonidas-dev:
+  ttl: 60
+  type: TXT
+  value: cebd3748
+stack.dev11.hello-leonidas-dev:
+  ttl: 60
+  type: TXT
+  value: 44e367ea
+stack.dev100.elk-dev:
+  ttl: 60
+  type: TXT
+  value: 9123da83
+stack.dev.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 0f6e2ce8
+stack.devreg.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: c87a6ccc
+stack.dffde29f.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: dffde29f
+stack.e01c0b46.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: e01c0b46
+stack.e3cf7c43.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: e3cf7c43
+stack.e9af03bd.correspondence-public-demo:
+  ttl: 60
+  type: TXT
+  value: e9af03bd
+stack.e34e7926.ci-test:
+  ttl: 60
+  type: TXT
+  value: e34e7926
+stack.e71a2667.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: e71a2667
+stack.e73c68e4.correspondence-staff-demo:
+  ttl: 60
+  type: TXT
+  value: e73c68e4
+stack.e1666d1f.ci-dev:
+  ttl: 60
+  type: TXT
+  value: e1666d1f
+stack.ea09b73b.correspondence-staff-demo:
+  ttl: 60
+  type: TXT
+  value: ea09b73b
+stack.f7d8c1ea.rot-dev:
+  ttl: 60
+  type: TXT
+  value: f7d8c1ea
+stack.f36b4c56.helloworld-dev:
+  ttl: 60
+  type: TXT
+  value: f36b4c56
+stack.f52dbd37.rot-dev:
+  ttl: 60
+  type: TXT
+  value: f52dbd37
+stack.f89aedb7.sensu-test:
+  ttl: 60
+  type: TXT
+  value: f89aedb7
+stack.f9185e99.rot-dev:
+  ttl: 60
+  type: TXT
+  value: f9185e99
+stack.f3377767.sensu-staging:
+  ttl: 60
+  type: TXT
+  value: f3377767
+stack.f5932149.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: f5932149
+stack.fbe3e5f3.helloniall-dev:
+  ttl: 60
+  type: TXT
+  value: fbe3e5f3
+stack.fcdb168e.correspondence-tool-demo:
+  ttl: 60
+  type: TXT
+  value: fcdb168e
+stack.green.docker-registry-prod:
+  ttl: 60
+  type: TXT
+  value: 768454e0
+stack.green.mattp-dev:
+  ttl: 60
+  type: TXT
+  value: 03188574
+stack.ltsampros2.sentry-staging:
+  ttl: 60
+  type: TXT
+  value: cdde1be0
+stack.ltsampros3.sentry-staging:
+  ttl: 60
+  type: TXT
+  value: dd30b374
+stack.new2.sentry-prod:
+  ttl: 60
+  type: TXT
+  value: d816934f
+stack.newdev3.tax-tribunals-fees-dev:
+  ttl: 60
+  type: TXT
+  value: 0931d739
+stack.newdev3.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 49e518fe
+stack.nttt.correspondence-staff-demo:
+  ttl: 60
+  type: TXT
+  value: 476f402d
+stack.omg1.vault-dev:
+  ttl: 60
+  type: TXT
+  value: cacd90f1
+stack.prod1.tax-tribunals-fees-prod:
+  ttl: 60
+  type: TXT
+  value: f6885b5e
+stack.prod3.correspondence-staff-prod:
+  ttl: 60
+  type: TXT
+  value: 8653cd07
+stack.prod5x.elk-prod:
+  ttl: 60
+  type: TXT
+  value: 6591eacf
+stack.prod10.tax-tribunals-feespayment-prod:
+  ttl: 60
+  type: TXT
+  value: 2e0665b9
+stack.prod.ci-prod:
+  ttl: 60
+  type: TXT
+  value: test
+stack.red.opsmanual-staging:
+  ttl: 60
+  type: TXT
+  value: 5fc84083
+stack.staging2.correspondence-staff-staging:
+  ttl: 60
+  type: TXT
+  value: 71212f7a
+stack.staging2.tax-tribunals-uploader-downloader-staging:
+  ttl: 60
+  type: TXT
+  value: 68989a9a
+stack.staging5x.elk-staging:
+  ttl: 60
+  type: TXT
+  value: be1d76ab
+stack.test.blah-dev:
+  ttl: 60
+  type: TXT
+  value: 3893f18a
+stack.test.opsmanual:
+  ttl: 300
+  type: A
+  value: 192.0.2.235
+stack.test_cfn_update.tax-tribunals-fees-dev:
+  ttl: 60
+  type: TXT
+  value: fa049ac1
+stack.testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttes:
+  ttl: 300
+  type: TXT
+  value: testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+stack.trusty.opsmanual-staging:
+  ttl: 60
+  type: TXT
+  value: f366db85
+staging43:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-78-102.eu-west-1.compute.amazonaws.com
+staging44:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-111-61.eu-west-1.compute.amazonaws.com
+staging47:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-156-23.eu-west-1.compute.amazonaws.com
+staging-adp:
+  ttl: 60
+  type: CNAME
+  value: staging.advocatedefencepayments.dsd.io
+staging-digideps.service:
+  ttl: 300
+  type: A
+  value: 54.76.171.16
+staging-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+staging-v1-lpa.service:
+  ttl: 300
+  type: A
+  value: 83.151.213.226
+staging.sensu-service.dsd.io:
+  ttl: 17800
+  type: NS
+  values:
+  - ns-1191.awsdns-20.org.
+  - ns-1809.awsdns-34.co.uk.
+  - ns-626.awsdns-14.net.
+  - ns-69.awsdns-08.com.
+static:
+  ttl: 300
+  type: CNAME
+  value: static.dsd.io.s3-website-eu-west-1.amazonaws.com
+sugar.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+svkdg7soiv4iwzx6rczvjircjf42xdvi._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: svkdg7soiv4iwzx6rczvjircjf42xdvi.dkim.amazonses.com
+swagger.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+tactical-products:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1081.awsdns-07.org.
+  - ns-1982.awsdns-55.co.uk.
+  - ns-221.awsdns-27.com.
+  - ns-832.awsdns-40.net.
+tacticalproducts:
+  ttl: 300
+  type: NS
+  values:
+  - ns-106.awsdns-13.com.
+  - ns-1470.awsdns-55.org.
+  - ns-1965.awsdns-53.co.uk.
+  - ns-974.awsdns-57.net.
+tacticalproductsalb:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1122.awsdns-12.org.
+  - ns-1811.awsdns-34.co.uk.
+  - ns-448.awsdns-56.com.
+  - ns-826.awsdns-39.net.
+tacticalproductshmcts:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1497.awsdns-59.org.
+  - ns-1635.awsdns-12.co.uk.
+  - ns-258.awsdns-32.com.
+  - ns-975.awsdns-57.net.
+tax-tribunals-datacapture-dev2:
+  ttl: 60
+  type: CNAME
+  value: tax-tribunals-datacapture-dev.dsd.io
+taxtribsecs:
+  ttl: 60
+  type: CNAME
+  value: ecs-taxtribs-1587962178.eu-west-1.elb.amazonaws.com
+taxtribunals:
+  ttl: 86400
+  type: NS
+  values:
+  - ns-1245.awsdns-27.org.
+  - ns-1924.awsdns-48.co.uk.
+  - ns-280.awsdns-35.com.
+  - ns-984.awsdns-59.net.
+team:
+  ttl: 300
+  type: CNAME
+  value: limitless-mountain-8639.herokuapp.com
+test:
+- ttl: 300
+  type: A
+  value: 52.49.38.211
+- ttl: 300
+  type: NS
+  values:
+  - ns-1058.awsdns-04.org.
+  - ns-1726.awsdns-23.co.uk.
+  - ns-479.awsdns-59.com.
+  - ns-801.awsdns-36.net.
+test123:
+  ttl: 300
+  type: CNAME
+  value: maintain.dsd.io
+tipstaff-training:
+  ttl: 300
+  type: A
+  value: 52.49.163.38
+tp:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1290.awsdns-33.org.
+  - ns-1882.awsdns-43.co.uk.
+  - ns-275.awsdns-34.com.
+  - ns-902.awsdns-48.net.
+transport:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+tribunals2:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+ul6mlfh6npxr5mfjd65qlhn7ut7jleo4._domainkey.courtfinder:
+  ttl: 1800
+  type: CNAME
+  value: ul6mlfh6npxr5mfjd65qlhn7ut7jleo4.dkim.amazonses.com
+ursula:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+utiacdailycourtlist:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+victim_services:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+videosforgovernors:
+  ttl: 300
+  type: CNAME
+  value: mojv4g.wpengine.com
+vj-tests:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1289.awsdns-33.org.
+  - ns-1778.awsdns-30.co.uk.
+  - ns-285.awsdns-35.com.
+  - ns-759.awsdns-30.net.
+vpn:
+  ttl: 300
+  type: A
+  value: 54.77.178.131
+wardship:
+  ttl: 300
+  type: A
+  value: 52.19.133.172
+web-ssh.service:
+  ttl: 300
+  type: A
+  value: 54.77.250.158
+webhelpdesk:
+  ttl: 300
+  type: A
+  value: 52.19.187.43
+wiki:
+  ttl: 300
+  type: A
+  value: 54.229.73.119
+wordpress_salt_test:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+wp:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1486.awsdns-57.org.
+  - ns-1882.awsdns-43.co.uk.
+  - ns-194.awsdns-24.com.
+  - ns-787.awsdns-34.net.
+www.dev-lpa.service:
+  ttl: 300
+  type: A
+  value: 54.77.92.20
+www.servicedeskblog:
+  ttl: 300
+  type: CNAME
+  value: melpierre.github.io
+www.staging-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+www.staging-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+www.staging-v1-lpa.service:
+  ttl: 300
+  type: CNAME
+  value: staging-v1-lpa.service.dsd.io.
+x:
+  ttl: 60
+  type: A
+  value: 54.229.49.135
+ybtj:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+ydu5yan7zvss4dzjahepxa6tknn3wvy4._domainkey.opg:
+  ttl: 1800
+  type: CNAME
+  value: ydu5yan7zvss4dzjahepxa6tknn3wvy4.dkim.amazonses.com
+yjbpublications:
+  ttl: 300
+  type: A
+  value: 54.194.101.35
+yjils:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-101-35.eu-west-1.compute.amazonaws.com
+zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw._domainkey.courtfinder:
+  ttl: 1800
+  type: CNAME
+  value: zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw.dkim.amazonses.com
