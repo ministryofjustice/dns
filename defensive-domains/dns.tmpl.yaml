@@ -1,7 +1,12 @@
 ---
 ? ''
+# Null CAA
+: - type: CAA
+    value:
+      tag: issue
+      value: ;
 # Null MX
-: - type: MX
+  - type: MX
     value:
       exchange: .
       preference: 0
