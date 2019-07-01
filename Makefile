@@ -3,8 +3,8 @@ include defensive-domains/domains.mk
 all:
 .PHONY: all
 
-install:
-	brew install octodns
+install: requirements.txt
+	pip install -r requirements.txt
 .PHONY: install
 
 
