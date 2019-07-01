@@ -7,5 +7,6 @@ providers:
     enforce_order: True
   route53:
     class: octodns.provider.route53.Route53Provider
+    client_max_attempts: 10
 
 zones:
