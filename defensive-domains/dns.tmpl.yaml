@@ -2,9 +2,11 @@
 ? ''
 # Null CAA
 : - type: CAA
-    value:
-      tag: issue
-      value: ;
+    values:
+      - tag: issue
+        value: ;
+      - tag: iodef
+        value: mailto:certificates@digital.justice.gov.uk
 # Null MX
   - type: MX
     value:
