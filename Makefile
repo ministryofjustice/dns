@@ -4,7 +4,7 @@ all:
 .PHONY: all
 
 install: requirements.txt
-	pip install -r requirements.txt
+	pip install -r $<
 .PHONY: install
 
 
@@ -19,20 +19,20 @@ install: requirements.txt
 
 defensive-domains-validate: defensive-domains/config.yaml \
 	$(DEFENSIVE_DOMAINS:%=defensive-domains/config/%.yaml)
-	octodns-validate --config-file=defensive-domains/config.yaml
+	octodns-validate --config-file=$<
 .PHONY: defensive-domains-validate
 
 defensive-domains-noop: defensive-domains/config.yaml \
 	$(DEFENSIVE_DOMAINS:%=defensive-domains/config/%.yaml) \
 	defensive-domains-validate
-	octodns-sync --config-file=defensive-domains/config.yaml
+	octodns-sync --config-file=$<
 .PHONY: defensive-domains-noop
 
 defensive-domains-apply: defensive-domains/config.yaml \
 	$(DEFENSIVE_DOMAINS:%=defensive-domains/config/%.yaml) \
 	defensive-domains-validate
-	octodns-sync --config-file=defensive-domains/config.yaml --doit
-.PHONY: defensive-domains-noop
+	octodns-sync --config-file=$< --doit
+.PHONY: defensive-domains-apply
 
 defensive-domains-get-live-config: \
 	$(DEFENSIVE_DOMAINS:%=defensive-domains/live/%.yaml)
@@ -45,14 +45,14 @@ defensive-domains-get-live-config: \
 # meaning that they match any file path that fits that format (where % is
 # a wildcard).
 #
-# We then use the $< (first prerequisite), $@ (target filename), and
-# $* (match stem)  automatic variables
+# We then use the $(<F) (first prerequisite's filename), $@ (target file),
+# $(@D) (target file's directory) and $* (match stem)  automatic variables
 # (https://www.gnu.org/software/make/manual/make.html#Automatic-Variables)
 # to generate only the required configs.
 
 defensive-domains/config.yaml: defensive-domains/config.tmpl.yaml defensive-domains/domains.mk
-	@cat defensive-domains/config.tmpl.yaml > defensive-domains/config.yaml
-	@echo "  $(DEFENSIVE_DOMAINS:%=%.:\n    sources:\n      - config\n    targets:\n      - route53\n )" >> defensive-domains/config.yaml
+	@cat $< > $@
+	@echo "  $(DEFENSIVE_DOMAINS:%=%.:\n    sources:\n      - config\n    targets:\n      - route53\n )" >> $@
 
 defensive-domains/config/%.yaml: defensive-domains/dns.tmpl.yaml
 	@mkdir -p defensive-domains/config/
@@ -60,8 +60,8 @@ defensive-domains/config/%.yaml: defensive-domains/dns.tmpl.yaml
 
 defensive-domains/live/%.yaml: defensive-domains/config.yaml
 	octodns-dump \
-	  --config-file=defensive-domains/config.yaml \
-	  --output-dir=defensive-domains/live/ \
+	  --config-file=$< \
+	  --output-dir=$(@D) \
 	  $*. route53
 
 
