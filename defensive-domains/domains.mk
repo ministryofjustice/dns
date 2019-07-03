@@ -187,6 +187,15 @@ DEFENSIVE_DOMAINS+= \
   noms.org.uk \
   noms.uk
 
+# nationaloffendermanagementservice
+DEFENSIVE_DOMAINS+= \
+  nationaloffendermanagementservice.com \
+  nationaloffendermanagementservice.co.uk \
+  nationaloffendermanagementservice.org.uk \
+  nationaloffendermanagementservice.org \
+  nationaloffendermanagementservice.net \
+  nationaloffendermanagementservice.uk
+
 # nationaloffendersmanagementservice
 DEFENSIVE_DOMAINS+= \
   nationaloffendersmanagementservice.com \
