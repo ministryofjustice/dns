@@ -1,2 +1,5 @@
 *~
 
+defensive-domains/config.yaml
+defensive-domains/config/*
+defensive-domains/live/*

@@ -1,0 +1,12 @@
+---
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./defensive-domains/config
+    default_ttl: 300
+    enforce_order: True
+  route53:
+    class: octodns.provider.route53.Route53Provider
+    client_max_attempts: 10
+
+zones:
