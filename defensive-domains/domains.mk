@@ -146,6 +146,15 @@ DEFENSIVE_DOMAINS+= \
   tribunals-service.net \
   tribunals-service.uk
 
+# courtsandtribunals
+DEFENSIVE_DOMAINS+= \
+  courtsandtribunals.com \
+  courtsandtribunals.co.uk \
+  courtsandtribunals.org \
+  courtsandtribunals.org.uk \
+  courtsandtribunals.net
+  # Can't get .uk
+
 # hermajestyscourtservice
 DEFENSIVE_DOMAINS+= \
   hermajestyscourtservice.com \
