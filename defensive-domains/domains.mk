@@ -433,3 +433,19 @@ DEFENSIVE_DOMAINS+= \
   youth-justice-board.org \
   youth-justice-board.net \
   youth-justice-board.uk
+
+# sentencingcouncil
+DEFENSIVE_DOMAINS+= \
+  sentencingcouncil.com \
+  sentencingcouncil.co.uk \
+  sentencingcouncil.org \
+  sentencingcouncil.net \
+  sentencingcouncil.uk
+
+# sentencing-council
+DEFENSIVE_DOMAINS+= \
+  sentencing-council.com \
+  sentencing-council.co.uk \
+  sentencing-council.org \
+  sentencing-council.net \
+  sentencing-council.uk
