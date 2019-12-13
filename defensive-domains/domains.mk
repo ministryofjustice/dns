@@ -90,7 +90,7 @@ DEFENSIVE_DOMAINS+= \
 
 # court-service
 DEFENSIVE_DOMAINS+= \
-  court-service.org-uk \
+  court-service.org.uk \
   court-service.org \
   court-service.net \
   court-service.uk
