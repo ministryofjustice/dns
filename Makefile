@@ -1,5 +1,8 @@
 include defensive-domains/domains.mk
 
+test: defensive-domains-validate defensive-domains-noop
+.PHONY: test
+
 all:
 .PHONY: all
 
