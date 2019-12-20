@@ -1,7 +1,6 @@
 # moj
 DEFENSIVE_DOMAINS= \
-  moj.org.uk \
-  moj.uk
+  moj.org.uk
 
 # justice
 DEFENSIVE_DOMAINS+= \
@@ -10,10 +9,6 @@ DEFENSIVE_DOMAINS+= \
 # justicegov
 DEFENSIVE_DOMAINS+= \
   justicegov.uk
-
-# ministryofjustice
-DEFENSIVE_DOMAINS+= \
-  ministryofjustice.uk
 
 # ministry-of-justice
 DEFENSIVE_DOMAINS+= \
@@ -58,29 +53,18 @@ DEFENSIVE_DOMAINS+= \
   ministry-justice.net \
   ministry-justice.uk
 
-# hmcts
-DEFENSIVE_DOMAINS+= \
-  hmcts.uk
-
 # hmcs
 DEFENSIVE_DOMAINS+= \
-  hmcs.org.uk \
-  hmcs.uk
-
-# court
-DEFENSIVE_DOMAINS+= \
-  court.uk
+  hmcs.org.uk
 
 # courts
 DEFENSIVE_DOMAINS+= \
-  courts.org.uk \
-  courts.uk
+  courts.org.uk
 
 # courtservice
 DEFENSIVE_DOMAINS+= \
   courtservice.org \
-  courtservice.net \
-  courtservice.uk
+  courtservice.net
 
 # courtsservice
 DEFENSIVE_DOMAINS+= \
@@ -106,12 +90,7 @@ DEFENSIVE_DOMAINS+= \
 
 # tribunal
 DEFENSIVE_DOMAINS+= \
-  tribunal.org.uk \
-  tribunal.uk
-
-# tribunals
-DEFENSIVE_DOMAINS+= \
-  tribunals.uk
+  tribunal.org.uk
 
 # tribunalservice
 DEFENSIVE_DOMAINS+= \
@@ -161,8 +140,7 @@ DEFENSIVE_DOMAINS+= \
   hermajestyscourtservice.co.uk \
   hermajestyscourtservice.org.uk \
   hermajestyscourtservice.org \
-  hermajestyscourtservice.net \
-  hermajestyscourtservice.uk
+  hermajestyscourtservice.net
 
 # her-majestys-court-service
 DEFENSIVE_DOMAINS+= \
@@ -193,8 +171,7 @@ DEFENSIVE_DOMAINS+= \
 
 # noms
 DEFENSIVE_DOMAINS+= \
-  noms.org.uk \
-  noms.uk
+  noms.org.uk
 
 # nationaloffendermanagementservice
 DEFENSIVE_DOMAINS+= \
@@ -229,14 +206,6 @@ DEFENSIVE_DOMAINS+= \
   hmpps.org \
   hmpps.uk
 
-# prisons
-DEFENSIVE_DOMAINS+= \
-  prisons.uk
-
-# prison
-DEFENSIVE_DOMAINS+= \
-  prison.uk
-
 # prisonservice
 DEFENSIVE_DOMAINS+= \
   prisonservice.org.uk \
@@ -266,10 +235,6 @@ DEFENSIVE_DOMAINS+= \
   prisons-service.org \
   prisons-service.net \
   prisons-service.uk
-
-# probation
-DEFENSIVE_DOMAINS+= \
-  probation.uk
 
 # probationservice
 DEFENSIVE_DOMAINS+= \
@@ -340,18 +305,9 @@ DEFENSIVE_DOMAINS+= \
   her-majestys-prisons-service.net \
   her-majestys-prisons-service.uk
 
-# laa
-DEFENSIVE_DOMAINS+= \
-  laa.uk
-
-# legalaid
-DEFENSIVE_DOMAINS+= \
-  legalaid.uk
-
 # legal-aid
 DEFENSIVE_DOMAINS+= \
-  legal-aid.org.uk \
-  legal-aid.uk
+  legal-aid.org.uk
 
 # legalaidagency
 DEFENSIVE_DOMAINS+= \
@@ -403,18 +359,9 @@ DEFENSIVE_DOMAINS+= \
   office-of-the-public-guardian.net \
   office-of-the-public-guardian.uk
 
-# yjb
-DEFENSIVE_DOMAINS+= \
-  yjb.uk
-
 # youthjustice
 DEFENSIVE_DOMAINS+= \
-  youthjustice.net \
-  youthjustice.uk
-
-# youth-justice
-DEFENSIVE_DOMAINS+= \
-  youth-justice.uk
+  youthjustice.net
 
 # youthjusticeboard
 DEFENSIVE_DOMAINS+= \
@@ -439,8 +386,7 @@ DEFENSIVE_DOMAINS+= \
   sentencingcouncil.com \
   sentencingcouncil.co.uk \
   sentencingcouncil.org \
-  sentencingcouncil.net \
-  sentencingcouncil.uk
+  sentencingcouncil.net
 
 # sentencing-council
 DEFENSIVE_DOMAINS+= \
