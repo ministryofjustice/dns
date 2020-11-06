@@ -394,3 +394,27 @@ DEFENSIVE_DOMAINS+= \
   sentencing-council.org \
   sentencing-council.net \
   sentencing-council.uk
+
+# For ima-citizensrights.org.uk
+DEFENSIVE_DOMAINS+= \
+  ima-citizenrights.org \
+  ima-citizensright.co.uk \
+  ima-citizensright.org \
+  ima-citizensright.org.uk \
+  ima-citizensright.uk \
+  ima-citizensrights.co.uk \
+  ima-citizensrights.co.uk \
+  ima-citizensrights.com \
+  ima-citizensrights.eu \
+  ima-citizensrights.net \
+  ima-citizensrights.org \
+  ima-citizensrights.uk \
+  ima-citizensrights.uk \
+  imacitizensrights.co.uk \
+  imacitizensrights.com \
+  imacitizensrights.net \
+  imacitizensrights.org \
+  imacitizensrights.org \
+  imacitizensrights.org.uk \
+  imacitizensrights.org.uk \
+  imacitizensrights.uk
