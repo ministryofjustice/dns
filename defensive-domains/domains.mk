@@ -418,3 +418,25 @@ DEFENSIVE_DOMAINS+= \
   imacitizensrights.org.uk \
   imacitizensrights.org.uk \
   imacitizensrights.uk
+
+# For mojprint.com
+DEFENSIVE_DOMAINS+= \
+  dom1fax.co.uk \
+  dom1fax.com \
+  dom1fax.net \
+  dom1fax.org \
+  dom1fax.uk \
+  dom1print.co.uk \
+  dom1print.com \
+  dom1print.net \
+  dom1print.org \
+  dom1print.uk \
+  mojfax.co.uk \
+  mojfax.com \
+  mojfax.net \
+  mojfax.org \
+  mojfax.uk \
+  mojprint.co.uk \
+  mojprint.net \
+  mojprint.org \
+  mojprint.uk
