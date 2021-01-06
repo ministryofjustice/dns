@@ -405,7 +405,6 @@ DEFENSIVE_DOMAINS+= \
   ima-citizensrights.co.uk \
   ima-citizensrights.co.uk \
   ima-citizensrights.com \
-  ima-citizensrights.eu \
   ima-citizensrights.net \
   ima-citizensrights.org \
   ima-citizensrights.uk \
