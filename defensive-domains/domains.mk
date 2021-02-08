@@ -439,3 +439,11 @@ DEFENSIVE_DOMAINS+= \
   mojprint.net \
   mojprint.org \
   mojprint.uk
+
+# youth-justice
+DEFENSIVE_DOMAINS+= \
+  youth-justice.uk
+  
+# hmcts
+DEFENSIVE_DOMAINS+= \
+  hmcts.uk
