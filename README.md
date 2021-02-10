@@ -32,10 +32,7 @@ default account, as that's where we currently keep our domains.
 
 ## Defensive domain management
 
-We have hundreds of defensively-registered domains, and need to [apply
-the same DNS
-records](https://ministryofjustice.github.io/security-guidance/guides/de
-fensive-domain-registration/) to all of them. Unfortunately, at the
+We have hundreds of defensively-registered domains, and need to [apply the same DNS records](https://ministryofjustice.github.io/security-guidance/defensive-domain-registration/#defensive-domain-registrations) to all of them. Unfortunately, at the
 time of writing, [OctoDNS doesn't support applying records to multiple
 zones](https://github.com/github/octodns/issues/7), so we're using
 [Make](https://www.gnu.org/software/make/manual/make.html) to automate
