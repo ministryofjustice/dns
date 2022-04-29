@@ -6,8 +6,12 @@ test: defensive-domains-validate defensive-domains-noop
 all:
 .PHONY: all
 
-install: requirements.txt
-	pip install -r $<
+SHELL := /bin/zsh
+install:
+	python3 -m venv venv
+	. venv/bin/activate
+	python3 -m pip install --upgrade pip
+	python3 -m pip install -r requirements.txt
 .PHONY: install
 
 
