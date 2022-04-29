@@ -6,7 +6,6 @@ test: defensive-domains-validate defensive-domains-noop
 all:
 .PHONY: all
 
-SHELL := /bin/zsh
 install:
 	python3 -m venv venv
 	. venv/bin/activate
