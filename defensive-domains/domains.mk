@@ -55,7 +55,8 @@ DEFENSIVE_DOMAINS+= \
 
 # hmcs
 DEFENSIVE_DOMAINS+= \
-  hmcs.org.uk
+  hmcs.org.uk \
+  hmcs.uk
 
 # courts
 DEFENSIVE_DOMAINS+= \
