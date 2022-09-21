@@ -447,3 +447,9 @@ DEFENSIVE_DOMAINS+= \
 # hmcts
 DEFENSIVE_DOMAINS+= \
   hmcts.uk
+  
+# nfd
+DEFENSIVE_DOMAINS+= \
+  test-ho-nfd.co.uk \
+  preprod-ho-nfd.com \
+  preprod-ho-nfd.co.uk
