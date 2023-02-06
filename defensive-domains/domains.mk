@@ -454,7 +454,3 @@ DEFENSIVE_DOMAINS+= \
   test-ho-nfd.co.uk \
   preprod-ho-nfd.com \
   preprod-ho-nfd.co.uk
-
-# cjsdigital.org
-DEFENSIVE_DOMAINS+= \
-  cjsdigital.org
