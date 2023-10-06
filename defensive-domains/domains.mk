@@ -454,3 +454,11 @@ DEFENSIVE_DOMAINS+= \
   test-ho-nfd.co.uk \
   preprod-ho-nfd.com \
   preprod-ho-nfd.co.uk
+
+# independentpublicadvocate
+DEFENSIVE_DOMAINS+= \
+  independentpublicadvocate.org \
+  independentpublicadvocate.uk \
+  independentpublicadvocate.net \
+  independentpublicadvocate.com \
+  independentpublicadvocate.co.uk
