@@ -1,0 +1,2393 @@
+---
+"":
+  - ttl: 1800
+    type: MX
+    value:
+      exchange: inbound-smtp.eu-west-1.amazonaws.com
+      preference: 10
+  - ttl: 300
+    type: NS
+    values:
+      - ns-1454.awsdns-53.org.
+      - ns-1676.awsdns-17.co.uk.
+      - ns-262.awsdns-32.com.
+      - ns-613.awsdns-12.net.
+7vyvfadjerzncwgstpglhj6bwd5ekpbo._domainkey.ppo:
+  ttl: 1800
+  type: CNAME
+  value: 7vyvfadjerzncwgstpglhj6bwd5ekpbo.dkim.amazonses.com
+767topg7v6qyf3jlozwlxhu2zcqb4fuk._domainkey.opg:
+  ttl: 1800
+  type: CNAME
+  value: 767topg7v6qyf3jlozwlxhu2zcqb4fuk.dkim.amazonses.com
+"*.branchrunner.acceleratedpossession-dev":
+  ttl: 300
+  type: CNAME
+  value: acceleratedpossession-dev.dsd.io
+"*.int-prisonvisits":
+  ttl: 30
+  type: A
+  value: 172.22.16.3
+"*.local":
+  ttl: 300
+  type: A
+  value: 127.0.0.1
+_6b6253eac9e7549bb70b0e42830e95b9.ci-hmcts.service:
+  ttl: 300
+  type: CNAME
+  value: _911134c8d386ffd7445e3b435f346286.ltfvzjuylp.acm-validations.aws.
+_29e6fa072cabf1c4c8ed043652cb77dc.elasticsearch:
+  ttl: 300
+  type: CNAME
+  value: _68ab398fca862a92da625f9b21effe6d.acm-validations.aws.
+_29faedc51b99a21e6b546e9f0ae8f53a.tax-tribunals-fees-staging:
+  ttl: 300
+  type: CNAME
+  value: _e2ebb11a735d6cabe65ab6dc0789debb.tljzshvwok.acm-validations.aws.
+_109272a5626b87442929a35439e041e8.tax-tribunals-downloader-dev:
+  ttl: 300
+  type: CNAME
+  value: _7bc0baa60d71eb4f79203145484d7a83.ltfvzjuylp.acm-validations.aws.
+_a5c3b9452c35b35389c1f1d9320e5c75.maintain:
+  ttl: 300
+  type: CNAME
+  value: _dbdace06d3074d2a389c061c507bdd98.acm-validations.aws.
+_adda73ca742a1234e9f9d2c93f9882fd.status.service:
+  ttl: 300
+  type: CNAME
+  value: _7a7432de6a3202bc3b084011c61d9a53.acm-validations.aws
+_amazonses:
+  ttl: 1800
+  type: TXT
+  values:
+    - Eqf5BRJNj6Rn84SGmsbWc4YLnlRh2vabWbM62yGbMic=
+    - H8uHHtYVLQ/jS2tDU/bfzD5fVCkOoMPcNIrY1EZMVzs=
+_amazonses.courtfinder:
+  ttl: 1800
+  type: TXT
+  value: G1EwlYcGmbhzmDSuyG/gZq2q7QCQx6EFWpaR00Yn8yQ=
+_amazonses.opg:
+  ttl: 1800
+  type: TXT
+  value: bWOD7mXHLafhehCkT+4DNLWwmQKx3Kxsn/nxubU3Tbg=
+_amazonses.ppo:
+  ttl: 1800
+  type: TXT
+  value: Vk3y1zBydDzo+p+ekAMBa6sU62jDgU1NY9/j1/AE+UE=
+_amazonses.tribunals:
+  ttl: 1800
+  type: TXT
+  value: FotC+RkVmtjm3NvO4OIR5gsq8wlGxX1X7LdoJ1RITII=
+_asvdns-0ec077bf-94ae-4ccd-9abc-86305dbaac6f.tax-tribunals-datacapture-dev:
+  ttl: 300
+  type: TXT
+  value: asvdns_f98c84db-b876-4c72-863d-cb1aec969f20
+_asvdns-2a0e1baa-d9c9-4659-9599-2147df1e2ff4:
+  ttl: 300
+  type: TXT
+  value: asvdns_e503e145-e8e6-4b67-8abe-f1bba45b6f03
+_asvdns-93f5e9c6-fe9e-433d-baab-496fe6199dc2.tax-tribunals-downloader-dev:
+  ttl: 300
+  type: TXT
+  value: asvdns_a440567a-1d51-4ede-8097-6f179378ff80
+_asvdns-a9deae9e-bead-410e-be50-809a7ad182c6.tax-tribunals-fees-staging:
+  ttl: 300
+  type: TXT
+  value: asvdns_ca8dcb48-f00b-4524-97b8-30bbc271a484
+_asvdns-ac34ee22-06a5-4473-aa5e-851fef56119e.tax-tribunals-fees-dev:
+  ttl: 300
+  type: TXT
+  value: asvdns_d975c87d-6209-4097-b070-3240b0220dbc
+_asvdns-acf85d3d-46ce-4b0e-bf02-c9d404a2b7c4.tax-tribunals-datacapture-staging:
+  ttl: 300
+  type: TXT
+  value: asvdns_7a97c4a5-089d-415d-955e-71b3e13fdc2a
+_bfa871d9ae35776361503dc9a3a10db1.tax-tribunals-datacapture-staging:
+  ttl: 300
+  type: CNAME
+  value: _c97c367e852ca6a18aa1f2119d71c3b9.tljzshvwok.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value:
+    v=DMARC1\;p=none\;sp=none\;fo=1\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+    ruf=mailto:dmarc-ruf@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+acceleratedpossession:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1114.awsdns-11.org.
+    - ns-1772.awsdns-29.co.uk.
+    - ns-325.awsdns-40.com.
+    - ns-941.awsdns-53.net.
+afdverify.dev.transportappeals:
+  ttl: 300
+  type: CNAME
+  value: afdverify.sdshmcts-dev.azurefd.net
+afdverify.staging.transportappeals:
+  ttl: 300
+  type: CNAME
+  value: afdverify.sdshmcts-stg.azurefd.net
+alertmanager:
+  ttl: 300
+  type: A
+  value: 194.195.247.228
+alertmanageragain:
+  ttl: 300
+  type: A
+  value: 193.195.247.228
+asylum-support:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+azure:
+  ttl: 300
+  type: NS
+  values:
+    - ns1-08.azure-dns.com.
+    - ns2-08.azure-dns.net.
+    - ns3-08.azure-dns.org.
+    - ns4-08.azure-dns.info.
+backup.tax-tribunals-datacapture-staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com.
+    type: A
+bzy75fcccsl3f4ii6ogijiguy2mu2hww._domainkey.ppo:
+  ttl: 1800
+  type: CNAME
+  value: bzy75fcccsl3f4ii6ogijiguy2mu2hww.dkim.amazonses.com
+cait:
+  ttl: 600
+  type: NS
+  values:
+    - ns-1021.awsdns-63.net.
+    - ns-1096.awsdns-09.org.
+    - ns-1729.awsdns-24.co.uk.
+    - ns-199.awsdns-24.com.
+carestandardstribunal:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+ci-hmcts.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: ci-hmcts-elbcihmc-1lftefg1dwwil-1739227107.eu-west-1.elb.amazonaws.com.
+    type: A
+ci-lpa:
+  ttl: 300
+  type: A
+  value: 54.76.188.44
+ci-prod.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com.
+    type: A
+ci.opg:
+  ttl: 300
+  type: A
+  value: 54.76.9.27
+ci.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com.
+    type: A
+cla-admin:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-154-59-10.eu-west-1.compute.amazonaws.com
+cla-admin.service:
+  ttl: 300
+  type: A
+  value: 83.151.212.52
+cla-backend.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+cla-callmeback.service:
+  ttl: 300
+  type: A
+  value: 83.151.212.51
+cla-cases.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.53
+cla-docker:
+  ttl: 300
+  type: A
+  value: 54.76.204.83
+cla-frontend.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+cla-monitoring.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+cla-public.service:
+  ttl: 300
+  type: A
+  value: 83.151.212.50
+cla_providers_directory:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+contact-moj:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z3GKZC51ZF0DB4
+    name: s3-website.eu-west-2.amazonaws.com.
+    type: A
+core:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1119.awsdns-11.org.
+    - ns-1897.awsdns-45.co.uk.
+    - ns-442.awsdns-55.com.
+    - ns-714.awsdns-25.net.
+core-back.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+core-front.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+courtfinder-test:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-229-204-208.eu-west-1.compute.amazonaws.com
+courtfines:
+  ttl: 300
+  type: A
+  value: 62.208.144.80
+crimebillingonline:
+  ttl: 60
+  type: NS
+  values:
+    - ns-1078.awsdns-06.org.
+    - ns-1859.awsdns-40.co.uk.
+    - ns-446.awsdns-55.com.
+    - ns-695.awsdns-22.net.
+cs_blog:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+csq3rs4wz5qtcmpg5zqhtu5slbbkcniu._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: csq3rs4wz5qtcmpg5zqhtu5slbbkcniu.dkim.amazonses.com
+ctf:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+dacp:
+  ttl: 300
+  type: A
+  value: 52.19.133.172
+ddc.opg-backoffice-integration:
+  ttl: 300
+  type: A
+  value: 54.194.221.57
+ddc.opg-backoffice-uat:
+  ttl: 300
+  type: A
+  value: 54.77.107.33
+defence-request:
+  type: NS
+  values:
+    - ns-1329.awsdns-38.org.
+    - ns-155.awsdns-19.com.
+    - ns-1949.awsdns-51.co.uk.
+    - ns-542.awsdns-03.net.
+demo1-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo2-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo3-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo4-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo5-intranet:
+  ttl: 300
+  type: CNAME
+  value: demo-intranet.dsd.io
+demo-intranet:
+  ttl: 300
+  type: A
+  value: 54.246.235.16
+deployarn.7c928508.production.accelerated-claims:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-production-424-CrossAccountRole-8ELG8P1CPKN7
+deployarn.33c0d65b.dev.docker-registry:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-dev-33c0d65b-CrossAccountRole-1IQDI7HUS9BZA
+deployarn.68ade87f.staging.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-NA8CPBYWBYJZ
+deployarn.1049b7df.staging.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-staging-1049b7-CrossAccountRole-GRHP7C52QR5B
+deployarn.97484c08.dev.rot:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU
+deployarn.563646a3.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-115NC9VHVEKIN
+deployarn.active.dev.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-dev-c3477c63-CrossAccountRole-1MLS9UADWIMB3
+deployarn.active.dev.courtfinder:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/courtfinder-dev-97187eb9-CrossAccountRole-ZOS047VPE89X
+deployarn.active.dev.demo:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/demo-dev-f947d970-CrossAccountRole-NBGJRG18K8YD
+deployarn.active.dev.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-dev-33c0d65b-CrossAccountRole-1IQDI7HUS9BZA
+deployarn.active.dev.hubot:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/hubot-dev-c1b50cae-CrossAccountRole-33QFW2Y4G9F2
+deployarn.active.dev.huboto:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/huboto-dev-f6bf14f5-CrossAccountRole-8DOVJ11OKAA0
+deployarn.active.dev.intranet-jenkins:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/intranet-jenkins-dev-CrossAccountRole-TWIMA75Q44MY
+deployarn.active.dev.mattp:
+  ttl: 60
+  type: TXT
+  value: "False"
+deployarn.active.dev.my-project:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/my-project-dev-addff241-CrossAccountRole-HT3QTKUDX2NK
+deployarn.active.dev.myproject:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/myproject-dev-5fd60641-CrossAccountRole-Y33DDZUEPOUW
+deployarn.active.dev.po:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/po-dev-5ecff3b9-CrossAccountRole-1MVPOUUZ4DR04
+deployarn.active.dev.rabbitmq:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/rabbitmq-dev-459e3857-CrossAccountRole-E9X4BS81JAFN
+deployarn.active.dev.riemann:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/riemann-dev-42fe0ed2-CrossAccountRole-220SGN8K4YLH
+deployarn.active.dev.rot:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU
+deployarn.active.dev.status:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/status-dev-5e7648d9-CrossAccountRole-16ZHLNT1IYNZ8
+deployarn.active.dev.tax-tribunals-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-downloader-dev-0690-CrossAccountRole-1T5WLVE32WS50
+deployarn.active.dev.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-0931d739-CrossAccountRole-16J2JQTXX5BIY
+deployarn.active.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-115NC9VHVEKIN
+deployarn.active.dev.test:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/test-dev-aa1f94c8-CrossAccountRole-1661CLJFSHL22
+deployarn.active.dev.test-anchor:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/test-anchor-dev-e8c7ec60-CrossAccountRole-184ZW28M6RING
+deployarn.active.dev.test-seq:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/test-seq-dev-92392eac-CrossAccountRole-1NZ6YTSK4RVT6
+deployarn.active.dev.tsung:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tsung-dev-28cb76ef-CrossAccountRole-MQGP3XI35FCF
+deployarn.active.dev.vault:
+  ttl: 60
+  type: TXT
+  value: "False"
+deployarn.active.dev.vis:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vis-dev-f3b14a61-CrossAccountRole-1NKTWEPROFTJM
+deployarn.active.dev.zero:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/zero-dev-5eb371e5-CrossAccountRole-1ZGFKHJ28WLH
+deployarn.active.experimental.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-experimental-3341fb85-CrossAccountRole-1GIT2DB1SXO3L
+deployarn.active.newprod.ci:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/ci-newprod-1973491d-CrossAccountRole-FEY1ZV8UEB4W
+deployarn.active.newprod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-newprod-b1ac058e-CrossAccountRole-1U81JQ26W2GL8
+deployarn.active.prod1.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prod1-7f97d29b-CrossAccountRole-T9EHJS1H4TWL
+deployarn.active.prod.ci:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/ci-prod-d14b3969-CrossAccountRole-YRWUMSKNLFAG
+deployarn.active.prod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-prod-768454e0-CrossAccountRole-1Y9KUI5NRMLI
+deployarn.active.prod.po:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/po-prod-553a27f6-CrossAccountRole-BCXALGQKKIWA
+deployarn.active.prod.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX
+deployarn.active.prod.status:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG
+deployarn.active.prod.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX
+deployarn.active.prod.vis:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vis-prod-92ac1d7b-CrossAccountRole-1QNJEEF7FTQ6N
+deployarn.active.prodpara.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prodpara-2f97e85c-CrossAccountRole-NDY5CG3HA6KW
+deployarn.active.production.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-production-424-CrossAccountRole-8ELG8P1CPKN7
+deployarn.active.staging.accelerated-claims:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-staging-bf8677-CrossAccountRole-HO34YH5ZZYJK
+deployarn.active.staging.courtfinder:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/courtfinder-staging-dc5f8e4d-CrossAccountRole-6BX6WNAI0HKC
+deployarn.active.staging.po:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/po-staging-77c25fb8-CrossAccountRole-1NEVI39K1IUUG
+deployarn.active.staging.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY
+deployarn.active.staging.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-staging-1049b7-CrossAccountRole-GRHP7C52QR5B
+deployarn.active.staging.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-NA8CPBYWBYJZ
+deployarn.active.staging.tax-tribunals-wsproxy:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-wsproxy-staging-353-CrossAccountRole-6IIPSV8BG369
+deployarn.active.staging.vis:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vis-staging-6baf3383-CrossAccountRole-1RUFDC5RU4YJ
+deployarn.bf867755e.staging.accelerated-claims:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-staging-bf8677-CrossAccountRole-HO34YH5ZZYJK
+deployarn.c3477c63.dev.accelerated-claims:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::880656497252:role/accelerated-claims-dev-c3477c63-CrossAccountRole-1MLS9UADWIMB3
+deployarn.ca4070c2.prod.status:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG
+deployarn.dev.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-71DT5GRG6VM0
+deployarn.green.prod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/docker-registry-prod-768454e0-CrossAccountRole-1Y9KUI5NRMLI
+deployarn.ltsampros2.staging.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY
+deployarn.new2.prod.sentry:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX
+deployarn.newdev3.dev.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-0931d739-CrossAccountRole-16J2JQTXX5BIY
+deployarn.omg1.dev.vault:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/vault-dev-cacd90f1-CrossAccountRole-OMJN8J9MSSO1
+deployarn.prod1.prod.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX
+deployarn.prod5x.prod.elk:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/elk-prod-6591eacf-CrossAccountRole-1V5OJXWLFEXTG
+deployarn.staging2.staging.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-1VXPGAW8XQRUE
+deployarn.standby.prod.docker-registry:
+  ttl: 60
+  type: TXT
+  value: None
+deployarn.test2.dev.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-U53ZPYJ237QC
+deployarn.twocontainers.dev.tax-tribunals-fees:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-3fc8a252-CrossAccountRole-19VQZQDIYLZNJ
+dev-et:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.atet-dev-0-elbdev1-5vhxqbcorqqk-747506187.eu-west-1.elb.amazonaws.com.
+    type: A
+dev-lfc:
+  ttl: 300
+  type: CNAME
+  value: dev.laafeecalculator.dsd.io.
+dev-lpa.service:
+  ttl: 300
+  type: A
+  value: 54.77.92.20
+dev.administrativeappeals:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.carestandards:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.cicap:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.employmentappeals:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.financeandtax:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.immigrationservices:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.informationrights:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.internal-router:
+  ttl: 60
+  type: CNAME
+  value: internal-elbinter-z5i2nme4sf0s-1252863027.eu-west-1.elb.amazonaws.com
+dev.landregistrationdivision:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.landschamber:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
+dev.nomis-api-access:
+  ttl: 1500
+  type: NS
+  values:
+    - ns-1354.awsdns-41.org.
+    - ns-1627.awsdns-11.co.uk.
+    - ns-206.awsdns-25.com.
+    - ns-654.awsdns-17.net.
+dev.transportappeals:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-dev.azurefd.net
+devregistry.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com.
+    type: A
+devregistry.service-33c0d65b:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com.
+    type: A
+digideps.service:
+  ttl: 300
+  type: A
+  value: 54.194.218.14
+dockerails-dev:
+  ttl: 300
+  type: CNAME
+  value: elb-dev-623140939.eu-west-1.elb.amazonaws.com.
+dsd_blog:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+dutq2xwgepvjh4rjdqysfw73kmkpdyjz._domainkey.ppo:
+  ttl: 1800
+  type: CNAME
+  value: dutq2xwgepvjh4rjdqysfw73kmkpdyjz.dkim.amazonses.com
+eatd:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+elasticsearch:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: dwfja2cimdbjj.cloudfront.net.
+    type: A
+elasticsearch.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+elasticsearch.opg-backoffice-qa:
+  ttl: 300
+  type: A
+  value: 54.171.58.225
+elasticsearch.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+elasticsearch.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io.
+elasticsearch.stag-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+elasticsearch.staging-backoffice:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: monitoring.staging-backoffice
+    type: A
+elasticsearch.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+em.email.digideps.service:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
+email.digideps.service:
+  ttl: 300
+  type: TXT
+  value: v=spf1 include:sendgrid.net ~all
+email.service:
+  ttl: 300
+  type: CNAME
+  value: u2748441.wl192.sendgrid.net
+email.staging:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
+employmentappeals:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+es-hmcts:
+  ttl: 300
+  type: CNAME
+  value: search-elasticseach-hmcts-z5qgdijlc4irggzljjowt2xwby.eu-west-1.es.amazonaws.com
+et:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1373.awsdns-43.org
+    - ns-1645.awsdns-13.co.uk
+    - ns-459.awsdns-57.com
+    - ns-731.awsdns-27.net
+et.dashboard:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+fala:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1159.awsdns-16.org
+    - ns-126.awsdns-15.com
+    - ns-1885.awsdns-43.co.uk
+    - ns-932.awsdns-52.net
+familyassessment.dsd:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1293.awsdns-33.org
+    - ns-1735.awsdns-24.co.uk
+    - ns-458.awsdns-57.com
+    - ns-571.awsdns-07.net
+familymediators:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1021.awsdns-63.net.
+    - ns-1399.awsdns-46.org.
+    - ns-1538.awsdns-00.co.uk.
+    - ns-213.awsdns-26.com.
+fatt:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+feeremissions:
+  ttl: 86400
+  type: NS
+  values:
+    - ns-1263.awsdns-29.org.
+    - ns-1921.awsdns-48.co.uk.
+    - ns-70.awsdns-08.com.
+    - ns-847.awsdns-41.net.
+ftiacdailycourtlist:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+ftp:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+fyibmzgtfcszcfbnwmcysnrb6hjeq23s._domainkey.opg:
+  ttl: 1800
+  type: CNAME
+  value: fyibmzgtfcszcfbnwmcysnrb6hjeq23s.dkim.amazonses.com
+gems:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+git:
+  ttl: 300
+  type: A
+  value: 172.22.8.3
+gl_summit:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+helpwithcourtfees:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1145.awsdns-15.org.
+    - ns-2005.awsdns-58.co.uk.
+    - ns-41.awsdns-05.com.
+    - ns-864.awsdns-44.net.
+hillsborough:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+hmpps:
+  ttl: 300
+  type: NS
+  values:
+    - ns1-09.azure-dns.com.
+    - ns2-09.azure-dns.net.
+    - ns3-09.azure-dns.org.
+    - ns4-09.azure-dns.info.
+hwf:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1173.awsdns-18.org.
+    - ns-191.awsdns-23.com.
+    - ns-2004.awsdns-58.co.uk.
+    - ns-685.awsdns-21.net.
+immigrationservicestribunal:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+informationtribunal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+int-prisonvisits:
+  ttl: 30
+  type: A
+  value: 172.22.16.3
+intra:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1351.awsdns-40.org
+    - ns-143.awsdns-17.com
+    - ns-1952.awsdns-52.co.uk
+    - ns-537.awsdns-03.net
+is:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1433.awsdns-51.org.
+    - ns-1723.awsdns-23.co.uk.
+    - ns-306.awsdns-38.com.
+    - ns-554.awsdns-05.net.
+is-prod:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1378.awsdns-44.org.
+    - ns-1991.awsdns-56.co.uk.
+    - ns-39.awsdns-04.com.
+    - ns-619.awsdns-13.net.
+jenkins:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-212-120.eu-west-1.compute.amazonaws.com
+jenkins-alpha:
+  ttl: 300
+  type: A
+  value: 172.22.6.53
+jenkins-next:
+  type: CNAME
+  value: ec2-54-194-212-120.eu-west-1.compute.amazonaws.com
+jenkins-old:
+  ttl: 300
+  type: A
+  value: 54.246.250.229
+jenkins-ubuntu:
+  ttl: 300
+  type: A
+  value: 54.194.38.138
+jenkins.opg:
+  ttl: 60
+  type: A
+  value: 54.229.206.68
+jonathan-wood:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+jurorsummons:
+  ttl: 300
+  type: A
+  value: 52.73.202.113
+jurysummons:
+  ttl: 60
+  type: NS
+  values:
+    - ns-1054.awsdns-03.org.
+    - ns-1832.awsdns-37.co.uk.
+    - ns-397.awsdns-49.com.
+    - ns-687.awsdns-21.net.
+kibana.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+kibana.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+kibana.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io.
+kibana.stag-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+kibana.staging-backoffice:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: monitoring.staging-backoffice
+    type: A
+kibana.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+kube:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1187.awsdns-20.org.
+    - ns-1636.awsdns-12.co.uk.
+    - ns-453.awsdns-56.com.
+    - ns-583.awsdns-08.net.
+kwhainhpqlxqd3rncd7msr22adgpmc4e._domainkey.courtfinder:
+  ttl: 1800
+  type: CNAME
+  value: kwhainhpqlxqd3rncd7msr22adgpmc4e.dkim.amazonses.com
+laa-rota:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1259.awsdns-29.org.
+    - ns-1650.awsdns-14.co.uk.
+    - ns-487.awsdns-60.com.
+    - ns-804.awsdns-36.net.
+laafeecalculator:
+  ttl: 300
+  type: NS
+  values:
+    - ns-104.awsdns-13.com.
+    - ns-1147.awsdns-15.org.
+    - ns-1794.awsdns-32.co.uk.
+    - ns-620.awsdns-13.net.
+landstribunal:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+local:
+  ttl: 300
+  type: A
+  value: 127.0.0.1
+lpadown:
+  ttl: 60
+  type: A
+  value: 54.72.5.215
+lpawiki:
+  ttl: 300
+  type: A
+  value: 54.229.49.163
+maildrop:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-72-59-165.eu-west-1.compute.amazonaws.com
+maintain:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d2fdqongk9r3ym.cloudfront.net.
+    type: A
+maintenance:
+  ttl: 300
+  type: A
+  value: 54.93.44.205
+makeaplea:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1282.awsdns-32.org
+    - ns-1588.awsdns-06.co.uk
+    - ns-204.awsdns-25.com
+    - ns-995.awsdns-60.net
+mantis_lpa:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+mapit.service:
+  ttl: 300
+  type: CNAME
+  value: mapit-554887916.eu-west-1.elb.amazonaws.com
+master.active.dev.es:
+  ttl: 60
+  type: A
+  value: 54.154.200.180
+mediation-content:
+  ttl: 300
+  type: CNAME
+  value: mediation-content.dsd.io.herokudns.com
+membrane-sirius.service:
+  ttl: 300
+  type: CNAME
+  value: sirius.service.dsd.io
+mojintranet:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1471.awsdns-55.org.
+    - ns-1618.awsdns-10.co.uk.
+    - ns-371.awsdns-46.com.
+    - ns-666.awsdns-19.net.
+mon:
+  ttl: 300
+  type: A
+  value: 54.194.12.181
+monitoring.prod-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.195
+monitoring.scratch-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.10.45
+monitoring.staging-backoffice:
+  ttl: 300
+  type: A
+  value: 37.26.91.54
+monitoring.staging-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+noms:
+  ttl: 300
+  type: NS
+  values:
+    - ns1-07.azure-dns.com.
+    - ns2-07.azure-dns.net.
+    - ns3-07.azure-dns.org.
+    - ns4-07.azure-dns.info.
+noms-api-dev:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.nomsapi-dev-apigateway-573982909.eu-west-1.elb.amazonaws.com.
+    type: A
+noms-api-preprod:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.nomsapi-preprod-apigateway-1432711636.eu-west-1.elb.amazonaws.com.
+    type: A
+o1.em.email.digideps.service:
+  ttl: 300
+  type: A
+  value: 198.21.4.244
+opendata.justice:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+openjustice:
+  ttl: 300
+  type: CNAME
+  value: ec2-34-248-250-65.eu-west-1.compute.amazonaws.com
+opg:
+  - ttl: 300
+    type: A
+    value: 54.73.63.103
+  - ttl: 300
+    type: NS
+    values:
+      - ns-1379.awsdns-44.org
+      - ns-1970.awsdns-54.co.uk
+      - ns-660.awsdns-18.net
+      - ns-75.awsdns-09.com
+opg-backoffice-ci:
+  ttl: 300
+  type: A
+  value: 54.77.190.125
+opg-backoffice-dev-jenkins:
+  ttl: 300
+  type: A
+  value: 54.171.121.42
+opg-backoffice-dev-jenkins-build:
+  ttl: 300
+  type: A
+  value: 54.171.153.71
+opg-backoffice-dev-jenkins-deploy:
+  ttl: 300
+  type: A
+  value: 54.76.55.169
+opg-backoffice-integration:
+  ttl: 300
+  type: A
+  value: 54.194.221.57
+opg-backoffice-jenkins:
+  ttl: 300
+  type: A
+  value: 54.77.174.13
+opg-backoffice-qa:
+  ttl: 300
+  type: A
+  value: 54.171.58.225
+opg-backoffice-review:
+  ttl: 300
+  type: A
+  value: 54.171.58.225
+opg-backoffice-scratch:
+  ttl: 300
+  type: A
+  value: 54.171.198.218
+opg-backoffice-snapshot:
+  ttl: 300
+  type: A
+  value: 54.77.190.125
+opg-backoffice-training:
+  ttl: 300
+  type: A
+  value: 54.72.135.104
+opg-backoffice-uat:
+  ttl: 300
+  type: A
+  value: 54.77.107.133
+opg_blog:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+opgbackoffice:
+  ttl: 300
+  type: A
+  value: 54.72.134.170
+osscsc:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+platforms:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1273.awsdns-31.org
+    - ns-1988.awsdns-56.co.uk
+    - ns-382.awsdns-47.com
+    - ns-918.awsdns-50.net
+platforms-training:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1263.awsdns-29.org
+    - ns-1767.awsdns-28.co.uk
+    - ns-358.awsdns-44.com
+    - ns-733.awsdns-27.net
+pleaonline:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1018.awsdns-63.net.
+    - ns-111.awsdns-13.com.
+    - ns-1184.awsdns-20.org.
+    - ns-1887.awsdns-43.co.uk.
+po.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: po-prod-553a-elbpo-2om62plim7cm-984555513.eu-west-1.elb.amazonaws.com.
+    type: A
+postcode_lookup:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+ppo:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+prad:
+  ttl: 300
+  type: A
+  value: 52.19.133.172
+primaryhealthlistsdecisions:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+processmaker.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+prod.nomis-api-access:
+  ttl: 1500
+  type: NS
+  values:
+    - ns-1171.awsdns-18.org.
+    - ns-1794.awsdns-32.co.uk.
+    - ns-302.awsdns-37.com.
+    - ns-906.awsdns-49.net.
+prodregistry.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z3NF1Z3NOM5OY2
+    name: docker-re-elbprodr-hbevs36h7zcv-1550709498.eu-west-1.elb.amazonaws.com.
+    type: A
+production29:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-24-225.eu-west-1.compute.amazonaws.com
+production-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.8.196
+providercalc:
+  ttl: 300
+  type: A
+  value: 52.17.13.3
+pub:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1375.awsdns-43.org.
+    - ns-1928.awsdns-49.co.uk.
+    - ns-215.awsdns-26.com.
+    - ns-923.awsdns-51.net.
+qv5qafpkf3ojddzw7222ktvoqmjckxzs._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: qv5qafpkf3ojddzw7222ktvoqmjckxzs.dkim.amazonses.com
+registry-dev.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbregis-l9jj4g5ckwvw-1248066928.eu-west-1.elb.amazonaws.com.
+    type: A
+registry-dev.service-33c0d65b:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbregis-l9jj4g5ckwvw-1248066928.eu-west-1.elb.amazonaws.com.
+    type: A
+registry-v2.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbregis-rxc9o137ny8k-544193084.eu-west-1.elb.amazonaws.com.
+    type: A
+registry-v2.service-768454e0:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbregis-rxc9o137ny8k-544193084.eu-west-1.elb.amazonaws.com.
+    type: A
+registry.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbregis-upxzq21e2bf5-1676511926.eu-west-1.elb.amazonaws.com.
+    type: A
+registry.service-768454e0:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: docker-re-elbregis-upxzq21e2bf5-1676511926.eu-west-1.elb.amazonaws.com.
+    type: A
+repo:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+repo0:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-103-46.eu-west-1.compute.amazonaws.com
+repo1:
+  ttl: 300
+  type: A
+  value: 54.194.52.110
+rosha:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+rot-dev:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: rot-dev-9-elbrotde-1rahtcjnfk1fn-2080359527.eu-west-1.elb.amazonaws.com.
+    type: A
+rot-frontend-dev:
+  ttl: 300
+  type: A
+  value: 52.18.154.179
+rsr:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+s1._domainkey.service:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u2748441.wl192.sendgrid.net
+s2._domainkey.service:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u2748441.wl192.sendgrid.net
+scratch-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.10.45
+scratch-v1-lpa.service:
+  ttl: 300
+  type: A
+  value: 83.151.219.74
+scs:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1527.awsdns-62.org
+    - ns-1731.awsdns-24.co.uk
+    - ns-368.awsdns-46.com
+    - ns-615.awsdns-12.net
+scs-performance:
+  ttl: 300
+  type: CNAME
+  value: scs-performance.herokuapp.com
+scs.service:
+  ttl: 300
+  type: CNAME
+  value: scs-prod-rails-1856894970.eu-west-1.elb.amazonaws.com.
+search-noms-api:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
+search.noms:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
+sentry:
+  ttl: 300
+  type: CNAME
+  value: mon.dsd.io
+sentry-staging.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: sentry-st-elbsentr-1f3gedml5ov73-1658766537.eu-west-1.elb.amazonaws.com.
+    type: A
+sentry.cla.service:
+  ttl: 300
+  type: A
+  value: 185.40.9.58
+sentry.prod-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.prod-lpa.dsd.io
+sentry.scratch-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.scratch-lpa.dsd.io
+sentry.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.sentry-pr-elbsentr-1anldhpnj4rk8-1574613568.eu-west-1.elb.amazonaws.com.
+    type: A
+sentry.staging-lpa:
+  ttl: 300
+  type: CNAME
+  value: monitoring.staging-lpa.dsd.io
+service-mapper:
+  ttl: 300
+  type: CNAME
+  value: moj-archipelago.herokuapp.com.
+serviceassessments:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+servicedeskblog:
+  ttl: 300
+  type: A
+  values:
+    - 192.30.252.153
+    - 192.30.252.154
+siaacd:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+sirius.service:
+  ttl: 300
+  type: A
+  value: 37.26.91.54
+smtpapi._domainkey:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.em.email.digideps.service:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email.digideps.service:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email.staging:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+sscsvp:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+stack.0a0e49a5.vault-dev:
+  ttl: 60
+  type: TXT
+  value: 0a0e49a5
+stack.0c2e2de6.ci-prod:
+  ttl: 60
+  type: TXT
+  value: 0c2e2de6
+stack.3e929528.vis-prod:
+  ttl: 60
+  type: TXT
+  value: 3e929528
+stack.6c57c14e.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 6c57c14e
+stack.7c928508.accelerated-claims-production:
+  ttl: 60
+  type: TXT
+  value: 7c928508
+stack.33c0d65b.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: 33c0d65b
+stack.68ade87f.tax-tribunals-uploader-downloader-staging:
+  ttl: 60
+  type: TXT
+  value: 68ade87f
+stack.94f88ee6.ci-staging:
+  ttl: 60
+  type: TXT
+  value: 94f88ee6
+stack.135f87ef.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 135f87ef
+stack.910a5789.courtfinder-dev:
+  ttl: 60
+  type: TXT
+  value: 910a5789
+stack.955f2252.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 955f2252
+stack.1049b7df.tax-tribunals-fees-staging:
+  ttl: 60
+  type: TXT
+  value: 1049b7df
+stack.35383dcc.tax-tribunals-wsproxy-staging:
+  ttl: 60
+  type: TXT
+  value: 35383dcc
+stack.46266fd5.accelerated-claims-staging:
+  ttl: 60
+  type: TXT
+  value: 46266fd5
+stack.69690c5e.ci-dev:
+  ttl: 60
+  type: TXT
+  value: 69690c5e
+stack.97484c08.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 97484c08
+stack.563646a3.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 563646a3
+stack.a14bdbf7.courtfinder-dev:
+  ttl: 60
+  type: TXT
+  value: a14bdbf7
+stack.active.accelerated-claims-dev:
+  ttl: 60
+  type: TXT
+  value: c3477c63
+stack.active.accelerated-claims-production:
+  ttl: 60
+  type: TXT
+  value: 4240dcce
+stack.active.accelerated-claims-staging:
+  ttl: 60
+  type: TXT
+  value: bf86775e
+stack.active.ci-deploy-krs1:
+  ttl: 60
+  type: TXT
+  value: c1a26590
+stack.active.ci-hmcts:
+  ttl: 60
+  type: TXT
+  value: 947d340b
+stack.active.ci-newprod:
+  ttl: 60
+  type: TXT
+  value: 1973491d
+stack.active.ci-prod:
+  ttl: 60
+  type: TXT
+  value: 27a0c2a8
+stack.active.ci-staging:
+  ttl: 300
+  type: TXT
+  value: badc95fa
+stack.active.courtfinder-dev:
+  ttl: 60
+  type: TXT
+  value: 97187eb9
+stack.active.courtfinder-staging:
+  ttl: 60
+  type: TXT
+  value: dc5f8e4d
+stack.active.demo-dev:
+  ttl: 60
+  type: TXT
+  value: d045d40c
+stack.active.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: 33c0d65b
+stack.active.docker-registry-newprod:
+  ttl: 60
+  type: TXT
+  value: b1ac058e
+stack.active.docker-registry-prod:
+  ttl: 60
+  type: TXT
+  value: 768454e0
+stack.active.docker-registry-staging:
+  ttl: 60
+  type: TXT
+  value: 3602d974
+stack.active.elk-experimental:
+  ttl: 60
+  type: TXT
+  value: 3341fb85
+stack.active.elk-staging:
+  ttl: 60
+  type: TXT
+  value: be1d76ab
+stack.active.es-dev:
+  ttl: 60
+  type: TXT
+  value: 8f5874e1
+stack.active.glimr-dev:
+  ttl: 60
+  type: TXT
+  value: f6e2e5ff
+stack.active.hubot-dev:
+  ttl: 60
+  type: TXT
+  value: c1b50cae
+stack.active.hubot-dev2:
+  ttl: 60
+  type: TXT
+  value: 777da8bf
+stack.active.huboto-dev:
+  ttl: 60
+  type: TXT
+  value: f6bf14f5
+stack.active.ks-deploy-dev:
+  ttl: 60
+  type: TXT
+  value: 203cda55
+stack.active.my-project-dev:
+  ttl: 60
+  type: TXT
+  value: addff241
+stack.active.myproject-dev:
+  ttl: 60
+  type: TXT
+  value: 5fd60641
+stack.active.mything-dev:
+  ttl: 60
+  type: TXT
+  value: 01f9f68f
+stack.active.po-dev:
+  ttl: 60
+  type: TXT
+  value: 5ecff3b9
+stack.active.po-prod:
+  ttl: 60
+  type: TXT
+  value: 553a27f6
+stack.active.po-staging:
+  ttl: 60
+  type: TXT
+  value: 77c25fb8
+stack.active.rabbitmq-dev:
+  ttl: 60
+  type: TXT
+  value: 459e3857
+stack.active.riemann-dev:
+  ttl: 60
+  type: TXT
+  value: 42fe0ed2
+stack.active.rot-dev:
+  ttl: 60
+  type: TXT
+  value: 97484c08
+stack.active.senrty-staging:
+  ttl: 300
+  type: TXT
+  value: cdde1be0
+stack.active.sentry-prod:
+  ttl: 60
+  type: TXT
+  value: d816934f
+stack.active.sentry-prod1:
+  ttl: 60
+  type: TXT
+  value: 7f97d29b
+stack.active.sentry-prodpara:
+  ttl: 60
+  type: TXT
+  value: 2f97e85c
+stack.active.sentry-staging:
+  ttl: 60
+  type: TXT
+  value: cdde1be0
+stack.active.snd-dev:
+  ttl: 60
+  type: TXT
+  value: d41dfc31
+stack.active.staff-staging:
+  ttl: 60
+  type: TXT
+  value: "26063002"
+stack.active.tax-tribunals-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 0690ca98
+stack.active.tax-tribunals-fees-dev:
+  ttl: 60
+  type: TXT
+  value: 0931d739
+stack.active.tax-tribunals-fees-prod:
+  ttl: 60
+  type: TXT
+  value: f6885b5e
+stack.active.tax-tribunals-fees-staging:
+  ttl: 60
+  type: TXT
+  value: 1049b7df
+stack.active.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 563646a3
+stack.active.tax-tribunals-uploader-downloader-staging:
+  ttl: 60
+  type: TXT
+  value: 68ade87f
+stack.active.tax-tribunals-wsproxy-staging:
+  ttl: 60
+  type: TXT
+  value: 35383dcc
+stack.active.template-deploy-dev:
+  ttl: 60
+  type: TXT
+  value: f7a81cb0
+stack.active.test-anchor-dev:
+  ttl: 60
+  type: TXT
+  value: e8c7ec60
+stack.active.test-anchors-dev:
+  ttl: 60
+  type: TXT
+  value: 871fdc9c
+stack.active.test-dev:
+  ttl: 60
+  type: TXT
+  value: 561ccbad
+stack.active.test-reboot-dev:
+  ttl: 60
+  type: TXT
+  value: 2b0f12f3
+stack.active.test-seq-dev:
+  ttl: 60
+  type: TXT
+  value: 92392eac
+stack.active.tsung-dev:
+  ttl: 60
+  type: TXT
+  value: 28cb76ef
+stack.active.vault-dev:
+  ttl: 60
+  type: TXT
+  value: cacd90f1
+stack.active.vis-dev:
+  ttl: 60
+  type: TXT
+  value: f3b14a61
+stack.active.vis-prod:
+  ttl: 60
+  type: TXT
+  value: 92ac1d7b
+stack.active.vis-staging:
+  ttl: 60
+  type: TXT
+  value: 6baf3383
+stack.active.zero-dev:
+  ttl: 60
+  type: TXT
+  value: 5eb371e5
+stack.af6eae4a.tax-tribunals-wsproxy-staging:
+  ttl: 60
+  type: TXT
+  value: af6eae4a
+stack.b0e6c9da.rot-dev:
+  ttl: 60
+  type: TXT
+  value: b0e6c9da
+stack.b9dedd13.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: b9dedd13
+stack.b74a1674.ci-dev:
+  ttl: 60
+  type: TXT
+  value: b74a1674
+stack.b645b39b.ci-staging:
+  ttl: 60
+  type: TXT
+  value: b645b39b
+stack.b5203942.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: b5203942
+stack.badc95fa.ci-staging:
+  ttl: 60
+  type: TXT
+  value: badc95fa
+stack.bf86775e.accelerated-claims-staging:
+  ttl: 300
+  type: TXT
+  value: bf86775e
+stack.c3477c63.accelerated-claims-dev:
+  ttl: 300
+  type: TXT
+  value: c3477c63
+stack.c2550272.ci-dev:
+  ttl: 60
+  type: TXT
+  value: c2550272
+stack.dev.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 0f6e2ce8
+stack.devreg.docker-registry-dev:
+  ttl: 60
+  type: TXT
+  value: c87a6ccc
+stack.e1666d1f.ci-dev:
+  ttl: 60
+  type: TXT
+  value: e1666d1f
+stack.f7d8c1ea.rot-dev:
+  ttl: 60
+  type: TXT
+  value: f7d8c1ea
+stack.f52dbd37.rot-dev:
+  ttl: 60
+  type: TXT
+  value: f52dbd37
+stack.f9185e99.rot-dev:
+  ttl: 60
+  type: TXT
+  value: f9185e99
+stack.green.docker-registry-prod:
+  ttl: 60
+  type: TXT
+  value: 768454e0
+stack.green.mattp-dev:
+  ttl: 60
+  type: TXT
+  value: 03188574
+stack.ltsampros2.sentry-staging:
+  ttl: 60
+  type: TXT
+  value: cdde1be0
+stack.ltsampros3.sentry-staging:
+  ttl: 60
+  type: TXT
+  value: dd30b374
+stack.new2.sentry-prod:
+  ttl: 60
+  type: TXT
+  value: d816934f
+stack.newdev3.tax-tribunals-fees-dev:
+  ttl: 60
+  type: TXT
+  value: 0931d739
+stack.newdev3.tax-tribunals-uploader-downloader-dev:
+  ttl: 60
+  type: TXT
+  value: 49e518fe
+stack.omg1.vault-dev:
+  ttl: 60
+  type: TXT
+  value: cacd90f1
+stack.prod1.tax-tribunals-fees-prod:
+  ttl: 60
+  type: TXT
+  value: f6885b5e
+stack.prod10.tax-tribunals-feespayment-prod:
+  ttl: 60
+  type: TXT
+  value: 2e0665b9
+stack.staging2.tax-tribunals-uploader-downloader-staging:
+  ttl: 60
+  type: TXT
+  value: 68989a9a
+stack.test_cfn_update.tax-tribunals-fees-dev:
+  ttl: 60
+  type: TXT
+  value: fa049ac1
+staging43:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-78-102.eu-west-1.compute.amazonaws.com
+staging44:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-111-61.eu-west-1.compute.amazonaws.com
+staging47:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-156-23.eu-west-1.compute.amazonaws.com
+staging-digideps.service:
+  ttl: 300
+  type: A
+  value: 54.76.171.16
+staging-et:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.atet-stag-elbstagi-1rsc8jaqj2xer-572896377.eu-west-1.elb.amazonaws.com.
+    type: A
+staging-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+staging-product-tracker:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.moj-produ-elbstagi-f27cyb85pklx-250525843.eu-west-1.elb.amazonaws.com.
+    type: A
+staging-v1-lpa.service:
+  ttl: 300
+  type: A
+  value: 83.151.213.226
+staging.administrativeappeals:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.carestandards:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.cicap:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.employmentappeals:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.financeandtax:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.immigrationservices:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.informationrights:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.landregistrationdivision:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.landschamber:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
+staging.transportappeals:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-stg.azurefd.net
+static:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+status-staging.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: status-st-elbstatu-11nclt5x9b82a-690920659.eu-west-1.elb.amazonaws.com.
+    type: A
+status.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.awseb-awseb-s4t6mlupj7np-31851715.eu-west-1.elb.amazonaws.com.
+    type: A
+stunnel-redis-dev.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: elk-dev-9-elbstunn-12vcfmu9ommpz-2080647487.eu-west-1.elb.amazonaws.com.
+    type: A
+stunnel-redis-stg.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: elk-stagi-elbstunn-1kux5y9dx1apv-1629176595.eu-west-1.elb.amazonaws.com.
+    type: A
+stunnel-redis.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: elk-prod-elbstunn-7fng2mdj9m1f-813182817.eu-west-1.elb.amazonaws.com.
+    type: A
+sugar.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+svkdg7soiv4iwzx6rczvjircjf42xdvi._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: svkdg7soiv4iwzx6rczvjircjf42xdvi.dkim.amazonses.com
+swagger.opg:
+  ttl: 300
+  type: CNAME
+  value: jenkins.opg.dsd.io
+tactical-products:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1081.awsdns-07.org.
+    - ns-1982.awsdns-55.co.uk.
+    - ns-221.awsdns-27.com.
+    - ns-832.awsdns-40.net.
+tacticalproducts:
+  ttl: 300
+  type: NS
+  values:
+    - ns-106.awsdns-13.com.
+    - ns-1470.awsdns-55.org.
+    - ns-1965.awsdns-53.co.uk.
+    - ns-974.awsdns-57.net.
+tacticalproductsalb:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1122.awsdns-12.org.
+    - ns-1811.awsdns-34.co.uk.
+    - ns-448.awsdns-56.com.
+    - ns-826.awsdns-39.net.
+tacticalproductshmcts:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1497.awsdns-59.org.
+    - ns-1635.awsdns-12.co.uk.
+    - ns-258.awsdns-32.com.
+    - ns-975.awsdns-57.net.
+tax-tribunal.service-f6885b5e:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-a991huwg3wgs-1185343906.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-datacapture-dev:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-1iu6bsfiyp2v7-62698893.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-datacapture-dev2:
+  ttl: 60
+  type: CNAME
+  value: tax-tribunals-datacapture-dev.dsd.io
+tax-tribunals-datacapture-dev-0931d739:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-1iu6bsfiyp2v7-62698893.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-datacapture-staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-datacapture-staging-1049b7df:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-downloader-dev:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-1wgslhpbyu3yw-1470911889.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-downloader-dev-563646a3:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-1wgslhpbyu3yw-1470911889.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-downloader-staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-flukwjdtpqna-104748645.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-downloader-staging-68ade87f:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-flukwjdtpqna-104748645.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-fees-dev:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-h7kiu9v96wom-1335287201.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-fees-dev-0931d739:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-h7kiu9v96wom-1335287201.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-internal-uploader-dev:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-tax-tribu-elbtaxtr-b3mvbezjssw0-438978380.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-internal-uploader-dev-563646a3:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-tax-tribu-elbtaxtr-b3mvbezjssw0-438978380.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-internal-uploader-staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: tax-tribunals-internal-uploader-staging-68ade87f
+    type: A
+tax-tribunals-internal-uploader-staging-68ade87f:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-tax-tribu-elbtaxtr-1ifg4wpv0cd6l-1533491537.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-uploader-dev:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-1phg4u5zl91bh-591850276.eu-west-1.elb.amazonaws.com.
+    type: A
+tax-tribunals-uploader-staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbtaxtr-8b5enk4npxdw-2132578496.eu-west-1.elb.amazonaws.com.
+    type: A
+taxtribsecs:
+  ttl: 60
+  type: CNAME
+  value: ecs-taxtribs-1587962178.eu-west-1.elb.amazonaws.com
+taxtribunals:
+  ttl: 86400
+  type: NS
+  values:
+    - ns-1245.awsdns-27.org.
+    - ns-1924.awsdns-48.co.uk.
+    - ns-280.awsdns-35.com.
+    - ns-984.awsdns-59.net.
+tipstaff-training:
+  ttl: 300
+  type: A
+  value: 52.49.163.38
+tp:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1290.awsdns-33.org.
+    - ns-1882.awsdns-43.co.uk.
+    - ns-275.awsdns-34.com.
+    - ns-902.awsdns-48.net.
+transport:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
+tribunals2:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+ucchome:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z3AQBSTGFYJSTF
+    name: s3-website-us-east-1.amazonaws.com.
+    type: A
+ul6mlfh6npxr5mfjd65qlhn7ut7jleo4._domainkey.courtfinder:
+  ttl: 1800
+  type: CNAME
+  value: ul6mlfh6npxr5mfjd65qlhn7ut7jleo4.dkim.amazonses.com
+utiacdailycourtlist:
+  ttl: 300
+  type: CNAME
+  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
+vault-dev.service:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: vault-dev-elbvault-2n7xxzl638mh-723631155.eu-west-1.elb.amazonaws.com.
+    type: A
+victim_services:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+vpn:
+  ttl: 300
+  type: A
+  value: 54.77.178.131
+wardship:
+  ttl: 300
+  type: A
+  value: 52.19.133.172
+web-ssh.service:
+  ttl: 300
+  type: A
+  value: 54.77.250.158
+webhelpdesk:
+  ttl: 300
+  type: A
+  value: 52.19.187.43
+wiki:
+  ttl: 300
+  type: A
+  value: 54.229.73.119
+wordpress_salt_test:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+wp:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1486.awsdns-57.org.
+    - ns-1882.awsdns-43.co.uk.
+    - ns-194.awsdns-24.com.
+    - ns-787.awsdns-34.net.
+www.staging-lpa:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+www.staging-lpa.service:
+  ttl: 300
+  type: A
+  value: 185.40.8.37
+www.staging-v1-lpa.service:
+  ttl: 300
+  type: CNAME
+  value: staging-v1-lpa.service.dsd.io.
+x:
+  ttl: 60
+  type: A
+  value: 54.229.49.135
+ybtj:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
+ydu5yan7zvss4dzjahepxa6tknn3wvy4._domainkey.opg:
+  ttl: 1800
+  type: CNAME
+  value: ydu5yan7zvss4dzjahepxa6tknn3wvy4.dkim.amazonses.com
+yjbpublications:
+  ttl: 300
+  type: A
+  value: 54.194.101.35
+yjils:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-101-35.eu-west-1.compute.amazonaws.com
+zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw._domainkey.courtfinder:
+  ttl: 1800
+  type: CNAME
+  value: zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw.dkim.amazonses.com
