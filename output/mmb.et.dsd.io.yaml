@@ -1,5 +1,0 @@
----
-test:
-  ttl: 300
-  type: A
-  value: 1.1.1.1

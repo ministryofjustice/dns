@@ -1,5 +1,0 @@
----
-? ''
-: ttl: 300
-  type: TXT
-  value: heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/monitoring/foobar

@@ -1,5 +1,0 @@
----
-stack.active.accelerated-claims-demo:
-  ttl: 60
-  type: TXT
-  value: 7ecdbaee

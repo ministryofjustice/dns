@@ -1,5 +1,0 @@
----
-stack.active.correspondence-tool-dev:
-  ttl: 60
-  type: TXT
-  value: 8d583ab7
