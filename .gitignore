@@ -1,6 +1,12 @@
-*~
+.env
+.venv
 venv
-
-defensive-domains/config.yaml
-defensive-domains/config/*
-defensive-domains/live/*
+env
+*.pkg
+.vscode
+.idea/
+*.pyc
+coverage.xml
+.coverage
+*__pycache__*
+.DS_Store
