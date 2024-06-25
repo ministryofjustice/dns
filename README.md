@@ -1,9 +1,9 @@
-```markdown
 # MoJ DNS Management
 
 This repository manages DNS records for the Ministry of Justice using [octoDNS](https://github.com/octodns/octodns). It provides a streamlined, code-based approach to DNS management, ensuring consistency and enabling version control for our DNS records.
 
 ## Repository Structure
+
 ```
 .
 ├── .github/                # GitHub Actions workflows
@@ -53,6 +53,7 @@ blog:
 www:
   type: CNAME
   value: example.com.
+```
 
 ## Configuration
 
@@ -97,4 +98,3 @@ pip install -r requirements.txt
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
