@@ -1,0 +1,117 @@
+---
+? ''
+: - type: MX
+    value:
+      exchange: ospt-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1042.awsdns-02.org.
+    - ns-1855.awsdns-39.co.uk.
+    - ns-43.awsdns-05.com.
+    - ns-847.awsdns-41.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+  - type: TXT
+    values:
+    - MS=ms66225806
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+      -all
+47klhk64a2fmag4rljvb7umybpa22yff._domainkey:
+  ttl: 300
+  type: CNAME
+  value: 47klhk64a2fmag4rljvb7umybpa22yff.dkim.amazonses.com
+_01a6193a9fc29e76510ba8698a3d24eb.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _eb634dfeae92e852f8f6316267a21164.nhsllhhtvj.acm-validations.aws.
+_asvdns-f4256ae3-55cc-40ce-86cc-d3f833d93494:
+  ttl: 300
+  type: TXT
+  value: asvdns_b4fd8690-df31-4d0c-8e66-5075ab7e382e
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=507a481cc88850198bb9445c9f882b62
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+fp01._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+jqperhgxfk4yltn7kshs2uat7royantt._domainkey:
+  ttl: 300
+  type: CNAME
+  value: jqperhgxfk4yltn7kshs2uat7royantt.dkim.amazonses.com
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d1ph6h5194eqy.cloudfront.net.
+    type: A
+selector1._domainkey:
+  type: CNAME
+  value: selector1-ospt-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  type: CNAME
+  value: selector2-ospt-gov-uk._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+soteria:
+- ttl: 300
+  type: MX
+  value:
+    exchange: feedback-smtp.eu-west-1.amazonses.com
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com -all
+syeasxotcr6glafifmrsqjviy2ho6v63._domainkey:
+  ttl: 300
+  type: CNAME
+  value: syeasxotcr6glafifmrsqjviy2ho6v63.dkim.amazonses.com

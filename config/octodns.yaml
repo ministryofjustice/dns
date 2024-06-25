@@ -11,7 +11,7 @@ providers:
     secret_access_key: env/AWS_SECRET_ACCESS_KEY
 
 zones:
-  dsd.io.:
+  "*":
     lenient: true
     sources:
       - config

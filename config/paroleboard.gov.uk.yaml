@@ -1,0 +1,143 @@
+---
+? ''
+: - type: MX
+    value:
+      exchange: paroleboard-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1480.awsdns-57.org.
+    - ns-1689.awsdns-19.co.uk.
+    - ns-56.awsdns-07.com.
+    - ns-708.awsdns-24.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+  - type: TXT
+    values:
+    - YcrqOH4L
+    - ms=ms20657591
+    - v=spf1 ip4:20.77.102.3 include:spf.protection.outlook.com include:mail.zendesk.com
+      -all
+_9da00739498cdee5a1a19390aae22b37.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _845bf7d02211cdfb7b9644f8b0a06a7f.mhbtsbpdnt.acm-validations.aws.
+_a114e38d82c755ce883c37f350dada85.sopvpn:
+  ttl: 300
+  type: CNAME
+  value: 8fead41b177f6ebb9d54b20f3312f048.53860b05aac1c736d1eb133031afcdd1.af94ed0d6f5acc95f971.sectigo.com.
+_asvdns-5799bcf5-6136-4b92-a9f7-4cec52700cee:
+  ttl: 300
+  type: TXT
+  value: asvdns_cd99762a-86af-4aee-b9e2-5bac74b85bc9
+_cccbf7aa1e242b94727e9b3c150b2868.sopvpn:
+  ttl: 300
+  type: CNAME
+  value: 2c94ac273e46ccb91172724c670a3b5d.dcf82a62a4892c42c49b25dfe3ad228d.aa33b76722ce5e67f56a.sectigo.com.
+_d362da6a5ebefca52f3db9a59b650a1e.sopvpn:
+  ttl: 300
+  type: CNAME
+  value: a3813383a7c71fe8221707db308896b8.40a7d4b12fcf686bdad95b15e064e5f4.8b359345029eed3f635a.sectigo.com.
+_dc33ec263a21d26946f2143d35971eca.sopvpn:
+  ttl: 300
+  type: CNAME
+  value: 5a8e12fb5730a937ca2fda24efd9a98b.eb3e6280a645bb04ee1c1f9e6b565d1e.8261562a528e0312643d.sectigo.com.
+_dmarc:
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@paroleboard.gov.uk
+_msradc:
+  ttl: 300
+  type: TXT
+  value: https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=d3c166db45a506d6876e8eb1bb857d37
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+avpn:
+  ttl: 600
+  type: A
+  value: 51.149.2.10
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d2p5kktdrccbwu.cloudfront.net.
+    type: A
+remote:
+  ttl: 600
+  type: A
+  value: 51.140.159.248
+selector1._domainkey:
+  type: CNAME
+  value: selector1-paroleboard-gov-uk._domainkey.digitalparole.onmicrosoft.com
+selector2._domainkey:
+  type: CNAME
+  value: selector2-paroleboard-gov-uk._domainkey.digitalparole.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+sopvpn:
+  ttl: 300
+  type: A
+  value: 20.50.110.11
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+zendesk1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: zendesk1._domainkey.zendesk.com
+zendesk2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: zendesk2._domainkey.zendesk.com
+zendeskverification:
+  ttl: 300
+  type: TXT
+  value: 5765b5a9680e3466

@@ -1,0 +1,112 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 185.65.103.4
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1317.awsdns-36.org.
+    - ns-1996.awsdns-57.co.uk.
+    - ns-451.awsdns-56.com.
+    - ns-813.awsdns-37.net.
+9b54da44ae6d246509c67d65c653e30a:
+  ttl: 10800
+  type: CNAME
+  value: d0d0e8f02cd2f9074a4dfefea3c35ed9b8e9ea78.comodoca.com.
+489169c0ac082ed7824fff0bca989aca:
+  ttl: 300
+  type: CNAME
+  value: b38d577d3596ee48cdbcb16b2294f8e45a9428be.comodoca.com.
+_69f59c817110ff626446ec2c8ed2a9fc:
+  ttl: 300
+  type: CNAME
+  value: 70a0744ec2382f5f412b773b8f2e377f.ac421e9106e0a855d527bf6480f02aa2.d67b6b1e0556f3d2156c.comodoca.com.
+_71ef21558f402e4fecca86c7e53def3e:
+  ttl: 300
+  type: CNAME
+  value: e383e4ff4006bcade3451891d9767bb2.5f9ca01998b557373e247ac14ee9d486.c5374addd1a3d024c3a0.comodoca.com.
+_36458ee9dd152055d9a30e8ad95c5544:
+  ttl: 300
+  type: CNAME
+  value: 929f5181160507a75f8dbef7cad33cb3.e7d1a5a515e7754854e197178389299f.d3d92bc35d062c83f89b.comodoca.com.
+_bdd003c5ec12a5f9635d347457484708:
+  ttl: 300
+  type: CNAME
+  value: c3fec7d9714f164823868611c5e415c3.281db72b252af9159667150ccd6ab104.579036d9585c651f97a1.comodoca.com.
+_bfdbfb4b843cd94cf4de09e69b06efc3:
+  ttl: 300
+  type: CNAME
+  value: 42096f0e4dcc34866312a900aede5537.a537a508ee69a068e3dd7ddd0c42914f.c110f3fd3ee12cc12d73.comodoca.com.
+_d5b9933a19fb7dfc865de82300269510:
+  ttl: 300
+  type: CNAME
+  value: 340b919d2b182177d64c76d2e4bfd19d.0e07114a038bd2474aeba526e8544295.923cac285a4b2e03d3d6.comodoca.com.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+devifx10ext:
+  ttl: 300
+  type: A
+  value: 178.250.98.218
+devsoa20:
+  ttl: 300
+  type: A
+  value: 185.81.163.204
+ftp:
+  ttl: 300
+  type: A
+  value: 185.65.103.6
+redcvpn:
+  ttl: 300
+  type: A
+  value: 185.65.103.4
+sitcwa10:
+  ttl: 300
+  type: A
+  value: 185.81.163.199
+siteag10:
+  ttl: 300
+  type: A
+  value: 185.81.163.201
+sitpui10:
+  ttl: 300
+  type: A
+  value: 185.81.163.200
+sitsoa10:
+  ttl: 300
+  type: A
+  value: 185.81.163.203
+sndsoa20:
+  ttl: 300
+  type: A
+  value: 185.81.163.202
+svsclf10ext:
+  ttl: 300
+  type: A
+  value: 185.81.163.192
+svscwa10ext:
+  ttl: 300
+  type: A
+  value: 185.81.163.193
+svsebs10:
+  ttl: 300
+  type: A
+  value: 185.81.163.192
+svsiam10ext:
+  ttl: 300
+  type: A
+  value: 185.81.163.197
+svspor10ext:
+  ttl: 300
+  type: A
+  value: 185.81.163.195
+svspui10ext:
+  ttl: 300
+  type: A
+  value: 185.81.163.196
+svssso10ext:
+  ttl: 300
+  type: A
+  value: 185.81.163.194

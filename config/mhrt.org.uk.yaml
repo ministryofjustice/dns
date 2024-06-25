@@ -1,0 +1,24 @@
+---
+? ''
+: - ttl: 1800
+    type: A
+    value: 52.30.196.9
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1360.awsdns-42.org.
+    - ns-1603.awsdns-08.co.uk.
+    - ns-55.awsdns-06.com.
+    - ns-775.awsdns-32.net.
+_asvdns-0953d2d1-725e-4a30-8d72-ea267e47a643:
+  ttl: 300
+  type: TXT
+  value: asvdns_8f499a4a-1df1-4dad-80ff-eb565543a402
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+www:
+  ttl: 1800
+  type: A
+  value: 52.30.196.9

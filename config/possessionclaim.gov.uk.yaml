@@ -1,0 +1,92 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1307.awsdns-35.org.
+    - ns-1832.awsdns-37.co.uk.
+    - ns-205.awsdns-25.com.
+    - ns-905.awsdns-49.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: true
+      hosted-zone-id: Z3GKZC51ZF0DB4
+      name: s3-website.eu-west-2.amazonaws.com.
+      type: A
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+_ed60922ca184fbf575a566d49400efd0:
+  ttl: 300
+  type: CNAME
+  value: _fb80be93cc626e2e71c64aab5097d5b2.gxwgcdsjsl.acm-validations.aws.
+www:
+  ttl: 300
+  type: CNAME
+  value: hmcts-live-ext-fpahfmgkfrf2cxff.z01.azurefd.net
+www.backend:
+  ttl: 1800
+  type: A
+  value: 62.208.144.66
+www.birmingham:
+  ttl: 1800
+  type: A
+  value: 62.208.144.69
+www.bristol:
+  ttl: 1800
+  type: A
+  value: 62.208.144.68
+www.cardiff:
+  ttl: 1800
+  type: A
+  value: 62.208.144.67
+www.leeds:
+  ttl: 1800
+  type: A
+  value: 62.208.144.70
+www.london1:
+  ttl: 1800
+  type: A
+  value: 62.208.144.71
+www.london2:
+  ttl: 1800
+  type: A
+  value: 62.208.144.72
+www.manchester:
+  ttl: 1800
+  type: A
+  value: 62.208.144.73
+www.testclaim:
+  ttl: 1800
+  type: A
+  value: 62.208.144.74
+www.training01:
+  ttl: 1800
+  type: A
+  value: 62.208.144.69
+www.training02:
+  ttl: 1800
+  type: A
+  value: 62.208.144.70
+www.training03:
+  ttl: 1800
+  type: A
+  value: 62.208.144.73
+www.training04:
+  ttl: 1800
+  type: A
+  value: 62.208.144.71
+www.training05:
+  ttl: 1800
+  type: A
+  value: 62.208.144.72
+www.training06:
+  ttl: 1800
+  type: A
+  value: 62.208.144.68
+www.training07:
+  ttl: 1800
+  type: A
+  value: 62.208.144.67
