@@ -17,3 +17,8 @@ zones:
       - config
     targets:
       - route53
+  "*":
+    sources:
+      - config
+    targets:
+      - route53

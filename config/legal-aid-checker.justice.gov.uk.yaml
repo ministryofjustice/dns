@@ -1,0 +1,28 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1095.awsdns-08.org.
+    - ns-1948.awsdns-51.co.uk.
+    - ns-285.awsdns-35.com.
+    - ns-759.awsdns-30.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d37wz3v9mlu31k.cloudfront.net.
+      type: A
+_9481e6b6eca630055932d5902ca2c867:
+  ttl: 300
+  type: CNAME
+  value: _7c3cd1c881876750f01ce58aa5ca2f8b.cbwbddjkwp.acm-validations.aws.
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
