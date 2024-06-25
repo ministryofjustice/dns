@@ -33,7 +33,7 @@ jobs:
 
       - name: Send notification to Slack
         if: failure() || contains(steps.check-zones.outputs.check_output, 'not managed by octoDNS')
-        uses: slackapi/slack-github-action@v1.24.0
+        uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
         with:
           payload: |
             {
@@ -85,3 +85,4 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+
