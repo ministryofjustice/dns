@@ -15,7 +15,7 @@ define check_aws_creds
 	fi
 endef
 
-.PHONY: help install edit-zone validate-zones sync-dry-run sync-apply list-zones dump-zone compare-zone clean
+.PHONY: help install edit-zone validate-zones sync-dry-run sync-apply list-zones dump-zone compare-zone clean test
 
 help:
 	@echo "Available commands:"
@@ -29,6 +29,7 @@ help:
 	@echo "  make dump-zone zone=<zone> - Dump the current live configuration for a zone"
 	@echo "  make compare-zone zone=<zone> - Compare a zone file with its live configuration"
 	@echo "  make clean                - Clean up generated files"
+	@echo "  make test                 - Run the test suite"
 
 install:
 	python3 -m venv venv
@@ -93,6 +94,9 @@ clean:
 	@rm -rf venv tmp
 	@find . -type f -name "*.pyc" -delete
 	@find . -type d -name "__pycache__" -delete
+
+test: install
+	@. venv/bin/activate && python -m pytest tests/
 
 .DEFAULT_GOAL := help
 
