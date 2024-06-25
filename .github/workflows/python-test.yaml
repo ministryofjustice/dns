@@ -1,0 +1,98 @@
+name: Run Tests
+
+on:
+  push:
+    paths:
+      - "**.py"
+  pull_request:
+    paths:
+      - "**.py"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          make install
+
+      - name: Run tests
+        run: |
+          make test
+
+      - name: Notify Slack on failure
+        if: failure()
+        uses: 8398a7/action-slack@28ba43ae48961b90635b50953d216767a6bea486
+        with:
+          status: custom
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+          custom_payload: |
+            {
+              blocks: [
+                {
+                  type: "section",
+                  text: {
+                    type: "mrkdwn",
+                    text: ":rotating_light: *DNS Python Test Failure Alert* :rotating_light:"
+                  }
+                },
+                {
+                  type: "section",
+                  fields: [
+                    {
+                      type: "mrkdwn",
+                      text: "*Repository:*\n${{ github.repository }}"
+                    },
+                    {
+                      type: "mrkdwn",
+                      text: "*Branch:*\n${{ github.ref }}"
+                    }
+                  ]
+                },
+                {
+                  type: "section",
+                  fields: [
+                    {
+                      type: "mrkdwn",
+                      text: "*Commit:*\n${{ github.sha }}"
+                    },
+                    {
+                      type: "mrkdwn",
+                      text: "*Author:*\n${{ github.actor }}"
+                    }
+                  ]
+                },
+                {
+                  type: "section",
+                  text: {
+                    type: "mrkdwn",
+                    text: "*Workflow:* ${{ github.workflow }}\n*Job:* ${{ github.job }}\n*Duration:* ${{ steps.run-tests.outputs.time }}"
+                  }
+                },
+                {
+                  type: "actions",
+                  elements: [
+                    {
+                      type: "button",
+                      text: {
+                        type: "plain_text",
+                        text: "View GitHub Actions",
+                        emoji: true
+                      },
+                      url: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                    }
+                  ]
+                }
+              ],
+              color: "danger"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
