@@ -1,0 +1,16 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1180.awsdns-19.org.
+    - ns-2046.awsdns-63.co.uk.
+    - ns-298.awsdns-37.com.
+    - ns-645.awsdns-16.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A

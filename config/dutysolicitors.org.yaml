@@ -1,0 +1,47 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 84.43.86.102
+  - type: MX
+    value:
+      exchange: dutysolicitors-org.mail.protection.outlook.com.
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1492.awsdns-58.org.
+    - ns-1687.awsdns-18.co.uk.
+    - ns-197.awsdns-24.com.
+    - ns-553.awsdns-05.net.
+  - type: TXT
+    values:
+    - MS=ms36435977
+    - v=spf1 include:spf.protection.outlook.com -all
+_asvdns-a5910d32-6e1c-4edf-92be-8ae6cdedbc31:
+  ttl: 300
+  type: TXT
+  value: asvdns_335f5ecf-d57a-4d7e-86a5-4747a545b7fc
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com.
+selector1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector1-dutysolicitors-org._domainkey.carelinemail.onmicrosoft.com
+selector2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector2-dutysolicitors-org._domainkey.carelinemail.onmicrosoft.com
+www:
+  ttl: 300
+  type: A
+  value: 84.43.86.102

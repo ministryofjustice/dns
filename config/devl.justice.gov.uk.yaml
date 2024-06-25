@@ -1,0 +1,64 @@
+---
+? ''
+: - type: MX
+    value:
+      exchange: devl-justice-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1267.awsdns-30.org.
+    - ns-2037.awsdns-62.co.uk.
+    - ns-358.awsdns-44.com.
+    - ns-965.awsdns-56.net.
+  - type: TXT
+    value: v=spf1 include:spf.protection.outlook.com -all
+_735b486553cdfa713eebbd5f2ff3d69b.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _833c8f7f3f503c6a395a44088dab4250.kgnrpmcdhl.acm-validations.aws.
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=4adfca9f114c6d7c82119b69fa97fece
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com.
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com.
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d1k9a5875p40im.cloudfront.net.
+    type: A
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com

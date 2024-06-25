@@ -1,0 +1,288 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1145.awsdns-15.org.
+    - ns-2005.awsdns-58.co.uk.
+    - ns-41.awsdns-05.com.
+    - ns-864.awsdns-44.net.
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:sendgrid.net -all
+51c2c5a4be473aa3a88fbdaa310a11bf:
+  ttl: 300
+  type: CNAME
+  value: f155ce4ac7733a83314cdedd333d49952fd6307e.comodoca.com
+908c7534ac389850cbe63fafb97f75b6:
+  ttl: 300
+  type: CNAME
+  value: 407c0dec3c0de64865eeaa60d8d81f4ac0d203bb.comodoca.com.
+_229ffb9e9efb65bdf9a729ca9a7b83d8:
+  ttl: 300
+  type: CNAME
+  value: _ee6ca33d3ce4c19899aa983c087b36ae.hkvuiqjoua.acm-validations.aws.
+_asvdns-5624d174-57de-4a8b-8fd5-21845569f891:
+  ttl: 300
+  type: TXT
+  value: asvdns_27089b50-9719-4cb5-91bf-c423afe89fd6
+api-demo2:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-elb-api-demo2-1225659697.eu-west-1.elb.amazonaws.com.
+    type: A
+api-staging2:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-elb-api-staging2-853069049.eu-west-1.elb.amazonaws.com.
+    type: A
+deployarn.active.demo.fr-api:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-api-demo-bd15658e-CrossAccountRole-1KIJRXS4TBZ3E
+deployarn.active.demo.fr-staff:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-staff-demo-75afe098-CrossAccountRole-1AIQB6A14FYHS
+deployarn.active.staging1.fr-staff:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-staff-staging1-c4c42819-CrossAccountRole-15HVP12E08EBI
+deployarn.active.staging.fr-api:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-api-staging-a51a3f1f-CrossAccountRole-A2T9QS5FKVUH
+deployarn.active.staging.fr-staff:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-staff-staging-76488ae2-CrossAccountRole-1D8WTZ6LYK3LU
+deployarn.active.trial.fr-api:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-api-trial-75b36e9f-CrossAccountRole-16U3I6M0AIB73
+deployarn.active.trial.fr-staff:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-staff-trial-7e206fb8-CrossAccountRole-R9H25BA84IOG
+deployarn.staging.staging1.fr-staff:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-staff-staging1-c4c42819-CrossAccountRole-15HVP12E08EBI
+deployarn.trial3.trial.fr-staff:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/fr-staff-trial-ad6c0ec3-CrossAccountRole-1IN5MG9J7RBWU
+email:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
+master.active.demo.fr-api:
+  ttl: 300
+  type: A
+  value: 52.18.16.234
+master.active.demo.fr-staff:
+  ttl: 300
+  type: A
+  value: 52.18.71.59
+master.active.pinger.fr-pinger:
+  ttl: 300
+  type: A
+  value: 54.154.212.206
+master.active.production.fr-api:
+  ttl: 300
+  type: A
+  value: 52.16.33.183
+master.active.production.fr-staff:
+  ttl: 300
+  type: A
+  value: 52.17.217.85
+master.active.staging.fr-api:
+  ttl: 300
+  type: A
+  value: 52.17.138.66
+master.active.staging.fr-staff:
+  ttl: 300
+  type: A
+  value: 52.16.189.120
+master.active.trial.fr-api:
+  ttl: 300
+  type: A
+  value: 54.154.132.126
+master.active.trial.fr-staff:
+  ttl: 300
+  type: A
+  value: 54.154.11.76
+master.demo.fr-api:
+  ttl: 300
+  type: A
+  value: 52.17.239.58
+master.demo.fr-staff:
+  ttl: 300
+  type: A
+  value: 54.72.53.83
+master.production.fr-api:
+  ttl: 300
+  type: A
+  value: 54.171.49.234
+o1.email:
+  ttl: 300
+  type: A
+  value: 198.21.4.244
+smtpapi._domainkey:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+stack.76488ae2.fr-staff-staging:
+  ttl: 300
+  type: TXT
+  value: 76488ae2
+stack.active.fr-api-demo:
+  ttl: 300
+  type: TXT
+  value: bd15658e
+stack.active.fr-api-production:
+  ttl: 300
+  type: TXT
+  value: 23477c0e
+stack.active.fr-api-staging:
+  ttl: 300
+  type: TXT
+  value: a51a3f1f
+stack.active.fr-api-trial:
+  ttl: 300
+  type: TXT
+  value: 75b36e9f
+stack.active.fr-pinger-pinger:
+  ttl: 300
+  type: TXT
+  value: 019e320f
+stack.active.fr-staff-demo:
+  ttl: 300
+  type: TXT
+  value: 75afe098
+stack.active.fr-staff-staging:
+  ttl: 300
+  type: TXT
+  value: 76488ae2
+stack.active.fr-staff-staging1:
+  ttl: 300
+  type: TXT
+  value: c4c42819
+stack.active.fr-staff-trial:
+  ttl: 300
+  type: TXT
+  value: 7e206fb8
+stack.fcc57f8d.fr-staff-staging:
+  ttl: 300
+  type: TXT
+  value: fcc57f8d
+stack.staging.fr-staff-staging1:
+  ttl: 300
+  type: TXT
+  value: c4c42819
+stack.trial3.fr-staff-trial:
+  ttl: 300
+  type: TXT
+  value: ad6c0ec3
+staff-demo:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: fr-staff-elbstaff-qfl4iuprwrae-1258231521.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-demo-internal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-fr-staff-elbstaff-so9njud70ttl-96775532.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.fr-staff-elbstaff-oradze53p3kd-1742637940.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-staging1-internal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-fr-staff-elbstaff-1wstd34a5ss3e-2066120215.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-staging3:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: fr-staff-elbstaff-fxa70ceao1g6-119142623.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-staging-76488ae2:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: fr-staff-elbstaff-oradze53p3kd-1742637940.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-staging-internal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.internal-fr-staff-elbstaff-yp5lbx1o2yf6-314753983.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-staging-internal-76488ae2:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-fr-staff-elbstaff-yp5lbx1o2yf6-314753983.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-trial:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.fr-staff-elbstaff-1aak3eayol64r-919189056.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-trial1:
+  ttl: 300
+  type: A
+  value: 54.93.32.35
+staff-trial3:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: fr-staff-elbstaff-1aak3eayol64r-919189056.eu-west-1.elb.amazonaws.com.
+    type: A
+staff-trial-new:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.fr-staff-elbstaff-1aak3eayol64r-919189056.eu-west-1.elb.amazonaws.com.
+    type: A

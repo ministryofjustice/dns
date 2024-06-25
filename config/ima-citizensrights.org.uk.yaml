@@ -1,0 +1,232 @@
+---
+? ''
+: - ttl: 275
+    type: A
+    values:
+    - 141.193.213.20
+    - 141.193.213.21
+  - ttl: 300
+    type: MX
+    value:
+      exchange: imacitizensrights-org-uk0i.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1514.awsdns-61.org.
+    - ns-1582.awsdns-05.co.uk.
+    - ns-245.awsdns-30.com.
+    - ns-886.awsdns-46.net.
+  - ttl: 300
+    type: TXT
+    values:
+    - MS=ms27470079
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - google-site-verification=ZF9wtpT_YiWaUp4t18aOheIRck4ZM6F4ejm80HGAsmc
+    - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 include:spf.protection.outlook.com
+      include:_spf.google.com include:spf.mandrillapp.com -all
+_6a19d3849cc84ad68c492edf9ce06d44:
+  ttl: 300
+  type: CNAME
+  value: _fb79df8be83f15567abc227eb0b6d426.zbkrxsrfvj.acm-validations.aws.
+_34e9ff99a37759d06a070be2480f6d3d.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _e245a2d457108ea09c40ab3c938f4287.rdnyqppgxp.acm-validations.aws.
+_41cce1d4a52888f266e0114a759afdc1.myima:
+  ttl: 300
+  type: CNAME
+  value: _84cb3a58747c57dc2f03f7e987158eaf.qqqfmgwtgn.acm-validations.aws.
+_76a04fa32fff218a5f66ac6f51c6e6bf.mta-sts.newsletter:
+  ttl: 60
+  type: CNAME
+  value: _451ddee3956f0daba0a3e36373a11771.dqxlbvzbzt.acm-validations.aws.
+_93e62b1e2a9de2960abec80779a310d1.complaints:
+  ttl: 300
+  type: CNAME
+  value: 502852907ccb7306ef8091163e417608.06270615ef303e6b86ee2c2a90f267fb.ca30b640ec46c32e3d4a.sectigo.com.
+_782a897ac4e4560a030f9d47339019e9.www:
+  ttl: 300
+  type: CNAME
+  value: _2683db8dfea5f79c61e942fe47e95704.zbkrxsrfvj.acm-validations.aws.
+_adsp._domainkey.newsletter:
+  ttl: 300
+  type: TXT
+  value: dkim=all
+_asvdns-32a477b9-ad5c-4540-8b75-0cf4af2ede01:
+  ttl: 300
+  type: TXT
+  value: asvdns_1ed707e5-e3d3-4bd2-8d7e-9bf8f09d33fc
+_cf-custom-hostname:
+  ttl: 300
+  type: TXT
+  value: d63a62bd-363a-46cb-ba9e-94221ecbe88a
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_dmarc.newsletter:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@digitaljustice.gov.uk,mailto:dmarcrua@e-shot.net\;
+_github-challenge-ministryofjustice-org:
+  ttl: 300
+  type: TXT
+  value: 67af5c8e92
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=5c201b01db4248d4d3f812bf3f0a92a1
+_mta-sts.newsletter:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=d65d64c87f52fedec05bca206b6630df
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_smtp._tls.newsletter:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+complaints:
+  ttl: 300
+  type: CNAME
+  value: ima.powerappsportals.com
+em5374:
+  ttl: 300
+  type: CNAME
+  value: u258784.wl035.sendgrid.net
+enterpriseenrollment:
+  ttl: 300
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+eshot2._domainkey.newsletter:
+  ttl: 300
+  type: CNAME
+  value: eshotdkim2-ps.e-shot.org
+eshot._domainkey.newsletter:
+  ttl: 300
+  type: CNAME
+  value: eshotdkim-ps.e-shot.org
+k2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: dkim2.mcsv.net
+k3._domainkey:
+  ttl: 300
+  type: CNAME
+  value: dkim3.mcsv.net
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: dm0mbeuco7nys.cloudfront.net.
+    type: A
+mta-sts.newsletter:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: dnyrs27b6a2sd.cloudfront.net.
+    type: A
+myima:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: varnish-alb-1139404551.eu-west-2.elb.amazonaws.com.
+    type: A
+news.newsletter:
+  ttl: 300
+  type: CNAME
+  value: vesc-ps.e-shot.org
+newsletter:
+- ttl: 300
+  type: MX
+  value:
+    exchange: mail-ps.e-shot.org
+    preference: 5
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:spf-ps.e-shot.org ~all
+onc:
+  ttl: 300
+  type: CNAME
+  value: u30650619.wl120.sendgrid.net
+onc2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: onc2.domainkey.u30650619.wl120.sendgrid.net
+onc._domainkey:
+  ttl: 300
+  type: CNAME
+  value: onc.domainkey.u30650619.wl120.sendgrid.net
+pages.newsletter:
+  ttl: 300
+  type: CNAME
+  value: pages-ps.e-shot.org
+s1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u258784.wl035.sendgrid.net
+s2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u258784.wl035.sendgrid.net
+selector1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector1-imacitizensrights-org-uk0i._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector2-imacitizensrights-org-uk0i._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+survey:
+  ttl: 600
+  type: CNAME
+  value: imacitizensrights.limequery.org
+website._domainkey:
+  ttl: 300
+  type: CNAME
+  value: ima._domainkey.civiccomputing.com.
+www:
+  ttl: 300
+  type: A
+  values:
+  - 141.193.213.20
+  - 141.193.213.21
+www.newsletter:
+  ttl: 300
+  type: CNAME
+  value: ima-citizensrights.org.uk

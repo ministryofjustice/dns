@@ -1,0 +1,121 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    values:
+    - 192.0.78.141
+    - 192.0.78.225
+  - type: MX
+    value:
+      exchange: judicialappointments-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1222.awsdns-24.org.
+    - ns-1621.awsdns-10.co.uk.
+    - ns-188.awsdns-23.com.
+    - ns-798.awsdns-35.net.
+  - ttl: 300
+    type: SPF
+    value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+      -all
+  - type: TXT
+    values:
+    - MS=ms55245335
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+      -all
+_6351f8e182881f77d161743e5cf255f9.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _4292f047d8178ad0c173fcae7c96e32c.rdnyqppgxp.acm-validations.aws.
+_asvdns-dbc20bcc-93bd-4de9-a347-c6f3ee0fe0cb:
+  ttl: 300
+  type: TXT
+  value: asvdns_c3033785-ef9f-432b-ae81-93d0b6eaac0e
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_github-challenge-moj-analytical-services:
+  ttl: 60
+  type: TXT
+  value: f19c18b5ab
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=c7d26af1a5ba18e6d7e8dcfb2e1f67ef
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+archive:
+  ttl: 300
+  type: A
+  value: 185.40.8.148
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+fp01._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+jars:
+  ttl: 300
+  type: A
+  value: 185.40.8.147
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: dopvhi9dsi04k.cloudfront.net.
+    type: A
+selector1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector1-judicialappointments-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  type: CNAME
+  value: selector2-judicialappointments-gov-uk._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+www:
+  ttl: 300
+  type: A
+  values:
+  - 192.0.78.141
+  - 192.0.78.225
+www.archive:
+  ttl: 300
+  type: CNAME
+  value: archive.judicialappointments.gov.uk

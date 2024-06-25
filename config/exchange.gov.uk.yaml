@@ -1,0 +1,20 @@
+---
+? ''
+: - ttl: 600
+    type: A
+    value: 194.176.211.72
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1308.awsdns-35.org.
+    - ns-134.awsdns-16.com.
+    - ns-1637.awsdns-12.co.uk.
+    - ns-782.awsdns-33.net.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+www:
+  ttl: 600
+  type: A
+  value: 194.176.211.72

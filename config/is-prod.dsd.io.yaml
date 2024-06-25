@@ -1,0 +1,109 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1378.awsdns-44.org.
+  - ns-1991.awsdns-56.co.uk.
+  - ns-39.awsdns-04.com.
+  - ns-619.awsdns-13.net.
+cf:
+  ttl: 300
+  type: CNAME
+  value: courtfinder-production-187177264.eu-west-1.elb.amazonaws.com
+courtfinder:
+  ttl: 300
+  type: A
+  value: 54.194.67.84
+courtfinder-app:
+  ttl: 300
+  type: A
+  value: 172.31.29.242
+courtfinder-app1:
+  ttl: 300
+  type: A
+  value: 172.31.45.43
+courtfinder-app2:
+  ttl: 300
+  type: A
+  value: 172.31.13.206
+courtfinder-database:
+  ttl: 300
+  type: CNAME
+  value: courtfinder-prod.ciznfy2pru7i.eu-west-1.rds.amazonaws.com
+courtfinder-saltmaster:
+  ttl: 300
+  type: A
+  value: 172.31.22.215
+courtfinder-web:
+  ttl: 300
+  type: A
+  value: 172.31.18.87
+courtfinder-web1:
+  ttl: 300
+  type: A
+  value: 172.31.40.168
+courtfinder-web3:
+  ttl: 300
+  type: A
+  value: 172.31.47.83
+graphite:
+  ttl: 300
+  type: A
+  value: 54.76.112.155
+maintenance:
+  ttl: 300
+  type: A
+  value: 172.31.44.73
+mapit:
+  ttl: 300
+  type: CNAME
+  value: mapit-554887916.eu-west-1.elb.amazonaws.com
+mapit-one:
+  ttl: 300
+  type: A
+  value: 172.31.29.74
+mapit-two:
+  ttl: 300
+  type: A
+  value: 172.31.27.254
+monitor:
+  ttl: 300
+  type: A
+  value: 54.72.214.153
+monitoring:
+  ttl: 300
+  type: A
+  value: 172.31.47.76
+sensu:
+  ttl: 300
+  type: A
+  value: 54.76.112.155
+tribunals:
+  ttl: 300
+  type: A
+  value: 54.72.215.33
+tribunals-app:
+  ttl: 300
+  type: A
+  value: 172.31.29.75
+tribunals-database:
+  ttl: 300
+  type: A
+  value: 172.31.16.226
+tribunals-prod:
+  ttl: 300
+  type: A
+  value: 172.31.13.55
+tribunals-queue:
+  ttl: 300
+  type: A
+  value: 172.31.3.214
+tribunals-saltmaster:
+  ttl: 300
+  type: A
+  value: 172.31.20.142
+tribunals-web:
+  ttl: 300
+  type: A
+  value: 172.31.17.232

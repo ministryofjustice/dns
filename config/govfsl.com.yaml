@@ -1,0 +1,105 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 85.92.70.211
+  - type: MX
+    value:
+      exchange: govfsl-com.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1393.awsdns-46.org.
+    - ns-1849.awsdns-39.co.uk.
+    - ns-322.awsdns-40.com.
+    - ns-687.awsdns-21.net.
+  - type: TXT
+    values:
+    - MS=ms10443166
+    - apple-domain-verification=X27AYsxWvqjiHs8k
+    - google-site-verification=y13dLG-4NRFPZgOO6aIVATIWaBcDAsmAVTy-_TD5M2M
+    - v=spf1 include:_spf.google.com include:carillionplc.com include:spf.protection.outlook.com
+      include:spf_c.oracle.com ip4:188.65.119.39 ip4:188.65.119.42 ip4:87.247.244.98
+      ip4:195.62.28.68 ip4:185.24.97.25 -all
+_94027e3232a87bef15c3cfb7834ff05c.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _4f9e3c7c3eb002eb88092264669a8e34.vrztfgqhxj.acm-validations.aws.
+_asvdns-b787b13e-fab9-45e1-88ff-10cb636a0e1e:
+  ttl: 300
+  type: TXT
+  value: asvdns_704c23a3-63fd-4c23-a898-a529e89026d4
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=14e8765cc6063cdb4e6f4b744f975d43
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+appleid:
+  ttl: 300
+  type: TXT
+  value: apple-domain-verification=QmasayQsNAZNrKnI
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+google._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsEN1LacYMsFqKvQ5uXr4w2BlNiItks7l4rTu5L+5qJr3z9PCURsZA0IgImUpTYTf3W611mQ1JnR7DSj/Q/0lb0vq8Ypq0BrsS1RhWCJMzdbKm3DrOLAP+I/djyZf3YqBczqqRXowIgAmts8AGS1ncUMxqGpBuV+zwSzWX6P7mjQIDAQAB
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d1ysocz4gsl4lh.cloudfront.net.
+    type: A
+selector1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector1-govfsl-com._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector2-govfsl-com._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+smartsheet-site-validation:
+  ttl: 300
+  type: TXT
+  value: uapSecret:HdZAfs2Abso2twWs7HRykg==
+www:
+  ttl: 300
+  type: A
+  value: 85.92.70.211

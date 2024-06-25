@@ -1,0 +1,31 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1394.awsdns-46.org.
+    - ns-1747.awsdns-26.co.uk.
+    - ns-853.awsdns-42.net.
+    - ns-87.awsdns-10.com.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: true
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: url-redirect-service-alb-29017920.eu-west-1.elb.amazonaws.com.
+      type: A
+  - ttl: 300
+    type: TXT
+    value: google-site-verification=LIuB7fXH31a2tLIufPmF_iJTvOBswXVwfhzNP2Q7v_8
+_392396bd3de78b47b17c0c56031c7a77.www:
+  ttl: 300
+  type: CNAME
+  value: _8465c94b2dccef8e2bde5a1091b81534.vtqfhvjlcp.acm-validations.aws.
+_ea56312c0b2585598e27407f504e6ea7:
+  ttl: 300
+  type: CNAME
+  value: _b71ce2e5b4286a4f31f904055a22a40d.vtqfhvjlcp.acm-validations.aws.
+www:
+  ttl: 300
+  type: CNAME
+  value: judicialconduct.judiciary.gov.uk

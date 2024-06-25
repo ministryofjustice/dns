@@ -1,0 +1,45 @@
+---
+? ''
+: - ttl: 600
+    type: MX
+    value:
+      exchange: .
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1124.awsdns-12.org.
+    - ns-1715.awsdns-22.co.uk.
+    - ns-361.awsdns-45.com.
+    - ns-817.awsdns-38.net.
+  - ttl: 300
+    type: TXT
+    value: v=spf1 -all
+'*._domainkey':
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=
+_asvdns-fce8f684-14eb-4a05-8dd2-88b830d6fcf8:
+  ttl: 300
+  type: TXT
+  value: asvdns_2e35c6f7-99e9-4a9f-9852-e92a91b800e2
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+mail:
+  ttl: 600
+  type: A
+  value: 212.137.36.49
+web:
+  ttl: 600
+  type: A
+  value: 212.137.36.49
+www:
+  ttl: 600
+  type: A
+  value: 212.137.36.49

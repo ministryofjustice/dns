@@ -1,0 +1,13 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-112.awsdns-14.com.
+  - ns-1275.awsdns-31.org.
+  - ns-1738.awsdns-25.co.uk.
+  - ns-906.awsdns-49.net.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;

@@ -1,0 +1,60 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    values:
+    - exchange: aspmx.l.google.com.
+      preference: 1
+    - exchange: alt1.aspmx.l.google.com.
+      preference: 5
+    - exchange: alt2.aspmx.l.google.com.
+      preference: 5
+    - exchange: aspmx2.googlemail.com.
+      preference: 10
+    - exchange: aspmx3.googlemail.com.
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1437.awsdns-51.org.
+    - ns-2040.awsdns-63.co.uk.
+    - ns-258.awsdns-32.com.
+    - ns-930.awsdns-52.net.
+  - ttl: 300
+    type: TXT
+    values:
+    - google-site-verification=aYAYXwp0mvQFTBCjBOC_ewRCuNd7PtehyIoO0KoulO8
+    - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:194.33.196.8/32
+      ip4:194.33.192.8/32 ~all
+_5e23e840f72dd381dff639da3fb534fe.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _6f9ef4ffd36266370e7be090d8539ca6.rdnyqppgxp.acm-validations.aws.
+_asvdns-f35df1e8-fb27-432b-a407-9d69f737e817:
+  ttl: 300
+  type: TXT
+  value: asvdns_7959dd88-f035-40b6-ba31-822d8627b5b3
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=f3e2f7bcead73fda65fa4f1ff7815e97
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+google._domainkey:
+  ttl: 600
+  type: TXT
+  value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoTzSxHJXukDrzv6e1DqOXod/x5q4zX/rieTWt/IRK/BiOJjJKgERhY9k+ipUCnu9q9ykYcMB0pgn4v3ixg3jAG6Tia2H4x/azDxNYbl4kk+JDi8Jqq7v18TKp24a+GbIZNHSX6dY40yzBpTGK6toEDR90fVSzelivtOhQ7BSlRwIDAQAB
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: da2bepqjpkqoi.cloudfront.net.
+    type: A

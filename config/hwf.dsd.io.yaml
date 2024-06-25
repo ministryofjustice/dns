@@ -1,0 +1,306 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    value:
+      exchange: inbound-smtp.eu-west-1.amazonaws.com
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1173.awsdns-18.org.
+    - ns-191.awsdns-23.com.
+    - ns-2004.awsdns-58.co.uk.
+    - ns-685.awsdns-21.net.
+_1b26241ce193877d688e2b91454980bf.demo:
+  ttl: 300
+  type: CNAME
+  value: _12d1e01b3c4de7858ccfbff025a3b00c.tljzshvwok.acm-validations.aws.
+_068e278171fad396c646c8fe45e9df20:
+  ttl: 300
+  type: CNAME
+  value: _e1c4e65db4faaeaeec19594e9076e6d0.hkvuiqjoua.acm-validations.aws.
+_acme-challenge.demo:
+  ttl: 300
+  type: TXT
+  value: jAo1wgGiBSSp0VxchXkb2iN_bnwZBXMan8dF0zFzFE8
+_acme-challenge.staging:
+  ttl: 300
+  type: TXT
+  value: XxJZNw27nDOdeEn-P0cKo9iDGf0HXUTPj2XNQLPDwGs
+_amazonses:
+  ttl: 300
+  type: TXT
+  value: AXonCoYoZeSLepeVxmmFOR7l3fezj/GiNXJmiOwmnYg=
+_asvdns-7104810f-0773-4b10-b784-063562f480dd:
+  ttl: 300
+  type: TXT
+  value: asvdns_f2f2ff96-e628-4719-a495-0b5453d10806
+benefit-checker-api:
+  ttl: 300
+  type: A
+  value: 51.145.38.191
+benefit-checker-api.staging:
+  ttl: 300
+  type: A
+  value: 51.105.55.154
+calculator-demo:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: hwf-calcu-elbcalcu-m4ckjoe6mnmi-667076917.eu-west-1.elb.amazonaws.com.
+    type: A
+calculator-demo-c417272b:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: hwf-calcu-elbcalcu-m4ckjoe6mnmi-667076917.eu-west-1.elb.amazonaws.com.
+    type: A
+calculator-staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.hwf-calcu-elbcalcu-1qswrn3ybblw5-1138277299.eu-west-1.elb.amazonaws.com.
+    type: A
+calculator-staging-7d438fdd:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: hwf-calcu-elbcalcu-1qswrn3ybblw5-1138277299.eu-west-1.elb.amazonaws.com.
+    type: A
+calculator.demo:
+  ttl: 300
+  type: A
+  value: 51.145.103.83
+courtfinder-test.demo:
+  ttl: 300
+  type: A
+  value: 51.143.152.23
+courtfinder.demo:
+- ttl: 300
+  type: A
+  value: 51.143.152.23
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: sectigo.com
+courtfinder.staging:
+- ttl: 300
+  type: A
+  value: 40.120.37.64
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: sectigo.com
+demo:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: hwf-public-elbdemo-173ku15ob6dbv-1502697385.eu-west-1.elb.amazonaws.com.
+    type: A
+demo-42503cd7:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: hwf-public-elbdemo-173ku15ob6dbv-1502697385.eu-west-1.elb.amazonaws.com.
+    type: A
+deployarn.42503cd7.demo.hwf-publicapp:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-publicapp-demo-42503cd7-CrossAccountRole-CMSO8FNRFHG
+deployarn.active.demo.hwf-calculator:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-calculator-demo-c417272b-CrossAccountRole-1UG86UR7WOUBN
+deployarn.active.demo.hwf-publicapp:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-publicapp-demo-42503cd7-CrossAccountRole-CMSO8FNRFHG
+deployarn.active.production.hwf-publicapp:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-publicapp-production-52fcf72e-CrossAccountRole-ZX83V7XR8RQ1
+deployarn.active.staging.hwf-calculator:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-calculator-staging-7d438fdd-CrossAccountRole-L2749V2IC953
+deployarn.active.staging.hwf-publicapp:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-publicapp-staging-71ce4554-CrossAccountRole-1QXSXYPJX12Q1
+deployarn.calculator-demo.demo.hwf-calculator:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-calculator-demo-c417272b-CrossAccountRole-1UG86UR7WOUBN
+deployarn.calculator-staging.staging.hwf-calculator:
+  ttl: 300
+  type: TXT
+  value: arn:aws:iam::903817190142:role/hwf-calculator-staging-7d438fdd-CrossAccountRole-L2749V2IC953
+public:
+  ttl: 300
+  type: A
+  value: 51.145.38.191
+public.demo:
+- ttl: 300
+  type: A
+  value: 51.145.103.83
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: sectigo.com
+public.staging:
+- ttl: 300
+  type: A
+  value: 51.105.55.154
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: sectigo.com
+stack.42503cd7.hwf-publicapp-demo:
+  ttl: 300
+  type: TXT
+  value: 42503cd7
+stack.54830b55.hwf-publicapp-staging:
+  ttl: 300
+  type: TXT
+  value: 54830b55
+stack.active.hwf-calculator-demo:
+  ttl: 300
+  type: TXT
+  value: c417272b
+stack.active.hwf-calculator-staging:
+  ttl: 300
+  type: TXT
+  value: 7d438fdd
+stack.active.hwf-publicapp-demo:
+  ttl: 300
+  type: TXT
+  value: 42503cd7
+stack.active.hwf-publicapp-staging:
+  ttl: 300
+  type: TXT
+  value: 71ce4554
+stack.b4fde230.hwf-publicapp-dev:
+  ttl: 300
+  type: TXT
+  value: b4fde230
+stack.calculator-demo.hwf-calculator-demo:
+  ttl: 300
+  type: TXT
+  value: c417272b
+stack.calculator-staging.hwf-calculator-staging:
+  ttl: 300
+  type: TXT
+  value: 7d438fdd
+staff:
+  ttl: 300
+  type: A
+  value: 51.145.38.191
+staff.demo:
+- ttl: 300
+  type: A
+  value: 51.145.103.83
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: sectigo.com
+staff.staging:
+- ttl: 300
+  type: A
+  value: 51.105.55.154
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: sectigo.com
+staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: hwf-publi-elbstagi-utk9nf7v30hw-671939790.eu-west-1.elb.amazonaws.com.
+    type: A
+traefik-ui:
+  ttl: 300
+  type: A
+  value: 51.145.38.191
+traefik-ui-cf:
+  ttl: 300
+  type: A
+  value: 51.105.37.227
+traefik-ui-cf.demo:
+  ttl: 300
+  type: A
+  value: 51.143.152.23
+traefik-ui-cf.staging:
+  ttl: 300
+  type: A
+  value: 40.120.37.64
+traefik-ui-hwf.staging:
+  ttl: 300
+  type: A
+  value: 51.105.55.154
+traefik-ui-tt.demo:
+  ttl: 300
+  type: A
+  value: 51.145.96.41
+traefik-ui-tt.staging:
+  ttl: 300
+  type: A
+  value: 52.151.100.245
+traefik-ui.demo:
+  ttl: 300
+  type: A
+  value: 51.145.103.83
+traefikv2:
+  ttl: 300
+  type: A
+  value: 51.11.150.4
+tt-data-capture.demo:
+  ttl: 300
+  type: A
+  value: 51.145.96.41
+tt-data-capture.staging:
+  ttl: 300
+  type: A
+  value: 52.151.100.245
+tt-downloader.demo:
+  ttl: 300
+  type: A
+  value: 51.145.96.41
+tt-downloader.staging:
+  ttl: 300
+  type: A
+  value: 52.151.100.245
+tt-wsproxy-healthcheck.staging:
+  ttl: 300
+  type: A
+  value: 52.151.100.245
+tt-wsproxy.demo:
+  ttl: 300
+  type: A
+  value: 51.145.96.41
