@@ -2,15 +2,12 @@ EDITOR ?= vim
 CONFIG_FILE ?= config.yaml
 ZONES_DIR ?= hostedzones
 
-# Check for AWS credentials
 AWS_ACCESS_KEY_ID ?= $(shell aws configure get aws_access_key_id)
 AWS_SECRET_ACCESS_KEY ?= $(shell aws configure get aws_secret_access_key)
 
-# Export AWS credentials
 export AWS_ACCESS_KEY_ID
 export AWS_SECRET_ACCESS_KEY
 
-# Function to check if AWS credentials are set
 define check_aws_creds
 	@if [ -z "$(AWS_ACCESS_KEY_ID)" ] || [ -z "$(AWS_SECRET_ACCESS_KEY)" ]; then \
 		echo "AWS credentials are not set. Please set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY."; \
@@ -93,5 +90,5 @@ clean:
 	@find . -type f -name "*.pyc" -delete
 	@find . -type d -name "__pycache__" -delete
 
-# Set help as the default target
 .DEFAULT_GOAL := help
+

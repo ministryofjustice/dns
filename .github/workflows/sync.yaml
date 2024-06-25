@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  build:
+  sync-with-route53:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,14 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r requirements.txt
+          make install
 
       - name: Run OctoDNS sync
         run: |
           source venv/bin/activate
-          octodns-sync --config-file=./config.yaml --doit
+          make sync-apply
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
