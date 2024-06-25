@@ -1,0 +1,19 @@
+---
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./hostedzones
+    default_ttl: 3600
+    enforce_order: True
+  route53:
+    class: octodns_route53.Route53Provider
+    access_key_id: env/AWS_ACCESS_KEY_ID
+    secret_access_key: env/AWS_SECRET_ACCESS_KEY
+
+zones:
+  "*":
+    lenient: true
+    sources:
+      - config
+    targets:
+      - route53

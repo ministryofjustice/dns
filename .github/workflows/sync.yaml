@@ -27,7 +27,7 @@ jobs:
       - name: Run OctoDNS sync
         run: |
           source venv/bin/activate
-          octodns-sync --config-file=./config/octodns.yaml --doit
+          octodns-sync --config-file=./config.yaml --doit
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
