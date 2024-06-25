@@ -1,0 +1,16 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 46.101.72.115
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-131.awsdns-16.com.
+    - ns-1464.awsdns-55.org.
+    - ns-1676.awsdns-17.co.uk.
+    - ns-636.awsdns-15.net.
+www:
+  ttl: 300
+  type: CNAME
+  value: 247sexualabusesupport.org.uk

@@ -1,0 +1,45 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    value:
+      exchange: mailhost.cicap.gov.uk.
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1220.awsdns-24.org.
+    - ns-1619.awsdns-10.co.uk.
+    - ns-165.awsdns-20.com.
+    - ns-821.awsdns-38.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+_asvdns-03b6f09c-39de-49bb-ab61-98904b93aa95:
+  ttl: 300
+  type: TXT
+  value: asvdns_7f34ffa0-66d0-48fd-b0f9-cec3e8d1736b
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+mailhost:
+  ttl: 300
+  type: A
+  value: 80.94.32.245
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: ''
+    type: A

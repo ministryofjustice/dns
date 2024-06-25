@@ -1,0 +1,32 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1370.awsdns-43.org.
+    - ns-1866.awsdns-41.co.uk.
+    - ns-94.awsdns-11.com.
+    - ns-987.awsdns-59.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+_asvdns-8d00d173-2054-4f62-a26c-ac866af546e1:
+  ttl: 300
+  type: TXT
+  value: asvdns_90f6838a-d4c5-4174-94ec-684b4bf53484
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: ''
+    type: A

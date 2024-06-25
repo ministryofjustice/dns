@@ -1,0 +1,37 @@
+---
+? ''
+: - ttl: 1800
+    type: MX
+    value:
+      exchange: inbound-smtp.eu-west-1.amazonaws.com
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1222.awsdns-24.org.
+    - ns-2040.awsdns-63.co.uk.
+    - ns-382.awsdns-47.com.
+    - ns-560.awsdns-06.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: true
+      hosted-zone-id: Z2IFOLAFXWLO4F
+      name: a282d9b3b39e111e9a0b0029499f5b15-f09dead0db7cdae8.elb.eu-west-1.amazonaws.com.
+      type: A
+_amazonses:
+  ttl: 1800
+  type: TXT
+  value: AUTzEXGQbCT8s5YqiVwHx5OhKJYb64+NkhCP3SOxToc=
+_dmarc:
+  ttl: 7200
+  type: TXT
+  value: v=DMARC1\;p=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_external_dns:
+  ttl: 300
+  type: TXT
+  value: heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/laa-cla-public-production/laa-cla-public
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk

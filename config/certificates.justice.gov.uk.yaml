@@ -1,0 +1,38 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    value:
+      exchange: inbound-smtp.us-east-1.amazonaws.com
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1398.awsdns-46.org.
+    - ns-2033.awsdns-62.co.uk.
+    - ns-466.awsdns-58.com.
+    - ns-722.awsdns-26.net.
+_d99fbaaf63936e9e80401f226c200189:
+  ttl: 300
+  type: CNAME
+  value: 380f1817dc16ada09a1bf131384669cf.a0062633224f5a0a576ad1ee30e84a55.a0f637d4958a83be9e8e.sectigo.com.
+_f2376c4a36459f703f0c9ba04c865fc3:
+  ttl: 300
+  type: CNAME
+  value: a320b7103689ba574f5692b8f250b198.9cb05f383a30d97b582603e041059408.9b8fb6b43d255c94c68d.sectigo.com.
+_ffed80147c1268846387ad4aef70fc01:
+  ttl: 300
+  type: CNAME
+  value: c5dd0870d6573aa21639178f815295b2.3ff2b37bbbd6d3dc474d195cbd0a0c2b.6d7ce29471f05bdf28be.sectigo.com.
+gqfoktjhnbvi6ffqmjofiys7rslq42ye._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: gqfoktjhnbvi6ffqmjofiys7rslq42ye.dkim.amazonses.com
+mw7c6bnh4g4z47lipedqspbq4pdydivs._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: mw7c6bnh4g4z47lipedqspbq4pdydivs.dkim.amazonses.com
+yfhsqenllotvbodabclcnq5bwpommspr._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: yfhsqenllotvbodabclcnq5bwpommspr.dkim.amazonses.com

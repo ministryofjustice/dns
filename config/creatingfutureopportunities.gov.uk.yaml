@@ -1,0 +1,24 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1283.awsdns-32.org.
+    - ns-2033.awsdns-62.co.uk.
+    - ns-480.awsdns-60.com.
+    - ns-823.awsdns-38.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: true
+      hosted-zone-id: ZHURV8PSTC4K8
+      name: e7a0184d4f6127d826931dd6a0e6ecf8-1383418131.eu-west-2.elb.amazonaws.com.
+      type: A
+_e55772ae7a2fd72289d5a4a9ab74f48f.www:
+  ttl: 300
+  type: CNAME
+  value: _6585aaf991c50ee9c4c523deadc6ff62.fmfdpfvvyn.acm-validations.aws.
+www:
+  ttl: 300
+  type: CNAME
+  value: creatingfutureopportunities.gov.uk

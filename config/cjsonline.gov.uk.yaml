@@ -1,0 +1,174 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    values:
+    - exchange: mail.cjsonline.gov.uk.
+      preference: 5
+    - exchange: mx1.cjsdigital.org.
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1031.awsdns-00.org.
+    - ns-1938.awsdns-50.co.uk.
+    - ns-344.awsdns-43.com.
+    - ns-640.awsdns-16.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+  - ttl: 300
+    type: TXT
+    value: v=spf1 -all
+'*._domainkey':
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=
+_1c73a3eb42980492ae27f3771fde9235.preingest:
+  ttl: 300
+  type: CNAME
+  value: _63d48c0766282eba42c70c7a5a20d077.bgpjyrktby.acm-validations.aws.
+_1f7dff04cdf700b5630730bf9dbed793.pportal:
+  ttl: 300
+  type: CNAME
+  value: _55d4eef7f98d2b71cda03ecee43f82d7.cnsgthfrdk.acm-validations.aws.
+_85a23fcd275a38838b2cae36f23e6a04.monitoring.dev-pportal:
+  ttl: 300
+  type: CNAME
+  value: _d9582c48165dcb5e804a8697b934d93a.wsqgzrdths.acm-validations.aws
+_622d1f334de14c4cbf246abb4fe0dca0.ingest:
+  ttl: 300
+  type: CNAME
+  value: _301520326dc4c455e045e07d76dea0fd.cnsgthfrdk.acm-validations.aws.
+_765db9241b40f46e7672695c67046712.prepportal:
+  ttl: 300
+  type: CNAME
+  value: _71c74aa5b0fb374f7f4646cf8bd514a8.bgpjyrktby.acm-validations.aws.
+_813d37606747e1244cd5921b19db29c4.monitoring.prepportal:
+  ttl: 300
+  type: CNAME
+  value: _1e5d56e86a6875bddfd1d1034eeae8e8.zxwlrjxpwn.acm-validations.aws
+_1367c223e65598ee8a9f482590a772a1.dev-ingest:
+  ttl: 300
+  type: CNAME
+  value: _7bc2aceb39e3f0db59090b760be53da0.cnsgthfrdk.acm-validations.aws.
+_431670fb321dfc3aa19fc298c7311d9f.dev-pportal:
+  ttl: 300
+  type: CNAME
+  value: _94acbe0caabc1e9365e556c0b0a6cc8b.cnsgthfrdk.acm-validations.aws.
+_asvdns-0c976caf-a9a1-4f57-8439-948ccca29979.pportal:
+  ttl: 300
+  type: TXT
+  value: asvdns_211608af-e1e0-4aa1-9254-e9e01da528cb
+_asvdns-d92c57be-3602-49cb-a8c8-ee685d9f16d5:
+  ttl: 300
+  type: TXT
+  value: asvdns_e65c0950-be14-480b-a94f-20bbc6b68084
+_db37705c84abc5dd8e24c75449eed8e9.monitoring.pportal:
+  ttl: 300
+  type: CNAME
+  value: _bfa6c1e5b6a9b8c80cb4479e66540d2f.zxwlrjxpwn.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+dev-ingest:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: ingestion-lb-xhibit-portal-968712198.eu-west-2.elb.amazonaws.com.
+    type: A
+dev-pportal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: waf-lb-xhibit-portal-403805476.eu-west-2.elb.amazonaws.com.
+    type: A
+devpportal:
+  ttl: 60
+  type: CNAME
+  value: waf-lb-xhibit-portal-1686123915.eu-west-2.elb.amazonaws.com
+ingest:
+  ttl: 60
+  type: CNAME
+  value: ingestion-lb-xhibit-portal-728120087.eu-west-2.elb.amazonaws.com
+mail:
+  ttl: 300
+  type: A
+  value: 51.63.0.102
+monitoring.dev-pportal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: prtg-lb-xhibit-portal-2000054797.eu-west-2.elb.amazonaws.com.
+    type: A
+monitoring.pportal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: prtg-lb-xhibit-portal-1382021580.eu-west-2.elb.amazonaws.com.
+    type: A
+monitoring.prepportal:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: prtg-lb-xhibit-portal-1640285449.eu-west-2.elb.amazonaws.com.
+    type: A
+pportal:
+  ttl: 60
+  type: CNAME
+  value: waf-lb-xhibit-portal-225423796.eu-west-2.elb.amazonaws.com
+ppxp-messaging:
+  ttl: 300
+  type: A
+  value: 37.26.89.130
+ppxpportal:
+  ttl: 300
+  type: A
+  value: 37.26.89.131
+preingest:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: ingestion-lb-xhibit-portal-1567356007.eu-west-2.elb.amazonaws.com.
+    type: A
+prepportal:
+  ttl: 300
+  type: CNAME
+  value: waf-lb-xhibit-portal-1329956393.eu-west-2.elb.amazonaws.com
+useradmin:
+  ttl: 300
+  type: A
+  value: 194.176.211.114
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+xpportal:
+  ttl: 300
+  type: A
+  value: 51.179.223.135

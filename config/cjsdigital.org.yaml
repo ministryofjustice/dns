@@ -1,0 +1,75 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 94.136.40.51
+  - ttl: 300
+    type: CAA
+    values:
+    - flags: 0
+      tag: iodef
+      value: mailto:certificates@digital.justice.gov.uk
+    - flags: 0
+      tag: issue
+      value: ;
+  - ttl: 300
+    type: MX
+    values:
+    - exchange: mxa.nurvedcloud.net
+      preference: 10
+    - exchange: mxb.nurvedcloud.net
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1252.awsdns-28.org.
+    - ns-1799.awsdns-32.co.uk.
+    - ns-507.awsdns-63.com.
+    - ns-625.awsdns-14.net.
+  - ttl: 300
+    type: SPF
+    value: v=spf1 mx a ip4:109.70.150.133/32 ip4:109.70.150.134/32 -all
+_asvdns-4fdf6b6c-ae95-44a4-b6f7-fbb59944a9b8:
+  ttl: 300
+  type: TXT
+  value: asvdns_c4840f67-9812-46ca-915e-81437624185a
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+dzc:
+  ttl: 300
+  type: TXT
+  value: NLxvJDC
+mail:
+  ttl: 300
+  type: A
+  value: 213.146.137.182
+mxa:
+  ttl: 300
+  type: A
+  value: 81.134.202.19
+mxb:
+  ttl: 300
+  type: A
+  value: 81.134.202.19
+preview:
+  ttl: 300
+  type: A
+  value: 81.134.202.22
+vpn:
+  ttl: 300
+  type: A
+  value: 81.134.202.20
+webmail:
+  ttl: 300
+  type: A
+  value: 81.134.202.21
+www:
+  ttl: 300
+  type: A
+  value: 212.78.84.52

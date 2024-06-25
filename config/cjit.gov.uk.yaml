@@ -1,0 +1,153 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    value:
+      exchange: cjit-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1357.awsdns-41.org.
+    - ns-1979.awsdns-55.co.uk.
+    - ns-391.awsdns-48.com.
+    - ns-816.awsdns-38.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+  - type: TXT
+    values:
+    - MS=ms40613853
+    - c4ugBTKaMjH/kPL8f3NBNwU65XxsuAzxiqPPi364nN9+uX+3Y+7wpxs5T45WETWJpNfWzlGZ6eU377mTefweRw==
+    - google-site-verification=lZoKiIUUlUasDUM1byJLG0qT7AhCJqaLLTVwbqsjfeA
+    - v=spf1  ip4:37.26.90.115/32 ip4:51.179.211.114/32 ip4:194.176.211.112/32 ip4:194.176.211.104/32
+      ip4:18.132.8.248/32 ip4:3.9.15.169/32 ip4:18.135.73.34/32 include:spf.protection.outlook.com
+      ~all
+_asvdns-5fd05ab7-98a2-458e-9698-6d1632800aa2:
+  ttl: 300
+  type: TXT
+  value: asvdns_a187170f-f8df-4c4c-9bb5-d1f3a02677b4
+_d95c7f1c205aef4535751c17e1af2823.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _c0647527fe4e23a3c55e27a37640b262.rdnyqppgxp.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=e5a42f23055b41ddc01a7ac97806ea24
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+cjs.dashboard:
+  ttl: 300
+  type: A
+  value: 213.146.137.164
+cjse6mail01:
+  ttl: 600
+  type: A
+  value: 212.137.70.97
+cjse6mail02:
+  ttl: 600
+  type: A
+  value: 212.137.70.98
+cjse6mail03:
+  ttl: 600
+  type: A
+  value: 194.176.211.103
+cjse6mail04:
+  ttl: 600
+  type: A
+  value: 194.176.211.104
+cjse7mail01:
+  ttl: 600
+  type: A
+  value: 212.137.70.105
+cjse7mail02:
+  ttl: 600
+  type: A
+  value: 212.137.70.106
+cjse7mail03:
+  ttl: 600
+  type: A
+  value: 194.176.211.111
+cjse7mail04:
+  ttl: 600
+  type: A
+  value: 194.176.211.112
+cjsexp1mail01:
+  ttl: 300
+  type: A
+  value: 51.179.211.114
+cmdb:
+  ttl: 600
+  type: A
+  value: 194.176.211.97
+dev-xhibitportalmail:
+  ttl: 300
+  type: A
+  value: 18.132.8.248
+feedback:
+  ttl: 300
+  type: A
+  value: 212.140.220.7
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: dv2yrjai2m82t.cloudfront.net.
+    type: A
+selector1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector1-cjit-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector2-cjit-gov-uk._domainkey.justiceuk.onmicrosoft.com
+td:
+  ttl: 600
+  type: A
+  value: 194.176.211.98
+vipportal:
+  ttl: 300
+  type: A
+  value: 212.137.69.25
+viptraining:
+  ttl: 300
+  type: A
+  value: 213.146.137.189
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+www.3000mph:
+  ttl: 300
+  type: A
+  value: 212.140.220.7
+www.legal:
+  ttl: 300
+  type: A
+  value: 212.140.220.7
+www.openandshut:
+  ttl: 300
+  type: A
+  value: 212.140.220.7
+xhibitportalmail:
+  ttl: 300
+  type: A
+  value: 18.135.73.34

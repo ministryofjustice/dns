@@ -1,0 +1,44 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1049.awsdns-03.org
+    - ns-1876.awsdns-42.co.uk
+    - ns-399.awsdns-49.com
+    - ns-723.awsdns-26.net
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d3l8w53in45q6n.cloudfront.net.
+      type: A
+_1e1422989a7c065d554ce38c6cc72a60.www:
+  ttl: 300
+  type: CNAME
+  value: _b8d483534166f88e7dcc9a2b70971f9e.acm-validations.aws.
+_asvdns-cf70c969-f602-4da5-91ec-4eeda8ed8dff:
+  ttl: 300
+  type: TXT
+  value: asvdns_603a6b78-9045-4bb6-b672-dcf159eb3565
+_b4efa533ba7d2892b38cdf1567df14bd:
+  ttl: 300
+  type: CNAME
+  value: _4b13a88d80593ea6ee818654d10bfcbd.acm-validations.aws.
+_dmarc:
+  ttl: 7200
+  type: TXT
+  value: v=DMARC1\; p=none\; rua=mailto:yl0zvgmk@ag.dmarcian.com\; ruf=mailto:yl0zvgmk@fr.dmarcian.com\;
+holding:
+  ttl: 300
+  type: A
+  value: 54.93.32.35
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d3l8w53in45q6n.cloudfront.net.
+    type: A
