@@ -3,6 +3,9 @@ name: OctoDNS Sync
 on:
   workflow_dispatch:
   push:
+    paths:
+      - "hostedzones/**"
+      - "config.yaml"
     branches:
       - main
 

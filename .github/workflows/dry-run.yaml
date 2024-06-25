@@ -3,6 +3,9 @@ name: OctoDNS Dry Run
 on:
   workflow_dispatch:
   pull_request:
+    paths:
+      - "hostedzones/**"
+      - "config.yaml"
     branches:
       - main
 
