@@ -1,0 +1,34 @@
+---
+? ''
+: - ttl: 300
+    type: CAA
+    values:
+    - flags: 0
+      tag: iodef
+      value: mailto:certificates@digital.justice.gov.uk
+    - flags: 0
+      tag: issue
+      value: ;
+  - ttl: 300
+    type: MX
+    value:
+      exchange: .
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-105.awsdns-13.com.
+    - ns-1290.awsdns-33.org.
+    - ns-1537.awsdns-00.co.uk.
+    - ns-697.awsdns-23.net.
+  - ttl: 300
+    type: TXT
+    value: v=spf1 -all
+'*._domainkey':
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;

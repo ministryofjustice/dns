@@ -1,0 +1,136 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    value:
+      exchange: publicguardian-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1247.awsdns-27.org.
+    - ns-1873.awsdns-42.co.uk.
+    - ns-242.awsdns-30.com.
+    - ns-937.awsdns-53.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: true
+      hosted-zone-id: Z1BKCTXD74EZPE
+      name: s3-website-eu-west-1.amazonaws.com.
+      type: A
+  - ttl: 300
+    type: TXT
+    values:
+    - MS=ms49968440
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 include:spf.protection.outlook.com
+      -all
+_asvdns-8a5e9946-76d7-4e78-83b0-5f3be2e0e7b0:
+  ttl: 300
+  type: TXT
+  value: asvdns_c569d74b-cc17-4ce4-b8e7-d1f39e380503
+_d236ca471849f03b1e9fda8c1ad6e41c.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _18a1c3ac0a22b28d24331d86d21d7b4a.hnyhpvdqhv.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_github-challenge-ministry-of-justice-uk:
+  ttl: 300
+  type: TXT
+  value: 26ef519666
+_github-challenge-moj-analytical-services:
+  ttl: 300
+  type: TXT
+  value: a2fba7475d
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=819c02822a127057b73187264f0816e3
+_sip._tls:
+  ttl: 300
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  ttl: 300
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  ttl: 300
+  type: CNAME
+  value: autodiscover.outlook.com
+enterpriseenrollment:
+  ttl: 300
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  ttl: 300
+  type: CNAME
+  value: enterpriseregistration.windows.net
+fp01._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+lyncdiscover:
+  ttl: 300
+  type: CNAME
+  value: webdir.online.lync.com
+mirovalidation:
+  ttl: 300
+  type: TXT
+  value: miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+msoid:
+  ttl: 300
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: drrswg50lfd5d.cloudfront.net.
+    type: A
+selector1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector1-publicguardian-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector2-publicguardian-gov-uk._domainkey.justiceuk.onmicrosoft.com
+sip:
+  ttl: 300
+  type: CNAME
+  value: sipdir.online.lync.com
+sirius:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1083.awsdns-07.org.
+  - ns-1770.awsdns-29.co.uk.
+  - ns-486.awsdns-60.com.
+  - ns-870.awsdns-44.net.
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A

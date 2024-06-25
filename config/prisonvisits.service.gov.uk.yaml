@@ -1,0 +1,82 @@
+---
+? ''
+: - ttl: 300
+    type: NS
+    values:
+    - nns-1048.awsdns-03.org.
+    - nns-1941.awsdns-50.co.uk.
+    - nns-239.awsdns-29.com.
+    - nns-846.awsdns-41.net.
+  - ttl: 300
+    type: TXT
+    values:
+    - ngoogle-site-verification=utmhXhOOtr-od5LNZtVHOyfrK7O6HY2jWWmYoXO3vho
+    - v=spf1 include:sendgrid.net ~all
+_96a0a34a3d77dfbe4994d8fc51b80865.www:
+  ttl: 300
+  type: CNAME
+  value: n_def825bf0d7c768c25b1d86b85a362c4.acm-validations.aws.
+_560b1b59639b34a1ad68b8f9e3df3e05:
+  ttl: 300
+  type: CNAME
+  value: n_b52b91dfda47884f31e28af9be4a00d0.acm-validations.aws.
+_0662eebf2c8887eb3d140983f08c864e.staff:
+  ttl: 300
+  type: CNAME
+  value: n_ccdd8dd0411099ae3e911729c06b60d8.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+_dmarc.email:
+  ttl: 300
+  type: TXT
+  value: nv=DMARC1\; p=reject\; pct=100\; rua=mailto:yl0zvgmk@ag.dmarcian.com\; ruf=mailto:yl0zvgmk@fr.dmarcian.com\;
+email:
+  ttl: 300
+  type: CNAME
+  value: nu933614.wl115.sendgrid.net
+n:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZD4D7Y8KGAS4G
+    name: aef1937c1a95711e98cdd0aaafbe3d46-9b185ef26eadab0b.elb.eu-west-2.amazonaws.com.
+    type: A
+n.o2.email:
+  ttl: 300
+  type: A
+  value: 167.89.45.118
+n.staff:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZD4D7Y8KGAS4G
+    name: aef1937c1a95711e98cdd0aaafbe3d46-9b185ef26eadab0b.elb.eu-west-2.amazonaws.com.
+    type: A
+n.www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: dualstack.pvbpublic-elbpubli-hqx2okis4lto-1815545098.eu-west-1.elb.amazonaws.com.
+    type: A
+s1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: ns1.domainkey.u933614.wl115.sendgrid.net
+s2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: ns2.domainkey.u933614.wl115.sendgrid.net
+smtpapi._domainkey:
+  ttl: 300
+  type: TXT
+  value: nk=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email:
+  ttl: 300
+  type: TXT
+  value: nk=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB

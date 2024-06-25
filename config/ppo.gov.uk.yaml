@@ -1,0 +1,29 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1312.awsdns-36.org
+  - ns-170.awsdns-21.com
+  - ns-1906.awsdns-46.co.uk
+  - ns-977.awsdns-58.net
+_c8b092cc5e6b18d6d6b1785824fb5bf4.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _708974cacf749aaba82f164334e9e8b4.nhsllhhtvj.acm-validations.aws.
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=e3591c0ba3581f07d0c7f4826a9b5b34
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d264sf26qsqfi.cloudfront.net.
+    type: A

@@ -1,0 +1,41 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 217.70.184.38
+  - type: MX
+    values:
+    - exchange: aspmx.l.google.com
+      preference: 1
+    - exchange: alt1.aspmx.l.google.com
+      preference: 5
+    - exchange: alt2.aspmx.l.google.com
+      preference: 5
+    - exchange: alt3.aspmx.l.google.com
+      preference: 10
+    - exchange: alt4.aspmx.l.google.com
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1309.awsdns-35.org.
+    - ns-1734.awsdns-24.co.uk.
+    - ns-201.awsdns-25.com.
+    - ns-811.awsdns-37.net.
+  - ttl: 300
+    type: TXT
+    values:
+    - google-site-verification=junOlbkbzdr24SEyLd30GBPLhGJUJZPGqQiu_rL8JfI
+    - v=spf1 include:_mailcust.gandi.net ~all
+_asvdns-f2dc2f00-55d6-4f48-a49f-8a7f7d51331a:
+  ttl: 300
+  type: TXT
+  value: asvdns_9c58905c-59f4-4c03-8195-0d012d83240d
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
