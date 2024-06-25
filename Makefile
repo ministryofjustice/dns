@@ -1,81 +1,97 @@
-include defensive-domains/domains.mk
+EDITOR ?= vim
+CONFIG_FILE ?= config.yaml
+ZONES_DIR ?= hostedzones
 
-test: defensive-domains-validate defensive-domains-noop
-.PHONY: test
+# Check for AWS credentials
+AWS_ACCESS_KEY_ID ?= $(shell aws configure get aws_access_key_id)
+AWS_SECRET_ACCESS_KEY ?= $(shell aws configure get aws_secret_access_key)
 
-all:
-.PHONY: all
+# Export AWS credentials
+export AWS_ACCESS_KEY_ID
+export AWS_SECRET_ACCESS_KEY
+
+# Function to check if AWS credentials are set
+define check_aws_creds
+	@if [ -z "$(AWS_ACCESS_KEY_ID)" ] || [ -z "$(AWS_SECRET_ACCESS_KEY)" ]; then \
+		echo "AWS credentials are not set. Please set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY."; \
+		exit 1; \
+	fi
+endef
+
+.PHONY: help install edit-zone validate-zones sync-dry-run sync-apply list-zones dump-zone compare-zone clean
+
+help:
+	@echo "Available commands:"
+	@echo "  make help                 - Show this help message"
+	@echo "  make install              - Set up the Python environment"
+	@echo "  make edit-zone zone=<zone> - Edit a hosted zone file"
+	@echo "  make validate-zones       - Validate all zone files"
+	@echo "  make sync-dry-run         - Perform a dry-run sync for all zones"
+	@echo "  make sync-apply           - Apply changes to all zones"
+	@echo "  make list-zones           - List all zones"
+	@echo "  make dump-zone zone=<zone> - Dump the current live configuration for a zone"
+	@echo "  make compare-zone zone=<zone> - Compare a zone file with its live configuration"
+	@echo "  make clean                - Clean up generated files"
 
 install:
 	python3 -m venv venv
-	. venv/bin/activate
-	python3 -m pip install --upgrade pip
+	. venv/bin/activate && \
+	python3 -m pip install --upgrade pip && \
 	python3 -m pip install -r requirements.txt
-.PHONY: install
 
+edit-zone:
+	@if [ -z "$(zone)" ]; then \
+		echo "Please specify a zone to edit. Usage: make edit-zone zone=example.com"; \
+		exit 1; \
+	fi
+	@if [ ! -f "$(ZONES_DIR)/$(zone).yaml" ]; then \
+		echo "Zone file for $(zone) not found. Creating a new file."; \
+		touch "$(ZONES_DIR)/$(zone).yaml"; \
+	fi
+	$(EDITOR) "$(ZONES_DIR)/$(zone).yaml"
 
-# Defensive domain actions
-# These all take the $DEFENSIVE_DOMAINS "array" (actually a
-# whitespace-separated list of domains) and use Make's pattern
-# substitution (https://www.gnu.org/software/make/manual/make.html#Text-Functions)
-# to expand them into a list of config file paths.
-#
-# These config files are then prerequisites to be generated using the
-# rules in "Defensive domain config", below
+validate-zones:
+	$(call check_aws_creds)
+	octodns-validate --config-file=$(CONFIG_FILE)
 
-defensive-domains-validate: defensive-domains/config.yaml \
-	$(DEFENSIVE_DOMAINS:%=defensive-domains/config/%.yaml)
-	octodns-validate --config-file=$<
-.PHONY: defensive-domains-validate
+sync-dry-run:
+	$(call check_aws_creds)
+	octodns-sync --config-file=$(CONFIG_FILE)
 
-defensive-domains-noop: defensive-domains/config.yaml \
-	$(DEFENSIVE_DOMAINS:%=defensive-domains/config/%.yaml) \
-	defensive-domains-validate
-	octodns-sync --config-file=$<
-.PHONY: defensive-domains-noop
+sync-apply:
+	$(call check_aws_creds)
+	octodns-sync --config-file=$(CONFIG_FILE) --doit
 
-defensive-domains-apply: defensive-domains/config.yaml \
-	$(DEFENSIVE_DOMAINS:%=defensive-domains/config/%.yaml) \
-	defensive-domains-validate
-	octodns-sync --config-file=$< --doit
-.PHONY: defensive-domains-apply
+list-zones:
+	@ls -1 $(ZONES_DIR)/*.yaml | sed 's/.*\///' | sed 's/\.yaml//'
 
-defensive-domains-get-live-config: \
-	$(DEFENSIVE_DOMAINS:%=defensive-domains/live/%.yaml)
-.PHONY: get-live-defensive-domain-config
+dump-zone:
+	$(call check_aws_creds)
+	@if [ -z "$(zone)" ]; then \
+		echo "Please specify a zone to dump. Usage: make dump-zone zone=example.com"; \
+		exit 1; \
+	fi
+	octodns-dump --config-file=$(CONFIG_FILE) --output-dir=tmp $(zone). route53
 
-
-# Defensive domain config
-# defensive-domains/config/%.yaml and defensive-domains/live/%.yaml are
-# Make pattern rules (https://www.gnu.org/software/make/manual/make.html#Pattern-Rules)
-# meaning that they match any file path that fits that format (where % is
-# a wildcard).
-#
-# We then use the $(<F) (first prerequisite's filename), $@ (target file),
-# $(@D) (target file's directory) and $* (match stem)  automatic variables
-# (https://www.gnu.org/software/make/manual/make.html#Automatic-Variables)
-# to generate only the required configs.
-
-defensive-domains/config.yaml: defensive-domains/config.tmpl.yaml defensive-domains/domains.mk
-	@cat $< > $@
-	@echo "  $(DEFENSIVE_DOMAINS:%=%.:\n    sources:\n      - config\n    targets:\n      - route53\n )" >> $@
-
-defensive-domains/config/%.yaml: defensive-domains/dns.tmpl.yaml
-	@mkdir -p defensive-domains/config/
-	@ln -s ../$(<F) $@
-
-defensive-domains/live/%.yaml: defensive-domains/config.yaml
-	octodns-dump \
-	  --config-file=$< \
-	  --output-dir=$(@D) \
-	  $*. route53
-
-
-# Cleanup
+compare-zone:
+	$(call check_aws_creds)
+	@if [ -z "$(zone)" ]; then \
+		echo "Please specify a zone to compare. Usage: make compare-zone zone=example.com"; \
+		exit 1; \
+	fi
+	@if [ ! -f "$(ZONES_DIR)/$(zone).yaml" ]; then \
+		echo "Zone file for $(zone) not found."; \
+		exit 1; \
+	fi
+	octodns-dump --config-file=$(CONFIG_FILE) --output-dir=tmp $(zone). route53
+	@echo "Differences between local and live configuration:"
+	@diff -u $(ZONES_DIR)/$(zone).yaml tmp/$(zone).yaml || true
+	@rm -f tmp/$(zone).yaml
 
 clean:
-	@rm -rf \
-	  defensive-domains/config.yaml \
-	  defensive-domains/config/ \
-	  defensive-domains/live/
-.PHONY: clean
+	@rm -rf venv tmp
+	@find . -type f -name "*.pyc" -delete
+	@find . -type d -name "__pycache__" -delete
+
+# Set help as the default target
+.DEFAULT_GOAL := help
