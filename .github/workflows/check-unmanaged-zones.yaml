@@ -8,7 +8,6 @@ on:
 jobs:
   check-zones:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -22,70 +21,67 @@ jobs:
           make install
 
       - name: Run check for unmanaged zones
+        id: check-zones
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
-        run: make check-unmanaged-zones
+        run: |
+          output=$(make check-unmanaged-zones)
+          echo "check_output<<EOF" >> $GITHUB_OUTPUT
+          echo "$output" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Notify on failure
-        if: failure()
-        uses: 8398a7/action-slack@28ba43ae48961b90635b50953d216767a6bea486
+      - name: Send notification to Slack
+        if: failure() || contains(steps.check-zones.outputs.check_output, 'not managed by octoDNS')
+        uses: slackapi/slack-github-action@v1.24.0
         with:
-          status: custom
-          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
-          custom_payload: |
+          payload: |
             {
-              blocks: [
+              "blocks": [
                 {
-                  type: "section",
-                  text: {
-                    type: "mrkdwn",
-                    text: ":warning: *Unmanaged Zones Alert* :warning:"
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "⚠️ Unmanaged Zones Detected ⚠️"
                   }
                 },
                 {
-                  type: "section",
-                  fields: [
-                    {
-                      type: "mrkdwn",
-                      text: "*Repository:*\n${{ github.repository }}"
-                    },
-                    {
-                      type: "mrkdwn",
-                      text: "*Workflow:*\n${{ github.workflow }}"
-                    }
-                  ]
-                },
-                {
-                  type: "section",
-                  text: {
-                    type: "mrkdwn",
-                    text: "*Details:*\n```${{ steps.check-zones.outputs.check_output }}```"
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Repository:* ${{ github.repository }}\n*Workflow:* ${{ github.workflow }}"
                   }
                 },
                 {
-                  type: "section",
-                  text: {
-                    type: "mrkdwn",
-                    text: "Unmanaged zones detected or the script failed to run. Please review the unmanaged zones and update the DNS configuration as necessary."
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Check Output:*\n```${{ steps.check-zones.outputs.check_output }}```"
                   }
                 },
                 {
-                  type: "actions",
-                  elements: [
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Unmanaged zones have been detected or the script failed to run. Please review the unmanaged zones and update the DNS configuration as necessary."
+                  }
+                },
+                {
+                  "type": "actions",
+                  "elements": [
                     {
-                      type: "button",
-                      text: {
-                        type: "plain_text",
-                        text: "View GitHub Actions Log",
-                        emoji: true
+                      "type": "button",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "View GitHub Actions Log",
+                        "emoji": true
                       },
-                      url: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                      "url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
                     }
                   ]
                 }
-              ],
-              color: "warning"
+              ]
             }
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
