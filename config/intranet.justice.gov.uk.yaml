@@ -1,0 +1,123 @@
+---
+? ''
+: - ttl: 1800
+    type: MX
+    value:
+      exchange: .
+      preference: 0
+  - ttl: 600
+    type: NS
+    values:
+    - ns-1367.awsdns-42.org.
+    - ns-1689.awsdns-19.co.uk.
+    - ns-63.awsdns-07.com.
+    - ns-913.awsdns-50.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: ZHURV8PSTC4K8
+      name: dualstack.intra-loadb-1vuugtgd901a4-9454459.eu-west-2.elb.amazonaws.com.
+      type: A
+  - ttl: 300
+    type: TXT
+    value: v=spf1 -all
+3l4nzmvtmwandpygxl7j2qlvqmtusryd._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: 3l4nzmvtmwandpygxl7j2qlvqmtusryd.dkim.amazonses.com
+'*._domainkey':
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=
+_8fa1ee73e1ecbaa6751a8fae8530777f.search.hmpps:
+  ttl: 300
+  type: CNAME
+  value: _9371b8b145500ba4cb770fc29eccca0d.mybbdzzyvz.acm-validations.aws.
+_8419399303dec2c429e03b67b2876d9f.hmpps:
+  ttl: 300
+  type: CNAME
+  value: _0c6f486fe1b1951030bcd4fb190fbe66.chvvfdvqrj.acm-validations.aws
+_amazonses:
+  ttl: 1800
+  type: TXT
+  value: MVEdwK6GfA9rSgTEanc+3OeFWxUTw8zXH4OtnO4Pjyg=
+_amazonses.hmpps:
+  ttl: 300
+  type: TXT
+  value: 8h7KXrMPUVTY7KuYo44astT0GQ8v2ie8fnNnHROqumM=
+_asvdns-25d85fcb-1a2c-4908-ad39-316862907964.intranet:
+  ttl: 300
+  type: TXT
+  value: asvdns_54feda94-a0af-419c-9834-6422eb969cdc
+_c4588e06b18aaa08a3216ec2f416a48a.www:
+  ttl: 300
+  type: CNAME
+  value: _b273edbb80229cf8a6d790e16b5c1a82.jhztdrwbnw.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+_ef76ae985bbcaaeab415aa727e238bd3:
+  ttl: 300
+  type: CNAME
+  value: _9696659a7f7af61820dfcd3d7d3b11d7.jhztdrwbnw.acm-validations.aws.
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+brzpojnhmffbxgfaj63qfnvzmhzw5gaw._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: brzpojnhmffbxgfaj63qfnvzmhzw5gaw.dkim.amazonses.com
+buk33d2avpbyyqpitsptbbxxvjqym67a._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: buk33d2avpbyyqpitsptbbxxvjqym67a.dkim.amazonses.com
+hmpps:
+- ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: ZD4D7Y8KGAS4G
+    name: nlb-for-squiz-app-access-26c183f334afe45b.elb.eu-west-2.amazonaws.com.
+    type: A
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com -all
+k3zar4kkpli42qr5llkklb4vniee4nvy._domainkey.hmpps:
+  ttl: 300
+  type: CNAME
+  value: k3zar4kkpli42qr5llkklb4vniee4nvy.dkim.amazonses.com
+m6kudchk2qephv3kspw7hoq4hncmc7nh._domainkey.hmpps:
+  ttl: 300
+  type: CNAME
+  value: m6kudchk2qephv3kspw7hoq4hncmc7nh.dkim.amazonses.com
+mv5fljaqkoyxx2ymqv4hjze62bsczywf._domainkey.hmpps:
+  ttl: 300
+  type: CNAME
+  value: mv5fljaqkoyxx2ymqv4hjze62bsczywf.dkim.amazonses.com
+search.hmpps:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: ZD4D7Y8KGAS4G
+    name: nlb-for-squiz-app-access-26c183f334afe45b.elb.eu-west-2.amazonaws.com.
+    type: A
+test3:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: dualstack.intra-loadb-1vuugtgd901a4-9454459.eu-west-2.elb.amazonaws.com.
+    type: A
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: dualstack.intra-loadb-1vuugtgd901a4-9454459.eu-west-2.elb.amazonaws.com.
+    type: A

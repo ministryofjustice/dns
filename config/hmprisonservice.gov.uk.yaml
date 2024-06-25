@@ -1,0 +1,141 @@
+---
+? ''
+: - ttl: 600
+    type: MX
+    values:
+    - exchange: mailserv0.instant-web.co.uk.
+      preference: 10
+    - exchange: mailserv2.instant-web.co.uk.
+      preference: 20
+    - exchange: mailserv3.instant-web.co.uk.
+      preference: 20
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1479.awsdns-56.org.
+    - ns-1588.awsdns-06.co.uk.
+    - ns-440.awsdns-55.com.
+    - ns-764.awsdns-31.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+_asvdns-e6c19c78-f0f9-42af-a2d7-0046ec2b5d56:
+  ttl: 300
+  type: TXT
+  value: asvdns_bc3fad6b-9b06-470d-89ad-fe88191a2957
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+cms:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+extranet:
+  ttl: 600
+  type: A
+  value: 195.92.41.108
+gw1-extranet:
+  ttl: 600
+  type: A
+  value: 195.92.41.110
+gw1-portal:
+  ttl: 600
+  type: A
+  value: 195.92.41.126
+gw2-extranet:
+  ttl: 600
+  type: A
+  value: 195.92.41.109
+gw2-portal:
+  ttl: 600
+  type: A
+  value: 195.92.41.125
+gw3-portal:
+  ttl: 600
+  type: A
+  value: 195.92.41.123
+jobs:
+  ttl: 600
+  type: A
+  value: 62.25.103.101
+officertest:
+  ttl: 600
+  type: A
+  value: 193.30.111.132
+portal:
+  ttl: 600
+  type: A
+  value: 195.92.41.124
+procurement:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+psi:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+pso:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+search:
+  ttl: 600
+  type: CNAME
+  value: search.hmprisonservice.gov.uk.openobjects.com.
+staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+staging.procurement:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+web-smtp:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A

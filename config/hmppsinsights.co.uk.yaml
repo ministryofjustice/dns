@@ -1,0 +1,82 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    values:
+    - exchange: mx10.mailspamprotection.com
+      preference: 10
+    - exchange: mx20.mailspamprotection.com
+      preference: 20
+    - exchange: mx30.mailspamprotection.com
+      preference: 30
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1150.awsdns-15.org.
+    - ns-1760.awsdns-28.co.uk.
+    - ns-587.awsdns-09.net.
+    - ns-70.awsdns-08.com.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d6byeqckoamu3.cloudfront.net.
+      type: A
+  - ttl: 300
+    type: TXT
+    values:
+    - google-site-verification=3qRxtIUoXam7VsdVzLbydXb7FLO36q45moZZ-Ef-vPE
+    - v=spf1 +a +mx +ip4:35.246.121.197 +include:_spf.mailspamprotection.com ~all
+_8aaef37ec51937f5d28e9fc7a4ead7c2:
+  ttl: 300
+  type: CNAME
+  value: _312e8ba15b3d454e8ec9db35c39e0b7e.tftwdmzmwn.acm-validations.aws.
+_268633694c48b2e8a33dd9f26d40be8a.www:
+  ttl: 300
+  type: CNAME
+  value: _ebd8224f4701df58162d51f189143f6f.tctzzymbbs.acm-validations.aws.
+_asvdns-f386b266-962b-4b39-ae5c-019e53c86b85:
+  ttl: 300
+  type: TXT
+  value: asvdns_3914be41-0787-492d-9c0a-3d5270ca2300
+_domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; o=~
+autoconfig:
+  ttl: 300
+  type: A
+  value: 35.246.112.126
+autodiscover:
+  ttl: 300
+  type: A
+  value: 35.246.112.126
+default._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC970Q0aLehMiSQaoEYhmu45yH3usyHcwedsQ2as1rmYu/7O/KBz8oLFN2N0G5sWkdGXdTEo1vfHdvq26iBJA7ZvMlpJ7Imje7xAWEqYRheuYWOYZd+aSOr+8Sutn1ZA0CTTkXEyRsntwmYupySBb+s/G1SuFIBcN4Dj8E2KI+axQIDAQAB\;
+ftp:
+  ttl: 300
+  type: A
+  value: 35.246.112.126
+localhost:
+  ttl: 300
+  type: A
+  value: 127.0.0.1
+mail:
+  ttl: 300
+  type: A
+  value: 35.246.112.126
+ssh:
+  ttl: 300
+  type: A
+  value: 35.246.112.126
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d6byeqckoamu3.cloudfront.net.
+    type: A

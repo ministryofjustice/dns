@@ -1,0 +1,100 @@
+---
+? ''
+: - type: MX
+    value:
+      exchange: judicialombudsman-gov-uk.mail.protection.outlook.com.
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1195.awsdns-21.org.
+    - ns-1999.awsdns-57.co.uk.
+    - ns-441.awsdns-55.com.
+    - ns-948.awsdns-54.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+  - type: TXT
+    values:
+    - MS=ms63701323
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+      -all
+_asvdns-f18eb53a-95d7-4b71-935e-359501e3ca99:
+  ttl: 300
+  type: TXT
+  value: asvdns_a8c8de9e-0d43-432f-82cc-851c135cebbd
+_bdc21fd8e7131252edf6170c59d09f26.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _d6469bb205fe17a162bc5d23575207dd.nhsllhhtvj.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=fc97333e0f757720f68cd18bcc560ec6
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+fp01._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d36409ni06s39f.cloudfront.net.
+    type: A
+selector1._domainkey:
+  type: CNAME
+  value: selector1-judicialombudsman-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  type: CNAME
+  value: selector2-judicialombudsman-gov-uk._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+www:
+  ttl: 300
+  type: CNAME
+  value: judicialombudsman.gov.uk

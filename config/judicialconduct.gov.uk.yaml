@@ -1,0 +1,152 @@
+---
+? ''
+: - type: MX
+    value:
+      exchange: judicialconduct-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1290.awsdns-33.org.
+    - ns-1680.awsdns-18.co.uk.
+    - ns-456.awsdns-57.com.
+    - ns-521.awsdns-01.net.
+  - type: TXT
+    values:
+    - MS=ms67760250
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+      -all
+_0be96fa6a7f31b10a5bde19c35df1966.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _f079987691e5471fc81a9369dfb68983.nhsllhhtvj.acm-validations.aws.
+_asvdns-6d4e5f33-aec8-499f-a30d-9de3ccfc3ae9.complaints:
+  ttl: 300
+  type: TXT
+  value: asvdns_0f1daad9-73c3-45b9-a1b0-4f6aec84f081
+_asvdns-54d73b6b-4ab6-4d59-9d84-1b1d9f1713c9:
+  ttl: 300
+  type: TXT
+  value: asvdns_53ed5eec-6b10-4e59-ab94-085f688f5f88
+_dmarc:
+  ttl: 600
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=628112f5df71f7dae54240dd017ce101
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sip._tls.complaints:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_sipfederationtls._tcp.complaints:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+autodiscover.complaints:
+  type: CNAME
+  value: autodiscover.outlook.com
+complaints:
+- ttl: 600
+  type: MX
+  value:
+    exchange: complaints-judicialconduct-gov-uk.mail.protection.outlook.com
+    preference: 0
+- ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+- ttl: 600
+  type: TXT
+  values:
+  - MS=ms98712360
+  - v=spf1 include:spf.protection.outlook.com -all
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseenrollment.complaints:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+enterpriseregistration.complaints:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+fp01._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+lyncdiscover.complaints:
+  type: CNAME
+  value: webdir.online.lync.com
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d2xal6h7kfwby2.cloudfront.net.
+    type: A
+selector1._domainkey:
+  type: CNAME
+  value: selector1-judicialconduct-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector1._domainkey.complaints:
+  ttl: 600
+  type: CNAME
+  value: selector1-complaints-judicialconduct-gov-uk._domainkey.jcio.onmicrosoft.com
+selector2._domainkey:
+  type: CNAME
+  value: selector2-judicialconduct-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey.complaints:
+  ttl: 600
+  type: CNAME
+  value: selector2-complaints-judicialconduct-gov-uk._domainkey.jcio.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+sip.complaints:
+  type: CNAME
+  value: sipdir.online.lync.com
+www.complaints:
+  ttl: 600
+  type: CNAME
+  value: jcio1.microsoftcrmportals.com.

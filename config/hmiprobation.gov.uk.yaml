@@ -1,0 +1,94 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    value:
+      exchange: hmiprobation-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1148.awsdns-15.org.
+    - ns-1753.awsdns-27.co.uk.
+    - ns-451.awsdns-56.com.
+    - ns-741.awsdns-28.net.
+  - type: TXT
+    values:
+    - MS=ms46824931
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - v=spf1 include:_spf.mlsend.com ip4:194.33.196.8/32 ip4:194.33.192.8/32 include:spf.protection.outlook.com
+      -all
+_90a26ed25d4dc817fe7ddb874d5fc26c.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _2a4fab736f1ea1982d558f009c45d3da.rdnyqppgxp.acm-validations.aws.
+_asvdns-4b300764-2cd2-4c28-b11f-029afd9d7a06:
+  ttl: 300
+  type: TXT
+  value: asvdns_c737c6f9-6e05-4bd7-8490-be6d7c80cc00
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=a1f3eda4db6d3e19a92f6cb5879a4298
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+fp01._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+ml._domainkey:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD4npiCt3gIjHVhjWttrcobykb4QYy7B/zJnkIYaDcvtAWcLcRF9xKKNZMv9sqTwrH3j5YXJQpMTpFcGVfPd66ncLI3U4Iet/Kc5QSCXQH5J5S1IvOGiMjBGNmKqjQghUeidiIw1IKYJNrwgIjdkNzaDa2Om1uXYr7Bj+P+qUSxewIDAQAB
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d1ijlypdgxf672.cloudfront.net.
+    type: A
+selector1._domainkey:
+  type: CNAME
+  value: selector1-hmiprobation-gov-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  type: CNAME
+  value: selector2-hmiprobation-gov-uk._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com

@@ -1,0 +1,133 @@
+---
+? ''
+: - ttl: 1800
+    type: MX
+    value:
+      exchange: inbound-smtp.eu-west-1.amazonaws.com
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1008.awsdns-62.net.
+    - ns-1410.awsdns-48.org.
+    - ns-1766.awsdns-28.co.uk.
+    - ns-443.awsdns-55.com.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+_4416e320d11c5c898a5a17f5b96495f2.downloader:
+  ttl: 300
+  type: CNAME
+  value: _dd3bf653ffa210f1fccce41df71c0010.acm-validations.aws.
+_acme-challenge:
+  ttl: 300
+  type: TXT
+  value: 1NMN97I2XNYQ11KtDULZx3o-oEOj0GdgbZxyyXyx6co
+_acme-challenge.dssa:
+  ttl: 300
+  type: TXT
+  value: Wpak0PwelGjsiv9X2Jey7abwo774DRbJMTiel4ISpxU
+_acme-challenge.dssa-nle:
+  ttl: 1
+  type: TXT
+  value: p8S50LIPztlVkHigc-EhZCyssPKzgQHtBdfPuSKKEZY
+_amazonses:
+  ttl: 1800
+  type: TXT
+  value: /Y8ldG5+FGQeLLzD9m92oJSU0fBVSNhVvzyG2HFg8N0=
+_asvdns-f5cfd3d1-2f8f-469d-be47-3f605432735a:
+  ttl: 300
+  type: TXT
+  value: asvdns_cdc140ca-3924-474c-a130-068601112b94
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+deployarn.a4ae59a5.prod.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-TVSUTEGJ7CI5
+deployarn.active.prod.tax-tribunals-uploader-downloader:
+  ttl: 60
+  type: TXT
+  value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-TVSUTEGJ7CI5
+deployarn.active.prod.tax-tribunals-wsproxy:
+  ttl: 60
+  type: TXT
+  value: 'False'
+downloader:
+  ttl: 60
+  type: A
+  value: 51.140.165.14
+downloader-a4ae59a5:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tax-tribu-elbdownl-ehszr9vif021-432191533.eu-west-1.elb.amazonaws.com.
+    type: A
+dssa:
+  ttl: 300
+  type: A
+  value: 4.159.36.107
+dssa-nle:
+  ttl: 60
+  type: A
+  value: 4.234.20.174
+gjiugiuoku4g2nkjwdl2zjsgb4xctmec._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: gjiugiuoku4g2nkjwdl2zjsgb4xctmec.dkim.amazonses.com
+internal.dssa:
+  ttl: 300
+  type: A
+  value: 10.14.0.13
+n6fafodof3uhnngkluvfp4argwu7dpya._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: n6fafodof3uhnngkluvfp4argwu7dpya.dkim.amazonses.com
+stack.a4ae59a5.tax-tribunals-uploader-downloader-prod:
+  ttl: 60
+  type: TXT
+  value: a4ae59a5
+stack.active.tax-tribunals-uploader-downloader-prod:
+  ttl: 60
+  type: TXT
+  value: a4ae59a5
+stack.active.tax-tribunals-wsproxy-prod:
+  ttl: 60
+  type: TXT
+  value: 4e3cae04
+stack.prod3.tax-tribunals-wsproxy-prod:
+  ttl: 60
+  type: TXT
+  value: 4e3cae04
+toe7765ielyjz2sirdtopbzr65mjg47v._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: toe7765ielyjz2sirdtopbzr65mjg47v.dkim.amazonses.com
+uploader-a4ae59a5:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: internal-tax-tribu-elbuploa-1sgrzeyhd7rzs-1071674395.eu-west-1.elb.amazonaws.com.
+    type: A
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: ''
+    type: A

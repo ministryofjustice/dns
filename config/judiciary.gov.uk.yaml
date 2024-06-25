@@ -1,0 +1,160 @@
+---
+? ''
+: - ttl: 600
+    type: A
+    value: 54.228.199.127
+  - ttl: 600
+    type: MX
+    value:
+      exchange: mail.dxw.net.
+      preference: 5
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1357.awsdns-41.org.
+    - ns-2026.awsdns-61.co.uk.
+    - ns-66.awsdns-08.com.
+    - ns-680.awsdns-21.net.
+  - ttl: 600
+    type: TXT
+    value: v=spf1 a mx -all
+'*':
+  ttl: 600
+  type: A
+  value: 80.86.35.81
+_6e995847a16897be201558fafeedbbec.www:
+  ttl: 600
+  type: CNAME
+  value: _5a56ee2c7eff246d4a048def7e9e8dee.acm-validations.aws.
+_asvdns-7a6d1dd3-7e08-4a4c-b9a1-1259324aea2b.jwss:
+  ttl: 300
+  type: TXT
+  value: asvdns_988aea57-b101-4fe0-8dc6-aa32644d7099
+_asvdns-48f77fb9-0ff2-4e27-a4d6-eb45fc4f5650.jac:
+  ttl: 300
+  type: TXT
+  value: asvdns_0839f265-f8c2-4150-817e-548c17b1c672
+_asvdns-58106a05-6126-420c-aa95-94ec8d91c043.judicialcollege:
+  ttl: 300
+  type: TXT
+  value: asvdns_ad780ef1-a19c-49dc-a4a5-0e05189c27db
+_asvdns-cb10da53-2de4-487a-a1b4-57153a8e61dd:
+  ttl: 300
+  type: TXT
+  value: asvdns_af3cf630-cda8-48ff-b13b-64ffaf4081f0
+_dmarc:
+  ttl: 600
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_dmarc.judicialcollege:
+  ttl: 300
+  type: CNAME
+  value: dmarc.mail.judicial.kineoedition.com
+_ecf9157f031ef82308cee8de3c342dbe.intranet:
+  ttl: 600
+  type: CNAME
+  value: _c8bfb16050c2196dda3db635e9e12f84.acm-validations.aws.
+_f9a2000001cb4381c8449175c6c006de.www:
+  ttl: 300
+  type: CNAME
+  value: _370324631239f747b5a0cd725e8f7afe.rvctyfnwhz.acm-validations.aws.
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+civiljusticecouncil:
+  ttl: 600
+  type: A
+  value: 80.86.35.81
+familyjusticecouncil:
+  ttl: 600
+  type: A
+  value: 80.86.35.81
+harold._domainkey:
+  ttl: 300
+  type: CNAME
+  value: harold._domainkey.dxw.com
+harthacnut._domainkey:
+  ttl: 300
+  type: CNAME
+  value: harthacnut._domainkey.dxw.com
+intranet:
+  ttl: 600
+  type: CNAME
+  value: redirect.dxw.net.
+jac:
+  ttl: 600
+  type: A
+  value: 185.40.8.148
+jars.jac:
+  ttl: 600
+  type: A
+  value: 185.40.8.147
+judicialcollege:
+  ttl: 300
+  type: CNAME
+  value: judicial.kineoedition.com
+judicialconduct:
+  ttl: 600
+  type: NS
+  values:
+  - ns-1394.awsdns-46.org.
+  - ns-1747.awsdns-26.co.uk.
+  - ns-853.awsdns-42.net.
+  - ns-87.awsdns-10.com.
+jwss:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z3GKZC51ZF0DB4
+    name: s3-website.eu-west-2.amazonaws.com.
+    type: A
+kineolms._domainkey.judicialcollege:
+  ttl: 300
+  type: CNAME
+  value: dkim.mail.judicial.kineoedition.com
+search:
+  ttl: 600
+  type: A
+  value: 212.44.22.84
+search.sentencingcouncil:
+  ttl: 600
+  type: CNAME
+  value: search2.openobjects.com.
+sec:
+  ttl: 600
+  type: A
+  value: 94.236.26.129
+sentencingcouncil:
+  ttl: 600
+  type: CNAME
+  value: sentencing-judiciary.live.bangdynamics.com.
+smtp:
+  ttl: 600
+  type: A
+  value: 80.86.35.81
+uat.residential-property:
+  ttl: 600
+  type: CNAME
+  value: uat.rpts.clients.wtg.co.uk.
+webapps:
+  ttl: 600
+  type: NS
+  values:
+  - ns-1428.awsdns-50.org.
+  - ns-1586.awsdns-06.co.uk.
+  - ns-653.awsdns-17.net.
+  - ns-92.awsdns-11.com.
+www:
+  ttl: 600
+  type: CNAME
+  value: redirect.dxw.net
+www.residential-property:
+  ttl: 600
+  type: CNAME
+  value: prod.rpts.clients.wtg.co.uk.
+www.sec:
+  ttl: 600
+  type: A
+  value: 94.236.26.129
