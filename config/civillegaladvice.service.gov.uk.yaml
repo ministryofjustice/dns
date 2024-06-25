@@ -1,0 +1,60 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1135.awsdns-13.org.
+    - ns-1809.awsdns-34.co.uk.
+    - ns-501.awsdns-62.com.
+    - ns-640.awsdns-16.net.
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:sendgrid.net ~all
+_a1fd4d292d772692a54d0137560e3592.cases:
+  ttl: 300
+  type: CNAME
+  value: _d786b333b4660a3e4a1733a220b4d292.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=none\; rua=mailto:yl0zvgmk@ag.dmarcian.com\; ruf=mailto:yl0zvgmk@fr.dmarcian.com\;
+cases:
+  ttl: 300
+  type: NS
+  values:
+  - ns-1003.awsdns-61.net.
+  - ns-1514.awsdns-61.org.
+  - ns-1691.awsdns-19.co.uk.
+  - ns-237.awsdns-29.com.
+email:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
+fox:
+  ttl: 60
+  type: NS
+  values:
+  - ns-1129.awsdns-13.org.
+  - ns-1720.awsdns-23.co.uk.
+  - ns-473.awsdns-59.com.
+  - ns-673.awsdns-20.net.
+o3.email:
+  ttl: 300
+  type: A
+  value: 167.89.46.236
+redirect:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A
+smtpapi._domainkey:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+smtpapi._domainkey.email:
+  ttl: 300
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB

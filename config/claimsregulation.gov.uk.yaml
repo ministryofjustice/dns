@@ -1,0 +1,17 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1344.awsdns-40.org.
+  - ns-1810.awsdns-34.co.uk.
+  - ns-76.awsdns-09.com.
+  - ns-943.awsdns-53.net.
+aka:
+  ttl: 300
+  type: CNAME
+  value: bouncer-cdn.production.govuk.service.gov.uk
+www:
+  ttl: 300
+  type: CNAME
+  value: aka.claimsregulation.gov.uk

@@ -1,0 +1,13 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1488.awsdns-58.org.
+  - ns-1702.awsdns-20.co.uk.
+  - ns-343.awsdns-42.com.
+  - ns-934.awsdns-52.net.
+_36c1035c54fdc305a02189c5cff53975.staging:
+  ttl: 300
+  type: CNAME
+  value: _e68adf7df5e53fd666bba54b4459de1e.wrpxpmnjfs.acm-validations.aws.

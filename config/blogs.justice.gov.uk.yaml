@@ -1,0 +1,64 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 54.194.93.232
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1034.awsdns-01.org.
+    - ns-1678.awsdns-17.co.uk.
+    - ns-393.awsdns-49.com.
+    - ns-856.awsdns-43.net.
+_5fbc904e08ce69cb4572a89a26cbfa2c.nces:
+  ttl: 60
+  type: CNAME
+  value: _eae5da7cfc7975f3afc2fad488637b85.vhzmpjdqfx.acm-validations.aws.
+_amazonses.cs:
+  ttl: 1800
+  type: TXT
+  value: R8EW9mewy4l2teMYyUK0kyuXGCDnuhB1RnXtyndZ8rU=
+cs:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-93-232.eu-west-1.compute.amazonaws.com
+digital:
+  ttl: 300
+  type: CNAME
+  value: redirector-cdn.production.govuk.service.gov.uk
+h5qw7hvcqrddaov2dre75vy4jzchkbsq._domainkey.cs:
+  ttl: 1800
+  type: CNAME
+  value: h5qw7hvcqrddaov2dre75vy4jzchkbsq.dkim.amazonses.com
+hmcts:
+  ttl: 300
+  type: CNAME
+  value: hmctsblog.wpengine.com
+kt3d3bftgv4mmzduqwxpvxh3bbjfps72._domainkey.cs:
+  ttl: 1800
+  type: CNAME
+  value: kt3d3bftgv4mmzduqwxpvxh3bbjfps72.dkim.amazonses.com
+natalie:
+  ttl: 300
+  type: CNAME
+  value: hmctsblog.wpengine.com
+nces:
+  ttl: 300
+  type: CNAME
+  value: ncesblog.prod.wp.dsd.io
+oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs:
+  ttl: 1800
+  type: CNAME
+  value: oajjnj7slmrbukrr5c6crn3sv35g5tpi.dkim.amazonses.com
+opgsenior:
+  ttl: 300
+  type: CNAME
+  value: opgsenior.wpengine.com
+opgtransformation:
+  ttl: 300
+  type: CNAME
+  value: opgblog.wpengine.com
+www:
+  ttl: 300
+  type: A
+  value: 54.194.93.232

@@ -1,0 +1,9 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1230.awsdns-25.org.
+  - ns-2027.awsdns-61.co.uk.
+  - ns-230.awsdns-28.com.
+  - ns-612.awsdns-12.net.

@@ -1,0 +1,13 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1011.awsdns-62.net.
+  - ns-1295.awsdns-33.org.
+  - ns-192.awsdns-24.com.
+  - ns-1945.awsdns-51.co.uk.
+'18':
+  ttl: 300
+  type: PTR
+  value: xhibitportalmail.cjit.gov.uk

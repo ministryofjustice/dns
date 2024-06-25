@@ -1,0 +1,21 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1188.awsdns-20.org.
+  - ns-1546.awsdns-01.co.uk.
+  - ns-218.awsdns-27.com.
+  - ns-695.awsdns-22.net.
+'13':
+  ttl: 300
+  type: PTR
+  value: 51-149-2-13.in-addr.justice.gov.uk.
+'253':
+  ttl: 300
+  type: PTR
+  value: 51-149-2-253.in-addr.justice.gov.uk.
+'254':
+  ttl: 300
+  type: PTR
+  value: 51-149-2-254.in-addr.justice.gov.uk.

@@ -1,0 +1,103 @@
+---
+? ''
+: - ttl: 300
+    type: MX
+    value:
+      exchange: cica-gov-uk.mail.protection.outlook.com.
+      preference: 0
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1476.awsdns-56.org.
+    - ns-1930.awsdns-49.co.uk.
+    - ns-252.awsdns-31.com.
+    - ns-755.awsdns-30.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: djq60un4uyomi.cloudfront.net.
+      type: A
+  - ttl: 300
+    type: TXT
+    values:
+    - CDixrtfZce+k5KA7lE5ht+GUKVl/kW0+I3m+gxBdeEf+WHrEPlubQBdPVWaOahzgzgMgpGojzTAYkuIYG67nkA==
+    - MS=ms41318437
+    - v=spf1 ip4:54.240.0.0/18 include:spf.protection.outlook.com ~all
+    - w6xmnnqn2r3vnry0c5n5sg3dg25wvlln
+_56a37ebc38b8f47a75fe557fc29d22dd.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _02e3e279d7eecdec7e472a7b27b4f950.mhbtsbpdnt.acm-validations.aws.
+_197eb29a0dfa200c07fbebf6e3c86eff:
+  ttl: 300
+  type: CNAME
+  value: _7276abb0b0da9f5654166f237afe9dd4.snrcwrvdjt.acm-validations.aws.
+_a97df82e0b2f3c8f59d0df9d6898d7a5.cintra-vpn:
+  ttl: 300
+  type: CNAME
+  value: 30962f95cbb2975135ce09ef399bf356.7751e04c03cf8b06dd4a551d6e8de668.65649a5b992c2570ee3e.sectigo.com.
+_ab7da5570886148ce1beeae1281f91b0:
+  ttl: 300
+  type: CNAME
+  value: _6f79d18161a4657326c67fe5ee3fd98c.snrcwrvdjt.acm-validations.aws.
+_ab7da5570886148ce1beeae1281f91b0.www:
+  ttl: 300
+  type: CNAME
+  value: _6f79d18161a4657326c67fe5ee3fd98c.snrcwrvdjt.acm-validations.aws.
+_asvdns-8c41ef98-16cc-4dc1-a22f-f92c494c210d:
+  ttl: 300
+  type: TXT
+  value: asvdns_3dfa6e6d-4f3e-4dda-b3ec-1c3219bcfe8e
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=quarantine\; sp=quarantine\; fo=1\; rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@cica.gov.uk\;ruf=mailto:dmarc@cica.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=7bd4f1c2d2feafeece15ae01bf67b678
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com.
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net.
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d1mjxpf94ovr2l.cloudfront.net.
+    type: A
+selector1._domainkey:
+  type: CNAME
+  value: selector1-cica-gov-uk._domainkey.cicagov.onmicrosoft.com.
+selector2._domainkey:
+  type: CNAME
+  value: selector2-cica-gov-uk._domainkey.cicagov.onmicrosoft.com.
+vpngate2:
+  ttl: 300
+  type: A
+  value: 213.107.167.128
+vpnportal:
+  ttl: 300
+  type: A
+  value: 213.107.167.128
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: djq60un4uyomi.cloudfront.net.
+    type: A

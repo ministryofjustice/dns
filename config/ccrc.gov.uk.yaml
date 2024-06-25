@@ -1,0 +1,35 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1379.awsdns-44.org.
+    - ns-1844.awsdns-38.co.uk.
+    - ns-322.awsdns-40.com.
+    - ns-696.awsdns-23.net.
+  - ttl: 300
+    type: TXT
+    value: 68mnpg8h53n9jr4htpl2529xm5jyvx4f
+_9e111899dbb1e73aed800dd796c849f4.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _529da6734664ecca58ad43f6298844fe.bkngfjypgb.acm-validations.aws.
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=61658d49bbc2aee51b11cebf1d37ae83
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d17g7hcsgudvb4.cloudfront.net.
+    type: A
+sslvpn:
+  type: A
+  value: 4.158.26.205
