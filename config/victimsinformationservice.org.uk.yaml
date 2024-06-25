@@ -1,0 +1,64 @@
+---
+? ''
+: - ttl: 300
+    type: NS
+    values:
+    - ns-1133.awsdns-13.org
+    - ns-1776.awsdns-30.co.uk
+    - ns-504.awsdns-63.com
+    - ns-836.awsdns-40.net
+  - ttl: 300
+    type: TXT
+    value: google-site-verification=LtAf4X0uzrFwmWaywoLQSinsMjrQeWBetT8hTDvy__4
+07dfcb8fcbca67bdfc306d907236a42d:
+  ttl: 300
+  type: CNAME
+  value: 21d0f61ea07454a56411e203b96afbdbeed5c584.comodoca.com
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+_ec889d6bdfaec482e123675cd4f4b3c0:
+  ttl: 300
+  type: CNAME
+  value: _1a89d45a002f935f9e89b77c7d71dbaf.tljzshvwok.acm-validations.aws.
+cfc8bc4049726d66957e9416c9578f48:
+  ttl: 10800
+  type: CNAME
+  value: c0efdb0959d72f7ac45a36af416243e4b7d47804.comodoca.com.
+cloudfront:
+  ttl: 60
+  type: CNAME
+  value: d4s7o73iukmvm.cloudfront.net
+live:
+  ttl: 300
+  type: CNAME
+  value: live.victimsinformationservice.org.uk.herokudns.com
+origin:
+  ttl: 60
+  type: CNAME
+  value: origin.victimsinformationservice.org.uk.herokudns.com
+origin-staging:
+  ttl: 300
+  type: CNAME
+  value: vis-staging.herokuapp.com
+staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d1rm5nq8qvde2m.cloudfront.net.
+    type: A
+testprod:
+  ttl: 300
+  type: CNAME
+  value: testprod.victimsinformationservice.org.uk.herokudns.com
+teststaging:
+  ttl: 300
+  type: CNAME
+  value: d35k9vhuxjboel.cloudfront.net
+www:
+  ttl: 300
+  type: CNAME
+  value: www.victimsinformationservice.org.uk.herokudns.com

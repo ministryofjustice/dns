@@ -1,0 +1,20 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1326.awsdns-37.org.
+    - ns-1680.awsdns-18.co.uk.
+    - ns-395.awsdns-49.com.
+    - ns-546.awsdns-04.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: ZHURV8PSTC4K8
+      name: dualstack.ubi-p-loadb-1rk7d55h8z4t3-1469044134.eu-west-2.elb.amazonaws.com.
+      type: A
+_441c14c094878cfc289b7f1806119e16:
+  ttl: 60
+  type: CNAME
+  value: _84a3a2dfeb7bbb7be48a8408eef2e026.hkvuiqjoua.acm-validations.aws.

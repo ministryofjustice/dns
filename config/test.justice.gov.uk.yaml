@@ -1,0 +1,149 @@
+---
+? ''
+: - ttl: 600
+    type: MX
+    value:
+      exchange: test-justice-gov-uk.mail.protection.outlook.com.
+      preference: 5
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1433.awsdns-51.org.
+    - ns-1893.awsdns-44.co.uk.
+    - ns-455.awsdns-56.com.
+    - ns-590.awsdns-09.net.
+  - ttl: 600
+    type: TXT
+    values:
+    - CJB4eDFHApptKGleyfdsYETS5iWsnpXxjV7KZuMplC7RJjAKFPeuW+EaDMasS4dbfmAvUM5NPyLqk8XRCWCTmQ==
+    - MS=ms21450401
+    - v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32 include:spf.protection.outlook.com
+      ~all
+_580ab60a2ee907dfb79b7e31cc74603c.mta-sts:
+  ttl: 300
+  type: CNAME
+  value: _06c4f7d11082aeba8704d066a7e482cb.xjncphngnr.acm-validations.aws.
+_asvdns-7a292a7c-bf2c-4a06-9417-6e2bd96615f0:
+  ttl: 300
+  type: TXT
+  value: asvdns_1123468c-9669-48a3-bb3c-2c9ca0d16107
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_dmarc.fax:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=none\;fo=1\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@justice.gov.uk\;ruf=mailto:dmarc-ruf@dmarc.service.gov.uk
+_dmarc.noreply:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com.
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com.
+    weight: 1
+autodiscover:
+  ttl: 300
+  type: CNAME
+  value: autodiscover.outlook.com
+cloud-platform:
+  ttl: 300
+  type: CNAME
+  value: demo-app.acme-apps.cloud-platform-test-13.k8s.integration.dsd.io.
+dzc:
+- ttl: 600
+  type: A
+  value: 157.203.177.179
+- ttl: 600
+  type: TXT
+  value: Mq9AgcAW
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net.
+fax:
+- ttl: 300
+  type: A
+  value: 2.2.2.2
+- ttl: 300
+  type: MX
+  value:
+    exchange: fax-test-justice-gov-uk.mail.protection.outlook.com
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32  include:spf.protection.outlook.com
+    ~all
+fp01._domainkey:
+  ttl: 600
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+fp01.noreply:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+legacy:
+  type: A
+  value: 157.203.177.180
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com.
+mail:
+  type: A
+  value: 157.203.177.179
+mrs:
+  type: A
+  value: 157.203.177.179
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net.
+noreply:
+  ttl: 300
+  type: TXT
+  value: v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32 -all
+selector1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector1-test-justice-gov-uk._domainkey.testjusticeuk.onmicrosoft.com
+selector1._domainkey.fax:
+  ttl: 300
+  type: CNAME
+  value: selector1-fax.test.justice.gov.uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: selector2-test-justice-gov-uk._domainkey.testjusticeuk.onmicrosoft.com
+selector2._domainkey.fax:
+  ttl: 300
+  type: CNAME
+  value: selector2-fax.test.justice.gov.uk._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com.
+smtp:
+  ttl: 600
+  type: A
+  values:
+  - 195.59.75.12
+  - 195.59.75.140
+sts:
+  ttl: 600
+  type: NS
+  values:
+  - ns-1234.awsdns-26.org.
+  - ns-1810.awsdns-34.co.uk.
+  - ns-401.awsdns-50.com.
+  - ns-760.awsdns-31.net.

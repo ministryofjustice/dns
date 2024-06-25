@@ -1,0 +1,54 @@
+---
+? ''
+: - ttl: 600
+    type: A
+    value: 35.177.119.113
+  - ttl: 1800
+    type: MX
+    values:
+    - exchange: relay1.padlondon.co.uk.
+      preference: 10
+    - exchange: relay2.padlondon.co.uk.
+      preference: 20
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1067.awsdns-05.org.
+    - ns-1566.awsdns-03.co.uk.
+    - ns-221.awsdns-27.com.
+    - ns-865.awsdns-44.net.
+  - ttl: 300
+    type: TXT
+    value: jss4dz6hj33k02rtjh66wqy4wccc37pb
+_asvdns-168b3b39-52b4-4c50-bfe8-8622048b99a3:
+  ttl: 300
+  type: TXT
+  value: asvdns_ea1f3963-d40c-4b82-945e-24666ef10300
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+dev:
+  ttl: 1800
+  type: A
+  value: 193.114.80.13
+ftp:
+  ttl: 600
+  type: CNAME
+  value: prod.rpts.clients.wtg.co.uk.
+test:
+  ttl: 1800
+  type: A
+  value: 193.114.80.13
+uat:
+  ttl: 1800
+  type: A
+  value: 212.28.12.201
+www:
+  ttl: 1800
+  type: CNAME
+  value: prod.rpts.clients.wtg.co.uk.

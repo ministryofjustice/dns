@@ -1,0 +1,16 @@
+---
+? ''
+: - ttl: 300
+    type: A
+    value: 52.30.196.9
+  - ttl: 172800
+    type: NS
+    values:
+    - ns-1531.awsdns-63.org.
+    - ns-1600.awsdns-08.co.uk.
+    - ns-462.awsdns-57.com.
+    - ns-702.awsdns-23.net.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;

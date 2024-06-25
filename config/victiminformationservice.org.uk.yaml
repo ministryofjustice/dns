@@ -1,0 +1,39 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1447.awsdns-52.org.
+    - ns-1633.awsdns-12.co.uk.
+    - ns-173.awsdns-21.com.
+    - ns-857.awsdns-43.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+  - ttl: 60
+    type: TXT
+    value: loaderio-217b2f50de060e5b815ac3b23c5e5322
+92cb2a0a44b13108b2e0a23c8ccdb776:
+  ttl: 10800
+  type: CNAME
+  value: 9c0f33951a37f44b2fb702178678fbd897a526b9.comodoca.com
+_763372be03a4e87a04610fa50b15adbd:
+  ttl: 60
+  type: CNAME
+  value: _a5501a920598b4c1cad73a7000cd5db6.tfmgdnztqk.acm-validations.aws.
+_c9a52b9d5d83912d1152f98d732842cc.www:
+  ttl: 60
+  type: CNAME
+  value: _7f29fa4f5dbde498b14c924dbb40282f.tfmgdnztqk.acm-validations.aws.
+cf:
+  ttl: 60
+  type: CNAME
+  value: dzul9lxod3kls.cloudfront.net
+www:
+  ttl: 300
+  type: CNAME
+  value: victiminformationservice.org.uk
