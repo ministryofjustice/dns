@@ -1,0 +1,36 @@
+name: Check Unmanaged Zones
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  check-zones:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          make install
+
+      - name: Run check for unmanaged zones
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
+        run: make check-unmanaged-zones
+
+      - name: Notify on failure
+        if: failure()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          text: Unmanaged zones detected or script failed to run. Please check the GitHub Actions log.
+          webhook_url: ${{ secrets.SLACK_WEBHOOK }}
