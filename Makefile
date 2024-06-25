@@ -85,6 +85,10 @@ compare-zone:
 	@diff -u $(ZONES_DIR)/$(zone).yaml tmp/$(zone).yaml || true
 	@rm -f tmp/$(zone).yaml
 
+check-unmanaged-zones: install
+	$(call check_aws_creds)
+	@. venv/bin/activate && python3 check_unmanaged_zones.py
+
 clean:
 	@rm -rf venv tmp
 	@find . -type f -name "*.pyc" -delete
