@@ -1,0 +1,85 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1464.awsdns-55.org.
+  - ns-1867.awsdns-41.co.uk.
+  - ns-52.awsdns-06.com.
+  - ns-936.awsdns-53.net.
+_ad6f5bac936f7983cdac02c521925772.playback:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+_ad6f5bac936f7983cdac02c521925772.playback1:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+_ad6f5bac936f7983cdac02c521925772.playback2:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+_ad6f5bac936f7983cdac02c521925772.playback3:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+_ad6f5bac936f7983cdac02c521925772.playback4:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+_ad6f5bac936f7983cdac02c521925772.playback5:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+_ad6f5bac936f7983cdac02c521925772.playback6:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+_ad6f5bac936f7983cdac02c521925772.www.playback:
+  ttl: 300
+  type: CNAME
+  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
+playback:
+  ttl: 60
+  type: A
+  value: 213.216.136.30
+playback1:
+  ttl: 60
+  type: CNAME
+  value: playback.video.service.justice.gov.uk
+playback2:
+  ttl: 60
+  type: CNAME
+  value: playback.video.service.justice.gov.uk
+playback3:
+  ttl: 60
+  type: CNAME
+  value: playback.video.service.justice.gov.uk
+playback4:
+  ttl: 60
+  type: CNAME
+  value: playback.video.service.justice.gov.uk
+playback5:
+  ttl: 60
+  type: CNAME
+  value: playback.video.service.justice.gov.uk
+playback6:
+  ttl: 60
+  type: CNAME
+  value: playback.video.service.justice.gov.uk
+sip:
+  ttl: 300
+  type: A
+  value: 217.135.104.142
+vap-pexconf004:
+  ttl: 300
+  type: A
+  value: 217.135.104.142
+vap-pexrpturn002:
+  ttl: 300
+  type: A
+  value: 217.135.104.150
+webrtc:
+  ttl: 300
+  type: A
+  value: 217.135.104.150

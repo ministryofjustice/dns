@@ -1,0 +1,216 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1393.awsdns-46.org.
+    - ns-1659.awsdns-15.co.uk.
+    - ns-314.awsdns-39.com.
+    - ns-539.awsdns-03.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+_asvdns-5429b53c-d07b-4d04-83ea-9df3ff2bcdc0:
+  ttl: 300
+  type: TXT
+  value: asvdns_7665450b-1d2a-41de-a8b7-c7a89c63c6b5
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+adjudicationpanel:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+adminappeals.reports:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+administrativeappeals.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+asylumsupport.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+carestandards.decisions:
+  ttl: 60
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+charity:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+charity.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+cicap.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+claimsmanagement.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+consumercreditappeals:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+consumercreditappeals.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+employmentappeals.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+estateagentappeals:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+estateagentappeals.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+fhsaa:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+financeandtax.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+immigrationservices.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+informationrights.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+landregistrationdivision.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+landschamber.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+phl.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+siac:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+siac.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+sscs.venues:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+tax.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+taxandchancery_ut.decisions:
+  ttl: 300
+  type: A
+  value: 34.243.192.28
+transportappeals.decisions:
+  ttl: 300
+  type: CNAME
+  value: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: ''
+    type: A
+www.adjudicationpanel:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    type: A
+www.charity:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: charity
+    type: A
+www.consumercreditappeals:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: consumercreditappeals
+    type: A
+www.estateagentappeals:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: estateagentappeals
+    type: A
+www.fhsaa:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: fhsaa
+    type: A
+www.siac:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: null
+    name: siac
+    type: A

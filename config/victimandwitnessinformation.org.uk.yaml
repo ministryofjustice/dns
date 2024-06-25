@@ -1,0 +1,17 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1257.awsdns-29.org.
+  - ns-2038.awsdns-62.co.uk.
+  - ns-273.awsdns-34.com.
+  - ns-553.awsdns-05.net.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+www:
+  ttl: 300
+  type: CNAME
+  value: bouncer-cdn.production.govuk.service.gov.uk

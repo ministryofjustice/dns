@@ -1,0 +1,24 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1316.awsdns-36.org.
+    - ns-2005.awsdns-58.co.uk.
+    - ns-502.awsdns-62.com.
+    - ns-772.awsdns-32.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: ZHURV8PSTC4K8
+      name: dualstack.accou-loadb-ndv9g9n5b0v9-1351342179.eu-west-2.elb.amazonaws.com.
+      type: A
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+www:
+  ttl: 60
+  type: CNAME
+  value: technicalaccountingcentreofexcellence.uk

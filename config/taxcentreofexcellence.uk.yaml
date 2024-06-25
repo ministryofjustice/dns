@@ -1,0 +1,36 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1119.awsdns-11.org.
+    - ns-2025.awsdns-61.co.uk.
+    - ns-6.awsdns-00.com.
+    - ns-977.awsdns-58.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: url-redirect-service-alb-29017920.eu-west-1.elb.amazonaws.com.
+      type: A
+_63b245c8b596c3d52f446b45b8797701.www:
+  ttl: 300
+  type: CNAME
+  value: _b05b82ef3bc43cf3b2a3c142a5428490.nhqijqilxf.acm-validations.aws.
+_7785de3b997201496dbc39584a8192e7:
+  ttl: 300
+  type: CNAME
+  value: _4e4b9c31ee868c57546545958c1c9bdc.nhqijqilxf.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z32O12XQLNTSW2
+    name: url-redirect-service-alb-29017920.eu-west-1.elb.amazonaws.com.
+    type: A

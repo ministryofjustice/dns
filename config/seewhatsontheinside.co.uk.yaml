@@ -1,0 +1,13 @@
+---
+? ''
+: ttl: 172800
+  type: NS
+  values:
+  - ns-1278.awsdns-31.org.
+  - ns-148.awsdns-18.com.
+  - ns-1854.awsdns-39.co.uk.
+  - ns-981.awsdns-58.net.
+www:
+  ttl: 300
+  type: CNAME
+  value: newfuturesnetwork.gov.uk

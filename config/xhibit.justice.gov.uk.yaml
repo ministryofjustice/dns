@@ -1,0 +1,28 @@
+---
+? ''
+: - ttl: 172800
+    type: NS
+    values:
+    - ns-1197.awsdns-21.org.
+    - ns-1755.awsdns-27.co.uk.
+    - ns-5.awsdns-00.com.
+    - ns-632.awsdns-15.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z1BKCTXD74EZPE
+      name: s3-website-eu-west-1.amazonaws.com.
+      type: A
+_60ea7b43706335f0bb1c92131c8324b6:
+  ttl: 300
+  type: CNAME
+  value: _01043a23fa206ed27aef9e1016547f29.acm-validations.aws.
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z1BKCTXD74EZPE
+    name: s3-website-eu-west-1.amazonaws.com.
+    type: A

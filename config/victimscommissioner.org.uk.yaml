@@ -1,0 +1,148 @@
+---
+? ''
+: - type: MX
+    value:
+      exchange: victimscommissioner-org-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 60
+    type: NS
+    values:
+    - ns-1070.awsdns-05.org.
+    - ns-1684.awsdns-18.co.uk.
+    - ns-397.awsdns-49.com.
+    - ns-809.awsdns-37.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: ZHURV8PSTC4K8
+      name: jotwp-loadb-1mbwraz503eq6-1769122100.eu-west-2.elb.amazonaws.com.
+      type: A
+  - type: TXT
+    values:
+    - MS=ms22529871
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:198.37.159.2 ip4:168.245.16.120  include:spf.protection.outlook.com
+      -all
+_763372be03a4e87a04610fa50b15adbd:
+  ttl: 300
+  type: CNAME
+  value: _a5501a920598b4c1cad73a7000cd5db6.tfmgdnztqk.acm-validations.aws.
+_amazonses:
+  ttl: 300
+  type: TXT
+  value: u8FeCxutyRMlF+oIzgCA0t3WzLIRbbeagSpbtRByiPQ=
+_asvdns-aa722760-cf9f-41d3-9478-5a9afb73284b.www:
+  ttl: 300
+  type: TXT
+  value: asvdns_aa599803-859b-4dbe-9ae1-523841e3d1e9
+_asvdns-e8637840-bd24-48c2-b49a-a0ef46657e6c:
+  ttl: 300
+  type: TXT
+  value: asvdns_bc54d5f0-bd85-48b1-96bd-b7231fc1adb1
+_c9a52b9d5d83912d1152f98d732842cc.www:
+  ttl: 60
+  type: CNAME
+  value: _7f29fa4f5dbde498b14c924dbb40282f.tfmgdnztqk.acm-validations.aws.
+_cdf48e5e328f4f75c39a618a4f2bfea1.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _42f945cc2302acf215d14a35b3190cf4.nhsllhhtvj.acm-validations.aws.
+_dmarc:
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
+_mta-sts:
+  ttl: 300
+  type: TXT
+  value: v=STSv1\; id=382e5b84ba072da4451a6081d72d60b4
+_sip._tls:
+  type: SRV
+  value:
+    port: 443
+    priority: 100
+    target: sipdir.online.lync.com
+    weight: 1
+_sipfederationtls._tcp:
+  type: SRV
+  value:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+autodiscover:
+  type: CNAME
+  value: autodiscover.outlook.com
+em3960:
+  ttl: 300
+  type: CNAME
+  value: u2320754.wl005.sendgrid.net
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com
+enterpriseregistration:
+  type: CNAME
+  value: enterpriseregistration.windows.net
+fp01._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+k2._domainkey:
+  ttl: 60
+  type: CNAME
+  value: dkim2.mcsv.net
+k3._domainkey:
+  ttl: 60
+  type: CNAME
+  value: dkim3.mcsv.net
+lyncdiscover:
+  type: CNAME
+  value: webdir.online.lync.com
+msoid:
+  type: CNAME
+  value: clientconfig.microsoftonline-p.net
+mta-sts:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d2pki66xbkb2tl.cloudfront.net.
+    type: A
+onc:
+  ttl: 300
+  type: CNAME
+  value: u32912322.wl073.sendgrid.net
+onc2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: onc2.domainkey.u32912322.wl073.sendgrid.net
+onc._domainkey:
+  ttl: 300
+  type: CNAME
+  value: onc.domainkey.u32912322.wl073.sendgrid.net
+s1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u2320754.wl005.sendgrid.net
+s2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u2320754.wl005.sendgrid.net
+selector1._domainkey:
+  type: CNAME
+  value: selector1-victimscommissioner-org-uk._domainkey.justiceuk.onmicrosoft.com
+selector2._domainkey:
+  type: CNAME
+  value: selector2-victimscommissioner-org-uk._domainkey.justiceuk.onmicrosoft.com
+sip:
+  type: CNAME
+  value: sipdir.online.lync.com
+www:
+  ttl: 300
+  type: CNAME
+  value: victimscommissioner.org.uk
