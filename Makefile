@@ -1,4 +1,3 @@
-EDITOR ?= vim
 CONFIG_FILE ?= config.yaml
 ZONES_DIR ?= hostedzones
 
