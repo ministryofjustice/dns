@@ -18,7 +18,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          make install
+          python -m pip install -r requirements.txt
 
       - name: Run check for unmanaged zones
         id: check-zones
@@ -26,22 +26,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
           PYTHONUNBUFFERED: 1
-        run: |
-          echo "Running check for unmanaged zones..."
-          output=$(make check-unmanaged-zones 2>&1)
-          echo "$output"
-          echo "check_output<<EOF" >> $GITHUB_OUTPUT
-          echo "$output" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          if echo "$output" | grep -q "not managed by octoDNS"; then
-            echo "unmanaged_zones_found=true" >> $GITHUB_OUTPUT
-          else
-            echo "unmanaged_zones_found=false" >> $GITHUB_OUTPUT
-          fi
-          # Exit with non-zero status if unmanaged zones are found
-          if echo "$output" | grep -q "not managed by octoDNS"; then
-            exit 1
-          fi
+        run: python check_unmanaged_zones.py
 
       - name: Send notification to Slack
         uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
