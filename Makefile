@@ -18,17 +18,18 @@ endef
 
 help:
 	@echo "Available commands:"
+	@echo "  make check-empty-zones    - Run check for empty zones"
+	@echo "  make clean                - Clean up generated files"
+	@echo "  make compare-zone zone=<zone> - Compare a zone file with its live configuration"
+	@echo "  make dump-zone zone=<zone> - Dump the current live configuration for a zone"
+	@echo "  make edit-zone zone=<zone> - Edit a hosted zone file"
 	@echo "  make help                 - Show this help message"
 	@echo "  make install              - Set up the Python environment"
-	@echo "  make edit-zone zone=<zone> - Edit a hosted zone file"
-	@echo "  make validate-zones       - Validate all zone files"
-	@echo "  make sync-dry-run         - Perform a dry-run sync for all zones"
-	@echo "  make sync-apply           - Apply changes to all zones"
 	@echo "  make list-zones           - List all zones"
-	@echo "  make dump-zone zone=<zone> - Dump the current live configuration for a zone"
-	@echo "  make compare-zone zone=<zone> - Compare a zone file with its live configuration"
-	@echo "  make clean                - Clean up generated files"
+	@echo "  make sync-apply           - Apply changes to all zones"
+	@echo "  make sync-dry-run         - Perform a dry-run sync for all zones"
 	@echo "  make test                 - Run the test suite"
+	@echo "  make validate-zones       - Validate all zone files"
 
 install:
 	python3 -m venv venv
@@ -88,6 +89,10 @@ compare-zone:
 check-unmanaged-zones: install
 	$(call check_aws_creds)
 	@. venv/bin/activate && python3 check_unmanaged_zones.py
+
+check-empty-zones: install
+	$(call check_aws_creds)
+	@. venv/bin/activate && python3 check_empty_zones.py
 
 clean:
 	@rm -rf venv tmp
