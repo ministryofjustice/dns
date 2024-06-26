@@ -27,4 +27,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
           PYTHONUNBUFFERED: 1
-        run: python check-unmanaged-zones.py
+        run: python check_unmanaged_zones.py
