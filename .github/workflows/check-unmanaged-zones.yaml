@@ -1,6 +1,7 @@
 name: Check Unmanaged Zones
 
 on:
+  pull_request:
   schedule:
     - cron: "0 0 * * *" # Run daily at midnight UTC
   workflow_dispatch: # Allows manual triggering
