@@ -18,8 +18,8 @@ def get_config_zones():
     zones_dir = "hostedzones"
     config_zones = []
     for filename in os.listdir(zones_dir):
-        if filename.endswith(".yaml"):
-            config_zones.append(filename[:-5])  # Remove .yaml extension
+        if filename.endswith(".yaml") or filename.endswith(".yml"):
+            config_zones.append(filename[:-5])  # Remove extension
     return set(config_zones)
 
 
