@@ -1,0 +1,27 @@
+name: Print out empty hosted zones # A hosted zone with only an NS and SOA record
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  check-for-empty-zones:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          make install
+
+      - name: Run check for unmanaged zones
+        id: check-zones
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
+          PYTHONUNBUFFERED: 1
+        run: make check-empty-zones
