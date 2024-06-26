@@ -24,6 +24,7 @@ def get_config_zones():
 
 
 def main():
+    print("Checking for unmanaged zones...")
     aws_zones = get_aws_zones()
     config_zones = get_config_zones()
 
