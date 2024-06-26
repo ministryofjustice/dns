@@ -87,7 +87,8 @@ compare-zone:
 
 check-unmanaged-zones: install
 	$(call check_aws_creds)
-	@. venv/bin/activate && python3 check_unmanaged_zones.py
+	source venv/bin/activate
+	python3 check_unmanaged_zones.py
 
 clean:
 	@rm -rf venv tmp
