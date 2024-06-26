@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          make install
+          python -m pip install -r requirements.txt
 
       - name: Run check for unmanaged zones
         id: check-zones
@@ -27,74 +27,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
           PYTHONUNBUFFERED: 1
-        run: |
-          echo "Running check for unmanaged zones..."
-          output=$(make check-unmanaged-zones 2>&1)
-          echo "$output"
-          echo "check_output<<EOF" >> $GITHUB_OUTPUT
-          echo "$output" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          if echo "$output" | grep -q "not managed by octoDNS"; then
-            echo "unmanaged_zones_found=true" >> $GITHUB_OUTPUT
-          else
-            echo "unmanaged_zones_found=false" >> $GITHUB_OUTPUT
-          fi
-          # Exit with non-zero status if unmanaged zones are found
-          if echo "$output" | grep -q "not managed by octoDNS"; then
-            exit 1
-          fi
-
-      - name: Send notification to Slack
-        uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
-        if: failure()
-        with:
-          payload: |
-            {
-              "blocks": [
-                {
-                  "type": "header",
-                  "text": {
-                    "type": "plain_text",
-                    "text": "⚠️ Unmanaged Zones Detected ⚠️"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Repository:* ${{ github.repository }}\n*Workflow:* ${{ github.workflow }}"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Check Output:*\n```${{ steps.check-zones.outputs.check_output }}```"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "Unmanaged zones have been detected or the script failed to run. Please review the unmanaged zones and update the DNS configuration as necessary."
-                  }
-                },
-                {
-                  "type": "actions",
-                  "elements": [
-                    {
-                      "type": "button",
-                      "text": {
-                        "type": "plain_text",
-                        "text": "View GitHub Actions Log",
-                        "emoji": true
-                      },
-                      "url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-                    }
-                  ]
-                }
-              ]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+        run: python check-unmanaged-zones.py
