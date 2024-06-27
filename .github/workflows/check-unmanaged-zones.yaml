@@ -2,7 +2,7 @@ name: Check Unmanaged Zones
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Run daily at midnight UTC
+    - cron: "0 0 * * 1-5" # Runs at 00:00 from Monday to Friday
   workflow_dispatch: # Allows manual triggering
 
 jobs:
@@ -39,28 +39,21 @@ jobs:
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "⚠️ Unmanaged Zones Detected ⚠️"
+                    "text": "⚠️  Unmanaged DNS Hosted Zones Detected ⚠️"
                   }
                 },
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Repository:* ${{ github.repository }}\n*Workflow:* ${{ github.workflow }}"
+                    "text": "A GitHub action has identified new hosted zone/s exist that aren't managed in code 😱. The zone/s in question will be outlined in the GitHub Action logs."
                   }
                 },
                 {
                   "type": "section",
-                  "text": {
+                  "text":
                     "type": "mrkdwn",
-                    "text": "*Check Output:*\n```${{ steps.check-zones.outputs.check_output }}```"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "Unmanaged zones have been detected or the script failed to run. Please review the unmanaged zones and update the DNS configuration as necessary."
+                    "text": "Either delete the zone, amend the alarm, or add a new hosted zone in octoDNS.
                   }
                 },
                 {
@@ -82,3 +75,4 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+
