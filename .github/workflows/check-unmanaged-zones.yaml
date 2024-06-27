@@ -46,14 +46,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "A GitHub action has identified new hosted zone/s exist that aren't managed in code 😱. The zone/s in question will be outlined in the GitHub Action logs."
-                  }
-                },
-                {
-                  "type": "section",
-                  "text":
-                    "type": "mrkdwn",
-                    "text": "Either delete the zone, amend the alarm, or add a new hosted zone in octoDNS.
+                    "text": "A GitHub action has detected a new hosted zone that isn't managed in the code. Details of the zone can be found in the GitHub Action logs. Please either delete it, update the alarm, or add the zone to octoDNS."
                   }
                 },
                 {
