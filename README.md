@@ -95,6 +95,8 @@ Ensure your AWS credentials have the necessary permissions to manage Route53 hos
 5. Ensure changes are made in alphabetical order within the file.
 
 6. Validate your changes:
+
+:memo: **Note:** This may look a little messy, but you're looking for errors rather than warnings.
    ```bash
    make validate-zones
    ```

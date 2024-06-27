@@ -49,7 +49,7 @@ edit-zone:
 
 validate-zones:
 	$(call check_aws_creds)
-	octodns-validate --config-file=$(CONFIG_FILE)
+	octodns-validate --config-file=$(CONFIG_FILE) --quiet
 
 sync-dry-run:
 	$(call check_aws_creds)
