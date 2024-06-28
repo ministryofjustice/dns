@@ -1,5 +1,6 @@
 import os
 import sys
+import uuid
 
 from providers.route53 import Route53Facade
 
@@ -13,9 +14,26 @@ def get_config_zones() -> list:
     return config_zones
 
 
+def set_output(name, value):
+    if "GITHUB_OUTPUT" in os.environ:
+        with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+            print(f"{name}={value}", file=fh)
+
+
+def set_multiline_output(name, value):
+    if "GITHUB_OUTPUT" in os.environ:
+        with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+            delimiter = uuid.uuid1()
+            print(f"{name}<<{delimiter}", file=fh)
+            print(value, file=fh)
+            print(delimiter, file=fh)
+
+
 def github_actions_output(output, exit_code):
+    set_multiline_output("result", output)
+    set_output("exit_code", str(exit_code))
+
     print(output)
-    os.environ["GITHUB_OUTPUT"] = output
     sys.exit(exit_code)
 
 
