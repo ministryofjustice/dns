@@ -1,5 +1,3 @@
-import os
-
 import boto3
 
 
@@ -25,13 +23,3 @@ class Route53Facade:
                 if record_set["Type"] not in ["NS", "SOA"]:
                     return False
         return True
-
-    def get_config_zones(self) -> set:
-        zones_dir = "hostedzones"
-        return set(
-            [
-                filename[:-5]  # Remove .yaml extension
-                for filename in os.listdir(zones_dir)
-                if filename.endswith(".yaml")
-            ]
-        )
