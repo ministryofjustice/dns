@@ -25,3 +25,8 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
           PYTHONUNBUFFERED: 1
         run: make check-empty-zones
+
+      - name: Display results
+        run: |
+          echo "${{ steps.check-zones.outputs.result }}"
+          exit ${{ steps.check-zones.outputs.exit_code }}
