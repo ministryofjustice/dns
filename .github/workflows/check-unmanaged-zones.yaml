@@ -21,7 +21,7 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Run check for unmanaged zones
-        id: check-zones
+        id: check_zones
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
@@ -46,7 +46,14 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "A GitHub action has detected a new hosted zone that isn't managed in the code. Details of the zone can be found in the GitHub Action logs. Please either delete it, update the alarm, or add the zone to octoDNS."
+                    "text": "A GitHub action has detected a new hosted zone that isn't managed in the code. Details of the zone can be found below and in the GitHub Action logs. Please either delete it, update the alarm, or add the zone to octoDNS."
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Detected Unmanaged Zones:*\n```${{ steps.check_zones.outputs.result }}```"
                   }
                 },
                 {
@@ -68,3 +75,4 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+
