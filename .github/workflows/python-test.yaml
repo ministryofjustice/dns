@@ -15,16 +15,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python 3.11
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: "3.11"
+          cache: "pipenv"
+
+      - name: Install Pipenv
+        run: pip install pipenv
+
+      - name: Verify Pipfile.lock is in sync
+        run: pipenv verify
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pipenv install --dev
 
-      - name: Run tests
-        run: |
-          python -m pytest tests/
+      - name: Run check for unmanaged zones
+        id: check-zones
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
+          PYTHONUNBUFFERED: 1
+        run: pipenv test
