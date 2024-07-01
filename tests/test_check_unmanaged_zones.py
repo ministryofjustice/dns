@@ -5,7 +5,7 @@ from check_unmanaged_zones import get_config_zones, main
 
 
 class TestMainFunction(unittest.TestCase):
-    @patch("check_unmanaged_zones.Route53Facade")
+    @patch("check_unmanaged_zones.Route53Service")
     def test_unmanaged_zones(self, mock_route53):
         mock_route53.return_value.get_aws_zones.return_value = [
             ("zone1", "zone1"),
@@ -16,7 +16,7 @@ class TestMainFunction(unittest.TestCase):
             self.assertEqual(code, 1)
             self.assertIn("zone2", output)
 
-    @patch("check_unmanaged_zones.Route53Facade")
+    @patch("check_unmanaged_zones.Route53Service")
     def test_all_zones_managed(self, mock_route53):
         mock_route53.return_value.get_aws_zones.return_value = [
             ("zone1", "zone1"),

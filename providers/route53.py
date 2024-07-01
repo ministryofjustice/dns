@@ -1,7 +1,7 @@
 import boto3
 
 
-class Route53Facade:
+class Route53Service:
     def __init__(self):
         self.client = boto3.client("route53")
 

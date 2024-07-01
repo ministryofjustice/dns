@@ -2,7 +2,7 @@ import os
 import sys
 import uuid
 
-from providers.route53 import Route53Facade
+from providers.route53 import Route53Service
 
 
 def get_config_zones() -> list:
@@ -38,7 +38,7 @@ def github_actions_output(output, exit_code):
 
 
 def main():
-    client = Route53Facade()
+    client = Route53Service()
     aws_zones = [zone[1] for zone in client.get_aws_zones()]
     config_zones = get_config_zones()
 

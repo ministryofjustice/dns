@@ -1,14 +1,14 @@
 import unittest
 from unittest.mock import patch
 
-from providers.route53 import Route53Facade
+from providers.route53 import Route53Service
 
 
-class TestRoute53Facade(unittest.TestCase):
+class TestRoute53Service(unittest.TestCase):
     @patch("providers.route53.boto3")
     def setUp(self, mock_boto3):
         self.mock_boto3 = mock_boto3
-        self.route53 = Route53Facade()
+        self.route53 = Route53Service()
 
     def test_get_aws_zones_successfully(self):
         self.mock_boto3.client().get_paginator().paginate.return_value = [
