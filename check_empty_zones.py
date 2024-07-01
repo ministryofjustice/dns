@@ -29,11 +29,11 @@ def github_actions_output(output, exit_code):
 
 
 def main():
-    client = Route53Service()
-    zones = client.get_aws_zones()
+    service = Route53Service()
+    zones = service.get_aws_zones()
 
     empty_zones = [
-        zone.rstrip(".") for zone_id, zone in zones if client.is_zone_empty(zone_id)
+        zone.rstrip(".") for zone_id, zone in zones if service.is_zone_empty(zone_id)
     ]
 
     if empty_zones:

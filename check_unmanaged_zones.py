@@ -38,8 +38,8 @@ def github_actions_output(output, exit_code):
 
 
 def main():
-    client = Route53Service()
-    aws_zones = [zone[1] for zone in client.get_aws_zones()]
+    service = Route53Service()
+    aws_zones = [zone[1] for zone in service.get_aws_zones()]
     config_zones = get_config_zones()
 
     unmanaged_zones = set(aws_zones) - set(config_zones)
