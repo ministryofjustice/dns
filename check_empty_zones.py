@@ -2,7 +2,7 @@ import os
 import sys
 import uuid
 
-from providers.route53 import Route53Facade
+from providers.route53 import Route53Service
 
 
 def set_output(name, value):
@@ -29,7 +29,7 @@ def github_actions_output(output, exit_code):
 
 
 def main():
-    client = Route53Facade()
+    client = Route53Service()
     zones = client.get_aws_zones()
 
     empty_zones = [
