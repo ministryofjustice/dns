@@ -1,4 +1,3 @@
----
 ? ''
 : - type: MX
     value:
@@ -27,22 +26,6 @@
     - v=spf1 ip4:194.33.196.0/24 ip4:194.33.192.0/24 mx a:b.spf.service-now.com a:c.spf.service-now.com
       a:d.spf.service-now.com include:spf.protection.outlook.com include:_spf.google.com
       include:mail-relay.staff.service.justice.gov.uk -all
-2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
-  ttl: 300
-  type: CNAME
-  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com
-4wlxo7xgsbccmlyejcjro4pldynv4jnc._domainkey.optic:
-  ttl: 300
-  type: CNAME
-  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com
-5axyevlb23jr5vn7z4uqemmr6llzuuy3._domainkey.uat.cshrcaseworkcma:
-  ttl: 300
-  type: CNAME
-  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com
-42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
-  ttl: 300
-  type: CNAME
-  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
 '#civilmediation':
   ttl: 600
   type: A
@@ -51,22 +34,34 @@
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=
-_1b792c2153cf927328615e78010f7852.civilmediation:
+2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
-  value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
-_19c1935c338c1a473a54c55c3260a113.mta-sts:
-  ttl: 60
+  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com
+42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
+  ttl: 300
   type: CNAME
-  value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
+4wlxo7xgsbccmlyejcjro4pldynv4jnc._domainkey.optic:
+  ttl: 300
+  type: CNAME
+  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com
+5axyevlb23jr5vn7z4uqemmr6llzuuy3._domainkey.uat.cshrcaseworkcma:
+  ttl: 300
+  type: CNAME
+  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com
 _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
-_413907afca971cfa53aab8d5df86e4ef.bench.courtstore:
+_19c1935c338c1a473a54c55c3260a113.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
-  value: 99676425dda31d813e393d4d1551f41c.2a3726c1103d2824e6ffcce77ad998ad.1298432b58b57b0ca19f.sectigo.com.
+  value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
 _acme-challenge.aka:
   ttl: 300
   type: CNAME
@@ -852,14 +847,14 @@ digital:
   - ns-1776.awsdns-30.co.uk.
   - ns-284.awsdns-35.com.
   - ns-527.awsdns-01.net.
-dkim2048._domainkey.people-development:
-  ttl: 300
-  type: TXT
-  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA37IkYQ4qfWIHIF44LxwMOvrp2gZ36lV03BPO1J8zy+pDwznnXvH1J8nmWU/db2Lo61pVTaUxWOv5m1c4ng2GhjObBaey27UMbRYjNjOAoyPOp/WX0yK6YCeDKyNhoumLr/PqJO1IJpfq1X9EoCKhbpR8p5U""92jiS9zLaluwBHo37nO04YSK8qvpPuVj2IDlIdVNuH+wuzlYxtNoLJ4vUnl95Re+3p89Yaplh1vdRWXfDK/tzbO7F+jLOBxaLURD+wjYAcOUh/q+GyG5YT8md6RYGKs7Fl3TWOu90so5MCl8ropqcGwAr9sXHu6ELIyNGOO7gllWTGHjEoWDfxskQSQIDAQAB
 dkim.co._domainkey:
   ttl: 60
   type: TXT
   value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4qJi51KV7QeEoq6NT3KdI33PpanNW7emjHVt1twUB9UfKO6YeFihVHfHFfw/IVYOJ8malWOHkVHeP2DOCXg1dJYNmxER/5wnHpVaIjIU1FnoRAnLTLmgU0QqeEzhG8""xd6edSMgKj+GnpTb/zja0aNyKNi4Osd8sRXwwY/Fa7n2yT4JT/XgDCjnK591+jtVcOzqPGGD1wyaZSDROc8twRBnwk1w2udWmXLWilj0H2/r4oiX6DnDIQYBK1k2px+VWm8dta5HG15C0POv90/pZPlppa51EBEjB2jWH4xWMc/XLCuwqEbtaBCxpTQR8QJJY1fM6cDcwWhJpvsbWo4OYbmwIDAQAB
+dkim2048._domainkey.people-development:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA37IkYQ4qfWIHIF44LxwMOvrp2gZ36lV03BPO1J8zy+pDwznnXvH1J8nmWU/db2Lo61pVTaUxWOv5m1c4ng2GhjObBaey27UMbRYjNjOAoyPOp/WX0yK6YCeDKyNhoumLr/PqJO1IJpfq1X9EoCKhbpR8p5U""92jiS9zLaluwBHo37nO04YSK8qvpPuVj2IDlIdVNuH+wuzlYxtNoLJ4vUnl95Re+3p89Yaplh1vdRWXfDK/tzbO7F+jLOBxaLURD+wjYAcOUh/q+GyG5YT8md6RYGKs7Fl3TWOu90so5MCl8ropqcGwAr9sXHu6ELIyNGOO7gllWTGHjEoWDfxskQSQIDAQAB
 drs:
   ttl: 600
   type: A
@@ -969,10 +964,6 @@ g:
   - ns-2040.awsdns-63.co.uk.
   - ns-258.awsdns-32.com.
   - ns-930.awsdns-52.net.
-google2d7e970fc70e33ba:
-  ttl: 600
-  type: CNAME
-  value: google.com.
 google._domainkey:
   ttl: 600
   type: TXT
@@ -985,6 +976,10 @@ google._domainkey.courtstore.staging:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApqfF0gFxKSvqon8AyUse9ZOPILWxtEp""Wvul48X42AzRXYVJDIQEAwBY4yPsMdg2DZA4v8BfkVS8XvcxpdrQ9Nn45q9kq7HOFd/Se0me""Y41HJVbk8lfZ1/vEDsGmHcibHc0C0JFx/ggqeoCAcv2llGV5+qp1EdUgy""XoBkKOz7IyoBjKQFQ39bVb17F4jOQ8HcbxE2sYon69nmDvB084jCToz2FYm""b4q087/SqYv6p7Td6VU4Ndsfm81tV9LRJRfNA3wbiXfD6bN9HWHzWCKQpnzr9Mxz3Zwad0lIhaFYqbEux0LyyuDrFRD0x+7mTJCCnBgDJUXtp7GhHie8hUgV6/wIDAQAB
+google2d7e970fc70e33ba:
+  ttl: 600
+  type: CNAME
+  value: google.com.
 governance:
   ttl: 600
   type: A
@@ -1257,6 +1252,10 @@ mail:
   ttl: 600
   type: A
   value: 157.203.177.182
+mail.contact:
+  ttl: 300
+  type: A
+  value: 51.143.128.114
 mail1.criminalappealoffice:
 - ttl: 300
   type: A
@@ -1268,10 +1267,6 @@ mail2:
   ttl: 600
   type: A
   value: 208.51.151.2
-mail.contact:
-  ttl: 300
-  type: A
-  value: 51.143.128.114
 makeaplea:
   ttl: 600
   type: NS
@@ -1663,14 +1658,10 @@ relay2.cjsm.secure-email.ppud:
 - ttl: 300
   type: PTR
   value: 18.169.26.236
-rvc1.lrc:
+rvc-pp.lrc:
   ttl: 600
   type: A
-  value: 213.121.161.118
-rvc2.lrc:
-  ttl: 600
-  type: A
-  value: 213.121.161.119
+  value: 157.203.177.175
 rvc-pp1.lrc:
   ttl: 600
   type: A
@@ -1679,14 +1670,18 @@ rvc-pp2.lrc:
   ttl: 600
   type: A
   value: 157.203.177.177
-rvc-pp.lrc:
-  ttl: 600
-  type: A
-  value: 157.203.177.175
 rvc.lrc:
   ttl: 600
   type: A
   value: 213.121.161.117
+rvc1.lrc:
+  ttl: 600
+  type: A
+  value: 213.121.161.118
+rvc2.lrc:
+  ttl: 600
+  type: A
+  value: 213.121.161.119
 s1._domainkey.cjscp:
   ttl: 300
   type: CNAME
@@ -1715,6 +1710,10 @@ secure-email.ppud:
   ttl: 300
   type: A
   value: 3.11.130.215
+selector._domainkey.hmctssurvey:
+  ttl: 300
+  type: CNAME
+  value: hmctsdkim.ssmx.net
 selector1._domainkey:
   type: CNAME
   value: selector1-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
@@ -1760,10 +1759,6 @@ selector2._domainkey.nicts:
   ttl: 300
   type: CNAME
   value: selector2-nicts-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com
-selector._domainkey.hmctssurvey:
-  ttl: 300
-  type: CNAME
-  value: hmctsdkim.ssmx.net
 sendmoneytoaprisoner:
   type: NS
   values:
@@ -1811,6 +1806,12 @@ smtp:
   values:
   - 194.33.192.8
   - 194.33.196.8
+smtp.test:
+  ttl: 600
+  type: A
+  values:
+  - 195.59.75.12
+  - 195.59.75.140
 smtp01:
   ttl: 300
   type: A
@@ -1827,12 +1828,6 @@ smtp04:
   ttl: 300
   type: A
   value: 194.33.196.202
-smtp.test:
-  ttl: 600
-  type: A
-  values:
-  - 195.59.75.12
-  - 195.59.75.140
 srs0001:
   ttl: 600
   type: A

@@ -1,4 +1,3 @@
----
 ? ''
 : ttl: 172800
   type: NS
@@ -7,10 +6,6 @@
   - ns-1867.awsdns-41.co.uk.
   - ns-52.awsdns-06.com.
   - ns-936.awsdns-53.net.
-_ad6f5bac936f7983cdac02c521925772.playback:
-  ttl: 300
-  type: CNAME
-  value: f21718b83ce0aaed10d97b6512a29853.9cebaae94700ab2953eb0390d18b8cdd.9ab71d7cd706e7b5ae6f.sectigo.com.
 _ad6f5bac936f7983cdac02c521925772.playback1:
   ttl: 300
   type: CNAME

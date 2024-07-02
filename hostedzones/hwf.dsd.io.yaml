@@ -1,4 +1,3 @@
----
 ? ''
 : - ttl: 300
     type: MX
@@ -12,14 +11,14 @@
     - ns-191.awsdns-23.com.
     - ns-2004.awsdns-58.co.uk.
     - ns-685.awsdns-21.net.
-_1b26241ce193877d688e2b91454980bf.demo:
-  ttl: 300
-  type: CNAME
-  value: _12d1e01b3c4de7858ccfbff025a3b00c.tljzshvwok.acm-validations.aws.
 _068e278171fad396c646c8fe45e9df20:
   ttl: 300
   type: CNAME
   value: _e1c4e65db4faaeaeec19594e9076e6d0.hkvuiqjoua.acm-validations.aws.
+_1b26241ce193877d688e2b91454980bf.demo:
+  ttl: 300
+  type: CNAME
+  value: _12d1e01b3c4de7858ccfbff025a3b00c.tljzshvwok.acm-validations.aws.
 _acme-challenge.demo:
   ttl: 300
   type: TXT
@@ -84,16 +83,6 @@ courtfinder-test.demo:
   ttl: 300
   type: A
   value: 51.143.152.23
-courtfinder.demo:
-- ttl: 300
-  type: A
-  value: 51.143.152.23
-- ttl: 300
-  type: CAA
-  value:
-    flags: 0
-    tag: issue
-    value: sectigo.com
 courtfinder.staging:
 - ttl: 300
   type: A

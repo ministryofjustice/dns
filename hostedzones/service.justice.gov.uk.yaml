@@ -1,4 +1,3 @@
----
 ? ''
 : - ttl: 1800
     type: MX
@@ -31,22 +30,14 @@ _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
-_6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
+_1864366b68aacd731e332b25536285ec.youth-justice-worker-online-assessment:
   ttl: 300
   type: CNAME
-  value: _b889b9713a37c39694f437333e017428.chvvfdvqrj.acm-validations.aws.
+  value: _e72600de9a318ad62f0043b30a9fc5fb.hkmpvcwbzw.acm-validations.aws.
 _33da21e90254237bcc4d8ad00bd3d118.security-training:
   ttl: 300
   type: CNAME
   value: _6165ac1a2a05feaefa1cc4aaf7d09b0b.kgnrpmcdhl.acm-validations.aws.
-_95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
-  ttl: 300
-  type: CNAME
-  value: _7bd56adf412cd4bc93a83eeb6d808f81.ylqxxscwpq.acm-validations.aws
-_935f4ad292e31cb21e5bf6043b20a2bf.securecodewarrior:
-  ttl: 300
-  type: CNAME
-  value: _f65a4f48e9990c0858b5134cdc625b9b.kzhndfqvzk.acm-validations.aws.
 _36085f4d854229b89162cf35526735a4.veracode:
   ttl: 300
   type: CNAME
@@ -55,14 +46,22 @@ _38914c2fe17df3d640a7d1d9765d8c88.training-preproduction.co-financing:
   ttl: 300
   type: CNAME
   value: _52106b9eec58031689a9b3d42d21d129.mqzgcdqkwq.acm-validations.aws.
-_1864366b68aacd731e332b25536285ec.youth-justice-worker-online-assessment:
-  ttl: 300
-  type: CNAME
-  value: _e72600de9a318ad62f0043b30a9fc5fb.hkmpvcwbzw.acm-validations.aws.
 _39556719e8d565ea45417d38b40889c7.find-unclaimed-court-money:
   ttl: 60
   type: CNAME
   value: _06c52dec40633865541b0ff381d9eeb1.chvvfdvqrj.acm-validations.aws
+_6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
+  ttl: 300
+  type: CNAME
+  value: _b889b9713a37c39694f437333e017428.chvvfdvqrj.acm-validations.aws.
+_935f4ad292e31cb21e5bf6043b20a2bf.securecodewarrior:
+  ttl: 300
+  type: CNAME
+  value: _f65a4f48e9990c0858b5134cdc625b9b.kzhndfqvzk.acm-validations.aws.
+_95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
+  ttl: 300
+  type: CNAME
+  value: _7bd56adf412cd4bc93a83eeb6d808f81.ylqxxscwpq.acm-validations.aws
 _acme-challenge:
   ttl: 60
   type: TXT
@@ -103,10 +102,6 @@ _d8e015eb77621a22d1bb4fe339ec1ebd.dev.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: _f45d3bd1f2f3aa9f672facf92f66d56a.sdgjtdhdhz.acm-validations.aws.
-_d0056e0292b63e43ee7490de450c6111.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: 3f666b6b9cd8ac0bd8ab145b89b2aa87.e449af38df4aa2fe9b1656cad6f70ea9.fcdbccead55470275a70.sectigo.com.
 _daab53fad660d45c0e18965db75d500e.training-preproduction.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
@@ -412,14 +407,14 @@ checkmydiary:
   - ns-2009.awsdns-59.co.uk.
   - ns-695.awsdns-22.net.
   - ns-81.awsdns-10.com.
-cid2._domainkey.recruitment:
-  ttl: 300
-  type: CNAME
-  value: cid2.domainkey.u19196707.wl208.sendgrid.net
 cid._domainkey.recruitment:
   ttl: 300
   type: CNAME
   value: cid.domainkey.u19196707.wl208.sendgrid.net
+cid2._domainkey.recruitment:
+  ttl: 300
+  type: CNAME
+  value: cid2.domainkey.u19196707.wl208.sendgrid.net
 cidmail.recruitment:
   ttl: 300
   type: CNAME
