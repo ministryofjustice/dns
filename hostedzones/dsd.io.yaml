@@ -706,10 +706,6 @@ digideps.service:
   ttl: 300
   type: A
   value: 54.194.218.14
-dockerails-dev:
-  ttl: 300
-  type: CNAME
-  value: elb-dev-623140939.eu-west-1.elb.amazonaws.com.
 dsd_blog:
   ttl: 300
   type: CNAME
