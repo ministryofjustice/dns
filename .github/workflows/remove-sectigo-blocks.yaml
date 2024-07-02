@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 0 * * 1-5" # Runs at 00:00 from Monday to Friday
   workflow_dispatch: # Allows manual triggering
+  pull_request:
 
 jobs:
   remove_sectigo_blocks:
