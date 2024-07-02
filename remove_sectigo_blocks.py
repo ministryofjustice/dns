@@ -1,16 +1,7 @@
 import os
-import random
-import string
-import subprocess
 import sys
 
 import yaml
-
-
-def generate_random_branch_name(prefix="remove-sectigo-", length=8):
-    characters = string.ascii_lowercase + string.digits
-    random_suffix = "".join(random.choice(characters) for _ in range(length))
-    return f"{prefix}{random_suffix}"
 
 
 def find_and_remove_sectigo_block(data, parent_key=None):
@@ -50,38 +41,11 @@ def process_yaml_file(file_path):
             return False
 
 
-def run_command(command):
-    process = subprocess.Popen(
-        command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True
-    )
-    output, error = process.communicate()
-    if process.returncode != 0:
-        print(f"Error executing command: {command}")
-        print(f"Error message: {error.decode('utf-8')}")
-        sys.exit(1)
-    return output.decode("utf-8").strip()
-
-
-def create_pr():
-    branch_name = generate_random_branch_name()
-    run_command(f"git checkout -b {branch_name}")
-    run_command("git add .")
-    run_command('git commit -m "Remove YAML blocks containing sectigo domain"')
-    run_command(f"git push origin {branch_name}")
-
-    # Create PR using GitHub CLI (gh)
-    pr_output = run_command(
-        f"gh pr create --title 'Remove sectigo blocks' --body '♻️ This PR removes YAML blocks containing the sectigo domain.' --base main --head {branch_name}"
-    )
-    print(f"PR created: {pr_output}")
-
-
 def main():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    hostedzones_dir = os.path.join(script_dir, "hostedzones")
+    hostedzones_dir = "hostedzones"
 
     if not os.path.exists(hostedzones_dir):
-        print(f"Error: The 'hostedzones' directory does not exist in {script_dir}")
+        print("Error: The 'hostedzones' directory does not exist")
         sys.exit(1)
 
     yaml_files = [
@@ -101,10 +65,11 @@ def main():
             changes_made = True
 
     if changes_made:
-        create_pr()
+        print("Changes were made. GitHub Action will handle creating/updating PR.")
     else:
         print("No blocks containing 'sectigo' found in any of the YAML files.")
 
 
 if __name__ == "__main__":
     main()
+
