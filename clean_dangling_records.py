@@ -1,8 +1,16 @@
 import os
+import random
+import string
 import subprocess
 import sys
 
 import yaml
+
+
+def generate_random_branch_name(prefix="remove-sectigo-", length=8):
+    characters = string.ascii_lowercase + string.digits
+    random_suffix = "".join(random.choice(characters) for _ in range(length))
+    return f"{prefix}{random_suffix}"
 
 
 def find_and_remove_sectigo_block(data, parent_key=None):
@@ -55,7 +63,7 @@ def run_command(command):
 
 
 def create_pr():
-    branch_name = "remove-sectigo-block"
+    branch_name = generate_random_branch_name()
     run_command(f"git checkout -b {branch_name}")
     run_command("git add .")
     run_command('git commit -m "Remove YAML blocks containing sectigo domain"')
@@ -63,7 +71,7 @@ def create_pr():
 
     # Create PR using GitHub CLI (gh)
     pr_output = run_command(
-        f"gh pr create --title 'Remove sectigo blocks' --body 'This PR removes YAML blocks containing the sectigo domain.' --base main --head {branch_name}"
+        f"gh pr create --title 'Remove sectigo blocks' --body '♻️ This PR removes YAML blocks containing the sectigo domain.' --base main --head {branch_name}"
     )
     print(f"PR created: {pr_output}")
 
