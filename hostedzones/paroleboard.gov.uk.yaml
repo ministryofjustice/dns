@@ -1,4 +1,3 @@
----
 ? ''
 : - type: MX
     value:
@@ -28,10 +27,6 @@ _9da00739498cdee5a1a19390aae22b37.mta-sts:
   ttl: 60
   type: CNAME
   value: _845bf7d02211cdfb7b9644f8b0a06a7f.mhbtsbpdnt.acm-validations.aws.
-_a114e38d82c755ce883c37f350dada85.sopvpn:
-  ttl: 300
-  type: CNAME
-  value: 8fead41b177f6ebb9d54b20f3312f048.53860b05aac1c736d1eb133031afcdd1.af94ed0d6f5acc95f971.sectigo.com.
 _asvdns-5799bcf5-6136-4b92-a9f7-4cec52700cee:
   ttl: 300
   type: TXT
