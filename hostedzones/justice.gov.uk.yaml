@@ -1250,9 +1250,6 @@ lyncdiscover:
 lyncdiscover.cshrcasework:
   type: CNAME
   value: webdir.online.lync.com
-lyncdiscover.official:
-  type: CNAME
-  value: webdir.online.lync.com
 mail:
   ttl: 600
   type: A
@@ -1796,9 +1793,6 @@ sip.meet.video:
   values:
   - 35.246.125.146
   - 35.246.64.24
-sip.official:
-  type: CNAME
-  value: sipdir.online.lync.com
 sip.video:
   ttl: 300
   type: A
