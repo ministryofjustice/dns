@@ -7,6 +7,7 @@ providers:
     enforce_order: True
   route53:
     class: octodns_route53.Route53Provider
+    client_max_attempts: 10
     access_key_id: env/AWS_ACCESS_KEY_ID
     secret_access_key: env/AWS_SECRET_ACCESS_KEY
 
