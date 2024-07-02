@@ -662,10 +662,6 @@ dev.informationrights:
   ttl: 300
   type: CNAME
   value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.internal-router:
-  ttl: 60
-  type: CNAME
-  value: internal-elbinter-z5i2nme4sf0s-1252863027.eu-west-1.elb.amazonaws.com
 dev.landregistrationdivision:
   ttl: 300
   type: CNAME
@@ -706,10 +702,6 @@ digideps.service:
   ttl: 300
   type: A
   value: 54.194.218.14
-dockerails-dev:
-  ttl: 300
-  type: CNAME
-  value: elb-dev-623140939.eu-west-1.elb.amazonaws.com.
 dsd_blog:
   ttl: 300
   type: CNAME
@@ -2262,10 +2254,6 @@ tax-tribunals-uploader-staging:
     hosted-zone-id: Z32O12XQLNTSW2
     name: tax-tribu-elbtaxtr-8b5enk4npxdw-2132578496.eu-west-1.elb.amazonaws.com.
     type: A
-taxtribsecs:
-  ttl: 60
-  type: CNAME
-  value: ecs-taxtribs-1587962178.eu-west-1.elb.amazonaws.com
 taxtribunals:
   ttl: 86400
   type: NS
