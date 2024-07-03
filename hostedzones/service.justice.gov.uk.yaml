@@ -537,14 +537,6 @@ crime-portal-mirror-gateway:
     - ns-1614.awsdns-09.co.uk.
     - ns-324.awsdns-40.com.
     - ns-869.awsdns-44.net.
-crime-reference-data-api:
-  ttl: 60
-  type: CNAME
-  value: ffc33a8e-6ac2-4e92-996e-a7f9e12bd1cf.cloudapp.net
-crime-reference-data-api.staging:
-  ttl: 60
-  type: CNAME
-  value: d8c7a952-7958-4bef-8333-972ce2789eba.cloudapp.net
 crown-court-litigator-fees:
   ttl: 300
   type: CNAME
