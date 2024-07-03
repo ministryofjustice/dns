@@ -27,6 +27,14 @@
     values:
       - MS=ms96686635
       - v=spf1 ~all
+_0c5ef000e3292b5574d86de97bdd9bbb.pp.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: F44C86E0F5F5FD9EBBD3F26675F5607A.33565F12AC0C54EE6A8AFD81DC7DD00D.45e54140e14f2243da11.sectigo.com.
+_0c5ef000e3292b5574d86de97bdd9bbb.preprod.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: F44C86E0F5F5FD9EBBD3F26675F5607A.33565F12AC0C54EE6A8AFD81DC7DD00D.45e54140e14f2243da11.sectigo.com.
 _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
