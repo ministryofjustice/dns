@@ -29,7 +29,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: ":fire: Remove YAML blocks containing sectigo domain"
-          title: ":fire: Remove Sectego blocks"
+          title: ":fire: Remove Sectigo Blocks"
           body: |
             This PR removes YAML blocks containing the Sectigo domain.
 
