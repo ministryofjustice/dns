@@ -1243,10 +1243,6 @@ locateaprison:
   ttl: 600
   type: A
   value: 85.133.48.165
-lyncdiscover:
-  ttl: 600
-  type: CNAME
-  value: webdir.online.lync.com.
 lyncdiscover.cshrcasework:
   type: CNAME
   value: webdir.online.lync.com
