@@ -1,6 +1,5 @@
----
-"":
-  - ttl: 1800
+? ''
+: - ttl: 1800
     type: MX
     value:
       exchange: inbound-smtp.eu-west-1.amazonaws.com
@@ -8,10 +7,10 @@
   - ttl: 86400
     type: NS
     values:
-      - ns-1389.awsdns-45.org.
-      - ns-1621.awsdns-10.co.uk.
-      - ns-187.awsdns-23.com.
-      - ns-978.awsdns-58.net.
+    - ns-1389.awsdns-45.org.
+    - ns-1621.awsdns-10.co.uk.
+    - ns-187.awsdns-23.com.
+    - ns-978.awsdns-58.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -25,36 +24,20 @@
   - ttl: 300
     type: TXT
     values:
-      - MS=ms96686635
-      - v=spf1 ~all
-_0c5ef000e3292b5574d86de97bdd9bbb.pp.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: F44C86E0F5F5FD9EBBD3F26675F5607A.33565F12AC0C54EE6A8AFD81DC7DD00D.45e54140e14f2243da11.sectigo.com.
-_0c5ef000e3292b5574d86de97bdd9bbb.preprod.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: F44C86E0F5F5FD9EBBD3F26675F5607A.33565F12AC0C54EE6A8AFD81DC7DD00D.45e54140e14f2243da11.sectigo.com.
+    - MS=ms96686635
+    - v=spf1 ~all
 _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
-_6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
+_1864366b68aacd731e332b25536285ec.youth-justice-worker-online-assessment:
   ttl: 300
   type: CNAME
-  value: _b889b9713a37c39694f437333e017428.chvvfdvqrj.acm-validations.aws.
+  value: _e72600de9a318ad62f0043b30a9fc5fb.hkmpvcwbzw.acm-validations.aws.
 _33da21e90254237bcc4d8ad00bd3d118.security-training:
   ttl: 300
   type: CNAME
   value: _6165ac1a2a05feaefa1cc4aaf7d09b0b.kgnrpmcdhl.acm-validations.aws.
-_95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
-  ttl: 300
-  type: CNAME
-  value: _7bd56adf412cd4bc93a83eeb6d808f81.ylqxxscwpq.acm-validations.aws
-_935f4ad292e31cb21e5bf6043b20a2bf.securecodewarrior:
-  ttl: 300
-  type: CNAME
-  value: _f65a4f48e9990c0858b5134cdc625b9b.kzhndfqvzk.acm-validations.aws.
 _36085f4d854229b89162cf35526735a4.veracode:
   ttl: 300
   type: CNAME
@@ -63,14 +46,22 @@ _38914c2fe17df3d640a7d1d9765d8c88.training-preproduction.co-financing:
   ttl: 300
   type: CNAME
   value: _52106b9eec58031689a9b3d42d21d129.mqzgcdqkwq.acm-validations.aws.
-_1864366b68aacd731e332b25536285ec.youth-justice-worker-online-assessment:
-  ttl: 300
-  type: CNAME
-  value: _e72600de9a318ad62f0043b30a9fc5fb.hkmpvcwbzw.acm-validations.aws.
 _39556719e8d565ea45417d38b40889c7.find-unclaimed-court-money:
   ttl: 60
   type: CNAME
   value: _06c52dec40633865541b0ff381d9eeb1.chvvfdvqrj.acm-validations.aws
+_6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
+  ttl: 300
+  type: CNAME
+  value: _b889b9713a37c39694f437333e017428.chvvfdvqrj.acm-validations.aws.
+_935f4ad292e31cb21e5bf6043b20a2bf.securecodewarrior:
+  ttl: 300
+  type: CNAME
+  value: _f65a4f48e9990c0858b5134cdc625b9b.kzhndfqvzk.acm-validations.aws.
+_95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
+  ttl: 300
+  type: CNAME
+  value: _7bd56adf412cd4bc93a83eeb6d808f81.ylqxxscwpq.acm-validations.aws
 _acme-challenge:
   ttl: 60
   type: TXT
@@ -111,10 +102,6 @@ _d8e015eb77621a22d1bb4fe339ec1ebd.dev.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: _f45d3bd1f2f3aa9f672facf92f66d56a.sdgjtdhdhz.acm-validations.aws.
-_d0056e0292b63e43ee7490de450c6111.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: 3f666b6b9cd8ac0bd8ab145b89b2aa87.e449af38df4aa2fe9b1656cad6f70ea9.fcdbccead55470275a70.sectigo.com.
 _daab53fad660d45c0e18965db75d500e.training-preproduction.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
@@ -157,122 +144,122 @@ _h323cs._tcp.courts-video-link:
   ttl: 300
   type: SRV
   values:
-    - port: 1720
-      priority: 10
-      target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 1720
-      priority: 10
-      target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 1720
-      priority: 20
-      target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 1720
-      priority: 20
-      target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
+  - port: 1720
+    priority: 10
+    target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 1720
+    priority: 10
+    target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 1720
+    priority: 20
+    target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 1720
+    priority: 20
+    target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
 _h323ls._udp.courts-video-link:
   ttl: 300
   type: SRV
   values:
-    - port: 1719
-      priority: 10
-      target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 1719
-      priority: 10
-      target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 1719
-      priority: 20
-      target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 1719
-      priority: 20
-      target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
+  - port: 1719
+    priority: 10
+    target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 1719
+    priority: 10
+    target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 1719
+    priority: 20
+    target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 1719
+    priority: 20
+    target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
 _pexapp._tcp.courts-video-link:
   ttl: 300
   type: SRV
   values:
-    - port: 443
-      priority: 10
-      target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 443
-      priority: 10
-      target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 443
-      priority: 20
-      target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 443
-      priority: 20
-      target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
+  - port: 443
+    priority: 10
+    target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 443
+    priority: 10
+    target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 443
+    priority: 20
+    target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 443
+    priority: 20
+    target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
 _sip._tcp.courts-video-link:
   ttl: 300
   type: SRV
   values:
-    - port: 5060
-      priority: 10
-      target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5060
-      priority: 10
-      target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5060
-      priority: 20
-      target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5060
-      priority: 20
-      target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
+  - port: 5060
+    priority: 10
+    target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5060
+    priority: 10
+    target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5060
+    priority: 20
+    target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5060
+    priority: 20
+    target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
 _sipfederationtls._tcp.courts-video-link:
   ttl: 300
   type: SRV
   values:
-    - port: 5061
-      priority: 10
-      target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 10
-      target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 20
-      target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 20
-      target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
+  - port: 5061
+    priority: 10
+    target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 10
+    target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 20
+    target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 20
+    target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
 _sips._tcp.courts-video-link:
   ttl: 300
   type: SRV
   values:
-    - port: 5061
-      priority: 10
-      target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 10
-      target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 20
-      target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 20
-      target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
-      weight: 10
+  - port: 5061
+    priority: 10
+    target: pxpxy001-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 10
+    target: pxpxy002-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 20
+    target: pxpxy003-dc01.courts-video-link.service.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 20
+    target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
+    weight: 10
 _smtp._tls:
   ttl: 300
   type: TXT
@@ -280,10 +267,10 @@ _smtp._tls:
 access.platforms:
   type: NS
   values:
-    - ns-1192.awsdns-21.org.
-    - ns-1636.awsdns-12.co.uk.
-    - ns-325.awsdns-40.com.
-    - ns-674.awsdns-20.net.
+  - ns-1192.awsdns-21.org.
+  - ns-1636.awsdns-12.co.uk.
+  - ns-325.awsdns-40.com.
+  - ns-674.awsdns-20.net.
 advance-into-justice:
   ttl: 300
   type: CNAME
@@ -292,18 +279,18 @@ analytical-evidence-library:
   ttl: 300
   type: NS
   values:
-    - ns-10.awsdns-01.com.
-    - ns-1445.awsdns-52.org.
-    - ns-1984.awsdns-56.co.uk.
-    - ns-574.awsdns-07.net.
+  - ns-10.awsdns-01.com.
+  - ns-1445.awsdns-52.org.
+  - ns-1984.awsdns-56.co.uk.
+  - ns-574.awsdns-07.net.
 analytical-platform:
   ttl: 300
   type: NS
   values:
-    - ns-1509.awsdns-60.org.
-    - ns-1903.awsdns-45.co.uk.
-    - ns-378.awsdns-47.com.
-    - ns-569.awsdns-07.net.
+  - ns-1509.awsdns-60.org.
+  - ns-1903.awsdns-45.co.uk.
+  - ns-378.awsdns-47.com.
+  - ns-569.awsdns-07.net.
 analytical_platform:
   ttl: 300
   type: CNAME
@@ -320,10 +307,10 @@ apply-for-criminal-legal-aid:
   ttl: 300
   type: NS
   values:
-    - ns-1004.awsdns-61.net.
-    - ns-1461.awsdns-54.org.
-    - ns-1693.awsdns-19.co.uk.
-    - ns-291.awsdns-36.com.
+  - ns-1004.awsdns-61.net.
+  - ns-1461.awsdns-54.org.
+  - ns-1693.awsdns-19.co.uk.
+  - ns-291.awsdns-36.com.
 apply-for-hmpps-research:
   ttl: 300
   type: CNAME
@@ -332,43 +319,43 @@ apply-for-legal-aid:
   ttl: 300
   type: NS
   values:
-    - ns-1201.awsdns-22.org.
-    - ns-1988.awsdns-56.co.uk.
-    - ns-58.awsdns-07.com.
-    - ns-774.awsdns-32.net.
+  - ns-1201.awsdns-22.org.
+  - ns-1988.awsdns-56.co.uk.
+  - ns-58.awsdns-07.com.
+  - ns-774.awsdns-32.net.
 apply-to-court-about-child-arrangements:
-  - ttl: 60
-    type: NS
-    values:
-      - ns-1475.awsdns-56.org.
-      - ns-1667.awsdns-16.co.uk.
-      - ns-22.awsdns-02.com.
-      - ns-725.awsdns-26.net.
-  - ttl: 60
-    type: TXT
-    value: molecular-toad-kokt7cvogddhzdjurci2t668.herokudns.com
+- ttl: 60
+  type: NS
+  values:
+  - ns-1475.awsdns-56.org.
+  - ns-1667.awsdns-16.co.uk.
+  - ns-22.awsdns-02.com.
+  - ns-725.awsdns-26.net.
+- ttl: 60
+  type: TXT
+  value: molecular-toad-kokt7cvogddhzdjurci2t668.herokudns.com
 assess-crime-forms:
   ttl: 86400
   type: NS
   values:
-    - ns-1496.awsdns-59.org
-    - ns-1866.awsdns-41.co.uk
-    - ns-481.awsdns-60.com
-    - ns-950.awsdns-54.net
+  - ns-1496.awsdns-59.org
+  - ns-1866.awsdns-41.co.uk
+  - ns-481.awsdns-60.com
+  - ns-950.awsdns-54.net
 auth:
   ttl: 300
   type: NS
   values:
-    - ns1.auth.service.justice.gov.uk
-    - ns2.auth.service.justice.gov.uk
+  - ns1.auth.service.justice.gov.uk
+  - ns2.auth.service.justice.gov.uk
 bichard7:
   ttl: 300
   type: NS
   values:
-    - ns-1421.awsdns-49.org
-    - ns-1665.awsdns-16.co.uk
-    - ns-178.awsdns-22.com
-    - ns-621.awsdns-13.net
+  - ns-1421.awsdns-49.org
+  - ns-1665.awsdns-16.co.uk
+  - ns-178.awsdns-22.com
+  - ns-621.awsdns-13.net
 bm4eh3fe5tzqaedogvql4r27syh3gry5._domainkey.recruitment:
   ttl: 300
   type: CNAME
@@ -377,57 +364,57 @@ bookasecuremove:
   ttl: 300
   type: NS
   values:
-    - ns-1036.awsdns-01.org.
-    - ns-1695.awsdns-19.co.uk.
-    - ns-42.awsdns-05.com.
-    - ns-664.awsdns-19.net.
+  - ns-1036.awsdns-01.org.
+  - ns-1695.awsdns-19.co.uk.
+  - ns-42.awsdns-05.com.
+  - ns-664.awsdns-19.net.
 c100:
   ttl: 300
   type: NS
   values:
-    - ns-1078.awsdns-06.org.
-    - ns-1553.awsdns-02.co.uk.
-    - ns-374.awsdns-46.com.
-    - ns-656.awsdns-18.net.
+  - ns-1078.awsdns-06.org.
+  - ns-1553.awsdns-02.co.uk.
+  - ns-374.awsdns-46.com.
+  - ns-656.awsdns-18.net.
 ccms-ebs:
   type: NS
   values:
-    - ns-1516.awsdns-61.org.
-    - ns-1743.awsdns-25.co.uk.
-    - ns-22.awsdns-02.com.
-    - ns-760.awsdns-31.net.
+  - ns-1516.awsdns-61.org.
+  - ns-1743.awsdns-25.co.uk.
+  - ns-22.awsdns-02.com.
+  - ns-760.awsdns-31.net.
 check-clients-details-using-hmrc-data:
   ttl: 300
   type: NS
   values:
-    - ns-1167.awsdns-17.org
-    - ns-1796.awsdns-32.co.uk
-    - ns-429.awsdns-53.com
-    - ns-753.awsdns-30.net
+  - ns-1167.awsdns-17.org
+  - ns-1796.awsdns-32.co.uk
+  - ns-429.awsdns-53.com
+  - ns-753.awsdns-30.net
 check-when-to-disclose-caution-conviction:
   ttl: 300
   type: NS
   values:
-    - ns-1.awsdns-00.com.
-    - ns-1259.awsdns-29.org.
-    - ns-1913.awsdns-47.co.uk.
-    - ns-698.awsdns-23.net.
+  - ns-1.awsdns-00.com.
+  - ns-1259.awsdns-29.org.
+  - ns-1913.awsdns-47.co.uk.
+  - ns-698.awsdns-23.net.
 checkmydiary:
   ttl: 300
   type: NS
   values:
-    - ns-1278.awsdns-31.org.
-    - ns-2009.awsdns-59.co.uk.
-    - ns-695.awsdns-22.net.
-    - ns-81.awsdns-10.com.
-cid2._domainkey.recruitment:
-  ttl: 300
-  type: CNAME
-  value: cid2.domainkey.u19196707.wl208.sendgrid.net
+  - ns-1278.awsdns-31.org.
+  - ns-2009.awsdns-59.co.uk.
+  - ns-695.awsdns-22.net.
+  - ns-81.awsdns-10.com.
 cid._domainkey.recruitment:
   ttl: 300
   type: CNAME
   value: cid.domainkey.u19196707.wl208.sendgrid.net
+cid2._domainkey.recruitment:
+  ttl: 300
+  type: CNAME
+  value: cid2.domainkey.u19196707.wl208.sendgrid.net
 cidmail.recruitment:
   ttl: 300
   type: CNAME
@@ -436,79 +423,79 @@ claim-criminal-injuries-compensation:
   ttl: 300
   type: NS
   values:
-    - ns-116.awsdns-14.com.
-    - ns-1394.awsdns-46.org.
-    - ns-1636.awsdns-12.co.uk.
-    - ns-681.awsdns-21.net.
+  - ns-116.awsdns-14.com.
+  - ns-1394.awsdns-46.org.
+  - ns-1636.awsdns-12.co.uk.
+  - ns-681.awsdns-21.net.
 claim-crown-court-defence:
   ttl: 300
   type: NS
   values:
-    - ns-1442.awsdns-52.org.
-    - ns-154.awsdns-19.com.
-    - ns-1818.awsdns-35.co.uk.
-    - ns-775.awsdns-32.net.
+  - ns-1442.awsdns-52.org.
+  - ns-154.awsdns-19.com.
+  - ns-1818.awsdns-35.co.uk.
+  - ns-775.awsdns-32.net.
 cloud-platform:
   ttl: 300
   type: NS
   values:
-    - ns-1213.awsdns-23.org
-    - ns-1702.awsdns-20.co.uk
-    - ns-174.awsdns-21.com
-    - ns-870.awsdns-44.net
+  - ns-1213.awsdns-23.org
+  - ns-1702.awsdns-20.co.uk
+  - ns-174.awsdns-21.com
+  - ns-870.awsdns-44.net
 contact-moj:
   ttl: 300
   type: NS
   values:
-    - ns-13.awsdns-01.com.
-    - ns-1364.awsdns-42.org.
-    - ns-1699.awsdns-20.co.uk.
-    - ns-877.awsdns-45.net.
+  - ns-13.awsdns-01.com.
+  - ns-1364.awsdns-42.org.
+  - ns-1699.awsdns-20.co.uk.
+  - ns-877.awsdns-45.net.
 correspondence-handling-and-processing:
   ttl: 86400
   type: NS
   values:
-    - ns-1264.awsdns-30.org
-    - ns-1663.awsdns-15.co.uk
-    - ns-44.awsdns-05.com
-    - ns-910.awsdns-49.net
+  - ns-1264.awsdns-30.org
+  - ns-1663.awsdns-15.co.uk
+  - ns-44.awsdns-05.com
+  - ns-910.awsdns-49.net
 court-data-adaptor:
   ttl: 300
   type: NS
   values:
-    - ns-1147.awsdns-15.org.
-    - ns-1859.awsdns-40.co.uk.
-    - ns-377.awsdns-47.com.
-    - ns-888.awsdns-47.net.
+  - ns-1147.awsdns-15.org.
+  - ns-1859.awsdns-40.co.uk.
+  - ns-377.awsdns-47.com.
+  - ns-888.awsdns-47.net.
 court-data-api:
   ttl: 300
   type: NS
   values:
-    - ns-135.awsdns-16.com
-    - ns-1496.awsdns-59.org
-    - ns-1672.awsdns-17.co.uk
-    - ns-596.awsdns-10.net
+  - ns-135.awsdns-16.com
+  - ns-1496.awsdns-59.org
+  - ns-1672.awsdns-17.co.uk
+  - ns-596.awsdns-10.net
 court-transcription:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: cluster5.eu.messagelabs.com
-        preference: 10
-      - exchange: cluster5a.eu.messagelabs.com
-        preference: 20
-  - ttl: 300
-    type: TXT
-    values:
-      - C0E4N61551
-      - v=spf1 include:spf.messagelabs.com -all
+- ttl: 300
+  type: MX
+  values:
+  - exchange: cluster5.eu.messagelabs.com
+    preference: 10
+  - exchange: cluster5a.eu.messagelabs.com
+    preference: 20
+- ttl: 300
+  type: TXT
+  values:
+  - C0E4N61551
+  - v=spf1 include:spf.messagelabs.com -all
 court-tribunal-records-archive:
   ttl: 300
   type: NS
   values:
-    - ns1-04.azure-dns.com
-    - ns2-04.azure-dns.net
-    - ns3-04.azure-dns.org
-    - ns4-04.azure-dns.info
+  - ns1-04.azure-dns.com
+  - ns2-04.azure-dns.net
+  - ns3-04.azure-dns.org
+  - ns4-04.azure-dns.info
 courts-video-link:
   ttl: 300
   type: A
@@ -525,18 +512,26 @@ crime-forms-metabase:
   ttl: 300
   type: NS
   values:
-    - ns-119.awsdns-14.com
-    - ns-1252.awsdns-28.org
-    - ns-1845.awsdns-38.co.uk
-    - ns-519.awsdns-00.net
+  - ns-119.awsdns-14.com
+  - ns-1252.awsdns-28.org
+  - ns-1845.awsdns-38.co.uk
+  - ns-519.awsdns-00.net
 crime-portal-mirror-gateway:
   ttl: 60
   type: NS
   values:
-    - ns-1484.awsdns-57.org.
-    - ns-1614.awsdns-09.co.uk.
-    - ns-324.awsdns-40.com.
-    - ns-869.awsdns-44.net.
+  - ns-1484.awsdns-57.org.
+  - ns-1614.awsdns-09.co.uk.
+  - ns-324.awsdns-40.com.
+  - ns-869.awsdns-44.net.
+crime-reference-data-api:
+  ttl: 60
+  type: CNAME
+  value: ffc33a8e-6ac2-4e92-996e-a7f9e12bd1cf.cloudapp.net
+crime-reference-data-api.staging:
+  ttl: 60
+  type: CNAME
+  value: d8c7a952-7958-4bef-8333-972ce2789eba.cloudapp.net
 crown-court-litigator-fees:
   ttl: 300
   type: CNAME
@@ -549,10 +544,10 @@ csr:
   ttl: 10800
   type: NS
   values:
-    - ns-1507.awsdns-60.org
-    - ns-1885.awsdns-43.co.uk
-    - ns-9.awsdns-01.com
-    - ns-922.awsdns-51.net
+  - ns-1507.awsdns-60.org
+  - ns-1885.awsdns-43.co.uk
+  - ns-9.awsdns-01.com
+  - ns-922.awsdns-51.net
 dart.nle:
   ttl: 300
   type: CNAME
@@ -561,26 +556,26 @@ darts:
   ttl: 300
   type: NS
   values:
-    - ns1-04.azure-dns.com.
-    - ns2-04.azure-dns.net.
-    - ns3-04.azure-dns.org.
-    - ns4-04.azure-dns.info.
+  - ns1-04.azure-dns.com.
+  - ns2-04.azure-dns.net.
+  - ns3-04.azure-dns.org.
+  - ns4-04.azure-dns.info.
 darts.nle:
   ttl: 300
   type: NS
   values:
-    - ns1-03.azure-dns.com.
-    - ns2-03.azure-dns.net.
-    - ns3-03.azure-dns.org.
-    - ns4-03.azure-dns.info.
+  - ns1-03.azure-dns.com.
+  - ns2-03.azure-dns.net.
+  - ns3-03.azure-dns.org.
+  - ns4-03.azure-dns.info.
 data-platform:
   ttl: 300
   type: NS
   values:
-    - ns-1143.awsdns-14.org.
-    - ns-1775.awsdns-29.co.uk.
-    - ns-473.awsdns-59.com.
-    - ns-714.awsdns-25.net.
+  - ns-1143.awsdns-14.org.
+  - ns-1775.awsdns-29.co.uk.
+  - ns-473.awsdns-59.com.
+  - ns-714.awsdns-25.net.
 design-patterns:
   ttl: 60
   type: CNAME
@@ -589,10 +584,10 @@ dev.join-github:
   ttl: 300
   type: NS
   values:
-    - ns-1079.awsdns-06.org.
-    - ns-1984.awsdns-56.co.uk.
-    - ns-467.awsdns-58.com.
-    - ns-991.awsdns-59.net.
+  - ns-1079.awsdns-06.org.
+  - ns-1984.awsdns-56.co.uk.
+  - ns-467.awsdns-58.com.
+  - ns-991.awsdns-59.net.
 dev.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -605,18 +600,18 @@ dev.network-access-control:
   ttl: 300
   type: NS
   values:
-    - ns-1381.awsdns-44.org.
-    - ns-1990.awsdns-56.co.uk.
-    - ns-4.awsdns-00.com.
-    - ns-650.awsdns-17.net.
+  - ns-1381.awsdns-44.org.
+  - ns-1990.awsdns-56.co.uk.
+  - ns-4.awsdns-00.com.
+  - ns-650.awsdns-17.net.
 dev.victim-case-management:
   ttl: 300
   type: NS
   values:
-    - ns-1461.awsdns-54.org
-    - ns-1605.awsdns-08.co.uk
-    - ns-240.awsdns-30.com
-    - ns-967.awsdns-56.net
+  - ns-1461.awsdns-54.org
+  - ns-1605.awsdns-08.co.uk
+  - ns-240.awsdns-30.com
+  - ns-967.awsdns-56.net
 development.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
@@ -629,10 +624,10 @@ divorce-section-search:
   ttl: 300
   type: NS
   values:
-    - ns-1141.awsdns-14.org
-    - ns-2014.awsdns-59.co.uk
-    - ns-315.awsdns-39.com
-    - ns-603.awsdns-11.net
+  - ns-1141.awsdns-14.org
+  - ns-2014.awsdns-59.co.uk
+  - ns-315.awsdns-39.com
+  - ns-603.awsdns-11.net
 dkim2048._domainkey.recruitment:
   ttl: 300
   type: TXT
@@ -641,10 +636,10 @@ electronic-monitoring:
   ttl: 300
   type: NS
   values:
-    - ns-1046.awsdns-02.org.
-    - ns-1969.awsdns-54.co.uk.
-    - ns-447.awsdns-55.com.
-    - ns-521.awsdns-01.net.
+  - ns-1046.awsdns-02.org.
+  - ns-1969.awsdns-54.co.uk.
+  - ns-447.awsdns-55.com.
+  - ns-521.awsdns-01.net.
 em1424.jac.intranet:
   ttl: 300
   type: CNAME
@@ -658,35 +653,35 @@ email.email:
   type: CNAME
   value: mailgun.org
 email.signon:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: mxa.mailgun.org
-        preference: 10
-      - exchange: mxb.mailgun.org
-        preference: 20
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:mailgun.org ~all
+- ttl: 300
+  type: MX
+  values:
+  - exchange: mxa.mailgun.org
+    preference: 10
+  - exchange: mxb.mailgun.org
+    preference: 20
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
 email.staging.signon:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: mxa.mailgun.org
-        preference: 10
-      - exchange: mxb.mailgun.org
-        preference: 20
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:mailgun.org ~all
+- ttl: 300
+  type: MX
+  values:
+  - exchange: mxa.mailgun.org
+    preference: 10
+  - exchange: mxb.mailgun.org
+    preference: 20
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
 equip:
   ttl: 300
   type: NS
   values:
-    - ns-1256.awsdns-29.org
-    - ns-1877.awsdns-42.co.uk
-    - ns-329.awsdns-41.com
-    - ns-845.awsdns-41.net
+  - ns-1256.awsdns-29.org
+  - ns-1877.awsdns-42.co.uk
+  - ns-329.awsdns-41.com
+  - ns-845.awsdns-41.net
 exchange-integration-services-stream:
   ttl: 300
   type: CNAME
@@ -695,33 +690,33 @@ familymediators:
   ttl: 60
   type: NS
   values:
-    - ns-1462.awsdns-54.org.
-    - ns-1813.awsdns-34.co.uk.
-    - ns-500.awsdns-62.com.
-    - ns-912.awsdns-50.net.
+  - ns-1462.awsdns-54.org.
+  - ns-1813.awsdns-34.co.uk.
+  - ns-500.awsdns-62.com.
+  - ns-912.awsdns-50.net.
 find-unclaimed-court-money:
-  - ttl: 300
-    type: NS
-    values:
-      - ns-1085.awsdns-07.org.
-      - ns-1740.awsdns-25.co.uk.
-      - ns-237.awsdns-29.com.
-      - ns-973.awsdns-57.net.
-  - ttl: 942942942
-    type: Route53Provider/ALIAS
-    value:
-      evaluate-target-health: true
-      hosted-zone-id: ZHURV8PSTC4K8
-      name: dualstack.ubi-p-loadb-1rk7d55h8z4t3-1469044134.eu-west-2.elb.amazonaws.com.
-      type: A
+- ttl: 300
+  type: NS
+  values:
+  - ns-1085.awsdns-07.org.
+  - ns-1740.awsdns-25.co.uk.
+  - ns-237.awsdns-29.com.
+  - ns-973.awsdns-57.net.
+- ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: dualstack.ubi-p-loadb-1rk7d55h8z4t3-1469044134.eu-west-2.elb.amazonaws.com.
+    type: A
 form:
   ttl: 300
   type: NS
   values:
-    - ns-1436.awsdns-51.org.
-    - ns-1694.awsdns-19.co.uk.
-    - ns-322.awsdns-40.com.
-    - ns-999.awsdns-60.net.
+  - ns-1436.awsdns-51.org.
+  - ns-1694.awsdns-19.co.uk.
+  - ns-322.awsdns-40.com.
+  - ns-999.awsdns-60.net.
 ftp-hmcts.intranet:
   ttl: 300
   type: A
@@ -730,34 +725,34 @@ gender-recognition:
   ttl: 300
   type: NS
   values:
-    - ns-1155.awsdns-16.org.
-    - ns-1726.awsdns-23.co.uk.
-    - ns-371.awsdns-46.com.
-    - ns-755.awsdns-30.net.
+  - ns-1155.awsdns-16.org.
+  - ns-1726.awsdns-23.co.uk.
+  - ns-371.awsdns-46.com.
+  - ns-755.awsdns-30.net.
 haletest1:
   ttl: 300
   type: NS
   values:
-    - ns-1156.awsdns-16.org.
-    - ns-1923.awsdns-48.co.uk.
-    - ns-64.awsdns-08.com.
-    - ns-748.awsdns-29.net.
+  - ns-1156.awsdns-16.org.
+  - ns-1923.awsdns-48.co.uk.
+  - ns-64.awsdns-08.com.
+  - ns-748.awsdns-29.net.
 helpwithchildarrangements:
   ttl: 100
   type: NS
   values:
-    - ns-1099.awsdns-09.org.
-    - ns-2000.awsdns-58.co.uk.
-    - ns-465.awsdns-58.com.
-    - ns-989.awsdns-59.net.
+  - ns-1099.awsdns-09.org.
+  - ns-2000.awsdns-58.co.uk.
+  - ns-465.awsdns-58.com.
+  - ns-989.awsdns-59.net.
 hmcts-risk-assurance-operating-controls:
   ttl: 300
   type: NS
   values:
-    - ns-1306.awsdns-35.org.
-    - ns-1537.awsdns-00.co.uk.
-    - ns-456.awsdns-57.com.
-    - ns-838.awsdns-40.net.
+  - ns-1306.awsdns-35.org.
+  - ns-1537.awsdns-00.co.uk.
+  - ns-456.awsdns-57.com.
+  - ns-838.awsdns-40.net.
 hmcts.intranet:
   ttl: 300
   type: A
@@ -766,10 +761,10 @@ hmpps:
   ttl: 300
   type: NS
   values:
-    - ns-1048.awsdns-03.org.
-    - ns-1972.awsdns-54.co.uk.
-    - ns-384.awsdns-48.com.
-    - ns-585.awsdns-09.net.
+  - ns-1048.awsdns-03.org.
+  - ns-1972.awsdns-54.co.uk.
+  - ns-384.awsdns-48.com.
+  - ns-585.awsdns-09.net.
 hmpps-architecture-blueprint:
   ttl: 300
   type: CNAME
@@ -778,18 +773,18 @@ hmpps-assessments:
   ttl: 300
   type: NS
   values:
-    - ns-1459.awsdns-54.org.
-    - ns-1777.awsdns-30.co.uk.
-    - ns-450.awsdns-56.com.
-    - ns-931.awsdns-52.net.
+  - ns-1459.awsdns-54.org.
+  - ns-1777.awsdns-30.co.uk.
+  - ns-450.awsdns-56.com.
+  - ns-931.awsdns-52.net.
 hmpps-domain:
   ttl: 60
   type: NS
   values:
-    - ns-1273.awsdns-31.org.
-    - ns-1661.awsdns-15.co.uk.
-    - ns-9.awsdns-01.com.
-    - ns-934.awsdns-52.net.
+  - ns-1273.awsdns-31.org.
+  - ns-1661.awsdns-15.co.uk.
+  - ns-9.awsdns-01.com.
+  - ns-934.awsdns-52.net.
 hmpps-performance-hub:
   ttl: 300
   type: CNAME
@@ -802,18 +797,18 @@ integrated-fraud-system:
   ttl: 86400
   type: NS
   values:
-    - ns-1063.awsdns-04.org
-    - ns-142.awsdns-17.com
-    - ns-1802.awsdns-33.co.uk
-    - ns-642.awsdns-16.net
+  - ns-1063.awsdns-04.org
+  - ns-142.awsdns-17.com
+  - ns-1802.awsdns-33.co.uk
+  - ns-642.awsdns-16.net
 integrationtest:
   ttl: 60
   type: NS
   values:
-    - ns-1259.awsdns-29.org.
-    - ns-1760.awsdns-28.co.uk.
-    - ns-213.awsdns-26.com.
-    - ns-843.awsdns-41.net.
+  - ns-1259.awsdns-29.org.
+  - ns-1760.awsdns-28.co.uk.
+  - ns-213.awsdns-26.com.
+  - ns-843.awsdns-41.net.
 jac.intranet:
   ttl: 300
   type: CNAME
@@ -822,18 +817,18 @@ jacksapp-devs:
   ttl: 300
   type: NS
   values:
-    - ns-1481.awsdns-57.org.
-    - ns-1721.awsdns-23.co.uk.
-    - ns-455.awsdns-56.com.
-    - ns-848.awsdns-42.net.
+  - ns-1481.awsdns-57.org.
+  - ns-1721.awsdns-23.co.uk.
+  - ns-455.awsdns-56.com.
+  - ns-848.awsdns-42.net.
 join-github:
   ttl: 300
   type: NS
   values:
-    - ns-1518.awsdns-61.org.
-    - ns-1677.awsdns-17.co.uk.
-    - ns-277.awsdns-34.com.
-    - ns-945.awsdns-54.net.
+  - ns-1518.awsdns-61.org.
+  - ns-1677.awsdns-17.co.uk.
+  - ns-277.awsdns-34.com.
+  - ns-945.awsdns-54.net.
 judicialappointmentscommission.intranet:
   ttl: 300
   type: CNAME
@@ -854,26 +849,26 @@ laa-fee-calculator:
   ttl: 300
   type: NS
   values:
-    - ns-1399.awsdns-46.org.
-    - ns-1537.awsdns-00.co.uk.
-    - ns-324.awsdns-40.com.
-    - ns-877.awsdns-45.net.
+  - ns-1399.awsdns-46.org.
+  - ns-1537.awsdns-00.co.uk.
+  - ns-324.awsdns-40.com.
+  - ns-877.awsdns-45.net.
 laa-finance-data:
   ttl: 86400
   type: NS
   values:
-    - ns-1248.awsdns-28.org.
-    - ns-1932.awsdns-49.co.uk.
-    - ns-403.awsdns-50.com.
-    - ns-834.awsdns-40.net.
+  - ns-1248.awsdns-28.org.
+  - ns-1932.awsdns-49.co.uk.
+  - ns-403.awsdns-50.com.
+  - ns-834.awsdns-40.net.
 laa-status-dashboard:
   ttl: 300
   type: NS
   values:
-    - ns-1144.awsdns-15.org.
-    - ns-1723.awsdns-23.co.uk.
-    - ns-209.awsdns-26.com.
-    - ns-925.awsdns-51.net.
+  - ns-1144.awsdns-15.org.
+  - ns-1723.awsdns-23.co.uk.
+  - ns-209.awsdns-26.com.
+  - ns-925.awsdns-51.net.
 lawcommission.intranet:
   ttl: 300
   type: CNAME
@@ -890,10 +885,10 @@ maat-libra-administration-tool:
   ttl: 300
   type: NS
   values:
-    - ns-1321.awsdns-37.org.
-    - ns-193.awsdns-24.com.
-    - ns-1937.awsdns-50.co.uk.
-    - ns-976.awsdns-58.net.
+  - ns-1321.awsdns-37.org.
+  - ns-193.awsdns-24.com.
+  - ns-1937.awsdns-50.co.uk.
+  - ns-976.awsdns-58.net.
 manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -906,25 +901,25 @@ manage-key-workers:
   ttl: 60
   type: NS
   values:
-    - ns-1028.awsdns-00.org.
-    - ns-1932.awsdns-49.co.uk.
-    - ns-62.awsdns-07.com.
-    - ns-887.awsdns-46.net.
+  - ns-1028.awsdns-00.org.
+  - ns-1932.awsdns-49.co.uk.
+  - ns-62.awsdns-07.com.
+  - ns-887.awsdns-46.net.
 management.analytical-platform:
   ttl: 300
   type: NS
   values:
-    - ns-1266.awsdns-30.org.
-    - ns-1541.awsdns-00.co.uk.
-    - ns-228.awsdns-28.com.
-    - ns-602.awsdns-11.net.
+  - ns-1266.awsdns-30.org.
+  - ns-1541.awsdns-00.co.uk.
+  - ns-228.awsdns-28.com.
+  - ns-602.awsdns-11.net.
 mercury:
   type: NS
   values:
-    - ns1-01.azure-dns.com.
-    - ns2-01.azure-dns.net.
-    - ns3-01.azure-dns.org.
-    - ns4-01.azure-dns.info.
+  - ns1-01.azure-dns.com.
+  - ns2-01.azure-dns.net.
+  - ns3-01.azure-dns.org.
+  - ns4-01.azure-dns.info.
 ministry-of-justice-acronyms:
   ttl: 300
   type: CNAME
@@ -933,42 +928,42 @@ mod-platform-monitoring:
   ttl: 300
   type: NS
   values:
-    - ns-1099.awsdns-09.org.
-    - ns-136.awsdns-17.com.
-    - ns-1837.awsdns-37.co.uk.
-    - ns-647.awsdns-16.net.
+  - ns-1099.awsdns-09.org.
+  - ns-136.awsdns-17.com.
+  - ns-1837.awsdns-37.co.uk.
+  - ns-647.awsdns-16.net.
 modernisation-platform:
   ttl: 300
   type: NS
   values:
-    - ns-1520.awsdns-62.org
-    - ns-1755.awsdns-27.co.uk
-    - ns-229.awsdns-28.com
-    - ns-561.awsdns-06.net
+  - ns-1520.awsdns-62.org
+  - ns-1755.awsdns-27.co.uk
+  - ns-229.awsdns-28.com
+  - ns-561.awsdns-06.net
 moic:
   ttl: 300
   type: NS
   values:
-    - ns-1316.awsdns-36.org.
-    - ns-1833.awsdns-37.co.uk.
-    - ns-188.awsdns-23.com.
-    - ns-882.awsdns-46.net.
+  - ns-1316.awsdns-36.org.
+  - ns-1833.awsdns-37.co.uk.
+  - ns-188.awsdns-23.com.
+  - ns-882.awsdns-46.net.
 moj-forms:
   ttl: 300
   type: NS
   values:
-    - ns-1277.awsdns-31.org.
-    - ns-1823.awsdns-35.co.uk.
-    - ns-279.awsdns-34.com.
-    - ns-820.awsdns-38.net.
+  - ns-1277.awsdns-31.org.
+  - ns-1823.awsdns-35.co.uk.
+  - ns-279.awsdns-34.com.
+  - ns-820.awsdns-38.net.
 moj-forms-editor:
   ttl: 300
   type: NS
   values:
-    - ns-1437.awsdns-51.org.
-    - ns-1824.awsdns-36.co.uk.
-    - ns-228.awsdns-28.com.
-    - ns-712.awsdns-25.net.
+  - ns-1437.awsdns-51.org.
+  - ns-1824.awsdns-36.co.uk.
+  - ns-228.awsdns-28.com.
+  - ns-712.awsdns-25.net.
 mx._domainkey.email.signon:
   ttl: 300
   type: TXT
@@ -981,34 +976,34 @@ network-access-control:
   ttl: 300
   type: NS
   values:
-    - ns-1295.awsdns-33.org.
-    - ns-1576.awsdns-05.co.uk.
-    - ns-478.awsdns-59.com.
-    - ns-866.awsdns-44.net.
+  - ns-1295.awsdns-33.org.
+  - ns-1576.awsdns-05.co.uk.
+  - ns-478.awsdns-59.com.
+  - ns-866.awsdns-44.net.
 neutral-citation-allocation:
   ttl: 300
   type: NS
   values:
-    - ns-1119.awsdns-11.org.
-    - ns-1552.awsdns-02.co.uk.
-    - ns-446.awsdns-55.com.
-    - ns-542.awsdns-03.net.
+  - ns-1119.awsdns-11.org.
+  - ns-1552.awsdns-02.co.uk.
+  - ns-446.awsdns-55.com.
+  - ns-542.awsdns-03.net.
 nomis:
   ttl: 300
   type: NS
   values:
-    - ns-1191.awsdns-20.org.
-    - ns-1927.awsdns-48.co.uk.
-    - ns-492.awsdns-61.com.
-    - ns-797.awsdns-35.net.
+  - ns-1191.awsdns-20.org.
+  - ns-1927.awsdns-48.co.uk.
+  - ns-492.awsdns-61.com.
+  - ns-797.awsdns-35.net.
 nomis-api:
   ttl: 300
   type: NS
   values:
-    - ns1-01.azure-dns.com.
-    - ns2-01.azure-dns.net.
-    - ns3-01.azure-dns.org.
-    - ns4-01.azure-dns.info.
+  - ns1-01.azure-dns.com.
+  - ns2-01.azure-dns.net.
+  - ns3-01.azure-dns.org.
+  - ns4-01.azure-dns.info.
 noms-api:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1029,34 +1024,34 @@ oasys:
   ttl: 172800
   type: NS
   values:
-    - ns-1299.awsdns-34.org
-    - ns-1605.awsdns-08.co.uk
-    - ns-162.awsdns-20.com
-    - ns-699.awsdns-23.net
+  - ns-1299.awsdns-34.org
+  - ns-1605.awsdns-08.co.uk
+  - ns-162.awsdns-20.com
+  - ns-699.awsdns-23.net
 observability-platform:
   ttl: 300
   type: NS
   values:
-    - ns-1259.awsdns-29.org.
-    - ns-1688.awsdns-19.co.uk.
-    - ns-353.awsdns-44.com.
-    - ns-631.awsdns-14.net.
+  - ns-1259.awsdns-29.org.
+  - ns-1688.awsdns-19.co.uk.
+  - ns-353.awsdns-44.com.
+  - ns-631.awsdns-14.net.
 offender-case-notes:
   ttl: 300
   type: NS
   values:
-    - ns-1147.awsdns-15.org.
-    - ns-1904.awsdns-46.co.uk.
-    - ns-22.awsdns-02.com.
-    - ns-780.awsdns-33.net.
+  - ns-1147.awsdns-15.org.
+  - ns-1904.awsdns-46.co.uk.
+  - ns-22.awsdns-02.com.
+  - ns-780.awsdns-33.net.
 offender-categorisation:
   ttl: 300
   type: NS
   values:
-    - ns-1008.awsdns-62.net.
-    - ns-1205.awsdns-22.org.
-    - ns-1566.awsdns-03.co.uk.
-    - ns-416.awsdns-52.com.
+  - ns-1008.awsdns-62.net.
+  - ns-1205.awsdns-22.org.
+  - ns-1566.awsdns-03.co.uk.
+  - ns-416.awsdns-52.com.
 offenders:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1081,18 +1076,18 @@ offloc:
   ttl: 300
   type: NS
   values:
-    - ns1-09.azure-dns.com
-    - ns2-09.azure-dns.net
-    - ns3-09.azure-dns.org
-    - ns4-09.azure-dns.info
+  - ns1-09.azure-dns.com
+  - ns2-09.azure-dns.net
+  - ns3-09.azure-dns.org
+  - ns4-09.azure-dns.info
 opg:
   ttl: 300
   type: NS
   values:
-    - ns-1224.awsdns-25.org
-    - ns-1941.awsdns-50.co.uk
-    - ns-676.awsdns-20.net
-    - ns-86.awsdns-10.com
+  - ns-1224.awsdns-25.org
+  - ns-1941.awsdns-50.co.uk
+  - ns-676.awsdns-20.net
+  - ns-86.awsdns-10.com
 ovzlyraz4oolzol4giy6q5o3svtb234i._domainkey.recruitment:
   ttl: 300
   type: CNAME
@@ -1101,10 +1096,10 @@ parental-responsibility-agreement:
   ttl: 300
   type: NS
   values:
-    - ns-1302.awsdns-34.org.
-    - ns-1676.awsdns-17.co.uk.
-    - ns-477.awsdns-59.com.
-    - ns-960.awsdns-56.net.
+  - ns-1302.awsdns-34.org.
+  - ns-1676.awsdns-17.co.uk.
+  - ns-477.awsdns-59.com.
+  - ns-960.awsdns-56.net.
 paroleboardstream:
   ttl: 300
   type: A
@@ -1113,18 +1108,18 @@ pathfinder:
   ttl: 300
   type: NS
   values:
-    - ns-1442.awsdns-52.org.
-    - ns-1625.awsdns-11.co.uk.
-    - ns-391.awsdns-48.com.
-    - ns-855.awsdns-42.net.
+  - ns-1442.awsdns-52.org.
+  - ns-1625.awsdns-11.co.uk.
+  - ns-391.awsdns-48.com.
+  - ns-855.awsdns-42.net.
 perf.victim-case-management:
   ttl: 300
   type: NS
   values:
-    - ns-1260.awsdns-29.org.
-    - ns-1835.awsdns-37.co.uk.
-    - ns-204.awsdns-25.com.
-    - ns-924.awsdns-51.net.
+  - ns-1260.awsdns-29.org.
+  - ns-1835.awsdns-37.co.uk.
+  - ns-204.awsdns-25.com.
+  - ns-924.awsdns-51.net.
 pingdom:
   ttl: 300
   type: CNAME
@@ -1133,17 +1128,17 @@ plan-your-future:
   ttl: 300
   type: NS
   values:
-    - nns-1740.awsdns-25.co.uk
-    - nns-304.awsdns-38.com
-    - nns-956.awsdns-55.net
-    - ns-1035.awsdns-01.org
+  - nns-1740.awsdns-25.co.uk
+  - nns-304.awsdns-38.com
+  - nns-956.awsdns-55.net
+  - ns-1035.awsdns-01.org
 planetfm:
   type: NS
   values:
-    - ns-1476.awsdns-56.org
-    - ns-1749.awsdns-26.co.uk
-    - ns-219.awsdns-27.com
-    - ns-609.awsdns-12.net
+  - ns-1476.awsdns-56.org
+  - ns-1749.awsdns-26.co.uk
+  - ns-219.awsdns-27.com
+  - ns-609.awsdns-12.net
 pqzo3wwgkdgsl3s5fmad52yftinv4hvm._domainkey:
   ttl: 1800
   type: CNAME
@@ -1152,26 +1147,26 @@ prep.network-access-control:
   ttl: 300
   type: NS
   values:
-    - ns-1323.awsdns-37.org.
-    - ns-2012.awsdns-59.co.uk.
-    - ns-481.awsdns-60.com.
-    - ns-761.awsdns-31.net.
+  - ns-1323.awsdns-37.org.
+  - ns-2012.awsdns-59.co.uk.
+  - ns-481.awsdns-60.com.
+  - ns-761.awsdns-31.net.
 prepare-case-probation:
   ttl: 300
   type: NS
   values:
-    - ns-1171.awsdns-18.org.
-    - ns-1748.awsdns-26.co.uk.
-    - ns-531.awsdns-02.net.
-    - ns-93.awsdns-11.com.
+  - ns-1171.awsdns-18.org.
+  - ns-1748.awsdns-26.co.uk.
+  - ns-531.awsdns-02.net.
+  - ns-93.awsdns-11.com.
 preprod.bichard7:
   ttl: 300
   type: NS
   values:
-    - ns-1185.awsdns-20.org
-    - ns-134.awsdns-16.com
-    - ns-1730.awsdns-24.co.uk
-    - ns-966.awsdns-56.net
+  - ns-1185.awsdns-20.org
+  - ns-134.awsdns-16.com
+  - ns-1730.awsdns-24.co.uk
+  - ns-966.awsdns-56.net
 preprod.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
@@ -1180,90 +1175,90 @@ preprod.victim-case-management:
   ttl: 300
   type: NS
   values:
-    - ns-1512.awsdns-61.org.
-    - ns-1960.awsdns-53.co.uk.
-    - ns-902.awsdns-48.net.
-    - ns-99.awsdns-12.com.
+  - ns-1512.awsdns-61.org.
+  - ns-1960.awsdns-53.co.uk.
+  - ns-902.awsdns-48.net.
+  - ns-99.awsdns-12.com.
 prison:
   ttl: 300
   type: NS
   values:
-    - ns-1401.awsdns-47.org.
-    - ns-1688.awsdns-19.co.uk.
-    - ns-203.awsdns-25.com.
-    - ns-639.awsdns-15.net.
+  - ns-1401.awsdns-47.org.
+  - ns-1688.awsdns-19.co.uk.
+  - ns-203.awsdns-25.com.
+  - ns-639.awsdns-15.net.
 prison-education-support:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
-  - ttl: 300
-    type: TXT
-    value: google-site-verification=8nQHRQ-Z2NxNUcSmlpH-rOZytJpVYqW4g9et7HnojPA
+- ttl: 300
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: google-site-verification=8nQHRQ-Z2NxNUcSmlpH-rOZytJpVYqW4g9et7HnojPA
 prison-visits:
   ttl: 300
   type: NS
   values:
-    - ns-1435.awsdns-51.org
-    - ns-1880.awsdns-43.co.uk
-    - ns-411.awsdns-51.com
-    - ns-587.awsdns-09.net
+  - ns-1435.awsdns-51.org
+  - ns-1880.awsdns-43.co.uk
+  - ns-411.awsdns-51.com
+  - ns-587.awsdns-09.net
 prisoner:
   ttl: 300
   type: NS
   values:
-    - ns1-08.azure-dns.com.
-    - ns2-08.azure-dns.net.
-    - ns3-08.azure-dns.org.
-    - ns4-08.azure-dns.info.
+  - ns1-08.azure-dns.com.
+  - ns2-08.azure-dns.net.
+  - ns3-08.azure-dns.org.
+  - ns4-08.azure-dns.info.
 prisoner-intelligence-notifications:
   ttl: 60
   type: NS
   values:
-    - ns1-03.azure-dns.com.
-    - ns2-03.azure-dns.net.
-    - ns3-03.azure-dns.org.
-    - ns4-03.azure-dns.info.
+  - ns1-03.azure-dns.com.
+  - ns2-03.azure-dns.net.
+  - ns3-03.azure-dns.org.
+  - ns4-03.azure-dns.info.
 prisoner-money:
   type: NS
   values:
-    - ns-1232.awsdns-26.org.
-    - ns-1641.awsdns-13.co.uk.
-    - ns-247.awsdns-30.com.
-    - ns-717.awsdns-25.net.
+  - ns-1232.awsdns-26.org.
+  - ns-1641.awsdns-13.co.uk.
+  - ns-247.awsdns-30.com.
+  - ns-717.awsdns-25.net.
 prisonvisits:
   ttl: 60
   type: NS
   values:
-    - ns-1207.awsdns-22.org.
-    - ns-154.awsdns-19.com.
-    - ns-1992.awsdns-57.co.uk.
-    - ns-676.awsdns-20.net.
+  - ns-1207.awsdns-22.org.
+  - ns-154.awsdns-19.com.
+  - ns-1992.awsdns-57.co.uk.
+  - ns-676.awsdns-20.net.
 probation:
   ttl: 300
   type: NS
   values:
-    - ns-1366.awsdns-42.org.
-    - ns-1566.awsdns-03.co.uk.
-    - ns-414.awsdns-51.com.
-    - ns-849.awsdns-42.net.
+  - ns-1366.awsdns-42.org.
+  - ns-1566.awsdns-03.co.uk.
+  - ns-414.awsdns-51.com.
+  - ns-849.awsdns-42.net.
 probation-integration:
   ttl: 300
   type: NS
   values:
-    - ns-1338.awsdns-39.org.
-    - ns-1628.awsdns-11.co.uk.
-    - ns-64.awsdns-08.com.
-    - ns-781.awsdns-33.net.
+  - ns-1338.awsdns-39.org.
+  - ns-1628.awsdns-11.co.uk.
+  - ns-64.awsdns-08.com.
+  - ns-781.awsdns-33.net.
 prometheus:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1277,12 +1272,12 @@ pvlbookingsystem:
   type: A
   value: 51.140.30.40
 pvlbookingsystemtest:
-  - ttl: 600
-    type: A
-    value: 51.140.154.247
-  - ttl: 300
-    type: TXT
-    value: 7fcq2rv3orelq7se5k09lonlee
+- ttl: 600
+  type: A
+  value: 51.140.154.247
+- ttl: 300
+  type: TXT
+  value: 7fcq2rv3orelq7se5k09lonlee
 pxpxy001-dc01.courts-video-link:
   ttl: 300
   type: A
@@ -1340,51 +1335,51 @@ pxpxy014-dc02.courts-video-link:
   type: A
   value: 217.135.104.207
 recruitment:
-  - ttl: 300
-    type: A
-    values:
-      - 162.159.140.128
-      - 172.66.0.126
-  - ttl: 300
-    type: CAA
-    value:
-      flags: 0
-      tag: issue
-      value: pki.goog
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: r1-smtp-in-1.dotdigital.com
-        preference: 10
-      - exchange: r1-smtp-in-2.dotdigital.com
-        preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:spf.dotmailer.com -all
+- ttl: 300
+  type: A
+  values:
+  - 162.159.140.128
+  - 172.66.0.126
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: pki.goog
+- ttl: 300
+  type: MX
+  values:
+  - exchange: r1-smtp-in-1.dotdigital.com
+    preference: 10
+  - exchange: r1-smtp-in-2.dotdigital.com
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:spf.dotmailer.com -all
 refer-monitor-intervention:
   ttl: 300
   type: NS
   values:
-    - ns-1002.awsdns-61.net.
-    - ns-1460.awsdns-54.org.
-    - ns-1824.awsdns-36.co.uk.
-    - ns-423.awsdns-52.com.
+  - ns-1002.awsdns-61.net.
+  - ns-1460.awsdns-54.org.
+  - ns-1824.awsdns-36.co.uk.
+  - ns-423.awsdns-52.com.
 restricted-patients-api:
   ttl: 300
   type: NS
   values:
-    - ns-1522.awsdns-62.org.
-    - ns-1717.awsdns-22.co.uk.
-    - ns-46.awsdns-05.com.
-    - ns-704.awsdns-24.net.
+  - ns-1522.awsdns-62.org.
+  - ns-1717.awsdns-22.co.uk.
+  - ns-46.awsdns-05.com.
+  - ns-704.awsdns-24.net.
 review-criminal-legal-aid:
   ttl: 300
   type: NS
   values:
-    - ns-1082.awsdns-07.org.
-    - ns-1936.awsdns-50.co.uk.
-    - ns-295.awsdns-36.com.
-    - ns-604.awsdns-11.net.
+  - ns-1082.awsdns-07.org.
+  - ns-1936.awsdns-50.co.uk.
+  - ns-295.awsdns-36.com.
+  - ns-604.awsdns-11.net.
 runbooks.data-catalogue:
   ttl: 300
   type: CNAME
@@ -1417,10 +1412,10 @@ secops:
   ttl: 300
   type: NS
   values:
-    - ns-1004.awsdns-61.net
-    - ns-1484.awsdns-57.org
-    - ns-1879.awsdns-42.co.uk
-    - ns-452.awsdns-56.com
+  - ns-1004.awsdns-61.net
+  - ns-1484.awsdns-57.org
+  - ns-1879.awsdns-42.co.uk
+  - ns-452.awsdns-56.com
 securecodewarrior:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1445,17 +1440,17 @@ securityoperations:
   ttl: 300
   type: NS
   values:
-    - ns-1031.awsdns-00.org
-    - ns-1845.awsdns-38.co.uk
-    - ns-402.awsdns-50.com
-    - ns-965.awsdns-56.net
+  - ns-1031.awsdns-00.org
+  - ns-1845.awsdns-38.co.uk
+  - ns-402.awsdns-50.com
+  - ns-965.awsdns-56.net
 sendmoneytoaprisoner:
   type: NS
   values:
-    - ns-1000.awsdns-61.net.
-    - ns-1418.awsdns-49.org.
-    - ns-1845.awsdns-38.co.uk.
-    - ns-488.awsdns-61.com.
+  - ns-1000.awsdns-61.net.
+  - ns-1418.awsdns-49.org.
+  - ns-1845.awsdns-38.co.uk.
+  - ns-488.awsdns-61.com.
 signon:
   ttl: 60
   type: CNAME
@@ -1468,26 +1463,26 @@ social-justice-problems:
   ttl: 300
   type: NS
   values:
-    - ns-1452.awsdns-53.org
-    - ns-2019.awsdns-60.co.uk
-    - ns-280.awsdns-35.com
-    - ns-840.awsdns-41.net
+  - ns-1452.awsdns-53.org
+  - ns-2019.awsdns-60.co.uk
+  - ns-280.awsdns-35.com
+  - ns-840.awsdns-41.net
 staff:
   ttl: 300
   type: NS
   values:
-    - ns-1040.awsdns-02.org.
-    - ns-1608.awsdns-09.co.uk.
-    - ns-535.awsdns-02.net.
-    - ns-80.awsdns-10.com.
+  - ns-1040.awsdns-02.org.
+  - ns-1608.awsdns-09.co.uk.
+  - ns-535.awsdns-02.net.
+  - ns-80.awsdns-10.com.
 stage.victim-case-management:
   ttl: 300
   type: NS
   values:
-    - ns-1197.awsdns-21.org.
-    - ns-145.awsdns-18.com.
-    - ns-1770.awsdns-29.co.uk.
-    - ns-983.awsdns-58.net.
+  - ns-1197.awsdns-21.org.
+  - ns-145.awsdns-18.com.
+  - ns-1770.awsdns-29.co.uk.
+  - ns-983.awsdns-58.net.
 staging.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
@@ -1508,10 +1503,10 @@ studio-hosting:
   ttl: 300
   type: NS
   values:
-    - ns1-07.azure-dns.com.
-    - ns2-07.azure-dns.net.
-    - ns3-07.azure-dns.org.
-    - ns4-07.azure-dns.info.
+  - ns1-07.azure-dns.com.
+  - ns2-07.azure-dns.net.
+  - ns3-07.azure-dns.org.
+  - ns4-07.azure-dns.info.
 suaehjnchl4x3uc37ltzv4sjvox32tsg._domainkey:
   ttl: 1800
   type: CNAME
@@ -1520,10 +1515,10 @@ submit-crime-forms:
   ttl: 86400
   type: NS
   values:
-    - ns-1239.awsdns-26.org
-    - ns-1600.awsdns-08.co.uk
-    - ns-323.awsdns-40.com
-    - ns-593.awsdns-10.net
+  - ns-1239.awsdns-26.org
+  - ns-1600.awsdns-08.co.uk
+  - ns-323.awsdns-40.com
+  - ns-593.awsdns-10.net
 syslogmoj:
   ttl: 300
   type: A
@@ -1552,26 +1547,26 @@ test.victim-case-management:
   ttl: 300
   type: NS
   values:
-    - ns-107.awsdns-13.com.
-    - ns-1346.awsdns-40.org.
-    - ns-1540.awsdns-00.co.uk.
-    - ns-642.awsdns-16.net.
+  - ns-107.awsdns-13.com.
+  - ns-1346.awsdns-40.org.
+  - ns-1540.awsdns-00.co.uk.
+  - ns-642.awsdns-16.net.
 tipstaff:
   ttl: 172800
   type: NS
   values:
-    - ns-1373.awsdns-43.org.
-    - ns-1652.awsdns-14.co.uk.
-    - ns-181.awsdns-22.com.
-    - ns-653.awsdns-17.net.
+  - ns-1373.awsdns-43.org.
+  - ns-1652.awsdns-14.co.uk.
+  - ns-181.awsdns-22.com.
+  - ns-653.awsdns-17.net.
 track-a-query:
   ttl: 300
   type: NS
   values:
-    - ns-1048.awsdns-03.org.
-    - ns-166.awsdns-20.com.
-    - ns-1947.awsdns-51.co.uk.
-    - ns-778.awsdns-33.net.
+  - ns-1048.awsdns-03.org.
+  - ns-166.awsdns-20.com.
+  - ns-1947.awsdns-51.co.uk.
+  - ns-778.awsdns-33.net.
 training-preproduction.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1600,10 +1595,10 @@ use-of-force:
   ttl: 300
   type: NS
   values:
-    - ns-1521.awsdns-62.org.
-    - ns-181.awsdns-22.com.
-    - ns-1845.awsdns-38.co.uk.
-    - ns-696.awsdns-23.net.
+  - ns-1521.awsdns-62.org.
+  - ns-181.awsdns-22.com.
+  - ns-1845.awsdns-38.co.uk.
+  - ns-696.awsdns-23.net.
 user-guide.data-catalogue:
   ttl: 300
   type: CNAME
@@ -1632,74 +1627,74 @@ victim-case-management:
   ttl: 300
   type: NS
   values:
-    - ns-1386.awsdns-45.org.
-    - ns-1938.awsdns-50.co.uk.
-    - ns-309.awsdns-38.com.
-    - ns-796.awsdns-35.net.
+  - ns-1386.awsdns-45.org.
+  - ns-1938.awsdns-50.co.uk.
+  - ns-309.awsdns-38.com.
+  - ns-796.awsdns-35.net.
 victim-support:
   ttl: 300
   type: NS
   values:
-    - ns-1111.awsdns-10.org.
-    - ns-19.awsdns-02.com.
-    - ns-1959.awsdns-52.co.uk.
-    - ns-874.awsdns-45.net.
+  - ns-1111.awsdns-10.org.
+  - ns-19.awsdns-02.com.
+  - ns-1959.awsdns-52.co.uk.
+  - ns-874.awsdns-45.net.
 video:
   ttl: 300
   type: NS
   values:
-    - ns-1464.awsdns-55.org.
-    - ns-1867.awsdns-41.co.uk.
-    - ns-52.awsdns-06.com.
-    - ns-936.awsdns-53.net.
+  - ns-1464.awsdns-55.org.
+  - ns-1867.awsdns-41.co.uk.
+  - ns-52.awsdns-06.com.
+  - ns-936.awsdns-53.net.
 view-court-data:
   ttl: 300
   type: NS
   values:
-    - ns-1042.awsdns-02.org.
-    - ns-116.awsdns-14.com.
-    - ns-1921.awsdns-48.co.uk.
-    - ns-808.awsdns-37.net.
+  - ns-1042.awsdns-02.org.
+  - ns-116.awsdns-14.com.
+  - ns-1921.awsdns-48.co.uk.
+  - ns-808.awsdns-37.net.
 wardship-agreements-register:
   ttl: 300
   type: NS
   values:
-    - ns-1217.awsdns-24.org.
-    - ns-1840.awsdns-38.co.uk.
-    - ns-40.awsdns-05.com.
-    - ns-628.awsdns-14.net.
+  - ns-1217.awsdns-24.org.
+  - ns-1840.awsdns-38.co.uk.
+  - ns-40.awsdns-05.com.
+  - ns-628.awsdns-14.net.
 websitebuilder:
   ttl: 86400
   type: NS
   values:
-    - ns-1091.awsdns-08.org
-    - ns-1836.awsdns-37.co.uk
-    - ns-344.awsdns-43.com
-    - ns-954.awsdns-55.net
+  - ns-1091.awsdns-08.org
+  - ns-1836.awsdns-37.co.uk
+  - ns-344.awsdns-43.com
+  - ns-954.awsdns-55.net
 whereabouts-api:
   ttl: 300
   type: NS
   values:
-    - ns-1264.awsdns-30.org.
-    - ns-1589.awsdns-06.co.uk.
-    - ns-278.awsdns-34.com.
-    - ns-602.awsdns-11.net.
+  - ns-1264.awsdns-30.org.
+  - ns-1589.awsdns-06.co.uk.
+  - ns-278.awsdns-34.com.
+  - ns-602.awsdns-11.net.
 whereabouts-api-dev:
   ttl: 300
   type: NS
   values:
-    - ns-1336.awsdns-39.org.
-    - ns-1698.awsdns-20.co.uk.
-    - ns-318.awsdns-39.com.
-    - ns-599.awsdns-10.net.
+  - ns-1336.awsdns-39.org.
+  - ns-1698.awsdns-20.co.uk.
+  - ns-318.awsdns-39.com.
+  - ns-599.awsdns-10.net.
 whereabouts-api-preprod:
   ttl: 300
   type: NS
   values:
-    - ns-1222.awsdns-24.org.
-    - ns-2006.awsdns-58.co.uk.
-    - ns-202.awsdns-25.com.
-    - ns-627.awsdns-14.net.
+  - ns-1222.awsdns-24.org.
+  - ns-2006.awsdns-58.co.uk.
+  - ns-202.awsdns-25.com.
+  - ns-627.awsdns-14.net.
 www.advance-into-justice:
   ttl: 300
   type: CNAME
