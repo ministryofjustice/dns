@@ -1422,10 +1422,6 @@ nicts:
 - ttl: 300
   type: TXT
   value: v=spf1 include:spf.protection.outlook.com -all
-nle.crimeportal:
-  ttl: 300
-  type: CNAME
-  value: 8f63c407-7450-4407-9da3-a04eaa525dcc.cloudapp.net
 nogh2wrclnc7kkukcm26lowx6qdmbs3w._domainkey:
   ttl: 300
   type: CNAME
@@ -2040,10 +2036,6 @@ www.claonlineadvice:
   ttl: 600
   type: A
   value: 89.185.223.242
-www.crimeportal:
-  ttl: 300
-  type: CNAME
-  value: 2de37183-b02f-4a0b-965d-0bd0de2d79fc.cloudapp.net
 www.drs:
   ttl: 600
   type: A
