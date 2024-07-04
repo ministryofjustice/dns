@@ -782,6 +782,10 @@ hmpps-assessments:
     - ns-1777.awsdns-30.co.uk.
     - ns-450.awsdns-56.com.
     - ns-931.awsdns-52.net.
+hmpps-canine-management:
+  ttl: 300
+  type: A
+  value: 10.192.42.53
 hmpps-domain:
   ttl: 60
   type: NS
