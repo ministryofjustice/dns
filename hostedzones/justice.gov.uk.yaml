@@ -802,10 +802,6 @@ design102:
 - ttl: 300
   type: TXT
   value: v=spf1 ip4:78.31.110.246  -all
-desktop.cshrcasework:
-  ttl: 300
-  type: CNAME
-  value: moj.fw-daas.com
 dev:
   ttl: 86400
   type: NS
