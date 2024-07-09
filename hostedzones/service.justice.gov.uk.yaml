@@ -27,6 +27,10 @@
     values:
       - MS=ms96686635
       - v=spf1 ~all
+_0bd645f05b10eeef324d96d9c9df2e0d.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: A71A3970325025B67DCE1F0EDBA8DCAD.8FE5092D1AEB1B20C7CDFE146C2D1B6B.7f7b8d91b504a681f6e3.sectigo.com.
 _0c5ef000e3292b5574d86de97bdd9bbb.pp.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
