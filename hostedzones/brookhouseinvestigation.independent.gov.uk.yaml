@@ -1,5 +1,4 @@
 ---
-? 
 - ttl: 172800
   type: NS
   values:
@@ -32,5 +31,6 @@
   type: TXT
   name: _dmarc
   value: v=DMARC1\; p=reject\; rua=mailto:dmarc-rua@dmarc.service.gov.uk
+  
 
   
