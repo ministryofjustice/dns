@@ -27,10 +27,6 @@
     values:
       - MS=ms96686635
       - v=spf1 ~all
-_0bd645f05b10eeef324d96d9c9df2e0d.hmpps-canine-management:
-  ttl: 300
-  type: CNAME
-  value: A71A3970325025B67DCE1F0EDBA8DCAD.8FE5092D1AEB1B20C7CDFE146C2D1B6B.7f7b8d91b504a681f6e3.sectigo.com.
 _0c5ef000e3292b5574d86de97bdd9bbb.pp.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
@@ -51,6 +47,10 @@ _33da21e90254237bcc4d8ad00bd3d118.security-training:
   ttl: 300
   type: CNAME
   value: _6165ac1a2a05feaefa1cc4aaf7d09b0b.kgnrpmcdhl.acm-validations.aws.
+_59E0EA73F42CCD9BAC5B7D141F162C59.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: 934074720C4E69907DA00101D5B4100D.D3B5DE6EDC9E127AF700C06913D46BDA.6fbc40a7097384fd9d1b.sectigo.com.
 _95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
   ttl: 300
   type: CNAME
