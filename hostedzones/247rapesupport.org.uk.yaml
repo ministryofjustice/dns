@@ -8,7 +8,7 @@
         value: mailto:certificates@digital.justice.gov.uk
       - flags: 0
         tag: issue
-        value: ';'
+        value: ;
   - ttl: 300
     type: MX
     value:
@@ -32,5 +32,4 @@ _dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
-
 
