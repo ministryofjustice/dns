@@ -54,7 +54,7 @@ validate-zones:
 
 sync-dry-run:
 	$(call check_aws_creds)
-	octodns-sync --config-file=$(CONFIG_FILE)
+	octodns-sync --config-file=$(CONFIG_FILE) --quiet
 
 sync-apply:
 	$(call check_aws_creds)
