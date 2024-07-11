@@ -20,7 +20,7 @@
       - ns-1190.awsdns-20.org.
       - ns-1712.awsdns-22.co.uk.
       - ns-37.awsdns-04.com.
-      - ns-532.awsdns-02.co.net.
+      - ns-532.awsdns-02.net.
   - ttl: 300
     type: TXT
     value: v=spf1 -all
