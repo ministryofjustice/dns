@@ -1,4 +1,6 @@
-? - ttl: 300
+---
+"":
+  - ttl: 300
     type: CAA
     values:
       - flags: 0
@@ -29,5 +31,4 @@
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\; p=reject\; sp=reject\; rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
-
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
