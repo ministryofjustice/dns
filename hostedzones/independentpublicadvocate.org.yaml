@@ -1,14 +1,14 @@
 ---
-? ''
-: - ttl: 300
+"":
+  - ttl: 300
     type: CAA
     values:
-    - flags: 0
-      tag: iodef
-      value: mailto:certificates@digital.justice.gov.uk
-    - flags: 0
-      tag: issue
-      value: ;
+      - flags: 0
+        tag: iodef
+        value: mailto:certificates@digital.justice.gov.uk
+      - flags: 0
+        tag: issue
+        value: ;
   - ttl: 300
     type: MX
     value:
@@ -17,14 +17,14 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1018.awsdns-63.net.
-    - ns-1254.awsdns-28.org.
-    - ns-129.awsdns-16.com.
-    - ns-1848.awsdns-39.co.uk.
+      - ns-1018.awsdns-63.net.
+      - ns-1254.awsdns-28.org.
+      - ns-129.awsdns-16.com.
+      - ns-1848.awsdns-39.co.uk.
   - ttl: 300
     type: TXT
     value: v=spf1 -all
-'*._domainkey':
+"*._domainkey":
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=

@@ -1,5 +1,5 @@
 ---
-'':
+"":
   - ttl: 300
     type: CAA
     values:
@@ -24,7 +24,7 @@
   - ttl: 300
     type: TXT
     value: v=spf1 -all
-'*._domainkey':
+"*._domainkey":
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=
