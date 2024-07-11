@@ -17,10 +17,10 @@
   - ttl: 172800
     type: NS
     values:
-      - ns-1018.awsdns-63.net.
-      - ns-1254.awsdns-28.org.
-      - ns-129.awsdns-16.com.
-      - ns-1848.awsdns-39.co.uk.
+      - ns-1190.awsdns-20.org
+      - ns-1712.awsdns-22.co.uk.
+      - ns-37.awsdns-04.com.
+      - ns-532.awsdns-02.co.net.
   - ttl: 300
     type: TXT
     value: v=spf1 -all
