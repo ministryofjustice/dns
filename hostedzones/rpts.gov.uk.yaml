@@ -36,10 +36,6 @@ dev:
   ttl: 1800
   type: A
   value: 193.114.80.13
-ftp:
-  ttl: 600
-  type: CNAME
-  value: prod.rpts.clients.wtg.co.uk.
 test:
   ttl: 1800
   type: A
@@ -48,7 +44,3 @@ uat:
   ttl: 1800
   type: A
   value: 212.28.12.201
-www:
-  ttl: 1800
-  type: CNAME
-  value: prod.rpts.clients.wtg.co.uk.
