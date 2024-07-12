@@ -17,6 +17,7 @@
     - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
     - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
       -all
+    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _asvdns-7f96cfbc-c539-4350-9631-a61dfcdba928:
   ttl: 300
   type: TXT
