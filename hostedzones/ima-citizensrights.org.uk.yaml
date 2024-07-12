@@ -25,6 +25,7 @@
     - google-site-verification=ZF9wtpT_YiWaUp4t18aOheIRck4ZM6F4ejm80HGAsmc
     - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 include:spf.protection.outlook.com
       include:_spf.google.com include:spf.mandrillapp.com -all
+    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _6a19d3849cc84ad68c492edf9ce06d44:
   ttl: 300
   type: CNAME
