@@ -1192,6 +1192,10 @@ preprod.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
   value: exisspp.q-solution.net
+preprod.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: dnsmo1f6n0f63.cloudfront.net
 preprod.victim-case-management:
   ttl: 300
   type: NS
