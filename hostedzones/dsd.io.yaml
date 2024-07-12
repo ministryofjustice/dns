@@ -2378,3 +2378,10 @@ zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw._domainkey.courtfinder:
   ttl: 1800
   type: CNAME
   value: zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw.dkim.amazonses.com
+
+? 'dsd.io':
+  ttl: 300
+  type: ns
+  values:
+  - jason
+  - test
