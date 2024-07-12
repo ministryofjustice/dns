@@ -51,6 +51,10 @@ _59E0EA73F42CCD9BAC5B7D141F162C59.hmpps-canine-management:
   ttl: 300
   type: CNAME
   value: 934074720C4E69907DA00101D5B4100D.D3B5DE6EDC9E127AF700C06913D46BDA.6fbc40a7097384fd9d1b.sectigo.com.
+_8f2a1999a9e110af3685208ee3875799.preprod.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: _319d4c72bdfe59b5b6d40f8409b78e65.sdgjtdhdhz.acm-validations.aws.
 _95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
   ttl: 300
   type: CNAME
@@ -111,6 +115,10 @@ _cd274e7ee824297d08388d398a2b2b8a.crown-court-remuneration:
   ttl: 300
   type: CNAME
   value: _b2d6197bf0aa1d024b5fef68a13127bb.fpwkmzyskh.acm-validations.aws.
+_cdead2a6631b56289db2e235ff1b0686.preprod.creatingfutureopportunities:
+  ttl: 300
+  type: CNAME
+  value: _651516d4aff63b910272df3cfa5af0dc.sdgjtdhdhz.acm-validations.aws.
 _d8e015eb77621a22d1bb4fe339ec1ebd.dev.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
