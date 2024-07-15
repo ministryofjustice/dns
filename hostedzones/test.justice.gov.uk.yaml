@@ -1,4 +1,3 @@
----
 ? ''
 : - ttl: 600
     type: MX
@@ -53,6 +52,10 @@ _sipfederationtls._tcp:
     priority: 100
     target: sipfed.online.lync.com.
     weight: 1
+alertmanager2:
+  ttl: '300'
+  type: A
+  value: 1.1.1.1
 autodiscover:
   ttl: 300
   type: CNAME
