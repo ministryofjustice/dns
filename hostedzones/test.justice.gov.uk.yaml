@@ -1,4 +1,3 @@
----
 ? ''
 : - ttl: 600
     type: MX
@@ -61,6 +60,10 @@ cloud-platform:
   ttl: 300
   type: CNAME
   value: demo-app.acme-apps.cloud-platform-test-13.k8s.integration.dsd.io.
+dns-example:
+  ttl: '300'
+  type: TXT
+  value: temp
 dzc:
 - ttl: 600
   type: A
