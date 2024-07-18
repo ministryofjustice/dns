@@ -52,10 +52,6 @@ _6f0e92da46509e479f24cc2bad43c06f.magistrates:
   ttl: 300
   type: CNAME
   value: _3ba2c01f2ad818f8e254df3786b6222e.zdxcnfdgtt.acm-validations.aws.
-_617aa7dd1b481bab674133c622155ffa.myhr:
-  ttl: 300
-  type: CNAME
-  value: _2ad22899d6a8ab60457239d43f80c173.sdgjtdhdhz.acm-validations.aws.
 _9b95e0916934b7a53b18c71c7b89f350.intranet:
   ttl: 600
   type: CNAME
@@ -64,6 +60,10 @@ _36a868734c47d6b413ca1ff1fa403c96.mta-sts:
   ttl: 60
   type: CNAME
   value: _422367411a20d22ae1a4cac085b8ac38.nhsllhhtvj.acm-validations.aws.
+_617aa7dd1b481bab674133c622155ffa.myhr:
+  ttl: 300
+  type: CNAME
+  value: _2ad22899d6a8ab60457239d43f80c173.sdgjtdhdhz.acm-validations.aws.
 _84bd339a1a9c0007f5b0f5de1f76597e.admin.myhr:
   ttl: 300
   type: CNAME
