@@ -152,6 +152,10 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+admin.myhr:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.haloitsm.com
 apply.magistrates:
   ttl: 60
   type: A
@@ -337,6 +341,10 @@ magistrates:
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net.
+myhr:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice-portal.haloitsm.com
 mta-sts:
   ttl: 942942942
   type: Route53Provider/ALIAS
