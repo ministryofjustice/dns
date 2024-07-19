@@ -341,10 +341,6 @@ magistrates:
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net.
-myhr:
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice-portal.haloitsm.com
 mta-sts:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -353,6 +349,10 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d13vr1qr99k2l9.cloudfront.net.
     type: A
+myhr:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice-portal.haloitsm.com
 prod.elinks:
   ttl: 300
   type: CNAME
