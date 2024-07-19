@@ -118,10 +118,6 @@ search:
   ttl: 600
   type: A
   value: 212.44.22.84
-search.sentencingcouncil:
-  ttl: 600
-  type: CNAME
-  value: search2.openobjects.com.
 sec:
   ttl: 600
   type: A
