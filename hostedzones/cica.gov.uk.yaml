@@ -1,4 +1,3 @@
----
 ? ''
 : - ttl: 300
     type: MX
@@ -28,18 +27,14 @@
     - w6xmnnqn2r3vnry0c5n5sg3dg25wvlln
     - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
     - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-_56a37ebc38b8f47a75fe557fc29d22dd.mta-sts:
-  ttl: 60
-  type: CNAME
-  value: _02e3e279d7eecdec7e472a7b27b4f950.mhbtsbpdnt.acm-validations.aws.
 _197eb29a0dfa200c07fbebf6e3c86eff:
   ttl: 300
   type: CNAME
   value: _7276abb0b0da9f5654166f237afe9dd4.snrcwrvdjt.acm-validations.aws.
-_a97df82e0b2f3c8f59d0df9d6898d7a5.cintra-vpn:
-  ttl: 300
+_56a37ebc38b8f47a75fe557fc29d22dd.mta-sts:
+  ttl: 60
   type: CNAME
-  value: 30962f95cbb2975135ce09ef399bf356.7751e04c03cf8b06dd4a551d6e8de668.65649a5b992c2570ee3e.sectigo.com.
+  value: _02e3e279d7eecdec7e472a7b27b4f950.mhbtsbpdnt.acm-validations.aws.
 _ab7da5570886148ce1beeae1281f91b0:
   ttl: 300
   type: CNAME
