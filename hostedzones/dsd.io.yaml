@@ -1,5 +1,5 @@
 ---
-'':
+"":
   - ttl: 1800
     type: MX
     value:
@@ -20,15 +20,15 @@
   ttl: 1800
   type: CNAME
   value: 767topg7v6qyf3jlozwlxhu2zcqb4fuk.dkim.amazonses.com
-'*.branchrunner.acceleratedpossession-dev':
+"*.branchrunner.acceleratedpossession-dev":
   ttl: 300
   type: CNAME
   value: acceleratedpossession-dev.dsd.io
-'*.int-prisonvisits':
+"*.int-prisonvisits":
   ttl: 30
   type: A
   value: 172.22.16.3
-'*.local':
+"*.local":
   ttl: 300
   type: A
   value: 127.0.0.1
@@ -109,7 +109,8 @@ _bfa871d9ae35776361503dc9a3a10db1.tax-tribunals-datacapture-staging:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\;p=none\;sp=none\;fo=1\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+  value:
+    v=DMARC1\;p=none\;sp=none\;fo=1\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
     ruf=mailto:dmarc-ruf@dmarc.service.gov.uk
 _smtp._tls:
   ttl: 300
@@ -405,7 +406,7 @@ deployarn.active.dev.intranet-jenkins:
 deployarn.active.dev.mattp:
   ttl: 60
   type: TXT
-  value: 'False'
+  value: "False"
 deployarn.active.dev.my-project:
   ttl: 60
   type: TXT
@@ -465,7 +466,7 @@ deployarn.active.dev.tsung:
 deployarn.active.dev.vault:
   ttl: 60
   type: TXT
-  value: 'False'
+  value: "False"
 deployarn.active.dev.vis:
   ttl: 60
   type: TXT
@@ -747,7 +748,7 @@ elasticsearch.staging-backoffice:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id:
+    hosted-zone-id: null
     name: monitoring.staging-backoffice
     type: A
 elasticsearch.staging-lpa:
@@ -986,7 +987,7 @@ kibana.staging-backoffice:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id:
+    hosted-zone-id: null
     name: monitoring.staging-backoffice
     type: A
 kibana.staging-lpa:
@@ -1495,7 +1496,9 @@ serviceassessments:
 servicedeskblog:
   ttl: 300
   type: A
-  values: [192.30.252.153, 192.30.252.154]
+  values:
+    - 192.30.252.153
+    - 192.30.252.154
 siaacd:
   ttl: 300
   type: CNAME
@@ -1535,7 +1538,7 @@ stack.0c2e2de6.ci-prod:
 stack.3e929528.vis-prod:
   ttl: 60
   type: TXT
-  value: .inf
+  value: 3e929528
 stack.6c57c14e.rot-dev:
   ttl: 60
   type: TXT
@@ -1715,7 +1718,7 @@ stack.active.po-staging:
 stack.active.rabbitmq-dev:
   ttl: 60
   type: TXT
-  value: .inf
+  value: 459e3857
 stack.active.riemann-dev:
   ttl: 60
   type: TXT
@@ -1751,7 +1754,7 @@ stack.active.snd-dev:
 stack.active.staff-staging:
   ttl: 60
   type: TXT
-  value: '26063002'
+  value: "26063002"
 stack.active.tax-tribunals-downloader-dev:
   ttl: 60
   type: TXT
@@ -2225,7 +2228,7 @@ tax-tribunals-internal-uploader-staging:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id:
+    hosted-zone-id: null
     name: tax-tribunals-internal-uploader-staging-68ade87f
     type: A
 tax-tribunals-internal-uploader-staging-68ade87f:
