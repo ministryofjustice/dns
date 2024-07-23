@@ -1,22 +1,22 @@
 ---
-? ''
-: - ttl: 600
+'':
+  - ttl: 600
     type: A
     value: 35.177.119.113
   - ttl: 1800
     type: MX
     values:
-    - exchange: relay1.padlondon.co.uk.
-      preference: 10
-    - exchange: relay2.padlondon.co.uk.
-      preference: 20
+      - exchange: relay1.padlondon.co.uk.
+        preference: 10
+      - exchange: relay2.padlondon.co.uk.
+        preference: 20
   - ttl: 172800
     type: NS
     values:
-    - ns-1067.awsdns-05.org.
-    - ns-1566.awsdns-03.co.uk.
-    - ns-221.awsdns-27.com.
-    - ns-865.awsdns-44.net.
+      - ns-1067.awsdns-05.org.
+      - ns-1566.awsdns-03.co.uk.
+      - ns-221.awsdns-27.com.
+      - ns-865.awsdns-44.net.
   - ttl: 300
     type: TXT
     value: jss4dz6hj33k02rtjh66wqy4wccc37pb

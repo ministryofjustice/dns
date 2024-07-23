@@ -1,19 +1,19 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: MX
     values:
-    - exchange: mail.cjsonline.gov.uk.
-      preference: 5
-    - exchange: mx1.cjsdigital.org.
-      preference: 10
+      - exchange: mail.cjsonline.gov.uk.
+        preference: 5
+      - exchange: mx1.cjsdigital.org.
+        preference: 10
   - ttl: 172800
     type: NS
     values:
-    - ns-1031.awsdns-00.org.
-    - ns-1938.awsdns-50.co.uk.
-    - ns-344.awsdns-43.com.
-    - ns-640.awsdns-16.net.
+      - ns-1031.awsdns-00.org.
+      - ns-1938.awsdns-50.co.uk.
+      - ns-344.awsdns-43.com.
+      - ns-640.awsdns-16.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:

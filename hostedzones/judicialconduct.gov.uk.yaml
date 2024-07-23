@@ -1,23 +1,23 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     value:
       exchange: judicialconduct-gov-uk.mail.protection.outlook.com
       preference: 0
   - ttl: 172800
     type: NS
     values:
-    - ns-1290.awsdns-33.org.
-    - ns-1680.awsdns-18.co.uk.
-    - ns-456.awsdns-57.com.
-    - ns-521.awsdns-01.net.
+      - ns-1290.awsdns-33.org.
+      - ns-1680.awsdns-18.co.uk.
+      - ns-456.awsdns-57.com.
+      - ns-521.awsdns-01.net.
   - type: TXT
     values:
-    - MS=ms67760250
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
-      -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms67760250
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+        -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _0be96fa6a7f31b10a5bde19c35df1966.mta-sts:
   ttl: 60
   type: CNAME
@@ -77,23 +77,21 @@ autodiscover.complaints:
   type: CNAME
   value: autodiscover.outlook.com
 complaints:
-- ttl: 600
-  type: MX
-  value:
-    exchange: complaints-judicialconduct-gov-uk.mail.protection.outlook.com
-    preference: 0
-- ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
-    type: A
-- ttl: 600
-  type: TXT
-  values:
-  - MS=ms98712360
-  - v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 600
+    type: MX
+    value:
+      exchange: complaints-judicialconduct-gov-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      type: A
+  - ttl: 600
+    type: TXT
+    values: [MS=ms98712360, v=spf1 include:spf.protection.outlook.com -all]
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com

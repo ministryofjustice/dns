@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: MX
     value:
       exchange: mailhost.cicap.gov.uk.
@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1220.awsdns-24.org.
-    - ns-1619.awsdns-10.co.uk.
-    - ns-165.awsdns-20.com.
-    - ns-821.awsdns-38.net.
+      - ns-1220.awsdns-24.org.
+      - ns-1619.awsdns-10.co.uk.
+      - ns-165.awsdns-20.com.
+      - ns-821.awsdns-38.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -40,6 +40,6 @@ www:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: ''
     type: A

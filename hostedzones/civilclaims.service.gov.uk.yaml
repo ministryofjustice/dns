@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1049.awsdns-03.org
-    - ns-1876.awsdns-42.co.uk
-    - ns-399.awsdns-49.com
-    - ns-723.awsdns-26.net
+      - ns-1049.awsdns-03.org
+      - ns-1876.awsdns-42.co.uk
+      - ns-399.awsdns-49.com
+      - ns-723.awsdns-26.net
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:

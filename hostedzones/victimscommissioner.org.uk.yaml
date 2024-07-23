@@ -1,16 +1,16 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     value:
       exchange: victimscommissioner-org-uk.mail.protection.outlook.com
       preference: 0
   - ttl: 60
     type: NS
     values:
-    - ns-1070.awsdns-05.org.
-    - ns-1684.awsdns-18.co.uk.
-    - ns-397.awsdns-49.com.
-    - ns-809.awsdns-37.net.
+      - ns-1070.awsdns-05.org.
+      - ns-1684.awsdns-18.co.uk.
+      - ns-397.awsdns-49.com.
+      - ns-809.awsdns-37.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -20,10 +20,10 @@
       type: A
   - type: TXT
     values:
-    - MS=ms22529871
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:198.37.159.2 ip4:168.245.16.120  include:spf.protection.outlook.com
-      -all
+      - MS=ms22529871
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:198.37.159.2 ip4:168.245.16.120  include:spf.protection.outlook.com
+        -all
 _763372be03a4e87a04610fa50b15adbd:
   ttl: 300
   type: CNAME

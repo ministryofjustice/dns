@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 600
+'':
+  - ttl: 600
     type: MX
     value:
       exchange: .
@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1124.awsdns-12.org.
-    - ns-1715.awsdns-22.co.uk.
-    - ns-361.awsdns-45.com.
-    - ns-817.awsdns-38.net.
+      - ns-1124.awsdns-12.org.
+      - ns-1715.awsdns-22.co.uk.
+      - ns-361.awsdns-45.com.
+      - ns-817.awsdns-38.net.
   - ttl: 300
     type: TXT
     value: v=spf1 -all

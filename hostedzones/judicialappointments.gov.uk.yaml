@@ -1,10 +1,8 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: A
-    values:
-    - 192.0.78.141
-    - 192.0.78.225
+    values: [192.0.78.141, 192.0.78.225]
   - type: MX
     value:
       exchange: judicialappointments-gov-uk.mail.protection.outlook.com
@@ -12,21 +10,21 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1222.awsdns-24.org.
-    - ns-1621.awsdns-10.co.uk.
-    - ns-188.awsdns-23.com.
-    - ns-798.awsdns-35.net.
+      - ns-1222.awsdns-24.org.
+      - ns-1621.awsdns-10.co.uk.
+      - ns-188.awsdns-23.com.
+      - ns-798.awsdns-35.net.
   - ttl: 300
     type: SPF
     value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
       -all
   - type: TXT
     values:
-    - MS=ms55245335
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
-      -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms55245335
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+        -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _6351f8e182881f77d161743e5cf255f9.mta-sts:
   ttl: 60
   type: CNAME
@@ -113,9 +111,7 @@ sip:
 www:
   ttl: 300
   type: A
-  values:
-  - 192.0.78.141
-  - 192.0.78.225
+  values: [192.0.78.141, 192.0.78.225]
 www.archive:
   ttl: 300
   type: CNAME

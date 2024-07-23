@@ -1,17 +1,17 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: NS
     values:
-    - nns-1048.awsdns-03.org.
-    - nns-1941.awsdns-50.co.uk.
-    - nns-239.awsdns-29.com.
-    - nns-846.awsdns-41.net.
+      - nns-1048.awsdns-03.org.
+      - nns-1941.awsdns-50.co.uk.
+      - nns-239.awsdns-29.com.
+      - nns-846.awsdns-41.net.
   - ttl: 300
     type: TXT
     values:
-    - ngoogle-site-verification=utmhXhOOtr-od5LNZtVHOyfrK7O6HY2jWWmYoXO3vho
-    - v=spf1 include:sendgrid.net ~all
+      - ngoogle-site-verification=utmhXhOOtr-od5LNZtVHOyfrK7O6HY2jWWmYoXO3vho
+      - v=spf1 include:sendgrid.net ~all
 _96a0a34a3d77dfbe4994d8fc51b80865.www:
   ttl: 300
   type: CNAME

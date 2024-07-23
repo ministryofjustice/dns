@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1393.awsdns-46.org.
-    - ns-1659.awsdns-15.co.uk.
-    - ns-314.awsdns-39.com.
-    - ns-539.awsdns-03.net.
+      - ns-1393.awsdns-46.org.
+      - ns-1659.awsdns-15.co.uk.
+      - ns-314.awsdns-39.com.
+      - ns-539.awsdns-03.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -163,7 +163,7 @@ www:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: ''
     type: A
 www.adjudicationpanel:
@@ -179,7 +179,7 @@ www.charity:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: charity
     type: A
 www.consumercreditappeals:
@@ -187,7 +187,7 @@ www.consumercreditappeals:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: consumercreditappeals
     type: A
 www.estateagentappeals:
@@ -195,7 +195,7 @@ www.estateagentappeals:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: estateagentappeals
     type: A
 www.fhsaa:
@@ -203,7 +203,7 @@ www.fhsaa:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: fhsaa
     type: A
 www.siac:
@@ -211,6 +211,6 @@ www.siac:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: siac
     type: A

@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: MX
     value:
       exchange: cjit-gov-uk.mail.protection.outlook.com
@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1357.awsdns-41.org.
-    - ns-1979.awsdns-55.co.uk.
-    - ns-391.awsdns-48.com.
-    - ns-816.awsdns-38.net.
+      - ns-1357.awsdns-41.org.
+      - ns-1979.awsdns-55.co.uk.
+      - ns-391.awsdns-48.com.
+      - ns-816.awsdns-38.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -21,12 +21,12 @@
       type: A
   - type: TXT
     values:
-    - MS=ms40613853
-    - c4ugBTKaMjH/kPL8f3NBNwU65XxsuAzxiqPPi364nN9+uX+3Y+7wpxs5T45WETWJpNfWzlGZ6eU377mTefweRw==
-    - google-site-verification=lZoKiIUUlUasDUM1byJLG0qT7AhCJqaLLTVwbqsjfeA
-    - v=spf1  ip4:37.26.90.115/32 ip4:51.179.211.114/32 ip4:194.176.211.112/32 ip4:194.176.211.104/32
-      ip4:18.132.8.248/32 ip4:3.9.15.169/32 ip4:18.135.73.34/32 include:spf.protection.outlook.com
-      ~all
+      - MS=ms40613853
+      - c4ugBTKaMjH/kPL8f3NBNwU65XxsuAzxiqPPi364nN9+uX+3Y+7wpxs5T45WETWJpNfWzlGZ6eU377mTefweRw==
+      - google-site-verification=lZoKiIUUlUasDUM1byJLG0qT7AhCJqaLLTVwbqsjfeA
+      - v=spf1  ip4:37.26.90.115/32 ip4:51.179.211.114/32 ip4:194.176.211.112/32 ip4:194.176.211.104/32
+        ip4:18.132.8.248/32 ip4:3.9.15.169/32 ip4:18.135.73.34/32 include:spf.protection.outlook.com
+        ~all
 _asvdns-5fd05ab7-98a2-458e-9698-6d1632800aa2:
   ttl: 300
   type: TXT

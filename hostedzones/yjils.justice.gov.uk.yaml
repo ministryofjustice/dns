@@ -1,15 +1,15 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: A
     value: 34.248.250.65
   - ttl: 172800
     type: NS
     values:
-    - ns-1509.awsdns-60.org.
-    - ns-1777.awsdns-30.co.uk.
-    - ns-294.awsdns-36.com.
-    - ns-526.awsdns-01.net.
+      - ns-1509.awsdns-60.org.
+      - ns-1777.awsdns-30.co.uk.
+      - ns-294.awsdns-36.com.
+      - ns-526.awsdns-01.net.
 35llr7vvjyf2asxtmocaafslyojqgoy2._domainkey:
   ttl: 1800
   type: CNAME

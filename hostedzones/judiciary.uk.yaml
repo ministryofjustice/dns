@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 600
+'':
+  - ttl: 600
     type: A
     value: 54.228.199.127
   - type: MX
@@ -10,21 +10,21 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1068.awsdns-05.org.
-    - ns-1947.awsdns-51.co.uk.
-    - ns-363.awsdns-45.com.
-    - ns-593.awsdns-10.net.
+      - ns-1068.awsdns-05.org.
+      - ns-1947.awsdns-51.co.uk.
+      - ns-363.awsdns-45.com.
+      - ns-593.awsdns-10.net.
   - type: TXT
     values:
-    - 777ne2nm341q0eikj23p37dqr5
-    - MS=ms99090321
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - d1mkkfanu2t88mqdpc6np4u49r
-    - pdk1jsvamjpdtmqi5i8o82ir8s
-    - ujatii6o116ahi7u28r22h982t
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:78.31.108.141 include:spf.protection.outlook.com
-      include:ciphr247.com -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - 777ne2nm341q0eikj23p37dqr5
+      - MS=ms99090321
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - d1mkkfanu2t88mqdpc6np4u49r
+      - pdk1jsvamjpdtmqi5i8o82ir8s
+      - ujatii6o116ahi7u28r22h982t
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:78.31.108.141 include:spf.protection.outlook.com
+        include:ciphr247.com -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 5vl4vla56j76p3obneqqnjelrynl2kiv._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: 5vl4vla56j76p3obneqqnjelrynl2kiv.dkim.amazonses.com
@@ -224,17 +224,17 @@ ej-replica-jo-staging.elinks:
   type: CNAME
   value: curly-hollows-znp74u6pbymv9a7batorb929.herokudns.com
 elinks:
-- ttl: 300
-  type: A
-  value: 54.228.199.127
-- ttl: 300
-  type: MX
-  value:
-    exchange: mail.dxw.net.
-    preference: 10
-- ttl: 300
-  type: TXT
-  value: v=spf1 mx -all
+  - ttl: 300
+    type: A
+    value: 54.228.199.127
+  - ttl: 300
+    type: MX
+    value:
+      exchange: mail.dxw.net.
+      preference: 10
+  - ttl: 300
+    type: TXT
+    value: v=spf1 mx -all
 elinks-edge-email.elinks:
   ttl: 300
   type: MX
@@ -303,20 +303,20 @@ jcm:
   ttl: 300
   type: NS
   values:
-  - ns1-02.azure-dns.com.
-  - ns2-02.azure-dns.net.
-  - ns3-02.azure-dns.org.
-  - ns4-02.azure-dns.info.
+    - ns1-02.azure-dns.com.
+    - ns2-02.azure-dns.net.
+    - ns3-02.azure-dns.org.
+    - ns4-02.azure-dns.info.
 jo-staging.elinks:
   type: CNAME
   value: fathomless-plum-tu2fu458lxj0kj67y8yebcx9.herokudns.com
 judicialcareers:
-- ttl: 300
-  type: A
-  value: 78.31.108.141
-- ttl: 300
-  type: TXT
-  value: v=spf1 ip4:37.128.132.157 ip4:78.31.108.141 -all
+  - ttl: 300
+    type: A
+    value: 78.31.108.141
+  - ttl: 300
+    type: TXT
+    value: v=spf1 ip4:37.128.132.157 ip4:78.31.108.141 -all
 ko6w5s55q23tal6ayqic35vnhhwpoam7._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: ko6w5s55q23tal6ayqic35vnhhwpoam7.dkim.amazonses.com
@@ -324,20 +324,20 @@ lyncdiscover:
   type: CNAME
   value: webdir.online.lync.com.
 magistrates:
-- ttl: 300
-  type: NS
-  values:
-  - ns-1070.awsdns-05.org.
-  - ns-1669.awsdns-16.co.uk.
-  - ns-374.awsdns-46.com.
-  - ns-780.awsdns-33.net.
-- ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: ZHURV8PSTC4K8
-    name: dualstack.jotwp-loadb-1mbwraz503eq6-1769122100.eu-west-2.elb.amazonaws.com.
-    type: A
+  - ttl: 300
+    type: NS
+    values:
+      - ns-1070.awsdns-05.org.
+      - ns-1669.awsdns-16.co.uk.
+      - ns-374.awsdns-46.com.
+      - ns-780.awsdns-33.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: ZHURV8PSTC4K8
+      name: dualstack.jotwp-loadb-1mbwraz503eq6-1769122100.eu-west-2.elb.amazonaws.com.
+      type: A
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net.
@@ -405,10 +405,10 @@ tmjcm:
   ttl: 300
   type: NS
   values:
-  - ns1-06.azure-dns.com.
-  - ns2-06.azure-dns.net.
-  - ns3-06.azure-dns.org.
-  - ns4-06.azure-dns.info.
+    - ns1-06.azure-dns.com.
+    - ns2-06.azure-dns.net.
+    - ns3-06.azure-dns.org.
+    - ns4-06.azure-dns.info.
 tokxf6lra5j64jnznuomoammam7xolik._domainkey.elinks-edge-email.elinks:
   type: CNAME
   value: tokxf6lra5j64jnznuomoammam7xolik.dkim.amazonses.com

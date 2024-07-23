@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: MX
     value:
       exchange: .
@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1467.awsdns-55.org.
-    - ns-1731.awsdns-24.co.uk.
-    - ns-491.awsdns-61.com.
-    - ns-868.awsdns-44.net.
+      - ns-1467.awsdns-55.org.
+      - ns-1731.awsdns-24.co.uk.
+      - ns-491.awsdns-61.com.
+      - ns-868.awsdns-44.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:

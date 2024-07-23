@@ -1,12 +1,12 @@
 ---
-? ''
-: ttl: 172800
+'':
+  ttl: 172800
   type: NS
   values:
-  - ns-1441.awsdns-52.org.
-  - ns-1607.awsdns-08.co.uk.
-  - ns-236.awsdns-29.com.
-  - ns-856.awsdns-43.net.
+    - ns-1441.awsdns-52.org.
+    - ns-1607.awsdns-08.co.uk.
+    - ns-236.awsdns-29.com.
+    - ns-856.awsdns-43.net.
 63qelg6pqp4a:
   ttl: 300
   type: CNAME
@@ -19,7 +19,7 @@ admin:
   ttl: 300
   type: NS
   values:
-  - ns-1415.awsdns-48.org
-  - ns-1601.awsdns-08.co.uk
-  - ns-225.awsdns-28.com
-  - ns-790.awsdns-34.net
+    - ns-1415.awsdns-48.org
+    - ns-1601.awsdns-08.co.uk
+    - ns-225.awsdns-28.com
+    - ns-790.awsdns-34.net

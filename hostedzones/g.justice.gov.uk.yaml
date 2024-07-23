@@ -1,31 +1,31 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: MX
     values:
-    - exchange: aspmx.l.google.com.
-      preference: 1
-    - exchange: alt1.aspmx.l.google.com.
-      preference: 5
-    - exchange: alt2.aspmx.l.google.com.
-      preference: 5
-    - exchange: aspmx2.googlemail.com.
-      preference: 10
-    - exchange: aspmx3.googlemail.com.
-      preference: 10
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: aspmx2.googlemail.com.
+        preference: 10
+      - exchange: aspmx3.googlemail.com.
+        preference: 10
   - ttl: 172800
     type: NS
     values:
-    - ns-1437.awsdns-51.org.
-    - ns-2040.awsdns-63.co.uk.
-    - ns-258.awsdns-32.com.
-    - ns-930.awsdns-52.net.
+      - ns-1437.awsdns-51.org.
+      - ns-2040.awsdns-63.co.uk.
+      - ns-258.awsdns-32.com.
+      - ns-930.awsdns-52.net.
   - ttl: 300
     type: TXT
     values:
-    - google-site-verification=aYAYXwp0mvQFTBCjBOC_ewRCuNd7PtehyIoO0KoulO8
-    - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:194.33.196.8/32
-      ip4:194.33.192.8/32 ~all
+      - google-site-verification=aYAYXwp0mvQFTBCjBOC_ewRCuNd7PtehyIoO0KoulO8
+      - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:194.33.196.8/32
+        ip4:194.33.192.8/32 ~all
 _5e23e840f72dd381dff639da3fb534fe.mta-sts:
   ttl: 60
   type: CNAME

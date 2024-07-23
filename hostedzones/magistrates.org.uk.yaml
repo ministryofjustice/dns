@@ -1,19 +1,19 @@
 ---
-? ''
-: - ttl: 120
+'':
+  - ttl: 120
     type: MX
     values:
-    - exchange: cluster2.gsi.messagelabs.com.
-      preference: 10
-    - exchange: cluster2a.gsi.messagelabs.com.
-      preference: 20
+      - exchange: cluster2.gsi.messagelabs.com.
+        preference: 10
+      - exchange: cluster2a.gsi.messagelabs.com.
+        preference: 20
   - ttl: 172800
     type: NS
     values:
-    - ns-1347.awsdns-40.org.
-    - ns-2010.awsdns-59.co.uk.
-    - ns-313.awsdns-39.com.
-    - ns-935.awsdns-52.net.
+      - ns-1347.awsdns-40.org.
+      - ns-2010.awsdns-59.co.uk.
+      - ns-313.awsdns-39.com.
+      - ns-935.awsdns-52.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:

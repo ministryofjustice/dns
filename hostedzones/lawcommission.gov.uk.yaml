@@ -1,23 +1,23 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     value:
       exchange: lawcommission-gov-uk.mail.protection.outlook.com
       preference: 0
   - ttl: 172800
     type: NS
     values:
-    - ns-1452.awsdns-53.org.
-    - ns-1968.awsdns-54.co.uk.
-    - ns-276.awsdns-34.com.
-    - ns-825.awsdns-39.net.
+      - ns-1452.awsdns-53.org.
+      - ns-1968.awsdns-54.co.uk.
+      - ns-276.awsdns-34.com.
+      - ns-825.awsdns-39.net.
   - type: TXT
     values:
-    - MS=ms11088500
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
-      -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms11088500
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+        -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _asvdns-7f96cfbc-c539-4350-9631-a61dfcdba928:
   ttl: 300
   type: TXT

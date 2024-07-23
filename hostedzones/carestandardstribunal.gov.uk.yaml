@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1370.awsdns-43.org.
-    - ns-1866.awsdns-41.co.uk.
-    - ns-94.awsdns-11.com.
-    - ns-987.awsdns-59.net.
+      - ns-1370.awsdns-43.org.
+      - ns-1866.awsdns-41.co.uk.
+      - ns-94.awsdns-11.com.
+      - ns-987.awsdns-59.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -27,6 +27,6 @@ www:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: ''
     type: A

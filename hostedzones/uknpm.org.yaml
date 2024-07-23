@@ -1,15 +1,15 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: A
     value: 52.30.196.9
   - ttl: 172800
     type: NS
     values:
-    - ns-1477.awsdns-56.org.
-    - ns-1693.awsdns-19.co.uk.
-    - ns-477.awsdns-59.com.
-    - ns-834.awsdns-40.net.
+      - ns-1477.awsdns-56.org.
+      - ns-1693.awsdns-19.co.uk.
+      - ns-477.awsdns-59.com.
+      - ns-834.awsdns-40.net.
 _dmarc:
   ttl: 300
   type: TXT

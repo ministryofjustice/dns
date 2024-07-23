@@ -1,16 +1,16 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     value:
       exchange: ospt-gov-uk.mail.protection.outlook.com
       preference: 0
   - ttl: 172800
     type: NS
     values:
-    - ns-1042.awsdns-02.org.
-    - ns-1855.awsdns-39.co.uk.
-    - ns-43.awsdns-05.com.
-    - ns-847.awsdns-41.net.
+      - ns-1042.awsdns-02.org.
+      - ns-1855.awsdns-39.co.uk.
+      - ns-43.awsdns-05.com.
+      - ns-847.awsdns-41.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -20,11 +20,11 @@
       type: A
   - type: TXT
     values:
-    - MS=ms66225806
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
-      -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms66225806
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+        -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 47klhk64a2fmag4rljvb7umybpa22yff._domainkey:
   ttl: 300
   type: CNAME
@@ -104,14 +104,14 @@ sip:
   type: CNAME
   value: sipdir.online.lync.com
 soteria:
-- ttl: 300
-  type: MX
-  value:
-    exchange: feedback-smtp.eu-west-1.amazonses.com
-    preference: 10
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:amazonses.com -all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: feedback-smtp.eu-west-1.amazonses.com
+      preference: 10
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:amazonses.com -all
 syeasxotcr6glafifmrsqjviy2ho6v63._domainkey:
   ttl: 300
   type: CNAME

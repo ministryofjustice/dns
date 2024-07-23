@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: NS
     values:
-    - ns-1133.awsdns-13.org
-    - ns-1776.awsdns-30.co.uk
-    - ns-504.awsdns-63.com
-    - ns-836.awsdns-40.net
+      - ns-1133.awsdns-13.org
+      - ns-1776.awsdns-30.co.uk
+      - ns-504.awsdns-63.com
+      - ns-836.awsdns-40.net
   - ttl: 300
     type: TXT
     value: google-site-verification=LtAf4X0uzrFwmWaywoLQSinsMjrQeWBetT8hTDvy__4

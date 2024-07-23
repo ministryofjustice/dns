@@ -1,12 +1,12 @@
 ---
-? ''
-: ttl: 172800
+'':
+  ttl: 172800
   type: NS
   values:
-  - ns-1466.awsdns-55.org.
-  - ns-1565.awsdns-03.co.uk.
-  - ns-277.awsdns-34.com.
-  - ns-885.awsdns-46.net.
+    - ns-1466.awsdns-55.org.
+    - ns-1565.awsdns-03.co.uk.
+    - ns-277.awsdns-34.com.
+    - ns-885.awsdns-46.net.
 '248':
   ttl: 300
   type: PTR

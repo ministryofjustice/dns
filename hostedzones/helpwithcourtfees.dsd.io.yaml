@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1145.awsdns-15.org.
-    - ns-2005.awsdns-58.co.uk.
-    - ns-41.awsdns-05.com.
-    - ns-864.awsdns-44.net.
+      - ns-1145.awsdns-15.org.
+      - ns-2005.awsdns-58.co.uk.
+      - ns-41.awsdns-05.com.
+      - ns-864.awsdns-44.net.
   - ttl: 300
     type: TXT
     value: v=spf1 include:sendgrid.net -all
