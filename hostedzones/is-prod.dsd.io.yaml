@@ -1,12 +1,12 @@
 ---
-? ''
-: ttl: 172800
+'':
+  ttl: 172800
   type: NS
   values:
-  - ns-1378.awsdns-44.org.
-  - ns-1991.awsdns-56.co.uk.
-  - ns-39.awsdns-04.com.
-  - ns-619.awsdns-13.net.
+    - ns-1378.awsdns-44.org.
+    - ns-1991.awsdns-56.co.uk.
+    - ns-39.awsdns-04.com.
+    - ns-619.awsdns-13.net.
 cf:
   ttl: 300
   type: CNAME

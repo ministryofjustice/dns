@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 1800
+'':
+  - ttl: 1800
     type: MX
     value:
       exchange: inbound-smtp.eu-west-1.amazonaws.com
@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1008.awsdns-62.net.
-    - ns-1410.awsdns-48.org.
-    - ns-1766.awsdns-28.co.uk.
-    - ns-443.awsdns-55.com.
+      - ns-1008.awsdns-62.net.
+      - ns-1410.awsdns-48.org.
+      - ns-1766.awsdns-28.co.uk.
+      - ns-443.awsdns-55.com.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -128,6 +128,6 @@ www:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: null
+    hosted-zone-id:
     name: ''
     type: A

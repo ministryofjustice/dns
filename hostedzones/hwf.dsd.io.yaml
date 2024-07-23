@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: MX
     value:
       exchange: inbound-smtp.eu-west-1.amazonaws.com
@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1173.awsdns-18.org.
-    - ns-191.awsdns-23.com.
-    - ns-2004.awsdns-58.co.uk.
-    - ns-685.awsdns-21.net.
+      - ns-1173.awsdns-18.org.
+      - ns-191.awsdns-23.com.
+      - ns-2004.awsdns-58.co.uk.
+      - ns-685.awsdns-21.net.
 _1b26241ce193877d688e2b91454980bf.demo:
   ttl: 300
   type: CNAME
@@ -85,25 +85,25 @@ courtfinder-test.demo:
   type: A
   value: 51.143.152.23
 courtfinder.demo:
-- ttl: 300
-  type: A
-  value: 51.143.152.23
-- ttl: 300
-  type: CAA
-  value:
-    flags: 0
-    tag: issue
-    value: sectigo.com
+  - ttl: 300
+    type: A
+    value: 51.143.152.23
+  - ttl: 300
+    type: CAA
+    value:
+      flags: 0
+      tag: issue
+      value: sectigo.com
 courtfinder.staging:
-- ttl: 300
-  type: A
-  value: 40.120.37.64
-- ttl: 300
-  type: CAA
-  value:
-    flags: 0
-    tag: issue
-    value: sectigo.com
+  - ttl: 300
+    type: A
+    value: 40.120.37.64
+  - ttl: 300
+    type: CAA
+    value:
+      flags: 0
+      tag: issue
+      value: sectigo.com
 demo:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -157,25 +157,25 @@ public:
   type: A
   value: 51.145.38.191
 public.demo:
-- ttl: 300
-  type: A
-  value: 51.145.103.83
-- ttl: 300
-  type: CAA
-  value:
-    flags: 0
-    tag: issue
-    value: sectigo.com
+  - ttl: 300
+    type: A
+    value: 51.145.103.83
+  - ttl: 300
+    type: CAA
+    value:
+      flags: 0
+      tag: issue
+      value: sectigo.com
 public.staging:
-- ttl: 300
-  type: A
-  value: 51.105.55.154
-- ttl: 300
-  type: CAA
-  value:
-    flags: 0
-    tag: issue
-    value: sectigo.com
+  - ttl: 300
+    type: A
+    value: 51.105.55.154
+  - ttl: 300
+    type: CAA
+    value:
+      flags: 0
+      tag: issue
+      value: sectigo.com
 stack.42503cd7.hwf-publicapp-demo:
   ttl: 300
   type: TXT
@@ -217,25 +217,25 @@ staff:
   type: A
   value: 51.145.38.191
 staff.demo:
-- ttl: 300
-  type: A
-  value: 51.145.103.83
-- ttl: 300
-  type: CAA
-  value:
-    flags: 0
-    tag: issue
-    value: sectigo.com
+  - ttl: 300
+    type: A
+    value: 51.145.103.83
+  - ttl: 300
+    type: CAA
+    value:
+      flags: 0
+      tag: issue
+      value: sectigo.com
 staff.staging:
-- ttl: 300
-  type: A
-  value: 51.105.55.154
-- ttl: 300
-  type: CAA
-  value:
-    flags: 0
-    tag: issue
-    value: sectigo.com
+  - ttl: 300
+    type: A
+    value: 51.105.55.154
+  - ttl: 300
+    type: CAA
+    value:
+      flags: 0
+      tag: issue
+      value: sectigo.com
 staging:
   ttl: 942942942
   type: Route53Provider/ALIAS

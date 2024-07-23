@@ -1,19 +1,19 @@
 ---
-? ''
-: - ttl: 60
+'':
+  - ttl: 60
     type: A
     values:
-    - 151.101.0.204
-    - 151.101.128.204
-    - 151.101.192.204
-    - 151.101.64.204
+      - 151.101.0.204
+      - 151.101.128.204
+      - 151.101.192.204
+      - 151.101.64.204
   - ttl: 60
     type: NS
     values:
-    - ns-1148.awsdns-15.org.
-    - ns-1594.awsdns-07.co.uk.
-    - ns-458.awsdns-57.com.
-    - ns-575.awsdns-07.net.
+      - ns-1148.awsdns-15.org.
+      - ns-1594.awsdns-07.co.uk.
+      - ns-458.awsdns-57.com.
+      - ns-575.awsdns-07.net.
 hmcts-formfinder-prod:
   ttl: 300
   type: CNAME

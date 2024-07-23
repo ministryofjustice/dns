@@ -1,6 +1,6 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: MX
     value:
       exchange: publicguardian-gov-uk.mail.protection.outlook.com
@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1247.awsdns-27.org.
-    - ns-1873.awsdns-42.co.uk.
-    - ns-242.awsdns-30.com.
-    - ns-937.awsdns-53.net.
+      - ns-1247.awsdns-27.org.
+      - ns-1873.awsdns-42.co.uk.
+      - ns-242.awsdns-30.com.
+      - ns-937.awsdns-53.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -22,11 +22,11 @@
   - ttl: 300
     type: TXT
     values:
-    - MS=ms49968440
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 include:spf.protection.outlook.com
-      -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms49968440
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 include:spf.protection.outlook.com
+        -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _asvdns-8a5e9946-76d7-4e78-83b0-5f3be2e0e7b0:
   ttl: 300
   type: TXT
@@ -123,10 +123,10 @@ sirius:
   ttl: 300
   type: NS
   values:
-  - ns-1083.awsdns-07.org.
-  - ns-1770.awsdns-29.co.uk.
-  - ns-486.awsdns-60.com.
-  - ns-870.awsdns-44.net.
+    - ns-1083.awsdns-07.org.
+    - ns-1770.awsdns-29.co.uk.
+    - ns-486.awsdns-60.com.
+    - ns-870.awsdns-44.net.
 www:
   ttl: 942942942
   type: Route53Provider/ALIAS

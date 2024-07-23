@@ -1,31 +1,31 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: A
     value: 94.136.40.51
   - ttl: 300
     type: CAA
     values:
-    - flags: 0
-      tag: iodef
-      value: mailto:certificates@digital.justice.gov.uk
-    - flags: 0
-      tag: issue
-      value: ;
+      - flags: 0
+        tag: iodef
+        value: mailto:certificates@digital.justice.gov.uk
+      - flags: 0
+        tag: issue
+        value: ;
   - ttl: 300
     type: MX
     values:
-    - exchange: mxa.nurvedcloud.net
-      preference: 10
-    - exchange: mxb.nurvedcloud.net
-      preference: 10
+      - exchange: mxa.nurvedcloud.net
+        preference: 10
+      - exchange: mxb.nurvedcloud.net
+        preference: 10
   - ttl: 172800
     type: NS
     values:
-    - ns-1252.awsdns-28.org.
-    - ns-1799.awsdns-32.co.uk.
-    - ns-507.awsdns-63.com.
-    - ns-625.awsdns-14.net.
+      - ns-1252.awsdns-28.org.
+      - ns-1799.awsdns-32.co.uk.
+      - ns-507.awsdns-63.com.
+      - ns-625.awsdns-14.net.
   - ttl: 300
     type: SPF
     value: v=spf1 mx a ip4:109.70.150.133/32 ip4:109.70.150.134/32 -all

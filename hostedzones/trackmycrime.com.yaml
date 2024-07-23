@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1392.awsdns-46.org.
-    - ns-1991.awsdns-56.co.uk.
-    - ns-234.awsdns-29.com.
-    - ns-950.awsdns-54.net.
+      - ns-1392.awsdns-46.org.
+      - ns-1991.awsdns-56.co.uk.
+      - ns-234.awsdns-29.com.
+      - ns-950.awsdns-54.net.
   - ttl: 300
     type: TXT
     value: v=spf1 -all

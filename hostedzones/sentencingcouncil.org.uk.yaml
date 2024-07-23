@@ -1,22 +1,22 @@
 ---
-? ''
-: - ttl: 600
+'':
+  - ttl: 600
     type: A
     value: 35.177.235.232
   - ttl: 600
     type: MX
     values:
-    - exchange: mx1.bangdynamics.com.
-      preference: 10
-    - exchange: mx2.bangdynamics.com.
-      preference: 20
+      - exchange: mx1.bangdynamics.com.
+        preference: 10
+      - exchange: mx2.bangdynamics.com.
+        preference: 20
   - ttl: 172800
     type: NS
     values:
-    - ns-1424.awsdns-50.org.
-    - ns-1947.awsdns-51.co.uk.
-    - ns-337.awsdns-42.com.
-    - ns-771.awsdns-32.net.
+      - ns-1424.awsdns-50.org.
+      - ns-1947.awsdns-51.co.uk.
+      - ns-337.awsdns-42.com.
+      - ns-771.awsdns-32.net.
   - ttl: 300
     type: TXT
     value: v=spf1 a mx ~all

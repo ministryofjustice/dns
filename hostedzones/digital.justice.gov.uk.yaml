@@ -1,34 +1,35 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     values:
-    - exchange: aspmx.l.google.com.
-      preference: 1
-    - exchange: alt1.aspmx.l.google.com.
-      preference: 5
-    - exchange: alt2.aspmx.l.google.com.
-      preference: 5
-    - exchange: aspmx2.googlemail.com.
-      preference: 10
-    - exchange: aspmx3.googlemail.com.
-      preference: 10
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: aspmx2.googlemail.com.
+        preference: 10
+      - exchange: aspmx3.googlemail.com.
+        preference: 10
   - ttl: 172800
     type: NS
     values:
-    - ns-1458.awsdns-54.org.
-    - ns-1776.awsdns-30.co.uk.
-    - ns-284.awsdns-35.com.
-    - ns-527.awsdns-01.net.
+      - ns-1458.awsdns-54.org.
+      - ns-1776.awsdns-30.co.uk.
+      - ns-284.awsdns-35.com.
+      - ns-527.awsdns-01.net.
   - ttl: 300
     type: TXT
     values:
-    - airtable-verification=d9f115ea5ea3ee727cad0f6881f8f173
-    - apple-domain-verification=epvXUESI7W7LtOr4
-    - docker-verification=d0dc08c9-6fa5-4dcf-921e-140e1e3dbc1f
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
-    - teamviewer-sso-verification=a32cc5b325ca4b98ad15a722ebd63437
-    - v=spf1 include:_spf.google.com include:mail.zendesk.com include:sendgrid.net
-      include:amazonses.com include:spf.protection.outlook.com ip4:54.194.156.23 ~all
+      - airtable-verification=d9f115ea5ea3ee727cad0f6881f8f173
+      - apple-domain-verification=epvXUESI7W7LtOr4
+      - docker-verification=d0dc08c9-6fa5-4dcf-921e-140e1e3dbc1f
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - teamviewer-sso-verification=a32cc5b325ca4b98ad15a722ebd63437
+      - v=spf1 include:_spf.google.com include:mail.zendesk.com include:sendgrid.net
+        include:amazonses.com include:spf.protection.outlook.com ip4:54.194.156.23
+        ~all
 6vme3s556zqhosnlbiu452qmnd7g2zi3._domainkey:
   ttl: 1800
   type: CNAME
@@ -37,8 +38,8 @@ _amazonses:
   ttl: 1800
   type: TXT
   values:
-  - BocAhooUg8CtAcH/ORD2uaDqPoOslbc/UKDP4/m0mvw=
-  - T7nQBpTxkkCBCwuvDRmC4BcVq+ZGK2zvMvQx3W2mqsU=
+    - BocAhooUg8CtAcH/ORD2uaDqPoOslbc/UKDP4/m0mvw=
+    - T7nQBpTxkkCBCwuvDRmC4BcVq+ZGK2zvMvQx3W2mqsU=
 _asvdns-f7702e2a-a850-4653-8070-8818eb0f0c35:
   ttl: 300
   type: TXT
@@ -139,26 +140,26 @@ enterpriseregistration.test:
   type: CNAME
   value: enterpriseregistration.windows.net.
 g.test:
-- ttl: 300
-  type: A
-  value: 18.130.201.170
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: aspmx2.googlemail.com.
-    preference: 10
-  - exchange: aspmx3.googlemail.com.
-    preference: 10
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
-    ~all
+  - ttl: 300
+    type: A
+    value: 18.130.201.170
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: aspmx2.googlemail.com.
+        preference: 10
+      - exchange: aspmx3.googlemail.com.
+        preference: 10
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
+      ~all
 google._domainkey:
   ttl: 300
   type: TXT
@@ -168,16 +169,16 @@ google._domainkey.test:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQyKMZ9GXNVq2wdHvjpDoQaiOc9OUoXUc/uqToKO+d+7IGoPDF3QVvoTNQ2Xw5nGHu/6Obstl+7yCJS4YiCD0MwtrQINwd7L3Ky2FxjQRs4NXeg8gNgReGET5NrVRDCjBS4ELBnBcq9/Zlexe9bkw46VPl6tdfSPqsydlWhwRbzQIDAQAB
 gsi.test:
-- ttl: 300
-  type: MX
-  value:
-    exchange: .
-    preference: 0
-- ttl: 300
-  type: TXT
-  values:
-  - auZnAusRNbOx1OFTpjE5EYTgjG76iK7qhmhEqcm6Jg/6S9nXJ7HntCo8S8X0G9+Q0BjdYyWuzw4n40UU2CgH0w==
-  - v=spf1 ip4:18.130.205.7 ~all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: .
+      preference: 0
+  - ttl: 300
+    type: TXT
+    values:
+      - auZnAusRNbOx1OFTpjE5EYTgjG76iK7qhmhEqcm6Jg/6S9nXJ7HntCo8S8X0G9+Q0BjdYyWuzw4n40UU2CgH0w==
+      - v=spf1 ip4:18.130.205.7 ~all
 gwvr3t44mndxjndlxq3husq4pfpr35f7._domainkey:
   ttl: 300
   type: CNAME
@@ -300,30 +301,30 @@ temp:
     name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
     type: A
 test:
-- ttl: 300
-  type: A
-  value: 18.130.205.7
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 600
-  type: TXT
-  values:
-  - GFTBshQ/pI5XCTq5DxCKe9CZzVNocf4/9yYGIcqmLJKHduGUWltgiAack/3zTznC1VsFu0poNqbwPWZoZUIDuQ==
-  - MS=ms29740004
-  - google-site-verification=eKrQOC2iPS1lEVnT_dPfGq4GGfEiWkICwBIQKDMK24s
-  - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
-    ~all
+  - ttl: 300
+    type: A
+    value: 18.130.205.7
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 600
+    type: TXT
+    values:
+      - GFTBshQ/pI5XCTq5DxCKe9CZzVNocf4/9yYGIcqmLJKHduGUWltgiAack/3zTznC1VsFu0poNqbwPWZoZUIDuQ==
+      - MS=ms29740004
+      - google-site-verification=eKrQOC2iPS1lEVnT_dPfGq4GGfEiWkICwBIQKDMK24s
+      - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
+        ~all
 w3lfdwhi4uimdhfijhgb7slpiossuoz7._domainkey:
   ttl: 300
   type: CNAME

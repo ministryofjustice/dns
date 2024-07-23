@@ -1,15 +1,15 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: A
     value: 185.65.103.4
   - ttl: 172800
     type: NS
     values:
-    - ns-1317.awsdns-36.org.
-    - ns-1996.awsdns-57.co.uk.
-    - ns-451.awsdns-56.com.
-    - ns-813.awsdns-37.net.
+      - ns-1317.awsdns-36.org.
+      - ns-1996.awsdns-57.co.uk.
+      - ns-451.awsdns-56.com.
+      - ns-813.awsdns-37.net.
 9b54da44ae6d246509c67d65c653e30a:
   ttl: 10800
   type: CNAME

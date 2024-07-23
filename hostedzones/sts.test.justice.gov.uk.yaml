@@ -1,11 +1,11 @@
 ---
-? ''
-: - type: A
+'':
+  - type: A
     value: 195.59.75.143
   - ttl: 172800
     type: NS
     values:
-    - ns-1234.awsdns-26.org.
-    - ns-1810.awsdns-34.co.uk.
-    - ns-401.awsdns-50.com.
-    - ns-760.awsdns-31.net.
+      - ns-1234.awsdns-26.org.
+      - ns-1810.awsdns-34.co.uk.
+      - ns-401.awsdns-50.com.
+      - ns-760.awsdns-31.net.

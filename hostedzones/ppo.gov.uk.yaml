@@ -1,12 +1,12 @@
 ---
-? ''
-: ttl: 172800
+'':
+  ttl: 172800
   type: NS
   values:
-  - ns-1312.awsdns-36.org
-  - ns-170.awsdns-21.com
-  - ns-1906.awsdns-46.co.uk
-  - ns-977.awsdns-58.net
+    - ns-1312.awsdns-36.org
+    - ns-170.awsdns-21.com
+    - ns-1906.awsdns-46.co.uk
+    - ns-977.awsdns-58.net
 _c8b092cc5e6b18d6d6b1785824fb5bf4.mta-sts:
   ttl: 60
   type: CNAME

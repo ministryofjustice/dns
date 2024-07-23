@@ -1,32 +1,32 @@
 ---
-? ''
-: - ttl: 300
+'':
+  - ttl: 300
     type: A
     values:
-    - 185.199.108.153
-    - 185.199.109.153
-    - 185.199.110.153
-    - 185.199.111.153
+      - 185.199.108.153
+      - 185.199.109.153
+      - 185.199.110.153
+      - 185.199.111.153
   - ttl: 172800
     type: NS
     values:
-    - ns-1011.awsdns-62.net.
-    - ns-1398.awsdns-46.org.
-    - ns-1759.awsdns-27.co.uk.
-    - ns-24.awsdns-03.com.
+      - ns-1011.awsdns-62.net.
+      - ns-1398.awsdns-46.org.
+      - ns-1759.awsdns-27.co.uk.
+      - ns-24.awsdns-03.com.
 www:
   ttl: 300
   type: NS
   values:
-  - ns-1486.awsdns-57.org
-  - ns-2024.awsdns-61.co.uk
-  - ns-246.awsdns-30.com
-  - ns-845.awsdns-41.net
+    - ns-1486.awsdns-57.org
+    - ns-2024.awsdns-61.co.uk
+    - ns-246.awsdns-30.com
+    - ns-845.awsdns-41.net
 www.dev:
   ttl: 300
   type: NS
   values:
-  - ns-102.awsdns-12.com
-  - ns-1410.awsdns-48.org
-  - ns-1565.awsdns-03.co.uk
-  - ns-608.awsdns-12.net
+    - ns-102.awsdns-12.com
+    - ns-1410.awsdns-48.org
+    - ns-1565.awsdns-03.co.uk
+    - ns-608.awsdns-12.net

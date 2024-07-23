@@ -1,21 +1,21 @@
 ---
-? ''
-: - ttl: 600
+'':
+  - ttl: 600
     type: MX
     values:
-    - exchange: mailserv0.instant-web.co.uk.
-      preference: 10
-    - exchange: mailserv2.instant-web.co.uk.
-      preference: 20
-    - exchange: mailserv3.instant-web.co.uk.
-      preference: 20
+      - exchange: mailserv0.instant-web.co.uk.
+        preference: 10
+      - exchange: mailserv2.instant-web.co.uk.
+        preference: 20
+      - exchange: mailserv3.instant-web.co.uk.
+        preference: 20
   - ttl: 172800
     type: NS
     values:
-    - ns-1479.awsdns-56.org.
-    - ns-1588.awsdns-06.co.uk.
-    - ns-440.awsdns-55.com.
-    - ns-764.awsdns-31.net.
+      - ns-1479.awsdns-56.org.
+      - ns-1588.awsdns-06.co.uk.
+      - ns-440.awsdns-55.com.
+      - ns-764.awsdns-31.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:

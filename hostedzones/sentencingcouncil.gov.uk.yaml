@@ -1,23 +1,23 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     value:
       exchange: sentencingcouncil-gov-uk.mail.protection.outlook.com.
       preference: 0
   - ttl: 172800
     type: NS
     values:
-    - ns-1525.awsdns-62.org.
-    - ns-1647.awsdns-13.co.uk.
-    - ns-39.awsdns-04.com.
-    - ns-670.awsdns-19.net.
+      - ns-1525.awsdns-62.org.
+      - ns-1647.awsdns-13.co.uk.
+      - ns-39.awsdns-04.com.
+      - ns-670.awsdns-19.net.
   - type: TXT
     values:
-    - MS=ms36749181
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
-      -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms36749181
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+        -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _00820e901725762056fdc35127f0004e.mta-sts:
   ttl: 60
   type: CNAME

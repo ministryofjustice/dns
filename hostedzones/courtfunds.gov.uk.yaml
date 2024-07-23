@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1357.awsdns-41.org.
-    - ns-1638.awsdns-12.co.uk.
-    - ns-180.awsdns-22.com.
-    - ns-688.awsdns-22.net.
+      - ns-1357.awsdns-41.org.
+      - ns-1638.awsdns-12.co.uk.
+      - ns-180.awsdns-22.com.
+      - ns-688.awsdns-22.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -22,10 +22,10 @@ ubi:
   ttl: 600
   type: NS
   values:
-  - ns-1326.awsdns-37.org.
-  - ns-1680.awsdns-18.co.uk.
-  - ns-395.awsdns-49.com.
-  - ns-546.awsdns-04.net.
+    - ns-1326.awsdns-37.org.
+    - ns-1680.awsdns-18.co.uk.
+    - ns-395.awsdns-49.com.
+    - ns-546.awsdns-04.net.
 www:
   ttl: 942942942
   type: Route53Provider/ALIAS

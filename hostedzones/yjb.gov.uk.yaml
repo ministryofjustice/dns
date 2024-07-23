@@ -1,16 +1,16 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     value:
       exchange: yjb-gov-uk.mail.protection.outlook.com.
       preference: 0
   - ttl: 172800
     type: NS
     values:
-    - ns-1281.awsdns-32.org.
-    - ns-134.awsdns-16.com.
-    - ns-1747.awsdns-26.co.uk.
-    - ns-919.awsdns-50.net.
+      - ns-1281.awsdns-32.org.
+      - ns-134.awsdns-16.com.
+      - ns-1747.awsdns-26.co.uk.
+      - ns-919.awsdns-50.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -20,12 +20,12 @@
       type: A
   - type: TXT
     values:
-    - MS=ms19252221
-    - amazonses:umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com
-      -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms19252221
+      - amazonses:umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com
+        -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 2dbx4addpy7nyj76mioylqhzphrymyma._domainkey:
   ttl: 300
   type: CNAME
@@ -50,9 +50,9 @@ _amazonses:
   ttl: 300
   type: TXT
   values:
-  - X3sGvECv6KhfD+HIJ8qEaK+f9WTn/qe+so/J2QGfOes=
-  - tkpUbxjtqBJZ7omYLX6y95ukBWnkHuaLygBD6VQ7his=
-  - umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
+    - X3sGvECv6KhfD+HIJ8qEaK+f9WTn/qe+so/J2QGfOes=
+    - tkpUbxjtqBJZ7omYLX6y95ukBWnkHuaLygBD6VQ7his=
+    - umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
 _asvdns-aa57e22d-67bb-4736-a0df-0d273089ecdf.yjbservicespp:
   ttl: 300
   type: TXT
@@ -174,14 +174,14 @@ idm.y2a:
   type: A
   value: 62.232.198.68
 juniper-smtp:
-- ttl: 300
-  type: MX
-  value:
-    exchange: feedback-smtp.eu-west-2.amazonses.com
-    preference: 10
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:amazonses.com -all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: feedback-smtp.eu-west-2.amazonses.com
+      preference: 10
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:amazonses.com -all
 login.y2a:
   type: A
   value: 62.232.198.68
@@ -309,9 +309,7 @@ selfservice.y2a:
   value: 62.232.198.68
 servicedesk:
   type: NS
-  values:
-  - ns1.gradwellcloud.com.
-  - ns2.gradwellcloud.com.
+  values: [ns1.gradwellcloud.com., ns2.gradwellcloud.com.]
 sip:
   type: CNAME
   value: sipdir.online.lync.com.
@@ -376,51 +374,51 @@ yjaf:
   ttl: 300
   type: NS
   values:
-  - ns-1213.awsdns-23.org.
-  - ns-2007.awsdns-58.co.uk.
-  - ns-284.awsdns-35.com.
-  - ns-555.awsdns-05.net.
+    - ns-1213.awsdns-23.org.
+    - ns-2007.awsdns-58.co.uk.
+    - ns-284.awsdns-35.com.
+    - ns-555.awsdns-05.net.
 yjaf-smtp:
-- ttl: 300
-  type: A
-  value: 23.249.219.92
-- ttl: 300
-  type: MX
-  value:
-    exchange: feedback-smtp.eu-west-2.amazonses.com
-    preference: 10
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:amazonses.com -all
+  - ttl: 300
+    type: A
+    value: 23.249.219.92
+  - ttl: 300
+    type: MX
+    value:
+      exchange: feedback-smtp.eu-west-2.amazonses.com
+      preference: 10
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:amazonses.com -all
 yjaf-smtp-pp:
   ttl: 300
   type: A
   value: 23.249.219.93
 yjbservices:
-- ttl: 300
-  type: MX
-  value:
-    exchange: yjbservices-yjb-gov-uk.mail.protection.outlook.com.
-    preference: 0
-- ttl: 300
-  type: NS
-  values:
-  - ns-1417.awsdns-49.org.
-  - ns-1595.awsdns-07.co.uk.
-  - ns-397.awsdns-49.com.
-  - ns-844.awsdns-41.net.
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: yjbservices-yjb-gov-uk.mail.protection.outlook.com.
+      preference: 0
+  - ttl: 300
+    type: NS
+    values:
+      - ns-1417.awsdns-49.org.
+      - ns-1595.awsdns-07.co.uk.
+      - ns-397.awsdns-49.com.
+      - ns-844.awsdns-41.net.
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:spf.protection.outlook.com -all
 yjbservicespp:
-- ttl: 300
-  type: MX
-  value:
-    exchange: yjbservicespp-yjb-gov-uk.mail.protection.outlook.com.
-    preference: 0
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: yjbservicespp-yjb-gov-uk.mail.protection.outlook.com.
+      preference: 0
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:spf.protection.outlook.com -all
 yjsm-cug.compliance:
   ttl: 300
   type: A
@@ -430,20 +428,20 @@ yjsm-cug.sandpit:
   type: A
   value: 125.126.225.1
 youthjustice:
-- ttl: 300
-  type: MX
-  value:
-    exchange: youthjustice-yjb-gov-uk.mail.protection.outlook.com.
-    preference: 0
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: youthjustice-yjb-gov-uk.mail.protection.outlook.com.
+      preference: 0
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:spf.protection.outlook.com -all
 youthjusticepp:
-- ttl: 300
-  type: MX
-  value:
-    exchange: youthjusticepp-yjb-gov-uk.mail.protection.outlook.com.
-    preference: 0
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: youthjusticepp-yjb-gov-uk.mail.protection.outlook.com.
+      preference: 0
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:spf.protection.outlook.com -all

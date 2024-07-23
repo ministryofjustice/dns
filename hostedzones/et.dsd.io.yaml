@@ -1,11 +1,11 @@
 ---
-? ''
-: type: NS
+'':
+  type: NS
   values:
-  - ns-1373.awsdns-43.org.
-  - ns-1645.awsdns-13.co.uk.
-  - ns-459.awsdns-57.com.
-  - ns-731.awsdns-27.net.
+    - ns-1373.awsdns-43.org.
+    - ns-1645.awsdns-13.co.uk.
+    - ns-459.awsdns-57.com.
+    - ns-731.awsdns-27.net.
 _0d242f6c8b2de3c9b1c923b50331f0ec.staging:
   ttl: 300
   type: CNAME
@@ -290,10 +290,10 @@ mmb:
   ttl: 300
   type: NS
   values:
-  - ns-1137.awsdns-14.org.
-  - ns-1804.awsdns-33.co.uk.
-  - ns-403.awsdns-50.com.
-  - ns-704.awsdns-24.net.
+    - ns-1137.awsdns-14.org.
+    - ns-1804.awsdns-33.co.uk.
+    - ns-403.awsdns-50.com.
+    - ns-704.awsdns-24.net.
 monitoring:
   ttl: 300
   type: CNAME

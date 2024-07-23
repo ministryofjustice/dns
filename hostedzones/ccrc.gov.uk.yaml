@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1379.awsdns-44.org.
-    - ns-1844.awsdns-38.co.uk.
-    - ns-322.awsdns-40.com.
-    - ns-696.awsdns-23.net.
+      - ns-1379.awsdns-44.org.
+      - ns-1844.awsdns-38.co.uk.
+      - ns-322.awsdns-40.com.
+      - ns-696.awsdns-23.net.
   - ttl: 300
     type: TXT
     value: 68mnpg8h53n9jr4htpl2529xm5jyvx4f

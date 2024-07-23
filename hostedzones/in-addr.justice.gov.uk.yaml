@@ -1,12 +1,12 @@
 ---
-? ''
-: ttl: 172800
+'':
+  ttl: 172800
   type: NS
   values:
-  - ns-1169.awsdns-18.org.
-  - ns-2038.awsdns-62.co.uk.
-  - ns-454.awsdns-56.com.
-  - ns-968.awsdns-57.net.
+    - ns-1169.awsdns-18.org.
+    - ns-2038.awsdns-62.co.uk.
+    - ns-454.awsdns-56.com.
+    - ns-968.awsdns-57.net.
 51-149-2-13:
   ttl: 300
   type: A

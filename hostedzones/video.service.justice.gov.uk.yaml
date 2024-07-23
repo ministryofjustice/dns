@@ -1,12 +1,12 @@
 ---
-? ''
-: ttl: 172800
+'':
+  ttl: 172800
   type: NS
   values:
-  - ns-1464.awsdns-55.org.
-  - ns-1867.awsdns-41.co.uk.
-  - ns-52.awsdns-06.com.
-  - ns-936.awsdns-53.net.
+    - ns-1464.awsdns-55.org.
+    - ns-1867.awsdns-41.co.uk.
+    - ns-52.awsdns-06.com.
+    - ns-936.awsdns-53.net.
 _ad6f5bac936f7983cdac02c521925772.playback:
   ttl: 300
   type: CNAME

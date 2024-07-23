@@ -1,12 +1,12 @@
 ---
-? ''
-: ttl: 172800
+'':
+  ttl: 172800
   type: NS
   values:
-  - ns-1224.awsdns-25.org.
-  - ns-1875.awsdns-42.co.uk.
-  - ns-290.awsdns-36.com.
-  - ns-946.awsdns-54.net.
+    - ns-1224.awsdns-25.org.
+    - ns-1875.awsdns-42.co.uk.
+    - ns-290.awsdns-36.com.
+    - ns-946.awsdns-54.net.
 _dmarc:
   ttl: 300
   type: TXT

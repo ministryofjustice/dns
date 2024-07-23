@@ -1,12 +1,12 @@
 ---
-? ''
-: - ttl: 172800
+'':
+  - ttl: 172800
     type: NS
     values:
-    - ns-1424.awsdns-50.org.
-    - ns-1680.awsdns-18.co.uk.
-    - ns-483.awsdns-60.com.
-    - ns-868.awsdns-44.net.
+      - ns-1424.awsdns-50.org.
+      - ns-1680.awsdns-18.co.uk.
+      - ns-483.awsdns-60.com.
+      - ns-868.awsdns-44.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:

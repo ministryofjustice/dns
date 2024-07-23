@@ -1,10 +1,8 @@
 ---
-? ''
-: - ttl: 275
+'':
+  - ttl: 275
     type: A
-    values:
-    - 141.193.213.20
-    - 141.193.213.21
+    values: [141.193.213.20, 141.193.213.21]
   - ttl: 300
     type: MX
     value:
@@ -13,19 +11,19 @@
   - ttl: 172800
     type: NS
     values:
-    - ns-1514.awsdns-61.org.
-    - ns-1582.awsdns-05.co.uk.
-    - ns-245.awsdns-30.com.
-    - ns-886.awsdns-46.net.
+      - ns-1514.awsdns-61.org.
+      - ns-1582.awsdns-05.co.uk.
+      - ns-245.awsdns-30.com.
+      - ns-886.awsdns-46.net.
   - ttl: 300
     type: TXT
     values:
-    - MS=ms27470079
-    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-    - google-site-verification=ZF9wtpT_YiWaUp4t18aOheIRck4ZM6F4ejm80HGAsmc
-    - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 include:spf.protection.outlook.com
-      include:_spf.google.com include:spf.mandrillapp.com -all
-    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - MS=ms27470079
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - google-site-verification=ZF9wtpT_YiWaUp4t18aOheIRck4ZM6F4ejm80HGAsmc
+      - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 include:spf.protection.outlook.com
+        include:_spf.google.com include:spf.mandrillapp.com -all
+      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _6a19d3849cc84ad68c492edf9ce06d44:
   ttl: 300
   type: CNAME
@@ -170,14 +168,14 @@ news.newsletter:
   type: CNAME
   value: vesc-ps.e-shot.org
 newsletter:
-- ttl: 300
-  type: MX
-  value:
-    exchange: mail-ps.e-shot.org
-    preference: 5
-- ttl: 300
-  type: TXT
-  value: v=spf1 include:spf-ps.e-shot.org ~all
+  - ttl: 300
+    type: MX
+    value:
+      exchange: mail-ps.e-shot.org
+      preference: 5
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:spf-ps.e-shot.org ~all
 onc:
   ttl: 300
   type: CNAME
@@ -224,9 +222,7 @@ website._domainkey:
 www:
   ttl: 300
   type: A
-  values:
-  - 141.193.213.20
-  - 141.193.213.21
+  values: [141.193.213.20, 141.193.213.21]
 www.newsletter:
   ttl: 300
   type: CNAME

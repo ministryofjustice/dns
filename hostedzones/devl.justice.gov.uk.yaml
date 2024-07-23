@@ -1,16 +1,16 @@
 ---
-? ''
-: - type: MX
+'':
+  - type: MX
     value:
       exchange: devl-justice-gov-uk.mail.protection.outlook.com
       preference: 0
   - ttl: 172800
     type: NS
     values:
-    - ns-1267.awsdns-30.org.
-    - ns-2037.awsdns-62.co.uk.
-    - ns-358.awsdns-44.com.
-    - ns-965.awsdns-56.net.
+      - ns-1267.awsdns-30.org.
+      - ns-2037.awsdns-62.co.uk.
+      - ns-358.awsdns-44.com.
+      - ns-965.awsdns-56.net.
   - type: TXT
     value: v=spf1 include:spf.protection.outlook.com -all
 _735b486553cdfa713eebbd5f2ff3d69b.mta-sts:
