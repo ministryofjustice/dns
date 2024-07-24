@@ -643,7 +643,7 @@ commissioning:
 commissioning.sdt:
   ttl: 600
   type: CNAME
-  value: firewall-prod-int-palo-sdtcommprod.uksouth.cloudapp.azure.com
+  value: cft-mtls-api-mgmt-appgw.platform.hmcts.net
 confluence.cjscp:
   ttl: 600
   type: CNAME
@@ -1690,7 +1690,7 @@ sbc2:
 sdt:
   ttl: 600
   type: CNAME
-  value: firewall-prod-int-palo-sdtprod.uksouth.cloudapp.azure.com
+  value: cft-mtls-api-mgmt-appgw.platform.hmcts.net
 secure-email.ppud:
   ttl: 300
   type: A
