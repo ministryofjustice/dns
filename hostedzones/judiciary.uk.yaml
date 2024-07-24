@@ -76,6 +76,14 @@ _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME
   value: _ee606fbc945495779ce81e0927f3b51a.hzdbphtyvy.acm-validations.aws.
+_c3d7fc5b6bdc273c61e2e0e05e36b237.staging.myhr:
+  ttl: 300
+  type: CNAME
+  value: _e8431de1f30a86cad2446b32b5a88cac.sdgjtdhdhz.acm-validations.aws.
+_fbba2545583315f128d00d9d49d9f488.staging.admin.myhr:
+  ttl: 300
+  type: CNAME
+  value: _08debaf99d5d4a89a17ae373f80acfd3.sdgjtdhdhz.acm-validations.aws.
 _amazonses.elinks-edge-email.elinks:
   ttl: 300
   type: TXT
@@ -393,6 +401,10 @@ sip:
 smeunpaid5wygnssk3dzyvjtodijdmlw._domainkey.elinks-jo-staging-email.elinks:
   type: CNAME
   value: smeunpaid5wygnssk3dzyvjtodijdmlw.dkim.amazonses.com
+staging.admin.myhr:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice-staging.haloitsm.com
 staging.elinks:
   ttl: 300
   type: A
@@ -401,6 +413,10 @@ staging.hr:
   ttl: 300
   type: CNAME
   value: staging-hr.uksouth.cloudapp.azure.com
+staging.myhr:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice-staging-portal.haloitsm.com
 tmjcm:
   ttl: 300
   type: NS
