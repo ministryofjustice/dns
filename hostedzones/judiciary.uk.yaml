@@ -76,14 +76,6 @@ _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME
   value: _ee606fbc945495779ce81e0927f3b51a.hzdbphtyvy.acm-validations.aws.
-_c3d7fc5b6bdc273c61e2e0e05e36b237.staging.myhr:
-  ttl: 300
-  type: CNAME
-  value: _e8431de1f30a86cad2446b32b5a88cac.sdgjtdhdhz.acm-validations.aws.
-_fbba2545583315f128d00d9d49d9f488.staging.admin.myhr:
-  ttl: 300
-  type: CNAME
-  value: _08debaf99d5d4a89a17ae373f80acfd3.sdgjtdhdhz.acm-validations.aws.
 _amazonses.elinks-edge-email.elinks:
   ttl: 300
   type: TXT
@@ -114,6 +106,10 @@ _b080a2ca741a04bdaac5d34276eae7a2.jcm:
   ttl: 300
   type: CNAME
   value: ae6fcaa905f9a29a8541cf733d443158.cb61d1fa73dc837649034c8ea55abf44.895df6a24c45297cb239.comodoca.com.
+_c3d7fc5b6bdc273c61e2e0e05e36b237.staging.myhr:
+  ttl: 300
+  type: CNAME
+  value: _e8431de1f30a86cad2446b32b5a88cac.sdgjtdhdhz.acm-validations.aws.
 _d740b088e87612bb0c57de00dd5a0d91.www.judicialcareers:
   ttl: 300
   type: CNAME
@@ -134,6 +130,10 @@ _f1600645cbe796f7c88c9b3439764d3c.www:
   ttl: 300
   type: CNAME
   value: _8555f5baca5eacd2c07f4fa101641d67.rvctyfnwhz.acm-validations.aws.
+_fbba2545583315f128d00d9d49d9f488.staging.admin.myhr:
+  ttl: 300
+  type: CNAME
+  value: _08debaf99d5d4a89a17ae373f80acfd3.sdgjtdhdhz.acm-validations.aws.
 _github-challenge-moj-analytical-services:
   ttl: 60
   type: TXT
