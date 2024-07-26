@@ -155,6 +155,10 @@ _fedbba35e8d7e78d6844f69ca4c3ec12.national-start-on-first-deployment:
   ttl: 300
   type: CNAME
   value: _bd1482675a747ec82c7ba756a5391a54.ylqxxscwpq.acm-validations.aws
+_gh-ministryofjustice-o.ministry-of-justice-acronyms:
+  ttl: 300
+  type: TXT
+  value: 0abfb08cbf
 _github-challenge-ministryof-org.operations-engineering:
   ttl: 300
   type: TXT
@@ -953,10 +957,6 @@ mercury:
     - ns2-01.azure-dns.net.
     - ns3-01.azure-dns.org.
     - ns4-01.azure-dns.info.
-ministry-of-justice-acronyms:
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
 mod-platform-monitoring:
   ttl: 300
   type: NS
