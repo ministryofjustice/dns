@@ -643,7 +643,7 @@ commissioning:
 commissioning.sdt:
   ttl: 600
   type: CNAME
-  value: firewall-prod-int-palo-sdtcommprod.uksouth.cloudapp.azure.com
+  value: cft-mtls-api-mgmt-appgw.platform.hmcts.net
 confluence.cjscp:
   ttl: 600
   type: CNAME
@@ -1674,6 +1674,7 @@ s1._domainkey.cjscp:
 s1._domainkey.cjsm.secure-email.ppud:
   ttl: 300
   type: TXT
+  # yamllint disable-line rule:line-length
   value: v=DKIM1\;t=s\;""p=MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqBp46Uo7o6UlqVbKLAQ/ZzcVu2ThvrLoWnbd11pJKKukuUBLch5J4UhB9TeMOnM99RfilzD/srAyV6ZZuOw1oST4OMYlc7zoe+QG3OGjY4JPO9vyhSQQvuDdb4""1esPtaMfdeF6DhNGEux10erIvSwnxYSWQf8vM7OpvLX5S+XUA4yCMN8XspgUjtqeLaoSah7tEjjvv3hT/HDbj4WXjpkXojSynFPdQB4x368cBljG4ltPSR88MCLun/k1kII2sIadLnqSqS3IZd5EvJQrjMsgCeeXD3m""KObrksp0TxkM7ASPbUAQAcnXksCMP0kqdF5dtcB14tlgZG6qD5kJNO+IIrFvjsipu126LsVceaQ6ShY5A7POW/L+V9p0dcLNxGIMh196kAG8GLDWGw+uWEeZ+K6HyTdcasQW3Y5+ukKbI1mxHjyUz6kdC6jDvYl8xse4H5yWZ/tYMbcMTvob8pMZMLWuEkSrRGJDAFrVydjSs3cC7N08tWVVO1rCXdGKhgjyeUJxj2nDlHmLsfIxv""cTdLSzqdKNKl3uNGs8ewzB3VYJT8maovUl3gQIZsgMGHdHIlr2jqQ7SBFF97mxvEmra+rHpFlnXcg7X03OiZYuf5YtIWxFjUULZq99O9PMgnNMqyJVUmUQxhMgwAGWZfZteIvZVi8qlkLFLrLMuWggEW8CAwEAAQ==
 s2._domainkey.cjscp:
   ttl: 300
@@ -1690,7 +1691,7 @@ sbc2:
 sdt:
   ttl: 600
   type: CNAME
-  value: firewall-prod-int-palo-sdtprod.uksouth.cloudapp.azure.com
+  value: cft-mtls-api-mgmt-appgw.platform.hmcts.net
 secure-email.ppud:
   ttl: 300
   type: A
