@@ -1,5 +1,5 @@
 ---
-'':
+"":
   - ttl: 300
     type: MX
     value:
@@ -51,14 +51,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=819c02822a127057b73187264f0816e3
-_sip._tls:
-  ttl: 300
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
 _sipfederationtls._tcp:
   ttl: 300
   type: SRV
@@ -87,10 +79,6 @@ fp01._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
-lyncdiscover:
-  ttl: 300
-  type: CNAME
-  value: webdir.online.lync.com
 mirovalidation:
   ttl: 300
   type: TXT
@@ -115,10 +103,6 @@ selector2._domainkey:
   ttl: 300
   type: CNAME
   value: selector2-publicguardian-gov-uk._domainkey.justiceuk.onmicrosoft.com
-sip:
-  ttl: 300
-  type: CNAME
-  value: sipdir.online.lync.com
 sirius:
   ttl: 300
   type: NS
