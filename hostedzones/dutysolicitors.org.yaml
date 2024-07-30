@@ -15,7 +15,7 @@
       - ns-197.awsdns-24.com.
       - ns-553.awsdns-05.net.
   - type: TXT
-    values: [MS=ms36435977, v=spf1 include:spf.protection.outlook.com -all]
+    values: [MS=ms36435977, v=spf1 include:spf.protection.outlook.com include:eu.rp.oracleemaildelivery.com -all]
 _05C2A69FE55101F895523696988C2752:
   ttl: 300
   type: CNAME
