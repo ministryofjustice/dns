@@ -117,14 +117,14 @@ _cdead2a6631b56289db2e235ff1b0686.preprod.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _651516d4aff63b910272df3cfa5af0dc.sdgjtdhdhz.acm-validations.aws.
-_d77aef5e838aac4d3d7761ad92401c78.legacy.manage-external-funded-offender-provision:
-  ttl: 300
-  type: CNAME
-  value: _414290eebad8535f016569d8e6055684.sdgjtdhdhz.acm-validations.aws.
 _d8e015eb77621a22d1bb4fe339ec1ebd.dev.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: _f45d3bd1f2f3aa9f672facf92f66d56a.sdgjtdhdhz.acm-validations.aws.
+_d77aef5e838aac4d3d7761ad92401c78.legacy.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: _414290eebad8535f016569d8e6055684.sdgjtdhdhz.acm-validations.aws.
 _d0056e0292b63e43ee7490de450c6111.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
@@ -147,14 +147,14 @@ _domainkey.recruitment:
   ttl: 300
   type: TXT
   value: t=y\; o=~\;
-_e423c56d23dc0dce73d7af3276cfd0e6.manage-external-funded-offender-provision:
-  ttl: 300
-  type: CNAME
-  value: _e74deb9ca8229527592f88459265f1ef.kirrbxfjtw.acm-validations.aws.
 _e8920487ae3f822284e61ac444e7c639.legacy.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _d09d7b96049f80c055e97e0e2bcba5fe.sdgjtdhdhz.acm-validations.aws.
+_e423c56d23dc0dce73d7af3276cfd0e6.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: _e74deb9ca8229527592f88459265f1ef.kirrbxfjtw.acm-validations.aws.
 _f1d407a6cf4f3710e0f45c21cfc6558a.hmctsknowledgemanagement:
   ttl: 300
   type: CNAME
