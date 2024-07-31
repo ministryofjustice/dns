@@ -2,7 +2,7 @@
 '':
   - ttl: 300
     type: A
-    value: 84.43.86.102
+    value: 138.2.248.7
   - type: MX
     value:
       exchange: dutysolicitors-org.mail.protection.outlook.com.
@@ -54,4 +54,4 @@ selector2._domainkey:
 www:
   ttl: 300
   type: A
-  value: 84.43.86.102
+  value: 138.2.248.7
