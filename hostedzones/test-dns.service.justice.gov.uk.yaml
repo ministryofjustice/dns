@@ -1,2 +1,13 @@
 ---
-...
+'':
+  - ttl: 172800
+    type: NS
+    values:
+      - ns-423.awsdns-52.com.
+      - ns-1845.awsdns-38.co.uk.
+      - ns-918.awsdns-50.net.
+      - ns-1057.awsdns-04.org.
+testdkim._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1;t=s;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvoSeH/1MuIVue0ZDBK9IRukzHdRAFEM2BYvv8G7d5G8spNtIiZLe9my/wnKIwfCjzm3B2OpcjBXzGu642IEqHQZzZmuSTRgqJ/FqEUzlztUvb7j5F4R0p0JRM42jkjWb9Hy77ejR+yilCXV9OfrNPlV/4Dsu98PED8A8/TzTcD6tBdNYjB62Pu7AkpDJRqmAiUH227chrIH2wf7oHevvrlzGIoDJYfIuQI0shNoAZropmJQOvXMEI2/OA7uxecB8B/MbxLz3OeYvclH8eq4U+LqruVcpG2HNDs5JIW6gHT4bF2bdLuCMddpN6Qkvigbgfdy7OYQTGVGT0gig966jAQIDAQAB
