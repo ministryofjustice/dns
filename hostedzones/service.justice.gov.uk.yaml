@@ -936,7 +936,7 @@ manage-external-funded-offender-provision:
   value:
     evaluate-target-health: false
     hosted-zone-id: Z2FDTNDATAQYW2
-    name: d2p66dhqonjkjj.cloudfront.net.
+    name: d3tubljexqypxg.cloudfront.net.
     type: A
 manage-key-workers:
   ttl: 60
