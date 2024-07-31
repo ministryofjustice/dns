@@ -125,6 +125,10 @@ _d0056e0292b63e43ee7490de450c6111.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
   value: 3f666b6b9cd8ac0bd8ab145b89b2aa87.e449af38df4aa2fe9b1656cad6f70ea9.fcdbccead55470275a70.sectigo.com.
+_d77aef5e838aac4d3d7761ad92401c78.legacy.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: _414290eebad8535f016569d8e6055684.sdgjtdhdhz.acm-validations.aws.
 _daab53fad660d45c0e18965db75d500e.training-preproduction.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
@@ -147,6 +151,10 @@ _e423c56d23dc0dce73d7af3276cfd0e6.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: _e74deb9ca8229527592f88459265f1ef.kirrbxfjtw.acm-validations.aws.
+_e8920487ae3f822284e61ac444e7c639.legacy.creatingfutureopportunities:
+  ttl: 300
+  type: CNAME
+  value: _d09d7b96049f80c055e97e0e2bcba5fe.sdgjtdhdhz.acm-validations.aws.
 _f1d407a6cf4f3710e0f45c21cfc6558a.hmctsknowledgemanagement:
   ttl: 300
   type: CNAME
