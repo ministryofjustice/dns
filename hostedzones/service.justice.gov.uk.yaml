@@ -922,6 +922,10 @@ lawcommission.intranet:
   ttl: 300
   type: CNAME
   value: lawcomintranet.prod.wp.dsd.io
+legacy.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: d2p66dhqonjkjj.cloudfront.net
 legalaidagency.intranet:
   ttl: 300
   type: A
