@@ -609,14 +609,6 @@ design-patterns:
   ttl: 60
   type: CNAME
   value: ministryofjustice.github.io
-dev.find-moj-data:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1325.awsdns-37.org.
-    - ns-1560.awsdns-03.co.uk.
-    - ns-351.awsdns-43.com.
-    - ns-947.awsdns-54.net.
 dev.join-github:
   ttl: 300
   type: NS
@@ -1220,14 +1212,6 @@ preprod.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
   value: exisspp.q-solution.net
-preprod.find-moj-data:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1157.awsdns-16.org.
-    - ns-1677.awsdns-17.co.uk.
-    - ns-258.awsdns-32.com.
-    - ns-817.awsdns-38.net.
 preprod.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
@@ -1610,14 +1594,6 @@ test.crown-court-remuneration:
   ttl: 300
   type: CNAME
   value: d11b6vfzzycae4.cloudfront.net
-test.find-moj-data:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1038.awsdns-01.org.
-    - ns-1812.awsdns-34.co.uk.
-    - ns-345.awsdns-43.com.
-    - ns-982.awsdns-58.net.
 test.victim-case-management:
   ttl: 300
   type: NS
