@@ -723,6 +723,14 @@ familymediators:
     - ns-1813.awsdns-34.co.uk.
     - ns-500.awsdns-62.com.
     - ns-912.awsdns-50.net.
+find-moj-data:
+  ttl: 86400
+  type: NS
+  values:
+    - ns-1154.awsdns-16.org.
+    - ns-1872.awsdns-42.co.uk.
+    - ns-304.awsdns-38.com.
+    - ns-967.awsdns-56.net.
 find-unclaimed-court-money:
   - ttl: 300
     type: NS
