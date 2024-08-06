@@ -1534,6 +1534,10 @@ staging.crown-court-remuneration:
   ttl: 300
   type: CNAME
   value: d9ejn5yx5y6y8.cloudfront.net
+staging.hmpps-canine-management:
+  ttl: 300
+  type: A
+  value: 10.193.168.37
 staging.hmpps-performance-hub:
   ttl: 300
   type: CNAME
