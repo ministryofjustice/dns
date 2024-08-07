@@ -1423,10 +1423,6 @@ review-criminal-legal-aid:
     - ns-1936.awsdns-50.co.uk.
     - ns-295.awsdns-36.com.
     - ns-604.awsdns-11.net.
-runbooks.data-catalogue:
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
 runbooks.operations-engineering:
   ttl: 300
   type: CNAME
@@ -1654,10 +1650,6 @@ use-of-force:
     - ns-181.awsdns-22.com.
     - ns-1845.awsdns-38.co.uk.
     - ns-696.awsdns-23.net.
-user-guide.data-catalogue:
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
 user-guide.laa-operations:
   ttl: 300
   type: CNAME
