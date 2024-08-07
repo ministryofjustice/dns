@@ -171,6 +171,10 @@ _gh-ministryofjustice-o.ministry-of-justice-acronyms:
   ttl: 300
   type: TXT
   value: 0abfb08cbf
+_gh-ministryofjustice-o.runbooks.data-catalogue:
+  ttl: 300
+  type: TXT
+  value: e3280b1fd3
 _github-challenge-ministryof-org.operations-engineering:
   ttl: 300
   type: TXT
