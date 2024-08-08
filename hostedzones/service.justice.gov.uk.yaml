@@ -65,6 +65,10 @@ _95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
   ttl: 300
   type: CNAME
   value: _7bd56adf412cd4bc93a83eeb6d808f81.ylqxxscwpq.acm-validations.aws
+_122d4a537f580579f8a5aa1308c76d7a.crown-court-litigator-fees:
+  ttl: 300
+  type: CNAME
+  value: _22de9d65d0c7985f9b55997aedbbf7d1.sdgjtdhdhz.acm-validations.aws.
 _935f4ad292e31cb21e5bf6043b20a2bf.securecodewarrior:
   ttl: 300
   type: CNAME
@@ -77,10 +81,6 @@ _38914c2fe17df3d640a7d1d9765d8c88.training-preproduction.co-financing:
   ttl: 300
   type: CNAME
   value: _52106b9eec58031689a9b3d42d21d129.mqzgcdqkwq.acm-validations.aws.
-_122d4a537f580579f8a5aa1308c76d7a.crown-court-litigator-fees:
-  ttl: 300
-  type: CNAME
-  value: _22de9d65d0c7985f9b55997aedbbf7d1.sdgjtdhdhz.acm-validations.aws.
 _1864366b68aacd731e332b25536285ec.youth-justice-worker-online-assessment:
   ttl: 300
   type: CNAME
