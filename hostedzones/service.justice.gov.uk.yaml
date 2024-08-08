@@ -77,6 +77,14 @@ _39556719e8d565ea45417d38b40889c7.find-unclaimed-court-money:
   ttl: 60
   type: CNAME
   value: _06c52dec40633865541b0ff381d9eeb1.chvvfdvqrj.acm-validations.aws
+_a8acf57184d83c241b9b8595c4cb0bd0.crown-court-litigator-fees:
+  ttl: 300
+  type: CNAME
+  value: _4082495d228458941647d7833094e895.sdgjtdhdhz.acm-validations.aws.
+_a8991aef56b71d5c328ddcb4789afae0.crown-court-remuneration:
+  ttl: 300
+  type: CNAME
+  value: _7a7caa8732d309945f45d19490d357c8.sdgjtdhdhz.acm-validations.aws.
 _acme-challenge:
   ttl: 60
   type: TXT
