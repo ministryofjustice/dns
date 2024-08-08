@@ -25,10 +25,6 @@
   - ttl: 300
     type: TXT
     values: [MS=ms96686635, v=spf1 ~all]
-_047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
-  ttl: 300
-  type: CNAME
-  value: _3adaedf9b6a02203fa8fa05d5e4df6e1.sdgjtdhdhz.acm-validations.aws.
 _0c5ef000e3292b5574d86de97bdd9bbb.pp.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
@@ -41,6 +37,10 @@ _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
+_047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
+  ttl: 300
+  type: CNAME
+  value: _3adaedf9b6a02203fa8fa05d5e4df6e1.sdgjtdhdhz.acm-validations.aws.
 _6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
   ttl: 300
   type: CNAME
