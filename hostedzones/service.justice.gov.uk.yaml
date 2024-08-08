@@ -25,6 +25,10 @@
   - ttl: 300
     type: TXT
     values: [MS=ms96686635, v=spf1 ~all]
+_047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
+  ttl: 300
+  type: CNAME
+  value: _3adaedf9b6a02203fa8fa05d5e4df6e1.sdgjtdhdhz.acm-validations.aws.
 _0c5ef000e3292b5574d86de97bdd9bbb.pp.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
@@ -163,6 +167,10 @@ _e8920487ae3f822284e61ac444e7c639.legacy.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _d09d7b96049f80c055e97e0e2bcba5fe.sdgjtdhdhz.acm-validations.aws.
+_ecfb89dfe84df8c70d927c0cad621a50.crown-court-remuneration:
+  ttl: 300
+  type: CNAME
+  value: _b60e6afbf5f45a5d468ec5b937aaa428.sdgjtdhdhz.acm-validations.aws.
 _f1d407a6cf4f3710e0f45c21cfc6558a.hmctsknowledgemanagement:
   ttl: 300
   type: CNAME
