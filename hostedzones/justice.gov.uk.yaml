@@ -202,6 +202,14 @@ _domainkey.people-development:
   ttl: 300
   type: TXT
   value: t=y\; o=~\;
+_E0FCB7A4ABED1635BDA3D6DB5D95F573.courtstore:
+  ttl: 300
+  type: CNAME
+  value: F862680DD81DCEEDCB1A191579BED387.EF5F69DF8020D304280D692B9C9D8AE8.434c5bd6ebcf5a3c8e71.sectigo.com.
+_EFF93CC62AEBD03595E86398C5A5DF88.staff.court.store:
+  ttl: 300
+  type: CNAME
+  value: 22FBA9D12FC54A2DB5CC8A1FBDAF3401.9459C11735B5E5436E55CF5B00FFE8EF.b61b26dc97a3b3975cdc.sectigo.com.
 _github-challenge-hmcts:
   ttl: 300
   type: TXT
