@@ -37,10 +37,6 @@ _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
-_047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
-  ttl: 300
-  type: CNAME
-  value: _3adaedf9b6a02203fa8fa05d5e4df6e1.sdgjtdhdhz.acm-validations.aws.
 _6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
   ttl: 300
   type: CNAME
@@ -81,6 +77,10 @@ _39556719e8d565ea45417d38b40889c7.find-unclaimed-court-money:
   ttl: 60
   type: CNAME
   value: _06c52dec40633865541b0ff381d9eeb1.chvvfdvqrj.acm-validations.aws
+_047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
+  ttl: 300
+  type: CNAME
+  value: _3adaedf9b6a02203fa8fa05d5e4df6e1.sdgjtdhdhz.acm-validations.aws.
 _a8acf57184d83c241b9b8595c4cb0bd0.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
