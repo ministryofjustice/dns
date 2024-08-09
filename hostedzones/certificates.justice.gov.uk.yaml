@@ -1,6 +1,5 @@
----
-'':
-  - ttl: 300
+? ''
+: - ttl: 300
     type: MX
     value:
       exchange: inbound-smtp.us-east-1.amazonaws.com
@@ -8,14 +7,10 @@
   - ttl: 172800
     type: NS
     values:
-      - ns-1398.awsdns-46.org.
-      - ns-2033.awsdns-62.co.uk.
-      - ns-466.awsdns-58.com.
-      - ns-722.awsdns-26.net.
-_d99fbaaf63936e9e80401f226c200189:
-  ttl: 300
-  type: CNAME
-  value: 380f1817dc16ada09a1bf131384669cf.a0062633224f5a0a576ad1ee30e84a55.a0f637d4958a83be9e8e.sectigo.com.
+    - ns-1398.awsdns-46.org.
+    - ns-2033.awsdns-62.co.uk.
+    - ns-466.awsdns-58.com.
+    - ns-722.awsdns-26.net.
 _f2376c4a36459f703f0c9ba04c865fc3:
   ttl: 300
   type: CNAME

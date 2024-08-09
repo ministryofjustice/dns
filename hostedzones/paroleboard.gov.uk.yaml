@@ -1,16 +1,15 @@
----
-'':
-  - type: MX
+? ''
+: - type: MX
     value:
       exchange: paroleboard-gov-uk.mail.protection.outlook.com
       preference: 0
   - ttl: 172800
     type: NS
     values:
-      - ns-1480.awsdns-57.org.
-      - ns-1689.awsdns-19.co.uk.
-      - ns-56.awsdns-07.com.
-      - ns-708.awsdns-24.net.
+    - ns-1480.awsdns-57.org.
+    - ns-1689.awsdns-19.co.uk.
+    - ns-56.awsdns-07.com.
+    - ns-708.awsdns-24.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -20,18 +19,14 @@
       type: A
   - type: TXT
     values:
-      - YcrqOH4L
-      - ms=ms20657591
-      - v=spf1 ip4:20.77.102.3 include:spf.protection.outlook.com include:mail.zendesk.com
-        -all
+    - YcrqOH4L
+    - ms=ms20657591
+    - v=spf1 ip4:20.77.102.3 include:spf.protection.outlook.com include:mail.zendesk.com
+      -all
 _9da00739498cdee5a1a19390aae22b37.mta-sts:
   ttl: 60
   type: CNAME
   value: _845bf7d02211cdfb7b9644f8b0a06a7f.mhbtsbpdnt.acm-validations.aws.
-_a114e38d82c755ce883c37f350dada85.sopvpn:
-  ttl: 300
-  type: CNAME
-  value: 8fead41b177f6ebb9d54b20f3312f048.53860b05aac1c736d1eb133031afcdd1.af94ed0d6f5acc95f971.sectigo.com.
 _asvdns-5799bcf5-6136-4b92-a9f7-4cec52700cee:
   ttl: 300
   type: TXT
