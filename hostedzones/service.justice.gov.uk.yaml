@@ -69,6 +69,10 @@ _122d4a537f580579f8a5aa1308c76d7a.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
   value: _22de9d65d0c7985f9b55997aedbbf7d1.sdgjtdhdhz.acm-validations.aws.
+_862ab8fd914ba85df7f632f9039ec540.crown-court-remuneration:
+  ttl: 300
+  type: CNAME
+  value: _b6ef5fe3bdafda25470985975184caee.sdgjtdhdhz.acm-validations.aws.
 _935f4ad292e31cb21e5bf6043b20a2bf.securecodewarrior:
   ttl: 300
   type: CNAME
@@ -129,6 +133,10 @@ _c465a81d426f9c23ea655e52085f8d4a.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
   value: _8e59943746d54df0be7c6083636ffffb.vrcmzfbvtx.acm-validations.aws.
+_cb1f7ad955ab110224e8dfc789044579.crown-court-litigator-fees:
+  ttl: 300
+  type: CNAME
+  value: _bdd2b22c0fecdcd640d8fcba0c173a43.sdgjtdhdhz.acm-validations.aws.
 _cd274e7ee824297d08388d398a2b2b8a.crown-court-remuneration:
   ttl: 300
   type: CNAME
