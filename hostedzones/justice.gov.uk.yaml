@@ -27,6 +27,10 @@
       - v=spf1 ip4:194.33.196.0/24 ip4:194.33.192.0/24 mx a:b.spf.service-now.com
         a:c.spf.service-now.com a:d.spf.service-now.com include:spf.protection.outlook.com
         include:_spf.google.com include:mail-relay.staff.service.justice.gov.uk -all
+_FEE6E71E688EC01B124A6FB689CF8580.mappa:
+  ttl: 300
+  type: CNAME
+  value: 5A0FB97D1D6EE51C8C3E7E2E0292344B.FEFA7C2146ECF490E7CA17917811F597.59fc16fb2726964965e5.sectigo.com.
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
