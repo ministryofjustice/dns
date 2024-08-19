@@ -105,13 +105,6 @@ _mta-sts.youthjusticepp:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=d2ee1a37ca7e90b96d3b0be7d64d9b50
-_sip._tls:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com.
-    weight: 1
 _sipfederationtls._tcp:
   type: SRV
   value:
@@ -310,9 +303,6 @@ selfservice.y2a:
 servicedesk:
   type: NS
   values: [ns1.gradwellcloud.com., ns2.gradwellcloud.com.]
-sip:
-  type: CNAME
-  value: sipdir.online.lync.com.
 smtp.y2a:
   type: A
   value: 83.151.208.61
