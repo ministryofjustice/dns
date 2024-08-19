@@ -56,13 +56,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=382e5b84ba072da4451a6081d72d60b4
-_sip._tls:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
 _sipfederationtls._tcp:
   type: SRV
   value:
@@ -139,9 +132,6 @@ selector1._domainkey:
 selector2._domainkey:
   type: CNAME
   value: selector2-victimscommissioner-org-uk._domainkey.justiceuk.onmicrosoft.com
-sip:
-  type: CNAME
-  value: sipdir.online.lync.com
 www:
   ttl: 300
   type: CNAME
