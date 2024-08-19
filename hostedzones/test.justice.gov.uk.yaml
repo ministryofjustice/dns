@@ -39,13 +39,6 @@ _dmarc.noreply:
   ttl: 300
   type: CNAME
   value: _dmarc_ttp_policy.justice.gov.uk
-_sip._tls:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com.
-    weight: 1
 _sipfederationtls._tcp:
   type: SRV
   value:
@@ -130,9 +123,6 @@ selector2._domainkey.fax:
   ttl: 300
   type: CNAME
   value: selector2-fax.test.justice.gov.uk._domainkey.justiceuk.onmicrosoft.com
-sip:
-  type: CNAME
-  value: sipdir.online.lync.com.
 smtp:
   ttl: 600
   type: A

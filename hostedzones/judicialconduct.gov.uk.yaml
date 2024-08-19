@@ -38,20 +38,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=628112f5df71f7dae54240dd017ce101
-_sip._tls:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
-_sip._tls.complaints:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
 _sipfederationtls._tcp:
   type: SRV
   value:
@@ -139,12 +125,6 @@ selector2._domainkey.complaints:
   ttl: 600
   type: CNAME
   value: selector2-complaints-judicialconduct-gov-uk._domainkey.jcio.onmicrosoft.com
-sip:
-  type: CNAME
-  value: sipdir.online.lync.com
-sip.complaints:
-  type: CNAME
-  value: sipdir.online.lync.com
 www.complaints:
   ttl: 600
   type: CNAME

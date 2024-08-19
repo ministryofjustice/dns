@@ -83,14 +83,6 @@ _pop3s._tcp:
     priority: 10
     target: pop.gmail.com.
     weight: 0
-_sip._tls.test:
-  ttl: 300
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
 _sipfederationtls.tcp.test:
   ttl: 300
   type: SRV
@@ -284,10 +276,6 @@ sfpp.mobile:
   ttl: 300
   type: A
   value: 157.203.177.166
-sip.test:
-  ttl: 300
-  type: CNAME
-  value: sipdir.online.lync.com.
 sso:
   ttl: 300
   type: CNAME
