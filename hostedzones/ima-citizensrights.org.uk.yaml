@@ -80,13 +80,6 @@ _mta-sts.newsletter:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=d65d64c87f52fedec05bca206b6630df
-_sip._tls:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
 _sipfederationtls._tcp:
   type: SRV
   value:
@@ -208,9 +201,6 @@ selector2._domainkey:
   ttl: 300
   type: CNAME
   value: selector2-imacitizensrights-org-uk0i._domainkey.justiceuk.onmicrosoft.com
-sip:
-  type: CNAME
-  value: sipdir.online.lync.com
 survey:
   ttl: 600
   type: CNAME
