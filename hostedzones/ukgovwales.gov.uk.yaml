@@ -42,14 +42,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=17d1b3b0638bb374b0fae85e4a89e162
-_sip._tls:
-  ttl: 300
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com.
-    weight: 1
 _sipfederationtls._tcp:
   ttl: 300
   type: SRV
@@ -110,10 +102,6 @@ selector2._domainkey:
   ttl: 300
   type: CNAME
   value: selector2-ukgovwales-gov-uk._domainkey.justiceuk.onmicrosoft.com
-sip:
-  ttl: 300
-  type: CNAME
-  value: sipdir.online.lync.com.
 www:
   ttl: 300
   type: CNAME
