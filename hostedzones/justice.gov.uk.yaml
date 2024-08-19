@@ -358,28 +358,6 @@ _sip._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
-_sip._tls:
-  ttl: 600
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com.
-    weight: 1
-_sip._tls.cshrcasework:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
-_sip._tls.official:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
 _sipfederationtls._tcp:
   ttl: 600
   type: SRV
@@ -1776,13 +1754,6 @@ service:
     - ns-1621.awsdns-10.co.uk.
     - ns-187.awsdns-23.com.
     - ns-978.awsdns-58.net.
-sip:
-  ttl: 600
-  type: CNAME
-  value: sipdir.online.lync.com.
-sip.cshrcasework:
-  type: CNAME
-  value: sipdir.online.lync.com
 sip.meet.video:
   ttl: 300
   type: A
