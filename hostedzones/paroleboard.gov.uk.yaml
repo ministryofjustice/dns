@@ -59,13 +59,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=d3c166db45a506d6876e8eb1bb857d37
-_sip._tls:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com
-    weight: 1
 _sipfederationtls._tcp:
   type: SRV
   value:
@@ -114,9 +107,6 @@ selector1._domainkey:
 selector2._domainkey:
   type: CNAME
   value: selector2-paroleboard-gov-uk._domainkey.digitalparole.onmicrosoft.com
-sip:
-  type: CNAME
-  value: sipdir.online.lync.com
 sopvpn:
   ttl: 300
   type: A
