@@ -21,13 +21,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=4adfca9f114c6d7c82119b69fa97fece
-_sip._tls:
-  type: SRV
-  value:
-    port: 443
-    priority: 100
-    target: sipdir.online.lync.com.
-    weight: 1
 _sipfederationtls._tcp:
   type: SRV
   value:
@@ -59,6 +52,3 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d1k9a5875p40im.cloudfront.net.
     type: A
-sip:
-  type: CNAME
-  value: sipdir.online.lync.com
