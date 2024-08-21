@@ -1,0 +1,4 @@
+justice:
+  ttl: '300'
+  type: TXT
+  value: txtxtxtxtxtxtxtxtxtxt
