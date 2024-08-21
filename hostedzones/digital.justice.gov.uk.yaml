@@ -313,6 +313,7 @@ test:
       - google-site-verification=eKrQOC2iPS1lEVnT_dPfGq4GGfEiWkICwBIQKDMK24s
       - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
         ~all
+      - google-site-verification=HhPu9-ILo7FvJ9FGjbGLyiavc4F8Pqt5tgqozUg3ah0
 w3lfdwhi4uimdhfijhgb7slpiossuoz7._domainkey:
   ttl: 300
   type: CNAME
