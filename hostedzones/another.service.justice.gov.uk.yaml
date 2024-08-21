@@ -1,0 +1,4 @@
+record:
+  ttl: '300'
+  type: TXT
+  value: txtxtxtxtxtxtxtxxtxtt
