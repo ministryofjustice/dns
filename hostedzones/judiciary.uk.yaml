@@ -1,6 +1,5 @@
----
-'':
-  - ttl: 600
+? ''
+: - ttl: 600
     type: A
     value: 54.228.199.127
   - type: MX
@@ -10,21 +9,21 @@
   - ttl: 172800
     type: NS
     values:
-      - ns-1068.awsdns-05.org.
-      - ns-1947.awsdns-51.co.uk.
-      - ns-363.awsdns-45.com.
-      - ns-593.awsdns-10.net.
+    - ns-1068.awsdns-05.org.
+    - ns-1947.awsdns-51.co.uk.
+    - ns-363.awsdns-45.com.
+    - ns-593.awsdns-10.net.
   - type: TXT
     values:
-      - 777ne2nm341q0eikj23p37dqr5
-      - MS=ms99090321
-      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-      - d1mkkfanu2t88mqdpc6np4u49r
-      - pdk1jsvamjpdtmqi5i8o82ir8s
-      - ujatii6o116ahi7u28r22h982t
-      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:78.31.108.141 include:spf.protection.outlook.com
-        include:ciphr247.com -all
-      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+    - 777ne2nm341q0eikj23p37dqr5
+    - MS=ms99090321
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - d1mkkfanu2t88mqdpc6np4u49r
+    - pdk1jsvamjpdtmqi5i8o82ir8s
+    - ujatii6o116ahi7u28r22h982t
+    - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:78.31.108.141 include:spf.protection.outlook.com
+      include:ciphr247.com -all
+    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 5vl4vla56j76p3obneqqnjelrynl2kiv._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: 5vl4vla56j76p3obneqqnjelrynl2kiv.dkim.amazonses.com
@@ -32,10 +31,10 @@ _2cfb3230475e3689609b3297ae4656c4:
   ttl: 300
   type: CNAME
   value: _3406d52cab14ed3ad6278fd834757ab6.rvctyfnwhz.acm-validations.aws.
-_2dbef9e1aa4e8e214c8cea8fe9c03ce4.hr:
-  ttl: 300
+_36a868734c47d6b413ca1ff1fa403c96.mta-sts:
+  ttl: 60
   type: CNAME
-  value: c4a571ce42054fa06331b61b5d069f04.3489a1095f2194c2a9ea1ad2ba973953.71f956e60b088d0c2166.sectigo.com.
+  value: _422367411a20d22ae1a4cac085b8ac38.nhsllhhtvj.acm-validations.aws.
 _5dd4ff6618685d9724e117cdc2bfa5d5.www:
   ttl: 600
   type: CNAME
@@ -48,30 +47,26 @@ _5ecfb849dc48eea11d818fd219b68bb1.www.jcm:
   ttl: 300
   type: CNAME
   value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com
-_6f0e92da46509e479f24cc2bad43c06f.magistrates:
-  ttl: 300
-  type: CNAME
-  value: _3ba2c01f2ad818f8e254df3786b6222e.zdxcnfdgtt.acm-validations.aws.
-_9b95e0916934b7a53b18c71c7b89f350.intranet:
-  ttl: 600
-  type: CNAME
-  value: _6520314585f0fc6d2ffab8273fd6b226.acm-validations.aws.
-_36a868734c47d6b413ca1ff1fa403c96.mta-sts:
-  ttl: 60
-  type: CNAME
-  value: _422367411a20d22ae1a4cac085b8ac38.nhsllhhtvj.acm-validations.aws.
-_84bd339a1a9c0007f5b0f5de1f76597e.admin.myhr:
-  ttl: 300
-  type: CNAME
-  value: _1724668f7d465e31222cfae98cb8d26a.sdgjtdhdhz.acm-validations.aws.
 _617aa7dd1b481bab674133c622155ffa.myhr:
   ttl: 300
   type: CNAME
   value: _2ad22899d6a8ab60457239d43f80c173.sdgjtdhdhz.acm-validations.aws.
+_6f0e92da46509e479f24cc2bad43c06f.magistrates:
+  ttl: 300
+  type: CNAME
+  value: _3ba2c01f2ad818f8e254df3786b6222e.zdxcnfdgtt.acm-validations.aws.
+_84bd339a1a9c0007f5b0f5de1f76597e.admin.myhr:
+  ttl: 300
+  type: CNAME
+  value: _1724668f7d465e31222cfae98cb8d26a.sdgjtdhdhz.acm-validations.aws.
 _899b462404e4bec7a425327cc1cf715d.hr:
   ttl: 300
   type: CNAME
   value: cb93603ba5bac4e486ebffbd07a04602.81b783a38226c090968d86c074b9aa93.e782e89abdb62740b34d.sectigo.com
+_9b95e0916934b7a53b18c71c7b89f350.intranet:
+  ttl: 600
+  type: CNAME
+  value: _6520314585f0fc6d2ffab8273fd6b226.acm-validations.aws.
 _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME
@@ -122,14 +117,14 @@ _dmarc.elinks:
   ttl: 300
   type: TXT
   value: v=DMARC1\; p=reject\;
-_f9a2000001cb4381c8449175c6c006de.www:
-  ttl: 300
-  type: CNAME
-  value: _370324631239f747b5a0cd725e8f7afe.rvctyfnwhz.acm-validations.aws.
 _f1600645cbe796f7c88c9b3439764d3c.www:
   ttl: 300
   type: CNAME
   value: _8555f5baca5eacd2c07f4fa101641d67.rvctyfnwhz.acm-validations.aws.
+_f9a2000001cb4381c8449175c6c006de.www:
+  ttl: 300
+  type: CNAME
+  value: _370324631239f747b5a0cd725e8f7afe.rvctyfnwhz.acm-validations.aws.
 _fbba2545583315f128d00d9d49d9f488.staging.admin.myhr:
   ttl: 300
   type: CNAME
@@ -225,17 +220,17 @@ ej-replica-jo-staging.elinks:
   type: CNAME
   value: curly-hollows-znp74u6pbymv9a7batorb929.herokudns.com
 elinks:
-  - ttl: 300
-    type: A
-    value: 54.228.199.127
-  - ttl: 300
-    type: MX
-    value:
-      exchange: mail.dxw.net.
-      preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 mx -all
+- ttl: 300
+  type: A
+  value: 54.228.199.127
+- ttl: 300
+  type: MX
+  value:
+    exchange: mail.dxw.net.
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 mx -all
 elinks-edge-email.elinks:
   ttl: 300
   type: MX
@@ -304,20 +299,20 @@ jcm:
   ttl: 300
   type: NS
   values:
-    - ns1-02.azure-dns.com.
-    - ns2-02.azure-dns.net.
-    - ns3-02.azure-dns.org.
-    - ns4-02.azure-dns.info.
+  - ns1-02.azure-dns.com.
+  - ns2-02.azure-dns.net.
+  - ns3-02.azure-dns.org.
+  - ns4-02.azure-dns.info.
 jo-staging.elinks:
   type: CNAME
   value: fathomless-plum-tu2fu458lxj0kj67y8yebcx9.herokudns.com
 judicialcareers:
-  - ttl: 300
-    type: A
-    value: 78.31.108.141
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ip4:37.128.132.157 ip4:78.31.108.141 -all
+- ttl: 300
+  type: A
+  value: 78.31.108.141
+- ttl: 300
+  type: TXT
+  value: v=spf1 ip4:37.128.132.157 ip4:78.31.108.141 -all
 ko6w5s55q23tal6ayqic35vnhhwpoam7._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: ko6w5s55q23tal6ayqic35vnhhwpoam7.dkim.amazonses.com
@@ -325,20 +320,20 @@ lyncdiscover:
   type: CNAME
   value: webdir.online.lync.com.
 magistrates:
-  - ttl: 300
-    type: NS
-    values:
-      - ns-1070.awsdns-05.org.
-      - ns-1669.awsdns-16.co.uk.
-      - ns-374.awsdns-46.com.
-      - ns-780.awsdns-33.net.
-  - ttl: 942942942
-    type: Route53Provider/ALIAS
-    value:
-      evaluate-target-health: false
-      hosted-zone-id: ZHURV8PSTC4K8
-      name: dualstack.jotwp-loadb-1mbwraz503eq6-1769122100.eu-west-2.elb.amazonaws.com.
-      type: A
+- ttl: 300
+  type: NS
+  values:
+  - ns-1070.awsdns-05.org.
+  - ns-1669.awsdns-16.co.uk.
+  - ns-374.awsdns-46.com.
+  - ns-780.awsdns-33.net.
+- ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: dualstack.jotwp-loadb-1mbwraz503eq6-1769122100.eu-west-2.elb.amazonaws.com.
+    type: A
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net.
@@ -411,10 +406,10 @@ tmjcm:
   ttl: 300
   type: NS
   values:
-    - ns1-06.azure-dns.com.
-    - ns2-06.azure-dns.net.
-    - ns3-06.azure-dns.org.
-    - ns4-06.azure-dns.info.
+  - ns1-06.azure-dns.com.
+  - ns2-06.azure-dns.net.
+  - ns3-06.azure-dns.org.
+  - ns4-06.azure-dns.info.
 tokxf6lra5j64jnznuomoammam7xolik._domainkey.elinks-edge-email.elinks:
   type: CNAME
   value: tokxf6lra5j64jnznuomoammam7xolik.dkim.amazonses.com
