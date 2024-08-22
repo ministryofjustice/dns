@@ -130,14 +130,6 @@ smtp:
   ttl: 600
   type: A
   value: 80.86.35.81
-webapps:
-  ttl: 600
-  type: NS
-  values:
-    - ns-1428.awsdns-50.org.
-    - ns-1586.awsdns-06.co.uk.
-    - ns-653.awsdns-17.net.
-    - ns-92.awsdns-11.com.
 www:
   ttl: 600
   type: CNAME
