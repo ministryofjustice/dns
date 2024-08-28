@@ -1,48 +1,31 @@
----
-'':
-  - type: MX
+? ''
+: - type: MX
     value:
       exchange: justice-gov-uk.mail.protection.outlook.com.
       preference: 0
   - ttl: 172800
     type: NS
     values:
-      - ns-1534.awsdns-63.org.
-      - ns-1586.awsdns-06.co.uk.
-      - ns-160.awsdns-20.com.
-      - ns-987.awsdns-59.net.
+    - ns-1534.awsdns-63.org.
+    - ns-1586.awsdns-06.co.uk.
+    - ns-160.awsdns-20.com.
+    - ns-987.awsdns-59.net.
   - ttl: 600
     type: TXT
     values:
-      - 2023100512295066wskn0790wjkn68f9l9rq5klf9siskhuhue56wicgicbnwr3b
-      - BTUhp9Uq4ukuVfeGN5jrIsf32ll79sBSGRw0qc+3XoO2ewFCNNdhMIMb+tj5xdom8y7CWGgxtthH/9mE/p8+Yg==
-      - Dynatrace-site-verification=b3468c91-d00e-4550-b156-92df0139d471__5ae4ot4eoj67h6tepojhf93del
-      - MS=ms58266631
-      - QuoVadis=7646126a-d75d-4bfd-8fc3-138170e3f362
-      - amazonses:7TpoWZygS3NuQ4e4VDNJ7yM1uQtxz7ZTVuPQ57Njtog=
-      - apple-domain-verification=KiQwp8vi9tLuxYuq
-      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-      - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
-      - paloaltonetworks-site-verification=0b174a69a0bbb0078f1b18f4bac05c0bd943f50b2e279ea920cfe4e085ec4a48
-      - v=spf1 ip4:194.33.196.0/24 ip4:194.33.192.0/24 mx a:b.spf.service-now.com
-        a:c.spf.service-now.com a:d.spf.service-now.com include:spf.protection.outlook.com
-        include:_spf.google.com include:mail-relay.staff.service.justice.gov.uk -all
-2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
-  ttl: 300
-  type: CNAME
-  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com
-4wlxo7xgsbccmlyejcjro4pldynv4jnc._domainkey.optic:
-  ttl: 300
-  type: CNAME
-  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com
-5axyevlb23jr5vn7z4uqemmr6llzuuy3._domainkey.uat.cshrcaseworkcma:
-  ttl: 300
-  type: CNAME
-  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com
-42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
-  ttl: 300
-  type: CNAME
-  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
+    - 2023100512295066wskn0790wjkn68f9l9rq5klf9siskhuhue56wicgicbnwr3b
+    - BTUhp9Uq4ukuVfeGN5jrIsf32ll79sBSGRw0qc+3XoO2ewFCNNdhMIMb+tj5xdom8y7CWGgxtthH/9mE/p8+Yg==
+    - Dynatrace-site-verification=b3468c91-d00e-4550-b156-92df0139d471__5ae4ot4eoj67h6tepojhf93del
+    - MS=ms58266631
+    - QuoVadis=7646126a-d75d-4bfd-8fc3-138170e3f362
+    - amazonses:7TpoWZygS3NuQ4e4VDNJ7yM1uQtxz7ZTVuPQ57Njtog=
+    - apple-domain-verification=KiQwp8vi9tLuxYuq
+    - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+    - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+    - paloaltonetworks-site-verification=0b174a69a0bbb0078f1b18f4bac05c0bd943f50b2e279ea920cfe4e085ec4a48
+    - v=spf1 ip4:194.33.196.0/24 ip4:194.33.192.0/24 mx a:b.spf.service-now.com a:c.spf.service-now.com
+      a:d.spf.service-now.com include:spf.protection.outlook.com include:_spf.google.com
+      include:mail-relay.staff.service.justice.gov.uk -all
 '#civilmediation':
   ttl: 600
   type: A
@@ -51,18 +34,34 @@
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=
-_1b792c2153cf927328615e78010f7852.civilmediation:
+2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
-  value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
-_19c1935c338c1a473a54c55c3260a113.mta-sts:
-  ttl: 60
+  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com
+42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
+  ttl: 300
   type: CNAME
-  value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
+4wlxo7xgsbccmlyejcjro4pldynv4jnc._domainkey.optic:
+  ttl: 300
+  type: CNAME
+  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com
+5axyevlb23jr5vn7z4uqemmr6llzuuy3._domainkey.uat.cshrcaseworkcma:
+  ttl: 300
+  type: CNAME
+  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com
 _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
+_19c1935c338c1a473a54c55c3260a113.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_1b792c2153cf927328615e78010f7852.civilmediation:
+  ttl: 300
+  type: CNAME
+  value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
 _413907afca971cfa53aab8d5df86e4ef.bench.courtstore:
   ttl: 300
   type: CNAME
@@ -91,8 +90,8 @@ _amazonses:
   ttl: 300
   type: TXT
   values:
-    - 7TpoWZygS3NuQ4e4VDNJ7yM1uQtxz7ZTVuPQ57Njtog=
-    - V9UFWT58TFN4bvzNq3kucIBHJ0LvG2tzcyO4XMcux5M=
+  - 7TpoWZygS3NuQ4e4VDNJ7yM1uQtxz7ZTVuPQ57Njtog=
+  - V9UFWT58TFN4bvzNq3kucIBHJ0LvG2tzcyO4XMcux5M=
 _amazonses.cshrcaseworkcma:
   ttl: 300
   type: TXT
@@ -234,74 +233,74 @@ _h323cs._tcp.meet.video:
   ttl: 300
   type: SRV
   values:
-    - port: 1720
-      priority: 10
-      target: px01.meet.video.justice.gov.uk
-      weight: 10
-    - port: 1720
-      priority: 10
-      target: px02.meet.video.justice.gov.uk
-      weight: 10
+  - port: 1720
+    priority: 10
+    target: px01.meet.video.justice.gov.uk
+    weight: 10
+  - port: 1720
+    priority: 10
+    target: px02.meet.video.justice.gov.uk
+    weight: 10
 _h323cs._tcp.video:
   ttl: 300
   type: SRV
   values:
-    - port: 1720
-      priority: 10
-      target: px01.video.justice.gov.uk
-      weight: 10
-    - port: 1720
-      priority: 10
-      target: px02.video.justice.gov.uk
-      weight: 10
+  - port: 1720
+    priority: 10
+    target: px01.video.justice.gov.uk
+    weight: 10
+  - port: 1720
+    priority: 10
+    target: px02.video.justice.gov.uk
+    weight: 10
 _h323ls._udp.meet.video:
   ttl: 300
   type: SRV
   values:
-    - port: 1719
-      priority: 10
-      target: px01.meet.video.justice.gov.uk
-      weight: 10
-    - port: 1719
-      priority: 10
-      target: px02.meet.video.justice.gov.uk
-      weight: 10
+  - port: 1719
+    priority: 10
+    target: px01.meet.video.justice.gov.uk
+    weight: 10
+  - port: 1719
+    priority: 10
+    target: px02.meet.video.justice.gov.uk
+    weight: 10
 _h323ls._udp.video:
   ttl: 300
   type: SRV
   values:
-    - port: 1719
-      priority: 10
-      target: px01.video.justice.gov.uk
-      weight: 10
-    - port: 1719
-      priority: 10
-      target: px02.video.justice.gov.uk
-      weight: 10
+  - port: 1719
+    priority: 10
+    target: px01.video.justice.gov.uk
+    weight: 10
+  - port: 1719
+    priority: 10
+    target: px02.video.justice.gov.uk
+    weight: 10
 _h323rs._udp.meet.video:
   ttl: 300
   type: SRV
   values:
-    - port: 1719
-      priority: 10
-      target: px01.meet.video.justice.gov.uk
-      weight: 10
-    - port: 1719
-      priority: 10
-      target: px02.meet.video.justice.gov.u
-      weight: 10
+  - port: 1719
+    priority: 10
+    target: px01.meet.video.justice.gov.uk
+    weight: 10
+  - port: 1719
+    priority: 10
+    target: px02.meet.video.justice.gov.u
+    weight: 10
 _h323rs._udp.video:
   ttl: 300
   type: SRV
   values:
-    - port: 1719
-      priority: 10
-      target: px01.video.justice.gov.uk
-      weight: 10
-    - port: 1719
-      priority: 10
-      target: px02.video.justice.gov.uk
-      weight: 10
+  - port: 1719
+    priority: 10
+    target: px01.video.justice.gov.uk
+    weight: 10
+  - port: 1719
+    priority: 10
+    target: px02.video.justice.gov.uk
+    weight: 10
 _mta-sts:
   ttl: 300
   type: TXT
@@ -314,50 +313,50 @@ _pexapp._tcp.meet.video:
   ttl: 300
   type: SRV
   values:
-    - port: 443
-      priority: 10
-      target: px01.meet.video.justice.gov.uk
-      weight: 10
-    - port: 443
-      priority: 10
-      target: px02.meet.video.justice.gov.uk
-      weight: 10
+  - port: 443
+    priority: 10
+    target: px01.meet.video.justice.gov.uk
+    weight: 10
+  - port: 443
+    priority: 10
+    target: px02.meet.video.justice.gov.uk
+    weight: 10
 _pexapp._tcp.video:
   ttl: 300
   type: SRV
   values:
-    - port: 443
-      priority: 10
-      target: px01.video.justice.gov.uk
-      weight: 10
-    - port: 443
-      priority: 10
-      target: px02.video.justice.gov.uk
-      weight: 10
+  - port: 443
+    priority: 10
+    target: px01.video.justice.gov.uk
+    weight: 10
+  - port: 443
+    priority: 10
+    target: px02.video.justice.gov.uk
+    weight: 10
 _sip._tcp.meet.video:
   ttl: 300
   type: SRV
   values:
-    - port: 5060
-      priority: 10
-      target: px01.meet.video.justice.gov.uk
-      weight: 10
-    - port: 5060
-      priority: 10
-      target: px02.meet.video.justice.gov.uk
-      weight: 10
+  - port: 5060
+    priority: 10
+    target: px01.meet.video.justice.gov.uk
+    weight: 10
+  - port: 5060
+    priority: 10
+    target: px02.meet.video.justice.gov.uk
+    weight: 10
 _sip._tcp.video:
   ttl: 300
   type: SRV
   values:
-    - port: 5060
-      priority: 10
-      target: px01.video.justice.gov.uk
-      weight: 10
-    - port: 5060
-      priority: 10
-      target: px02.video.justice.gov.uk
-      weight: 10
+  - port: 5060
+    priority: 10
+    target: px01.video.justice.gov.uk
+    weight: 10
+  - port: 5060
+    priority: 10
+    target: px02.video.justice.gov.uk
+    weight: 10
 _sipfederationtls._tcp:
   ttl: 600
   type: SRV
@@ -400,26 +399,26 @@ _sips._tcp.meet.video:
   ttl: 300
   type: SRV
   values:
-    - port: 5061
-      priority: 10
-      target: px01.meet.video.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 10
-      target: px02.meet.video.justice.gov.uk
-      weight: 10
+  - port: 5061
+    priority: 10
+    target: px01.meet.video.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 10
+    target: px02.meet.video.justice.gov.uk
+    weight: 10
 _sips._tcp.video:
   ttl: 300
   type: SRV
   values:
-    - port: 5061
-      priority: 10
-      target: px01.video.justice.gov.uk
-      weight: 10
-    - port: 5061
-      priority: 10
-      target: px02.video.justice.gov.uk
-      weight: 10
+  - port: 5061
+    priority: 10
+    target: px01.video.justice.gov.uk
+    weight: 10
+  - port: 5061
+    priority: 10
+    target: px02.video.justice.gov.uk
+    weight: 10
 _smtp._tls:
   ttl: 300
   type: TXT
@@ -441,18 +440,18 @@ adcourt._domainkey.administrativecourtoffice:
   type: TXT
   value: v=DKIM1\; k=rsa\; t=s\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo/yrXLY2upCZjWvrEJPSr+RXhnQDcKlsycRi1t4N+R8c+oiqSKumZpnnOaRd6rX3mgn4sb3WEmgv+9FxTDKSWF4TZvdBiLYG3/F3nHCIixTjp4bH""uv4MUjLR+1knzmWK8CtEUENmrIWlxMLMXcryR9lVvyNG6pqS4pNcKWHu4f/fyq6i+LSB1QqQGXZfqi/gfsrBD4ZyCvXH+3tlNgd03HM1PNHaUKXZe+fZEEZW8v1zttsJ+mOyF494Af59xO0xCS4V+CTQGeha/4c/nI36WFz/rfFI+CtjHjq0c046VLURIex08V4fxlngtZi7buAlS6kpS57wbOkHzstI/+jyAQIDAQAB
 administrativecourtoffice:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: cluster5.eu.messagelabs.com
-        preference: 10
-      - exchange: cluster5a.eu.messagelabs.com
-        preference: 20
-  - type: TXT
-    values:
-      - C0E4N61551
-      - MS=ms89669471
-      - v=spf1 include:spf.messagelabs.com -all
+- ttl: 300
+  type: MX
+  values:
+  - exchange: cluster5.eu.messagelabs.com
+    preference: 10
+  - exchange: cluster5a.eu.messagelabs.com
+    preference: 20
+- type: TXT
+  values:
+  - C0E4N61551
+  - MS=ms89669471
+  - v=spf1 include:spf.messagelabs.com -all
 aka:
   ttl: 300
   type: CNAME
@@ -487,10 +486,10 @@ az:
   ttl: 300
   type: NS
   values:
-    - ns1-09.azure-dns.com
-    - ns2-09.azure-dns.net
-    - ns2-09.azure-dns.org
-    - ns4-09.azure-dns.info
+  - ns1-09.azure-dns.com
+  - ns2-09.azure-dns.net
+  - ns2-09.azure-dns.org
+  - ns4-09.azure-dns.info
 bench.courtstore:
   ttl: 300
   type: A
@@ -507,23 +506,23 @@ blogs:
   ttl: 900
   type: NS
   values:
-    - ns-1034.awsdns-01.org.
-    - ns-1678.awsdns-17.co.uk.
-    - ns-393.awsdns-49.com.
-    - ns-856.awsdns-43.net.
+  - ns-1034.awsdns-01.org.
+  - ns-1678.awsdns-17.co.uk.
+  - ns-393.awsdns-49.com.
+  - ns-856.awsdns-43.net.
 bs7fgun22ztsnycpk3h3kz55apoqkmpw._domainkey.uat.ppud:
   ttl: 300
   type: CNAME
   value: bs7fgun22ztsnycpk3h3kz55apoqkmpw.dkim.amazonses.com
 ca:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: ca-justice-gov-uk.mail.protection.outlook.com
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:spf.protection.outlook.com -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: ca-justice-gov-uk.mail.protection.outlook.com
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:spf.protection.outlook.com -all
 careertransition:
   ttl: 600
   type: A
@@ -532,10 +531,10 @@ casetracker:
   ttl: 14400
   type: NS
   values:
-    - ns-1433.awsdns-51.org.
-    - ns-1897.awsdns-45.co.uk.
-    - ns-293.awsdns-36.com.
-    - ns-724.awsdns-26.net.
+  - ns-1433.awsdns-51.org.
+  - ns-1897.awsdns-45.co.uk.
+  - ns-293.awsdns-36.com.
+  - ns-724.awsdns-26.net.
 ccmstraining:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -548,34 +547,34 @@ certificatedbailiffs:
   ttl: 60
   type: NS
   values:
-    - ns-1051.awsdns-03.org
-    - ns-1940.awsdns-50.co.uk
-    - ns-347.awsdns-43.com
-    - ns-587.awsdns-09.net
+  - ns-1051.awsdns-03.org
+  - ns-1940.awsdns-50.co.uk
+  - ns-347.awsdns-43.com
+  - ns-587.awsdns-09.net
 certificates:
   ttl: 300
   type: NS
   values:
-    - ns-1398.awsdns-46.org.
-    - ns-2033.awsdns-62.co.uk.
-    - ns-466.awsdns-58.com.
-    - ns-722.awsdns-26.net.
+  - ns-1398.awsdns-46.org.
+  - ns-2033.awsdns-62.co.uk.
+  - ns-466.awsdns-58.com.
+  - ns-722.awsdns-26.net.
 civil-casetracker:
   ttl: 300
   type: NS
   values:
-    - ns-1488.awsdns-58.org.
-    - ns-1702.awsdns-20.co.uk.
-    - ns-343.awsdns-42.com.
-    - ns-934.awsdns-52.net.
+  - ns-1488.awsdns-58.org.
+  - ns-1702.awsdns-20.co.uk.
+  - ns-343.awsdns-42.com.
+  - ns-934.awsdns-52.net.
 civil-eligibility-calculator:
   ttl: 300
   type: NS
   values:
-    - ns-1044.awsdns-02.org.
-    - ns-1729.awsdns-24.co.uk.
-    - ns-7.awsdns-00.com.
-    - ns-725.awsdns-26.net.
+  - ns-1044.awsdns-02.org.
+  - ns-1729.awsdns-24.co.uk.
+  - ns-7.awsdns-00.com.
+  - ns-725.awsdns-26.net.
 civilmediation:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -585,35 +584,35 @@ civilmediation:
     name: dualstack.civil-mediation-load-377727311.eu-west-2.elb.amazonaws.com.
     type: A
 cjscp:
-  - ttl: 600
-    type: MX
-    values:
-      - exchange: mx00003.skyscapecloud.com.
-        preference: 10
-      - exchange: mx00004.skyscapecloud.com.
-        preference: 10
-  - ttl: 600
-    type: TXT
-    value: v=spf1 mx -all
+- ttl: 600
+  type: MX
+  values:
+  - exchange: mx00003.skyscapecloud.com.
+    preference: 10
+  - exchange: mx00004.skyscapecloud.com.
+    preference: 10
+- ttl: 600
+  type: TXT
+  value: v=spf1 mx -all
 cjsm:
   ttl: 900
   type: NS
   values:
-    - ns-1011.awsdns-62.net.
-    - ns-1398.awsdns-46.org.
-    - ns-1759.awsdns-27.co.uk.
-    - ns-24.awsdns-03.com.
+  - ns-1011.awsdns-62.net.
+  - ns-1398.awsdns-46.org.
+  - ns-1759.awsdns-27.co.uk.
+  - ns-24.awsdns-03.com.
 cjsm.secure-email.ppud:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: relay1.cjsm.secure-email.ppud.justice.gov.uk
-        preference: 10
-      - exchange: relay2.cjsm.secure-email.ppud.justice.gov.uk
-        preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ip4:18.169.26.236 ip4:3.9.111.144 ~all
+- ttl: 300
+  type: MX
+  values:
+  - exchange: relay1.cjsm.secure-email.ppud.justice.gov.uk
+    preference: 10
+  - exchange: relay2.cjsm.secure-email.ppud.justice.gov.uk
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 ip4:18.169.26.236 ip4:3.9.111.144 ~all
 claonlineadvice:
   ttl: 600
   type: A
@@ -643,45 +642,45 @@ consult:
   type: CNAME
   value: cs-moj.delib.net.
 contact:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: mail.contact.justice.gov.uk
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ip4:51.143.128.114  -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: mail.contact.justice.gov.uk
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 ip4:51.143.128.114  -all
 courtfines:
   ttl: 172800
   type: NS
   values:
-    - ns-1087.awsdns-07.org.
-    - ns-1734.awsdns-24.co.uk.
-    - ns-45.awsdns-05.com.
-    - ns-649.awsdns-17.net.
+  - ns-1087.awsdns-07.org.
+  - ns-1734.awsdns-24.co.uk.
+  - ns-45.awsdns-05.com.
+  - ns-649.awsdns-17.net.
 courtstore:
-  - ttl: 600
-    type: A
-    value: 35.177.112.189
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
-  - ttl: 300
-    type: TXT
-    values:
-      - apple-domain-verification=50f0lhf7PW4g8oXe
-      - google-site-verification=Nth0cgF0QH5N62b8dNqgsit8N3okHPzips4MlRHrBM8
-      - v=spf1 include:_spf.google.com -all
+- ttl: 600
+  type: A
+  value: 35.177.112.189
+- ttl: 300
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- ttl: 300
+  type: TXT
+  values:
+  - apple-domain-verification=50f0lhf7PW4g8oXe
+  - google-site-verification=Nth0cgF0QH5N62b8dNqgsit8N3okHPzips4MlRHrBM8
+  - v=spf1 include:_spf.google.com -all
 courtstorepp:
   ttl: 600
   type: A
@@ -694,68 +693,71 @@ crimeportal:
   ttl: 300
   type: NS
   values:
-    - ns1-01.azure-dns.com
-    - ns2-01.azure-dns.net
-    - ns3-01.azure-dns.org
-    - ns4-01.azure-dns.info
+  - ns1-01.azure-dns.com
+  - ns2-01.azure-dns.net
+  - ns3-01.azure-dns.org
+  - ns4-01.azure-dns.info
 criminal-justice-delivery-data-dashboards:
   ttl: 300
   type: NS
   values:
-    - ns-111.awsdns-13.com.
-    - ns-1144.awsdns-15.org.
-    - ns-2040.awsdns-63.co.uk.
-    - ns-830.awsdns-39.net.
+  - ns-111.awsdns-13.com.
+  - ns-1144.awsdns-15.org.
+  - ns-2040.awsdns-63.co.uk.
+  - ns-830.awsdns-39.net.
 criminal-justice-scorecard:
-  - ttl: 300
-    type: NS
-    values:
-      - ns-1184.awsdns-20.org.
-      - ns-133.awsdns-16.com.
-      - ns-1809.awsdns-34.co.uk.
-      - ns-537.awsdns-03.net.
-  - ttl: 60
-    type: TXT
-    value: Reserved for the Criminal Justice Scorecard project
+- ttl: 300
+  type: NS
+  values:
+  - ns-1184.awsdns-20.org.
+  - ns-133.awsdns-16.com.
+  - ns-1809.awsdns-34.co.uk.
+  - ns-537.awsdns-03.net.
+- ttl: 60
+  type: TXT
+  value: Reserved for the Criminal Justice Scorecard project
 criminalappealoffice:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: cluster5.eu.messagelabs.com
-        preference: 10
-      - exchange: cluster5a.eu.messagelabs.com
-        preference: 20
-  - type: TXT
-    values:
-      - C0E4N61551
-      - MS=ms43105042
-      - v=spf1 include:spf.messagelabs.com -all
+- ttl: 300
+  type: MX
+  values:
+  - exchange: cluster5.eu.messagelabs.com
+    preference: 10
+  - exchange: cluster5a.eu.messagelabs.com
+    preference: 20
+- type: TXT
+  values:
+  - C0E4N61551
+  - MS=ms43105042
+  - v=spf1 include:spf.messagelabs.com -all
 cshrcasework:
-  - type: MX
-    value:
-      exchange: cshrcasework-justice-gov-uk.mail.protection.outlook.com
-      preference: 0
-  - type: TXT
-    values:
-      - MS=ms66139249
-      - google-site-verification=uRR2XrKfUfGdUn3CWNiZINvZRxOXkZAU6RYe7BGXO70
-      - v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
-      - v=spf1 include:spf.protection.outlook.com -all
+- type: MX
+  value:
+    exchange: cshrcasework-justice-gov-uk.mail.protection.outlook.com
+    preference: 0
+- type: TXT
+  values:
+  - MS=ms66139249
+  - google-site-verification=uRR2XrKfUfGdUn3CWNiZINvZRxOXkZAU6RYe7BGXO70
+  - v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+  - v=spf1 include:spf.protection.outlook.com -all
 cshrcaseworkcma:
-  - ttl: 942942942
-    type: Route53Provider/ALIAS
-    value:
-      evaluate-target-health: false
-      hosted-zone-id: ZHURV8PSTC4K8
-      name: dualstack.cshr-cma-prod-web-alb-01-698927512.eu-west-2.elb.amazonaws.com.
-      type: A
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:amazonses.com -all
+- ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: dualstack.cshr-cma-prod-web-alb-01-698927512.eu-west-2.elb.amazonaws.com.
+    type: A
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com -all
 d1rs:
   ttl: 600
   type: NS
-  values: [ns1.uk.atos.net., ns2.uk.atos.net., ns3.uk.atos.net.]
+  values:
+  - ns1.uk.atos.net.
+  - ns2.uk.atos.net.
+  - ns3.uk.atos.net.
 da7smfnubppxwxgxaowqamccdqhcozpu._domainkey.internaltest.ppud:
   ttl: 300
   type: CNAME
@@ -764,39 +766,39 @@ data:
   ttl: 600
   type: NS
   values:
-    - ns-1352.awsdns-41.org.
-    - ns-1660.awsdns-15.co.uk.
-    - ns-223.awsdns-27.com.
-    - ns-640.awsdns-16.net.
+  - ns-1352.awsdns-41.org.
+  - ns-1660.awsdns-15.co.uk.
+  - ns-223.awsdns-27.com.
+  - ns-640.awsdns-16.net.
 demo:
   ttl: 86400
   type: NS
   values:
-    - ns-1143.awsdns-14.org
-    - ns-1918.awsdns-47.co.uk
-    - ns-487.awsdns-60.com
-    - ns-841.awsdns-41.net
+  - ns-1143.awsdns-14.org
+  - ns-1918.awsdns-47.co.uk
+  - ns-487.awsdns-60.com
+  - ns-841.awsdns-41.net
 demo.courtstore:
   ttl: 600
   type: A
   value: 83.151.216.196
 design102:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: .
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ip4:78.31.110.246  -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: .
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 ip4:78.31.110.246  -all
 dev:
   ttl: 86400
   type: NS
   values:
-    - ns-1062.awsdns-04.org
-    - ns-1960.awsdns-53.co.uk
-    - ns-294.awsdns-36.com
-    - ns-649.awsdns-17.net
+  - ns-1062.awsdns-04.org
+  - ns-1960.awsdns-53.co.uk
+  - ns-294.awsdns-36.com
+  - ns-649.awsdns-17.net
 dev.cjscp:
   ttl: 600
   type: A
@@ -805,24 +807,24 @@ dev.nac:
   ttl: 300
   type: NS
   values:
-    - ns-1116.awsdns-11.org.
-    - ns-1793.awsdns-32.co.uk.
-    - ns-508.awsdns-63.com.
-    - ns-722.awsdns-26.net.
+  - ns-1116.awsdns-11.org.
+  - ns-1793.awsdns-32.co.uk.
+  - ns-508.awsdns-63.com.
+  - ns-722.awsdns-26.net.
 devbuild.cjscp:
   ttl: 600
   type: A
   value: 83.151.216.178
 devl:
-  - ttl: 300
-    type: NS
-    values:
-      - ns-1267.awsdns-30.org.
-      - ns-2037.awsdns-62.co.uk.
-      - ns-358.awsdns-44.com.
-      - ns-965.awsdns-56.net.
-  - type: TXT
-    value: MS=ms94518993
+- ttl: 300
+  type: NS
+  values:
+  - ns-1267.awsdns-30.org.
+  - ns-2037.awsdns-62.co.uk.
+  - ns-358.awsdns-44.com.
+  - ns-965.awsdns-56.net.
+- type: TXT
+  value: MS=ms94518993
 devsandbox.cjscp:
   ttl: 600
   type: A
@@ -831,29 +833,29 @@ digital:
   ttl: 48600
   type: NS
   values:
-    - ns-1458.awsdns-54.org.
-    - ns-1776.awsdns-30.co.uk.
-    - ns-284.awsdns-35.com.
-    - ns-527.awsdns-01.net.
-dkim2048._domainkey.people-development:
-  ttl: 300
-  type: TXT
-  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA37IkYQ4qfWIHIF44LxwMOvrp2gZ36lV03BPO1J8zy+pDwznnXvH1J8nmWU/db2Lo61pVTaUxWOv5m1c4ng2GhjObBaey27UMbRYjNjOAoyPOp/WX0yK6YCeDKyNhoumLr/PqJO1IJpfq1X9EoCKhbpR8p5U""92jiS9zLaluwBHo37nO04YSK8qvpPuVj2IDlIdVNuH+wuzlYxtNoLJ4vUnl95Re+3p89Yaplh1vdRWXfDK/tzbO7F+jLOBxaLURD+wjYAcOUh/q+GyG5YT8md6RYGKs7Fl3TWOu90so5MCl8ropqcGwAr9sXHu6ELIyNGOO7gllWTGHjEoWDfxskQSQIDAQAB
+  - ns-1458.awsdns-54.org.
+  - ns-1776.awsdns-30.co.uk.
+  - ns-284.awsdns-35.com.
+  - ns-527.awsdns-01.net.
 dkim.co._domainkey:
   ttl: 60
   type: TXT
   value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4qJi51KV7QeEoq6NT3KdI33PpanNW7emjHVt1twUB9UfKO6YeFihVHfHFfw/IVYOJ8malWOHkVHeP2DOCXg1dJYNmxER/5wnHpVaIjIU1FnoRAnLTLmgU0QqeEzhG8""xd6edSMgKj+GnpTb/zja0aNyKNi4Osd8sRXwwY/Fa7n2yT4JT/XgDCjnK591+jtVcOzqPGGD1wyaZSDROc8twRBnwk1w2udWmXLWilj0H2/r4oiX6DnDIQYBK1k2px+VWm8dta5HG15C0POv90/pZPlppa51EBEjB2jWH4xWMc/XLCuwqEbtaBCxpTQR8QJJY1fM6cDcwWhJpvsbWo4OYbmwIDAQAB
+dkim2048._domainkey.people-development:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA37IkYQ4qfWIHIF44LxwMOvrp2gZ36lV03BPO1J8zy+pDwznnXvH1J8nmWU/db2Lo61pVTaUxWOv5m1c4ng2GhjObBaey27UMbRYjNjOAoyPOp/WX0yK6YCeDKyNhoumLr/PqJO1IJpfq1X9EoCKhbpR8p5U""92jiS9zLaluwBHo37nO04YSK8qvpPuVj2IDlIdVNuH+wuzlYxtNoLJ4vUnl95Re+3p89Yaplh1vdRWXfDK/tzbO7F+jLOBxaLURD+wjYAcOUh/q+GyG5YT8md6RYGKs7Fl3TWOu90so5MCl8ropqcGwAr9sXHu6ELIyNGOO7gllWTGHjEoWDfxskQSQIDAQAB
 drs:
   ttl: 600
   type: A
   value: 62.208.154.185
 dzc:
-  - ttl: 600
-    type: A
-    value: 157.203.176.165
-  - ttl: 600
-    type: TXT
-    value: C7ExaWUK
+- ttl: 600
+  type: A
+  value: 157.203.176.165
+- ttl: 600
+  type: TXT
+  value: C7ExaWUK
 eat75rimokuwmhwl3jgruwwxghgmltna._domainkey:
   ttl: 300
   type: CNAME
@@ -867,14 +869,14 @@ email.ppud:
   type: A
   value: 13.42.91.90
 enclave:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: enclave-justice-gov-uk.mail.protection.outlook.com.
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:spf.protection.outlook.com -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: enclave-justice-gov-uk.mail.protection.outlook.com.
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:spf.protection.outlook.com -all
 enterpriseenrollment:
   ttl: 600
   type: CNAME
@@ -908,12 +910,12 @@ esourcing:
   type: A
   value: 205.139.89.225
 fax:
-  - type: MX
-    value:
-      exchange: fax-justice-gov-uk.mail.protection.outlook.com
-      preference: 0
-  - type: TXT
-    value: v=spf1 include:spf.protection.outlook.com ~all
+- type: MX
+  value:
+    exchange: fax-justice-gov-uk.mail.protection.outlook.com
+    preference: 0
+- type: TXT
+  value: v=spf1 include:spf.protection.outlook.com ~all
 feeaccount:
   ttl: 600
   type: CNAME
@@ -923,16 +925,16 @@ feeaccounttest:
   type: CNAME
   value: feeaccounttest.ito.unisys.com.
 find-legal-advice:
-  - ttl: 600
-    type: A
-    value: 80.86.42.106
-  - ttl: 300
-    type: NS
-    values:
-      - ns-1022.awsdns-63.net.
-      - ns-1392.awsdns-46.org.
-      - ns-180.awsdns-22.com.
-      - ns-2041.awsdns-63.co.uk.
+- ttl: 600
+  type: A
+  value: 80.86.42.106
+- ttl: 300
+  type: NS
+  values:
+  - ns-1022.awsdns-63.net.
+  - ns-1392.awsdns-46.org.
+  - ns-180.awsdns-22.com.
+  - ns-2041.awsdns-63.co.uk.
 fmk7xlvhjfqqruhiytlb6434lcykrduv._domainkey:
   ttl: 300
   type: TXT
@@ -948,14 +950,10 @@ g:
   ttl: 600
   type: NS
   values:
-    - ns-1437.awsdns-51.org.
-    - ns-2040.awsdns-63.co.uk.
-    - ns-258.awsdns-32.com.
-    - ns-930.awsdns-52.net.
-google2d7e970fc70e33ba:
-  ttl: 600
-  type: CNAME
-  value: google.com.
+  - ns-1437.awsdns-51.org.
+  - ns-2040.awsdns-63.co.uk.
+  - ns-258.awsdns-32.com.
+  - ns-930.awsdns-52.net.
 google._domainkey:
   ttl: 600
   type: TXT
@@ -968,6 +966,10 @@ google._domainkey.courtstore.staging:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApqfF0gFxKSvqon8AyUse9ZOPILWxtEp""Wvul48X42AzRXYVJDIQEAwBY4yPsMdg2DZA4v8BfkVS8XvcxpdrQ9Nn45q9kq7HOFd/Se0me""Y41HJVbk8lfZ1/vEDsGmHcibHc0C0JFx/ggqeoCAcv2llGV5+qp1EdUgy""XoBkKOz7IyoBjKQFQ39bVb17F4jOQ8HcbxE2sYon69nmDvB084jCToz2FYm""b4q087/SqYv6p7Td6VU4Ndsfm81tV9LRJRfNA3wbiXfD6bN9HWHzWCKQpnzr9Mxz3Zwad0lIhaFYqbEux0LyyuDrFRD0x+7mTJCCnBgDJUXtp7GhHie8hUgV6/wIDAQAB
+google2d7e970fc70e33ba:
+  ttl: 600
+  type: CNAME
+  value: google.com.
 governance:
   ttl: 600
   type: A
@@ -977,22 +979,22 @@ gqfoktjhnbvi6ffqmjofiys7rslq42ye._domainkey.certificates:
   type: CNAME
   value: gqfoktjhnbvi6ffqmjofiys7rslq42ye.dkim.amazonses.com
 gs:
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com
-        preference: 10
-  - ttl: 600
-    type: TXT
-    value: google-site-verification=zTDywdx3jcS5WvIZ7jT1T7gXqfo7RPo3ZfLfJA_rIZQ
+- ttl: 300
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com
+    preference: 10
+- ttl: 600
+  type: TXT
+  value: google-site-verification=zTDywdx3jcS5WvIZ7jT1T7gXqfo7RPo3ZfLfJA_rIZQ
 hmctscourtfinder:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1013,10 +1015,10 @@ hmctsformfinder:
   ttl: 600
   type: NS
   values:
-    - ns-1148.awsdns-15.org.
-    - ns-1594.awsdns-07.co.uk.
-    - ns-458.awsdns-57.com.
-    - ns-575.awsdns-07.net.
+  - ns-1148.awsdns-15.org.
+  - ns-1594.awsdns-07.co.uk.
+  - ns-458.awsdns-57.com.
+  - ns-575.awsdns-07.net.
 hmctsformfinder.bl:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1026,14 +1028,14 @@ hmctsformfinder.bl:
     name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
     type: A
 hmctssurvey:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: .
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 nclude:spf.ssmx.net ~all
+- ttl: 300
+  type: MX
+  value:
+    exchange: .
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 nclude:spf.ssmx.net ~all
 hmiprobationeforms:
   ttl: 600
   type: A
@@ -1042,50 +1044,50 @@ hmpp-azdt:
   ttl: 300
   type: NS
   values:
-    - ns1-08.azure-dns.com.
-    - ns2-08.azure-dns.net.
-    - ns3-08.azure-dns.org.
-    - ns4-08.azure-dns.info.
+  - ns1-08.azure-dns.com.
+  - ns2-08.azure-dns.net.
+  - ns3-08.azure-dns.org.
+  - ns4-08.azure-dns.info.
 hmppgw1:
   ttl: 600
   type: NS
   values:
-    - ns1-06.azure-dns.com.
-    - ns2-06.azure-dns.net.
-    - ns3-06.azure-dns.org.
-    - ns4-06.azure-dns.info.
+  - ns1-06.azure-dns.com.
+  - ns2-06.azure-dns.net.
+  - ns3-06.azure-dns.org.
+  - ns4-06.azure-dns.info.
 hmppgw2:
   ttl: 600
   type: NS
   values:
-    - ns1-04.azure-dns.com.
-    - ns2-04.azure-dns.net.
-    - ns3-04.azure-dns.org.
-    - ns4-04.azure-dns.info.
+  - ns1-04.azure-dns.com.
+  - ns2-04.azure-dns.net.
+  - ns3-04.azure-dns.org.
+  - ns4-04.azure-dns.info.
 hmpps-az-gw1:
   ttl: 300
   type: NS
   values:
-    - ns1-06.azure-dns.com.
-    - ns2-06.azure-dns.net.
-    - ns3-06.azure-dns.org.
-    - ns4-06.azure-dns.info.
+  - ns1-06.azure-dns.com.
+  - ns2-06.azure-dns.net.
+  - ns3-06.azure-dns.org.
+  - ns4-06.azure-dns.info.
 immigrationappealsonline:
   ttl: 600
   type: NS
   values:
-    - ns-1400.awsdns-47.org
-    - ns-20.awsdns-02.com
-    - ns-2045.awsdns-63.co.uk
-    - ns-670.awsdns-19.net
+  - ns-1400.awsdns-47.org
+  - ns-20.awsdns-02.com
+  - ns-2045.awsdns-63.co.uk
+  - ns-670.awsdns-19.net
 in-addr:
   ttl: 300
   type: NS
   values:
-    - ns-1169.awsdns-18.org.
-    - ns-2038.awsdns-62.co.uk.
-    - ns-454.awsdns-56.com.
-    - ns-968.awsdns-57.net.
+  - ns-1169.awsdns-18.org.
+  - ns-2038.awsdns-62.co.uk.
+  - ns-454.awsdns-56.com.
+  - ns-968.awsdns-57.net.
 internalaudit:
   ttl: 600
   type: A
@@ -1106,10 +1108,10 @@ intranet:
   ttl: 600
   type: NS
   values:
-    - ns-1046.awsdns-02.org.
-    - ns-1773.awsdns-29.co.uk.
-    - ns-697.awsdns-23.net.
-    - ns-77.awsdns-09.com.
+  - ns-1046.awsdns-02.org.
+  - ns-1773.awsdns-29.co.uk.
+  - ns-697.awsdns-23.net.
+  - ns-77.awsdns-09.com.
 jira.cjscp:
   ttl: 600
   type: CNAME
@@ -1118,10 +1120,10 @@ jobs:
   ttl: 10800
   type: NS
   values:
-    - ns-1332.awsdns-38.org
-    - ns-1916.awsdns-47.co.uk
-    - ns-531.awsdns-02.net
-    - ns-98.awsdns-12.com
+  - ns-1332.awsdns-38.org
+  - ns-1916.awsdns-47.co.uk
+  - ns-531.awsdns-02.net
+  - ns-98.awsdns-12.com
 join.meet.video:
   ttl: 300
   type: A
@@ -1130,10 +1132,10 @@ juror-bureau:
   ttl: 300
   type: NS
   values:
-    - ns1-05.azure-dns.com
-    - ns2-05.azure-dns.net
-    - ns3-05.azure-dns.org
-    - ns4-05.azure-dns.info
+  - ns1-05.azure-dns.com
+  - ns2-05.azure-dns.net
+  - ns3-05.azure-dns.org
+  - ns4-05.azure-dns.info
 juror-bureau-nle:
   ttl: 300
   type: A
@@ -1170,10 +1172,10 @@ legal-aid-checker:
   ttl: 900
   type: NS
   values:
-    - ns-1095.awsdns-08.org.
-    - ns-1948.awsdns-51.co.uk.
-    - ns-285.awsdns-35.com.
-    - ns-759.awsdns-30.net.
+  - ns-1095.awsdns-08.org.
+  - ns-1948.awsdns-51.co.uk.
+  - ns-285.awsdns-35.com.
+  - ns-759.awsdns-30.net.
 legaladviserfinder:
   ttl: 600
   type: CNAME
@@ -1214,10 +1216,10 @@ llrs:
   ttl: 600
   type: NS
   values:
-    - ns-1134.awsdns-13.org
-    - ns-1732.awsdns-24.co.uk
-    - ns-242.awsdns-30.com
-    - ns-911.awsdns-49.net
+  - ns-1134.awsdns-13.org
+  - ns-1732.awsdns-24.co.uk
+  - ns-242.awsdns-30.com
+  - ns-911.awsdns-49.net
 llrs.nle:
   ttl: 60
   type: A
@@ -1233,29 +1235,29 @@ mail:
   ttl: 600
   type: A
   value: 157.203.177.182
-mail1.criminalappealoffice:
-  - ttl: 300
-    type: A
-    value: 178.248.34.43
-  - ttl: 300
-    type: TXT
-    value: 2023100512295066wskn0790wjkn68f9l9rq5klf9siskhuhue56wicgicbnwr3b
-mail2:
-  ttl: 600
-  type: A
-  value: 208.51.151.2
 mail.contact:
   ttl: 300
   type: A
   value: 51.143.128.114
+mail1.criminalappealoffice:
+- ttl: 300
+  type: A
+  value: 178.248.34.43
+- ttl: 300
+  type: TXT
+  value: 2023100512295066wskn0790wjkn68f9l9rq5klf9siskhuhue56wicgicbnwr3b
+mail2:
+  ttl: 600
+  type: A
+  value: 208.51.151.2
 makeaplea:
   ttl: 600
   type: NS
   values:
-    - ns-1074.awsdns-06.org.
-    - ns-1720.awsdns-23.co.uk.
-    - ns-427.awsdns-53.com.
-    - ns-895.awsdns-47.net.
+  - ns-1074.awsdns-06.org.
+  - ns-1720.awsdns-23.co.uk.
+  - ns-427.awsdns-53.com.
+  - ns-895.awsdns-47.net.
 mal01:
   ttl: 600
   type: A
@@ -1265,17 +1267,17 @@ mal03:
   type: A
   value: 195.59.62.70
 mappa:
-  - ttl: 600
-    type: A
-    value: 31.25.189.126
-  - ttl: 600
-    type: MX
-    value:
-      exchange: mail.hosting.inovem.com.
-      preference: 5
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ~all
+- ttl: 600
+  type: A
+  value: 31.25.189.126
+- ttl: 600
+  type: MX
+  value:
+    exchange: mail.hosting.inovem.com.
+    preference: 5
+- ttl: 300
+  type: TXT
+  value: v=spf1 ~all
 markuppp:
   ttl: 600
   type: A
@@ -1388,23 +1390,23 @@ nac:
   ttl: 300
   type: NS
   values:
-    - ns-1446.awsdns-52.org.
-    - ns-2001.awsdns-58.co.uk.
-    - ns-543.awsdns-03.net.
-    - ns-57.awsdns-07.com.
+  - ns-1446.awsdns-52.org.
+  - ns-2001.awsdns-58.co.uk.
+  - ns-543.awsdns-03.net.
+  - ns-57.awsdns-07.com.
 network:
   ttl: 300
   type: TXT
   value: reserverd for internal use
 nicts:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: nicts-justice-gov-uk.mail.protection.outlook.com.
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:spf.protection.outlook.com -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: nicts-justice-gov-uk.mail.protection.outlook.com.
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:spf.protection.outlook.com -all
 nogh2wrclnc7kkukcm26lowx6qdmbs3w._domainkey:
   ttl: 300
   type: CNAME
@@ -1413,56 +1415,56 @@ nomisqc:
   ttl: 300
   type: NS
   values:
-    - ns-1464.awsdns-55.org.
-    - ns-1849.awsdns-39.co.uk.
-    - ns-486.awsdns-60.com.
-    - ns-960.awsdns-56.net.
+  - ns-1464.awsdns-55.org.
+  - ns-1849.awsdns-39.co.uk.
+  - ns-486.awsdns-60.com.
+  - ns-960.awsdns-56.net.
 noms:
   ttl: 600
   type: CNAME
   value: noms.homeoffice.gov.uk.
 noreply:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: justice-gov-uk.mail.protection.outlook.com.
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:194.33.192.201/32 ip4:194.33.192.202/32
-      ip4:194.33.196.201/32 ip4:194.33.196.202/32 ip4:195.59.75.140/32 ip4:195.59.75.12/32
-      -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: justice-gov-uk.mail.protection.outlook.com.
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:194.33.192.201/32 ip4:194.33.192.202/32
+    ip4:194.33.196.201/32 ip4:194.33.196.202/32 ip4:195.59.75.140/32 ip4:195.59.75.12/32
+    -all
 noreply.internaltest.ppud:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: feedback-smtp.eu-west-2.amazonses.com
-      preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:amazonses.com -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: feedback-smtp.eu-west-2.amazonses.com
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com -all
 noreply.uat.ppud:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: feedback-smtp.eu-west-2.amazonses.com
-      preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:amazonses.com ~all
+- ttl: 300
+  type: MX
+  value:
+    exchange: feedback-smtp.eu-west-2.amazonses.com
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com ~all
 oe3ypkjre4ra5oziwhkhas46xq7zomtm._domainkey.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
   value: oe3ypkjre4ra5oziwhkhas46xq7zomtm.dkim.amazonses.com
 official:
-  - type: MX
-    value:
-      exchange: official-justice-gov-uk.mail.protection.outlook.com
-      preference: 0
-  - type: TXT
-    values:
-      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-      - v=spf1 include:spf.protection.outlook.com -all
+- type: MX
+  value:
+    exchange: official-justice-gov-uk.mail.protection.outlook.com
+    preference: 0
+- type: TXT
+  values:
+  - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+  - v=spf1 include:spf.protection.outlook.com -all
 one3one:
   ttl: 300
   type: CNAME
@@ -1472,16 +1474,16 @@ open:
   type: CNAME
   value: bouncer-cdn.production.govuk.service.gov.uk
 optic:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: optic-justice-gov-uk.mail.protection.outlook.com
-      preference: 0
-  - ttl: 60
-    type: TXT
-    values:
-      - amazonses:brpgA+nYWbeXbq05BWkw0znt7qzeOXcRRork8ZaTJlQ=
-      - v=spf1 include:spf.protection.outlook.com include:amazonses.com -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: optic-justice-gov-uk.mail.protection.outlook.com
+    preference: 0
+- ttl: 60
+  type: TXT
+  values:
+  - amazonses:brpgA+nYWbeXbq05BWkw0znt7qzeOXcRRork8ZaTJlQ=
+  - v=spf1 include:spf.protection.outlook.com include:amazonses.com -all
 panacea-moj._domainkey.design102:
   ttl: 300
   type: CNAME
@@ -1499,47 +1501,49 @@ pctest:
   type: A
   value: 195.59.75.156
 people-development:
-  - ttl: 300
-    type: A
-    values: [162.159.140.128, 172.66.0.126]
-  - ttl: 300
-    type: CAA
-    value:
-      flags: 0
-      tag: issue
-      value: pki.goog
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: r1-smtp-in-1.dotdigital.com
-        preference: 10
-      - exchange: r1-smtp-in-2.dotdigital.com
-        preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:spf.dotmailer.com -all
+- ttl: 300
+  type: A
+  values:
+  - 162.159.140.128
+  - 172.66.0.126
+- ttl: 300
+  type: CAA
+  value:
+    flags: 0
+    tag: issue
+    value: pki.goog
+- ttl: 300
+  type: MX
+  values:
+  - exchange: r1-smtp-in-1.dotdigital.com
+    preference: 10
+  - exchange: r1-smtp-in-2.dotdigital.com
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:spf.dotmailer.com -all
 perf.courtstore:
-  - ttl: 600
-    type: A
-    value: 51.179.193.67
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
-  - ttl: 300
-    type: TXT
-    values:
-      - google-site-verification=_ddDla0QaTcjKV5-KS1pOP5mPawCieNoirKehWsPo2E
-      - v=spf1 include:_spf.google.com -all
+- ttl: 600
+  type: A
+  value: 51.179.193.67
+- ttl: 300
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- ttl: 300
+  type: TXT
+  values:
+  - google-site-verification=_ddDla0QaTcjKV5-KS1pOP5mPawCieNoirKehWsPo2E
+  - v=spf1 include:_spf.google.com -all
 pleuralplaques:
   ttl: 600
   type: A
@@ -1552,18 +1556,18 @@ pre-recorded-evidence:
   ttl: 300
   type: NS
   values:
-    - ns1-02.azure-dns.com.
-    - ns2-02.azure-dns.net.
-    - ns3-02.azure-dns.org.
-    - ns4-02.azure-dns.info.
+  - ns1-02.azure-dns.com.
+  - ns2-02.azure-dns.net.
+  - ns3-02.azure-dns.org.
+  - ns4-02.azure-dns.info.
 prep.nac:
   ttl: 300
   type: NS
   values:
-    - ns-1494.awsdns-58.org.
-    - ns-1610.awsdns-09.co.uk.
-    - ns-400.awsdns-50.com.
-    - ns-779.awsdns-33.net.
+  - ns-1494.awsdns-58.org.
+  - ns-1610.awsdns-09.co.uk.
+  - ns-400.awsdns-50.com.
+  - ns-779.awsdns-33.net.
 preprod.cjscp:
   ttl: 600
   type: A
@@ -1588,10 +1592,10 @@ producttracker:
   ttl: 43200
   type: NS
   values:
-    - ns-1422.awsdns-49.org.
-    - ns-2000.awsdns-58.co.uk.
-    - ns-58.awsdns-07.com.
-    - ns-597.awsdns-10.net.
+  - ns-1422.awsdns-49.org.
+  - ns-2000.awsdns-58.co.uk.
+  - ns-58.awsdns-07.com.
+  - ns-597.awsdns-10.net.
 px01.meet.video:
   ttl: 300
   type: A
@@ -1613,34 +1617,30 @@ qc10.nomisqc:
   type: CNAME
   value: nomisqc.justice.gov.uk.
 relay0.cjsm.secure-email.ppud:
-  - ttl: 300
-    type: A
-    value: 10.27.9.39
-  - ttl: 300
-    type: PTR
-    value: 10.27.9.39
+- ttl: 300
+  type: A
+  value: 10.27.9.39
+- ttl: 300
+  type: PTR
+  value: 10.27.9.39
 relay1.cjsm.secure-email.ppud:
-  - ttl: 300
-    type: A
-    value: 3.9.111.144
-  - ttl: 300
-    type: PTR
-    value: 3.9.111.144
+- ttl: 300
+  type: A
+  value: 3.9.111.144
+- ttl: 300
+  type: PTR
+  value: 3.9.111.144
 relay2.cjsm.secure-email.ppud:
-  - ttl: 300
-    type: A
-    value: 18.169.26.236
-  - ttl: 300
-    type: PTR
-    value: 18.169.26.236
-rvc1.lrc:
+- ttl: 300
+  type: A
+  value: 18.169.26.236
+- ttl: 300
+  type: PTR
+  value: 18.169.26.236
+rvc-pp.lrc:
   ttl: 600
   type: A
-  value: 213.121.161.118
-rvc2.lrc:
-  ttl: 600
-  type: A
-  value: 213.121.161.119
+  value: 157.203.177.175
 rvc-pp1.lrc:
   ttl: 600
   type: A
@@ -1649,14 +1649,18 @@ rvc-pp2.lrc:
   ttl: 600
   type: A
   value: 157.203.177.177
-rvc-pp.lrc:
-  ttl: 600
-  type: A
-  value: 157.203.177.175
 rvc.lrc:
   ttl: 600
   type: A
   value: 213.121.161.117
+rvc1.lrc:
+  ttl: 600
+  type: A
+  value: 213.121.161.118
+rvc2.lrc:
+  ttl: 600
+  type: A
+  value: 213.121.161.119
 s1._domainkey.cjscp:
   ttl: 300
   type: CNAME
@@ -1664,7 +1668,6 @@ s1._domainkey.cjscp:
 s1._domainkey.cjsm.secure-email.ppud:
   ttl: 300
   type: TXT
-  # yamllint disable-line rule:line-length
   value: v=DKIM1\;t=s\;""p=MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqBp46Uo7o6UlqVbKLAQ/ZzcVu2ThvrLoWnbd11pJKKukuUBLch5J4UhB9TeMOnM99RfilzD/srAyV6ZZuOw1oST4OMYlc7zoe+QG3OGjY4JPO9vyhSQQvuDdb4""1esPtaMfdeF6DhNGEux10erIvSwnxYSWQf8vM7OpvLX5S+XUA4yCMN8XspgUjtqeLaoSah7tEjjvv3hT/HDbj4WXjpkXojSynFPdQB4x368cBljG4ltPSR88MCLun/k1kII2sIadLnqSqS3IZd5EvJQrjMsgCeeXD3m""KObrksp0TxkM7ASPbUAQAcnXksCMP0kqdF5dtcB14tlgZG6qD5kJNO+IIrFvjsipu126LsVceaQ6ShY5A7POW/L+V9p0dcLNxGIMh196kAG8GLDWGw+uWEeZ+K6HyTdcasQW3Y5+ukKbI1mxHjyUz6kdC6jDvYl8xse4H5yWZ/tYMbcMTvob8pMZMLWuEkSrRGJDAFrVydjSs3cC7N08tWVVO1rCXdGKhgjyeUJxj2nDlHmLsfIxv""cTdLSzqdKNKl3uNGs8ewzB3VYJT8maovUl3gQIZsgMGHdHIlr2jqQ7SBFF97mxvEmra+rHpFlnXcg7X03OiZYuf5YtIWxFjUULZq99O9PMgnNMqyJVUmUQxhMgwAGWZfZteIvZVi8qlkLFLrLMuWggEW8CAwEAAQ==
 s2._domainkey.cjscp:
   ttl: 300
@@ -1686,6 +1689,10 @@ secure-email.ppud:
   ttl: 300
   type: A
   value: 3.11.130.215
+selector._domainkey.hmctssurvey:
+  ttl: 300
+  type: CNAME
+  value: hmctsdkim.ssmx.net
 selector1._domainkey:
   type: CNAME
   value: selector1-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
@@ -1731,41 +1738,45 @@ selector2._domainkey.nicts:
   ttl: 300
   type: CNAME
   value: selector2-nicts-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com
-selector._domainkey.hmctssurvey:
-  ttl: 300
-  type: CNAME
-  value: hmctsdkim.ssmx.net
 sendmoneytoaprisoner:
   type: NS
   values:
-    - ns-1308.awsdns-35.org.
-    - ns-1741.awsdns-25.co.uk.
-    - ns-277.awsdns-34.com.
-    - ns-711.awsdns-24.net.
+  - ns-1308.awsdns-35.org.
+  - ns-1741.awsdns-25.co.uk.
+  - ns-277.awsdns-34.com.
+  - ns-711.awsdns-24.net.
 sentencing:
   ttl: 600
   type: A
   value: 80.86.42.110
 service:
-  ttl: 600
-  type: NS
-  values:
-    - ns-1389.awsdns-45.org.
-    - ns-1621.awsdns-10.co.uk.
-    - ns-187.awsdns-23.com.
-    - ns-978.awsdns-58.net.
+  ttl: '300'
+  type: TXT
+  value: text.record.value
 sip.meet.video:
   ttl: 300
   type: A
-  values: [35.246.125.146, 35.246.64.24]
+  values:
+  - 35.246.125.146
+  - 35.246.64.24
 sip.video:
   ttl: 300
   type: A
-  values: [35.246.26.18, 35.246.61.112]
+  values:
+  - 35.246.26.18
+  - 35.246.61.112
 smtp:
   ttl: 600
   type: A
-  values: [194.33.192.8, 194.33.196.8]
+  values:
+  - 194.33.192.8
+  - 194.33.196.8
+smtp.test:
+  ttl: 600
+  type: A
+  values:
+  - 195.59.75.12
+  - 195.59.75.140
 smtp01:
   ttl: 300
   type: A
@@ -1782,10 +1793,6 @@ smtp04:
   ttl: 300
   type: A
   value: 194.33.196.202
-smtp.test:
-  ttl: 600
-  type: A
-  values: [195.59.75.12, 195.59.75.140]
 srs0001:
   ttl: 600
   type: A
@@ -1814,34 +1821,37 @@ stage:
   ttl: 86400
   type: NS
   values:
-    - ns-1312.awsdns-36.org
-    - ns-1814.awsdns-34.co.uk
-    - ns-273.awsdns-34.com
-    - ns-782.awsdns-33.net
+  - ns-1312.awsdns-36.org
+  - ns-1814.awsdns-34.co.uk
+  - ns-273.awsdns-34.com
+  - ns-782.awsdns-33.net
 staging.courtstore:
-  - ttl: 300
-    type: A
-    value: 18.170.166.172
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:_spf.google.com -all
+- ttl: 300
+  type: A
+  value: 18.170.166.172
+- ttl: 300
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:_spf.google.com -all
 sts:
   ttl: 600
   type: NS
-  values: [ns1.uk.atos.net., ns2.uk.atos.net., ns3.uk.atos.net.]
+  values:
+  - ns1.uk.atos.net.
+  - ns2.uk.atos.net.
+  - ns3.uk.atos.net.
 support.cjscp:
   ttl: 600
   type: CNAME
@@ -1854,23 +1864,23 @@ test:
   ttl: 600
   type: NS
   values:
-    - ns-1433.awsdns-51.org.
-    - ns-1893.awsdns-44.co.uk.
-    - ns-455.awsdns-56.com.
-    - ns-590.awsdns-09.net.
+  - ns-1433.awsdns-51.org.
+  - ns-1893.awsdns-44.co.uk.
+  - ns-455.awsdns-56.com.
+  - ns-590.awsdns-09.net.
 test.cjscp:
   ttl: 600
   type: A
   value: 83.151.216.181
 test.noreply.internaltest.ppud:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: feedback-smtp.eu-west-2.amazonses.com
-      preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:amazonses.com ~all
+- ttl: 300
+  type: MX
+  value:
+    exchange: feedback-smtp.eu-west-2.amazonses.com
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com ~all
 testdt:
   ttl: 300
   type: CNAME
@@ -1888,16 +1898,16 @@ u4wwsopiajlepnevuytnwa3ob34xisjv._domainkey:
   type: TXT
   value: u4wwsopiajlepnevuytnwa3ob34xisjv.dkim.amazonses.com
 uat.cshrcaseworkcma:
-  - ttl: 942942942
-    type: Route53Provider/ALIAS
-    value:
-      evaluate-target-health: true
-      hosted-zone-id: ZHURV8PSTC4K8
-      name: dualstack.cshr-cma-uat-web-alb-01-130925050.eu-west-2.elb.amazonaws.com.
-      type: A
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:amazonses.com -all
+- ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: ZHURV8PSTC4K8
+    name: dualstack.cshr-cma-uat-web-alb-01-130925050.eu-west-2.elb.amazonaws.com.
+    type: A
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com -all
 uat.ppud:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1917,7 +1927,9 @@ ul5ni2ujr4yk2y5txdb6rxzmj6ko3hw2._domainkey.uat.cshrcaseworkcma:
 videoportal:
   ttl: 300
   type: A
-  values: [10.171.6.59, 10.172.6.59]
+  values:
+  - 10.171.6.59
+  - 10.172.6.59
 vkssamelrhssixbcd3ljtet6ir336zjm._domainkey.internaltest.ppud:
   ttl: 300
   type: CNAME
@@ -1926,10 +1938,10 @@ vpn:
   ttl: 300
   type: NS
   values:
-    - ns-1088.awsdns-08.org.
-    - ns-1588.awsdns-06.co.uk.
-    - ns-388.awsdns-48.com.
-    - ns-667.awsdns-19.net.
+  - ns-1088.awsdns-08.org.
+  - ns-1588.awsdns-06.co.uk.
+  - ns-388.awsdns-48.com.
+  - ns-667.awsdns-19.net.
 wam.ppud:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1962,10 +1974,10 @@ webchat:
   ttl: 900
   type: NS
   values:
-    - ns-1467.awsdns-55.org.
-    - ns-1741.awsdns-25.co.uk.
-    - ns-25.awsdns-03.com.
-    - ns-787.awsdns-34.net.
+  - ns-1467.awsdns-55.org.
+  - ns-1741.awsdns-25.co.uk.
+  - ns-25.awsdns-03.com.
+  - ns-787.awsdns-34.net.
 wiki.cjscp:
   ttl: 600
   type: CNAME
@@ -1974,10 +1986,10 @@ www:
   ttl: 60
   type: NS
   values:
-    - ns-1252.awsdns-28.org
-    - ns-1636.awsdns-12.co.uk
-    - ns-394.awsdns-49.com
-    - ns-545.awsdns-04.net
+  - ns-1252.awsdns-28.org
+  - ns-1636.awsdns-12.co.uk
+  - ns-394.awsdns-49.com
+  - ns-545.awsdns-04.net
 www.careertransition:
   ttl: 600
   type: A
@@ -2078,47 +2090,47 @@ xhibit:
   ttl: 600
   type: NS
   values:
-    - ns-1197.awsdns-21.org.
-    - ns-1755.awsdns-27.co.uk.
-    - ns-5.awsdns-00.com.
-    - ns-632.awsdns-15.net.
+  - ns-1197.awsdns-21.org.
+  - ns-1755.awsdns-27.co.uk.
+  - ns-5.awsdns-00.com.
+  - ns-632.awsdns-15.net.
 ybtj:
   ttl: 900
   type: NS
   values:
-    - ns-126.awsdns-15.com.
-    - ns-1434.awsdns-51.org.
-    - ns-1894.awsdns-44.co.uk.
-    - ns-695.awsdns-22.net.
+  - ns-126.awsdns-15.com.
+  - ns-1434.awsdns-51.org.
+  - ns-1894.awsdns-44.co.uk.
+  - ns-695.awsdns-22.net.
 yfhsqenllotvbodabclcnq5bwpommspr._domainkey.certificates:
   ttl: 1800
   type: CNAME
   value: yfhsqenllotvbodabclcnq5bwpommspr.dkim.amazonses.com
 yjaf-smtp:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: feedback-smtp.eu-west-2.amazonses.com
-      preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:amazonses.com -all
+- ttl: 300
+  type: MX
+  value:
+    exchange: feedback-smtp.eu-west-2.amazonses.com
+    preference: 10
+- ttl: 300
+  type: TXT
+  value: v=spf1 include:amazonses.com -all
 yjbpublications:
   ttl: 900
   type: NS
   values:
-    - ns-1481.awsdns-57.org.
-    - ns-1881.awsdns-43.co.uk.
-    - ns-247.awsdns-30.com.
-    - ns-536.awsdns-03.net.
+  - ns-1481.awsdns-57.org.
+  - ns-1881.awsdns-43.co.uk.
+  - ns-247.awsdns-30.com.
+  - ns-536.awsdns-03.net.
 yjils:
   ttl: 900
   type: NS
   values:
-    - ns-1509.awsdns-60.org.
-    - ns-1777.awsdns-30.co.uk.
-    - ns-294.awsdns-36.com.
-    - ns-526.awsdns-01.net.
+  - ns-1509.awsdns-60.org.
+  - ns-1777.awsdns-30.co.uk.
+  - ns-294.awsdns-36.com.
+  - ns-526.awsdns-01.net.
 yots.courtstore:
   ttl: 600
   type: A
