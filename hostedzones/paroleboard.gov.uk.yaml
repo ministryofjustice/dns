@@ -39,7 +39,7 @@ _asvdns-5799bcf5-6136-4b92-a9f7-4cec52700cee:
 _cccbf7aa1e242b94727e9b3c150b2868.sopvpn:
   ttl: 300
   type: CNAME
-  value: 2c94ac273e46ccb91172724c670a3b5d.dcf82a62a4892c42c49b25dfe3ad228d.aa33b76722ce5e67f56a.sectigo.com.
+  value: 2C94AC273E46CCB91172724C670A3B5D.DCF82A62A4892C42C49B25DFE3AD228D.9d9a6782c960da0080bb.sectigo.com.
 _d362da6a5ebefca52f3db9a59b650a1e.sopvpn:
   ttl: 300
   type: CNAME
