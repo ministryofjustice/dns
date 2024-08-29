@@ -236,11 +236,11 @@ _h323cs._tcp.meet.video:
   values:
     - port: 1720
       priority: 10
-      target: px01.meet.video.justice.gov.uk
+      target: lon-epsig-wrk1.prod.cvp.call.vc.
       weight: 10
     - port: 1720
       priority: 10
-      target: px02.meet.video.justice.gov.uk
+      target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
 _h323cs._tcp.video:
   ttl: 300
@@ -260,11 +260,11 @@ _h323ls._udp.meet.video:
   values:
     - port: 1719
       priority: 10
-      target: px01.meet.video.justice.gov.uk
+      target: lon-epsig-wrk1.prod.cvp.call.vc.
       weight: 10
     - port: 1719
       priority: 10
-      target: px02.meet.video.justice.gov.uk
+      target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
 _h323ls._udp.video:
   ttl: 300
@@ -284,11 +284,11 @@ _h323rs._udp.meet.video:
   values:
     - port: 1719
       priority: 10
-      target: px01.meet.video.justice.gov.uk
+      target: lon-epsig-wrk1.prod.cvp.call.vc.
       weight: 10
     - port: 1719
       priority: 10
-      target: px02.meet.video.justice.gov.u
+      target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
 _h323rs._udp.video:
   ttl: 300
@@ -316,11 +316,11 @@ _pexapp._tcp.meet.video:
   values:
     - port: 443
       priority: 10
-      target: px01.meet.video.justice.gov.uk
+      target: lon-epsig-wrk1.prod.cvp.call.vc.
       weight: 10
     - port: 443
       priority: 10
-      target: px02.meet.video.justice.gov.uk
+      target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
 _pexapp._tcp.video:
   ttl: 300
@@ -340,11 +340,11 @@ _sip._tcp.meet.video:
   values:
     - port: 5060
       priority: 10
-      target: px01.meet.video.justice.gov.uk
+      target: lon-epsig-wrk1.prod.cvp.call.vc.
       weight: 10
     - port: 5060
       priority: 10
-      target: px02.meet.video.justice.gov.uk
+      target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
 _sip._tcp.video:
   ttl: 300
@@ -373,14 +373,6 @@ _sipfederationtls._tcp.cshrcasework:
     priority: 100
     target: sipfed.online.lync.com
     weight: 1
-_sipfederationtls._tcp.meet.video:
-  ttl: 300
-  type: SRV
-  value:
-    port: 5061
-    priority: 10
-    target: sip.meet.video.justice.gov.uk
-    weight: 10
 _sipfederationtls._tcp.official:
   type: SRV
   value:
@@ -402,11 +394,11 @@ _sips._tcp.meet.video:
   values:
     - port: 5061
       priority: 10
-      target: px01.meet.video.justice.gov.uk
+      target: lon-epsig-wrk1.prod.cvp.call.vc.
       weight: 10
     - port: 5061
       priority: 10
-      target: px02.meet.video.justice.gov.uk
+      target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
 _sips._tcp.video:
   ttl: 300
@@ -1124,8 +1116,8 @@ jobs:
     - ns-98.awsdns-12.com
 join.meet.video:
   ttl: 300
-  type: A
-  value: 35.246.120.206
+  type: CNAME
+  value: portal.prod.cvp.call.vc
 juror-bureau:
   ttl: 300
   type: NS
@@ -1290,8 +1282,8 @@ mctest:
   value: 195.59.75.157
 meet.video:
   ttl: 300
-  type: A
-  value: 35.246.120.206
+  type: CNAME
+  value: portal.prod.cvp.call.vc
 mercuryforms:
   ttl: 600
   type: A
@@ -1592,18 +1584,10 @@ producttracker:
     - ns-2000.awsdns-58.co.uk.
     - ns-58.awsdns-07.com.
     - ns-597.awsdns-10.net.
-px01.meet.video:
-  ttl: 300
-  type: A
-  value: 35.246.64.24
 px01.video:
   ttl: 300
   type: A
   value: 35.246.26.18
-px02.meet.video:
-  ttl: 300
-  type: A
-  value: 35.246.125.146
 px02.video:
   ttl: 300
   type: A
@@ -1754,10 +1738,6 @@ service:
     - ns-1621.awsdns-10.co.uk.
     - ns-187.awsdns-23.com.
     - ns-978.awsdns-58.net.
-sip.meet.video:
-  ttl: 300
-  type: A
-  values: [35.246.125.146, 35.246.64.24]
 sip.video:
   ttl: 300
   type: A
