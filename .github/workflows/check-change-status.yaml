@@ -27,20 +27,8 @@ jobs:
         run: |
           make install
 
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v45
-
-      - name: List all changed files
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: |
-          for file in ${ALL_CHANGED_FILES}; do
-            echo "$file was changed"
-          done
-
-      - name: Get changed hosted zone files
-        id: hosted-zone-file-changes
+      - name: Get hosted zone changed files
+        id: hosted-zone-changed-files
         uses: tj-actions/changed-files@40853de9f8ce2d6cfdc73c1b96f14e22ba44aec4 # v45.0.0
         with:
           files: |
@@ -48,10 +36,11 @@ jobs:
 
       - name: Set hosted zone changed files environment variable
         env:
-          HOSTED_ZONE_CHANGED_FILES: ${{ steps.hosted-zone-file-changes.outputs.all_changed_files }}
-        if: steps.hosted-zone-file-changes.outputs.any_changed == 'true'
+          HOSTED_ZONE_CHANGED_FILES: ${{ steps.hosted-zone-changed-files.outputs.all_changed_files }}
+        if: steps.hosted-zone-changed-files.outputs.any_changed == 'true'
         run: |
           echo "hosted_zone_changed_files=${HOSTED_ZONE_CHANGED_FILES}" >> "$GITHUB_ENV"
+          echo "$hosted_zone_changed_files"
 
       - name: Check change status
         run: |
