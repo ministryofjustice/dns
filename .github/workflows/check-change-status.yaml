@@ -39,22 +39,23 @@ jobs:
             echo "$file was changed"
           done
 
-#       - name: Get changed hosted zone files
-#         id: hosted-zone-file-changes
-#         uses: tj-actions/changed-files@40853de9f8ce2d6cfdc73c1b96f14e22ba44aec4 # v45.0.0
-#         with:
-#           files: |
-# #            hostedzones/**
+      - name: Get changed hosted zone files
+        id: hosted-zone-file-changes
+        uses: tj-actions/changed-files@40853de9f8ce2d6cfdc73c1b96f14e22ba44aec4 # v45.0.0
+        with:
+          files: |
+           hostedzones/**
 
-#       - name: Set hosted zone file changes environment variable
-#         if: steps.hosted-zone-file-changes.outputs.any_changed == 'true'
-#         run: |
-#           export hosted_zone_file_changes=""
-#           for file_path in ${{ steps.hosted-zone-file-changes.outputs.all_changed_files }}; do
-#             IFS='/' read -ra split_file_path <<< "$file_path"
-#             IFS='.' read -ra filename <<< "${split_file_path[-1]}"
-#             hosted_zone_file_changes="${hosted_zone_file_changes} ${filename[0]}"
-#           done
-#           echo "hosted_zone_file_changes=${hosted_zone_file_changes}" >> "$GITHUB_ENV"
-#           echo $hosted_zone_file_changes
+      - name: Set hosted zone file changes environment variable
+        if: steps.hosted-zone-file-changes.outputs.any_changed == 'true'
+        run: |
+          export hosted_zone_file_changes=""
+          for file_path in ${{ steps.hosted-zone-file-changes.outputs.all_changed_files }}; do
+            IFS='/' read -ra split_file_path <<< "$file_path"
+            IFS='.' read -ra filename <<< "${split_file_path[-1]}"
+            hosted_zone_file_changes="${hosted_zone_file_changes} ${filename[0]}"
+            echo "$hosted_zone_file_changes"
+          done
+          echo "hosted_zone_file_changes=${hosted_zone_file_changes}" >> "$GITHUB_ENV"
+          echo $hosted_zone_file_changes
 
