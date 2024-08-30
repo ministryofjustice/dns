@@ -24,6 +24,4 @@ class Route53Service:
                     return False
         return True
     
-    def get_hosted_zone_id_from_name(self, hosted_zone_name: str) -> str:
-        
-
+    # def get_hosted_zone_id_from_name(self, hosted_zone_name: str) -> str:
