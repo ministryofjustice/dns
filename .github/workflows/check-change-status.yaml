@@ -3,9 +3,9 @@ name: Check Change Status
 on:
   workflow_dispatch:
   push:
-    paths:
-      - "hostedzones/**"
-      - "config.yaml"
+    # paths:
+    #   - "hostedzones/**"
+    #   - "config.yaml"
     branches:
       - main
 # want this to be triggered by successful completion of OctoDNS Sync workflow
@@ -26,14 +26,34 @@ jobs:
         run: |
           make install
 
-      - name: Get changed hosted zones
-        run: |
-          echo "CHANGED_HOSTEDZONES=git diff --name-only hostedzones >> GITHUB_OUTPUT
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
 
-      # - name: Run OctoDNS sync
-      #   run: |
-      #     source venv/bin/activate
-      #     make sync-apply
-      #   env:
-      #     AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
-      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
+      - name: List all changed files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
+
+#       - name: Get changed hosted zone files
+#         id: hosted-zone-file-changes
+#         uses: tj-actions/changed-files@40853de9f8ce2d6cfdc73c1b96f14e22ba44aec4 # v45.0.0
+#         with:
+#           files: |
+# #            hostedzones/**
+
+#       - name: Set hosted zone file changes environment variable
+#         if: steps.hosted-zone-file-changes.outputs.any_changed == 'true'
+#         run: |
+#           export hosted_zone_file_changes=""
+#           for file_path in ${{ steps.hosted-zone-file-changes.outputs.all_changed_files }}; do
+#             IFS='/' read -ra split_file_path <<< "$file_path"
+#             IFS='.' read -ra filename <<< "${split_file_path[-1]}"
+#             hosted_zone_file_changes="${hosted_zone_file_changes} ${filename[0]}"
+#           done
+#           echo "hosted_zone_file_changes=${hosted_zone_file_changes}" >> "$GITHUB_ENV"
+#           echo $hosted_zone_file_changes
+
