@@ -23,3 +23,7 @@ class Route53Service:
                 if record_set["Type"] not in ["NS", "SOA"]:
                     return False
         return True
+    
+    def get_hosted_zone_id_from_name(self, hosted_zone_name: str) -> str:
+        
+

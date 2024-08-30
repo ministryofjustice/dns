@@ -1,0 +1,39 @@
+name: Check Change Status
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "hostedzones/**"
+      - "config.yaml"
+    branches:
+      - main
+# want this to be triggered by successful completion of OctoDNS Sync workflow
+
+jobs:
+  check-change-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          make install
+
+      - name: Get changed hosted zones
+        run: |
+          echo "CHANGED_HOSTEDZONES=git diff --name-only hostedzones >> GITHUB_OUTPUT
+
+      # - name: Run OctoDNS sync
+      #   run: |
+      #     source venv/bin/activate
+      #     make sync-apply
+      #   env:
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
