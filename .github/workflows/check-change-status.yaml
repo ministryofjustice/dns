@@ -54,4 +54,4 @@ jobs:
           echo "hosted_zone_changed_files=${HOSTED_ZONE_CHANGED_FILES}" >> "$GITHUB_ENV"
 
       - name: Check change status
-        run: python3 ../../check_change_status.py
+        run: python3 check_change_status.py
