@@ -9,10 +9,9 @@ def main():
     # service = Route53Service()
     # print(service.get_aws_zones())
     with open(env_file, "a", encoding="utf-8") as f:
-        lines = f.readlines()
-    for line in lines:
-        print(line)
-
+        lines = [line.rstrip() for line in file]
+    
+    print(lines)
 
 if __name__ == "__main__":
     main()
