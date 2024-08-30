@@ -46,16 +46,12 @@ jobs:
           files: |
            hostedzones/**
 
-      - name: Set hosted zone file changes environment variable
+      - name: Set hosted zone changed files environment variable
+        env:
+          HOSTED_ZONE_CHANGED_FILES: ${{ steps.hosted-zone-file-changes.outputs.all_changed_files }}
         if: steps.hosted-zone-file-changes.outputs.any_changed == 'true'
         run: |
-          export hosted_zone_file_changes=""
-          for file_path in ${{ steps.hosted-zone-file-changes.outputs.all_changed_files }}; do
-            IFS='/' read -ra split_file_path <<< "$file_path"
-            IFS='.' read -ra filename <<< "${split_file_path[-1]}"
-            hosted_zone_file_changes="${hosted_zone_file_changes} ${filename[0]}"
-            echo "$hosted_zone_file_changes"
-          done
-          echo "hosted_zone_file_changes=${hosted_zone_file_changes}" >> "$GITHUB_ENV"
-          echo $hosted_zone_file_changes
+          echo "hosted_zone_changed_files=${HOSTED_ZONE_CHANGED_FILES}" >> "$GITHUB_ENV"
 
+      - name: Check change status
+        run: python3 ../../check_change_status.py
