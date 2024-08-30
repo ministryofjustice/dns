@@ -14,6 +14,7 @@ def main():
     #     content = f.readlines()
 
     print(hosted_zone_changed_files)
+    print(hosted_zone_names)
 
 if __name__ == "__main__":
     main()
