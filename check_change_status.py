@@ -5,8 +5,8 @@ from providers.route53 import Route53Service
 
 hosted_zone_changed_files = os.getenv("hosted_zone_changed_files")
 
-# Strip hostedzones/ from prefix and .yaml from suffix
-hosted_zone_names = [path[12:-5] for path in hosted_zone_changed_files.split(" ")]
+# Strip prefix (12 characters of hostedzones/) and suffix (everythng from the last "." inclusive)
+hosted_zone_names = [path[12:path.rfind(".")] for path in hosted_zone_changed_files.split(" ")]
 
 def main():
     # # service = Route53Service()
