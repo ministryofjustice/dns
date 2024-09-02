@@ -31,9 +31,3 @@ def main():
     print(hosted_zone_ids)
 if __name__ == "__main__":
     main()
-
-# sifocc.org.uk
-# govfsl.com
-# yjb.gov.uk
-
-# hosted_zone_changed_files='hostedzones/sifocc.org.uk.yaml hostedzones/govfsl.com.yml hostedzones/yjb.gov.uk.yaml'
