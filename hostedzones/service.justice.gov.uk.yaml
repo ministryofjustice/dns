@@ -53,14 +53,14 @@ _33da21e90254237bcc4d8ad00bd3d118.security-training:
   ttl: 300
   type: CNAME
   value: _6165ac1a2a05feaefa1cc4aaf7d09b0b.kgnrpmcdhl.acm-validations.aws.
+_43DBD73C16B01AFE980415A84F3B092F.staging.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: 20477D669B5CED77E138EB5720D4FF75.64D9D29D9215A8479724F5C2794FA2E6.dabe41b5d35901e95d4d.sectigo.com.
 _047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
   value: _3adaedf9b6a02203fa8fa05d5e4df6e1.sdgjtdhdhz.acm-validations.aws.
-_59E0EA73F42CCD9BAC5B7D141F162C59.hmpps-canine-management:
-  ttl: 300
-  type: CNAME
-  value: 934074720C4E69907DA00101D5B4100D.D3B5DE6EDC9E127AF700C06913D46BDA.6fbc40a7097384fd9d1b.sectigo.com.
 _95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
   ttl: 300
   type: CNAME
@@ -77,10 +77,6 @@ _935f4ad292e31cb21e5bf6043b20a2bf.securecodewarrior:
   ttl: 300
   type: CNAME
   value: _f65a4f48e9990c0858b5134cdc625b9b.kzhndfqvzk.acm-validations.aws.
-_985AF129AE87A7054E017224D833BBD2.staging.hmpps-canine-management:
-  ttl: 300
-  type: CNAME
-  value: 964CBF6535706E1C3C237E53883FD2CE.7BD4CFCB74A84C8E2D7C301A0386EC67.bc05f4557ebe7cb8b79d.sectigo.com.
 _36085f4d854229b89162cf35526735a4.veracode:
   ttl: 300
   type: CNAME
