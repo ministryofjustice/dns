@@ -1577,7 +1577,7 @@ staging.crown-court-remuneration:
 staging.hmpps-canine-management:
   ttl: 300
   type: A
-  value: 10.193.168.37
+  value: 10.192.42.69
 staging.hmpps-performance-hub:
   ttl: 300
   type: CNAME
