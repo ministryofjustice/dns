@@ -39,6 +39,10 @@
   ttl: 300
   type: CNAME
   value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com
+6zbhv7347nomwa5tilvvgcmsdknyag4i._domainkey:
+  ttl: 300
+  type: CNAME
+  value: 6zbhv7347nomwa5tilvvgcmsdknyag4i.dkim.amazonses.com
 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
   ttl: 300
   type: CNAME
@@ -491,6 +495,10 @@ az:
     - ns2-09.azure-dns.net
     - ns2-09.azure-dns.org
     - ns4-09.azure-dns.info
+b5syah776wafoph5prwdqqnigtjyik6w._domainkey:
+  ttl: 300
+  type: CNAME
+  value: b5syah776wafoph5prwdqqnigtjyik6w.dkim.amazonses.com
 bench.courtstore:
   ttl: 300
   type: A
@@ -686,6 +694,10 @@ courtstorepp:
   ttl: 600
   type: A
   value: 51.231.96.56
+cq3mh4ftbnkkms4mvugdai4yxrgcxrdi._domainkey:
+  ttl: 300
+  type: CNAME
+  value: cq3mh4ftbnkkms4mvugdai4yxrgcxrdi.dkim.amazonses.com
 crimcourt._domainkey.criminalappealoffice:
   ttl: 300
   type: TXT
