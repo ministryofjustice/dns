@@ -1,0 +1,6 @@
+test:
+  ttl: '300'
+  type: NS
+  values:
+  - ns1.example.com
+  - " ns2.example.com\r\n"
