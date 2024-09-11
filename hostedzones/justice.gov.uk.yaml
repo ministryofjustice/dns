@@ -67,6 +67,10 @@ _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_59E94273E0395C5F67E57A64A5DF70C6.libra-prod.apps:
+  ttl: 300
+  type: CNAME
+  value: DD2FB8C222EE35F50D4951D2D3A2FBED.A3BAB8145E770BE27DAF216AD2314BA5.e1442ecf0d373d1b4f96.sectigo.com.
 _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
