@@ -650,9 +650,13 @@ data-platform:
     - ns-473.awsdns-59.com.
     - ns-714.awsdns-25.net.
 design-patterns:
-  ttl: 60
-  type: CNAME
-  value: ministryofjustice.github.io
+  ttl: 300
+  type: NS
+  values:
+    - ns-1427.awsdns-50.org.
+    - ns-1918.awsdns-47.co.uk.
+    - ns-208.awsdns-26.com.
+    - ns-836.awsdns-40.net.
 dev.join-github:
   ttl: 300
   type: NS
