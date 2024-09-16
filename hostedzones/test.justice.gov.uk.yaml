@@ -1,6 +1,5 @@
----
-'':
-  - ttl: 600
+? ''
+: - ttl: 600
     type: MX
     value:
       exchange: test-justice-gov-uk.mail.protection.outlook.com.
@@ -8,17 +7,17 @@
   - ttl: 172800
     type: NS
     values:
-      - ns-1433.awsdns-51.org.
-      - ns-1893.awsdns-44.co.uk.
-      - ns-455.awsdns-56.com.
-      - ns-590.awsdns-09.net.
+    - ns-1433.awsdns-51.org.
+    - ns-1893.awsdns-44.co.uk.
+    - ns-455.awsdns-56.com.
+    - ns-590.awsdns-09.net.
   - ttl: 600
     type: TXT
     values:
-      - CJB4eDFHApptKGleyfdsYETS5iWsnpXxjV7KZuMplC7RJjAKFPeuW+EaDMasS4dbfmAvUM5NPyLqk8XRCWCTmQ==
-      - MS=ms21450401
-      - v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32 include:spf.protection.outlook.com
-        ~all
+    - CJB4eDFHApptKGleyfdsYETS5iWsnpXxjV7KZuMplC7RJjAKFPeuW+EaDMasS4dbfmAvUM5NPyLqk8XRCWCTmQ==
+    - MS=ms21450401
+    - v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32 include:spf.protection.outlook.com
+      ~all
 _580ab60a2ee907dfb79b7e31cc74603c.mta-sts:
   ttl: 300
   type: CNAME
@@ -54,13 +53,17 @@ cloud-platform:
   ttl: 300
   type: CNAME
   value: demo-app.acme-apps.cloud-platform-test-13.k8s.integration.dsd.io.
+dns-example:
+  ttl: '300'
+  type: A
+  value: 1.1.1.1
 dzc:
-  - ttl: 600
-    type: A
-    value: 157.203.177.179
-  - ttl: 600
-    type: TXT
-    value: Mq9AgcAW
+- ttl: 600
+  type: A
+  value: 157.203.177.179
+- ttl: 600
+  type: TXT
+  value: Mq9AgcAW
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com.
@@ -68,18 +71,18 @@ enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net.
 fax:
-  - ttl: 300
-    type: A
-    value: 2.2.2.2
-  - ttl: 300
-    type: MX
-    value:
-      exchange: fax-test-justice-gov-uk.mail.protection.outlook.com
-      preference: 0
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32  include:spf.protection.outlook.com
-      ~all
+- ttl: 300
+  type: A
+  value: 2.2.2.2
+- ttl: 300
+  type: MX
+  value:
+    exchange: fax-test-justice-gov-uk.mail.protection.outlook.com
+    preference: 0
+- ttl: 300
+  type: TXT
+  value: v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32  include:spf.protection.outlook.com
+    ~all
 fp01._domainkey:
   ttl: 600
   type: TXT
@@ -126,12 +129,14 @@ selector2._domainkey.fax:
 smtp:
   ttl: 600
   type: A
-  values: [195.59.75.12, 195.59.75.140]
+  values:
+  - 195.59.75.12
+  - 195.59.75.140
 sts:
   ttl: 600
   type: NS
   values:
-    - ns-1234.awsdns-26.org.
-    - ns-1810.awsdns-34.co.uk.
-    - ns-401.awsdns-50.com.
-    - ns-760.awsdns-31.net.
+  - ns-1234.awsdns-26.org.
+  - ns-1810.awsdns-34.co.uk.
+  - ns-401.awsdns-50.com.
+  - ns-760.awsdns-31.net.
