@@ -28,6 +28,10 @@ _9da00739498cdee5a1a19390aae22b37.mta-sts:
   ttl: 60
   type: CNAME
   value: _845bf7d02211cdfb7b9644f8b0a06a7f.mhbtsbpdnt.acm-validations.aws.
+_FEA45CDCC0B56557A7F4D16BDF971401.sopvpn:
+  ttl: 300
+  type: CNAME
+  value: 345EB1264F606DB84170445B305C7151.CB00F786F10426011A4DC4AD99108DFC.c85338bd89702f36fcc.sectigo.com.
 _a114e38d82c755ce883c37f350dada85.sopvpn:
   ttl: 300
   type: CNAME
@@ -48,10 +52,6 @@ _dc33ec263a21d26946f2143d35971eca.sopvpn:
   ttl: 300
   type: CNAME
   value: 5a8e12fb5730a937ca2fda24efd9a98b.eb3e6280a645bb04ee1c1f9e6b565d1e.8261562a528e0312643d.sectigo.com.
-_FEA45CDCC0B56557A7F4D16BDF971401.sopvpn.paroleboard.gov.uk:
-  ttl: 300
-  type: CNAME
-  value: 345EB1264F606DB84170445B305C7151.CB00F786F10426011A4DC4AD99108DFC.c85338bd89702f36fcc.sectigo.com.
 _dmarc:
   type: TXT
   value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@paroleboard.gov.uk
