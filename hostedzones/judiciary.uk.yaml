@@ -25,6 +25,7 @@
       - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:78.31.108.141 include:spf.protection.outlook.com
         include:ciphr247.com -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - rfpi1va7dtqmdgthssu2skjjqf
 5vl4vla56j76p3obneqqnjelrynl2kiv._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: 5vl4vla56j76p3obneqqnjelrynl2kiv.dkim.amazonses.com
