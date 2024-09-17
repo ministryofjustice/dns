@@ -1,15 +1,12 @@
 name: Check Change Status
 
 on:
-  pull_request:
+  workflow_run:
+    workflows: [OctoDNS Sync]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
-  push:
-    # paths:
-    #   - "hostedzones/**"
-    #   - "config.yaml"
-    branches:
-      - main
-# want this to be triggered by successful completion of OctoDNS Sync workflow
+
 
 jobs:
   check-change-status:
