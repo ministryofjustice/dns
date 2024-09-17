@@ -52,8 +52,13 @@ jobs:
         run: |
           source venv/bin/activate
           python3 check_change_status.py
+          echo "change_summary_output=$output" >> $GITHUB_OUTPUT
 
-      - name: Send notification to Slack
-        uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
+      - name: Test output retrieval
+        run: |
+          echo $change_summary_output
+
+      # - name: Send notification to Slack
+      #   uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
 
 

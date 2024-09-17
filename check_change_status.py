@@ -41,33 +41,35 @@ def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
 
 def main():
 
-    hosted_zone_names = get_hosted_zone_names_from_changed_files(
-        hosted_zone_changed_files
-    )
+    # hosted_zone_names = get_hosted_zone_names_from_changed_files(
+    #     hosted_zone_changed_files
+    # )
 
-    hosted_zone_ids_and_names = get_hosted_zone_ids_from_names(
-        hosted_zone_names
-    )
+    # hosted_zone_ids_and_names = get_hosted_zone_ids_from_names(
+    #     hosted_zone_names
+    # )
 
-    change_status_summaries = []
-    for hosted_zone_id_and_name in hosted_zone_ids_and_names:
-        change_id = get_change_id_for_latest_change_to_hosted_zone(
-            hosted_zone_id=hosted_zone_id_and_name[0]
-        )
+    # change_status_summaries = []
+    # for hosted_zone_id_and_name in hosted_zone_ids_and_names:
+    #     change_id = get_change_id_for_latest_change_to_hosted_zone(
+    #         hosted_zone_id=hosted_zone_id_and_name[0]
+    #     )
 
-        service = Route53Service()
-        change_status = service.get_change_status(change_id=change_id)
+    #     service = Route53Service()
+    #     change_status = service.get_change_status(change_id=change_id)
 
-        summary = (
-            f"\nCHANGE STATUS for HZ NAME: {hosted_zone_id_and_name[1]}" +
-            f"\nHZ ID: {hosted_zone_id_and_name[0]}" +
-            f"\nCHANGE ID: {change_id}" +
-            f"\nCHANGE STATUS: {change_status.get('ChangeInfo').get('Status')}"
-        )
-        change_status_summaries.append(summary)
+    #     summary = (
+    #         f"\nCHANGE STATUS for HZ NAME: {hosted_zone_id_and_name[1]}" +
+    #         f"\nHZ ID: {hosted_zone_id_and_name[0]}" +
+    #         f"\nCHANGE ID: {change_id}" +
+    #         f"\nCHANGE STATUS: {change_status.get('ChangeInfo').get('Status')}"
+    #     )
+    #     change_status_summaries.append(summary)
         # print(f"{change_status}")
+    change_status_summaries = "Big cat dog"
 
-        return change_status_summaries
+    return change_status_summaries
 
 if __name__ == "__main__":
+    output = main()
     main()
