@@ -24,15 +24,12 @@ def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
     service = CloudTrailService()
     response = service.get_latest_n_change_resource_record_sets(n=5)
 
-    # Filter for octodns instigated ChangeResourceRecordSets events only
-    # and non-empty Resources matching ResourceName
     matching_events = []
     for event in response["Events"]:
         if event["Username"] == "octodns-cicd-user" and event["Resources"] and event["Resources"][0]["ResourceName"] == hosted_zone_id:
             matching_events.append(event)
 
     # First matching event is the most recent
-    # The CloudTrailEvent section is JSON
     first_matching_cloud_trail_event = json.loads(matching_events[0]["CloudTrailEvent"])
     change_id = first_matching_cloud_trail_event.get("responseElements").get("changeInfo").get("id")
 
