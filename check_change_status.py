@@ -80,6 +80,15 @@ def main():
         )
 
     ]
+    res_list = [
+        {"hz_name": "name1", "hz_id": "id1", "change_status": "pending"},
+        {"hz_name": "name2", "hz_id": "id2", "change_status": "insync"}
+
+    ]
+    change_status_summaries = ""
+    for res in res_list:
+        summary = f"\nChange Status for HZ: {res.get("hz_name")}\nHZ ID: {res.get("hz_id")}\nCHANGE STATUS: {res.get("change_status")}\n"
+        change_status_summaries += summary
 
     return change_status_summaries
 
