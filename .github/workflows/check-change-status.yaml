@@ -68,14 +68,14 @@ jobs:
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "⚠️ Test DNS Change Status Check ⚠️"
+                    "text": "📋 Test DNS Change Status Check"
                   }
                 },
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "${{ env.CHANGE_STATUS_OUTPUT }}"
+                    "text": "```${{ env.CHANGE_STATUS_OUTPUT }}```"
                   }
                 }
               ]
