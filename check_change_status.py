@@ -5,6 +5,7 @@ from providers.route53 import Route53Service
 from services.cloudtrail_service import CloudTrailService
 
 hosted_zone_changed_files = os.getenv("hosted_zone_changed_files")
+slack_token = os.environ.get("ADMIN_SLACK_TOKEN")
 
 def get_hosted_zone_names_from_changed_files(hosted_zone_changed_files: list) -> list:
     hosted_zone_names = [
@@ -34,7 +35,7 @@ def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
     # The CloudTrailEvent section is JSON
     first_matching_cloud_trail_event = json.loads(matching_events[0]["CloudTrailEvent"])
     change_id = first_matching_cloud_trail_event.get("responseElements").get("changeInfo").get("id")
-    
+
     return change_id
 
 
@@ -48,6 +49,7 @@ def main():
         hosted_zone_names
     )
 
+    change_status_summaries = []
     for hosted_zone_id_and_name in hosted_zone_ids_and_names:
         change_id = get_change_id_for_latest_change_to_hosted_zone(
             hosted_zone_id=hosted_zone_id_and_name[0]
@@ -55,8 +57,17 @@ def main():
 
         service = Route53Service()
         change_status = service.get_change_status(change_id=change_id)
-        print(f"\nCHANGE STATUS for HZ NAME: {hosted_zone_id_and_name[1]}, HZ ID: {hosted_zone_id_and_name[0]}, CHANGE ID: {change_id}")
-        print(f"{change_status}")
+
+        summary = (
+            f"\nCHANGE STATUS for HZ NAME: {hosted_zone_id_and_name[1]}" +
+            f"\nHZ ID: {hosted_zone_id_and_name[0]}" +
+            f"\nCHANGE ID: {change_id}" +
+            f"\nCHANGE STATUS: {change_status.get('ChangeInfo').get('Status')}"
+        )
+        change_status_summaries.append(summary)
+        # print(f"{change_status}")
+
+        return change_status_summaries
 
 if __name__ == "__main__":
     main()
