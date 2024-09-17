@@ -66,7 +66,20 @@ def main():
     #     )
     #     change_status_summaries.append(summary)
         # print(f"{change_status}")
-    change_status_summaries = "Big cat dog"
+    # change_status_summaries = "Big cat dog"
+
+    # try list of multiline vars
+    change_status_summaries = [
+        (
+            "\nSummary 1 Line 1" +
+            "\nSummary 1 Line 2"
+        ),
+        (
+            "\nSummary 2 Line 1" +
+            "\nSummary 2 Line 2"
+        )
+
+    ]
 
     return change_status_summaries
 
