@@ -41,55 +41,31 @@ def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
 
 def main():
 
-    # hosted_zone_names = get_hosted_zone_names_from_changed_files(
-    #     hosted_zone_changed_files
-    # )
+    hosted_zone_names = get_hosted_zone_names_from_changed_files(
+        hosted_zone_changed_files
+    )
 
-    # hosted_zone_ids_and_names = get_hosted_zone_ids_from_names(
-    #     hosted_zone_names
-    # )
+    hosted_zone_ids_and_names = get_hosted_zone_ids_from_names(
+        hosted_zone_names
+    )
 
-    # change_status_summaries = []
-    # for hosted_zone_id_and_name in hosted_zone_ids_and_names:
-    #     change_id = get_change_id_for_latest_change_to_hosted_zone(
-    #         hosted_zone_id=hosted_zone_id_and_name[0]
-    #     )
-
-    #     service = Route53Service()
-    #     change_status = service.get_change_status(change_id=change_id)
-
-    #     summary = (
-    #         f"\nCHANGE STATUS for HZ NAME: {hosted_zone_id_and_name[1]}" +
-    #         f"\nHZ ID: {hosted_zone_id_and_name[0]}" +
-    #         f"\nCHANGE ID: {change_id}" +
-    #         f"\nCHANGE STATUS: {change_status.get('ChangeInfo').get('Status')}"
-    #     )
-    #     change_status_summaries.append(summary)
-        # print(f"{change_status}")
-    # change_status_summaries = "Big cat dog"
-
-    # try list of multiline vars
-    change_status_summaries = [
-        (
-            "\nSummary 1 Line 1" +
-            "\nSummary 1 Line 2"
-        ),
-        (
-            "\nSummary 2 Line 1" +
-            "\nSummary 2 Line 2"
+    change_status_summaries = ""
+    for hosted_zone_id_and_name in hosted_zone_ids_and_names:
+        change_id = get_change_id_for_latest_change_to_hosted_zone(
+            hosted_zone_id=hosted_zone_id_and_name[0]
         )
 
-    ]
-    res_list = [
-        {"hz_name": "name1", "hz_id": "id1", "change_status": "pending"},
-        {"hz_name": "name2", "hz_id": "id2", "change_status": "insync"}
+        service = Route53Service()
+        change_status = service.get_change_status(change_id=change_id)
 
-    ]
-    change_status_summaries = ""
-    for res in res_list:
-        summary = f"\nChange Status for HZ: {res.get('hz_name')}\nHZ ID: {res.get('hz_id')}\nCHANGE STATUS: {res.get('change_status')}\n"
+        summary = (
+            f"\nCHANGE STATUS for HZ NAME: {hosted_zone_id_and_name[1]}" +
+            f"\nHZ ID: {hosted_zone_id_and_name[0]}" +
+            f"\nCHANGE ID: {change_id}" +
+            f"\nCHANGE STATUS: {change_status.get('ChangeInfo').get('Status')}"
+        )
         change_status_summaries += summary
-    print(change_status_summaries)
+
     return [change_status_summaries]
 
 if __name__ == "__main__":
