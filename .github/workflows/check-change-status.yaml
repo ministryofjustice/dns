@@ -44,19 +44,19 @@ jobs:
 
       - name: Check change status
         id: check-change-status
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
-          PYTHONUNBUFFERED: 1
         if: steps.hosted-zone-changed-files.outputs.any_changed == 'true'
         run: |
           source venv/bin/activate
           python3 check_change_status.py
-          echo "change_summary_output=$output" >> $GITHUB_OUTPUT
+        env:
+          CHANGE_STATUS_OUTPUT: ${{ env.CHANGE_STATUS_OUTPUT }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
+          PYTHONUNBUFFERED: 1
 
       - name: Test output retrieval
         run: |
-          echo ${{ steps.check-change-status.outputs.change_summary_output }}
+          echo $CHANGE_STATUS_OUTPUT
 
       # - name: Send notification to Slack
       #   uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0

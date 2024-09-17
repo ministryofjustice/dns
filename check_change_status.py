@@ -72,4 +72,7 @@ def main():
 
 if __name__ == "__main__":
     output = main()
+    env_file = os.getenv("GITHUB_ENV")
+    with open(env_file, "a", encoding="utf8") as f:
+        f.write(f"CHANGE_STATUS_OUTPUT={output}\n")
     main()
