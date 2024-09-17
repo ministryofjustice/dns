@@ -75,7 +75,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "```${{ fromJSON(env.CHANGE_STATUS_OUTPUT)[0] }}```"
+                    "text": "```${{ env.CHANGE_STATUS_OUTPUT }}```"
                   }
                 }
               ]
