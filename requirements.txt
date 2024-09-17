@@ -3,4 +3,3 @@ octodns==1.9.1
 octodns-route53==0.0.7
 pytest==8.1.1
 PyYAML==6.0.2rc1
-slack-sdk==3.27.1
