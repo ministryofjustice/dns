@@ -89,8 +89,8 @@ def main():
     for res in res_list:
         summary = f"\nChange Status for HZ: {res.get('hz_name')}\nHZ ID: {res.get('hz_id')}\nCHANGE STATUS: {res.get('change_status')}\n"
         change_status_summaries += summary
-
-    return change_status_summaries
+    print(change_status_summaries)
+    return [change_status_summaries]
 
 if __name__ == "__main__":
     output = main()
