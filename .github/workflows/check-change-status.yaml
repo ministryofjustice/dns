@@ -49,7 +49,7 @@ jobs:
           source venv/bin/activate
           python3 check_change_status.py
         env:
-          CHANGE_STATUS_OUTPUT: ${{ env.CHANGE_STATUS_OUTPUT }}
+          CHANGE_STATUS_OUTPUT: ${{ fromJSON(env.CHANGE_STATUS_OUTPUT) }}
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
           PYTHONUNBUFFERED: 1
@@ -75,7 +75,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "```${{ fromJSON(env.CHANGE_STATUS_OUTPUT) }}```"
+                    "text": "```${{ env.CHANGE_STATUS_OUTPUT }}```"
                   }
                 }
               ]
