@@ -87,7 +87,7 @@ def main():
     ]
     change_status_summaries = ""
     for res in res_list:
-        summary = f"\nChange Status for HZ: {res.get("hz_name")}\nHZ ID: {res.get("hz_id")}\nCHANGE STATUS: {res.get("change_status")}\n"
+        summary = f"\nChange Status for HZ: {res.get('hz_name')}\nHZ ID: {res.get('hz_id')}\nCHANGE STATUS: {res.get('change_status')}\n"
         change_status_summaries += summary
 
     return change_status_summaries
