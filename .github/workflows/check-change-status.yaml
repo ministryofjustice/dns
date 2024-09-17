@@ -68,7 +68,7 @@ jobs:
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "📋 Test DNS Change Status Check"
+                    "text": "📋 DNS Change Status"
                   }
                 },
                 {
