@@ -56,7 +56,7 @@ jobs:
 
       - name: Test output retrieval
         run: |
-          echo $change_summary_output
+          echo ${{ steps.check-change-status.outputs.change_summary_output }}
 
       # - name: Send notification to Slack
       #   uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
