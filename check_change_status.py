@@ -1,23 +1,51 @@
 import json
 import os
+import re
 
 from providers.route53 import Route53Service
 from services.cloudtrail_service import CloudTrailService
 
 hosted_zone_changed_files = os.getenv("hosted_zone_changed_files")
-slack_token = os.environ.get("ADMIN_SLACK_TOKEN")
 
-def get_hosted_zone_names_from_changed_files(hosted_zone_changed_files: list) -> list:
-    hosted_zone_names = [
-        path[12:path.rfind(".")] for path in hosted_zone_changed_files.split(" ")
-        ]
+def is_hosted_zone_filepath(filepath: str) -> bool:
+    pattern = re.compile(r"^hostedzones\/[a-zA-Z0-9_\.]*(\.yml|\.yaml)$")
+    if pattern.match(filepath):
+        return True
+
+def get_hosted_zone_names_from_changed_files(hosted_zone_changed_files: str) -> list:
+    """
+        Input
+            hosted_zone_changed_files: String of one or more file names from the 
+            hostedzones directory, expects the form hostedzones/*.yaml. Converts 
+            to a list then strips the first twelve characters and the file extension
+            and dot, leaving just the hosted zone name.
+        Output
+            hosted_zone_names: List of one or more hosted zone names.
+    """
+    hosted_zone_filepaths = [path for path in hosted_zone_changed_files.split(" ")]
+
+    hosted_zone_names = []
+    for path in hosted_zone_filepaths:
+        if is_hosted_zone_filepath(filepath=path):
+            hosted_zone_names.append(path[12:path.rfind(".")])
+
     return hosted_zone_names
 
 def get_hosted_zone_ids_from_names(hosted_zone_names: list) -> list:
+    """
+    Input
+        hosted_zone_names: List of hosted zone names.
+    Output
+        hosted_zone_ids_and_names: List of tuples with format (hz_id, hz_name)
+        where the hosted zone ID is just the ID, eg Z1GDM6HEODZI69 with 
+        the prefix /hostedzone/Z1GDM6HEODZI69 stripped.
+    """
     service = Route53Service()
     aws_zones = service.get_aws_zones()
-    hosted_zone_ids_and_names = [(t[0][12:], t[1]) for t in aws_zones if t[1] in hosted_zone_names]
-
+    hosted_zone_ids_and_names = [
+        (t[0][12:], t[1]) for t in aws_zones if t[1] in hosted_zone_names
+    ]
+    # Does not handle the hosted zone name being absent
     return hosted_zone_ids_and_names
 
 def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
