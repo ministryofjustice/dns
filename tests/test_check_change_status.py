@@ -76,33 +76,95 @@ class TestGetHostedZoneIdsFromNames(unittest.TestCase):
 
 class TestGetChangeIdForLatestChangeToHostedZone(unittest.TestCase):
     @patch("check_change_status.CloudTrailService")
-    def test_get_change_id_successfully(self, mock_cloud_trail):
+    def test_get_latest_change_id_for_hz_id_successfully(self, mock_cloud_trail):
         mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
             "Events": [
                 {
-                    "EventId": "event1-id",
+                    "EventId": "event-id-1",
                     "EventName": "ChangeResourceRecordSets",
                     "Username": "octodns-cicd-user",
                     "Resources": [
                         {
                             "ResourceType": "AWS::Route53::HostedZone",
-                            "ResourceName": "Z1QLRMQEXOI5G4"                            
+                            "ResourceName": "hosted-zone-id-123"                            
                         }
                     ],
-                    "CloudTrailEvent": '{\"eventVersion\":\"1.10\",\"userIdentity\":{\"type\":\"IAMUser\",\"principalId\":\"AIDA42CZXXJSJFQ3QSI6G\",\"arn\":\"arn:aws:iam::880656497252:user/octodns-cicd-user\",\"accountId\":\"880656497252\",\"accessKeyId\":\"A
-KIA42CZXXJSLENF66FF\",\"userName\":\"octodns-cicd-user\"},\"eventTime\":\"2024-09-17T13:57:28Z\",\"eventSource\":\"route53.amazonaws.com\",\"eventName\":\"ChangeResourceRecordSets\",\"awsRegion\":\"us-east-1\",\"sourceIPAddress\":\"20.172.46.70\",\"us
-erAgent\":\"Boto3/1.34.99 md/Botocore#1.34.162 ua/2.0 os/linux#6.5.0-1025-azure md/arch#x86_64 lang/python#3.11.9 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.162\",\"requestParameters\":{\"hostedZoneId\":\"Z2BAIDDV5DBDJR\",\"changeBatch\":{\
-"comment\":\"Change: edb7df9afc8a47e49a21e929c0c203ac\",\"changes\":[{\"action\":\"UPSERT\",\"resourceRecordSet\":{\"name\":\"jaama._domainkey.justice.gov.uk.\",\"type\":\"TXT\",\"tTL\":300,\"resourceRecords\":[{\"value\":\"\\\"v=DKIM1; k=rsa; p=MIGfM
-A0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtZJY6Zx60GV9lIDjdeeu6qGU6/MhFSu2gvAyXo0LUzFiVMG0y1E1S1HCQh0exXOwzqh+G4IyjZieeeGWdVcgITAsMRGDfc+kQM8Mmw6USAiNzfHEf4vjUYkzg+a5AI3BzUPpzNgHDwvM1j2jtUO76NwEKgtP0Wg4bRCNZBzqtfQIDAQAB\\\"\"}]}}]}},\"responseElements\":{\"ch
-angeInfo\":{\"id\":\"/change/C01161813QZNEIGXF3I2C\",\"status\":\"PENDING\",\"submittedAt\":\"Sep 17, 2024 1:57:28 PM\",\"comment\":\"Change: edb7df9afc8a47e49a21e929c0c203ac\"}},\"additionalEventData\":{\"Note\":\"Do not use to reconstruct hosted zon
-e\"},\"requestID\":\"ee5520ea-c959-4c6a-b93a-bf4b63c8d3d3\",\"eventID\":\"b7b54dda-9e08-43bf-81e9-495ec79b2391\",\"readOnly\":false,\"eventType\":\"AwsApiCall\",\"apiVersion\":\"2013-04-01\",\"managementEvent\":true,\"recipientAccountId\":\"8806564972
-52\",\"eventCategory\":\"Management\",\"tlsDetails\":{\"tlsVersion\":\"TLSv1.3\",\"cipherSuite\":\"TLS_AES_128_GCM_SHA256\",\"clientProvidedHostHeader\":\"route53.amazonaws.com\"}}'
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-1\"}}}"
                 },
                 {
-
-                },
-                {
-
+                    "EventId": "event-id-2",
+                    "EventName": "ChangeResourceRecordSets",
+                    "Username": "octodns-cicd-user",
+                    "Resources": [
+                        {
+                            "ResourceType": "AWS::Route53::HostedZone",
+                            "ResourceName": "hosted-zone-id-123"                            
+                        }
+                    ],
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-2\"}}}"
                 }
             ]
         }
+        result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-123")
+        self.assertEqual(result, "/change/change-id-1")
+
+    @patch("check_change_status.CloudTrailService")
+    def test_event_with_empty_resources_ignored(self, mock_cloud_trail):
+        mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
+            "Events": [
+                {
+                    "EventId": "event-id-1",
+                    "EventName": "ChangeResourceRecordSets",
+                    "Username": "octodns-cicd-user",
+                    "Resources": [],
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-1\"}}}"
+                },
+                {
+                    "EventId": "event-id-2",
+                    "EventName": "ChangeResourceRecordSets",
+                    "Username": "octodns-cicd-user",
+                    "Resources": [
+                        {
+                            "ResourceType": "AWS::Route53::HostedZone",
+                            "ResourceName": "hosted-zone-id-123"                            
+                        }
+                    ],
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-2\"}}}"
+                }
+            ]
+        }
+        result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-123")
+        self.assertEqual(result, "/change/change-id-2")
+
+    @patch("check_change_status.CloudTrailService")
+    def test_event_with_non_matching_hz_id_ignored(self, mock_cloud_trail):
+        mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
+            "Events": [
+                {
+                    "EventId": "event-id-1",
+                    "EventName": "ChangeResourceRecordSets",
+                    "Username": "octodns-cicd-user",
+                    "Resources": [
+                        {
+                            "ResourceType": "AWS::Route53::HostedZone",
+                            "ResourceName": "hosted-zone-id-123"                            
+                        }
+                    ],
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-1\"}}}"
+                },
+                {
+                    "EventId": "event-id-2",
+                    "EventName": "ChangeResourceRecordSets",
+                    "Username": "octodns-cicd-user",
+                    "Resources": [
+                        {
+                            "ResourceType": "AWS::Route53::HostedZone",
+                            "ResourceName": "hosted-zone-id-456"                            
+                        }
+                    ],
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-2\"}}}"
+                }
+            ]
+        }
+        result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-456")
+        self.assertEqual(result, "/change/change-id-2")
