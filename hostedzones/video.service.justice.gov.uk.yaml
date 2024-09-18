@@ -1,16 +1,11 @@
----
-'':
-  ttl: 172800
+? ''
+: ttl: 172800
   type: NS
   values:
-    - ns-1464.awsdns-55.org.
-    - ns-1867.awsdns-41.co.uk.
-    - ns-52.awsdns-06.com.
-    - ns-936.awsdns-53.net.
-_BBFDAC5266B413B0F868E14FDD7FDA21.playback:
-  ttl: 300
-  type: CNAME
-  value: 59F213B4B0EE0630D1750E22039228A9.1E7EA8320EC9E2E95D59D38F08978B32.77068b6b1dc411f016b9.sectigo.com.
+  - ns-1464.awsdns-55.org.
+  - ns-1867.awsdns-41.co.uk.
+  - ns-52.awsdns-06.com.
+  - ns-936.awsdns-53.net.
 _BBFDAC5266B413B0F868E14FDD7FDA21.playback1:
   ttl: 300
   type: CNAME
