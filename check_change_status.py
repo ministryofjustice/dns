@@ -54,7 +54,7 @@ def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
             hosted_zone_id: String
         Output
             change_id: String; the Change ID of the most recent CloudTrail 
-            Change Resource Record Sets event implemented by the octodns-cicd-user
+            ChangeResourceRecordSets event implemented by the octodns-cicd-user
             bot account, with valid Resources, for the given Hosted Zone ID.
     """
     service = CloudTrailService()
