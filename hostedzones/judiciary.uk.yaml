@@ -49,10 +49,6 @@ _5ecfb849dc48eea11d818fd219b68bb1.www.jcm:
   ttl: 300
   type: CNAME
   value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com
-_6f0e92da46509e479f24cc2bad43c06f.magistrates:
-  ttl: 300
-  type: CNAME
-  value: _3ba2c01f2ad818f8e254df3786b6222e.zdxcnfdgtt.acm-validations.aws.
 _9b95e0916934b7a53b18c71c7b89f350.intranet:
   ttl: 600
   type: CNAME
@@ -158,10 +154,6 @@ admin.myhr:
   ttl: 300
   type: CNAME
   value: ministryofjustice.haloitsm.com
-apply.magistrates:
-  ttl: 60
-  type: A
-  value: 18.130.183.123
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
@@ -333,13 +325,6 @@ magistrates:
       - ns-1669.awsdns-16.co.uk.
       - ns-374.awsdns-46.com.
       - ns-780.awsdns-33.net.
-  - ttl: 942942942
-    type: Route53Provider/ALIAS
-    value:
-      evaluate-target-health: false
-      hosted-zone-id: ZHURV8PSTC4K8
-      name: dualstack.jotwp-loadb-1mbwraz503eq6-1769122100.eu-west-2.elb.amazonaws.com.
-      type: A
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net.
