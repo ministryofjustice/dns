@@ -1,6 +1,8 @@
 import json
+import math
 import os
 import re
+import time
 
 from providers.route53 import Route53Service
 from services.cloudtrail_service import CloudTrailService
@@ -20,7 +22,7 @@ def get_hosted_zone_names_from_changed_files(hosted_zone_changed_files: str) -> 
             to a list then strips the first twelve characters and the file extension
             and dot, leaving just the hosted zone name.
         Output
-            hosted_zone_names: List of one or more hosted zone names.
+            hosted_zone_names: List of hosted zone names.
     """
     hosted_zone_filepaths = [path for path in hosted_zone_changed_files.split(" ")]
 
@@ -71,8 +73,35 @@ def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
 
     return change_id
 
+def get_change_status_summary(
+        hosted_zone_name: str,
+        hosted_zone_id: str,
+        change_id: str
+    ) -> str:
+    service = Route53Service()
+    change_info = service.get_change_status(change_id=change_id)
+    summary = (
+        f"\nCHANGE STATUS for HZ NAME: {hosted_zone_name}" +
+        f"\nHZ ID: {hosted_zone_id}" +
+        f"\nCHANGE ID: {change_id}" +
+        f"\nCHANGE STATUS: {change_info.get('ChangeInfo').get('Status')}"
+    )
+    return summary
 
-def main():
+def is_change_insync(change_id: str) -> bool:
+    service = Route53Service()
+    change_info = service.get_change_status(change_id=change_id)
+    change_status = change_info.get('ChangeInfo').get('Status')
+    if change_status == "INSYNC":
+        return True
+
+def main(
+        hosted_zone_changed_files: str,
+        wait_time_seconds: int,
+        max_time_seconds: int
+    ) -> list:
+
+    wait_time_max_iterations = int(math.ceil(max_time_seconds / wait_time_seconds))
 
     hosted_zone_names = get_hosted_zone_names_from_changed_files(
         hosted_zone_changed_files
@@ -86,24 +115,31 @@ def main():
     for hosted_zone_id_and_name in hosted_zone_ids_and_names:
         hosted_zone_id, hosted_zone_name = hosted_zone_id_and_name
         change_id = get_change_id_for_latest_change_to_hosted_zone(
-            hosted_zone_id=hosted_zone_id_and_name[0]
+            hosted_zone_id=hosted_zone_id
+        )
+        count = 0
+        change_insync = is_change_insync(change_id=change_id)
+        while count < wait_time_max_iterations and not change_insync:
+            time.sleep(wait_time_seconds)
+            count += 1
+            change_insync = is_change_insync(change_id=change_id)
+
+        summary = get_change_status_summary(
+            hosted_zone_name=hosted_zone_name,
+            hosted_zone_id=hosted_zone_id,
+            change_id=change_id
         )
 
-        service = Route53Service()
-        change_status = service.get_change_status(change_id=change_id)
-
-        summary = (
-            f"\nCHANGE STATUS for HZ NAME: {hosted_zone_name}" +
-            f"\nHZ ID: {hosted_zone_id}" +
-            f"\nCHANGE ID: {change_id}" +
-            f"\nCHANGE STATUS: {change_status.get('ChangeInfo').get('Status')}"
-        )
         change_status_summaries += summary
 
     return [change_status_summaries]
 
 if __name__ == "__main__":
-    output = main()
+    output = main(
+        hosted_zone_changed_files=hosted_zone_changed_files,
+        wait_time_seconds=15,
+        max_time_seconds=60
+    )
     env_file = os.getenv("GITHUB_ENV")
     with open(env_file, "a", encoding="utf8") as f:
         f.write(f"CHANGE_STATUS_OUTPUT={output}\n")

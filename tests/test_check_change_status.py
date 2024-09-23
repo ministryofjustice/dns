@@ -8,6 +8,8 @@ from check_change_status import (
     get_hosted_zone_names_from_changed_files,
     get_hosted_zone_ids_from_names,
     get_change_id_for_latest_change_to_hosted_zone,
+    get_change_status_summary,
+    is_change_insync,
     main
   )
 
@@ -169,21 +171,70 @@ class TestGetChangeIdForLatestChangeToHostedZone(unittest.TestCase):
         result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-456")
         self.assertEqual(result, "/change/change-id-2")
 
+class TestGetChangeStatusSummary(unittest.TestCase):
+    @patch("check_change_status.Route53Service")
+    def test_get_change_status_summary_successfully(self, mock_route53):
+
+        mock_route53.return_value.get_change_status.return_value = {
+            "ChangeInfo": {
+                "Id": "/change/change-id-69",
+                "Status": "INSYNC",
+                "SubmittedAt": "2024-09-17T13:57:28.692000+00:00",
+                "Comment": "Change: edbac"
+            }
+        }
+
+        result = get_change_status_summary(
+            hosted_zone_name="example1.com",
+            hosted_zone_id="example1-hz-id",
+            change_id="/change/change-id-69"
+        )
+        expected = (
+            "\nCHANGE STATUS for HZ NAME: example1.com" +
+            "\nHZ ID: example1-hz-id" +
+            "\nCHANGE ID: /change/change-id-69" +
+            "\nCHANGE STATUS: INSYNC"
+        )
+        self.assertEqual(result, expected)
+
+class TestIsChangeInsync(unittest.TestCase):
+    @patch("check_change_status.Route53Service")
+    def test_change_insync(self, mock_route53):
+        mock_route53.return_value.get_change_status.return_value = {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-69",
+                    "Status": "INSYNC",
+                    "SubmittedAt": "2024-09-17T13:57:28.692000+00:00",
+                    "Comment": "Change: edbac"
+                }
+        }
+        result = is_change_insync(change_id="/change/change-id-69")
+        self.assertTrue(result)
+
+    @patch("check_change_status.Route53Service")
+    def test_change_not_insync(self, mock_route53):
+        mock_route53.return_value.get_change_status.return_value = {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-69",
+                    "Status": "PENDING",
+                    "SubmittedAt": "2024-09-17T13:57:28.692000+00:00",
+                    "Comment": "Change: edbac"
+                }
+        }
+        result = is_change_insync(change_id="/change/change-id-69")
+        self.assertFalse(result)
+
+
 
 class TestMainFunction(unittest.TestCase):
-    @patch("check_change_status.get_hosted_zone_names_from_changed_files")
-    @patch("check_change_status.Route53Service")
     @patch("check_change_status.CloudTrailService")
+    @patch("check_change_status.Route53Service")
     def test_main_returns_expected_summary(
         self,
-        mock_get_hosted_zone_names_from_changed_files,
         mock_route53,
         mock_cloud_trail
     ):
-        mock_get_hosted_zone_names_from_changed_files.return_value = [
-            "example1.com",
-            "example3.com"
-        ]
+
         mock_route53.return_value.get_aws_zones.return_value = {
             ("/hostedzone/Z1GDM6HEODZI69", "example1.com"),
             ("/hostedzone/Z1GDM6HEODZI70", "example2.com"),
@@ -217,8 +268,39 @@ class TestMainFunction(unittest.TestCase):
                 }
             ]
         }
-        result = main()
-        expected = ["some stuff"]
+        mock_route53.return_value.get_change_status.side_effect = [
+            {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-69",
+                    "Status": "INSYNC",
+                    "SubmittedAt": "2024-09-17T13:57:28.692000+00:00",
+                    "Comment": "Change: edbac"
+                }
+            },
+            {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-71",
+                    "Status": "PENDING",
+                    "SubmittedAt": "2024-09-17T13:57:28.692000+00:00",
+                    "Comment": "Change: edbac"
+                }
+            }
+        ]
+        result = main(
+            hosted_zone_changed_files = "hostedzones/example1.com.yaml hostedzones/example3.com.yml",
+            wait_time_seconds=2,
+            max_time_seconds=4
+        )
+        expected = [
+            (
+                '\nCHANGE STATUS for HZ NAME: example3.com\n' +
+                'HZ ID: Z1GDM6HEODZI71\n' +
+                'CHANGE ID: /change/change-id-71\n' +
+                'CHANGE STATUS: INSYNC\n' +
+                'CHANGE STATUS for HZ NAME: example1.com\n' +
+                'HZ ID: Z1GDM6HEODZI69\n' +
+                'CHANGE ID: /change/change-id-69\n' +
+                'CHANGE STATUS: PENDING'
+            )
+        ]
         self.assertEqual(result, expected)
-
-
