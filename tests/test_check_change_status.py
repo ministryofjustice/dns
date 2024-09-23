@@ -168,3 +168,57 @@ class TestGetChangeIdForLatestChangeToHostedZone(unittest.TestCase):
         }
         result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-456")
         self.assertEqual(result, "/change/change-id-2")
+
+
+class TestMainFunction(unittest.TestCase):
+    @patch("check_change_status.get_hosted_zone_names_from_changed_files")
+    @patch("check_change_status.Route53Service")
+    @patch("check_change_status.CloudTrailService")
+    def test_main_returns_expected_summary(
+        self,
+        mock_get_hosted_zone_names_from_changed_files,
+        mock_route53,
+        mock_cloud_trail
+    ):
+        mock_get_hosted_zone_names_from_changed_files.return_value = [
+            "example1.com",
+            "example3.com"
+        ]
+        mock_route53.return_value.get_aws_zones.return_value = {
+            ("/hostedzone/Z1GDM6HEODZI69", "example1.com"),
+            ("/hostedzone/Z1GDM6HEODZI70", "example2.com"),
+            ("/hostedzone/Z1GDM6HEODZI71", "example3.com")
+        }
+        mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
+            "Events": [
+                {
+                    "EventId": "event-id-1",
+                    "EventName": "ChangeResourceRecordSets",
+                    "Username": "octodns-cicd-user",
+                    "Resources": [
+                        {
+                            "ResourceType": "AWS::Route53::HostedZone",
+                            "ResourceName": "Z1GDM6HEODZI69"                            
+                        }
+                    ],
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-69\"}}}"
+                },
+                {
+                    "EventId": "event-id-2",
+                    "EventName": "ChangeResourceRecordSets",
+                    "Username": "octodns-cicd-user",
+                    "Resources": [
+                        {
+                            "ResourceType": "AWS::Route53::HostedZone",
+                            "ResourceName": "Z1GDM6HEODZI71"                            
+                        }
+                    ],
+                        "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-71\"}}}"
+                }
+            ]
+        }
+        result = main()
+        expected = ["some stuff"]
+        self.assertEqual(result, expected)
+
+

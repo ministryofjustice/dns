@@ -84,6 +84,7 @@ def main():
 
     change_status_summaries = ""
     for hosted_zone_id_and_name in hosted_zone_ids_and_names:
+        hosted_zone_id, hosted_zone_name = hosted_zone_id_and_name
         change_id = get_change_id_for_latest_change_to_hosted_zone(
             hosted_zone_id=hosted_zone_id_and_name[0]
         )
@@ -92,8 +93,8 @@ def main():
         change_status = service.get_change_status(change_id=change_id)
 
         summary = (
-            f"\nCHANGE STATUS for HZ NAME: {hosted_zone_id_and_name[1]}" +
-            f"\nHZ ID: {hosted_zone_id_and_name[0]}" +
+            f"\nCHANGE STATUS for HZ NAME: {hosted_zone_name}" +
+            f"\nHZ ID: {hosted_zone_id}" +
             f"\nCHANGE ID: {change_id}" +
             f"\nCHANGE STATUS: {change_status.get('ChangeInfo').get('Status')}"
         )
@@ -106,4 +107,3 @@ if __name__ == "__main__":
     env_file = os.getenv("GITHUB_ENV")
     with open(env_file, "a", encoding="utf8") as f:
         f.write(f"CHANGE_STATUS_OUTPUT={output}\n")
-    main()
