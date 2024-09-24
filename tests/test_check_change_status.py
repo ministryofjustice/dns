@@ -272,35 +272,55 @@ class TestMainFunction(unittest.TestCase):
             {
                 "ChangeInfo": {
                     "Id": "/change/change-id-69",
-                    "Status": "INSYNC",
-                    "SubmittedAt": "2024-09-17T13:57:28.692000+00:00",
-                    "Comment": "Change: edbac"
+                    "Status": "INSYNC"
+                }
+            },
+            {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-69",
+                    "Status": "INSYNC"
                 }
             },
             {
                 "ChangeInfo": {
                     "Id": "/change/change-id-71",
-                    "Status": "PENDING",
-                    "SubmittedAt": "2024-09-17T13:57:28.692000+00:00",
-                    "Comment": "Change: edbac"
+                    "Status": "PENDING"
+                }
+            },
+            {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-71",
+                    "Status": "PENDING"
+                }
+            },
+            {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-71",
+                    "Status": "INSYNC"
+                }
+            },
+            {
+                "ChangeInfo": {
+                    "Id": "/change/change-id-71",
+                    "Status": "INSYNC"
                 }
             }
         ]
         result = main(
             hosted_zone_changed_files = "hostedzones/example1.com.yaml hostedzones/example3.com.yml",
-            wait_time_seconds=2,
-            max_time_seconds=4
+            wait_time_seconds=1,
+            max_time_seconds=2
         )
         expected = [
             (
-                '\nCHANGE STATUS for HZ NAME: example3.com\n' +
-                'HZ ID: Z1GDM6HEODZI71\n' +
-                'CHANGE ID: /change/change-id-71\n' +
-                'CHANGE STATUS: INSYNC\n' +
-                'CHANGE STATUS for HZ NAME: example1.com\n' +
+                '\nCHANGE STATUS for HZ NAME: example1.com\n' +
                 'HZ ID: Z1GDM6HEODZI69\n' +
                 'CHANGE ID: /change/change-id-69\n' +
-                'CHANGE STATUS: PENDING'
+                'CHANGE STATUS: INSYNC\n' +
+                'CHANGE STATUS for HZ NAME: example3.com\n' +
+                'HZ ID: Z1GDM6HEODZI71\n' +
+                'CHANGE ID: /change/change-id-71\n' +
+                'CHANGE STATUS: INSYNC'
             )
         ]
         self.assertEqual(result, expected)

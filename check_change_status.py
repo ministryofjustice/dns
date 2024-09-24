@@ -3,6 +3,7 @@ import math
 import os
 import re
 import time
+from operator import itemgetter
 
 from providers.route53 import Route53Service
 from services.cloudtrail_service import CloudTrailService
@@ -48,7 +49,7 @@ def get_hosted_zone_ids_from_names(hosted_zone_names: list) -> list:
         (t[0][12:], t[1]) for t in aws_zones if t[1] in hosted_zone_names
     ]
     # Does not handle the hosted zone name being absent
-    return hosted_zone_ids_and_names
+    return sorted(hosted_zone_ids_and_names, key=itemgetter(1))
 
 def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
     """
@@ -100,13 +101,29 @@ def main(
         wait_time_seconds: int,
         max_time_seconds: int
     ) -> list:
+    """
+        Input
+            hosted_zone_changed_files: String of hosted zone files changed in the
+            PR, deliminated by space.
+            wait_time_seconds: Interval of time to wait in seconds between checking
+            if the change is insync
+            max_time_seconds: Maximum total seconds to keep checking for the change
+            to be insync.
+        Output
+            List of change status summaries to be passed to Slack notification action
+            to post in channel.
+    """
+    assert (max_time_seconds <= 120), \
+        f"The max_time_seconds ({max_time_seconds}) is not less than or equal to 120."
+
+    assert (wait_time_seconds <= max_time_seconds), \
+        f"The wait_time_seconds ({wait_time_seconds}) is not less than or equal \
+    to the max_time_seconds ({max_time_seconds})."
 
     wait_time_max_iterations = int(math.ceil(max_time_seconds / wait_time_seconds))
-
     hosted_zone_names = get_hosted_zone_names_from_changed_files(
         hosted_zone_changed_files
     )
-
     hosted_zone_ids_and_names = get_hosted_zone_ids_from_names(
         hosted_zone_names
     )
@@ -119,7 +136,7 @@ def main(
         )
         count = 0
         change_insync = is_change_insync(change_id=change_id)
-        while count < wait_time_max_iterations and not change_insync:
+        while not change_insync and count < wait_time_max_iterations:
             time.sleep(wait_time_seconds)
             count += 1
             change_insync = is_change_insync(change_id=change_id)
