@@ -7,7 +7,7 @@ from check_change_status import (
     is_hosted_zone_filepath,
     get_hosted_zone_names_from_changed_files,
     get_hosted_zone_ids_from_names,
-    get_change_id_for_latest_change_to_hosted_zone,
+    get_change_id_for_latest_change_resource_record_sets_for_hosted_zone,
     get_change_status_summary,
     is_change_insync,
     main
@@ -61,9 +61,9 @@ class TestGetHostedZoneIdsFromNames(unittest.TestCase):
     @patch("check_change_status.Route53Service")
     def test_get_ids_from_names_successfully(self, mock_route53):
         mock_route53.return_value.get_aws_zones.return_value = {
-            ("/hostedzone/Z1GDM6HEODZI69", "example1.com"),
-            ("/hostedzone/Z1GDM6HEODZI70", "example2.com"),
-            ("/hostedzone/Z1GDM6HEODZI71", "example3.com")
+            ("/hostedzone/hostedzone-id-69", "example1.com"),
+            ("/hostedzone/hostedzone-id-70", "example2.com"),
+            ("/hostedzone/hostedzone-id-71", "example3.com")
         }
         result = get_hosted_zone_ids_from_names(
             hosted_zone_names=["example1.com", "example2.com"]
@@ -71,12 +71,12 @@ class TestGetHostedZoneIdsFromNames(unittest.TestCase):
         self.assertEqual(
             set(result),
             set([
-                ("Z1GDM6HEODZI69", "example1.com"),
-                ("Z1GDM6HEODZI70", "example2.com")
+                ("hostedzone-id-69", "example1.com"),
+                ("hostedzone-id-70", "example2.com")
             ])
         )
 
-class TestGetChangeIdForLatestChangeToHostedZone(unittest.TestCase):
+class TestGetChangeIdForLatestChangeResourceRecordSetsForHostedZone(unittest.TestCase):
     @patch("check_change_status.CloudTrailService")
     def test_get_latest_change_id_for_hz_id_successfully(self, mock_cloud_trail):
         mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
@@ -107,7 +107,10 @@ class TestGetChangeIdForLatestChangeToHostedZone(unittest.TestCase):
                 }
             ]
         }
-        result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-123")
+        result = get_change_id_for_latest_change_resource_record_sets_for_hosted_zone(
+            hosted_zone_id="hosted-zone-id-123",
+            username="octodns-cicd-user"
+        )
         self.assertEqual(result, "/change/change-id-1")
 
     @patch("check_change_status.CloudTrailService")
@@ -135,7 +138,10 @@ class TestGetChangeIdForLatestChangeToHostedZone(unittest.TestCase):
                 }
             ]
         }
-        result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-123")
+        result = get_change_id_for_latest_change_resource_record_sets_for_hosted_zone(
+            hosted_zone_id="hosted-zone-id-123",
+            username="octodns-cicd-user"
+        )
         self.assertEqual(result, "/change/change-id-2")
 
     @patch("check_change_status.CloudTrailService")
@@ -168,7 +174,10 @@ class TestGetChangeIdForLatestChangeToHostedZone(unittest.TestCase):
                 }
             ]
         }
-        result = get_change_id_for_latest_change_to_hosted_zone("hosted-zone-id-456")
+        result = get_change_id_for_latest_change_resource_record_sets_for_hosted_zone(
+            hosted_zone_id="hosted-zone-id-456",
+            username="octodns-cicd-user"
+        )
         self.assertEqual(result, "/change/change-id-2")
 
 class TestGetChangeStatusSummary(unittest.TestCase):
@@ -236,9 +245,9 @@ class TestMainFunction(unittest.TestCase):
     ):
 
         mock_route53.return_value.get_aws_zones.return_value = {
-            ("/hostedzone/Z1GDM6HEODZI69", "example1.com"),
-            ("/hostedzone/Z1GDM6HEODZI70", "example2.com"),
-            ("/hostedzone/Z1GDM6HEODZI71", "example3.com")
+            ("/hostedzone/hostedzone-id-69", "example1.com"),
+            ("/hostedzone/hostedzone-id-70", "example2.com"),
+            ("/hostedzone/hostedzone-id-71", "example3.com")
         }
         mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
             "Events": [
@@ -249,7 +258,7 @@ class TestMainFunction(unittest.TestCase):
                     "Resources": [
                         {
                             "ResourceType": "AWS::Route53::HostedZone",
-                            "ResourceName": "Z1GDM6HEODZI69"                            
+                            "ResourceName": "hostedzone-id-69"                            
                         }
                     ],
                         "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-69\"}}}"
@@ -261,7 +270,7 @@ class TestMainFunction(unittest.TestCase):
                     "Resources": [
                         {
                             "ResourceType": "AWS::Route53::HostedZone",
-                            "ResourceName": "Z1GDM6HEODZI71"                            
+                            "ResourceName": "hostedzone-id-71"                            
                         }
                     ],
                         "CloudTrailEvent": "{\"responseElements\":{\"changeInfo\":{\"id\":\"/change/change-id-71\"}}}"
@@ -313,12 +322,14 @@ class TestMainFunction(unittest.TestCase):
         )
         expected = [
             (
-                '\nCHANGE STATUS for HZ NAME: example1.com\n' +
-                'HZ ID: Z1GDM6HEODZI69\n' +
+                '\nPlease inform requester of successful DNS change for changes showing as INSYNC.\n' +
+                'A manual check is required for changes still showing as PENDING.\n' +
+                'CHANGE STATUS for HZ NAME: example1.com\n' +
+                'HZ ID: hostedzone-id-69\n' +
                 'CHANGE ID: /change/change-id-69\n' +
                 'CHANGE STATUS: INSYNC\n' +
                 'CHANGE STATUS for HZ NAME: example3.com\n' +
-                'HZ ID: Z1GDM6HEODZI71\n' +
+                'HZ ID: hostedzone-id-71\n' +
                 'CHANGE ID: /change/change-id-71\n' +
                 'CHANGE STATUS: INSYNC'
             )

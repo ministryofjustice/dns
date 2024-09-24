@@ -51,21 +51,26 @@ def get_hosted_zone_ids_from_names(hosted_zone_names: list) -> list:
     # Does not handle the hosted zone name being absent
     return sorted(hosted_zone_ids_and_names, key=itemgetter(1))
 
-def get_change_id_for_latest_change_to_hosted_zone(hosted_zone_id: str) -> str:
+def get_change_id_for_latest_change_resource_record_sets_for_hosted_zone(
+        hosted_zone_id: str,
+        username: str
+    ) -> str:
     """
         Input
             hosted_zone_id: String
+            username: String, the username of the actor triggering the event,
+            for example, octodns-cicd-user.
         Output
             change_id: String; the Change ID of the most recent CloudTrail 
-            ChangeResourceRecordSets event implemented by the octodns-cicd-user
-            bot account, with valid Resources, for the given Hosted Zone ID.
+            ChangeResourceRecordSets event implemented by the given user
+            account, with valid Resources, for the given Hosted Zone ID.
     """
     service = CloudTrailService()
     response = service.get_latest_n_change_resource_record_sets(n=5)
 
     matching_events = []
     for event in response["Events"]:
-        if event["Username"] == "octodns-cicd-user" and event["Resources"] and event["Resources"][0]["ResourceName"] == hosted_zone_id:
+        if event["Username"] == username and event["Resources"] and event["Resources"][0]["ResourceName"] == hosted_zone_id:
             matching_events.append(event)
 
     # First matching event is the most recent
@@ -128,11 +133,15 @@ def main(
         hosted_zone_names
     )
 
-    change_status_summaries = ""
+    change_status_summaries = (
+        "\nPlease inform requester of successful DNS change for changes showing as INSYNC." +
+        "\nA manual check is required for changes still showing as PENDING."
+    )
     for hosted_zone_id_and_name in hosted_zone_ids_and_names:
         hosted_zone_id, hosted_zone_name = hosted_zone_id_and_name
-        change_id = get_change_id_for_latest_change_to_hosted_zone(
-            hosted_zone_id=hosted_zone_id
+        change_id = get_change_id_for_latest_change_resource_record_sets_for_hosted_zone(
+            hosted_zone_id=hosted_zone_id,
+            username="octodns-cicd-user"
         )
         count = 0
         change_insync = is_change_insync(change_id=change_id)
