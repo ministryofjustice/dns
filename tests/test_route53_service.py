@@ -12,11 +12,11 @@ class TestRoute53Service(unittest.TestCase):
 
     def test_get_aws_zones_successfully(self):
         self.mock_boto3.client().get_paginator().paginate.return_value = [
-            {"HostedZones": [{"Id": "zone_id", "Name": "example.com."}]},
+            {"HostedZones": [{"Id": "/hostedzone/Z1GDM6HEODZI69", "Name": "example.com."}]},
         ]
         zones = self.route53.get_aws_zones()
 
-        self.assertEqual(zones, {("zone_id", "example.com")})
+        self.assertEqual(zones, {("/hostedzone/Z1GDM6HEODZI69", "example.com")})
 
     def test_is_zone_empty_is_recognised(self):
         self.mock_boto3.client().get_paginator().paginate.return_value = [

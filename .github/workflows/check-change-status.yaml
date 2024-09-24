@@ -1,0 +1,77 @@
+name: Check Change Status
+
+on:
+  workflow_run:
+    workflows: [OctoDNS Sync]
+    types: [completed]
+    branches: [main]
+
+
+jobs:
+  check-change-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          make install
+
+      - name: Get hosted zone changed files
+        id: hosted-zone-changed-files
+        uses: tj-actions/changed-files@40853de9f8ce2d6cfdc73c1b96f14e22ba44aec4 # v45.0.0
+        with:
+          files: |
+           hostedzones/**
+
+      - name: Set hosted zone changed files environment variable
+        env:
+          HOSTED_ZONE_CHANGED_FILES: ${{ steps.hosted-zone-changed-files.outputs.all_changed_files }}
+        if: steps.hosted-zone-changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "hosted_zone_changed_files=${HOSTED_ZONE_CHANGED_FILES}" >> "$GITHUB_ENV"
+          echo "$hosted_zone_changed_files"
+
+      - name: Check change status
+        id: check-change-status
+        if: steps.hosted-zone-changed-files.outputs.any_changed == 'true'
+        run: |
+          source venv/bin/activate
+          python3 check_change_status.py
+        env:
+          CHANGE_STATUS_OUTPUT: ${{ env.CHANGE_STATUS_OUTPUT }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
+          PYTHONUNBUFFERED: 1
+
+      - name: Send notification to Slack
+        uses: slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001 # v1.25.0
+        with:
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "📋 DNS Change Status"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "```${{ env.CHANGE_STATUS_OUTPUT }}```"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK

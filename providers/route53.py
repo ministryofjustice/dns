@@ -23,3 +23,7 @@ class Route53Service:
                 if record_set["Type"] not in ["NS", "SOA"]:
                     return False
         return True
+
+    def get_change_status(self, change_id:str) -> str:
+        response = self.client.get_change(Id=change_id)
+        return response
