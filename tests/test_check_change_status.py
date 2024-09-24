@@ -1,7 +1,5 @@
 import unittest
-from unittest.mock import MagicMock, Mock, patch
-
-# from providers.route53 import Route53Service
+from unittest.mock import patch
 
 from check_change_status import (
     is_hosted_zone_filepath,
