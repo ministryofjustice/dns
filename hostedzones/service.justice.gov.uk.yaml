@@ -934,6 +934,14 @@ laa-crime:
   ttl: 300
   type: TXT
   value: OSSRH-90962
+laa-debt-collection:
+  ttl: 300
+  type: NS
+  values:
+    - ns-145.awsdns-18.com
+    - nns-1471.awsdns-55.org
+    - nns-1920.awsdns-48.co.uk
+    - nns-857.awsdns-43.net
 laa-fee-calculator:
   ttl: 300
   type: NS
