@@ -90,7 +90,7 @@ def get_change_status_summary(
         f"\nCHANGE STATUS for HZ NAME: {hosted_zone_name}" +
         f"\nHZ ID: {hosted_zone_id}" +
         f"\nCHANGE ID: {change_id}" +
-        f"\nCHANGE STATUS: {change_info.get('ChangeInfo').get('Status')}"
+        f"\nCHANGE STATUS: {change_info.get('ChangeInfo').get('Status')}\n"
     )
     return summary
 
@@ -133,9 +133,12 @@ def main(
         hosted_zone_names
     )
 
+    # Initial wait time to allow CloudTrail event to populate.
+    time.sleep(wait_time_seconds)
+
     change_status_summaries = (
         "\nPlease inform requester of successful DNS change for changes showing as INSYNC." +
-        "\nA manual check is required for changes still showing as PENDING."
+        "\nA manual check is required for changes still showing as PENDING.\n"
     )
     for hosted_zone_id_and_name in hosted_zone_ids_and_names:
         hosted_zone_id, hosted_zone_name = hosted_zone_id_and_name
