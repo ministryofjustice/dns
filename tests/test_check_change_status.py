@@ -200,7 +200,7 @@ class TestGetChangeStatusSummary(unittest.TestCase):
             "\nCHANGE STATUS for HZ NAME: example1.com" +
             "\nHZ ID: example1-hz-id" +
             "\nCHANGE ID: /change/change-id-69" +
-            "\nCHANGE STATUS: INSYNC"
+            "\nCHANGE STATUS: INSYNC\n"
         )
         self.assertEqual(result, expected)
 
@@ -322,14 +322,16 @@ class TestMainFunction(unittest.TestCase):
             (
                 '\nPlease inform requester of successful DNS change for changes showing as INSYNC.\n' +
                 'A manual check is required for changes still showing as PENDING.\n' +
+                '\n' +
                 'CHANGE STATUS for HZ NAME: example1.com\n' +
                 'HZ ID: hostedzone-id-69\n' +
                 'CHANGE ID: /change/change-id-69\n' +
                 'CHANGE STATUS: INSYNC\n' +
+                '\n' +
                 'CHANGE STATUS for HZ NAME: example3.com\n' +
                 'HZ ID: hostedzone-id-71\n' +
                 'CHANGE ID: /change/change-id-71\n' +
-                'CHANGE STATUS: INSYNC'
+                'CHANGE STATUS: INSYNC\n'
             )
         ]
         self.assertEqual(result, expected)
