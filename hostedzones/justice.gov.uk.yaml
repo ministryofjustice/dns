@@ -1320,6 +1320,14 @@ mgr3vnln72urts6bqgov55w27cx6ev7m._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
   value: mgr3vnln72urts6bqgov55w27cx6ev7m.dkim.amazonses.com
+migrate.administrativecourtoffice:
+  ttl: 300
+  type: A
+  value: 178.248.34.45
+migrate.criminalappealoffice:
+  ttl: 300
+  type: A
+  value: 178.248.34.45
 mliveconfig:
   ttl: 600
   type: A
