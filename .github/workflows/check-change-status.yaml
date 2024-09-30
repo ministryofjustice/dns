@@ -73,6 +73,20 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
+                    "text": "Please inform requester of successful DNS change for changes showing as INSYNC."
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "A manual check is required for changes still showing as PENDING."
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
                     "text": "```${{ env.CHANGE_STATUS_OUTPUT }}```"
                   }
                 }

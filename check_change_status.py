@@ -136,10 +136,8 @@ def main(
     # Initial wait time to allow CloudTrail event to populate.
     time.sleep(wait_time_seconds)
 
-    change_status_summaries = (
-        "\nPlease inform requester of successful DNS change for changes showing as INSYNC." +
-        "\nA manual check is required for changes still showing as PENDING.\n"
-    )
+    change_status_summaries = ""
+    
     for hosted_zone_id_and_name in hosted_zone_ids_and_names:
         hosted_zone_id, hosted_zone_name = hosted_zone_id_and_name
         change_id = get_change_id_for_latest_change_resource_record_sets_for_hosted_zone(

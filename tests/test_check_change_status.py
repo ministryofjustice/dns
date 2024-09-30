@@ -320,8 +320,6 @@ class TestMainFunction(unittest.TestCase):
         )
         expected = [
             (
-                '\nPlease inform requester of successful DNS change for changes showing as INSYNC.\n' +
-                'A manual check is required for changes still showing as PENDING.\n' +
                 '\n' +
                 'CHANGE STATUS for HZ NAME: example1.com\n' +
                 'HZ ID: hostedzone-id-69\n' +
