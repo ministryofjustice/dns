@@ -278,6 +278,10 @@ fp01._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+gateway.prod.elinks:
+  ttl: 300
+  type: CNAME
+  value: apim-elinks-prod-uks-001.azure-api.net
 gateway.staging.elinks:
   ttl: 300
   type: CNAME
