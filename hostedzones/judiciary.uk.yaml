@@ -382,9 +382,12 @@ staging.admin.myhr:
   type: CNAME
   value: ministryofjustice-staging.haloitsm.com
 staging.elinks:
-  ttl: 300
-  type: A
-  value: 51.143.140.242
+  - ttl: 300
+    type: A
+    value: 51.143.140.242
+  - ttl: 3600
+    type: TXT
+    value: ms-domain-verification=5940952c-82d9-46b8-8716-1fb3c0cc60d2
 staging.hr:
   ttl: 300
   type: CNAME
