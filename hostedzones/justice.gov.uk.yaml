@@ -937,6 +937,10 @@ find-legal-advice:
       - ns-1392.awsdns-46.org.
       - ns-180.awsdns-22.com.
       - ns-2041.awsdns-63.co.uk.
+fleetmanagementteam:
+  ttl: 300
+  type: txt
+  value: v=spf1 spf.hosted.jaama.co.uk ~all
 fmk7xlvhjfqqruhiytlb6434lcykrduv._domainkey:
   ttl: 300
   type: TXT
@@ -1114,10 +1118,10 @@ intranet:
     - ns-1773.awsdns-29.co.uk.
     - ns-697.awsdns-23.net.
     - ns-77.awsdns-09.com.
-jaama._domainkey:
+jaama._domainkey.fleetmanagementteam:
   ttl: 300
   type: TXT
-  value: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtZJY6Zx60GV9lIDjdeeu6qGU6/MhFSu2gvAyXo0LUzFiVMG0y1E1S1HCQh0exXOwzqh+G4IyjZieeeGWdVcgITAsMRGDfc+kQM8Mmw6USAiNzfHEf4vjUYkzg+a5AI3BzUPpzNgHDwvM1j2jtUO76NwEKgtP0Wg4bRCNZBzqtfQIDAQAB
+  value: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeFclAkZdVjMAlrr5kkUVGNvJcb0DWEJngIMSNd4ApsfzMSjYVV+HkKRlvCIP8eiefG0guBfkz/f8MHbut+BwvLNM7IKLcHOrADKJDq5IVBpFtxLy5CuFIgdM0HQwmyweckVqEjLkQEIWVRTTb5FAkuVHFqfwSTPTbJoCqY41rcwIDAQAB
 jira.cjscp:
   ttl: 600
   type: CNAME
