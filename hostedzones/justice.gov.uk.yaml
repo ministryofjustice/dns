@@ -939,7 +939,7 @@ find-legal-advice:
       - ns-2041.awsdns-63.co.uk.
 fleetmanagementteam:
   ttl: 300
-  type: txt
+  type: TXT
   value: v=spf1 spf.hosted.jaama.co.uk ~all
 fmk7xlvhjfqqruhiytlb6434lcykrduv._domainkey:
   ttl: 300
