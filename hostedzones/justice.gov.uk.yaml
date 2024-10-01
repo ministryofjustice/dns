@@ -940,7 +940,7 @@ find-legal-advice:
 fleetmanagementteam:
   ttl: 300
   type: TXT
-  value: v=spf1 spf.hosted.jaama.co.uk ~all
+  value: v=spf1 include:spf.hosted.jaama.co.uk ~all
 fmk7xlvhjfqqruhiytlb6434lcykrduv._domainkey:
   ttl: 300
   type: TXT
