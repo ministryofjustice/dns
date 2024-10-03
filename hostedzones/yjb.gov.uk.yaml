@@ -105,13 +105,6 @@ _mta-sts.youthjusticepp:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=d2ee1a37ca7e90b96d3b0be7d64d9b50
-_sipfederationtls._tcp:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com.
-    weight: 1
 _smtp._tls:
   ttl: 300
   type: TXT
@@ -178,9 +171,6 @@ juniper-smtp:
 login.y2a:
   type: A
   value: 62.232.198.68
-lyncdiscover:
-  type: CNAME
-  value: webdir.online.lync.com.
 mail-acp1:
   ttl: 300
   type: A
