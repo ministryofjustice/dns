@@ -83,14 +83,6 @@ _pop3s._tcp:
     priority: 10
     target: pop.gmail.com.
     weight: 0
-_sipfederationtls.tcp.test:
-  ttl: 300
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
 _smtp._tcp:
   ttl: 300
   type: SRV
@@ -195,10 +187,6 @@ legalservices.gov.uk._report._dmarc:
   ttl: 36000
   type: TXT
   value: v=DMARC1
-lyncdiscover.test:
-  ttl: 300
-  type: CNAME
-  value: webdir.online.lync.com.
 mail.test:
   ttl: 300
   type: A
