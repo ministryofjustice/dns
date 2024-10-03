@@ -1698,6 +1698,14 @@ training-preproduction.manage-external-funded-offender-provision:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d3vok0bwimv2ce.cloudfront.net.
     type: A
+training.creatingfutureopportunities:
+  ttl: 300
+  type: CNAME
+  value: d2xa34imt80u6b.cloudfront.net
+training.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: d2xa34imt80u6b.cloudfront.net
 trg.list-assist:
   ttl: 300
   type: A
