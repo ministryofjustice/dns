@@ -930,7 +930,15 @@ jury:
   ttl: 60
   type: CNAME
   value: jury-prototype.herokuapp.com
-laa-crime:
+laa-apex:
+  ttl: 86400
+  type: NS
+  values:
+    - ns-832.awsdns-40.net.
+    - ns-484.awsdns-60.com.
+    - ns-1921.awsdns-48.co.uk.
+    - ns-1158.awsdns-16.org.
+  laa-crime:
   ttl: 300
   type: TXT
   value: OSSRH-90962
