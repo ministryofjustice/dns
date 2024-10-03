@@ -80,13 +80,6 @@ _mta-sts.newsletter:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=d65d64c87f52fedec05bca206b6630df
-_sipfederationtls._tcp:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
 _smtp._tls:
   ttl: 300
   type: TXT
@@ -129,9 +122,6 @@ k3._domainkey:
   ttl: 300
   type: CNAME
   value: dkim3.mcsv.net
-lyncdiscover:
-  type: CNAME
-  value: webdir.online.lync.com
 mta-sts:
   ttl: 942942942
   type: Route53Provider/ALIAS

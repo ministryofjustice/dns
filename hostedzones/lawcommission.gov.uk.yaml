@@ -34,13 +34,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=4343bbedbf07cb2a94a7591249b4c9dc
-_sipfederationtls._tcp:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
 _smtp._tls:
   ttl: 300
   type: TXT
@@ -58,9 +51,6 @@ fp01._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
-lyncdiscover:
-  type: CNAME
-  value: webdir.online.lync.com
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net
