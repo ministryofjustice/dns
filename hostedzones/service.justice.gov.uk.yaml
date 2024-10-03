@@ -61,6 +61,10 @@ _047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
   value: _3adaedf9b6a02203fa8fa05d5e4df6e1.sdgjtdhdhz.acm-validations.aws.
+_82cde6f94d128501499619acb1b642f4.training.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: _556342720a60ba23735a0b41ba123f7b.djqtsrsxkq.acm-validations.aws.
 _95ea75a7f508104bbae8244e26130e7e.advance-into-justice:
   ttl: 300
   type: CNAME
@@ -69,6 +73,10 @@ _122d4a537f580579f8a5aa1308c76d7a.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
   value: _22de9d65d0c7985f9b55997aedbbf7d1.sdgjtdhdhz.acm-validations.aws.
+_184ea2e06cb78e1139bdba40932f8753.training.creatingfutureopportunities:
+  ttl: 300
+  type: CNAME
+  value: _545a78ac6039acf48eddbf6c977afe0b.djqtsrsxkq.acm-validations.aws.
 _862ab8fd914ba85df7f632f9039ec540.crown-court-remuneration:
   ttl: 300
   type: CNAME
