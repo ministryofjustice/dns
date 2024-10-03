@@ -370,28 +370,6 @@ _sip._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
-_sipfederationtls._tcp:
-  ttl: 600
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com.
-    weight: 1
-_sipfederationtls._tcp.cshrcasework:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
-_sipfederationtls._tcp.official:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
 _sipfederationtls._tcp.video:
   ttl: 300
   type: SRV
@@ -1238,9 +1216,6 @@ locateaprison:
   ttl: 600
   type: A
   value: 85.133.48.165
-lyncdiscover.cshrcasework:
-  type: CNAME
-  value: webdir.online.lync.com
 mail:
   ttl: 600
   type: A
