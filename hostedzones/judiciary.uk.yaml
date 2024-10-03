@@ -139,13 +139,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=88b4c62db3d90a75b10f17f0efb20126
-_sipfederationtls._tcp:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com.
-    weight: 1
 _smtp._tls:
   ttl: 300
   type: TXT
@@ -318,9 +311,6 @@ judicialcareers:
 ko6w5s55q23tal6ayqic35vnhhwpoam7._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: ko6w5s55q23tal6ayqic35vnhhwpoam7.dkim.amazonses.com
-lyncdiscover:
-  type: CNAME
-  value: webdir.online.lync.com.
 magistrates:
   - ttl: 300
     type: NS
