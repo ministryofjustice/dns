@@ -38,13 +38,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=628112f5df71f7dae54240dd017ce101
-_sipfederationtls._tcp:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
 _smtp._tls:
   ttl: 300
   type: TXT
