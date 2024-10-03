@@ -1690,6 +1690,14 @@ track-a-query:
     - ns-166.awsdns-20.com.
     - ns-1947.awsdns-51.co.uk.
     - ns-778.awsdns-33.net.
+training.creatingfutureopportunities:
+  ttl: 300
+  type: CNAME
+  value: d2xa34imt80u6b.cloudfront.net
+training.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: d2xa34imt80u6b.cloudfront.net
 training-preproduction.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
