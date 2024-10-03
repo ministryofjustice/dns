@@ -938,7 +938,7 @@ laa-apex:
     - ns-484.awsdns-60.com.
     - ns-1921.awsdns-48.co.uk.
     - ns-1158.awsdns-16.org.
-  laa-crime:
+laa-crime:
   ttl: 300
   type: TXT
   value: OSSRH-90962
