@@ -39,13 +39,6 @@ _dmarc.noreply:
   ttl: 300
   type: CNAME
   value: _dmarc_ttp_policy.justice.gov.uk
-_sipfederationtls._tcp:
-  type: SRV
-  value:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com.
-    weight: 1
 autodiscover:
   ttl: 300
   type: CNAME
@@ -91,9 +84,6 @@ fp01.noreply:
 legacy:
   type: A
   value: 157.203.177.180
-lyncdiscover:
-  type: CNAME
-  value: webdir.online.lync.com.
 mail:
   type: A
   value: 157.203.177.179
