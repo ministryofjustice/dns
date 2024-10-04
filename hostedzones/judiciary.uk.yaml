@@ -399,7 +399,7 @@ staging.elinks:
     value: 51.143.140.242
   - ttl: 3600
     type: TXT
-    values: 
+    values:
       - ms-domain-verification=5940952c-82d9-46b8-8716-1fb3c0cc60d2
       - v=spf1 include:spf.protection.outlook.com -all
 staging.hr:
