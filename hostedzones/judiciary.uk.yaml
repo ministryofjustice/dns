@@ -372,17 +372,17 @@ s2._domainkey.staging.hr:
   ttl: 300
   type: CNAME
   value: s2.domainkey.u29050082.wl083.sendgrid.net
-selector1-azurecomm-prod-net._domainkey:
+selector1-azurecomm-prod-net._domainkey.staging.elinks:
   ttl: 3600
   type: CNAME
-  value: selector1-azurecomm-prod-net._domainkey.staging.elinks.judiciary.uk
+  value: selector1-azurecomm-prod-net._domainkey.azurecomm.net
 selector1._domainkey:
   type: CNAME
   value: selector1-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
-selector2-azurecomm-prod-net._domainkey:
+selector2-azurecomm-prod-net._domainkey.staging.elinks:
   ttl: 3600
   type: CNAME
-  value: selector2-azurecomm-prod-net._domainkey.staging.elinks.judiciary.uk
+  value: selector2-azurecomm-prod-net._domainkey.azurecomm.net
 selector2._domainkey:
   type: CNAME
   value: selector2-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
@@ -399,10 +399,9 @@ staging.elinks:
     value: 51.143.140.242
   - ttl: 3600
     type: TXT
-    value: ms-domain-verification=5940952c-82d9-46b8-8716-1fb3c0cc60d2
-  - ttl: 3600
-    type: TXT
-    value: v=spf1 include:spf.protection.outlook.com -all
+    values: 
+      - ms-domain-verification=5940952c-82d9-46b8-8716-1fb3c0cc60d2
+      - v=spf1 include:spf.protection.outlook.com -all
 staging.hr:
   ttl: 300
   type: CNAME
