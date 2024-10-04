@@ -376,16 +376,16 @@ selector1._domainkey:
   type: CNAME
   value: selector1-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
 selector1-azurecomm-prod-net._domainkey:
-  type: CNAME
-  value: selector1-azurecomm-prod-net._domainkey.azurecomm.net
   ttl: 3600
+  type: CNAME
+  value: selector1-azurecomm-prod-net._domainkey.staging.elinks.judiciary.uk
 selector2._domainkey:
   type: CNAME
   value: selector2-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2-azurecomm-prod-net._domainkey:
-  type: CNAME
-  value: selector2-azurecomm-prod-net._domainkey.azurecomm.net
   ttl: 3600
+  type: CNAME
+  value: selector2-azurecomm-prod-net._domainkey.staging.elinks.judiciary.uk
 smeunpaid5wygnssk3dzyvjtodijdmlw._domainkey.elinks-jo-staging-email.elinks:
   type: CNAME
   value: smeunpaid5wygnssk3dzyvjtodijdmlw.dkim.amazonses.com
