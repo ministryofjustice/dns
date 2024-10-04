@@ -89,10 +89,6 @@ _36085f4d854229b89162cf35526735a4.veracode:
   ttl: 300
   type: CNAME
   value: _0a2dba7b1664c940d34705e311453efd.jddtvkljgg.acm-validations.aws.
-_38914c2fe17df3d640a7d1d9765d8c88.training-preproduction.co-financing:
-  ttl: 300
-  type: CNAME
-  value: _52106b9eec58031689a9b3d42d21d129.mqzgcdqkwq.acm-validations.aws.
 _1864366b68aacd731e332b25536285ec.youth-justice-worker-online-assessment:
   ttl: 300
   type: CNAME
@@ -165,10 +161,6 @@ _d77aef5e838aac4d3d7761ad92401c78.legacy.manage-external-funded-offender-provisi
   ttl: 300
   type: CNAME
   value: _414290eebad8535f016569d8e6055684.sdgjtdhdhz.acm-validations.aws.
-_daab53fad660d45c0e18965db75d500e.training-preproduction.manage-external-funded-offender-provision:
-  ttl: 300
-  type: CNAME
-  value: _30521c4f03ed551be23f0ee2011c9ab0.vrztfgqhxj.acm-validations.aws.
 _dmarc:
   type: TXT
   value: v=DMARC1\;p=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@digitaljustice.gov.uk\;
@@ -1690,14 +1682,6 @@ track-a-query:
     - ns-166.awsdns-20.com.
     - ns-1947.awsdns-51.co.uk.
     - ns-778.awsdns-33.net.
-training-preproduction.manage-external-funded-offender-provision:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z2FDTNDATAQYW2
-    name: d3vok0bwimv2ce.cloudfront.net.
-    type: A
 training.creatingfutureopportunities:
   ttl: 300
   type: CNAME
