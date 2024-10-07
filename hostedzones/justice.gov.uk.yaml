@@ -1172,7 +1172,7 @@ legalaidlearning:
   ttl: 86400
   type: NS
   values:
-    - ns-1947.awsdns-51.co.uk. 
+    - ns-1947.awsdns-51.co.uk.
     - ns-823.awsdns-38.net.
     - ns-1373.awsdns-43.org.
     - ns-304.awsdns-38.com.
