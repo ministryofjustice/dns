@@ -1185,9 +1185,13 @@ legalaidcalculator:
   type: CNAME
   value: legal-aid-checker.justice.gov.uk.
 legalaidlearning:
-  ttl: 300
-  type: CNAME
-  value: t12h.cloudlp.net
+  ttl: 86400
+  type: NS
+  values:
+    - ns-1947.awsdns-51.co.uk.
+    - ns-823.awsdns-38.net.
+    - ns-1373.awsdns-43.org.
+    - ns-304.awsdns-38.com.
 legalaidtraining:
   ttl: 600
   type: CNAME
