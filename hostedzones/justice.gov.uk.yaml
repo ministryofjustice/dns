@@ -322,6 +322,14 @@ _mta-sts.cshrcasework:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=01ca5652ab35bf19dfba6c74b0b93688
+_mu4rkz7uhg6pfbm2dfzf99iareg4osy.uat.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_mu4rkz7uhg6pfbm2dfzf99iareg4osy.www.uat.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _pexapp._tcp.meet.video:
   ttl: 300
   type: SRV
@@ -418,6 +426,14 @@ _smtp._tls.mappa:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_wzlmh2pi8lvqcq14x69pgybfph923dj.wamuat.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_wzlmh2pi8lvqcq14x69pgybfph923dj.www.wamuat.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 adcourt._domainkey.administrativecourtoffice:
   ttl: 300
   type: TXT
