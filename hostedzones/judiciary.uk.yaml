@@ -338,12 +338,9 @@ myhr:
   type: CNAME
   value: ministryofjustice-portal.haloitsm.com
 prod.elinks:
-  - ttl: 300
-    type: CNAME
-    value: enigmatic-sea-8601.afternoon-waters-1964.herokuspace.com
-  - ttl: 300
-    type: A
-    value: 172.166.178.94
+  ttl: 300
+  type: A
+  value: 172.166.178.94
 s1._domainkey.development.hr:
   ttl: 300
   type: CNAME
