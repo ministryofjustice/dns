@@ -221,7 +221,9 @@ elinks:
       preference: 10
   - ttl: 300
     type: TXT
-    value: v=spf1 mx -all
+    values:
+      - v=spf1 mx -all
+      - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
 elinks-edge-email.elinks:
   ttl: 300
   type: MX
