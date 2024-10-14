@@ -224,6 +224,7 @@ elinks:
     values:
       - v=spf1 mx -all
       - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
+      - v=spf1 include:spf.protection.outlook.com -all
 elinks-edge-email.elinks:
   ttl: 300
   type: MX
@@ -338,8 +339,8 @@ myhr:
   value: ministryofjustice-portal.haloitsm.com
 prod.elinks:
   ttl: 300
-  type: CNAME
-  value: enigmatic-sea-8601.afternoon-waters-1964.herokuspace.com
+  type: A
+  value: 172.166.178.94
 s1._domainkey.development.hr:
   ttl: 300
   type: CNAME
@@ -364,6 +365,10 @@ s2._domainkey.staging.hr:
   ttl: 300
   type: CNAME
   value: s2.domainkey.u29050082.wl083.sendgrid.net
+selector1-azurecomm-prod-net._domainkey.elinksL:
+  ttl: 3600
+  type: CNAME
+  value: selector1-azurecomm-prod-net._domainkey.azurecomm.net
 selector1-azurecomm-prod-net._domainkey.staging.elinks:
   ttl: 3600
   type: CNAME
@@ -371,6 +376,10 @@ selector1-azurecomm-prod-net._domainkey.staging.elinks:
 selector1._domainkey:
   type: CNAME
   value: selector1-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
+selector2-azurecomm-prod-net._domainkey.elinks:
+  ttl: 3600
+  type: CNAME
+  value: selector2-azurecomm-prod-net._domainkey.azurecomm.net
 selector2-azurecomm-prod-net._domainkey.staging.elinks:
   ttl: 3600
   type: CNAME
