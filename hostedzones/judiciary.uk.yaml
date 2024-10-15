@@ -26,6 +26,7 @@
         include:ciphr247.com -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - rfpi1va7dtqmdgthssu2skjjqf
+      - vt7q2faup5oj7stn1igpl9m93c
 5vl4vla56j76p3obneqqnjelrynl2kiv._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: 5vl4vla56j76p3obneqqnjelrynl2kiv.dkim.amazonses.com
@@ -216,7 +217,6 @@ elinks:
     values:
       - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
       - v=spf1 include:spf.protection.outlook.com -all
-      - vt7q2faup5oj7stn1igpl9m93c
 elinks-edge-email.elinks:
   ttl: 300
   type: MX
