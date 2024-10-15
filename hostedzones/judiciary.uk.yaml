@@ -212,9 +212,6 @@ ej-replica-jo-staging.elinks:
   value: curly-hollows-znp74u6pbymv9a7batorb929.herokudns.com
 elinks:
   - ttl: 300
-    type: A
-    value: 54.228.199.127
-  - ttl: 300
     type: MX
     value:
       exchange: mail.dxw.net.
@@ -222,7 +219,6 @@ elinks:
   - ttl: 300
     type: TXT
     values:
-      - v=spf1 mx -all
       - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
       - v=spf1 include:spf.protection.outlook.com -all
 elinks-edge-email.elinks:
@@ -365,7 +361,7 @@ s2._domainkey.staging.hr:
   ttl: 300
   type: CNAME
   value: s2.domainkey.u29050082.wl083.sendgrid.net
-selector1-azurecomm-prod-net._domainkey.elinksL:
+selector1-azurecomm-prod-net._domainkey.elinks:
   ttl: 3600
   type: CNAME
   value: selector1-azurecomm-prod-net._domainkey.azurecomm.net
