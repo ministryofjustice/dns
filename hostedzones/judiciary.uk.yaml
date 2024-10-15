@@ -212,15 +212,11 @@ ej-replica-jo-staging.elinks:
   value: curly-hollows-znp74u6pbymv9a7batorb929.herokudns.com
 elinks:
   - ttl: 300
-    type: MX
-    value:
-      exchange: mail.dxw.net.
-      preference: 10
-  - ttl: 300
     type: TXT
     values:
       - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
       - v=spf1 include:spf.protection.outlook.com -all
+      - vt7q2faup5oj7stn1igpl9m93c
 elinks-edge-email.elinks:
   ttl: 300
   type: MX
