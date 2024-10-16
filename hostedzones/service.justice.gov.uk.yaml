@@ -1,5 +1,5 @@
 ---
-'':
+"":
   - ttl: 1800
     type: MX
     value:
@@ -657,14 +657,6 @@ design-patterns:
     - ns-1918.awsdns-47.co.uk.
     - ns-208.awsdns-26.com.
     - ns-836.awsdns-40.net.
-dev.join-github:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1079.awsdns-06.org.
-    - ns-1984.awsdns-56.co.uk.
-    - ns-467.awsdns-58.com.
-    - ns-991.awsdns-59.net.
 dev.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -910,14 +902,6 @@ jacksapp-devs:
     - ns-1721.awsdns-23.co.uk.
     - ns-455.awsdns-56.com.
     - ns-848.awsdns-42.net.
-join-github:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1518.awsdns-61.org.
-    - ns-1677.awsdns-17.co.uk.
-    - ns-277.awsdns-34.com.
-    - ns-945.awsdns-54.net.
 judicialappointmentscommission.intranet:
   ttl: 300
   type: CNAME
