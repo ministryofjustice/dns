@@ -3,3 +3,5 @@ octodns==1.9.1
 octodns-route53==0.0.7
 pytest==8.1.1
 PyYAML==6.0.2rc1
+ruamel.yaml==0.18.6
+ruamel.yaml.clib==0.2.8
