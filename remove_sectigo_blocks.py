@@ -13,33 +13,42 @@ yaml.explicit_start = True  # Always start the YAML document with '---'
 
 
 def find_and_remove_sectigo_block(data, parent_key=None):
+    found_any = False
+
     if isinstance(data, dict):
-        for key, value in list(data.items()):
+        keys_to_remove = []
+        for key, value in data.items():
             if "sectigo" in str(value).lower():
-                del data[key]
-                return parent_key or key, True
-            result, changed = find_and_remove_sectigo_block(value, key)
-            if changed:
-                if isinstance(value, dict) and len(value) == 0:
-                    del data[key]
-                return result, True
+                keys_to_remove.append(key)
+                found_any = True
+            else:
+                _, changed = find_and_remove_sectigo_block(value, key)
+                found_any = found_any or changed
+        for key in keys_to_remove:
+            del data[key]
+
     elif isinstance(data, list):
+        items_to_remove = []
         for i, item in enumerate(data):
-            result, changed = find_and_remove_sectigo_block(item, parent_key)
+            _, changed = find_and_remove_sectigo_block(item, parent_key)
             if changed:
-                data.pop(i)
-                return result, True
-    return None, False
+                items_to_remove.append(i)
+                found_any = True
+        for i in reversed(items_to_remove):
+            data.pop(i)
+
+    return parent_key, found_any
 
 
 def process_yaml_file(file_path):
+    """Process the given YAML file, removing 'sectigo' blocks if present."""
     with open(file_path, "r") as file:
         try:
             yaml_data = yaml.load(file)
-            result, changed = find_and_remove_sectigo_block(yaml_data)
+            _, changed = find_and_remove_sectigo_block(yaml_data)
             if changed:
                 print(f"File: {file_path}")
-                print(f"Removed block containing 'sectigo': {result}")
+                print("Removed one or more blocks containing 'sectigo'.")
                 with open(file_path, "w") as outfile:
                     yaml.dump(yaml_data, outfile)
                 return True
