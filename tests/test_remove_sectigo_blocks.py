@@ -19,7 +19,6 @@ class TestRemoveSectigoBlocks(unittest.TestCase):
         }
         result, changed = find_and_remove_sectigo_block(data)
         self.assertTrue(changed)
-        self.assertEqual(result, "sectigo_domain")
         self.assertNotIn("sectigo_domain", data)
 
     def test_find_and_remove_sectigo_block_list(self):
@@ -31,14 +30,29 @@ class TestRemoveSectigoBlocks(unittest.TestCase):
             "sectigo_domain", [item for item in data if "sectigo_domain" in item]
         )
 
-    def test_process_yaml_file(self):
+    def test_find_and_remove_sectigo_block_with_ignore(self):
+        data = {
+            "courtfinder.demo": {"type": "A", "value": "demo.com"},
+            "sectigo_domain": {"type": "CAA", "value": "sectigo.com"},
+            "public.staging": {"type": "CNAME", "value": "staging.com"},
+        }
+        result, changed = find_and_remove_sectigo_block(data)
+        self.assertTrue(changed)
+        self.assertIn("courtfinder.demo", data)
+        self.assertIn("public.staging", data)
+        self.assertNotIn("sectigo_domain", data)
+
+    def test_process_yaml_file_with_ignore(self):
         yaml_content = """
-        domain:
+        courtfinder.demo:
           type: A
-          value: example.com
+          value: demo.com
         sectigo_domain:
           type: CAA
           value: sectigo.com
+        public.staging:
+          type: CNAME
+          value: staging.com
         """
         with tempfile.NamedTemporaryFile(mode="w+", delete=False) as temp_file:
             temp_file.write(yaml_content)
@@ -51,7 +65,8 @@ class TestRemoveSectigoBlocks(unittest.TestCase):
             with open(temp_file_path, "r") as file:
                 processed_yaml = yaml.load(file)
 
-            self.assertIn("domain", processed_yaml)
+            self.assertIn("courtfinder.demo", processed_yaml)
+            self.assertIn("public.staging", processed_yaml)
             self.assertNotIn("sectigo_domain", processed_yaml)
         finally:
             os.unlink(temp_file_path)
