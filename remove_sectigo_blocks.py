@@ -12,12 +12,28 @@ yaml.indent(
 yaml.explicit_start = True  # Always start the YAML document with '---'
 
 
+def should_ignore_block(value):
+    value_str = str(value).lower()
+    ignored_items = [
+        "courtfinder.demo",
+        "courtfinder.staging",
+        "public.demo",
+        "public.staging",
+        "staff.demo",
+        "staff.staging",
+    ]
+    if any(item in value_str for item in ignored_items):
+        return True
+
+
 def find_and_remove_sectigo_block(data, parent_key=None):
     found_any = False
 
     if isinstance(data, dict):
         keys_to_remove = []
         for key, value in data.items():
+            if should_ignore_block(key):
+                continue
             if "sectigo" in str(value).lower():
                 keys_to_remove.append(key)
                 found_any = True
@@ -30,6 +46,8 @@ def find_and_remove_sectigo_block(data, parent_key=None):
     elif isinstance(data, list):
         items_to_remove = []
         for i, item in enumerate(data):
+            if should_ignore_block(i):
+                continue
             _, changed = find_and_remove_sectigo_block(item, parent_key)
             if changed:
                 items_to_remove.append(i)
