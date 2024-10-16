@@ -1,7 +1,15 @@
 import os
 import sys
 
-import yaml
+from ruamel.yaml import YAML
+
+yaml = YAML()
+yaml.preserve_quotes = True  # Preserve quotes around values if present
+yaml.width = 4096  # Set the line width to 4096 to avoid line wrapping
+yaml.indent(
+    mapping=2, sequence=4, offset=2
+)  # Set the indentation for mapping and sequence
+yaml.explicit_start = True  # Always start the YAML document with '---'
 
 
 def find_and_remove_sectigo_block(data, parent_key=None):
@@ -27,17 +35,17 @@ def find_and_remove_sectigo_block(data, parent_key=None):
 def process_yaml_file(file_path):
     with open(file_path, "r") as file:
         try:
-            yaml_data = yaml.safe_load(file)
+            yaml_data = yaml.load(file)
             result, changed = find_and_remove_sectigo_block(yaml_data)
             if changed:
                 print(f"File: {file_path}")
                 print(f"Removed block containing 'sectigo': {result}")
                 with open(file_path, "w") as outfile:
-                    yaml.dump(yaml_data, outfile, default_flow_style=False)
+                    yaml.dump(yaml_data, outfile)
                 return True
             return False
-        except yaml.YAMLError as e:
-            print(f"Error parsing YAML file {file_path}: {e}")
+        except Exception as e:
+            print(f"Error processing YAML file {file_path}: {e}")
             return False
 
 
@@ -72,4 +80,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
