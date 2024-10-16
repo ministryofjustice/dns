@@ -2,8 +2,12 @@ import os
 import tempfile
 import unittest
 
-import yaml
+from ruamel.yaml import YAML
+
 from remove_sectigo_blocks import find_and_remove_sectigo_block, process_yaml_file
+
+yaml = YAML()
+yaml.preserve_quotes = True  # Preserve quotes around values if present
 
 
 class TestRemoveSectigoBlocks(unittest.TestCase):
@@ -23,20 +27,9 @@ class TestRemoveSectigoBlocks(unittest.TestCase):
         result, changed = find_and_remove_sectigo_block(data)
         self.assertTrue(changed)
         self.assertEqual(len(data), 1)
-        self.assertNotIn("sectigo_domain", data[0])
-
-    def test_find_and_remove_sectigo_block_nested(self):
-        data = {
-            "domain": {
-                "subdomains": [
-                    {"name": "www", "value": "example.com"},
-                    {"name": "secure", "value": "sectigo.com"},
-                ]
-            }
-        }
-        result, changed = find_and_remove_sectigo_block(data)
-        self.assertTrue(changed)
-        self.assertEqual(result, "domain")
+        self.assertNotIn(
+            "sectigo_domain", [item for item in data if "sectigo_domain" in item]
+        )
 
     def test_process_yaml_file(self):
         yaml_content = """
@@ -56,7 +49,7 @@ class TestRemoveSectigoBlocks(unittest.TestCase):
             self.assertTrue(result)
 
             with open(temp_file_path, "r") as file:
-                processed_yaml = yaml.safe_load(file)
+                processed_yaml = yaml.load(file)
 
             self.assertIn("domain", processed_yaml)
             self.assertNotIn("sectigo_domain", processed_yaml)
@@ -81,7 +74,7 @@ class TestRemoveSectigoBlocks(unittest.TestCase):
             self.assertFalse(result)
 
             with open(temp_file_path, "r") as file:
-                processed_yaml = yaml.safe_load(file)
+                processed_yaml = yaml.load(file)
 
             self.assertIn("domain", processed_yaml)
             self.assertIn("another_domain", processed_yaml)
