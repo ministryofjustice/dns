@@ -36,10 +36,6 @@ _197eb29a0dfa200c07fbebf6e3c86eff:
   ttl: 300
   type: CNAME
   value: _7276abb0b0da9f5654166f237afe9dd4.snrcwrvdjt.acm-validations.aws.
-_a97df82e0b2f3c8f59d0df9d6898d7a5.cintra-vpn:
-  ttl: 300
-  type: CNAME
-  value: 30962f95cbb2975135ce09ef399bf356.7751e04c03cf8b06dd4a551d6e8de668.65649a5b992c2570ee3e.sectigo.com.
 _ab7da5570886148ce1beeae1281f91b0:
   ttl: 300
   type: CNAME

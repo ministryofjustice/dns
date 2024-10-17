@@ -21,8 +21,7 @@
       - MS=ms27470079
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
       - google-site-verification=ZF9wtpT_YiWaUp4t18aOheIRck4ZM6F4ejm80HGAsmc
-      - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 include:spf.protection.outlook.com
-        include:_spf.google.com include:spf.mandrillapp.com -all
+      - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 include:spf.protection.outlook.com include:_spf.google.com include:spf.mandrillapp.com -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
 _6a19d3849cc84ad68c492edf9ce06d44:
   ttl: 300
@@ -40,10 +39,6 @@ _76a04fa32fff218a5f66ac6f51c6e6bf.mta-sts.newsletter:
   ttl: 60
   type: CNAME
   value: _451ddee3956f0daba0a3e36373a11771.dqxlbvzbzt.acm-validations.aws.
-_93e62b1e2a9de2960abec80779a310d1.complaints:
-  ttl: 300
-  type: CNAME
-  value: 502852907ccb7306ef8091163e417608.06270615ef303e6b86ee2c2a90f267fb.ca30b640ec46c32e3d4a.sectigo.com.
 _782a897ac4e4560a030f9d47339019e9.www:
   ttl: 300
   type: CNAME
