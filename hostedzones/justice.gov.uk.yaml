@@ -764,7 +764,7 @@ design102:
       preference: 0
   - ttl: 300
     type: TXT
-    value: v=spf1 ip4:78.31.110.246 include:sendgrid.net -all 
+    value: v=spf1 ip4:78.31.110.246 include:sendgrid.net -all
 dev:
   ttl: 86400
   type: NS
@@ -833,7 +833,7 @@ em3636.cjscp:
 em8835.design102:
   ttl: 300
   type: CNAME
-  value: u45811675.wl176.sendgrid.net 
+  value: u45811675.wl176.sendgrid.net
 email.ppud:
   ttl: 300
   type: A
