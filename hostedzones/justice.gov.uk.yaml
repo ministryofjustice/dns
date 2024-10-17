@@ -24,9 +24,7 @@
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - paloaltonetworks-site-verification=0b174a69a0bbb0078f1b18f4bac05c0bd943f50b2e279ea920cfe4e085ec4a48
-      - v=spf1 ip4:194.33.196.0/24 ip4:194.33.192.0/24 mx a:b.spf.service-now.com
-        a:c.spf.service-now.com a:d.spf.service-now.com include:spf.protection.outlook.com
-        include:_spf.google.com include:mail-relay.staff.service.justice.gov.uk -all
+      - v=spf1 ip4:194.33.196.0/24 ip4:194.33.192.0/24 mx a:b.spf.service-now.com a:c.spf.service-now.com a:d.spf.service-now.com include:spf.protection.outlook.com include:_spf.google.com include:mail-relay.staff.service.justice.gov.uk -all
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
@@ -59,38 +57,14 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
-_8A1262B1C0B2AF7ED8555AB4AC0CCB81.libra-prod.apps:
-  ttl: 300
-  type: CNAME
-  value: 6D6E1889CBCB4A0D96CFC1EEB21F73DF.6F376B962134EC6BB9AD3365B9098CE2.61d4654a6aeef3f43e5b.sectigo.com.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
-_59E94273E0395C5F67E57A64A5DF70C6.libra-prod.apps:
-  ttl: 300
-  type: CNAME
-  value: DD2FB8C222EE35F50D4951D2D3A2FBED.A3BAB8145E770BE27DAF216AD2314BA5.e1442ecf0d373d1b4f96.sectigo.com.
 _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
-_413907afca971cfa53aab8d5df86e4ef.bench.courtstore:
-  ttl: 300
-  type: CNAME
-  value: 99676425dda31d813e393d4d1551f41c.2a3726c1103d2824e6ffcce77ad998ad.1298432b58b57b0ca19f.sectigo.com.
-_E0FCB7A4ABED1635BDA3D6DB5D95F573.courtstore:
-  ttl: 300
-  type: CNAME
-  value: F862680DD81DCEEDCB1A191579BED387.EF5F69DF8020D304280D692B9C9D8AE8.434c5bd6ebcf5a3c8e71.sectigo.com.
-_EFF93CC62AEBD03595E86398C5A5DF88.staff.court.store:
-  ttl: 300
-  type: CNAME
-  value: 22FBA9D12FC54A2DB5CC8A1FBDAF3401.9459C11735B5E5436E55CF5B00FFE8EF.b61b26dc97a3b3975cdc.sectigo.com.
-_FEE6E71E688EC01B124A6FB689CF8580.mappa:
-  ttl: 10800
-  type: CNAME
-  value: 5A0FB97D1D6EE51C8C3E7E2E0292344B.FEFA7C2146ECF490E7CA17917811F597.59fc16fb2726964965e5.sectigo.com.
 _acme-challenge.aka:
   ttl: 300
   type: CNAME
@@ -1432,9 +1406,7 @@ noreply:
       preference: 0
   - ttl: 300
     type: TXT
-    value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:194.33.192.201/32 ip4:194.33.192.202/32
-      ip4:194.33.196.201/32 ip4:194.33.196.202/32 ip4:195.59.75.140/32 ip4:195.59.75.12/32
-      -all
+    value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:194.33.192.201/32 ip4:194.33.192.202/32 ip4:194.33.196.201/32 ip4:194.33.196.202/32 ip4:195.59.75.140/32 ip4:195.59.75.12/32 -all
 noreply.internaltest.ppud:
   - ttl: 300
     type: MX

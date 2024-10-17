@@ -22,8 +22,7 @@
       - d1mkkfanu2t88mqdpc6np4u49r
       - pdk1jsvamjpdtmqi5i8o82ir8s
       - ujatii6o116ahi7u28r22h982t
-      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:78.31.108.141 include:spf.protection.outlook.com
-        include:ciphr247.com -all
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:78.31.108.141 include:spf.protection.outlook.com include:ciphr247.com -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - rfpi1va7dtqmdgthssu2skjjqf
       - vt7q2faup5oj7stn1igpl9m93c
@@ -34,10 +33,6 @@ _2cfb3230475e3689609b3297ae4656c4:
   ttl: 300
   type: CNAME
   value: _3406d52cab14ed3ad6278fd834757ab6.rvctyfnwhz.acm-validations.aws.
-_2dbef9e1aa4e8e214c8cea8fe9c03ce4.hr:
-  ttl: 300
-  type: CNAME
-  value: c4a571ce42054fa06331b61b5d069f04.3489a1095f2194c2a9ea1ad2ba973953.71f956e60b088d0c2166.sectigo.com.
 _5dd4ff6618685d9724e117cdc2bfa5d5.www:
   ttl: 600
   type: CNAME
@@ -66,10 +61,6 @@ _617aa7dd1b481bab674133c622155ffa.myhr:
   ttl: 300
   type: CNAME
   value: _2ad22899d6a8ab60457239d43f80c173.sdgjtdhdhz.acm-validations.aws.
-_899b462404e4bec7a425327cc1cf715d.hr:
-  ttl: 300
-  type: CNAME
-  value: cb93603ba5bac4e486ebffbd07a04602.81b783a38226c090968d86c074b9aa93.e782e89abdb62740b34d.sectigo.com
 _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME

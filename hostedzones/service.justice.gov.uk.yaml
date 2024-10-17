@@ -25,14 +25,6 @@
   - ttl: 300
     type: TXT
     values: [MS=ms96686635, v=spf1 ~all]
-_0c5ef000e3292b5574d86de97bdd9bbb.pp.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: F44C86E0F5F5FD9EBBD3F26675F5607A.33565F12AC0C54EE6A8AFD81DC7DD00D.45e54140e14f2243da11.sectigo.com.
-_0c5ef000e3292b5574d86de97bdd9bbb.preprod.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: F44C86E0F5F5FD9EBBD3F26675F5607A.33565F12AC0C54EE6A8AFD81DC7DD00D.45e54140e14f2243da11.sectigo.com.
 _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
@@ -53,10 +45,6 @@ _33da21e90254237bcc4d8ad00bd3d118.security-training:
   ttl: 300
   type: CNAME
   value: _6165ac1a2a05feaefa1cc4aaf7d09b0b.kgnrpmcdhl.acm-validations.aws.
-_43DBD73C16B01AFE980415A84F3B092F.staging.hmpps-canine-management:
-  ttl: 300
-  type: CNAME
-  value: 20477D669B5CED77E138EB5720D4FF75.64D9D29D9215A8479724F5C2794FA2E6.dabe41b5d35901e95d4d.sectigo.com.
 _047fab8b93aa6da0699b1cc4413bd685.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
@@ -153,10 +141,6 @@ _d8e015eb77621a22d1bb4fe339ec1ebd.dev.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: _f45d3bd1f2f3aa9f672facf92f66d56a.sdgjtdhdhz.acm-validations.aws.
-_d0056e0292b63e43ee7490de450c6111.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: 3f666b6b9cd8ac0bd8ab145b89b2aa87.e449af38df4aa2fe9b1656cad6f70ea9.fcdbccead55470275a70.sectigo.com.
 _d77aef5e838aac4d3d7761ad92401c78.legacy.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
