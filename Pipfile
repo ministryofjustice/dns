@@ -15,5 +15,4 @@ pyyaml = "==6.0.2rc1"
 [dev-packages]
 
 [requires]
-python_version = "3.12"
-python_full_version = "3.12.7"
+python_version = "3.11"
