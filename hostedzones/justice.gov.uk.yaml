@@ -764,7 +764,7 @@ design102:
       preference: 0
   - ttl: 300
     type: TXT
-    value: v=spf1 ip4:78.31.110.246  -all
+    value: v=spf1 ip4:78.31.110.246 include:sendgrid.net -all 
 dev:
   ttl: 86400
   type: NS
@@ -830,6 +830,10 @@ em3636.cjscp:
   ttl: 300
   type: CNAME
   value: u17380493.wl244.sendgrid.net
+em8835.design102:
+  ttl: 300
+  type: CNAME
+  value: u45811675.wl176.sendgrid.net 
 email.ppud:
   ttl: 300
   type: A
@@ -1625,10 +1629,18 @@ s1._domainkey.cjsm.secure-email.ppud:
   type: TXT
   # yamllint disable-line rule:line-length
   value: v=DKIM1\;t=s\;""p=MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqBp46Uo7o6UlqVbKLAQ/ZzcVu2ThvrLoWnbd11pJKKukuUBLch5J4UhB9TeMOnM99RfilzD/srAyV6ZZuOw1oST4OMYlc7zoe+QG3OGjY4JPO9vyhSQQvuDdb4""1esPtaMfdeF6DhNGEux10erIvSwnxYSWQf8vM7OpvLX5S+XUA4yCMN8XspgUjtqeLaoSah7tEjjvv3hT/HDbj4WXjpkXojSynFPdQB4x368cBljG4ltPSR88MCLun/k1kII2sIadLnqSqS3IZd5EvJQrjMsgCeeXD3m""KObrksp0TxkM7ASPbUAQAcnXksCMP0kqdF5dtcB14tlgZG6qD5kJNO+IIrFvjsipu126LsVceaQ6ShY5A7POW/L+V9p0dcLNxGIMh196kAG8GLDWGw+uWEeZ+K6HyTdcasQW3Y5+ukKbI1mxHjyUz6kdC6jDvYl8xse4H5yWZ/tYMbcMTvob8pMZMLWuEkSrRGJDAFrVydjSs3cC7N08tWVVO1rCXdGKhgjyeUJxj2nDlHmLsfIxv""cTdLSzqdKNKl3uNGs8ewzB3VYJT8maovUl3gQIZsgMGHdHIlr2jqQ7SBFF97mxvEmra+rHpFlnXcg7X03OiZYuf5YtIWxFjUULZq99O9PMgnNMqyJVUmUQxhMgwAGWZfZteIvZVi8qlkLFLrLMuWggEW8CAwEAAQ==
+s1._domainkey.design102:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u45811675.wl176.sendgrid.net
 s2._domainkey.cjscp:
   ttl: 300
   type: CNAME
   value: s2.domainkey.u17380493.wl244.sendgrid.net
+s2._domainkey.design102:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u45811675.wl176.sendgrid.net
 sbc1:
   ttl: 300
   type: A
