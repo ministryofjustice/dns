@@ -56,7 +56,7 @@ sync-dry-run:
 
 sync-apply:
 	$(call check_aws_creds)
-	octodns-sync --config-file=$(CONFIG_FILE) --doit --force
+	octodns-sync --config-file=$(CONFIG_FILE) --doit
 
 list-zones:
 	@ls -1 $(ZONES_DIR)/*.yaml | sed 's/.*\///' | sed 's/\.yaml//'
