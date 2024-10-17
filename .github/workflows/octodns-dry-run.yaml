@@ -27,8 +27,7 @@ jobs:
 
       - name: Run OctoDNS dry run
         run: |
-          source venv/bin/activate
-          make sync-dry-run
+          pipenv run make sync-dry-run
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}

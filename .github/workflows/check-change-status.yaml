@@ -50,8 +50,7 @@ jobs:
         id: check-change-status
         if: steps.hosted-zone-changed-files.outputs.any_changed == 'true'
         run: |
-          source venv/bin/activate
-          python3 check_change_status.py
+          pipenv run python3 check_change_status.py
         env:
           CHANGE_STATUS_OUTPUT: ${{ env.CHANGE_STATUS_OUTPUT }}
           PYTHONUNBUFFERED: 1

@@ -32,10 +32,8 @@ help:
 	@echo "  make validate-zones       - Validate all zone files"
 
 install:
-	python3 -m venv venv
-	. venv/bin/activate && \
-	python3 -m pip install --upgrade pip && \
-	python3 -m pip install -r requirements.txt
+	pip3 install pipenv
+	pipenv install --dev
 
 edit-zone:
 	@if [ -z "$(zone)" ]; then \
@@ -88,19 +86,19 @@ compare-zone:
 
 check-unmanaged-zones: install
 	$(call check_aws_creds)
-	@. venv/bin/activate && python3 check_unmanaged_zones.py
+	@pipenv run python3 check_unmanaged_zones.py
 
 check-empty-zones: install
 	$(call check_aws_creds)
-	@. venv/bin/activate && python3 check_empty_zones.py
+	@pipenv run python3 check_empty_zones.py
 
 clean:
-	@rm -rf venv tmp
+	@pipenv --rm
 	@find . -type f -name "*.pyc" -delete
 	@find . -type d -name "__pycache__" -delete
 
 test: install
-	@. venv/bin/activate && python -m pytest tests/
+	@pipenv run python3 -m pytest tests/
 
 .DEFAULT_GOAL := help
 

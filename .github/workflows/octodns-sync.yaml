@@ -27,8 +27,7 @@ jobs:
 
       - name: Run OctoDNS sync
         run: |
-          source venv/bin/activate
-          make sync-apply
+          pipenv run make sync-apply
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
