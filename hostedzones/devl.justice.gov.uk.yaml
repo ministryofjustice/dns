@@ -13,7 +13,7 @@
       - ns-965.awsdns-56.net.
   - type: TXT
     values:
-      - v=spf1 include:spf.protection.outlook.com -all
+      - v=spf1 include:spf.protection.outlook.com include:smtp-relay.dev.staff.service.justice.gov.uk -all
       - google-site-verification=HhPu9-ILo7FvJ9FGjbGLyiavc4F8Pqt5tgqozUg3ah0
 _735b486553cdfa713eebbd5f2ff3d69b.mta-sts:
   ttl: 60
