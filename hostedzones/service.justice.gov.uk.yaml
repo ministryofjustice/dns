@@ -641,6 +641,14 @@ design-patterns:
     - ns-1918.awsdns-47.co.uk.
     - ns-208.awsdns-26.com.
     - ns-836.awsdns-40.net.
+dev.change-dns:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1247.awsdns-27.org
+    - ns-1660.awsdns-15.co.uk
+    - ns-486.awsdns-60.com
+    - ns-990.awsdns-59.net
 dev.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
