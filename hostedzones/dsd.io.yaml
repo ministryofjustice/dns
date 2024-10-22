@@ -95,14 +95,6 @@ acceleratedpossession:
     - ns-1772.awsdns-29.co.uk.
     - ns-325.awsdns-40.com.
     - ns-941.awsdns-53.net.
-afdverify.dev.transportappeals:
-  ttl: 300
-  type: CNAME
-  value: afdverify.sdshmcts-dev.azurefd.net
-afdverify.staging.transportappeals:
-  ttl: 300
-  type: CNAME
-  value: afdverify.sdshmcts-stg.azurefd.net
 alertmanager:
   ttl: 300
   type: A
@@ -147,10 +139,6 @@ cait:
     - ns-1096.awsdns-09.org.
     - ns-1729.awsdns-24.co.uk.
     - ns-199.awsdns-24.com.
-carestandardstribunal:
-  ttl: 300
-  type: A
-  value: 52.208.251.221
 ci-hmcts.service:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -590,30 +578,6 @@ dev.administrativeappeals:
   ttl: 300
   type: CNAME
   value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.carestandards:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.cicap:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.employmentappeals:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.financeandtax:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.immigrationservices:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.informationrights:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
 dev.landregistrationdivision:
   ttl: 300
   type: CNAME
@@ -630,10 +594,6 @@ dev.nomis-api-access:
     - ns-1627.awsdns-11.co.uk.
     - ns-206.awsdns-25.com.
     - ns-654.awsdns-17.net.
-dev.transportappeals:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev.azurefd.net
 devregistry.service:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -706,10 +666,6 @@ email.staging:
   ttl: 300
   type: CNAME
   value: sendgrid.net
-employmentappeals:
-  ttl: 300
-  type: A
-  value: 52.208.251.221
 es-hmcts:
   ttl: 300
   type: CNAME
@@ -818,18 +774,6 @@ hwf:
     - ns-191.awsdns-23.com.
     - ns-2004.awsdns-58.co.uk.
     - ns-685.awsdns-21.net.
-immigrationservicestribunal:
-  ttl: 300
-  type: A
-  value: 52.208.251.221
-informationtribunal:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
-    type: A
 int-prisonvisits:
   ttl: 30
   type: A
@@ -1069,10 +1013,6 @@ openjustice:
   ttl: 300
   type: CNAME
   value: ec2-34-248-250-65.eu-west-1.compute.amazonaws.com
-osscsc:
-  ttl: 300
-  type: A
-  value: 52.208.251.221
 platforms:
   ttl: 300
   type: NS
@@ -1823,30 +1763,6 @@ staging.administrativeappeals:
   ttl: 300
   type: CNAME
   value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-staging.carestandards:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-staging.cicap:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-staging.employmentappeals:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-staging.financeandtax:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-staging.immigrationservices:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-staging.informationrights:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
 staging.landregistrationdivision:
   ttl: 300
   type: CNAME
@@ -1855,10 +1771,6 @@ staging.landschamber:
   ttl: 300
   type: CNAME
   value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-staging.transportappeals:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-stg.azurefd.net
 static:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -2103,10 +2015,6 @@ tp:
     - ns-1882.awsdns-43.co.uk.
     - ns-275.awsdns-34.com.
     - ns-902.awsdns-48.net.
-transport:
-  ttl: 300
-  type: A
-  value: 52.208.251.221
 tribunals2:
   ttl: 300
   type: CNAME
