@@ -3,8 +3,8 @@
   - ttl: 1800
     type: MX
     value:
-      exchange: inbound-smtp.eu-west-1.amazonaws.com
-      preference: 10
+      exchange: .
+      preference: 0
   - ttl: 300
     type: NS
     values:
