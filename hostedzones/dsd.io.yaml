@@ -15,8 +15,8 @@
   - ttl: 300
     type: TXT
     values:
-      v=spf1 -all
-      v=DKIM1; p=
+      - v=spf1 -all
+      - v=DKIM1; p=
 7vyvfadjerzncwgstpglhj6bwd5ekpbo._domainkey.ppo:
   ttl: 1800
   type: CNAME
