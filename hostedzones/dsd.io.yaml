@@ -426,10 +426,6 @@ deployarn.active.newprod.docker-registry:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/docker-registry-newprod-b1ac058e-CrossAccountRole-1U81JQ26W2GL8
-deployarn.active.prod1.sentry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/sentry-prod1-7f97d29b-CrossAccountRole-T9EHJS1H4TWL
 deployarn.active.prod.ci:
   ttl: 60
   type: TXT
@@ -442,10 +438,6 @@ deployarn.active.prod.po:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/po-prod-553a27f6-CrossAccountRole-BCXALGQKKIWA
-deployarn.active.prod.sentry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX
 deployarn.active.prod.status:
   ttl: 60
   type: TXT
@@ -458,10 +450,6 @@ deployarn.active.prod.vis:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/vis-prod-92ac1d7b-CrossAccountRole-1QNJEEF7FTQ6N
-deployarn.active.prodpara.sentry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/sentry-prodpara-2f97e85c-CrossAccountRole-NDY5CG3HA6KW
 deployarn.active.production.accelerated-claims:
   ttl: 60
   type: TXT
@@ -478,10 +466,6 @@ deployarn.active.staging.po:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/po-staging-77c25fb8-CrossAccountRole-1NEVI39K1IUUG
-deployarn.active.staging.sentry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY
 deployarn.active.staging.tax-tribunals-fees:
   ttl: 60
   type: TXT
@@ -518,14 +502,6 @@ deployarn.green.prod.docker-registry:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/docker-registry-prod-768454e0-CrossAccountRole-1Y9KUI5NRMLI
-deployarn.ltsampros2.staging.sentry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY
-deployarn.new2.prod.sentry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX
 deployarn.newdev3.dev.tax-tribunals-fees:
   ttl: 60
   type: TXT
@@ -957,10 +933,6 @@ mojintranet:
     - ns-1618.awsdns-10.co.uk.
     - ns-371.awsdns-46.com.
     - ns-666.awsdns-19.net.
-mon:
-  ttl: 300
-  type: A
-  value: 54.194.12.181
 monitoring.prod-lpa:
   ttl: 300
   type: A
@@ -1233,42 +1205,6 @@ search.noms:
   ttl: 300
   type: CNAME
   value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
-sentry:
-  ttl: 300
-  type: CNAME
-  value: mon.dsd.io
-sentry-staging.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: sentry-st-elbsentr-1f3gedml5ov73-1658766537.eu-west-1.elb.amazonaws.com.
-    type: A
-sentry.cla.service:
-  ttl: 300
-  type: A
-  value: 185.40.9.58
-sentry.prod-lpa:
-  ttl: 300
-  type: CNAME
-  value: monitoring.prod-lpa.dsd.io
-sentry.scratch-lpa:
-  ttl: 300
-  type: CNAME
-  value: monitoring.scratch-lpa.dsd.io
-sentry.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: dualstack.sentry-pr-elbsentr-1anldhpnj4rk8-1574613568.eu-west-1.elb.amazonaws.com.
-    type: A
-sentry.staging-lpa:
-  ttl: 300
-  type: CNAME
-  value: monitoring.staging-lpa.dsd.io
 service-mapper:
   ttl: 300
   type: CNAME
@@ -1511,22 +1447,6 @@ stack.active.senrty-staging:
   ttl: 300
   type: TXT
   value: cdde1be0
-stack.active.sentry-prod:
-  ttl: 60
-  type: TXT
-  value: d816934f
-stack.active.sentry-prod1:
-  ttl: 60
-  type: TXT
-  value: 7f97d29b
-stack.active.sentry-prodpara:
-  ttl: 60
-  type: TXT
-  value: 2f97e85c
-stack.active.sentry-staging:
-  ttl: 60
-  type: TXT
-  value: cdde1be0
 stack.active.snd-dev:
   ttl: 60
   type: TXT
@@ -1683,18 +1603,6 @@ stack.green.mattp-dev:
   ttl: 60
   type: TXT
   value: 03188574
-stack.ltsampros2.sentry-staging:
-  ttl: 60
-  type: TXT
-  value: cdde1be0
-stack.ltsampros3.sentry-staging:
-  ttl: 60
-  type: TXT
-  value: dd30b374
-stack.new2.sentry-prod:
-  ttl: 60
-  type: TXT
-  value: d816934f
 stack.newdev3.tax-tribunals-fees-dev:
   ttl: 60
   type: TXT
