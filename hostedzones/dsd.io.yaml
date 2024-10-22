@@ -84,30 +84,10 @@ _amazonses.tribunals:
   ttl: 1800
   type: TXT
   value: FotC+RkVmtjm3NvO4OIR5gsq8wlGxX1X7LdoJ1RITII=
-_asvdns-0ec077bf-94ae-4ccd-9abc-86305dbaac6f.tax-tribunals-datacapture-dev:
-  ttl: 300
-  type: TXT
-  value: asvdns_f98c84db-b876-4c72-863d-cb1aec969f20
 _asvdns-2a0e1baa-d9c9-4659-9599-2147df1e2ff4:
   ttl: 300
   type: TXT
   value: asvdns_e503e145-e8e6-4b67-8abe-f1bba45b6f03
-_asvdns-93f5e9c6-fe9e-433d-baab-496fe6199dc2.tax-tribunals-downloader-dev:
-  ttl: 300
-  type: TXT
-  value: asvdns_a440567a-1d51-4ede-8097-6f179378ff80
-_asvdns-a9deae9e-bead-410e-be50-809a7ad182c6.tax-tribunals-fees-staging:
-  ttl: 300
-  type: TXT
-  value: asvdns_ca8dcb48-f00b-4524-97b8-30bbc271a484
-_asvdns-ac34ee22-06a5-4473-aa5e-851fef56119e.tax-tribunals-fees-dev:
-  ttl: 300
-  type: TXT
-  value: asvdns_d975c87d-6209-4097-b070-3240b0220dbc
-_asvdns-acf85d3d-46ce-4b0e-bf02-c9d404a2b7c4.tax-tribunals-datacapture-staging:
-  ttl: 300
-  type: TXT
-  value: asvdns_7a97c4a5-089d-415d-955e-71b3e13fdc2a
 _bfa871d9ae35776361503dc9a3a10db1.tax-tribunals-datacapture-staging:
   ttl: 300
   type: CNAME
