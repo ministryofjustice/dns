@@ -21,10 +21,6 @@
   ttl: 1800
   type: CNAME
   value: 7vyvfadjerzncwgstpglhj6bwd5ekpbo.dkim.amazonses.com
-767topg7v6qyf3jlozwlxhu2zcqb4fuk._domainkey.opg:
-  ttl: 1800
-  type: CNAME
-  value: 767topg7v6qyf3jlozwlxhu2zcqb4fuk.dkim.amazonses.com
 "*.branchrunner.acceleratedpossession-dev":
   ttl: 300
   type: CNAME
@@ -71,10 +67,6 @@ _amazonses.courtfinder:
   ttl: 1800
   type: TXT
   value: G1EwlYcGmbhzmDSuyG/gZq2q7QCQx6EFWpaR00Yn8yQ=
-_amazonses.opg:
-  ttl: 1800
-  type: TXT
-  value: bWOD7mXHLafhehCkT+4DNLWwmQKx3Kxsn/nxubU3Tbg=
 _amazonses.ppo:
   ttl: 1800
   type: TXT
@@ -179,10 +171,6 @@ ci-prod.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com.
     type: A
-ci.opg:
-  ttl: 300
-  type: A
-  value: 54.76.9.27
 ci.service:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -247,14 +235,6 @@ core:
     - ns-1897.awsdns-45.co.uk.
     - ns-442.awsdns-55.com.
     - ns-714.awsdns-25.net.
-core-back.opg:
-  ttl: 300
-  type: CNAME
-  value: jenkins.opg.dsd.io
-core-front.opg:
-  ttl: 300
-  type: CNAME
-  value: jenkins.opg.dsd.io
 courtfinder-test:
   ttl: 300
   type: CNAME
@@ -291,14 +271,6 @@ dacp:
   ttl: 300
   type: A
   value: 52.19.133.172
-ddc.opg-backoffice-integration:
-  ttl: 300
-  type: A
-  value: 54.194.221.57
-ddc.opg-backoffice-uat:
-  ttl: 300
-  type: A
-  value: 54.77.107.33
 defence-request:
   type: NS
   values:
@@ -702,10 +674,6 @@ elasticsearch.cla.service:
   ttl: 300
   type: A
   value: 185.40.9.58
-elasticsearch.opg-backoffice-qa:
-  ttl: 300
-  type: A
-  value: 54.171.58.225
 elasticsearch.prod-lpa:
   ttl: 300
   type: A
@@ -806,10 +774,6 @@ ftp:
   ttl: 300
   type: A
   value: 52.208.251.221
-fyibmzgtfcszcfbnwmcysnrb6hjeq23s._domainkey.opg:
-  ttl: 1800
-  type: CNAME
-  value: fyibmzgtfcszcfbnwmcysnrb6hjeq23s.dkim.amazonses.com
 gems:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -913,14 +877,6 @@ jenkins-ubuntu:
   ttl: 300
   type: A
   value: 54.194.38.138
-jenkins.opg:
-  ttl: 60
-  type: A
-  value: 54.229.206.68
-jonathan-wood:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 jurorsummons:
   ttl: 300
   type: A
@@ -1113,73 +1069,6 @@ openjustice:
   ttl: 300
   type: CNAME
   value: ec2-34-248-250-65.eu-west-1.compute.amazonaws.com
-opg:
-  - ttl: 300
-    type: A
-    value: 54.73.63.103
-  - ttl: 300
-    type: NS
-    values:
-      - ns-1379.awsdns-44.org
-      - ns-1970.awsdns-54.co.uk
-      - ns-660.awsdns-18.net
-      - ns-75.awsdns-09.com
-opg-backoffice-ci:
-  ttl: 300
-  type: A
-  value: 54.77.190.125
-opg-backoffice-dev-jenkins:
-  ttl: 300
-  type: A
-  value: 54.171.121.42
-opg-backoffice-dev-jenkins-build:
-  ttl: 300
-  type: A
-  value: 54.171.153.71
-opg-backoffice-dev-jenkins-deploy:
-  ttl: 300
-  type: A
-  value: 54.76.55.169
-opg-backoffice-integration:
-  ttl: 300
-  type: A
-  value: 54.194.221.57
-opg-backoffice-jenkins:
-  ttl: 300
-  type: A
-  value: 54.77.174.13
-opg-backoffice-qa:
-  ttl: 300
-  type: A
-  value: 54.171.58.225
-opg-backoffice-review:
-  ttl: 300
-  type: A
-  value: 54.171.58.225
-opg-backoffice-scratch:
-  ttl: 300
-  type: A
-  value: 54.171.198.218
-opg-backoffice-snapshot:
-  ttl: 300
-  type: A
-  value: 54.77.190.125
-opg-backoffice-training:
-  ttl: 300
-  type: A
-  value: 54.72.135.104
-opg-backoffice-uat:
-  ttl: 300
-  type: A
-  value: 54.77.107.133
-opg_blog:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
-opgbackoffice:
-  ttl: 300
-  type: A
-  value: 54.72.134.170
 osscsc:
   ttl: 300
   type: A
@@ -1232,10 +1121,6 @@ primaryhealthlistsdecisions:
   ttl: 300
   type: CNAME
   value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-processmaker.opg:
-  ttl: 300
-  type: CNAME
-  value: jenkins.opg.dsd.io
 prod.nomis-api-access:
   ttl: 1500
   type: NS
@@ -2022,18 +1907,10 @@ stunnel-redis.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: elk-prod-elbstunn-7fng2mdj9m1f-813182817.eu-west-1.elb.amazonaws.com.
     type: A
-sugar.opg:
-  ttl: 300
-  type: CNAME
-  value: jenkins.opg.dsd.io
 svkdg7soiv4iwzx6rczvjircjf42xdvi._domainkey:
   ttl: 1800
   type: CNAME
   value: svkdg7soiv4iwzx6rczvjircjf42xdvi.dkim.amazonses.com
-swagger.opg:
-  ttl: 300
-  type: CNAME
-  value: jenkins.opg.dsd.io
 tactical-products:
   ttl: 300
   type: NS
@@ -2314,10 +2191,6 @@ ybtj:
   ttl: 300
   type: CNAME
   value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
-ydu5yan7zvss4dzjahepxa6tknn3wvy4._domainkey.opg:
-  ttl: 1800
-  type: CNAME
-  value: ydu5yan7zvss4dzjahepxa6tknn3wvy4.dkim.amazonses.com
 yjbpublications:
   ttl: 300
   type: A
