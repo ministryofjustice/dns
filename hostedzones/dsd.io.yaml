@@ -14,10 +14,9 @@
       - ns-613.awsdns-12.net.
   - ttl: 300
     type: TXT
-    value: v=spf1 -all
-  - ttl: 300
-    type: CNAME
-    value: v=DKIM1; p=
+    values:
+      v=spf1 -all
+      v=DKIM1; p=
 7vyvfadjerzncwgstpglhj6bwd5ekpbo._domainkey.ppo:
   ttl: 1800
   type: CNAME
