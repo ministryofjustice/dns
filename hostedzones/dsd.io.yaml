@@ -678,10 +678,6 @@ devregistry.service-33c0d65b:
     hosted-zone-id: Z32O12XQLNTSW2
     name: docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com.
     type: A
-digideps.service:
-  ttl: 300
-  type: A
-  value: 54.194.218.14
 dsd_blog:
   ttl: 300
   type: CNAME
@@ -734,14 +730,6 @@ elasticsearch.staging-lpa:
   ttl: 300
   type: CNAME
   value: monitoring.staging-lpa.dsd.io
-em.email.digideps.service:
-  ttl: 300
-  type: CNAME
-  value: sendgrid.net
-email.digideps.service:
-  ttl: 300
-  type: TXT
-  value: v=spf1 include:sendgrid.net ~all
 email.service:
   ttl: 300
   type: CNAME
@@ -1113,10 +1101,6 @@ noms-api-preprod:
     hosted-zone-id: Z32O12XQLNTSW2
     name: dualstack.nomsapi-preprod-apigateway-1432711636.eu-west-1.elb.amazonaws.com.
     type: A
-o1.em.email.digideps.service:
-  ttl: 300
-  type: A
-  value: 198.21.4.244
 opendata.justice:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1487,14 +1471,6 @@ sirius.service:
   type: A
   value: 37.26.91.54
 smtpapi._domainkey:
-  ttl: 300
-  type: TXT
-  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
-smtpapi._domainkey.em.email.digideps.service:
-  ttl: 300
-  type: TXT
-  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
-smtpapi._domainkey.email.digideps.service:
   ttl: 300
   type: TXT
   value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
@@ -1934,10 +1910,6 @@ staging47:
   ttl: 300
   type: CNAME
   value: ec2-54-194-156-23.eu-west-1.compute.amazonaws.com
-staging-digideps.service:
-  ttl: 300
-  type: A
-  value: 54.76.171.16
 staging-et:
   ttl: 942942942
   type: Route53Provider/ALIAS
