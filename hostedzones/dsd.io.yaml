@@ -17,10 +17,6 @@
     values:
       - v=spf1 -all
       - v=DKIM1; p=
-7vyvfadjerzncwgstpglhj6bwd5ekpbo._domainkey.ppo:
-  ttl: 1800
-  type: CNAME
-  value: 7vyvfadjerzncwgstpglhj6bwd5ekpbo.dkim.amazonses.com
 "*.branchrunner.acceleratedpossession-dev":
   ttl: 300
   type: CNAME
@@ -127,10 +123,6 @@ backup.tax-tribunals-datacapture-staging:
     hosted-zone-id: Z32O12XQLNTSW2
     name: tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com.
     type: A
-bzy75fcccsl3f4ii6ogijiguy2mu2hww._domainkey.ppo:
-  ttl: 1800
-  type: CNAME
-  value: bzy75fcccsl3f4ii6ogijiguy2mu2hww.dkim.amazonses.com
 cait:
   ttl: 600
   type: NS
@@ -243,10 +235,6 @@ cs_blog:
   ttl: 300
   type: CNAME
   value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
-csq3rs4wz5qtcmpg5zqhtu5slbbkcniu._domainkey:
-  ttl: 1800
-  type: CNAME
-  value: csq3rs4wz5qtcmpg5zqhtu5slbbkcniu.dkim.amazonses.com
 ctf:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -590,10 +578,6 @@ dsd_blog:
   ttl: 300
   type: CNAME
   value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
-dutq2xwgepvjh4rjdqysfw73kmkpdyjz._domainkey.ppo:
-  ttl: 1800
-  type: CNAME
-  value: dutq2xwgepvjh4rjdqysfw73kmkpdyjz.dkim.amazonses.com
 eatd:
   ttl: 300
   type: CNAME
@@ -845,10 +829,6 @@ kube:
     - ns-1636.awsdns-12.co.uk.
     - ns-453.awsdns-56.com.
     - ns-583.awsdns-08.net.
-kwhainhpqlxqd3rncd7msr22adgpmc4e._domainkey.courtfinder:
-  ttl: 1800
-  type: CNAME
-  value: kwhainhpqlxqd3rncd7msr22adgpmc4e.dkim.amazonses.com
 laa-rota:
   ttl: 300
   type: NS
@@ -1069,10 +1049,6 @@ pub:
     - ns-1928.awsdns-49.co.uk.
     - ns-215.awsdns-26.com.
     - ns-923.awsdns-51.net.
-qv5qafpkf3ojddzw7222ktvoqmjckxzs._domainkey:
-  ttl: 1800
-  type: CNAME
-  value: qv5qafpkf3ojddzw7222ktvoqmjckxzs.dkim.amazonses.com
 registry-dev.service:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1165,14 +1141,6 @@ rsr:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-s1._domainkey.service:
-  ttl: 300
-  type: CNAME
-  value: s1.domainkey.u2748441.wl192.sendgrid.net
-s2._domainkey.service:
-  ttl: 300
-  type: CNAME
-  value: s2.domainkey.u2748441.wl192.sendgrid.net
 scratch-lpa.service:
   ttl: 300
   type: A
@@ -1231,14 +1199,6 @@ sirius.service:
   ttl: 300
   type: A
   value: 37.26.91.54
-smtpapi._domainkey:
-  ttl: 300
-  type: TXT
-  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
-smtpapi._domainkey.email.staging:
-  ttl: 300
-  type: TXT
-  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
 sscsvp:
   ttl: 300
   type: CNAME
@@ -1727,10 +1687,6 @@ stunnel-redis.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: elk-prod-elbstunn-7fng2mdj9m1f-813182817.eu-west-1.elb.amazonaws.com.
     type: A
-svkdg7soiv4iwzx6rczvjircjf42xdvi._domainkey:
-  ttl: 1800
-  type: CNAME
-  value: svkdg7soiv4iwzx6rczvjircjf42xdvi.dkim.amazonses.com
 tactical-products:
   ttl: 300
   type: NS
@@ -1935,10 +1891,6 @@ ucchome:
     hosted-zone-id: Z3AQBSTGFYJSTF
     name: s3-website-us-east-1.amazonaws.com.
     type: A
-ul6mlfh6npxr5mfjd65qlhn7ut7jleo4._domainkey.courtfinder:
-  ttl: 1800
-  type: CNAME
-  value: ul6mlfh6npxr5mfjd65qlhn7ut7jleo4.dkim.amazonses.com
 utiacdailycourtlist:
   ttl: 300
   type: CNAME
@@ -2015,7 +1967,3 @@ yjils:
   ttl: 300
   type: CNAME
   value: ec2-54-194-101-35.eu-west-1.compute.amazonaws.com
-zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw._domainkey.courtfinder:
-  ttl: 1800
-  type: CNAME
-  value: zlo2uoj5k3ergpqnghq6uhkcjtjn4bcw.dkim.amazonses.com
