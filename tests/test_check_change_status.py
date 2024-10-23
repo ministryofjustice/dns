@@ -15,11 +15,11 @@ from check_change_status import (
 class TestIsHostedZoneFilepath(unittest.TestCase):
 
     def test_true_hosted_zone_yaml_filepath(self):
-        result = is_hosted_zone_filepath("hostedzones/good.name.yaml")
+        result = is_hosted_zone_filepath("hostedzones/GOOD-name.123.yaml")
         self.assertTrue(result)
 
     def test_true_hosted_zone_yml_filepath(self):
-        result = is_hosted_zone_filepath("hostedzones/good.name.yml")
+        result = is_hosted_zone_filepath("hostedzones/GOOD-name.123.yml")
         self.assertTrue(result)
 
     def test_false_hosted_zone_non_yaml_filepath(self):
