@@ -83,6 +83,10 @@ _smtp._tls.newsletter:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+129688:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com
@@ -117,6 +121,14 @@ k3._domainkey:
   ttl: 300
   type: CNAME
   value: dkim3.mcsv.net
+mhq1449:
+  ttl: 300
+  type: CNAME
+  value: u129688.wl189.sendgrid.net
+mhq1449link:
+  ttl: 300
+  type: CNAME
+  value: sendgrid.net
 mta-sts:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -173,11 +185,11 @@ pages.newsletter:
 s1._domainkey:
   ttl: 300
   type: CNAME
-  value: s1.domainkey.u258784.wl035.sendgrid.net
+  value: s1.domainkey.u129688.wl189.sendgrid.net
 s2._domainkey:
   ttl: 300
   type: CNAME
-  value: s2.domainkey.u258784.wl035.sendgrid.net
+  value: s2.domainkey.u129688.wl189.sendgrid.net
 selector1._domainkey:
   ttl: 300
   type: CNAME
