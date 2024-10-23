@@ -33,26 +33,10 @@ _6b6253eac9e7549bb70b0e42830e95b9.ci-hmcts.service:
   ttl: 300
   type: CNAME
   value: _911134c8d386ffd7445e3b435f346286.ltfvzjuylp.acm-validations.aws.
-_29e6fa072cabf1c4c8ed043652cb77dc.elasticsearch:
-  ttl: 300
-  type: CNAME
-  value: _68ab398fca862a92da625f9b21effe6d.acm-validations.aws.
-_29faedc51b99a21e6b546e9f0ae8f53a.tax-tribunals-fees-staging:
-  ttl: 300
-  type: CNAME
-  value: _e2ebb11a735d6cabe65ab6dc0789debb.tljzshvwok.acm-validations.aws.
 _109272a5626b87442929a35439e041e8.tax-tribunals-downloader-dev:
   ttl: 300
   type: CNAME
   value: _7bc0baa60d71eb4f79203145484d7a83.ltfvzjuylp.acm-validations.aws.
-_a5c3b9452c35b35389c1f1d9320e5c75.maintain:
-  ttl: 300
-  type: CNAME
-  value: _dbdace06d3074d2a389c061c507bdd98.acm-validations.aws.
-_adda73ca742a1234e9f9d2c93f9882fd.status.service:
-  ttl: 300
-  type: CNAME
-  value: _7a7432de6a3202bc3b084011c61d9a53.acm-validations.aws
 _amazonses:
   ttl: 1800
   type: TXT
