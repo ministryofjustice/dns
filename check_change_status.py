@@ -11,7 +11,7 @@ from services.cloudtrail_service import CloudTrailService
 hosted_zone_changed_files = os.getenv("hosted_zone_changed_files")
 
 def is_hosted_zone_filepath(filepath: str) -> bool:
-    pattern = re.compile(r"^hostedzones\/[a-zA-Z0-9_\.]*(\.yml|\.yaml)$")
+    pattern = re.compile(r"^hostedzones\/[a-zA-Z0-9_\.\-]*(\.yml|\.yaml)$")
     if pattern.match(filepath):
         return True
 
