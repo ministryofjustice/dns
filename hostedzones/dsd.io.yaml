@@ -37,20 +37,10 @@ _109272a5626b87442929a35439e041e8.tax-tribunals-downloader-dev:
   ttl: 300
   type: CNAME
   value: _7bc0baa60d71eb4f79203145484d7a83.ltfvzjuylp.acm-validations.aws.
-_amazonses:
-  ttl: 1800
-  type: TXT
-  values:
-    - Eqf5BRJNj6Rn84SGmsbWc4YLnlRh2vabWbM62yGbMic=
-    - H8uHHtYVLQ/jS2tDU/bfzD5fVCkOoMPcNIrY1EZMVzs=
 _amazonses.courtfinder:
   ttl: 1800
   type: TXT
   value: G1EwlYcGmbhzmDSuyG/gZq2q7QCQx6EFWpaR00Yn8yQ=
-_amazonses.ppo:
-  ttl: 1800
-  type: TXT
-  value: Vk3y1zBydDzo+p+ekAMBa6sU62jDgU1NY9/j1/AE+UE=
 _amazonses.tribunals:
   ttl: 1800
   type: TXT
