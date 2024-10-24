@@ -764,7 +764,7 @@ design102:
       preference: 0
   - ttl: 300
     type: TXT
-    value: v=spf1 ip4:78.31.110.246 include:sendgrid.net -all
+    value: v=spf1 include:sendgrid.net -all
 dev:
   ttl: 86400
   type: NS
@@ -1461,10 +1461,6 @@ optic:
     values:
       - amazonses:brpgA+nYWbeXbq05BWkw0znt7qzeOXcRRork8ZaTJlQ=
       - v=spf1 include:spf.protection.outlook.com include:amazonses.com -all
-panacea-moj._domainkey.design102:
-  ttl: 300
-  type: CNAME
-  value: mojdkimkey.panacea-software.com
 pcjuq4p5sm3aixid6ygchuzdzgafb4k3._domainkey.internaltest.ppud:
   ttl: 300
   type: CNAME
