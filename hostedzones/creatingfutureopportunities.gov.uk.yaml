@@ -14,10 +14,18 @@
       hosted-zone-id: ZHURV8PSTC4K8
       name: e7a0184d4f6127d826931dd6a0e6ecf8-1383418131.eu-west-2.elb.amazonaws.com.
       type: A
+_364180067594c61d67a9d5a108ca1941.statistics:
+  ttl: 300
+  type: CNAME
+  value: _85c7b8ca389fe12e223f99fe4f0cec58.djqtsrsxkq.acm-validations.aws.
 _e55772ae7a2fd72289d5a4a9ab74f48f.www:
   ttl: 300
   type: CNAME
   value: _6585aaf991c50ee9c4c523deadc6ff62.fmfdpfvvyn.acm-validations.aws.
+statistics:
+  ttl: 300
+  type: CNAME
+  value: dult7nl8klk2h.cloudfront.net.
 www:
   ttl: 300
   type: CNAME
