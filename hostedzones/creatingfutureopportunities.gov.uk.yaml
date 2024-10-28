@@ -25,7 +25,7 @@ _e55772ae7a2fd72289d5a4a9ab74f48f.www:
 statistics:
   ttl: 300
   type: CNAME
-  value: dult7nl8klk2h.cloudfront.net
+  value: dult7nl8klk2h.cloudfront.net.
 www:
   ttl: 300
   type: CNAME
