@@ -69,6 +69,9 @@ enterpriseenrollment:
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net.
+mitrefinch:
+  type: CNAME
+  value: mitrefinch-cicagov.msappproxy.net.
 mta-sts:
   ttl: 942942942
   type: Route53Provider/ALIAS
