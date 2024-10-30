@@ -284,9 +284,6 @@ jcm:
     - ns2-02.azure-dns.net.
     - ns3-02.azure-dns.org.
     - ns4-02.azure-dns.info.
-jo-staging.elinks:
-  type: CNAME
-  value: fathomless-plum-tu2fu458lxj0kj67y8yebcx9.herokudns.com
 judicialcareers:
   - ttl: 300
     type: A
