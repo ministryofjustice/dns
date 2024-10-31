@@ -1,0 +1,7 @@
+github_pages_record: &github_pages_record
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
+  comment: >
+    # GitHub Pages delegation for ministryofjustice
+    # This record points to ministryofjustice.github.io and is managed as a GitHub Pages resource.
