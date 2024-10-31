@@ -1,4 +1,5 @@
 ---
+<<: *common.github_pages_record
 "":
   - ttl: 1800
     type: MX
@@ -1472,9 +1473,7 @@ review-criminal-legal-aid:
     - ns-295.awsdns-36.com.
     - ns-604.awsdns-11.net.
 runbooks.operations-engineering:
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
+  <<: *github_pages_record
 s1._domainkey.jac.intranet:
   ttl: 300
   type: CNAME
