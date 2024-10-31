@@ -798,13 +798,6 @@ ftp-hmcts.intranet:
   ttl: 300
   type: A
   value: 54.72.29.113
-github_pages_record: &github_pages_record
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
-  comment: >
-    # GitHub Pages delegation for ministryofjustice
-    # This record points to ministryofjustice.github.io and is managed as a GitHub Pages resource.
 gender-recognition:
   ttl: 300
   type: NS
@@ -813,6 +806,13 @@ gender-recognition:
     - ns-1726.awsdns-23.co.uk.
     - ns-371.awsdns-46.com.
     - ns-755.awsdns-30.net.
+github_pages_record: &github_pages_record
+  comment: >
+    # GitHub Pages delegation for ministryofjustice
+    # This record points to ministryofjustice.github.io and is managed as a GitHub Pages resource.
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
 haletest1:
   ttl: 300
   type: NS
