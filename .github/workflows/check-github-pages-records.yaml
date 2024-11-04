@@ -24,7 +24,7 @@ jobs:
 
       - name: Run the GitHub Pages script
         run: |
-          pipenv run python bin.update_github_pages_config.py
+          pipenv run python -m bin.identify_github_pages_delegations
 
       - name: Check for changes
         id: changes
