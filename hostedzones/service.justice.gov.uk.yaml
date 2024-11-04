@@ -1,5 +1,4 @@
 ---
-<<: *common.github_pages_record
 "":
   - ttl: 1800
     type: MX
