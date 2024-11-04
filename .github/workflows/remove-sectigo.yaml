@@ -9,19 +9,20 @@ jobs:
   remove_sectigo_blocks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
+      - name: Set up Python 3.11
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
         with:
-          python-version: 3.12
+          python-version: 3.11
 
       - name: Install dependencies
         run: |
-          python -m pip install ruamel.yaml
+          make install
 
       - name: Run script to remove Sectigo blocks
-        run: python remove_sectigo_blocks.py
+        run: pipenv run python -m bin.remove_sectigo_blocks
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6.1.0
