@@ -1,3 +1,13 @@
+"""
+This script processes DNS records to identify and update records related to GitHub Pages.
+It scans the configured DNS records and checks for necessary GitHub Pages delegations,
+such as CNAME and A records, to ensure that they are correctly configured.
+
+For more information on managing custom domain delegations in GitHub Pages,
+refer to the official documentation:
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#dns-records-for-your-custom-domain
+"""
+
 import os
 
 import yaml
