@@ -4,7 +4,7 @@ import unittest
 
 from ruamel.yaml import YAML
 
-from remove_sectigo_blocks import find_and_remove_sectigo_block, process_yaml_file
+from bin.remove_sectigo_blocks import find_and_remove_sectigo_block, process_yaml_file
 
 yaml = YAML()
 yaml.preserve_quotes = True  # Preserve quotes around values if present
