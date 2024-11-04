@@ -1,4 +1,4 @@
-github_pages_record: &github_pages_record
+github_pages_comment: &github_pages_comment
   comment: >
     # GitHub Pages delegation for ministryofjustice
     # This record points to ministryofjustice.github.io and is managed as a GitHub Pages resource.
