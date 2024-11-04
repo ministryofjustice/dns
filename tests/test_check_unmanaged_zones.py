@@ -5,25 +5,28 @@ from bin.check_unmanaged_zones import get_config_zones, main
 
 
 class TestMainFunction(unittest.TestCase):
-    @patch("check_unmanaged_zones.Route53Service")
+    @patch("bin.check_unmanaged_zones.Route53Service")
     def test_unmanaged_zones(self, mock_route53):
         mock_route53.return_value.get_aws_zones.return_value = [
             ("zone1", "zone1"),
             ("zone2", "zone2"),
         ]
-        with patch("check_unmanaged_zones.get_config_zones", return_value=["zone1"]):
+        with patch(
+            "bin.check_unmanaged_zones.get_config_zones", return_value=["zone1"]
+        ):
             output, code = main()
             self.assertEqual(code, 1)
             self.assertIn("zone2", output)
 
-    @patch("check_unmanaged_zones.Route53Service")
+    @patch("bin.check_unmanaged_zones.Route53Service")
     def test_all_zones_managed(self, mock_route53):
         mock_route53.return_value.get_aws_zones.return_value = [
             ("zone1", "zone1"),
             ("zone2", "zone2"),
         ]
         with patch(
-            "check_unmanaged_zones.get_config_zones", return_value=["zone1", "zone2"]
+            "bin.check_unmanaged_zones.get_config_zones",
+            return_value=["zone1", "zone2"],
         ):
             output, code = main()
             self.assertEqual(code, 0)

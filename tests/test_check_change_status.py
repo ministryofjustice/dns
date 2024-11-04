@@ -57,7 +57,7 @@ class TestGetHostedZoneNamesFromChangedFiles(unittest.TestCase):
 
 
 class TestGetHostedZoneIdsFromNames(unittest.TestCase):
-    @patch("check_change_status.Route53Service")
+    @patch("bin.check_change_status.Route53Service")
     def test_get_ids_from_names_successfully(self, mock_route53):
         mock_route53.return_value.get_aws_zones.return_value = {
             ("/hostedzone/hostedzone-id-69", "example1.com"),
@@ -79,7 +79,7 @@ class TestGetHostedZoneIdsFromNames(unittest.TestCase):
 
 
 class TestGetChangeIdForLatestChangeResourceRecordSetsForHostedZone(unittest.TestCase):
-    @patch("check_change_status.CloudTrailService")
+    @patch("bin.check_change_status.CloudTrailService")
     def test_get_latest_change_id_for_hz_id_successfully(self, mock_cloud_trail):
         mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
             "Events": [
@@ -114,7 +114,7 @@ class TestGetChangeIdForLatestChangeResourceRecordSetsForHostedZone(unittest.Tes
         )
         self.assertEqual(result, "/change/change-id-1")
 
-    @patch("check_change_status.CloudTrailService")
+    @patch("bin.check_change_status.CloudTrailService")
     def test_event_with_empty_resources_ignored(self, mock_cloud_trail):
         mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
             "Events": [
@@ -144,7 +144,7 @@ class TestGetChangeIdForLatestChangeResourceRecordSetsForHostedZone(unittest.Tes
         )
         self.assertEqual(result, "/change/change-id-2")
 
-    @patch("check_change_status.CloudTrailService")
+    @patch("bin.check_change_status.CloudTrailService")
     def test_event_with_non_matching_hz_id_ignored(self, mock_cloud_trail):
         mock_cloud_trail.return_value.get_latest_n_change_resource_record_sets.return_value = {
             "Events": [
@@ -181,7 +181,7 @@ class TestGetChangeIdForLatestChangeResourceRecordSetsForHostedZone(unittest.Tes
 
 
 class TestGetChangeStatusSummary(unittest.TestCase):
-    @patch("check_change_status.Route53Service")
+    @patch("bin.check_change_status.Route53Service")
     def test_get_change_status_summary_successfully(self, mock_route53):
 
         mock_route53.return_value.get_change_status.return_value = {
@@ -208,7 +208,7 @@ class TestGetChangeStatusSummary(unittest.TestCase):
 
 
 class TestIsChangeInsync(unittest.TestCase):
-    @patch("check_change_status.Route53Service")
+    @patch("bin.check_change_status.Route53Service")
     def test_change_insync(self, mock_route53):
         mock_route53.return_value.get_change_status.return_value = {
             "ChangeInfo": {
@@ -221,7 +221,7 @@ class TestIsChangeInsync(unittest.TestCase):
         result = is_change_insync(change_id="/change/change-id-69")
         self.assertTrue(result)
 
-    @patch("check_change_status.Route53Service")
+    @patch("bin.check_change_status.Route53Service")
     def test_change_not_insync(self, mock_route53):
         mock_route53.return_value.get_change_status.return_value = {
             "ChangeInfo": {
@@ -236,8 +236,8 @@ class TestIsChangeInsync(unittest.TestCase):
 
 
 class TestMainFunction(unittest.TestCase):
-    @patch("check_change_status.CloudTrailService")
-    @patch("check_change_status.Route53Service")
+    @patch("bin.check_change_status.CloudTrailService")
+    @patch("bin.check_change_status.Route53Service")
     def test_main_returns_expected_summary(self, mock_route53, mock_cloud_trail):
 
         mock_route53.return_value.get_aws_zones.return_value = {

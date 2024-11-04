@@ -5,7 +5,7 @@ from bin.check_empty_zones import main
 
 
 class TestMainFunction(unittest.TestCase):
-    @patch("check_empty_zones.Route53Service")
+    @patch("bin.check_empty_zones.Route53Service")
     def test_main_with_empty_zones(self, MockRoute53Service):
         mock_service = MockRoute53Service.return_value
         mock_service.get_aws_zones.return_value = [("id1", "zone1."), ("id2", "zone2.")]
@@ -19,7 +19,7 @@ class TestMainFunction(unittest.TestCase):
         self.assertEqual(output, expected_output)
         self.assertEqual(status, expected_status)
 
-    @patch("check_empty_zones.Route53Service")
+    @patch("bin.check_empty_zones.Route53Service")
     def test_main_with_no_empty_zones(self, MockRoute53Service):
         mock_service = MockRoute53Service.return_value
         mock_service.get_aws_zones.return_value = [("id1", "zone1."), ("id2", "zone2.")]
