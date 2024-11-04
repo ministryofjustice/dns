@@ -40,7 +40,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: ":recycle: Update GitHub Pages Records"
-          title: ":fire: Update GitHub Pages Records"
+          title: ":recycle: Update GitHub Pages Records"
           body: |
             This PR updates the GitHub Pages records based on the latest configuration.
 
