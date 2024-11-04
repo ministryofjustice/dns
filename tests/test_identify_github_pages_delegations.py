@@ -1,6 +1,6 @@
 import unittest
 
-from bin.update_github_pages_config import format_output, process_record
+from bin.identify_github_pages_delegations import format_output, process_record
 
 
 class TestGithubPagesFunctions(unittest.TestCase):
