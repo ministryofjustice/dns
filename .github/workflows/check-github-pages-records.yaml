@@ -39,7 +39,7 @@ jobs:
         uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: ":fire: Update GitHub Pages Records"
+          commit-message: ":recycle: Update GitHub Pages Records"
           title: ":fire: Update GitHub Pages Records"
           body: |
             This PR updates the GitHub Pages records based on the latest configuration.
