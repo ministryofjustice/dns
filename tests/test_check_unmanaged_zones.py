@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from check_unmanaged_zones import get_config_zones, main
+from bin.check_unmanaged_zones import get_config_zones, main
 
 
 class TestMainFunction(unittest.TestCase):

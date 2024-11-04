@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import MagicMock, Mock, patch
 
-from check_empty_zones import main
+from bin.check_empty_zones import main
 
 
 class TestMainFunction(unittest.TestCase):
