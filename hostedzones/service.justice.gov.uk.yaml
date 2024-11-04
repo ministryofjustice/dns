@@ -1,4 +1,5 @@
 ---
+<<: *common.github_pages_record
 "":
   - ttl: 1800
     type: MX
@@ -806,13 +807,6 @@ gender-recognition:
     - ns-1726.awsdns-23.co.uk.
     - ns-371.awsdns-46.com.
     - ns-755.awsdns-30.net.
-github_pages_record: &github_pages_record
-  comment: >
-    # GitHub Pages delegation for ministryofjustice
-    # This record points to ministryofjustice.github.io and is managed as a GitHub Pages resource.
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
 haletest1:
   ttl: 300
   type: NS
@@ -1479,8 +1473,10 @@ review-criminal-legal-aid:
     - ns-295.awsdns-36.com.
     - ns-604.awsdns-11.net.
 runbooks.operations-engineering:
-  <<: *github_pages_record
+  ttl: 300
+  type: CNAME
   value: ministryofjustice.github.io
+  <<: *github_pages_comment
 s1._domainkey.jac.intranet:
   ttl: 300
   type: CNAME
