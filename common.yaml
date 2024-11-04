@@ -1,4 +1,17 @@
-github_pages_comment: &github_pages_comment
-  comment: >
+---
+variables:
+  github_pages_comment: &github_pages_comment >
     # GitHub Pages delegation for ministryofjustice
     # This record points to ministryofjustice.github.io and is managed as a GitHub Pages resource.
+
+  github_pages_ttl: &github_pages_ttl
+    ttl: 300
+
+  apex_a_record: &apex_a_record
+    type: A
+    ttl: *github_pages_ttl
+    value:
+      - 185.199.108.153
+      - 185.199.109.153
+      - 185.199.110.153
+      - 185.199.111.153
