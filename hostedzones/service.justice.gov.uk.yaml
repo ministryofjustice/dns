@@ -1475,7 +1475,7 @@ runbooks.operations-engineering:
   ttl: 300
   type: CNAME
   value: ministryofjustice.github.io
-  <<: *github_pages_comment
+  comment: *github_pages_comment
 s1._domainkey.jac.intranet:
   ttl: 300
   type: CNAME
