@@ -203,6 +203,9 @@ _github-pages-challenge-ministryofjustice.operations-engineering:
   ttl: 300
   type: TXT
   value: 2ad0dee4d1f130dae1d9c10e9ec15c
+_github-pages-challenge-ministryofjustice.runbooks.operations-engineering.service:
+  type: TXT
+  value: 6bc5df746e3d4e7b4df2581a225fce
 _h323cs._tcp.courts-video-link:
   ttl: 300
   type: SRV
