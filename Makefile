@@ -86,11 +86,11 @@ compare-zone:
 
 check-unmanaged-zones: install
 	$(call check_aws_creds)
-	@pipenv run python3 check_unmanaged_zones.py
+	@pipenv run python3 -m  bin.check_unmanaged_zones
 
 check-empty-zones: install
 	$(call check_aws_creds)
-	@pipenv run python3 check_empty_zones.py
+	@pipenv run python3 -m bin.check_empty_zones
 
 clean:
 	@pipenv --rm
