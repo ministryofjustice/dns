@@ -44,8 +44,7 @@ def main():
 
     unmanaged_zones = set(aws_zones) - set(config_zones)
     if unmanaged_zones:
-        output = "The following zones exist in AWS but are not managed by octoDNS:\n"
-        output += "\n".join(f"  - {zone}" for zone in sorted(unmanaged_zones))
+        output = " " + ", ".join(sorted(unmanaged_zones))
         return output, 1
     else:
         output = "All AWS Route53 zones are managed by octoDNS."
