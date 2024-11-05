@@ -27,7 +27,11 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.OCTODNS_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
           PYTHONUNBUFFERED: 1
-        run: make check-unmanaged-zones
+        run: |
+          output=$(make check-unmanaged-zones)
+          echo "result<<EOF" >> $GITHUB_OUTPUT
+          echo "$output" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Send notification to Slack
         uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
@@ -54,7 +58,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Detected Unmanaged Zones:*\n```${{ steps.check_zones.outputs.result }}```"
+                    "text": "*Detected Unmanaged Zones:*\n```${{ steps.check-zones.outputs.result }}```"
                   }
                 },
                 {
