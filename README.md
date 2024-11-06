@@ -23,7 +23,7 @@ This repository manages the Ministry of Justice DNS records using [octoDNS](http
 
 ## Repository Structure
 
-```
+```bash
 .
 ├── .github/                # GitHub Actions workflows
 ├── bin/                    # Contains various scripts to operate this repository
