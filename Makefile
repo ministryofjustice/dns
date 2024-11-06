@@ -26,7 +26,7 @@ help:
 	@echo "  make help                     - Show this help message"
 	@echo "  make install                  - Set up the Python environment"
 	@echo "  make list-zones               - List all zones"
-	@echo "  make print_github_delegation  - Identify GitHub Pages delegations and print the results"
+	@echo "  make print-github-delegations - Identify GitHub Pages delegations and print the results"
 	@echo "  make sync-apply               - Apply changes to all zones"
 	@echo "  make sync-dry-run             - Perform a dry-run sync for all zones"
 	@echo "  make test                     - Run the test suite"
@@ -101,7 +101,7 @@ clean:
 test: install
 	@pipenv run python3 -m pytest tests/
 
-print_github_delegation: install
+print-github-delegations:
 	@echo "Identifying GitHub Pages delegations..."
 	@pipenv run python3 -m bin.identify_github_pages_delegations
 	@echo "The file './.github_pages' has been updated with the latest GitHub Pages delegations."
