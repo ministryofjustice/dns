@@ -29,7 +29,7 @@ This repository manages the Ministry of Justice DNS records using [octoDNS](http
 ├── bin/                    # Contains various scripts to operate this repository
 ├── hostedzones/            # DNS zone files
 ├── .gitignore
-├── .github-pages           #  Domains and subdomains that are delegated to GitHub Pages
+├── .github_pages           #  Domains and subdomains that are delegated to GitHub Pages
 ├── LICENSE
 ├── Makefile
 ├── README.md
