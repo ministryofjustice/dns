@@ -74,10 +74,6 @@ harold._domainkey:
   ttl: 300
   type: CNAME
   value: harold._domainkey.dxw.com
-harthacnut._domainkey:
-  ttl: 300
-  type: CNAME
-  value: harthacnut._domainkey.dxw.com
 intranet:
   ttl: 600
   type: CNAME
