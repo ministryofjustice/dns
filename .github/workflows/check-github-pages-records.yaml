@@ -30,9 +30,9 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           if git diff --exit-code .github_pages; then
-            echo "no_changes=true" >> $GITHUB_ENV
+            echo "no_changes=true" >> "$GITHUB_ENV"
           else
-            echo "no_changes=false" >> $GITHUB_ENV
+            echo "no_changes=false" >> "$GITHUB_ENV"
           fi
 
       - name: Create Pull Request
