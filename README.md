@@ -4,13 +4,32 @@
 
 This repository manages the Ministry of Justice DNS records using [octoDNS](https://github.com/octodns/octodns). It provides a streamlined, code-based approach to DNS management, ensuring consistency and enabling version control for our DNS records.
 
+## 📖 Table of Contents
+
+1. [Repository Structure](#repository-structure)
+2. [How It Works](#how-it-works)
+3. [Configuration](#configuration)
+4. [CI/CD Pipeline](#cicd-pipeline)
+   - [AWS IAM User](#cicd-aws-iam-user)
+   - [AWS Credentials](#aws-credentials)
+5. [Making Changes](#making-changes)
+6. [Viewing Current Configuration](#viewing-current-configuration)
+7. [Applying Changes](#applying-changes)
+8. [GitHub Pages Management](#github-pages-management)
+   - [Weekly Automation](#weekly-automation)
+   - [Manual Identification](#manual-identification)
+9. [Makefile Commands](#makefile-commands)
+10. [License](#license)
+
 ## Repository Structure
 
 ```
 .
 ├── .github/                # GitHub Actions workflows
+├── bin/                    # Contains various scripts to operate this repository
 ├── hostedzones/            # DNS zone files
 ├── .gitignore
+├── .github-pages           #  Domains and subdomains that are delegated to GitHub Pages
 ├── LICENSE
 ├── Makefile
 ├── README.md
@@ -72,7 +91,7 @@ Ensure your AWS credentials have the necessary permissions to manage Route53 hos
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-org/dns.git
+   git clone https://github.com/ministryofjustice/dns.git
    cd dns
    ```
 
@@ -169,17 +188,18 @@ This will apply all pending changes to Route53. Always perform a `make sync-dry-
 This repository includes a Makefile to simplify common operations. You can use the following commands:
 
 ```bash
-make                    # Show help message with available commands
-make help               # Same as above, shows help message
-make install            # Set up the Python environment
-make edit-zone zone=<zone> # Edit a hosted zone file
-make validate-zones     # Validate all zone files
-make sync-dry-run       # Perform a dry-run sync for all zones
-make sync-apply         # Apply changes to all zones
-make list-zones         # List all zones
-make dump-zone zone=<zone> # Dump the current live configuration for a zone
+make                          # Show help message with available commands
+make help                     # Same as above, shows help message
+make install                  # Set up the Python environment
+make edit-zone zone=<zone>    # Edit a hosted zone file
+make validate-zones           # Validate all zone files
+make sync-dry-run             # Perform a dry-run sync for all zones
+make sync-apply               # Apply changes to all zones
+make list-zones               # List all zones
+make dump-zone zone=<zone>    # Dump the current live configuration for a zone
 make compare-zone zone=<zone> # Compare a zone file with its live configuration
-make clean              # Clean up generated files
+make clean                    # Clean up generated files
+make print-github-delegations # Print GitHub Pages delegations
 ```
 
 To see a full list of available commands and their descriptions, simply run `make` or `make help`.
