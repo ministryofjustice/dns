@@ -18,18 +18,19 @@ endef
 
 help:
 	@echo "Available commands:"
-	@echo "  make check-empty-zones    - Run check for empty zones"
-	@echo "  make clean                - Clean up generated files"
+	@echo "  make check-empty-zones        - Run check for empty zones"
+	@echo "  make clean                    - Clean up generated files"
 	@echo "  make compare-zone zone=<zone> - Compare a zone file with its live configuration"
-	@echo "  make dump-zone zone=<zone> - Dump the current live configuration for a zone"
-	@echo "  make edit-zone zone=<zone> - Edit a hosted zone file"
-	@echo "  make help                 - Show this help message"
-	@echo "  make install              - Set up the Python environment"
-	@echo "  make list-zones           - List all zones"
-	@echo "  make sync-apply           - Apply changes to all zones"
-	@echo "  make sync-dry-run         - Perform a dry-run sync for all zones"
-	@echo "  make test                 - Run the test suite"
-	@echo "  make validate-zones       - Validate all zone files"
+	@echo "  make dump-zone zone=<zone>    - Dump the current live configuration for a zone"
+	@echo "  make edit-zone zone=<zone>    - Edit a hosted zone file"
+	@echo "  make help                     - Show this help message"
+	@echo "  make install                  - Set up the Python environment"
+	@echo "  make list-zones               - List all zones"
+	@echo "  make print_github_delegation  - Identify GitHub Pages delegations and print the results"
+	@echo "  make sync-apply               - Apply changes to all zones"
+	@echo "  make sync-dry-run             - Perform a dry-run sync for all zones"
+	@echo "  make test                     - Run the test suite"
+	@echo "  make validate-zones           - Validate all zone files"
 
 install:
 	pip3 install pipenv
