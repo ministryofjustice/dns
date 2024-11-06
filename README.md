@@ -216,7 +216,7 @@ If you need to update the GitHub Pages records manually:
 
 1. Run the following command to identify changes:
 ```bash
-make print_github_delegation
+make print-github-delegations
 ```
 
 2. Commit and push any changes to the .github_pages file:

@@ -105,6 +105,7 @@ print-github-delegations:
 	@echo "Identifying GitHub Pages delegations..."
 	@pipenv run python3 -m bin.identify_github_pages_delegations
 	@echo "The file './.github_pages' has been updated with the latest GitHub Pages delegations."
+	@cat .github_pages
 
 .DEFAULT_GOAL := help
 
