@@ -8,7 +8,7 @@
         value: mailto:certificates@digital.justice.gov.uk
       - flags: 0
         tag: issue
-        value: ; 
+        value: ;
   - ttl: 1800
     type: MX
     values:
