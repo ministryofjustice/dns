@@ -1,12 +1,19 @@
 ---
 '':
+  - ttl: 300
+    type: CAA
+    values:
+      - flags: 0
+        tag: iodef
+        value: mailto:certificates@digital.justice.gov.uk
+      - flags: 0
+        tag: issue
+        value: ; 
   - ttl: 1800
     type: MX
     values:
-      - exchange: relay1.padlondon.co.uk.
-        preference: 10
-      - exchange: relay2.padlondon.co.uk.
-        preference: 20
+      - exchange: .
+        preference: 0
   - ttl: 172800
     type: NS
     values:
@@ -14,6 +21,13 @@
       - ns-1566.awsdns-03.co.uk.
       - ns-221.awsdns-27.com.
       - ns-865.awsdns-44.net.
+  - ttl: 300
+    type: TXT
+    value: v=spf1 -all
+'*._domainkey':
+  ttl: 300
+  type: TXT
+  value: v=DKIM1\; p=
 _asvdns-168b3b39-52b4-4c50-bfe8-8622048b99a3:
   ttl: 300
   type: TXT
@@ -21,7 +35,7 @@ _asvdns-168b3b39-52b4-4c50-bfe8-8622048b99a3:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
 dev:
   ttl: 1800
   type: A
