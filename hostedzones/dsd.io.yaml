@@ -37,14 +37,6 @@ _109272a5626b87442929a35439e041e8.tax-tribunals-downloader-dev:
   ttl: 300
   type: CNAME
   value: _7bc0baa60d71eb4f79203145484d7a83.ltfvzjuylp.acm-validations.aws.
-_amazonses.courtfinder:
-  ttl: 1800
-  type: TXT
-  value: G1EwlYcGmbhzmDSuyG/gZq2q7QCQx6EFWpaR00Yn8yQ=
-_amazonses.tribunals:
-  ttl: 1800
-  type: TXT
-  value: FotC+RkVmtjm3NvO4OIR5gsq8wlGxX1X7LdoJ1RITII=
 _asvdns-2a0e1baa-d9c9-4659-9599-2147df1e2ff4:
   ttl: 300
   type: TXT
