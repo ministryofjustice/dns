@@ -184,6 +184,48 @@ make clean              # Clean up generated files
 
 To see a full list of available commands and their descriptions, simply run `make` or `make help`.
 
+## Identifying GitHub Pages Delegations
+
+This repository includes functionality to identify DNS records associated with GitHub Pages. These delegations are automatically identified and logged, and a Pull Request is created weekly if changes are detected.
+
+### Weekly Automation
+
+A GitHub Action runs every Sunday at midnight (UTC) to identify GitHub Pages delegations across the DNS records. If any changes are detected in the delegations, a Pull Request is automatically created with the updated `.github_pages` file. This file lists all GitHub Pages delegations in the format `<record>.<hostedzone>`.
+
+### Manual Identification
+
+To manually identify GitHub Pages delegations, you can use the following Makefile command:
+```bash
+make print_github_delegation
+```
+This command outputs the current list of GitHub Pages delegations in the .github_pages file.
+
+### Example .github_pages Output
+
+The .github_pages file contains entries in the format <record>.<hostedzone>. For example:
+
+```
+cjsm.justice.gov.uk
+hmpps-architecture-blueprint.service.justice.gov.uk
+runbooks.operations-engineering.service.justice.gov.uk
+```
+
+### Updating the GitHub Pages Records
+
+If you need to update the GitHub Pages records manually:
+
+1. Run the following command to identify changes:
+```bash
+make print_github_delegation
+```
+
+2. Commit and push any changes to the .github_pages file:
+```bash
+git add .github_pages
+git commit -m "Update GitHub Pages delegations"
+git push
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
