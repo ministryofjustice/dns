@@ -22,7 +22,7 @@ jobs:
         run: make install
 
       - name: Run the GitHub Pages script
-        run: pipenv run python -m bin.identify_github_pages_delegations
+        run: make print-github-delegations
 
       - name: Check for changes
         id: check_changes
