@@ -1,14 +1,5 @@
 ---
 '':
-  - ttl: 600
-    type: MX
-    values:
-      - exchange: mailserv0.instant-web.co.uk.
-        preference: 10
-      - exchange: mailserv2.instant-web.co.uk.
-        preference: 20
-      - exchange: mailserv3.instant-web.co.uk.
-        preference: 20
   - ttl: 172800
     type: NS
     values:
