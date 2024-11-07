@@ -31,57 +31,50 @@ GITHUB_PAGES_URL_PATTERNS = [
 
 
 def find_github_pages_records(directory):
-    github_pages_records = []
+    """Scans a directory for YAML files and yields GitHub Pages DNS records."""
+    for entry in os.scandir(directory):
+        if entry.is_file() and entry.name.endswith(".yaml"):
+            hostedzone = os.path.splitext(entry.name)[0]
+            filepath = entry.path
 
-    for filename in os.listdir(directory):
-        if filename.endswith(".yaml"):
-            hostedzone = filename[:-5]
-            filepath = os.path.join(directory, filename)
-
-            with open(filepath, "r") as file:
-                try:
-                    records = yaml.safe_load(file)
-                    for record_name, record in records.items():
-                        if isinstance(record, list):
-                            for sub_record in record:
-                                process_record(
-                                    github_pages_records,
-                                    hostedzone,
-                                    record_name,
-                                    sub_record,
-                                )
-                        elif isinstance(record, dict):
-                            process_record(
-                                github_pages_records, hostedzone, record_name, record
-                            )
-
-                except yaml.YAMLError as e:
-                    print(f"Error parsing {filepath}: {e}")
-
-    return github_pages_records
+            try:
+                with open(filepath, "r") as file:
+                    records = yaml.safe_load(file) or {}
+                    # Process records if they exist
+                    yield from process_hostedzone_records(hostedzone, records)
+            except yaml.YAMLError as e:
+                print(f"Error parsing {filepath}: {e}")
 
 
-def process_record(github_pages_records, hostedzone, record_name, record):
-    if record.get("type") == "CNAME" and any(
-        url in record.get("value", "") for url in GITHUB_PAGES_URL_PATTERNS
+def process_hostedzone_records(hostedzone, records):
+    for record_name, record in records.items():
+        if isinstance(record, list):
+            for sub_record in record:
+                yield from process_record_generator(hostedzone, record_name, sub_record)
+        elif isinstance(record, dict):
+            yield from process_record_generator(hostedzone, record_name, record)
+
+
+def process_record_generator(hostedzone, record_name, record):
+    record_type = record.get("type")
+    record_values = record.get("values", [])
+    record_value = record.get("value", "")
+
+    if record_type == "CNAME" and any(
+        url in record_value for url in GITHUB_PAGES_URL_PATTERNS
     ):
-        github_pages_records.append(format_output(record_name, hostedzone))
-    elif record.get("type") == "A":
-        record_values = record.get("values", [])
-        for ip in GITHUB_PAGES_IPS:
-            if ip in record_values:
-                github_pages_records.append(format_output(record_name, hostedzone))
-                break
-    elif record.get("type") == "AAAA":
-        record_values = record.get("values", [])
-        for ip in GITHUB_PAGES_AAAA_IPS:
-            if ip in record_values:
-                github_pages_records.append(format_output(record_name, hostedzone))
-                break
-    elif record.get("type") in ["ALIAS", "ANAME"] and (
-        record.get("value") in ["USERNAME.github.io", "ORGANIZATION.github.io"]
+        yield format_output(record_name, hostedzone)
+    elif record_type == "A" and any(ip in record_values for ip in GITHUB_PAGES_IPS):
+        yield format_output(record_name, hostedzone)
+    elif record_type == "AAAA" and any(
+        ip in record_values for ip in GITHUB_PAGES_AAAA_IPS
     ):
-        github_pages_records.append(format_output(record_name, hostedzone))
+        yield format_output(record_name, hostedzone)
+    elif record_type in ["ALIAS", "ANAME"] and record_value in [
+        "USERNAME.github.io",
+        "ORGANIZATION.github.io",
+    ]:
+        yield format_output(record_name, hostedzone)
 
 
 def format_output(record_name, hostedzone):
