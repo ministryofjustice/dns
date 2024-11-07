@@ -221,12 +221,12 @@ _github-pages-challenge-ministryofjustice.technical-guidance.service:
 _github-pages-challenge-ministryofjustice.user-guide.laa-operations.service:
   type: TXT
   value: ddda2b28278bfd0b16c3a92f7d809e
-_github-pages-challenge-ministryofjustice.user-guide.staff-identity.service:
-  type: TXT
-  value: ee64c511e4f6d5d64e3c237b886414
 _github-pages-challenge-ministryofjustice.user-guide.operations-engineering:
   type: TXT
   value: 09680c4c533e49f7d8524632ace173
+_github-pages-challenge-ministryofjustice.user-guide.staff-identity.service:
+  type: TXT
+  value: ee64c511e4f6d5d64e3c237b886414
 _h323cs._tcp.courts-video-link:
   ttl: 300
   type: SRV
