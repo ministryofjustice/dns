@@ -49,14 +49,14 @@ class TestGithubPagesFunctions(unittest.TestCase):
     def test_process_record_generator_alias(self):
         hostedzone = "service.justice.gov.uk"
         record_name = "aliasrecord"
-        record = {"type": "ALIAS", "value": "USERNAME.github.io"}
+        record = {"type": "ALIAS", "value": "ministryofjustice.github.io"}
         results = list(process_record_generator(hostedzone, record_name, record))
         self.assertIn("aliasrecord.service.justice.gov.uk", results)
 
     def test_process_hostedzone_records(self):
         hostedzone = "service.justice.gov.uk"
         records = {
-            "www": {"type": "CNAME", "value": "username.github.io"},
+            "www": {"type": "CNAME", "value": "ministryofjustice.github.io"},
             "example": {"type": "A", "values": ["185.199.108.153"]},
         }
         results = list(process_hostedzone_records(hostedzone, records))

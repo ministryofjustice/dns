@@ -70,10 +70,10 @@ def process_record_generator(hostedzone, record_name, record):
         ip in record_values for ip in GITHUB_PAGES_AAAA_IPS
     ):
         yield format_output(record_name, hostedzone)
-    elif record_type in ["ALIAS", "ANAME"] and record_value in [
-        "USERNAME.github.io",
-        "ORGANIZATION.github.io",
-    ]:
+    elif (
+        record_type in ["ALIAS", "ANAME"]
+        and record_value == "ministryofjustice.github.io"
+    ):
         yield format_output(record_name, hostedzone)
 
 
