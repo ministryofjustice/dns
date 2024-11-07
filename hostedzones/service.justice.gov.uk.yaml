@@ -199,6 +199,13 @@ _github-challenge-ministryof-org.operations-engineering:
   ttl: 300
   type: TXT
   value: 7fc8c3d05d
+_github-pages-challenge-ministryofjustice.hmpps-architecture-blueprint:
+  type: TXT
+  value: 141f40bc46f8e9900ac2f8ba7b447a
+_github-pages-challenge-ministryofjustice.user-guide.laa-operations.service:
+  ttl: 300
+  type: TXT
+  value: ddda2b28278bfd0b16c3a92f7d809e
 _github-pages-challenge-ministryofjustice.operations-engineering:
   ttl: 300
   type: TXT
@@ -206,6 +213,21 @@ _github-pages-challenge-ministryofjustice.operations-engineering:
 _github-pages-challenge-ministryofjustice.runbooks.operations-engineering:
   type: TXT
   value: 6bc5df746e3d4e7b4df2581a225fce
+_github-pages-challenge-ministryofjustice.security-guidance.service:
+  type: TXT
+  value: 8f61d03c264c0d12db4254c07fb386
+_github-pages-challenge-ministryofjustice.user-guide.staff-identity.service:
+  type: TXT
+  value: ee64c511e4f6d5d64e3c237b886414
+_github-pages-challenge-ministryofjustice.technical-architecture.service:
+  type: TXT
+  value: a9bca3d18d0c2483c026f7adead62d
+_github-pages-challenge-ministryofjustice.technical-guidance.service:
+  type: TXT
+  value: 16755c6ecebf673be9a27653ddd926
+_github-pages-challenge-ministryofjustice.user-guide.operations-engineering:
+  type: TXT
+  value: 09680c4c533e49f7d8524632ace173
 _h323cs._tcp.courts-video-link:
   ttl: 300
   type: SRV
