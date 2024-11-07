@@ -209,22 +209,22 @@ _github-pages-challenge-ministryofjustice.operations-engineering:
 _github-pages-challenge-ministryofjustice.runbooks.operations-engineering:
   type: TXT
   value: 6bc5df746e3d4e7b4df2581a225fce
-_github-pages-challenge-ministryofjustice.security-guidance.service:
+_github-pages-challenge-ministryofjustice.security-guidance:
   type: TXT
   value: 8f61d03c264c0d12db4254c07fb386
-_github-pages-challenge-ministryofjustice.technical-architecture.service:
+_github-pages-challenge-ministryofjustice.technical-architecture:
   type: TXT
   value: a9bca3d18d0c2483c026f7adead62d
-_github-pages-challenge-ministryofjustice.technical-guidance.service:
+_github-pages-challenge-ministryofjustice.technical-guidance:
   type: TXT
   value: 16755c6ecebf673be9a27653ddd926
-_github-pages-challenge-ministryofjustice.user-guide.laa-operations.service:
+_github-pages-challenge-ministryofjustice.user-guide.laa-operations:
   type: TXT
   value: ddda2b28278bfd0b16c3a92f7d809e
 _github-pages-challenge-ministryofjustice.user-guide.operations-engineering:
   type: TXT
   value: 09680c4c533e49f7d8524632ace173
-_github-pages-challenge-ministryofjustice.user-guide.staff-identity.service:
+_github-pages-challenge-ministryofjustice.user-guide.staff-identity:
   type: TXT
   value: ee64c511e4f6d5d64e3c237b886414
 _h323cs._tcp.courts-video-link:
