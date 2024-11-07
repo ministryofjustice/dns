@@ -217,13 +217,13 @@ _github-pages-challenge-ministryofjustice.technical-architecture:
   value: a9bca3d18d0c2483c026f7adead62d
 _github-pages-challenge-ministryofjustice.technical-guidance:
   type: TXT
-  value: 16755c6ecebf673be9a27653ddd926
+  value: 09680c4c533e49f7d8524632ace173
 _github-pages-challenge-ministryofjustice.user-guide.laa-operations:
   type: TXT
   value: ddda2b28278bfd0b16c3a92f7d809e
 _github-pages-challenge-ministryofjustice.user-guide.operations-engineering:
   type: TXT
-  value: 09680c4c533e49f7d8524632ace173
+  value: 16755c6ecebf673be9a27653ddd926
 _github-pages-challenge-ministryofjustice.user-guide.staff-identity:
   type: TXT
   value: ee64c511e4f6d5d64e3c237b886414
