@@ -57,14 +57,6 @@ acceleratedpossession:
     - ns-1772.awsdns-29.co.uk.
     - ns-325.awsdns-40.com.
     - ns-941.awsdns-53.net.
-alertmanager:
-  ttl: 300
-  type: A
-  value: 194.195.247.228
-alertmanageragain:
-  ttl: 300
-  type: A
-  value: 193.195.247.228
 asylum-support:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -125,46 +117,6 @@ ci.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: dualstack.ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com.
     type: A
-cla-admin:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-154-59-10.eu-west-1.compute.amazonaws.com
-cla-admin.service:
-  ttl: 300
-  type: A
-  value: 83.151.212.52
-cla-backend.service:
-  ttl: 300
-  type: A
-  value: 185.40.9.58
-cla-callmeback.service:
-  ttl: 300
-  type: A
-  value: 83.151.212.51
-cla-cases.service:
-  ttl: 300
-  type: A
-  value: 185.40.9.53
-cla-docker:
-  ttl: 300
-  type: A
-  value: 54.76.204.83
-cla-frontend.service:
-  ttl: 300
-  type: A
-  value: 185.40.9.58
-cla-monitoring.service:
-  ttl: 300
-  type: A
-  value: 185.40.9.58
-cla-public.service:
-  ttl: 300
-  type: A
-  value: 83.151.212.50
-cla_providers_directory:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 contact-moj:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -197,10 +149,6 @@ crimebillingonline:
     - ns-1859.awsdns-40.co.uk.
     - ns-446.awsdns-55.com.
     - ns-695.awsdns-22.net.
-cs_blog:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 ctf:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -248,10 +196,6 @@ deployarn.7c928508.production.accelerated-claims:
   ttl: 300
   type: TXT
   value: arn:aws:iam::880656497252:role/accelerated-claims-production-424-CrossAccountRole-8ELG8P1CPKN7
-deployarn.33c0d65b.dev.docker-registry:
-  ttl: 300
-  type: TXT
-  value: arn:aws:iam::880656497252:role/docker-registry-dev-33c0d65b-CrossAccountRole-1IQDI7HUS9BZA
 deployarn.68ade87f.staging.tax-tribunals-uploader-downloader:
   ttl: 60
   type: TXT
@@ -260,10 +204,6 @@ deployarn.1049b7df.staging.tax-tribunals-fees:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-fees-staging-1049b7-CrossAccountRole-GRHP7C52QR5B
-deployarn.97484c08.dev.rot:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU
 deployarn.563646a3.dev.tax-tribunals-uploader-downloader:
   ttl: 60
   type: TXT
@@ -276,22 +216,6 @@ deployarn.active.dev.courtfinder:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/courtfinder-dev-97187eb9-CrossAccountRole-ZOS047VPE89X
-deployarn.active.dev.demo:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/demo-dev-f947d970-CrossAccountRole-NBGJRG18K8YD
-deployarn.active.dev.docker-registry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/docker-registry-dev-33c0d65b-CrossAccountRole-1IQDI7HUS9BZA
-deployarn.active.dev.hubot:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/hubot-dev-c1b50cae-CrossAccountRole-33QFW2Y4G9F2
-deployarn.active.dev.huboto:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/huboto-dev-f6bf14f5-CrossAccountRole-8DOVJ11OKAA0
 deployarn.active.dev.intranet-jenkins:
   ttl: 60
   type: TXT
@@ -300,14 +224,6 @@ deployarn.active.dev.mattp:
   ttl: 60
   type: TXT
   value: "False"
-deployarn.active.dev.my-project:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/my-project-dev-addff241-CrossAccountRole-HT3QTKUDX2NK
-deployarn.active.dev.myproject:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/myproject-dev-5fd60641-CrossAccountRole-Y33DDZUEPOUW
 deployarn.active.dev.po:
   ttl: 60
   type: TXT
@@ -320,10 +236,6 @@ deployarn.active.dev.riemann:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/riemann-dev-42fe0ed2-CrossAccountRole-220SGN8K4YLH
-deployarn.active.dev.rot:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU
 deployarn.active.dev.status:
   ttl: 60
   type: TXT
