@@ -19,7 +19,8 @@ This repository manages the Ministry of Justice DNS records using [octoDNS](http
    - [Weekly Automation](#weekly-automation)
    - [Manual Identification](#manual-identification)
 9. [Makefile Commands](#makefile-commands)
-10. [License](#license)
+10. [Identify GitHub Pages Delegations](#identifying-github-pages-delegations)
+11. [License](#license)
 
 ## Repository Structure
 
