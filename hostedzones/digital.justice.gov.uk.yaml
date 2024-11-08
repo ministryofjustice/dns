@@ -222,10 +222,6 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: dq5u7fyz5mukp.cloudfront.net.
     type: A
-pki:
-  ttl: 600
-  type: CNAME
-  value: pki.digital.justice.gov.uk.s3-website.eu-west-2.amazonaws.com
 proxy:
   ttl: 942942942
   type: Route53Provider/ALIAS
