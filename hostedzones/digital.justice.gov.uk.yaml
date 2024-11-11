@@ -222,6 +222,10 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: dq5u7fyz5mukp.cloudfront.net.
     type: A
+pki:
+  ttl: 300
+  type: TXT
+  value: google-site-verification=E52dtr0Moab7VxTtmF1Nz7YmwJrfZ-AJuGZhlSaTNDg
 proxy:
   ttl: 942942942
   type: Route53Provider/ALIAS
