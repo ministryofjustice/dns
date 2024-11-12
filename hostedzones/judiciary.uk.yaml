@@ -409,10 +409,6 @@ www:
   ttl: 600
   type: CNAME
   value: d25f2cgaa0qyto.cloudfront.net
-www.elinks:
-  ttl: 300
-  type: CNAME
-  value: enigmatic-sea-8601.afternoon-waters-1964.herokuspace.com
 www.judicialcareers:
   ttl: 300
   type: CNAME
