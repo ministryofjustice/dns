@@ -33,7 +33,8 @@ jobs:
             echo "no_changes=true" >> "$GITHUB_ENV"
           else
             echo "no_changes=false" >> "$GITHUB_ENV"
-            echo "new_domains="$(git diff --exit-code .github_pages | grep '^+[^+]' | sed 's/^+//')"" | sed -r 's/[[:space:]]+/\\n/g' >> "$GITHUB_ENV"
+            new_domains="$(git diff --exit-code .github_pages | grep '^+[^+]' | sed 's/^+//')"
+            echo "new_domains=$(echo $new_domains)" | awk '{ printf "%s\\n", $0 }' >> "$GITHUB_ENV"
           fi
 
       - name: Create Pull Request
@@ -62,7 +63,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "The following GitHub Pages delegations have been added:\n\n${{ env.new_domains }}\n\nMake sure to manually verify new GitHub Pages domains <https://github.com/organizations/ministryofjustice/settings/pages|here> to keep them secure."
+                    "text": "The following GitHub Pages delegations have been added:\n\n${{ env.new_domains }}\nMake sure to manually verify new GitHub Pages domains <https://github.com/organizations/ministryofjustice/settings/pages|here> to keep them secure."
                   }
                 }
               ]
