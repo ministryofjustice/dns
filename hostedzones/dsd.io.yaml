@@ -57,14 +57,6 @@ acceleratedpossession:
     - ns-1772.awsdns-29.co.uk.
     - ns-325.awsdns-40.com.
     - ns-941.awsdns-53.net.
-asylum-support:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
-    type: A
 azure:
   ttl: 300
   type: NS
@@ -452,10 +444,6 @@ devregistry.service-33c0d65b:
     hosted-zone-id: Z32O12XQLNTSW2
     name: docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com.
     type: A
-dsd_blog:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 eatd:
   ttl: 300
   type: CNAME
@@ -496,14 +484,6 @@ elasticsearch.staging-lpa:
   ttl: 300
   type: CNAME
   value: monitoring.staging-lpa.dsd.io
-email.service:
-  ttl: 300
-  type: CNAME
-  value: u2748441.wl192.sendgrid.net
-email.staging:
-  ttl: 300
-  type: CNAME
-  value: sendgrid.net
 es-hmcts:
   ttl: 300
   type: CNAME
