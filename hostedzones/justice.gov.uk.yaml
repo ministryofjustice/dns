@@ -65,6 +65,10 @@ _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
+_a1dn83mtm5mian9moii6ia6z24enw6e.training.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _acme-challenge.aka:
   ttl: 300
   type: CNAME
