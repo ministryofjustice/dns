@@ -1103,13 +1103,9 @@ jira.cjscp:
   type: CNAME
   value: triadmoj.atlassian.net.
 jobs:
-  ttl: 10800
-  type: NS
-  values:
-    - ns-1332.awsdns-38.org
-    - ns-1916.awsdns-47.co.uk
-    - ns-531.awsdns-02.net
-    - ns-98.awsdns-12.com
+  ttl: 300
+  type: CNAME
+  value: portals-justicejobs.avature.net
 join.meet.video:
   ttl: 300
   type: CNAME
