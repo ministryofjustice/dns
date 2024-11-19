@@ -1105,7 +1105,7 @@ jira.cjscp:
 jobs:
   ttl: 300
   type: CNAME
-  value: sandboxjusticejobs.avature.net
+  value: portals-justicejobs.avature.net
 join.meet.video:
   ttl: 300
   type: CNAME
