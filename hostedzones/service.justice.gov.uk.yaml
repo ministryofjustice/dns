@@ -65,6 +65,10 @@ _184ea2e06cb78e1139bdba40932f8753.training.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _545a78ac6039acf48eddbf6c977afe0b.djqtsrsxkq.acm-validations.aws.
+_559lmdw6gehuz436jarcqrjq9g2nk7z.paroleboardstream:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _862ab8fd914ba85df7f632f9039ec540.crown-court-remuneration:
   ttl: 300
   type: CNAME
