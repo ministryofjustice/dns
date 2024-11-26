@@ -899,9 +899,13 @@ hmpps-performance-hub:
   type: CNAME
   value: performance-hub.hmpps-production.modernisation-platform.service.justice.gov.uk
 hmppsinsights:
-  ttl: 300
-  type: A
-  value: 35.214.43.34
+  ttl: 86400
+  type: NS
+  values:
+    - ns-1435.awsdns-51.org
+    - ns-1554.awsdns-02.co.uk
+    - ns-665.awsdns-19.net
+    - ns-9.awsdns-01.com
 integrated-fraud-system:
   ttl: 86400
   type: NS
