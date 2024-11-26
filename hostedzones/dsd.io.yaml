@@ -160,30 +160,6 @@ defence-request:
     - ns-155.awsdns-19.com.
     - ns-1949.awsdns-51.co.uk.
     - ns-542.awsdns-03.net.
-demo1-intranet:
-  ttl: 300
-  type: CNAME
-  value: demo-intranet.dsd.io
-demo2-intranet:
-  ttl: 300
-  type: CNAME
-  value: demo-intranet.dsd.io
-demo3-intranet:
-  ttl: 300
-  type: CNAME
-  value: demo-intranet.dsd.io
-demo4-intranet:
-  ttl: 300
-  type: CNAME
-  value: demo-intranet.dsd.io
-demo5-intranet:
-  ttl: 300
-  type: CNAME
-  value: demo-intranet.dsd.io
-demo-intranet:
-  ttl: 300
-  type: A
-  value: 54.246.235.16
 deployarn.7c928508.production.accelerated-claims:
   ttl: 300
   type: TXT
