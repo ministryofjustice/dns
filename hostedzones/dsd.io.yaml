@@ -444,14 +444,6 @@ et.dashboard:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-fala:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1159.awsdns-16.org
-    - ns-126.awsdns-15.com
-    - ns-1885.awsdns-43.co.uk
-    - ns-932.awsdns-52.net
 familyassessment.dsd:
   ttl: 300
   type: NS
@@ -591,34 +583,6 @@ jurysummons:
     - ns-1832.awsdns-37.co.uk.
     - ns-397.awsdns-49.com.
     - ns-687.awsdns-21.net.
-kibana.cla.service:
-  ttl: 300
-  type: A
-  value: 185.40.9.58
-kibana.prod-lpa:
-  ttl: 300
-  type: A
-  value: 185.40.8.195
-kibana.scratch-lpa:
-  ttl: 300
-  type: CNAME
-  value: monitoring.scratch-lpa.dsd.io.
-kibana.stag-lpa:
-  ttl: 300
-  type: A
-  value: 185.40.8.37
-kibana.staging-backoffice:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: null
-    name: monitoring.staging-backoffice
-    type: A
-kibana.staging-lpa:
-  ttl: 300
-  type: CNAME
-  value: monitoring.staging-lpa.dsd.io
 kube:
   ttl: 300
   type: NS
@@ -651,14 +615,6 @@ local:
   ttl: 300
   type: A
   value: 127.0.0.1
-lpadown:
-  ttl: 60
-  type: A
-  value: 54.72.5.215
-lpawiki:
-  ttl: 300
-  type: A
-  value: 54.229.49.163
 maildrop:
   ttl: 300
   type: CNAME
@@ -671,10 +627,6 @@ maintain:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d2fdqongk9r3ym.cloudfront.net.
     type: A
-maintenance:
-  ttl: 300
-  type: A
-  value: 54.93.44.205
 makeaplea:
   ttl: 300
   type: NS
@@ -795,14 +747,6 @@ po.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: po-prod-553a-elbpo-2om62plim7cm-984555513.eu-west-1.elb.amazonaws.com.
     type: A
-postcode_lookup:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
-ppo:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 prad:
   ttl: 300
   type: A
@@ -919,18 +863,6 @@ rosha:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-rot-dev:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: rot-dev-9-elbrotde-1rahtcjnfk1fn-2080359527.eu-west-1.elb.amazonaws.com.
-    type: A
-rot-frontend-dev:
-  ttl: 300
-  type: A
-  value: 52.18.154.179
 rsr:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -939,14 +871,6 @@ rsr:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-scratch-lpa.service:
-  ttl: 300
-  type: A
-  value: 185.40.10.45
-scratch-v1-lpa.service:
-  ttl: 300
-  type: A
-  value: 83.151.219.74
 scs:
   ttl: 300
   type: NS
@@ -983,12 +907,6 @@ serviceassessments:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-servicedeskblog:
-  ttl: 300
-  type: A
-  values:
-    - 192.30.252.153
-    - 192.30.252.154
 siaacd:
   ttl: 300
   type: CNAME
@@ -1413,14 +1331,6 @@ staging-lpa.service:
   ttl: 300
   type: A
   value: 185.40.8.37
-staging-product-tracker:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: dualstack.moj-produ-elbstagi-f27cyb85pklx-250525843.eu-west-1.elb.amazonaws.com.
-    type: A
 staging-v1-lpa.service:
   ttl: 300
   type: A
@@ -1701,10 +1611,6 @@ vault-dev.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: vault-dev-elbvault-2n7xxzl638mh-723631155.eu-west-1.elb.amazonaws.com.
     type: A
-victim_services:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 vpn:
   ttl: 300
   type: A
@@ -1717,18 +1623,6 @@ web-ssh.service:
   ttl: 300
   type: A
   value: 54.77.250.158
-webhelpdesk:
-  ttl: 300
-  type: A
-  value: 52.19.187.43
-wiki:
-  ttl: 300
-  type: A
-  value: 54.229.73.119
-wordpress_salt_test:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 wp:
   ttl: 300
   type: NS
@@ -1749,10 +1643,6 @@ www.staging-v1-lpa.service:
   ttl: 300
   type: CNAME
   value: staging-v1-lpa.service.dsd.io.
-x:
-  ttl: 60
-  type: A
-  value: 54.229.49.135
 ybtj:
   ttl: 300
   type: CNAME
