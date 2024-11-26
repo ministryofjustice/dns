@@ -424,42 +424,6 @@ eatd:
   ttl: 300
   type: CNAME
   value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-elasticsearch:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z2FDTNDATAQYW2
-    name: dwfja2cimdbjj.cloudfront.net.
-    type: A
-elasticsearch.cla.service:
-  ttl: 300
-  type: A
-  value: 185.40.9.58
-elasticsearch.prod-lpa:
-  ttl: 300
-  type: A
-  value: 185.40.8.195
-elasticsearch.scratch-lpa:
-  ttl: 300
-  type: CNAME
-  value: monitoring.scratch-lpa.dsd.io.
-elasticsearch.stag-lpa:
-  ttl: 300
-  type: A
-  value: 185.40.8.37
-elasticsearch.staging-backoffice:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: null
-    name: monitoring.staging-backoffice
-    type: A
-elasticsearch.staging-lpa:
-  ttl: 300
-  type: CNAME
-  value: monitoring.staging-lpa.dsd.io
 es-hmcts:
   ttl: 300
   type: CNAME
