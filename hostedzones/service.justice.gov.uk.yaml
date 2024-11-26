@@ -1830,10 +1830,6 @@ www.dev.victim-case-management:
   ttl: 300
   type: CNAME
   value: www.dev.vcms.probation.hmpps.dsd.io
-www.hmppsinsights:
-  ttl: 300
-  type: CNAME
-  value: hmppsinsights.service.justice.gov.uk
 www.perf.victim-case-management:
   ttl: 300
   type: CNAME
