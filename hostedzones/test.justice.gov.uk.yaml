@@ -19,6 +19,7 @@
       - MS=ms21450401
       - v=spf1 ip4:195.59.75.140/32 ip4:195.59.75.12/32 include:spf.protection.outlook.com
         ~all
+      - google-site-verification=WQTvd1HrxsblyqoVRJTKCpT1dvqTkB4IhZbYQ0P8Uf0
 _580ab60a2ee907dfb79b7e31cc74603c.mta-sts:
   ttl: 300
   type: CNAME
