@@ -6,21 +6,24 @@ This repository manages the Ministry of Justice DNS records using [octoDNS](http
 
 ## 📖 Table of Contents
 
-1. [Repository Structure](#repository-structure)
-2. [How It Works](#how-it-works)
-3. [Configuration](#configuration)
-4. [CI/CD Pipeline](#cicd-pipeline)
-   - [AWS IAM User](#cicd-aws-iam-user)
-   - [AWS Credentials](#aws-credentials)
-5. [Making Changes](#making-changes)
-6. [Viewing Current Configuration](#viewing-current-configuration)
-7. [Applying Changes](#applying-changes)
-8. [GitHub Pages Management](#github-pages-management)
-   - [Weekly Automation](#weekly-automation)
-   - [Manual Identification](#manual-identification)
-9. [Makefile Commands](#makefile-commands)
-10. [Identify GitHub Pages Delegations](#identifying-github-pages-delegations)
-11. [License](#license)
+- [🌐 MoJ DNS Management](#-moj-dns-management)
+  - [📖 Table of Contents](#-table-of-contents)
+  - [Repository Structure](#repository-structure)
+  - [How It Works](#how-it-works)
+  - [Configuration](#configuration)
+  - [CI/CD Pipeline](#cicd-pipeline)
+    - [CI/CD AWS IAM User](#cicd-aws-iam-user)
+  - [AWS Credentials](#aws-credentials)
+  - [Making Changes](#making-changes)
+  - [Viewing Current Configuration](#viewing-current-configuration)
+  - [Applying Changes](#applying-changes)
+  - [Makefile Commands](#makefile-commands)
+  - [Identifying GitHub Pages Delegations](#identifying-github-pages-delegations)
+    - [Weekly Automation](#weekly-automation)
+    - [Manual Identification](#manual-identification)
+    - [Example .github\_pages Output](#example-github_pages-output)
+    - [Updating the GitHub Pages Records](#updating-the-github-pages-records)
+  - [License](#license)
 
 ## Repository Structure
 
@@ -47,7 +50,6 @@ This repository manages the Ministry of Justice DNS records using [octoDNS](http
 3. A CI/CD pipeline runs `octodns-sync` in dry-run mode for each PR, allowing for review of proposed changes.
 
 4. Upon merging to the `main` branch, changes are automatically applied to our Route53 hosted zones.
-
 
 ## Configuration
 
@@ -76,13 +78,15 @@ If neither of these sources provides valid credentials, commands that require AW
 To set your AWS credentials, you can either:
 
 1. Export them as environment variables:
-   ```
+
+   ```bash
    export AWS_ACCESS_KEY_ID=your_access_key_id
    export AWS_SECRET_ACCESS_KEY=your_secret_access_key
    ```
 
 2. Configure them using the AWS CLI:
-   ```
+
+   ```bash
    aws configure
    ```
 
@@ -91,47 +95,56 @@ Ensure your AWS credentials have the necessary permissions to manage Route53 hos
 ## Making Changes
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/ministryofjustice/dns.git
    cd dns
    ```
 
 2. Install dependencies:
+
    ```bash
    make install
    ```
 
 3. Create a new branch for your changes:
+
    ```bash
    git checkout -b your-branch-name
    ```
 
 4. Edit the appropriate zone file:
+
    ```bash
    make edit-zone zone=example.com
    ```
+
    This will open the zone file in your default editor. If the file doesn't exist, it will be created.
 
 5. Ensure changes are made in alphabetical order within the file.
 
 6. Validate your changes:
 
-:memo: **Note:** This may look a little messy, but you're looking for errors rather than warnings.
+   :memo: **Note:** This may look a little messy, but you're looking for errors rather than warnings.
+
    ```bash
    make validate-zones
    ```
 
 7. Perform a dry-run to see what changes would be made:
+
    ```bash
    make sync-dry-run
    ```
 
 8. If you want to compare your local changes with the live configuration:
+
    ```bash
    make compare-zone zone=example.com
    ```
 
 9. Commit your changes and create a Pull Request:
+
    ```bash
    git add .
    git commit -m "Your descriptive commit message"
@@ -183,7 +196,6 @@ make sync-apply
 
 This will apply all pending changes to Route53. Always perform a `make sync-dry-run` first to review the changes that will be made.
 
-
 ## Makefile Commands
 
 This repository includes a Makefile to simplify common operations. You can use the following commands:
@@ -216,16 +228,18 @@ A GitHub Action runs every Sunday at midnight (UTC) to identify GitHub Pages del
 ### Manual Identification
 
 To manually identify GitHub Pages delegations, you can use the following Makefile command:
+
 ```bash
 make print_github_delegation
 ```
+
 This command outputs the current list of GitHub Pages delegations in the .github_pages file.
 
 ### Example .github_pages Output
 
-The .github_pages file contains entries in the format <record>.<hostedzone>. For example:
+The .github_pages file contains entries in the format `<record>.<hostedzone>`. For example:
 
-```
+```text
 cjsm.justice.gov.uk
 hmpps-architecture-blueprint.service.justice.gov.uk
 runbooks.operations-engineering.service.justice.gov.uk
@@ -236,11 +250,13 @@ runbooks.operations-engineering.service.justice.gov.uk
 If you need to update the GitHub Pages records manually:
 
 1. Run the following command to identify changes:
+
 ```bash
 make print-github-delegations
 ```
 
-2. Commit and push any changes to the .github_pages file:
+1. Commit and push any changes to the .github_pages file:
+
 ```bash
 git add .github_pages
 git commit -m "Update GitHub Pages delegations"
