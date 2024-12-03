@@ -548,14 +548,6 @@ civil-casetracker:
     - ns-1702.awsdns-20.co.uk.
     - ns-343.awsdns-42.com.
     - ns-934.awsdns-52.net.
-civil-eligibility-calculator:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1044.awsdns-02.org.
-    - ns-1729.awsdns-24.co.uk.
-    - ns-7.awsdns-00.com.
-    - ns-725.awsdns-26.net.
 civilmediation:
   ttl: 942942942
   type: Route53Provider/ALIAS
