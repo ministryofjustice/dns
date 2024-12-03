@@ -1386,14 +1386,6 @@ nogh2wrclnc7kkukcm26lowx6qdmbs3w._domainkey:
   ttl: 300
   type: CNAME
   value: nogh2wrclnc7kkukcm26lowx6qdmbs3w.dkim.amazonses.com
-nomisqc:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1464.awsdns-55.org.
-    - ns-1849.awsdns-39.co.uk.
-    - ns-486.awsdns-60.com.
-    - ns-960.awsdns-56.net.
 noms:
   ttl: 600
   type: CNAME
@@ -1563,10 +1555,6 @@ px02.video:
   ttl: 300
   type: A
   value: 35.246.61.112
-qc10.nomisqc:
-  ttl: 600
-  type: CNAME
-  value: nomisqc.justice.gov.uk.
 relay0.cjsm.secure-email.ppud:
   - ttl: 300
     type: A
