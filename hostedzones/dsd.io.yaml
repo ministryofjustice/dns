@@ -508,22 +508,6 @@ intra:
     - ns-143.awsdns-17.com
     - ns-1952.awsdns-52.co.uk
     - ns-537.awsdns-03.net
-is:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1433.awsdns-51.org.
-    - ns-1723.awsdns-23.co.uk.
-    - ns-306.awsdns-38.com.
-    - ns-554.awsdns-05.net.
-is-prod:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1378.awsdns-44.org.
-    - ns-1991.awsdns-56.co.uk.
-    - ns-39.awsdns-04.com.
-    - ns-619.awsdns-13.net.
 jenkins:
   ttl: 300
   type: CNAME
