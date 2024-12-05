@@ -404,22 +404,6 @@ dev.nomis-api-access:
     - ns-1627.awsdns-11.co.uk.
     - ns-206.awsdns-25.com.
     - ns-654.awsdns-17.net.
-devregistry.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com.
-    type: A
-devregistry.service-33c0d65b:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com.
-    type: A
 eatd:
   ttl: 300
   type: CNAME
@@ -488,10 +472,6 @@ gems:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-git:
-  ttl: 300
-  type: A
-  value: 172.22.8.3
 gl_summit:
   ttl: 300
   type: CNAME
@@ -504,10 +484,6 @@ helpwithcourtfees:
     - ns-2005.awsdns-58.co.uk.
     - ns-41.awsdns-05.com.
     - ns-864.awsdns-44.net.
-hillsborough:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 hmpps:
   ttl: 300
   type: NS
@@ -524,10 +500,6 @@ hwf:
     - ns-191.awsdns-23.com.
     - ns-2004.awsdns-58.co.uk.
     - ns-685.awsdns-21.net.
-int-prisonvisits:
-  ttl: 30
-  type: A
-  value: 172.22.16.3
 intra:
   ttl: 300
   type: NS
@@ -583,14 +555,6 @@ jurysummons:
     - ns-1832.awsdns-37.co.uk.
     - ns-397.awsdns-49.com.
     - ns-687.awsdns-21.net.
-kube:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1187.awsdns-20.org.
-    - ns-1636.awsdns-12.co.uk.
-    - ns-453.awsdns-56.com.
-    - ns-583.awsdns-08.net.
 laa-rota:
   ttl: 300
   type: NS
@@ -619,14 +583,6 @@ maildrop:
   ttl: 300
   type: CNAME
   value: ec2-54-72-59-165.eu-west-1.compute.amazonaws.com
-maintain:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z2FDTNDATAQYW2
-    name: d2fdqongk9r3ym.cloudfront.net.
-    type: A
 makeaplea:
   ttl: 300
   type: NS
@@ -663,22 +619,6 @@ mojintranet:
     - ns-1618.awsdns-10.co.uk.
     - ns-371.awsdns-46.com.
     - ns-666.awsdns-19.net.
-monitoring.prod-lpa:
-  ttl: 300
-  type: A
-  value: 185.40.8.195
-monitoring.scratch-lpa:
-  ttl: 300
-  type: A
-  value: 185.40.10.45
-monitoring.staging-backoffice:
-  ttl: 300
-  type: A
-  value: 37.26.91.54
-monitoring.staging-lpa:
-  ttl: 300
-  type: A
-  value: 185.40.8.37
 noms:
   ttl: 300
   type: NS
@@ -715,22 +655,6 @@ openjustice:
   ttl: 300
   type: CNAME
   value: ec2-34-248-250-65.eu-west-1.compute.amazonaws.com
-platforms:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1273.awsdns-31.org
-    - ns-1988.awsdns-56.co.uk
-    - ns-382.awsdns-47.com
-    - ns-918.awsdns-50.net
-platforms-training:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1263.awsdns-29.org
-    - ns-1767.awsdns-28.co.uk
-    - ns-358.awsdns-44.com
-    - ns-733.awsdns-27.net
 pleaonline:
   ttl: 300
   type: NS
@@ -763,22 +687,10 @@ prod.nomis-api-access:
     - ns-1794.awsdns-32.co.uk.
     - ns-302.awsdns-37.com.
     - ns-906.awsdns-49.net.
-prodregistry.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z3NF1Z3NOM5OY2
-    name: docker-re-elbprodr-hbevs36h7zcv-1550709498.eu-west-1.elb.amazonaws.com.
-    type: A
 production29:
   ttl: 300
   type: CNAME
   value: ec2-54-194-24-225.eu-west-1.compute.amazonaws.com
-production-lpa.service:
-  ttl: 300
-  type: A
-  value: 185.40.8.196
 providercalc:
   ttl: 300
   type: A
@@ -791,54 +703,6 @@ pub:
     - ns-1928.awsdns-49.co.uk.
     - ns-215.awsdns-26.com.
     - ns-923.awsdns-51.net.
-registry-dev.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbregis-l9jj4g5ckwvw-1248066928.eu-west-1.elb.amazonaws.com.
-    type: A
-registry-dev.service-33c0d65b:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbregis-l9jj4g5ckwvw-1248066928.eu-west-1.elb.amazonaws.com.
-    type: A
-registry-v2.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbregis-rxc9o137ny8k-544193084.eu-west-1.elb.amazonaws.com.
-    type: A
-registry-v2.service-768454e0:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbregis-rxc9o137ny8k-544193084.eu-west-1.elb.amazonaws.com.
-    type: A
-registry.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbregis-upxzq21e2bf5-1676511926.eu-west-1.elb.amazonaws.com.
-    type: A
-registry.service-768454e0:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: docker-re-elbregis-upxzq21e2bf5-1676511926.eu-west-1.elb.amazonaws.com.
-    type: A
 repo:
   ttl: 942942942
   type: Route53Provider/ALIAS
