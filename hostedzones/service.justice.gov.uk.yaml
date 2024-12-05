@@ -1642,14 +1642,6 @@ staging.signon:
   ttl: 300
   type: CNAME
   value: staging.signon.service.justice.gov.uk.herokudns.com
-studio-hosting:
-  ttl: 300
-  type: NS
-  values:
-    - ns1-07.azure-dns.com.
-    - ns2-07.azure-dns.net.
-    - ns3-07.azure-dns.org.
-    - ns4-07.azure-dns.info.
 suaehjnchl4x3uc37ltzv4sjvox32tsg._domainkey:
   ttl: 1800
   type: CNAME
