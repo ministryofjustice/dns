@@ -291,6 +291,10 @@ _pexapp._tcp.courts-video-link:
       priority: 20
       target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
       weight: 10
+_rbw3tr8d8mgaiyzdc7de9brzv29y7tv.trg.list-assist:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _sip._tcp.courts-video-link:
   ttl: 300
   type: SRV
@@ -351,10 +355,18 @@ _sips._tcp.courts-video-link:
       priority: 20
       target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
       weight: 10
+_smtoticp0chhjo0bgdudur08kdco1r1.sit.list-assist:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_yqhv3rtww7uedz46k5xlf4e1ymvmcli.list-assist:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 access.platforms:
   type: NS
   values:
