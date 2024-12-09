@@ -2046,14 +2046,6 @@ yjbpublications:
     - ns-1881.awsdns-43.co.uk.
     - ns-247.awsdns-30.com.
     - ns-536.awsdns-03.net.
-yjils:
-  ttl: 900
-  type: NS
-  values:
-    - ns-1509.awsdns-60.org.
-    - ns-1777.awsdns-30.co.uk.
-    - ns-294.awsdns-36.com.
-    - ns-526.awsdns-01.net.
 yots.courtstore:
   ttl: 600
   type: A
