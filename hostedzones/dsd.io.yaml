@@ -1499,7 +1499,3 @@ yjbpublications:
   ttl: 300
   type: A
   value: 54.194.101.35
-yjils:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-101-35.eu-west-1.compute.amazonaws.com
