@@ -87,12 +87,9 @@ jars.jac:
   type: A
   value: 185.40.8.147
 judicialcollege:
-  - ttl: 300
-    type: CNAME
-    value: judicial.think-learning.com
-  - ttl: 300
-    type: TXT
-    value: v=spf1 mx a ip4:5.57.63.229 -all
+  ttl: 300
+  type: CNAME
+  value: judicial.think-learning.com
 judicialconduct:
   ttl: 600
   type: NS
