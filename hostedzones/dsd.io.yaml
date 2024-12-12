@@ -875,82 +875,10 @@ stack.active.tax-tribunals-wsproxy-staging:
   ttl: 60
   type: TXT
   value: 35383dcc
-stack.active.template-deploy-dev:
-  ttl: 60
-  type: TXT
-  value: f7a81cb0
-stack.active.test-anchor-dev:
-  ttl: 60
-  type: TXT
-  value: e8c7ec60
-stack.active.test-anchors-dev:
-  ttl: 60
-  type: TXT
-  value: 871fdc9c
-stack.active.test-dev:
-  ttl: 60
-  type: TXT
-  value: 561ccbad
-stack.active.test-reboot-dev:
-  ttl: 60
-  type: TXT
-  value: 2b0f12f3
-stack.active.test-seq-dev:
-  ttl: 60
-  type: TXT
-  value: 92392eac
-stack.active.tsung-dev:
-  ttl: 60
-  type: TXT
-  value: 28cb76ef
-stack.active.vault-dev:
-  ttl: 60
-  type: TXT
-  value: cacd90f1
-stack.active.vis-dev:
-  ttl: 60
-  type: TXT
-  value: f3b14a61
-stack.active.vis-prod:
-  ttl: 60
-  type: TXT
-  value: 92ac1d7b
-stack.active.vis-staging:
-  ttl: 60
-  type: TXT
-  value: 6baf3383
-stack.active.zero-dev:
-  ttl: 60
-  type: TXT
-  value: 5eb371e5
 stack.af6eae4a.tax-tribunals-wsproxy-staging:
   ttl: 60
   type: TXT
   value: af6eae4a
-stack.b0e6c9da.rot-dev:
-  ttl: 60
-  type: TXT
-  value: b0e6c9da
-stack.b9dedd13.docker-registry-dev:
-  ttl: 60
-  type: TXT
-  value: b9dedd13
-stack.b74a1674.ci-dev:
-  ttl: 60
-  type: TXT
-  value: b74a1674
-stack.b645b39b.ci-staging:
-  ttl: 60
-  type: TXT
-  value: b645b39b
-stack.b5203942.docker-registry-dev:
-  ttl: 60
-  type: TXT
-  value: b5203942
-stack.badc95fa.ci-staging:
-  ttl: 60
-  type: TXT
-  value: badc95fa
 stack.bf86775e.accelerated-claims-staging:
   ttl: 300
   type: TXT
@@ -967,34 +895,6 @@ stack.dev.tax-tribunals-uploader-downloader-dev:
   ttl: 60
   type: TXT
   value: 0f6e2ce8
-stack.devreg.docker-registry-dev:
-  ttl: 60
-  type: TXT
-  value: c87a6ccc
-stack.e1666d1f.ci-dev:
-  ttl: 60
-  type: TXT
-  value: e1666d1f
-stack.f7d8c1ea.rot-dev:
-  ttl: 60
-  type: TXT
-  value: f7d8c1ea
-stack.f52dbd37.rot-dev:
-  ttl: 60
-  type: TXT
-  value: f52dbd37
-stack.f9185e99.rot-dev:
-  ttl: 60
-  type: TXT
-  value: f9185e99
-stack.green.docker-registry-prod:
-  ttl: 60
-  type: TXT
-  value: 768454e0
-stack.green.mattp-dev:
-  ttl: 60
-  type: TXT
-  value: 03188574
 stack.newdev3.tax-tribunals-fees-dev:
   ttl: 60
   type: TXT
@@ -1003,10 +903,6 @@ stack.newdev3.tax-tribunals-uploader-downloader-dev:
   ttl: 60
   type: TXT
   value: 49e518fe
-stack.omg1.vault-dev:
-  ttl: 60
-  type: TXT
-  value: cacd90f1
 stack.prod1.tax-tribunals-fees-prod:
   ttl: 60
   type: TXT
@@ -1023,18 +919,6 @@ stack.test_cfn_update.tax-tribunals-fees-dev:
   ttl: 60
   type: TXT
   value: fa049ac1
-staging43:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-78-102.eu-west-1.compute.amazonaws.com
-staging44:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-111-61.eu-west-1.compute.amazonaws.com
-staging47:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-156-23.eu-west-1.compute.amazonaws.com
 staging-et:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1062,46 +946,6 @@ static:
     evaluate-target-health: false
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
-    type: A
-status-staging.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: status-st-elbstatu-11nclt5x9b82a-690920659.eu-west-1.elb.amazonaws.com.
-    type: A
-status.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: dualstack.awseb-awseb-s4t6mlupj7np-31851715.eu-west-1.elb.amazonaws.com.
-    type: A
-stunnel-redis-dev.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: elk-dev-9-elbstunn-12vcfmu9ommpz-2080647487.eu-west-1.elb.amazonaws.com.
-    type: A
-stunnel-redis-stg.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: elk-stagi-elbstunn-1kux5y9dx1apv-1629176595.eu-west-1.elb.amazonaws.com.
-    type: A
-stunnel-redis.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: elk-prod-elbstunn-7fng2mdj9m1f-813182817.eu-west-1.elb.amazonaws.com.
     type: A
 tactical-products:
   ttl: 300
@@ -1283,10 +1127,6 @@ taxtribunals:
     - ns-1924.awsdns-48.co.uk.
     - ns-280.awsdns-35.com.
     - ns-984.awsdns-59.net.
-tipstaff-training:
-  ttl: 300
-  type: A
-  value: 52.49.163.38
 tp:
   ttl: 300
   type: NS
@@ -1311,14 +1151,6 @@ utiacdailycourtlist:
   ttl: 300
   type: CNAME
   value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-vault-dev.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: vault-dev-elbvault-2n7xxzl638mh-723631155.eu-west-1.elb.amazonaws.com.
-    type: A
 wardship:
   ttl: 300
   type: A
