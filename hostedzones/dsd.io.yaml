@@ -89,10 +89,6 @@ ci-hmcts.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: ci-hmcts-elbcihmc-1lftefg1dwwil-1739227107.eu-west-1.elb.amazonaws.com.
     type: A
-ci-lpa:
-  ttl: 300
-  type: A
-  value: 54.76.188.44
 ci-prod.service:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -380,10 +376,6 @@ dev-lfc:
   ttl: 300
   type: CNAME
   value: dev.laafeecalculator.dsd.io.
-dev-lpa.service:
-  ttl: 300
-  type: A
-  value: 54.77.92.20
 dev.administrativeappeals:
   ttl: 300
   type: CNAME
@@ -575,10 +567,6 @@ makeaplea:
     - ns-1588.awsdns-06.co.uk
     - ns-204.awsdns-25.com
     - ns-995.awsdns-60.net
-mantis_lpa:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 mapit.service:
   ttl: 300
   type: CNAME
@@ -1175,14 +1163,6 @@ staging-et:
     hosted-zone-id: Z32O12XQLNTSW2
     name: dualstack.atet-stag-elbstagi-1rsc8jaqj2xer-572896377.eu-west-1.elb.amazonaws.com.
     type: A
-staging-lpa.service:
-  ttl: 300
-  type: A
-  value: 185.40.8.37
-staging-v1-lpa.service:
-  ttl: 300
-  type: A
-  value: 83.151.213.226
 staging.administrativeappeals:
   ttl: 300
   type: CNAME
@@ -1459,18 +1439,10 @@ vault-dev.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: vault-dev-elbvault-2n7xxzl638mh-723631155.eu-west-1.elb.amazonaws.com.
     type: A
-vpn:
-  ttl: 300
-  type: A
-  value: 54.77.178.131
 wardship:
   ttl: 300
   type: A
   value: 52.19.133.172
-web-ssh.service:
-  ttl: 300
-  type: A
-  value: 54.77.250.158
 wp:
   ttl: 300
   type: NS
