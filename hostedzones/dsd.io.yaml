@@ -89,22 +89,6 @@ ci-hmcts.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: ci-hmcts-elbcihmc-1lftefg1dwwil-1739227107.eu-west-1.elb.amazonaws.com.
     type: A
-ci-prod.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com.
-    type: A
-ci.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: dualstack.ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com.
-    type: A
 contact-moj:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -180,30 +164,6 @@ deployarn.active.dev.courtfinder:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/courtfinder-dev-97187eb9-CrossAccountRole-ZOS047VPE89X
-deployarn.active.dev.intranet-jenkins:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/intranet-jenkins-dev-CrossAccountRole-TWIMA75Q44MY
-deployarn.active.dev.mattp:
-  ttl: 60
-  type: TXT
-  value: "False"
-deployarn.active.dev.po:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/po-dev-5ecff3b9-CrossAccountRole-1MVPOUUZ4DR04
-deployarn.active.dev.rabbitmq:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/rabbitmq-dev-459e3857-CrossAccountRole-E9X4BS81JAFN
-deployarn.active.dev.riemann:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/riemann-dev-42fe0ed2-CrossAccountRole-220SGN8K4YLH
-deployarn.active.dev.status:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/status-dev-5e7648d9-CrossAccountRole-16ZHLNT1IYNZ8
 deployarn.active.dev.tax-tribunals-downloader:
   ttl: 60
   type: TXT
@@ -216,74 +176,10 @@ deployarn.active.dev.tax-tribunals-uploader-downloader:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-115NC9VHVEKIN
-deployarn.active.dev.test:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/test-dev-aa1f94c8-CrossAccountRole-1661CLJFSHL22
-deployarn.active.dev.test-anchor:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/test-anchor-dev-e8c7ec60-CrossAccountRole-184ZW28M6RING
-deployarn.active.dev.test-seq:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/test-seq-dev-92392eac-CrossAccountRole-1NZ6YTSK4RVT6
-deployarn.active.dev.tsung:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/tsung-dev-28cb76ef-CrossAccountRole-MQGP3XI35FCF
-deployarn.active.dev.vault:
-  ttl: 60
-  type: TXT
-  value: "False"
-deployarn.active.dev.vis:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/vis-dev-f3b14a61-CrossAccountRole-1NKTWEPROFTJM
-deployarn.active.dev.zero:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/zero-dev-5eb371e5-CrossAccountRole-1ZGFKHJ28WLH
-deployarn.active.experimental.elk:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/elk-experimental-3341fb85-CrossAccountRole-1GIT2DB1SXO3L
-deployarn.active.newprod.ci:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/ci-newprod-1973491d-CrossAccountRole-FEY1ZV8UEB4W
-deployarn.active.newprod.docker-registry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/docker-registry-newprod-b1ac058e-CrossAccountRole-1U81JQ26W2GL8
-deployarn.active.prod.ci:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/ci-prod-d14b3969-CrossAccountRole-YRWUMSKNLFAG
-deployarn.active.prod.docker-registry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/docker-registry-prod-768454e0-CrossAccountRole-1Y9KUI5NRMLI
-deployarn.active.prod.po:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/po-prod-553a27f6-CrossAccountRole-BCXALGQKKIWA
-deployarn.active.prod.status:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG
 deployarn.active.prod.tax-tribunals-fees:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX
-deployarn.active.prod.vis:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/vis-prod-92ac1d7b-CrossAccountRole-1QNJEEF7FTQ6N
-deployarn.active.production.accelerated-claims:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/accelerated-claims-production-424-CrossAccountRole-8ELG8P1CPKN7
 deployarn.active.staging.accelerated-claims:
   ttl: 60
   type: TXT
@@ -292,10 +188,6 @@ deployarn.active.staging.courtfinder:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/courtfinder-staging-dc5f8e4d-CrossAccountRole-6BX6WNAI0HKC
-deployarn.active.staging.po:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/po-staging-77c25fb8-CrossAccountRole-1NEVI39K1IUUG
 deployarn.active.staging.tax-tribunals-fees:
   ttl: 60
   type: TXT
@@ -308,10 +200,6 @@ deployarn.active.staging.tax-tribunals-wsproxy:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-wsproxy-staging-353-CrossAccountRole-6IIPSV8BG369
-deployarn.active.staging.vis:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/vis-staging-6baf3383-CrossAccountRole-1RUFDC5RU4YJ
 deployarn.bf867755e.staging.accelerated-claims:
   ttl: 300
   type: TXT
@@ -320,18 +208,10 @@ deployarn.c3477c63.dev.accelerated-claims:
   ttl: 300
   type: TXT
   value: arn:aws:iam::880656497252:role/accelerated-claims-dev-c3477c63-CrossAccountRole-1MLS9UADWIMB3
-deployarn.ca4070c2.prod.status:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG
 deployarn.dev.dev.tax-tribunals-uploader-downloader:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-71DT5GRG6VM0
-deployarn.green.prod.docker-registry:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/docker-registry-prod-768454e0-CrossAccountRole-1Y9KUI5NRMLI
 deployarn.newdev3.dev.tax-tribunals-fees:
   ttl: 60
   type: TXT
