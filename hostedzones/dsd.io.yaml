@@ -364,6 +364,10 @@ laafeecalculator:
     - ns-1147.awsdns-15.org.
     - ns-1794.awsdns-32.co.uk.
     - ns-620.awsdns-13.net.
+landstribunal:
+  ttl: 300
+  type: A
+  value: 52.208.251.221
 local:
   ttl: 300
   type: A
