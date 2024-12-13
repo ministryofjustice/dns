@@ -924,26 +924,6 @@ tp:
     - ns-1882.awsdns-43.co.uk.
     - ns-275.awsdns-34.com.
     - ns-902.awsdns-48.net.
-tribunals2:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-ucchome:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z3AQBSTGFYJSTF
-    name: s3-website-us-east-1.amazonaws.com.
-    type: A
-utiacdailycourtlist:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-wardship:
-  ttl: 300
-  type: A
-  value: 52.19.133.172
 wp:
   ttl: 300
   type: NS
