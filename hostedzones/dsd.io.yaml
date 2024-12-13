@@ -21,14 +21,6 @@
   ttl: 300
   type: CNAME
   value: acceleratedpossession-dev.dsd.io
-"*.int-prisonvisits":
-  ttl: 30
-  type: A
-  value: 172.22.16.3
-"*.local":
-  ttl: 300
-  type: A
-  value: 127.0.0.1
 _6b6253eac9e7549bb70b0e42830e95b9.ci-hmcts.service:
   ttl: 300
   type: CNAME
@@ -129,10 +121,6 @@ ctf:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-dacp:
-  ttl: 300
-  type: A
-  value: 52.19.133.172
 defence-request:
   type: NS
   values:
@@ -216,26 +204,14 @@ deployarn.newdev3.dev.tax-tribunals-fees:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-0931d739-CrossAccountRole-16J2JQTXX5BIY
-deployarn.omg1.dev.vault:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/vault-dev-cacd90f1-CrossAccountRole-OMJN8J9MSSO1
 deployarn.prod1.prod.tax-tribunals-fees:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX
-deployarn.prod5x.prod.elk:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/elk-prod-6591eacf-CrossAccountRole-1V5OJXWLFEXTG
 deployarn.staging2.staging.tax-tribunals-uploader-downloader:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-1VXPGAW8XQRUE
-deployarn.standby.prod.docker-registry:
-  ttl: 60
-  type: TXT
-  value: None
 deployarn.test2.dev.tax-tribunals-uploader-downloader:
   ttl: 60
   type: TXT
@@ -252,22 +228,6 @@ dev-et:
     hosted-zone-id: Z32O12XQLNTSW2
     name: dualstack.atet-dev-0-elbdev1-5vhxqbcorqqk-747506187.eu-west-1.elb.amazonaws.com.
     type: A
-dev-lfc:
-  ttl: 300
-  type: CNAME
-  value: dev.laafeecalculator.dsd.io.
-dev.administrativeappeals:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.landregistrationdivision:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
-dev.landschamber:
-  ttl: 300
-  type: CNAME
-  value: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
 dev.nomis-api-access:
   ttl: 1500
   type: NS
@@ -332,10 +292,6 @@ ftiacdailycourtlist:
   ttl: 300
   type: CNAME
   value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-ftp:
-  ttl: 300
-  type: A
-  value: 52.208.251.221
 gems:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -380,25 +336,6 @@ intra:
     - ns-143.awsdns-17.com
     - ns-1952.awsdns-52.co.uk
     - ns-537.awsdns-03.net
-jenkins:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-212-120.eu-west-1.compute.amazonaws.com
-jenkins-alpha:
-  ttl: 300
-  type: A
-  value: 172.22.6.53
-jenkins-next:
-  type: CNAME
-  value: ec2-54-194-212-120.eu-west-1.compute.amazonaws.com
-jenkins-old:
-  ttl: 300
-  type: A
-  value: 54.246.250.229
-jenkins-ubuntu:
-  ttl: 300
-  type: A
-  value: 54.194.38.138
 jurorsummons:
   ttl: 300
   type: A
