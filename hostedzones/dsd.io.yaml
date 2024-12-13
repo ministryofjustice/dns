@@ -348,34 +348,10 @@ jurysummons:
     - ns-1832.awsdns-37.co.uk.
     - ns-397.awsdns-49.com.
     - ns-687.awsdns-21.net.
-laa-rota:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1259.awsdns-29.org.
-    - ns-1650.awsdns-14.co.uk.
-    - ns-487.awsdns-60.com.
-    - ns-804.awsdns-36.net.
-laafeecalculator:
-  ttl: 300
-  type: NS
-  values:
-    - ns-104.awsdns-13.com.
-    - ns-1147.awsdns-15.org.
-    - ns-1794.awsdns-32.co.uk.
-    - ns-620.awsdns-13.net.
 landstribunal:
   ttl: 300
   type: A
   value: 52.208.251.221
-local:
-  ttl: 300
-  type: A
-  value: 127.0.0.1
-maildrop:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-72-59-165.eu-west-1.compute.amazonaws.com
 makeaplea:
   ttl: 300
   type: NS
@@ -384,30 +360,10 @@ makeaplea:
     - ns-1588.awsdns-06.co.uk
     - ns-204.awsdns-25.com
     - ns-995.awsdns-60.net
-mapit.service:
-  ttl: 300
-  type: CNAME
-  value: mapit-554887916.eu-west-1.elb.amazonaws.com
 master.active.dev.es:
   ttl: 60
   type: A
   value: 54.154.200.180
-mediation-content:
-  ttl: 300
-  type: CNAME
-  value: mediation-content.dsd.io.herokudns.com
-membrane-sirius.service:
-  ttl: 300
-  type: CNAME
-  value: sirius.service.dsd.io
-mojintranet:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1471.awsdns-55.org.
-    - ns-1618.awsdns-10.co.uk.
-    - ns-371.awsdns-46.com.
-    - ns-666.awsdns-19.net.
 noms:
   ttl: 300
   type: NS
@@ -452,18 +408,6 @@ pleaonline:
     - ns-111.awsdns-13.com.
     - ns-1184.awsdns-20.org.
     - ns-1887.awsdns-43.co.uk.
-po.service:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: po-prod-553a-elbpo-2om62plim7cm-984555513.eu-west-1.elb.amazonaws.com.
-    type: A
-prad:
-  ttl: 300
-  type: A
-  value: 52.19.133.172
 primaryhealthlistsdecisions:
   ttl: 300
   type: CNAME
@@ -476,14 +420,6 @@ prod.nomis-api-access:
     - ns-1794.awsdns-32.co.uk.
     - ns-302.awsdns-37.com.
     - ns-906.awsdns-49.net.
-production29:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-24-225.eu-west-1.compute.amazonaws.com
-providercalc:
-  ttl: 300
-  type: A
-  value: 52.17.13.3
 pub:
   ttl: 300
   type: NS
@@ -500,14 +436,6 @@ repo:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-repo0:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-103-46.eu-west-1.compute.amazonaws.com
-repo1:
-  ttl: 300
-  type: A
-  value: 54.194.52.110
 rosha:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -524,22 +452,6 @@ rsr:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-scs:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1527.awsdns-62.org
-    - ns-1731.awsdns-24.co.uk
-    - ns-368.awsdns-46.com
-    - ns-615.awsdns-12.net
-scs-performance:
-  ttl: 300
-  type: CNAME
-  value: scs-performance.herokuapp.com
-scs.service:
-  ttl: 300
-  type: CNAME
-  value: scs-prod-rails-1856894970.eu-west-1.elb.amazonaws.com.
 search-noms-api:
   ttl: 300
   type: CNAME
@@ -560,22 +472,6 @@ serviceassessments:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-siaacd:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-sirius.service:
-  ttl: 300
-  type: A
-  value: 37.26.91.54
-sscsvp:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-stack.0a0e49a5.vault-dev:
-  ttl: 60
-  type: TXT
-  value: 0a0e49a5
 stack.0c2e2de6.ci-prod:
   ttl: 60
   type: TXT
@@ -584,18 +480,10 @@ stack.3e929528.vis-prod:
   ttl: 60
   type: TXT
   value: 3e929528
-stack.6c57c14e.rot-dev:
-  ttl: 60
-  type: TXT
-  value: 6c57c14e
 stack.7c928508.accelerated-claims-production:
   ttl: 60
   type: TXT
   value: 7c928508
-stack.33c0d65b.docker-registry-dev:
-  ttl: 60
-  type: TXT
-  value: 33c0d65b
 stack.68ade87f.tax-tribunals-uploader-downloader-staging:
   ttl: 60
   type: TXT
@@ -604,18 +492,10 @@ stack.94f88ee6.ci-staging:
   ttl: 60
   type: TXT
   value: 94f88ee6
-stack.135f87ef.rot-dev:
-  ttl: 60
-  type: TXT
-  value: 135f87ef
 stack.910a5789.courtfinder-dev:
   ttl: 60
   type: TXT
   value: 910a5789
-stack.955f2252.rot-dev:
-  ttl: 60
-  type: TXT
-  value: 955f2252
 stack.1049b7df.tax-tribunals-fees-staging:
   ttl: 60
   type: TXT
@@ -632,10 +512,6 @@ stack.69690c5e.ci-dev:
   ttl: 60
   type: TXT
   value: 69690c5e
-stack.97484c08.rot-dev:
-  ttl: 60
-  type: TXT
-  value: 97484c08
 stack.563646a3.tax-tribunals-uploader-downloader-dev:
   ttl: 60
   type: TXT
@@ -704,18 +580,6 @@ stack.active.docker-registry-staging:
   ttl: 60
   type: TXT
   value: 3602d974
-stack.active.elk-experimental:
-  ttl: 60
-  type: TXT
-  value: 3341fb85
-stack.active.elk-staging:
-  ttl: 60
-  type: TXT
-  value: be1d76ab
-stack.active.es-dev:
-  ttl: 60
-  type: TXT
-  value: 8f5874e1
 stack.active.glimr-dev:
   ttl: 60
   type: TXT
@@ -768,18 +632,6 @@ stack.active.riemann-dev:
   ttl: 60
   type: TXT
   value: 42fe0ed2
-stack.active.rot-dev:
-  ttl: 60
-  type: TXT
-  value: 97484c08
-stack.active.senrty-staging:
-  ttl: 300
-  type: TXT
-  value: cdde1be0
-stack.active.snd-dev:
-  ttl: 60
-  type: TXT
-  value: d41dfc31
 stack.active.staff-staging:
   ttl: 60
   type: TXT
