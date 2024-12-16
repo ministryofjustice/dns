@@ -16,8 +16,8 @@
     type: Route53Provider/ALIAS
     value:
       evaluate-target-health: false
-      hosted-zone-id: ZHURV8PSTC4K8
-      name: tribunals-nginx-364120249.eu-west-2.elb.amazonaws.com.
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
       type: A
 _asvdns-03b6f09c-39de-49bb-ab61-98904b93aa95:
   ttl: 300
