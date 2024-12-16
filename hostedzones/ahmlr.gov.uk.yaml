@@ -7,12 +7,12 @@
       - ns-127.awsdns-15.com.
       - ns-1724.awsdns-23.co.uk.
       - ns-632.awsdns-15.net.
-  - ttl: 942942942
+   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
       evaluate-target-health: false
-      hosted-zone-id: ZHURV8PSTC4K8
-      name: tribunals-nginx-364120249.eu-west-2.elb.amazonaws.com.
+      hosted-zone-id: Z32O12XQLNTSW2
+      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
       type: A
 _asvdns-5fe0995c-f880-431b-a38b-4505e6dade0f:
   ttl: 300
