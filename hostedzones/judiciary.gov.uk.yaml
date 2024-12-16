@@ -62,10 +62,6 @@ civiljusticecouncil:
   ttl: 600
   type: A
   value: 80.86.35.81
-default._domainkey.judicialcollege:
-  ttl: 300
-  type: TXT
-  value: v=DKIM1; h=sha256; k=rsa;
 familyjusticecouncil:
   ttl: 600
   type: A
@@ -86,13 +82,17 @@ jars.jac:
   ttl: 600
   type: A
   value: 185.40.8.147
+judicial._domainkey.judicialcollege:
+  ttl: 300
+  type: TXT
+  value: "v=DKIM1; k=rsa; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw5LIWGsIA8LkFUYzDYvEHUdWh1uGYRbCH71ondnfkb+aR+x6tLGIhEkftLi9h5AQZASpWzYZotqw1FQ5ppt1tAgN7HkCBEs+R+WQUNaqt1Op680V7qXKxrfNIMSk8tqnk47kX7CjcjrkG7cMACNjxyJHzZibi/q5xG0S4NZmnJ40FOQgY0GDB6lT/zarCeKMuma6yLwXxnaOkK8SASXlLDVxMbayN4KnM2GWxZ8uzcFcfqP7pIk61j4zY7tUqMXNAWpIbo1byslztYAEqbgNiCt7/aVCLSLzpEm4OqDjkCuFomSNuIwU2kkhZpFks/aFCu3EuHoDppIH7agJrJo/aQIDAQAB"
 judicialcollege:
   - ttl: 300
     type: A
     value: 5.57.63.145
   - ttl: 300
     type: TXT
-    value: v=spf1 mx a ip4:5.57.63.229 -all
+    value: v=spf1 mx a ip4:5.57.63.145 -all
 judicialconduct:
   ttl: 600
   type: NS
