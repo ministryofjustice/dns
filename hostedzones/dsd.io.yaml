@@ -728,14 +728,6 @@ staging.landschamber:
   ttl: 300
   type: CNAME
   value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-static:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
 tactical-products:
   ttl: 300
   type: NS
