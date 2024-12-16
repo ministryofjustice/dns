@@ -460,18 +460,6 @@ search.noms:
   ttl: 300
   type: CNAME
   value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
-service-mapper:
-  ttl: 300
-  type: CNAME
-  value: moj-archipelago.herokuapp.com.
-serviceassessments:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
 stack.7c928508.accelerated-claims-production:
   ttl: 60
   type: TXT
