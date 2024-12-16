@@ -472,14 +472,6 @@ serviceassessments:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-stack.0c2e2de6.ci-prod:
-  ttl: 60
-  type: TXT
-  value: 0c2e2de6
-stack.3e929528.vis-prod:
-  ttl: 60
-  type: TXT
-  value: 3e929528
 stack.7c928508.accelerated-claims-production:
   ttl: 60
   type: TXT
@@ -488,10 +480,6 @@ stack.68ade87f.tax-tribunals-uploader-downloader-staging:
   ttl: 60
   type: TXT
   value: 68ade87f
-stack.94f88ee6.ci-staging:
-  ttl: 60
-  type: TXT
-  value: 94f88ee6
 stack.910a5789.courtfinder-dev:
   ttl: 60
   type: TXT
@@ -508,10 +496,6 @@ stack.46266fd5.accelerated-claims-staging:
   ttl: 60
   type: TXT
   value: 46266fd5
-stack.69690c5e.ci-dev:
-  ttl: 60
-  type: TXT
-  value: 69690c5e
 stack.563646a3.tax-tribunals-uploader-downloader-dev:
   ttl: 60
   type: TXT
@@ -532,26 +516,10 @@ stack.active.accelerated-claims-staging:
   ttl: 60
   type: TXT
   value: bf86775e
-stack.active.ci-deploy-krs1:
-  ttl: 60
-  type: TXT
-  value: c1a26590
 stack.active.ci-hmcts:
   ttl: 60
   type: TXT
   value: 947d340b
-stack.active.ci-newprod:
-  ttl: 60
-  type: TXT
-  value: 1973491d
-stack.active.ci-prod:
-  ttl: 60
-  type: TXT
-  value: 27a0c2a8
-stack.active.ci-staging:
-  ttl: 300
-  type: TXT
-  value: badc95fa
 stack.active.courtfinder-dev:
   ttl: 60
   type: TXT
@@ -560,82 +528,6 @@ stack.active.courtfinder-staging:
   ttl: 60
   type: TXT
   value: dc5f8e4d
-stack.active.demo-dev:
-  ttl: 60
-  type: TXT
-  value: d045d40c
-stack.active.docker-registry-dev:
-  ttl: 60
-  type: TXT
-  value: 33c0d65b
-stack.active.docker-registry-newprod:
-  ttl: 60
-  type: TXT
-  value: b1ac058e
-stack.active.docker-registry-prod:
-  ttl: 60
-  type: TXT
-  value: 768454e0
-stack.active.docker-registry-staging:
-  ttl: 60
-  type: TXT
-  value: 3602d974
-stack.active.glimr-dev:
-  ttl: 60
-  type: TXT
-  value: f6e2e5ff
-stack.active.hubot-dev:
-  ttl: 60
-  type: TXT
-  value: c1b50cae
-stack.active.hubot-dev2:
-  ttl: 60
-  type: TXT
-  value: 777da8bf
-stack.active.huboto-dev:
-  ttl: 60
-  type: TXT
-  value: f6bf14f5
-stack.active.ks-deploy-dev:
-  ttl: 60
-  type: TXT
-  value: 203cda55
-stack.active.my-project-dev:
-  ttl: 60
-  type: TXT
-  value: addff241
-stack.active.myproject-dev:
-  ttl: 60
-  type: TXT
-  value: 5fd60641
-stack.active.mything-dev:
-  ttl: 60
-  type: TXT
-  value: 01f9f68f
-stack.active.po-dev:
-  ttl: 60
-  type: TXT
-  value: 5ecff3b9
-stack.active.po-prod:
-  ttl: 60
-  type: TXT
-  value: 553a27f6
-stack.active.po-staging:
-  ttl: 60
-  type: TXT
-  value: 77c25fb8
-stack.active.rabbitmq-dev:
-  ttl: 60
-  type: TXT
-  value: 459e3857
-stack.active.riemann-dev:
-  ttl: 60
-  type: TXT
-  value: 42fe0ed2
-stack.active.staff-staging:
-  ttl: 60
-  type: TXT
-  value: "26063002"
 stack.active.tax-tribunals-downloader-dev:
   ttl: 60
   type: TXT
@@ -676,10 +568,6 @@ stack.c3477c63.accelerated-claims-dev:
   ttl: 300
   type: TXT
   value: c3477c63
-stack.c2550272.ci-dev:
-  ttl: 60
-  type: TXT
-  value: c2550272
 stack.dev.tax-tribunals-uploader-downloader-dev:
   ttl: 60
   type: TXT
