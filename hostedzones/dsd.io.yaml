@@ -81,14 +81,6 @@ ci-hmcts.service:
     hosted-zone-id: Z32O12XQLNTSW2
     name: ci-hmcts-elbcihmc-1lftefg1dwwil-1739227107.eu-west-1.elb.amazonaws.com.
     type: A
-contact-moj:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z3GKZC51ZF0DB4
-    name: s3-website.eu-west-2.amazonaws.com.
-    type: A
 core:
   ttl: 300
   type: NS
@@ -316,22 +308,6 @@ intra:
     - ns-143.awsdns-17.com
     - ns-1952.awsdns-52.co.uk
     - ns-537.awsdns-03.net
-jurysummons:
-  ttl: 60
-  type: NS
-  values:
-    - ns-1054.awsdns-03.org.
-    - ns-1832.awsdns-37.co.uk.
-    - ns-397.awsdns-49.com.
-    - ns-687.awsdns-21.net.
-makeaplea:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1282.awsdns-32.org
-    - ns-1588.awsdns-06.co.uk
-    - ns-204.awsdns-25.com
-    - ns-995.awsdns-60.net
 noms:
   ttl: 300
   type: NS
@@ -356,14 +332,6 @@ noms-api-preprod:
     hosted-zone-id: Z32O12XQLNTSW2
     name: dualstack.nomsapi-preprod-apigateway-1432711636.eu-west-1.elb.amazonaws.com.
     type: A
-pleaonline:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1018.awsdns-63.net.
-    - ns-111.awsdns-13.com.
-    - ns-1184.awsdns-20.org.
-    - ns-1887.awsdns-43.co.uk.
 prod.nomis-api-access:
   ttl: 1500
   type: NS
