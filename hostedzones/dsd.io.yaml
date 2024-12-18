@@ -276,10 +276,6 @@ familymediators:
     - ns-1399.awsdns-46.org.
     - ns-1538.awsdns-00.co.uk.
     - ns-213.awsdns-26.com.
-fatt:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
 feeremissions:
   ttl: 86400
   type: NS
@@ -288,22 +284,6 @@ feeremissions:
     - ns-1921.awsdns-48.co.uk.
     - ns-70.awsdns-08.com.
     - ns-847.awsdns-41.net.
-ftiacdailycourtlist:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
-gems:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
-gl_summit:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-194-11-96.eu-west-1.compute.amazonaws.com.
 helpwithcourtfees:
   ttl: 300
   type: NS
@@ -336,10 +316,6 @@ intra:
     - ns-143.awsdns-17.com
     - ns-1952.awsdns-52.co.uk
     - ns-537.awsdns-03.net
-jurorsummons:
-  ttl: 300
-  type: A
-  value: 52.73.202.113
 jurysummons:
   ttl: 60
   type: NS
@@ -348,10 +324,6 @@ jurysummons:
     - ns-1832.awsdns-37.co.uk.
     - ns-397.awsdns-49.com.
     - ns-687.awsdns-21.net.
-landstribunal:
-  ttl: 300
-  type: A
-  value: 52.208.251.221
 makeaplea:
   ttl: 300
   type: NS
@@ -360,10 +332,6 @@ makeaplea:
     - ns-1588.awsdns-06.co.uk
     - ns-204.awsdns-25.com
     - ns-995.awsdns-60.net
-master.active.dev.es:
-  ttl: 60
-  type: A
-  value: 54.154.200.180
 noms:
   ttl: 300
   type: NS
@@ -388,18 +356,6 @@ noms-api-preprod:
     hosted-zone-id: Z32O12XQLNTSW2
     name: dualstack.nomsapi-preprod-apigateway-1432711636.eu-west-1.elb.amazonaws.com.
     type: A
-opendata.justice:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
-openjustice:
-  ttl: 300
-  type: CNAME
-  value: ec2-34-248-250-65.eu-west-1.compute.amazonaws.com
 pleaonline:
   ttl: 300
   type: NS
@@ -408,10 +364,6 @@ pleaonline:
     - ns-111.awsdns-13.com.
     - ns-1184.awsdns-20.org.
     - ns-1887.awsdns-43.co.uk.
-primaryhealthlistsdecisions:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
 prod.nomis-api-access:
   ttl: 1500
   type: NS
@@ -428,22 +380,6 @@ pub:
     - ns-1928.awsdns-49.co.uk.
     - ns-215.awsdns-26.com.
     - ns-923.awsdns-51.net.
-repo:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
-rosha:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
 rsr:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -452,14 +388,6 @@ rsr:
     hosted-zone-id: Z1BKCTXD74EZPE
     name: s3-website-eu-west-1.amazonaws.com.
     type: A
-search-noms-api:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
-search.noms:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-212-199-217.eu-west-1.compute.amazonaws.com
 stack.7c928508.accelerated-claims-production:
   ttl: 60
   type: TXT
