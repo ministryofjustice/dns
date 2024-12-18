@@ -26,6 +26,7 @@
       - paloaltonetworks-site-verification=0b174a69a0bbb0078f1b18f4bac05c0bd943f50b2e279ea920cfe4e085ec4a48
       - v=spf1 ip4:194.33.196.0/24 ip4:194.33.192.0/24 mx a:b.spf.service-now.com a:c.spf.service-now.com a:d.spf.service-now.com include:spf.protection.outlook.com include:_spf.google.com include:mail-relay.staff.service.justice.gov.uk -all
       - figma-domain-verification=497c3daab3cae3be9016c8e6c4a5cb0f7864326146415e1986018f7b84151fec-1733823729
+      - google-site-verification=TCtRY9C86_qHXCh30w6fLkSQwGgLJG4uXzDorMrByVk
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
