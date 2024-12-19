@@ -292,30 +292,6 @@ intra:
     - ns-143.awsdns-17.com
     - ns-1952.awsdns-52.co.uk
     - ns-537.awsdns-03.net
-noms:
-  ttl: 300
-  type: NS
-  values:
-    - ns1-07.azure-dns.com.
-    - ns2-07.azure-dns.net.
-    - ns3-07.azure-dns.org.
-    - ns4-07.azure-dns.info.
-noms-api-dev:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: dualstack.nomsapi-dev-apigateway-573982909.eu-west-1.elb.amazonaws.com.
-    type: A
-noms-api-preprod:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: dualstack.nomsapi-preprod-apigateway-1432711636.eu-west-1.elb.amazonaws.com.
-    type: A
 prod.nomis-api-access:
   ttl: 1500
   type: NS
