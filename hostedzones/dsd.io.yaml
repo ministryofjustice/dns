@@ -93,10 +93,6 @@ courtfinder-test:
   ttl: 300
   type: CNAME
   value: ec2-54-229-204-208.eu-west-1.compute.amazonaws.com
-courtfines:
-  ttl: 300
-  type: A
-  value: 62.208.144.80
 crimebillingonline:
   ttl: 60
   type: NS
@@ -105,14 +101,6 @@ crimebillingonline:
     - ns-1859.awsdns-40.co.uk.
     - ns-446.awsdns-55.com.
     - ns-695.awsdns-22.net.
-ctf:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
 defence-request:
   type: NS
   values:
@@ -228,10 +216,6 @@ dev.nomis-api-access:
     - ns-1627.awsdns-11.co.uk.
     - ns-206.awsdns-25.com.
     - ns-654.awsdns-17.net.
-eatd:
-  ttl: 300
-  type: CNAME
-  value: ec2-52-31-70-66.eu-west-1.compute.amazonaws.com
 es-hmcts:
   ttl: 300
   type: CNAME
@@ -348,14 +332,6 @@ pub:
     - ns-1928.awsdns-49.co.uk.
     - ns-215.awsdns-26.com.
     - ns-923.awsdns-51.net.
-rsr:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
-    type: A
 stack.7c928508.accelerated-claims-production:
   ttl: 60
   type: TXT
