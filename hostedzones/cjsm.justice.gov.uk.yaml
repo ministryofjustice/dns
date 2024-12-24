@@ -14,6 +14,10 @@
       - ns-1398.awsdns-46.org.
       - ns-1759.awsdns-27.co.uk.
       - ns-24.awsdns-03.com.
+_github-pages-challenge-ministryofjustice.cjsm:
+  ttl: 300
+  type: TXT
+  value: 5bd5cba430ba2c447f57895913e20b
 www:
   ttl: 300
   type: NS
