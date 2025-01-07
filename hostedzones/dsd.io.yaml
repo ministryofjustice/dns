@@ -17,10 +17,6 @@
     values:
       - v=spf1 -all
       - v=DKIM1; p=
-"*.branchrunner.acceleratedpossession-dev":
-  ttl: 300
-  type: CNAME
-  value: acceleratedpossession-dev.dsd.io
 _6b6253eac9e7549bb70b0e42830e95b9.ci-hmcts.service:
   ttl: 300
   type: CNAME
@@ -89,10 +85,6 @@ core:
     - ns-1897.awsdns-45.co.uk.
     - ns-442.awsdns-55.com.
     - ns-714.awsdns-25.net.
-courtfinder-test:
-  ttl: 300
-  type: CNAME
-  value: ec2-54-229-204-208.eu-west-1.compute.amazonaws.com
 crimebillingonline:
   ttl: 60
   type: NS
@@ -500,10 +492,6 @@ tax-tribunals-datacapture-dev:
     hosted-zone-id: Z32O12XQLNTSW2
     name: tax-tribu-elbtaxtr-1iu6bsfiyp2v7-62698893.eu-west-1.elb.amazonaws.com.
     type: A
-tax-tribunals-datacapture-dev2:
-  ttl: 60
-  type: CNAME
-  value: tax-tribunals-datacapture-dev.dsd.io
 tax-tribunals-datacapture-dev-0931d739:
   ttl: 942942942
   type: Route53Provider/ALIAS
