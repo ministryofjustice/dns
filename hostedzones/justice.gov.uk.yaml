@@ -406,6 +406,14 @@ _smtp._tls.mappa:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_tc88x6tvkh3xky8bhxa12dkdeqkhxdi.wam.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_tc88x6tvkh3xky8bhxa12dkdeqkhxdi.www.wam.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _wzlmh2pi8lvqcq14x69pgybfph923dj.wamuat.ppud:
   ttl: 300
   type: CNAME
