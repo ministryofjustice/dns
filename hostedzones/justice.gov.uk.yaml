@@ -310,6 +310,14 @@ _mu4rkz7uhg6pfbm2dfzf99iareg4osy.www.uat.ppud:
   ttl: 300
   type: CNAME
   value: dcv.digicert.com.
+_p78w9o6spnufa1kjcs410r993ewd4f8.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_p78w9o6spnufa1kjcs410r993ewd4f8.www.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _pexapp._tcp.meet.video:
   ttl: 300
   type: SRV
