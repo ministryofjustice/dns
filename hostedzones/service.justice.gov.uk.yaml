@@ -854,6 +854,14 @@ gender-recognition:
     - ns-1726.awsdns-23.co.uk.
     - ns-371.awsdns-46.com.
     - ns-755.awsdns-30.net.
+get-legal-aid-data:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1049.awsdns-03.org.
+    - ns-815.awsdns-37.net.
+    - ns-284.awsdns-35.com.
+    - ns-1593.awsdns-07.co.uk.
 haletest1:
   ttl: 300
   type: NS
