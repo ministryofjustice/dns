@@ -53,10 +53,6 @@ _36a868734c47d6b413ca1ff1fa403c96.mta-sts:
   ttl: 60
   type: CNAME
   value: _422367411a20d22ae1a4cac085b8ac38.nhsllhhtvj.acm-validations.aws.
-_45F2C6173DB71E564460120478C2299B.hr:
-  ttl: 300
-  type: CNAME
-  value: D1F541F51FC50F4BD0C262D0EA45DB76.E52A90D55BAA9887B6CF4C41AAF2A24A.655dd6b34c9c43640de6.sectigo.com
 _84bd339a1a9c0007f5b0f5de1f76597e.admin.myhr:
   ttl: 300
   type: CNAME
