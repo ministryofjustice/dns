@@ -1324,7 +1324,7 @@ preprod.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: dnsmo1f6n0f63.cloudfront.net
-pre-prod.prisonvisits:
+preprod.prisonvisits:
   ttl: 300
   type: NS
   Values:
