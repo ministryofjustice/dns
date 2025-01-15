@@ -66,7 +66,7 @@ _3nnckfnk4pj8flrmw8vv68djz7uty73.mppmid:
 _3nnckfnk4pj8flrmw8vv68djz7uty73.www.mppmid:
   ttl: 300
   type: CNAME:
-    value: dcv.digicert.com.
+  value: dcv.digicert.com.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
