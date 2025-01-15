@@ -59,6 +59,14 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
+_3nnckfnk4pj8flrmw8vv68djz7uty73.mppmid:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_3nnckfnk4pj8flrmw8vv68djz7uty73.www.mppmid:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
@@ -294,6 +302,14 @@ _h323rs._udp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
+_mqa61ed6i7zehmbn4vcqjlc4z1n5i3u.mppconfig:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_mqa61ed6i7zehmbn4vcqjlc4z1n5i3u.www.mppconfig:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _mta-sts:
   ttl: 300
   type: TXT
@@ -427,6 +443,14 @@ _wzlmh2pi8lvqcq14x69pgybfph923dj.wamuat.ppud:
   type: CNAME
   value: dcv.digicert.com.
 _wzlmh2pi8lvqcq14x69pgybfph923dj.www.wamuat.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_zz903qqys9sjj028pec7j5cy940v6hr.mppintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_zz903qqys9sjj028pec7j5cy940v6hr.www.mppintel:
   ttl: 300
   type: CNAME
   value: dcv.digicert.com.
