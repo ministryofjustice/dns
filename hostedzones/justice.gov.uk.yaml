@@ -59,18 +59,18 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
+_19c1935c338c1a473a54c55c3260a113.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
 _3nnckfnk4pj8flrmw8vv68djz7uty73.mppmid:
   ttl: 300
   type: CNAME
   value: dcv.digicert.com.
 _3nnckfnk4pj8flrmw8vv68djz7uty73.www.mppmid:
   ttl: 300
-  type: CNAME:
-  value: dcv.digicert.com.
-_19c1935c338c1a473a54c55c3260a113.mta-sts:
-  ttl: 60
   type: CNAME
-  value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+  value: dcv.digicert.com.
 _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
