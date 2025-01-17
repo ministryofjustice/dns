@@ -79,6 +79,10 @@ _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
+_C4634E68C639D7960A5F94E4472B7830.bench.staging.courtstore:
+  ttl: 300
+  type: CNAME
+  value: 25A41D198840FA674D7BC9C2AA371AFD.9B564615108D9FA3B84860275C3A46B9.fada458200750394a41.sectigo.com.
 _a1dn83mtm5mian9moii6ia6z24enw6e.training.ppud:
   ttl: 300
   type: CNAME
@@ -157,10 +161,6 @@ _c3e197db2fd6871349b94aaee4fe4c51.mta-sts.cshrcasework:
   ttl: 60
   type: CNAME
   value: _471469039df6a6e4e24c985c337b70a9.zrvsvrxrgs.acm-validations.aws.
-_C4634E68C639D7960A5F94E4472B7830.bench.staging.courtstore:
-  ttl: 300
-  type: CNAME
-  value: 25A41D198840FA674D7BC9C2AA371AFD.9B564615108D9FA3B84860275C3A46B9.fada458200750394a41.sectigo.com.
 _d97fb4f4ad2c4d0e83508935752915f1.ccmstraining:
   ttl: 300
   type: CNAME
