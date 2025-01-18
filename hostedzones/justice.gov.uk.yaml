@@ -642,8 +642,8 @@ cms-staging.court.store:
   value: 13.42.88.61
 cms.court.store:
   ttl: 300
-  type: A
-  value: 51.231.76.132
+  type: CNAME
+  value: hmcts-cs-prod-psn-nlb-cms-01-89d5e2c0f4ad83f2.elb.eu-west-2.amazonaws.com
 commissioning:
   ttl: 600
   type: A
@@ -1234,8 +1234,8 @@ libra-staging.court.store:
   value: 13.42.88.61
 libra.court.store:
   ttl: 300
-  type: A
-  value: 51.231.76.132
+  type: CNAME
+  value: hmcts-cs-prod-psn-nlb-libra-01-c3794588b8ade9a4.elb.eu-west-2.amazonaws.com
 lli5y5gi7j6oibymkdt3aeovvaumzmkc._domainkey.uat.ppud:
   ttl: 300
   type: CNAME
@@ -1805,8 +1805,8 @@ staff-staging.court.store:
   value: 18.168.187.252
 staff.court.store:
   ttl: 300
-  type: A
-  value: 51.231.76.135
+  type: CNAME
+  value: hmcts-cs-prod-psn-nlb-staff-01-06e4f7696903a278.elb.eu-west-2.amazonaws.com
 stage:
   ttl: 86400
   type: NS
