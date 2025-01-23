@@ -466,7 +466,8 @@ administrativecourtoffice:
         preference: 10
       - exchange: cluster5a.eu.messagelabs.com
         preference: 20
-  - type: TXT
+  - ttl: 300
+    type: TXT
     values:
       - C0E4N61551
       - MS=ms89669471
