@@ -490,14 +490,6 @@ ccms-ebs:
     - ns-1743.awsdns-25.co.uk.
     - ns-22.awsdns-02.com.
     - ns-760.awsdns-31.net.
-change-dns:
-  ttl: 300
-  type: NS
-  values:
-    - ns-381.awsdns-47.com.
-    - ns-1532.awsdns-63.org.
-    - ns-792.awsdns-35.net.
-    - ns-1642.awsdns-13.co.uk.
 check-clients-details-using-hmrc-data:
   ttl: 300
   type: NS
@@ -689,14 +681,6 @@ design-patterns:
     - ns-1918.awsdns-47.co.uk.
     - ns-208.awsdns-26.com.
     - ns-836.awsdns-40.net.
-dev.change-dns:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1247.awsdns-27.org
-    - ns-1660.awsdns-15.co.uk
-    - ns-486.awsdns-60.com
-    - ns-990.awsdns-59.net
 dev.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
