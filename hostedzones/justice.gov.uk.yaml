@@ -382,6 +382,14 @@ _sip._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
+_sip._tls.administrativecourtoffice:
+  ttl: 3600
+  type: SRV
+  values:
+    - port: 443
+      priority: 100
+      target: sipdir.online.lync.com
+      weight: 1
 _sipfederationtls._tcp.video:
   ttl: 300
   type: SRV
@@ -414,14 +422,6 @@ _sips._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
-_sip._tls.administrativecourtoffice:
-  ttl: 3600
-  type: SRV
-  values:
-    - port: 443
-      priority: 100
-      target: sipdir.online.lync.com
-      weight: 1
 _sipfederationtls._tcp.administrativecourtoffice:
   ttl: 3600
   type: SRV
