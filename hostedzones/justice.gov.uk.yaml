@@ -382,6 +382,22 @@ _sip._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
+_sip._tls.administrativecourtoffice:
+  ttl: 3600
+  type: SRV
+  values:
+    - port: 443
+      priority: 100
+      target: sipdir.online.lync.com
+      weight: 1
+_sipfederationtls._tcp.administrativecourtoffice:
+  ttl: 3600
+  type: SRV
+  values:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
 _sipfederationtls._tcp.video:
   ttl: 300
   type: SRV
@@ -459,19 +475,17 @@ adcourt._domainkey.administrativecourtoffice:
   type: TXT
   value: v=DKIM1\; k=rsa\; t=s\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo/yrXLY2upCZjWvrEJPSr+RXhnQDcKlsycRi1t4N+R8c+oiqSKumZpnnOaRd6rX3mgn4sb3WEmgv+9FxTDKSWF4TZvdBiLYG3/F3nHCIixTjp4bH""uv4MUjLR+1knzmWK8CtEUENmrIWlxMLMXcryR9lVvyNG6pqS4pNcKWHu4f/fyq6i+LSB1QqQGXZfqi/gfsrBD4ZyCvXH+3tlNgd03HM1PNHaUKXZe+fZEEZW8v1zttsJ+mOyF494Af59xO0xCS4V+CTQGeha/4c/nI36WFz/rfFI+CtjHjq0c046VLURIex08V4fxlngtZi7buAlS6kpS57wbOkHzstI/+jyAQIDAQAB
 administrativecourtoffice:
-  - ttl: 300
+  - ttl: 3600
     type: MX
     values:
-      - exchange: cluster5.eu.messagelabs.com
-        preference: 10
-      - exchange: cluster5a.eu.messagelabs.com
-        preference: 20
+      - exchange: administrativecourtoffice-justice-gov-uk.mail.protection.outlook.com
+        preference: 0
   - ttl: 300
     type: TXT
     values:
       - C0E4N61551
       - MS=ms89669471
-      - v=spf1 include:spf.messagelabs.com -all
+      - v=spf1 include:spf.protection.outlook.com -all
 aka:
   ttl: 300
   type: CNAME
@@ -486,6 +500,10 @@ appleid:
   value: apple-domain-verification=IzxRgXTAlVnlETWV
 autodiscover:
   ttl: 300
+  type: CNAME
+  value: autodiscover.outlook.com
+autodiscover.administrativecourtoffice:
+  ttl: 3600
   type: CNAME
   value: autodiscover.outlook.com
 autodiscover.ca:
@@ -894,6 +912,10 @@ enterpriseenrollment:
   ttl: 600
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com.
+enterpriseenrollment.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: enterpriseenrollment-s.manage.microsoft.com
 enterpriseenrollment.cshrcasework:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com
@@ -904,6 +926,10 @@ enterpriseregistration:
   ttl: 600
   type: CNAME
   value: enterpriseregistration.windows.net.
+enterpriseregistration.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: enterpriseregistration.windows.net
 enterpriseregistration.cshrcasework:
   type: CNAME
   value: enterpriseregistration.windows.net
@@ -1249,6 +1275,10 @@ locateaprison:
   ttl: 600
   type: A
   value: 85.133.48.165
+lyncdiscover.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: webdir.online.lync.com
 mail:
   ttl: 600
   type: A
@@ -1683,6 +1713,10 @@ secure-email.ppud:
 selector1._domainkey:
   type: CNAME
   value: selector1-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
+selector1._domainkey.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: selector1-administrativecourtoffice-justice-gov-uk._domainkey.JusticeUK.onmicrosoft.com
 selector1._domainkey.ca:
   ttl: 300
   type: CNAME
@@ -1706,6 +1740,10 @@ selector1._domainkey.nicts:
 selector2._domainkey:
   type: CNAME
   value: selector2-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
+selector2._domainkey.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: selector2-administrativecourtoffice-justice-gov-uk._domainkey.JusticeUK.onmicrosoft.com
 selector2._domainkey.ca:
   ttl: 300
   type: CNAME
@@ -1748,6 +1786,10 @@ service:
     - ns-1621.awsdns-10.co.uk.
     - ns-187.awsdns-23.com.
     - ns-978.awsdns-58.net.
+sip.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: sipdir.online.lync.com
 sip.video:
   ttl: 300
   type: A
