@@ -1721,10 +1721,6 @@ selector1._domainkey.ca:
   ttl: 300
   type: CNAME
   value: selector1-ca-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
-selector2._domainkey.administrativecourtoffice:
-  ttl: 3600
-  type: CNAME
-  value: selector2-administrativecourtoffice-justice-gov-uk._domainkey.JusticeUK.onmicrosoft.com
 selector1._domainkey.cshrcasework:
   ttl: 300
   type: CNAME
@@ -1744,6 +1740,10 @@ selector1._domainkey.nicts:
 selector2._domainkey:
   type: CNAME
   value: selector2-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
+selector2._domainkey.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: selector2-administrativecourtoffice-justice-gov-uk._domainkey.JusticeUK.onmicrosoft.com
 selector2._domainkey.ca:
   ttl: 300
   type: CNAME
