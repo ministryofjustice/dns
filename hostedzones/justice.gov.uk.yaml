@@ -1713,14 +1713,14 @@ secure-email.ppud:
 selector1._domainkey:
   type: CNAME
   value: selector1-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
-selector1._domainkey.ca:
-  ttl: 300
-  type: CNAME
-  value: selector1-ca-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector1._domainkey.administrativecourtoffice:
   ttl: 3600
   type: CNAME
   value: selector1-administrativecourtoffice-justice-gov-uk._domainkey.JusticeUK.onmicrosoft.com
+selector1._domainkey.ca:
+  ttl: 300
+  type: CNAME
+  value: selector1-ca-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2._domainkey.administrativecourtoffice:
   ttl: 3600
   type: CNAME
