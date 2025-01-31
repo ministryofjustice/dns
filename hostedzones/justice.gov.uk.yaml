@@ -390,6 +390,14 @@ _sip._tls.administrativecourtoffice:
       priority: 100
       target: sipdir.online.lync.com
       weight: 1
+_sipfederationtls._tcp.administrativecourtoffice:
+  ttl: 3600
+  type: SRV
+  values:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
 _sipfederationtls._tcp.video:
   ttl: 300
   type: SRV
@@ -422,14 +430,6 @@ _sips._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
-_sipfederationtls._tcp.administrativecourtoffice:
-  ttl: 3600
-  type: SRV
-  values:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
 _smtp._tls:
   ttl: 300
   type: TXT
