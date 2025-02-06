@@ -1443,7 +1443,7 @@ mta-sts.administrativecourtoffice:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: true
-    hosted-zone-id: Z2BAIDDV5DBDJR
+    hosted-zone-id: Z2FDTNDATAQYW2
     name: dyycavqzg4wxp.cloudfront.net.
     type: A
 mta-sts.cshrcasework:
