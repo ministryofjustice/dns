@@ -314,6 +314,10 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=c34048034e0bdb6b6bc9b2d52699588c
+_mta-sts.administrativecourtoffice:
+  ttl: 300
+  type: TXT
+  value: v=STSv1; id=6635d30aeefe09475a70f59c9e98c6eb
 _mta-sts.cshrcasework:
   ttl: 300
   type: TXT
@@ -434,6 +438,10 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_smtp._tls.administrativecourtoffice:
+  ttl: 300
+  type: TXT
+  value: "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
 _smtp._tls.cjscp:
   ttl: 300
   type: TXT
@@ -1425,6 +1433,14 @@ mta-sts:
     evaluate-target-health: true
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d10ub3a63bvlod.cloudfront.net.
+    type: A
+mta-sts.administrativecourtoffice:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: true
+    hosted-zone-id: Z2BAIDDV5DBDJR
+    name: dyycavqzg4wxp.cloudfront.net.
     type: A
 mta-sts.cshrcasework:
   ttl: 942942942
