@@ -71,6 +71,10 @@ _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_956e7fb445bb521906e78cc188987061.mta-sts.administrativecourtoffice:
+  ttl: 60
+  type: CNAME
+  value: _10f4de44369caed5844b2065e39c2c4f.zfyfvmchrl.acm-validations.aws.
 _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
