@@ -21,9 +21,12 @@
       - ns-1938.awsdns-50.co.uk.
       - ns-485.awsdns-60.com.
       - ns-700.awsdns-23.net.
-  - ttl: 300
+  - ttl: 3600
     type: TXT
     value: v=spf1 -all
+  - ttl: 300
+    type: TXT
+    value: google-gws-recovery-domain-verification=57195953
 '*._domainkey':
   ttl: 300
   type: TXT
