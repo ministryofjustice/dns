@@ -24,9 +24,6 @@
   - ttl: 3600
     type: TXT
     value: v=spf1 -all
-  - ttl: 300
-    type: TXT
-    value: google-gws-recovery-domain-verification=57195953
 '*._domainkey':
   ttl: 300
   type: TXT
