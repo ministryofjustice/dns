@@ -28,6 +28,7 @@
         -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - google-gws-recovery-domain-verification=57195953
+      - google-site-verification=kvDuEESo0CdZs7pRtvXEoy7L176lTbyQqsFPo-v2qbw
 _asvdns-8a5e9946-76d7-4e78-83b0-5f3be2e0e7b0:
   ttl: 300
   type: TXT
