@@ -21,7 +21,7 @@
       - ns-1938.awsdns-50.co.uk.
       - ns-485.awsdns-60.com.
       - ns-700.awsdns-23.net.
-  - ttl: 3600
+  - ttl: 300
     type: TXT
     value: v=spf1 -all
 '*._domainkey':
