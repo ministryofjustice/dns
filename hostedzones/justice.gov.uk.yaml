@@ -466,6 +466,14 @@ _tc88x6tvkh3xky8bhxa12dkdeqkhxdi.www.wam.ppud:
   ttl: 300
   type: CNAME
   value: dcv.digicert.com.
+_vd3yh56w1mo26pezj9qk17epz10276x.videoportal:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_vd3yh56w1mo26pezj9qk17epz10276x.www.videoportal:
+  tl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _wzlmh2pi8lvqcq14x69pgybfph923dj.wamuat.ppud:
   ttl: 300
   type: CNAME
