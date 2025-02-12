@@ -37,6 +37,9 @@ def find_and_remove_sectigo_block(data, parent_key=None):
             if "sectigo" in str(value).lower():
                 keys_to_remove.append(key)
                 found_any = True
+            if "dcv.digicert" in str(value).lower():
+                keys_to_remove.append(key)
+                found_any = True
             else:
                 _, changed = find_and_remove_sectigo_block(value, key)
                 found_any = found_any or changed
@@ -59,14 +62,14 @@ def find_and_remove_sectigo_block(data, parent_key=None):
 
 
 def process_yaml_file(file_path):
-    """Process the given YAML file, removing 'sectigo' blocks if present."""
+    """Process the given YAML file, removing 'sectigo' and 'digicert' blocks if present."""
     with open(file_path, "r") as file:
         try:
             yaml_data = yaml.load(file)
             _, changed = find_and_remove_sectigo_block(yaml_data)
             if changed:
                 print(f"File: {file_path}")
-                print("Removed one or more blocks containing 'sectigo'.")
+                print("Removed one or more blocks containing 'sectigo'or 'digicert'.")
                 with open(file_path, "w") as outfile:
                     yaml.dump(yaml_data, outfile)
                 return True
@@ -102,7 +105,7 @@ def main():
     if changes_made:
         print("Changes were made. GitHub Action will handle creating/updating PR.")
     else:
-        print("No blocks containing 'sectigo' found in any of the YAML files.")
+        print("No blocks containing 'sectigo' or 'digicert' found in any of the YAML files.")
 
 
 if __name__ == "__main__":
