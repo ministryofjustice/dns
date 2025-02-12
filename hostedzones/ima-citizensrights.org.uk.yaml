@@ -87,10 +87,6 @@ _smtp._tls.newsletter:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
-_w30aazpyu2wf1o7i44ctxvtquujbf3a.complaints:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com

@@ -59,14 +59,6 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
-_3nnckfnk4pj8flrmw8vv68djz7uty73.mppmid:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_3nnckfnk4pj8flrmw8vv68djz7uty73.www.mppmid:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
@@ -79,10 +71,6 @@ _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
-_a1dn83mtm5mian9moii6ia6z24enw6e.training.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _acme-challenge.aka:
   ttl: 300
   type: CNAME
@@ -306,14 +294,6 @@ _h323rs._udp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
-_mqa61ed6i7zehmbn4vcqjlc4z1n5i3u.mppconfig:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_mqa61ed6i7zehmbn4vcqjlc4z1n5i3u.www.mppconfig:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _mta-sts:
   ttl: 300
   type: TXT
@@ -326,22 +306,6 @@ _mta-sts.cshrcasework:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=01ca5652ab35bf19dfba6c74b0b93688
-_mu4rkz7uhg6pfbm2dfzf99iareg4osy.uat.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_mu4rkz7uhg6pfbm2dfzf99iareg4osy.www.uat.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_p78w9o6spnufa1kjcs410r993ewd4f8.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_p78w9o6spnufa1kjcs410r993ewd4f8.www.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _pexapp._tcp.meet.video:
   ttl: 300
   type: SRV
@@ -458,38 +422,6 @@ _smtp._tls.mappa:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
-_tc88x6tvkh3xky8bhxa12dkdeqkhxdi.wam.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_tc88x6tvkh3xky8bhxa12dkdeqkhxdi.www.wam.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_vd3yh56w1mo26pezj9qk17epz10276x.videoportal:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_vd3yh56w1mo26pezj9qk17epz10276x.www.videoportal:
-  tl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_wzlmh2pi8lvqcq14x69pgybfph923dj.wamuat.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_wzlmh2pi8lvqcq14x69pgybfph923dj.www.wamuat.ppud:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_zz903qqys9sjj028pec7j5cy940v6hr.mppintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_zz903qqys9sjj028pec7j5cy940v6hr.www.mppintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 adcourt._domainkey.administrativecourtoffice:
   ttl: 300
   type: TXT
