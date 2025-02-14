@@ -350,10 +350,6 @@ _s1xannzcnjxnxzzmilvyaw24hlukg2g.mliveintel:
   ttl: 300
   type: CNAME
   value: dcv.digicert.com.
-s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _sip._tcp.meet.video:
   ttl: 300
   type: SRV
@@ -402,6 +398,10 @@ _sipfederationtls._tcp.video:
     priority: 10
     target: sip.video.justice.gov.uk
     weight: 10
+_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _sips._tcp.meet.video:
   ttl: 300
   type: SRV
