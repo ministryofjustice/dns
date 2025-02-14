@@ -59,6 +59,14 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
+_8b3sc3b00nzj1my8ddo4cqmn5kvlbyu.mliveconfig:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_8b3sc3b00nzj1my8ddo4cqmn5kvlbyu.www.mliveconfig:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
@@ -206,6 +214,14 @@ _domainkey.people-development:
   ttl: 300
   type: TXT
   value: t=y\; o=~\;
+_g6youf5vqnvnyxr1fn4fkp5i6nz3aar.mlivemid:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_g6youf5vqnvnyxr1fn4fkp5i6nz3aar.www.mlivemid:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _github-challenge-hmcts:
   ttl: 300
   type: TXT
@@ -330,6 +346,14 @@ _pexapp._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
+_s1xannzcnjxnxzzmilvyaw24hlukg2g.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _sip._tcp.meet.video:
   ttl: 300
   type: SRV
