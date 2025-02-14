@@ -362,6 +362,10 @@ _sip._tcp.meet.video:
       priority: 10
       target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
+_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _sip._tcp.video:
   ttl: 300
   type: SRV
@@ -382,10 +386,6 @@ _sip._tls.administrativecourtoffice:
       priority: 100
       target: sipdir.online.lync.com
       weight: 1
-_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _sipfederationtls._tcp.administrativecourtoffice:
   ttl: 3600
   type: SRV
