@@ -346,14 +346,6 @@ _pexapp._tcp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
-_s1xannzcnjxnxzzmilvyaw24hlukg2g.mliveintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _sip._tcp.meet.video:
   ttl: 300
   type: SRV
@@ -446,6 +438,14 @@ _smtp._tls.mappa:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_s1xannzcnjxnxzzmilvyaw24hlukg2g.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 adcourt._domainkey.administrativecourtoffice:
   ttl: 300
   type: TXT
