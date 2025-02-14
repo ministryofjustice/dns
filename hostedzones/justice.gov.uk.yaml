@@ -390,6 +390,10 @@ _sipfederationtls._tcp.administrativecourtoffice:
     priority: 100
     target: sipfed.online.lync.com
     weight: 1
+_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _sipfederationtls._tcp.video:
   ttl: 300
   type: SRV
@@ -398,10 +402,6 @@ _sipfederationtls._tcp.video:
     priority: 10
     target: sip.video.justice.gov.uk
     weight: 10
-_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _sips._tcp.meet.video:
   ttl: 300
   type: SRV
