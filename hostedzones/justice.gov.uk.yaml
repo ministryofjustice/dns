@@ -350,6 +350,10 @@ _s1xannzcnjxnxzzmilvyaw24hlukg2g.mliveintel:
   ttl: 300
   type: CNAME
   value: dcv.digicert.com.
+_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _sip._tcp.meet.video:
   ttl: 300
   type: SRV
@@ -362,10 +366,6 @@ _sip._tcp.meet.video:
       priority: 10
       target: lon-epsig-wrk2.prod.cvp.call.vc.
       weight: 10
-_s1xannzcnjxnxzzmilvyaw24hlukg2g.www.mliveintel:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _sip._tcp.video:
   ttl: 300
   type: SRV
