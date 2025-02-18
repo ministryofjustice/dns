@@ -47,10 +47,6 @@
   ttl: 300
   type: CNAME
   value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
-_327813f530886de852b66bc68c3300e0.www.uat.cshrcaseworkcma:
-  ttl: 300
-  type: CNAME
-  value: _5de147b37594c7397631121d423d8197.mhbtsbpdnt.acm-validations.aws.
 '#civilmediation':
   ttl: 600
   type: A
@@ -83,6 +79,10 @@ _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
+_327813f530886de852b66bc68c3300e0.www.uat.cshrcaseworkcma:
+  ttl: 300
+  type: CNAME
+  value: _5de147b37594c7397631121d423d8197.mhbtsbpdnt.acm-validations.aws.
 _acme-challenge.aka:
   ttl: 300
   type: CNAME
