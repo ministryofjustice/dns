@@ -31,6 +31,10 @@
   ttl: 300
   type: CNAME
   value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com
+_327813f530886de852b66bc68c3300e0.www.uat.cshrcaseworkcma:
+  ttl: 300
+  type: CNAME
+  value: _5de147b37594c7397631121d423d8197.mhbtsbpdnt.acm-validations.aws.
 4wlxo7xgsbccmlyejcjro4pldynv4jnc._domainkey.optic:
   ttl: 300
   type: CNAME
@@ -153,6 +157,10 @@ _c3e197db2fd6871349b94aaee4fe4c51.mta-sts.cshrcasework:
   ttl: 60
   type: CNAME
   value: _471469039df6a6e4e24c985c337b70a9.zrvsvrxrgs.acm-validations.aws.
+_c7bbc7af90584dc133b1091ece103f81.uat.cshrcaseworkcma:
+  ttl: 300
+  type: CNAME
+  value: _53e1facf76e62874565e3dc1c0084604.mhbtsbpdnt.acm-validations.aws.
 _d97fb4f4ad2c4d0e83508935752915f1.ccmstraining:
   ttl: 300
   type: CNAME
