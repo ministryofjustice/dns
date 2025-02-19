@@ -63,6 +63,14 @@ _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_41y1v5mq3mc9lb0qo9zaczgjgm5iahj.videoportal:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_41y1v5mq3mc9lb0qo9zaczgjgm5iahj.www.videoportal:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _956e7fb445bb521906e78cc188987061.mta-sts.administrativecourtoffice:
   ttl: 60
   type: CNAME
