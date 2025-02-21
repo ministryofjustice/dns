@@ -157,6 +157,14 @@ _c3e197db2fd6871349b94aaee4fe4c51.mta-sts.cshrcasework:
   ttl: 60
   type: CNAME
   value: _471469039df6a6e4e24c985c337b70a9.zrvsvrxrgs.acm-validations.aws.
+_c5a0n8glqmqod85tyocuwstj13gtxd2.videoportal:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_c5a0n8glqmqod85tyocuwstj13gtxd2.www.videoportal:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _c7bbc7af90584dc133b1091ece103f81.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
