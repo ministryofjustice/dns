@@ -63,14 +63,6 @@ _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
-_41y1v5mq3mc9lb0qo9zaczgjgm5iahj.videoportal:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_41y1v5mq3mc9lb0qo9zaczgjgm5iahj.www.videoportal:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _956e7fb445bb521906e78cc188987061.mta-sts.administrativecourtoffice:
   ttl: 60
   type: CNAME
@@ -157,14 +149,6 @@ _c3e197db2fd6871349b94aaee4fe4c51.mta-sts.cshrcasework:
   ttl: 60
   type: CNAME
   value: _471469039df6a6e4e24c985c337b70a9.zrvsvrxrgs.acm-validations.aws.
-_c5a0n8glqmqod85tyocuwstj13gtxd2.videoportal:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_c5a0n8glqmqod85tyocuwstj13gtxd2.www.videoportal:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _c7bbc7af90584dc133b1091ece103f81.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
