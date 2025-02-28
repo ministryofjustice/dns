@@ -9,7 +9,7 @@
       - ns-1793.awsdns-32.co.uk.
   - ttl: 3600
     type: A
-    value: 35.177.235.232
+    value: 35.214.53.226
 _17f1a5ff0645fabb456800298990b973:
     ttl: 86400
     type: NS
