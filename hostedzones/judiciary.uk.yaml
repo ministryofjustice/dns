@@ -187,9 +187,6 @@ development.hr:
   ttl: 300
   type: CNAME
   value: dev-hr.uksouth.cloudapp.azure.com
-ecsa4jo6mmomstf22ftd4jge3lvpc55b._domainkey.email.elinks:
-  type: CNAME
-  value: ecsa4jo6mmomstf22ftd4jge3lvpc55b.dkim.amazonses.com
 edge.elinks:
   ttl: 300
   type: CNAME
@@ -250,9 +247,6 @@ enterpriseenrollment:
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net.
-fll5gzpkn5em3oo7plxecjovv2xznwfa._domainkey.email.elinks:
-  type: CNAME
-  value: fll5gzpkn5em3oo7plxecjovv2xznwfa.dkim.amazonses.com
 fp01._domainkey:
   ttl: 300
   type: TXT
@@ -402,9 +396,6 @@ tmjcm:
 tokxf6lra5j64jnznuomoammam7xolik._domainkey.elinks-edge-email.elinks:
   type: CNAME
   value: tokxf6lra5j64jnznuomoammam7xolik.dkim.amazonses.com
-wutxpiywhfwp5fdy2v62bljvf24kcg3w._domainkey.email.elinks:
-  type: CNAME
-  value: wutxpiywhfwp5fdy2v62bljvf24kcg3w.dkim.amazonses.com
 www:
   ttl: 600
   type: CNAME
