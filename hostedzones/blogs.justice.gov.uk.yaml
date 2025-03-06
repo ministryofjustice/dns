@@ -42,10 +42,6 @@ natalie:
   ttl: 300
   type: CNAME
   value: hmctsblog.wpengine.com
-nces:
-  ttl: 300
-  type: CNAME
-  value: ncesblog.prod.wp.dsd.io
 oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs:
   ttl: 1800
   type: CNAME
