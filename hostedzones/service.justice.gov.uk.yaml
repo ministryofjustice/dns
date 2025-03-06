@@ -1558,10 +1558,6 @@ sendmoneytoaprisoner:
     - ns-1418.awsdns-49.org.
     - ns-1845.awsdns-38.co.uk.
     - ns-488.awsdns-61.com.
-signon:
-  ttl: 60
-  type: CNAME
-  value: signon.service.justice.gov.uk.herokudns.com
 sit.list-assist:
   ttl: 300
   type: A
