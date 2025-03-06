@@ -1814,10 +1814,6 @@ www.pvlbookingsystem:
   ttl: 600
   type: CNAME
   value: pvlbookingsystem.service.justice.gov.uk.
-www.signon:
-  ttl: 60
-  type: CNAME
-  value: www.signon.service.justice.gov.uk.herokudns.com
 www.stage.victim-case-management:
   ttl: 300
   type: CNAME
