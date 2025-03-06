@@ -1558,10 +1558,6 @@ sendmoneytoaprisoner:
     - ns-1418.awsdns-49.org.
     - ns-1845.awsdns-38.co.uk.
     - ns-488.awsdns-61.com.
-signon:
-  ttl: 60
-  type: CNAME
-  value: signon.service.justice.gov.uk.herokudns.com
 sit.list-assist:
   ttl: 300
   type: A
@@ -1606,10 +1602,6 @@ staging.hmpps-performance-hub:
   ttl: 300
   type: CNAME
   value: performance-hub.hmpps-preproduction.modernisation-platform.service.justice.gov.uk
-staging.signon:
-  ttl: 300
-  type: CNAME
-  value: staging.signon.service.justice.gov.uk.herokudns.com
 suaehjnchl4x3uc37ltzv4sjvox32tsg._domainkey:
   ttl: 1800
   type: CNAME
@@ -1822,10 +1814,6 @@ www.pvlbookingsystem:
   ttl: 600
   type: CNAME
   value: pvlbookingsystem.service.justice.gov.uk.
-www.signon:
-  ttl: 60
-  type: CNAME
-  value: www.signon.service.justice.gov.uk.herokudns.com
 www.stage.victim-case-management:
   ttl: 300
   type: CNAME
