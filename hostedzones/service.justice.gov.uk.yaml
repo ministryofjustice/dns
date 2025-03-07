@@ -822,6 +822,14 @@ get-legal-aid-data:
     - ns-815.awsdns-37.net.
     - ns-284.awsdns-35.com.
     - ns-1593.awsdns-07.co.uk.
+github-community:
+  ttl: 300
+  type: NS
+  values:
+    - ns-107.awsdns-13.com
+    - ns-1330.awsdns-38.org
+    - ns-1568.awsdns-04.co.uk
+    - ns-686.awsdns-21.net
 haletest1:
   ttl: 300
   type: NS
