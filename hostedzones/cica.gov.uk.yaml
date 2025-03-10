@@ -48,14 +48,6 @@ _asvdns-8c41ef98-16cc-4dc1-a22f-f92c494c210d:
   ttl: 300
   type: TXT
   value: asvdns_3dfa6e6d-4f3e-4dda-b3ec-1c3219bcfe8e
-_tvervfzi37dnmj0icdaccuktqqmw7bi.cintra-vpn:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_tvervfzi37dnmj0icdaccuktqqmw7bi.www.cintra-vpn:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _dmarc:
   ttl: 300
   type: TXT
@@ -68,6 +60,14 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_tvervfzi37dnmj0icdaccuktqqmw7bi.cintra-vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_tvervfzi37dnmj0icdaccuktqqmw7bi.www.cintra-vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
