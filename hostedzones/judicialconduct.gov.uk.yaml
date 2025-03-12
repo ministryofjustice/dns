@@ -34,7 +34,7 @@ _dmarc:
   ttl: 600
   type: CNAME
   value: _dmarc_ttp_policy.justice.gov.uk
-_dnsauth.www.complaints
+_dnsauth.www.complaints:
   ttl: 300
   type: TXT
   value: _klnxckldzco3b6q4qdex5id87b9s9v2
