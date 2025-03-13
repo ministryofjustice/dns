@@ -74,6 +74,10 @@ remote:
   ttl: 600
   type: A
   value: 51.140.159.248
+search-policy-and-guidance:
+  ttl: 300
+  type: A
+  value: 20.90.134.13
 selector1._domainkey:
   type: CNAME
   value: selector1-paroleboard-gov-uk._domainkey.digitalparole.onmicrosoft.com
