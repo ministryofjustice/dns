@@ -1,8 +1,5 @@
 ---
 '':
-  - ttl:3600
-    type: TXT
-    value: MS=ms43303837
   - ttl: 172800
     type: NS
     values:
@@ -10,3 +7,6 @@
       - ns-395.awsdns-49.com.
       - ns-793.awsdns-35.net.
       - ns-1828.awsdns-36.co.uk.
+  - ttl:3600
+    type: TXT
+    value: MS=ms43303837
