@@ -1,5 +1,8 @@
 ---
 '':
+  - ttl:3600
+    type: TXT
+    value: MS=ms43303837
   - ttl: 172800
     type: NS
     values:
