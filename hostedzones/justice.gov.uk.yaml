@@ -63,6 +63,14 @@ _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_2orjigp7hc3j1aa3y41wo0abika7q5i.internaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_2orjigp7hc3j1aa3y41wo0abika7q5i.www.internaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _501b4543309e365daa9988b0f8f5bf75.cshrcaseworkcma:
   ttl: 300
   type: CNAME
