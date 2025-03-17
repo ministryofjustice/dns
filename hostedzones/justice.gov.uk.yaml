@@ -612,10 +612,10 @@ cjsm:
   ttl: 900
   type: NS
   values:
-    - ns-1011.awsdns-62.net.
-    - ns-1398.awsdns-46.org.
-    - ns-1759.awsdns-27.co.uk.
-    - ns-24.awsdns-03.com.
+    - ns-1190.awsdns-20.org.
+    - ns-1641.awsdns-13.co.uk.
+    - ns-385.awsdns-48.com.
+    - ns-621.awsdns-13.net.
 cjsm.secure-email.ppud:
   - ttl: 300
     type: MX
