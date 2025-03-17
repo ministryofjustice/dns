@@ -29,6 +29,14 @@ _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
+_5u7w0991zouvl6dnnr42he7njbef4g4.staging.hmpps-performance-hub:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_5u7w0991zouvl6dnnr42he7njbef4g4.www.staging.hmpps-performance-hub:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
   ttl: 300
   type: CNAME
@@ -93,6 +101,14 @@ _a8991aef56b71d5c328ddcb4789afae0.crown-court-remuneration:
   ttl: 300
   type: CNAME
   value: _7a7caa8732d309945f45d19490d357c8.sdgjtdhdhz.acm-validations.aws.
+_acl145dkkx7kv9pv1i903megc09qvjr.hmpps-performance-hub:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_acl145dkkx7kv9pv1i903megc09qvjr.www.hmpps-performance-hub:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _acme-challenge:
   ttl: 60
   type: TXT
