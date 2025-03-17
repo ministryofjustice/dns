@@ -23,6 +23,10 @@
       - YcrqOH4L
       - ms=ms20657591
       - v=spf1 ip4:20.77.102.3 include:spf.protection.outlook.com include:mail.zendesk.com -all
+_9da00739498cdee5a1a19390aae22b37.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _845bf7d02211cdfb7b9644f8b0a06a7f.mhbtsbpdnt.acm-validations.aws.
 _n37d0b47vseqx5wgdr7g4y12is1y2ir.search-policy-and-guidance:
   ttl: 300
   type: CNAME
@@ -31,10 +35,6 @@ _n37d0b47vseqx5wgdr7g4y12is1y2ir.www.search-policy-and-guidance:
   ttl: 300
   type: CNAME
   value: dcv.digicert.com.
-_9da00739498cdee5a1a19390aae22b37.mta-sts:
-  ttl: 60
-  type: CNAME
-  value: _845bf7d02211cdfb7b9644f8b0a06a7f.mhbtsbpdnt.acm-validations.aws.
 _asvdns-5799bcf5-6136-4b92-a9f7-4cec52700cee:
   ttl: 300
   type: TXT
