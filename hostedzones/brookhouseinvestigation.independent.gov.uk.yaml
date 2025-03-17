@@ -31,4 +31,4 @@
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=reject; sp=reject; fo=1; ri=3600; rua=mailto:ukho@rua.agari-eu.com,mailto:dmarc-rua@dmarc.service.gov.uk; ruf=mailto:ukho@ruf.agari-eu.com;
+  value: v=DMARC1;p=reject;sp=reject;rua=mailto:dmarc-rua@dmarc.service.gov.uk
