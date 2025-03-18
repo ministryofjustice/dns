@@ -42,14 +42,6 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=d3c166db45a506d6876e8eb1bb857d37
-_n37d0b47vseqx5wgdr7g4y12is1y2ir.search-policy-and-guidance:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_n37d0b47vseqx5wgdr7g4y12is1y2ir.www.search-policy-and-guidance:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _smtp._tls:
   ttl: 300
   type: TXT
