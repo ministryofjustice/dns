@@ -9,4 +9,14 @@
       - ns-1828.awsdns-36.co.uk.
   - ttl: 3600
     type: TXT
-    value: MS=ms43303837
+    values:
+      - MS=ms43303837
+      - v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 3600
+    type: MX
+    value:
+      exchange: NottinghamInquiry-uk.mail.protection.outlook.com
+      preference: 0
+  - ttl: 3600
+    type: CNAME
+    value: autodiscover.outlook.com
