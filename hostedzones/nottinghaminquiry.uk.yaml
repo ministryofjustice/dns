@@ -17,6 +17,6 @@
     value:
       exchange: NottinghamInquiry-uk.mail.protection.outlook.com
       preference: 0
-  -ttl: 3600
+  - ttl: 3600
     type: CNAME
     value: autodiscover.outlook.com
