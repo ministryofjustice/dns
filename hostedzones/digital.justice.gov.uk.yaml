@@ -298,6 +298,7 @@ test:
     values:
       - GFTBshQ/pI5XCTq5DxCKe9CZzVNocf4/9yYGIcqmLJKHduGUWltgiAack/3zTznC1VsFu0poNqbwPWZoZUIDuQ==
       - MS=ms29740004
+      - MS=ms36924066
       - google-site-verification=eKrQOC2iPS1lEVnT_dPfGq4GGfEiWkICwBIQKDMK24s
       - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
         ~all
