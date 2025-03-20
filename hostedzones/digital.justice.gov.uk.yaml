@@ -195,6 +195,10 @@ legalservices.gov.uk._report._dmarc:
   ttl: 36000
   type: TXT
   value: v=DMARC1
+lyncdiscover.test:
+  ttl: 3600
+  type: CNAME
+  value: webdir.online.lync.com
 mail.test:
   ttl: 300
   type: A
@@ -230,10 +234,6 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: dq5u7fyz5mukp.cloudfront.net.
     type: A
-lyncdiscover.test:
-  ttl: 3600
-  type: CNAME
-  value: webdir.online.lync.com
 pki:
   ttl: 300
   type: TXT
