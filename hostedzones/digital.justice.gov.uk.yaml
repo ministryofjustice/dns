@@ -2,16 +2,8 @@
 '':
   - type: MX
     values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: aspmx2.googlemail.com.
-        preference: 10
-      - exchange: aspmx3.googlemail.com.
-        preference: 10
+      - exchange: test-digital-justice-gov-uk.mail.protection.outlook.com
+        preference: 0
   - ttl: 172800
     type: NS
     values:
@@ -83,6 +75,22 @@ _pop3s._tcp:
     priority: 10
     target: pop.gmail.com.
     weight: 0
+_sip._tls.test:
+  ttl: 3600
+  type: SRV
+  values:
+    - port: 443
+      priority: 100
+      target: sipdir.online.lync.com
+      weight: 1
+_sipfederationtls._tcp.test:
+  ttl: 3600
+  type: SRV
+  values:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
 _smtp._tcp:
   ttl: 300
   type: SRV
@@ -108,9 +116,9 @@ autodiscover.g.test:
   type: A
   value: 18.130.201.170
 autodiscover.test:
-  ttl: 600
-  type: A
-  value: 18.130.205.7
+  ttl: 3600
+  type: CNAME
+  value: autodiscover.outlook.com
 email.prisonvisits.service.gov.uk._report._dmarc:
   ttl: 300
   type: TXT
@@ -120,7 +128,7 @@ enterpriseenrollment.test:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com.
 enterpriseregistration.test:
-  ttl: 300
+  ttl: 3600
   type: CNAME
   value: enterpriseregistration.windows.net.
 g.test:
@@ -187,6 +195,10 @@ legalservices.gov.uk._report._dmarc:
   ttl: 36000
   type: TXT
   value: v=DMARC1
+lyncdiscover.test:
+  ttl: 3600
+  type: CNAME
+  value: webdir.online.lync.com
 mail.test:
   ttl: 300
   type: A
@@ -264,6 +276,10 @@ sfpp.mobile:
   ttl: 300
   type: A
   value: 157.203.177.166
+sip.test:
+  ttl: 3600
+  type: CNAME
+  value: sipdir.online.lync.com
 sso:
   ttl: 300
   type: CNAME
@@ -301,7 +317,7 @@ test:
       - MS=ms36924066
       - google-site-verification=eKrQOC2iPS1lEVnT_dPfGq4GGfEiWkICwBIQKDMK24s
       - v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
-        ~all
+        -all
 w3lfdwhi4uimdhfijhgb7slpiossuoz7._domainkey:
   ttl: 300
   type: CNAME
