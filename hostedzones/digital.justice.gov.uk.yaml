@@ -75,18 +75,6 @@ _pop3s._tcp:
     priority: 10
     target: pop.gmail.com.
     weight: 0
-_smtp._tcp:
-  ttl: 300
-  type: SRV
-  value:
-    port: 25
-    priority: 0
-    target: smtp.gmail.com.
-    weight: 0
-_smtp._tls:
-  ttl: 300
-  type: TXT
-  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
 _sip._tls.test:
   ttl: 3600
   type: SRV
@@ -103,6 +91,18 @@ _sipfederationtls._tcp.test:
     priority: 100
     target: sipfed.online.lync.com
     weight: 1
+_smtp._tcp:
+  ttl: 300
+  type: SRV
+  value:
+    port: 25
+    priority: 0
+    target: smtp.gmail.com.
+    weight: 0
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
 _submission._tcp:
   ttl: 300
   type: SRV
