@@ -1483,6 +1483,14 @@ refer-monitor-intervention:
     - ns-1460.awsdns-54.org.
     - ns-1824.awsdns-36.co.uk.
     - ns-423.awsdns-52.com.
+request-for-personal-information:
+  ttl: 3600
+  type: NS
+  values:
+    - ns-1258.awsdns-29.org.
+    - ns-605.awsdns-11.net.
+    - ns-1613.awsdns-09.co.uk.
+    - ns-305.awsdns-38.com.
 restricted-patients-api:
   ttl: 300
   type: NS
