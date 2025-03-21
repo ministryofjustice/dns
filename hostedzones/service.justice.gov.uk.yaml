@@ -29,6 +29,10 @@ _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
+_2cf3aee75260c043ab7bf7625aa4b527. accessibility.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: _a7dcc4b9fda9896900ae733516c6193d.xlfgrmvvlj.acm-validations.aws.
 _6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
   ttl: 300
   type: CNAME
@@ -85,6 +89,10 @@ _39556719e8d565ea45417d38b40889c7.find-unclaimed-court-money:
   ttl: 60
   type: CNAME
   value: _06c52dec40633865541b0ff381d9eeb1.chvvfdvqrj.acm-validations.aws
+_4027386727c742437040e4f236bd8398.accessibility.creatingfutureopportunities:
+  ttl: 300
+  type: CNAME
+  value: _53c50f8d6760e70139dba3f3d222e48e.xlfgrmvvlj.acm-validations.aws.
 _a8acf57184d83c241b9b8595c4cb0bd0.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
@@ -358,6 +366,10 @@ access.platforms:
     - ns-1636.awsdns-12.co.uk.
     - ns-325.awsdns-40.com.
     - ns-674.awsdns-20.net.
+accessibility.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: d1odphpda4fk81.cloudfront.net
 advance-into-justice:
   ttl: 86400
   type: NS
