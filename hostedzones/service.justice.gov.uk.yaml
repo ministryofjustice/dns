@@ -113,6 +113,14 @@ _adsp._domainkey.recruitment:
   ttl: 300
   type: TXT
   value: dkim=all
+_ahe8a4d7t5qc853pu0dncis2ue5plf3.apply-for-hmpps-research:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_ahe8a4d7t5qc853pu0dncis2ue5plf3.www.apply-for-hmpps-research:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _amazonses:
   ttl: 1800
   type: TXT
