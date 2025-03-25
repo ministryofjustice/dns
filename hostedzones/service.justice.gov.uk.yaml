@@ -109,6 +109,14 @@ _acme-challenge.c100formsurvey-staging:
   ttl: 60
   type: TXT
   value: h3EfKuixfZMRj30lClIYS1M7Xivu2Ccp06WwgwiTgik
+_ahe8a4d7t5qc853pu0dncis2ue5plf3.apply-for-hmpps-research:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_ahe8a4d7t5qc853pu0dncis2ue5plf3.www.apply-for-hmpps-research:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _adsp._domainkey.recruitment:
   ttl: 300
   type: TXT
