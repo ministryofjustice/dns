@@ -140,12 +140,12 @@ e7gd2dqpsoczd4yaw6o2wr3jdjevenke._domainkey:
   ttl: 300
   type: CNAME
   value: e7gd2dqpsoczd4yaw6o2wr3jdjevenke.dkim.amazonses.com
-enterpriseenrollment:
-  type: CNAME
-  value: enterpriseenrollment.manage.microsoft.com.
 elyq4rc45cnfmpaiirnnonsbkiohel6v._domainkey:
   type: CNAME
   value: elyq4rc45cnfmpaiirnnonsbkiohel6v.dkim.amazonses.com
+enterpriseenrollment:
+  type: CNAME
+  value: enterpriseenrollment.manage.microsoft.com.
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net.
