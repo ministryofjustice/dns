@@ -68,7 +68,7 @@ _cdb8a1ec6dba331f6b47645d09fdaf73.pentaho8.yjbservices:
 _dmarc:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: v=DMARC1; p=none;
 _dmarc.yjbservices:
   ttl: 300
   type: CNAME
@@ -140,6 +140,9 @@ e7gd2dqpsoczd4yaw6o2wr3jdjevenke._domainkey:
   ttl: 300
   type: CNAME
   value: e7gd2dqpsoczd4yaw6o2wr3jdjevenke.dkim.amazonses.com
+elyq4rc45cnfmpaiirnnonsbkiohel6v._domainkey:
+  type: CNAME
+  value: elyq4rc45cnfmpaiirnnonsbkiohel6v.dkim.amazonses.com
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com.
@@ -168,6 +171,10 @@ juniper-smtp:
   - ttl: 300
     type: TXT
     value: v=spf1 include:amazonses.com -all
+kr2ub2cm6agxllr4lc4wjibgsvu2ph44._domainkey:
+  ttl: 300
+  type: CNAME
+  value: kr2ub2cm6agxllr4lc4wjibgsvu2ph44.dkim.amazonses.com
 login.y2a:
   type: A
   value: 62.232.198.68
@@ -303,6 +310,10 @@ theexchange:
   ttl: 300
   type: A
   value: 51.130.81.99
+tolamciho27aogjqkgrq6iok5v7px6nd._domainkey:
+  ttl: 300
+  type: CNAME
+  value: tolamciho27aogjqkgrq6iok5v7px6nd.dkim.amazonses.com
 train.y2a:
   type: A
   value: 62.232.198.68
