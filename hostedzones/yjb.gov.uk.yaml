@@ -67,7 +67,7 @@ _cdb8a1ec6dba331f6b47645d09fdaf73.pentaho8.yjbservices:
   value: _f5a40d50eaf3b1699ed0f74ce2735ef4.xrchbtpdjs.acm-validations.aws.
 _dmarc:
   ttl: 300
-  type: CNAME
+  type: TXT
   value: v=DMARC1; p=none;
 _dmarc.yjbservices:
   ttl: 300
