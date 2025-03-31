@@ -43,6 +43,14 @@
   ttl: 300
   type: CNAME
   value: 6zbhv7347nomwa5tilvvgcmsdknyag4i.dkim.amazonses.com
+_7f4f2ufikmyf9ve4ktyodo7dd67iz0u.waminternaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_7f4f2ufikmyf9ve4ktyodo7dd67iz0u.www.waminternaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
   ttl: 300
   type: CNAME
