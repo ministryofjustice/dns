@@ -275,6 +275,10 @@ _h323ls._udp.courts-video-link:
       priority: 20
       target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
       weight: 10
+_hqo4j6ftx2nxexeludapv8ujunlvu66.courts-video-link:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _pexapp._tcp.courts-video-link:
   ttl: 300
   type: SRV
