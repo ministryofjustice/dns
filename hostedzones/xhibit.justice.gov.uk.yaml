@@ -18,6 +18,14 @@ _60ea7b43706335f0bb1c92131c8324b6:
   ttl: 300
   type: CNAME
   value: _01043a23fa206ed27aef9e1016547f29.acm-validations.aws.
+staging:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z38I13QAYD1LX
+    name: d2r40au2vo779k.cloudfront.net.
+    type: A
 www:
   ttl: 942942942
   type: Route53Provider/ALIAS
