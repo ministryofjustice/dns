@@ -149,6 +149,14 @@ _asvdns-ebe2abbc-32c6-428c-92c1-0406c6926248:
   ttl: 300
   type: TXT
   value: asvdns_9b30dc48-4ae8-41f0-868b-a71c6ec7b65a
+_b3mc9pbgixgrkmgio691qfc3ko2zf97.prep-sop-b.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_b3mc9pbgixgrkmgio691qfc3ko2zf97.www.prep-sop-b.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _c3e197db2fd6871349b94aaee4fe4c51.mta-sts.cshrcasework:
   ttl: 60
   type: CNAME
@@ -310,6 +318,22 @@ _h323rs._udp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
+_jdsu49m7ad9lacse6fpfuwobe9n283m.prod-sop-b.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_jdsu49m7ad9lacse6fpfuwobe9n283m.www.prod-sop-b.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_l7gwm82bg3zwocoi39a30h53p28qbsk.prep-sop-a.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_l7gwm82bg3zwocoi39a30h53p28qbsk.www.prep-sop-a.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _mta-sts:
   ttl: 300
   type: TXT
@@ -438,6 +462,14 @@ _smtp._tls.mappa:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_wbyn960ujar53rbkxievrx6jecwp1aj.prod-sop-a.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_wbyn960ujar53rbkxievrx6jecwp1aj.www.prod-sop-a.vpn:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 adcourt._domainkey.administrativecourtoffice:
   ttl: 300
   type: TXT
