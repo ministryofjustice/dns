@@ -46,6 +46,10 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+asuid.search-policy-and-guidance:
+  ttl: 300
+  type: TXT
+  value: 58D0800357778a6a53ae2c2f66e3fca371804a6e58ced10462bb5a1e57d2cd
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com
@@ -76,8 +80,8 @@ remote:
   value: 51.140.159.248
 search-policy-and-guidance:
   ttl: 300
-  type: A
-  value: 20.90.134.13
+  type: CNAME
+  value: wa-policyguide-frontend-ahbbevchezhuhzf5.uksouth-01.azurewebsites.net
 selector1._domainkey:
   type: CNAME
   value: selector1-paroleboard-gov-uk._domainkey.digitalparole.onmicrosoft.com
