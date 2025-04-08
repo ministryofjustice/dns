@@ -49,7 +49,7 @@ _smtp._tls:
 asuid.search-policy-and-guidance:
   ttl: 300
   type: TXT
-  value: 58D0800357778a6a53ae2c2f66e3fca371804a6e58ced10462bb5a1e57d2cd
+  value: 58D0800357778A6A53AE2C2F66E3FCA371804A6E58CEDB104E62BB5A1E57D2CD
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com
