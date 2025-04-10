@@ -1400,6 +1400,14 @@ prometheus:
     hosted-zone-id: ZD4D7Y8KGAS4G
     name: a298b2a91402d11e9b7fa0abe03ddaa3-97fb50d98e3c6eed.elb.eu-west-2.amazonaws.com.
     type: A
+provider-ui.ccms:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1315.awsdns-36.org.
+    - ns-1565.awsdns-03.co.uk.
+    - ns-502.awsdns-62.com.
+    - ns-811.awsdns-37.net.
 pvlbookingsystem:
   ttl: 600
   type: A
