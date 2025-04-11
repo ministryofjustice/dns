@@ -18,6 +18,7 @@
       - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
         -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
 _0be96fa6a7f31b10a5bde19c35df1966.mta-sts:
   ttl: 60
   type: CNAME
