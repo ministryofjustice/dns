@@ -21,9 +21,11 @@
       - ns-1712.awsdns-22.co.uk.
       - ns-37.awsdns-04.com.
       - ns-532.awsdns-02.net.
-  - ttl: 300
+  - ttl: 3600
     type: TXT
-    value: v=spf1 -all
+    values:
+      - v=spf1 -all
+      - MS=ms10455819
 '*._domainkey':
   ttl: 300
   type: TXT
