@@ -864,10 +864,10 @@ ebox3rlb5quorpgarhresfdjxujy4p6y._domainkey:
   ttl: 300
   type: CNAME
   value: ebox3rlb5quorpgarhresfdjxujy4p6y.dkim.amazonses.com
-em3636.cjscp:
+em1187.cjscp:
   ttl: 300
   type: CNAME
-  value: u17380493.wl244.sendgrid.net
+  value: u51930430.wl181.sendgrid.net
 em8835.design102:
   ttl: 300
   type: CNAME
@@ -1665,7 +1665,7 @@ rvc.lrc:
 s1._domainkey.cjscp:
   ttl: 300
   type: CNAME
-  value: s1.domainkey.u17380493.wl244.sendgrid.net
+  value: s1.domainkey.u51930430.wl181.sendgrid.net
 s1._domainkey.cjsm.secure-email.ppud:
   ttl: 300
   type: TXT
@@ -1678,7 +1678,7 @@ s1._domainkey.design102:
 s2._domainkey.cjscp:
   ttl: 300
   type: CNAME
-  value: s2.domainkey.u17380493.wl244.sendgrid.net
+  value: s2.domainkey.u51930430.wl181.sendgrid.net
 s2._domainkey.design102:
   ttl: 300
   type: CNAME
