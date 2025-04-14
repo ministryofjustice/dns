@@ -19,5 +19,5 @@
       - MS=ms14912346
 autodiscover:
   - ttl: 3600
-  - type: CNAME
-  - value: autodiscover.outlook.com.
+    type: CNAME
+    value: autodiscover.outlook.com.
