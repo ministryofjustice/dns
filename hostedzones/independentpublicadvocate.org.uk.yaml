@@ -23,7 +23,7 @@
       - ns-532.awsdns-02.net.
   - ttl: 3600
     type: TXT
-    values: 
+    values:
       - v=spf1 -all
       - MS=ms10455819
 '*._domainkey':
