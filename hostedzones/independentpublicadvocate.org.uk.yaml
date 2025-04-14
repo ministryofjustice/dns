@@ -1,18 +1,9 @@
 ---
 '':
-  - ttl: 300
-    type: CAA
-    values:
-      - flags: 0
-        tag: iodef
-        value: mailto:certificates@digital.justice.gov.uk
-      - flags: 0
-        tag: issue
-        value: ;
-  - ttl: 300
+  - ttl: 3600
     type: MX
     value:
-      exchange: .
+      exchange: independentpublicadvocate-org-uk.mail.protection.outlook.com.
       preference: 0
   - ttl: 172800
     type: NS
@@ -24,13 +15,9 @@
   - ttl: 3600
     type: TXT
     values:
-      - v=spf1 -all
+      - v=spf1 include:spf.protection.outlook.com -all
       - MS=ms14912346
-'*._domainkey':
-  ttl: 300
-  type: TXT
-  value: v=DKIM1\; p=
-_dmarc:
-  ttl: 300
-  type: TXT
-  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+autodiscover:
+  - ttl: 3600
+    type: CNAME
+    value: autodiscover.outlook.com.
