@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-      - ns-1406.awsdns-47.org.
-      - ns-1949.awsdns-51.co.uk.
-      - ns-243.awsdns-30.com.
-      - ns-853.awsdns-42.net.
+      - ns-1190.awsdns-20.org.
+      - ns-1712.awsdns-22.co.uk.
+      - ns-37.awsdns-04.com.
+      - ns-532.awsdns-02.net.
   - ttl: 3600
     type: TXT
     values: 
