@@ -25,7 +25,7 @@
     type: TXT
     values:
       - v=spf1 -all
-      - MS=ms10455819
+      - MS=ms14912346
 '*._domainkey':
   ttl: 300
   type: TXT
