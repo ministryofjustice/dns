@@ -868,6 +868,10 @@ em1187.cjscp:
   ttl: 300
   type: CNAME
   value: u51930430.wl181.sendgrid.net
+em8476.cjscp:
+  ttl: 3600
+  type: CNAME
+  value: u51930430.wl181.sendgrid.net
 em8835.design102:
   ttl: 300
   type: CNAME
