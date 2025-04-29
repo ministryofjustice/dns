@@ -18,6 +18,9 @@
       - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
         -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+129688:
+  type: CNAME
+  value: sendgrid.net
 _asvdns-7f96cfbc-c539-4350-9631-a61dfcdba928:
   ttl: 300
   type: TXT
@@ -51,6 +54,12 @@ fp01._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+mhq154036d:
+  type: CNAME
+  value: u129688.wl189.sendgrid.net
+mhq154036dlink:
+  type: CNAME
+  value: sendgrid.net
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net
@@ -62,6 +71,12 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: dhl1grre36192.cloudfront.net.
     type: A
+s1._domainkey:
+  type: CNAME
+  value: s1.domainkey.u129688.wl189.sendgrid.net
+s2._domainkey:
+  type: CNAME
+  value: s2.domainkey.u129688.wl189.sendgrid.net
 selector1._domainkey:
   type: CNAME
   value: selector1-lawcommission-gov-uk._domainkey.justiceuk.onmicrosoft.com
