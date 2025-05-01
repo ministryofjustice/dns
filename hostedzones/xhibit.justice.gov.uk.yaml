@@ -11,8 +11,8 @@
     type: Route53Provider/ALIAS
     value:
       evaluate-target-health: false
-      hosted-zone-id: Z1BKCTXD74EZPE
-      name: s3-website-eu-west-1.amazonaws.com.
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d3hp45qjxidopf.cloudfront.net.
       type: A
 _60ea7b43706335f0bb1c92131c8324b6:
   ttl: 300
@@ -31,6 +31,6 @@ www:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: Z1BKCTXD74EZPE
-    name: s3-website-eu-west-1.amazonaws.com.
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d3hp45qjxidopf.cloudfront.net.
     type: A
