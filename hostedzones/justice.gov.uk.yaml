@@ -61,14 +61,6 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
-_1fy8tuc5aw4u673zxog30g4kn6j0186.join.meet.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_1fy8tuc5aw4u673zxog30g4kn6j0186.meet.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
