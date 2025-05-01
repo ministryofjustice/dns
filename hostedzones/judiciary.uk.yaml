@@ -27,6 +27,7 @@
       - rfpi1va7dtqmdgthssu2skjjqf
       - vt7q2faup5oj7stn1igpl9m93c
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
+      - openai-domain-verification=dv-aCcMTlHqMQa3ducHk6rPfK3S
 5vl4vla56j76p3obneqqnjelrynl2kiv._domainkey.elinks-staging-email.elinks:
   type: CNAME
   value: 5vl4vla56j76p3obneqqnjelrynl2kiv.dkim.amazonses.com
