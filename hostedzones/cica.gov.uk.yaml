@@ -28,6 +28,7 @@
       - w6xmnnqn2r3vnry0c5n5sg3dg25wvlln
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - openai-domain-verification=dv-ngG4v2ov7T4yeUMV0ZVTr07D
 _56a37ebc38b8f47a75fe557fc29d22dd.mta-sts:
   ttl: 60
   type: CNAME
