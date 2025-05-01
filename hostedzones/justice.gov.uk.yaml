@@ -28,6 +28,7 @@
       - figma-domain-verification=497c3daab3cae3be9016c8e6c4a5cb0f7864326146415e1986018f7b84151fec-1733823729
       - google-site-verification=TCtRY9C86_qHXCh30w6fLkSQwGgLJG4uXzDorMrByVk
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
+      - openai-domain-verification=dv-PuG0ZW850KPG5jzX2cnmvGjq
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
