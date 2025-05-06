@@ -28,9 +28,6 @@
       - vt7q2faup5oj7stn1igpl9m93c
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
       - openai-domain-verification=dv-aCcMTlHqMQa3ducHk6rPfK3S
-5vl4vla56j76p3obneqqnjelrynl2kiv._domainkey.elinks-staging-email.elinks:
-  type: CNAME
-  value: 5vl4vla56j76p3obneqqnjelrynl2kiv.dkim.amazonses.com
 _2cfb3230475e3689609b3297ae4656c4:
   ttl: 300
   type: CNAME
@@ -144,9 +141,6 @@ admin.myhr:
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
-axdjl7a44ht2vn4fwyr37zx44wwvo253._domainkey.elinks-edge-email.elinks:
-  type: CNAME
-  value: axdjl7a44ht2vn4fwyr37zx44wwvo253.dkim.amazonses.com
 bounce.elinks-edge-email.elinks:
   ttl: 600
   type: MX
@@ -171,12 +165,6 @@ bounce.email.elinks:
   value:
     exchange: feedback-smtp.eu-west-1.amazonses.com
     preference: 10
-buqgrktzuy7lyzmawz5tuu4xfjq6zyqr._domainkey.elinks-jo-staging-email.elinks:
-  type: CNAME
-  value: buqgrktzuy7lyzmawz5tuu4xfjq6zyqr.dkim.amazonses.com
-byz6bqtwzk3nnaifwqpkphzebffr2ohs._domainkey.elinks-edge-email.elinks:
-  type: CNAME
-  value: byz6bqtwzk3nnaifwqpkphzebffr2ohs.dkim.amazonses.com
 crossdeployment:
   ttl: 300
   type: A
@@ -265,9 +253,6 @@ hr:
   ttl: 300
   type: CNAME
   value: prod-hr.uksouth.cloudapp.azure.com
-imxmejqvmdyfflvn3ed2dusynjkqbikp._domainkey.elinks-staging-email.elinks:
-  type: CNAME
-  value: imxmejqvmdyfflvn3ed2dusynjkqbikp.dkim.amazonses.com
 intranet:
   ttl: 600
   type: CNAME
@@ -287,9 +272,6 @@ judicialcareers:
   - ttl: 300
     type: TXT
     value: v=spf1 ip4:18.132.221.238 -all
-ko6w5s55q23tal6ayqic35vnhhwpoam7._domainkey.elinks-staging-email.elinks:
-  type: CNAME
-  value: ko6w5s55q23tal6ayqic35vnhhwpoam7.dkim.amazonses.com
 magistrates:
   - ttl: 300
     type: NS
@@ -363,9 +345,6 @@ selector2-azurecomm-prod-net._domainkey.staging.elinks:
 selector2._domainkey:
   type: CNAME
   value: selector2-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
-smeunpaid5wygnssk3dzyvjtodijdmlw._domainkey.elinks-jo-staging-email.elinks:
-  type: CNAME
-  value: smeunpaid5wygnssk3dzyvjtodijdmlw.dkim.amazonses.com
 staging.admin.myhr:
   ttl: 300
   type: CNAME
@@ -395,9 +374,6 @@ tmjcm:
     - ns2-06.azure-dns.net.
     - ns3-06.azure-dns.org.
     - ns4-06.azure-dns.info.
-tokxf6lra5j64jnznuomoammam7xolik._domainkey.elinks-edge-email.elinks:
-  type: CNAME
-  value: tokxf6lra5j64jnznuomoammam7xolik.dkim.amazonses.com
 www:
   ttl: 600
   type: CNAME
@@ -406,6 +382,3 @@ www.judicialcareers:
   ttl: 300
   type: CNAME
   value: judicialcareers.judiciary.uk
-zvqbi7qh7dcmgyebosi2ldwxnw3c6qdd._domainkey.elinks-jo-staging-email.elinks:
-  type: CNAME
-  value: zvqbi7qh7dcmgyebosi2ldwxnw3c6qdd.dkim.amazonses.com
