@@ -117,10 +117,6 @@ sec:
   ttl: 600
   type: A
   value: 94.236.26.129
-sentencingcouncil:
-  ttl: 600
-  type: CNAME
-  value: sentencing-judiciary.live.bangdynamics.com.
 smtp:
   ttl: 600
   type: A
