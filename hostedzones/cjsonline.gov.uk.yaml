@@ -96,10 +96,6 @@ dev-pportal:
     hosted-zone-id: ZHURV8PSTC4K8
     name: waf-lb-xhibit-portal-403805476.eu-west-2.elb.amazonaws.com.
     type: A
-devpportal:
-  ttl: 60
-  type: CNAME
-  value: waf-lb-xhibit-portal-1686123915.eu-west-2.elb.amazonaws.com
 ingest:
   ttl: 60
   type: CNAME
