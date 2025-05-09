@@ -323,31 +323,3 @@ w3lfdwhi4uimdhfijhgb7slpiossuoz7._domainkey:
   ttl: 300
   type: CNAME
   value: w3lfdwhi4uimdhfijhgb7slpiossuoz7.dkim.amazonses.com
-zendesk1:
-  ttl: 300
-  type: CNAME
-  value: mail1.zendesk.com
-zendesk1._domainkey:
-  ttl: 600
-  type: CNAME
-  value: zendesk1._domainkey.zendesk.com
-zendesk2:
-  ttl: 300
-  type: CNAME
-  value: mail2.zendesk.com
-zendesk2._domainkey:
-  ttl: 600
-  type: CNAME
-  value: zendesk2._domainkey.zendesk.com
-zendesk3:
-  ttl: 300
-  type: CNAME
-  value: mail3.zendesk.com
-zendesk4:
-  ttl: 300
-  type: CNAME
-  value: mail4.zendesk.com
-zendeskverification:
-  ttl: 300
-  type: TXT
-  value: 4586ec2907be3a62
