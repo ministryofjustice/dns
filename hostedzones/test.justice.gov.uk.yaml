@@ -44,10 +44,6 @@ autodiscover:
   ttl: 300
   type: CNAME
   value: autodiscover.outlook.com
-cloud-platform:
-  ttl: 300
-  type: CNAME
-  value: demo-app.acme-apps.cloud-platform-test-13.k8s.integration.dsd.io.
 dzc:
   - ttl: 600
     type: A
