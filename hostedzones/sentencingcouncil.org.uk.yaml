@@ -48,10 +48,6 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: dsabyr6tawzy4.cloudfront.net.
     type: A
-search:
-  ttl: 600
-  type: CNAME
-  value: search2.openobjects.com.
 www:
   ttl: 1800
   type: CNAME
