@@ -246,10 +246,6 @@ et-stg-azure.staging:
   ttl: 300
   type: A
   value: 51.140.8.203
-experimental:
-  ttl: 300
-  type: CNAME
-  value: et-experi-elbexper-16j40yoblx1ur-580403429.eu-west-1.elb.amazonaws.com.
 flux.dev:
   ttl: 300
   type: A
