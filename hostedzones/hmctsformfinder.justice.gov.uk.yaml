@@ -14,7 +14,3 @@
       - ns-1594.awsdns-07.co.uk.
       - ns-458.awsdns-57.com.
       - ns-575.awsdns-07.net.
-hmcts-formfinder-prod:
-  ttl: 300
-  type: CNAME
-  value: formfinde-elbhmcts-17552f5zenboa-1256800032.eu-west-1.elb.amazonaws.com
