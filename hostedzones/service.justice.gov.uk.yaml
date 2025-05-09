@@ -1014,10 +1014,6 @@ laa-status-dashboard:
     - ns-1723.awsdns-23.co.uk.
     - ns-209.awsdns-26.com.
     - ns-925.awsdns-51.net.
-lawcommission.intranet:
-  ttl: 300
-  type: CNAME
-  value: lawcomintranet.prod.wp.dsd.io
 legacy.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
