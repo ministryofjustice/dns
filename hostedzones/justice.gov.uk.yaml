@@ -1257,10 +1257,6 @@ locateaprison:
   ttl: 600
   type: A
   value: 85.133.48.165
-lyncdiscover.administrativecourtoffice:
-  ttl: 3600
-  type: CNAME
-  value: webdir.online.lync.com
 mail:
   ttl: 600
   type: A
