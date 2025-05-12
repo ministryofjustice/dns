@@ -1776,10 +1776,6 @@ service:
     - ns-1621.awsdns-10.co.uk.
     - ns-187.awsdns-23.com.
     - ns-978.awsdns-58.net.
-sip.administrativecourtoffice:
-  ttl: 3600
-  type: CNAME
-  value: sipdir.online.lync.com
 sip.video:
   ttl: 300
   type: A
