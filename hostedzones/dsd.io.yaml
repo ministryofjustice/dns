@@ -284,22 +284,6 @@ intra:
     - ns-143.awsdns-17.com
     - ns-1952.awsdns-52.co.uk
     - ns-537.awsdns-03.net
-makeaplea:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1588.awsdns-06.co.uk
-    - ns-995.awsdns-60.net
-    - ns-1282.awsdns-32.org
-    - ns-204.awsdns-25.com
-pleaonline:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1887.awsdns-43.co.uk
-    - ns-1184.awsdns-20.org
-    - ns-1018.awsdns-63.net
-    - ns-111.awsdns-13.com
 prod.nomis-api-access:
   ttl: 1500
   type: NS
