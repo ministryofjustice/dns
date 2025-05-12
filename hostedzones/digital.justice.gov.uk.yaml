@@ -27,9 +27,7 @@
       - docker-verification=d0dc08c9-6fa5-4dcf-921e-140e1e3dbc1f
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - teamviewer-sso-verification=a32cc5b325ca4b98ad15a722ebd63437
-      - v=spf1 include:_spf.google.com include:mail.zendesk.com include:sendgrid.net
-        include:amazonses.com include:spf.protection.outlook.com ip4:54.194.156.23
-        ~all
+      - v=spf1 include:_spf.google.com include:sendgrid.net include:amazonses.com include:spf.protection.outlook.com ip4:54.194.156.23 ~all
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
 6vme3s556zqhosnlbiu452qmnd7g2zi3._domainkey:
   ttl: 1800
