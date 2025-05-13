@@ -486,6 +486,13 @@ ccms-ebs:
     - ns-1743.awsdns-25.co.uk.
     - ns-22.awsdns-02.com.
     - ns-760.awsdns-31.net.
+cdn:
+  type: NS
+  values:
+    - ns-1058.awsdns-04.org.
+    - ns-1589.awsdns-06.co.uk.
+    - ns-353.awsdns-44.com.
+    - ns-733.awsdns-27.net.
 cdpt-metabase:
   ttl: 86400
   type: NS
