@@ -29,6 +29,7 @@
       - google-site-verification=TCtRY9C86_qHXCh30w6fLkSQwGgLJG4uXzDorMrByVk
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
       - openai-domain-verification=dv-PuG0ZW850KPG5jzX2cnmvGjq
+      - openai-domain-verification=dv-K7YKE7fDeUHEZaXrnMLEVLOQ
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
