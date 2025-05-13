@@ -28,6 +28,7 @@
       - vt7q2faup5oj7stn1igpl9m93c
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
       - openai-domain-verification=dv-aCcMTlHqMQa3ducHk6rPfK3S
+      - openai-domain-verification=dv-zpF9jWw43jaejkh4OyerdbFJ
 _2cfb3230475e3689609b3297ae4656c4:
   ttl: 300
   type: CNAME
