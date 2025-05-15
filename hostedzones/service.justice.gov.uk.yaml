@@ -610,7 +610,7 @@ court-tribunal-records-archive:
     - ns3-04.azure-dns.org
     - ns4-04.azure-dns.info
 courts-video-link:
-  ttl: 300
+  ttl: 30
   type: A
   value: 213.216.136.72
 courttran._domainkey.court-transcription:
