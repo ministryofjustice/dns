@@ -10,10 +10,6 @@
       - ns-1947.awsdns-51.co.uk.
       - ns-337.awsdns-42.com.
       - ns-771.awsdns-32.net.
-_asvdns-82dce4ea-c071-49e9-9164-f556aa6a2d32:
-  ttl: 300
-  type: TXT
-  value: asvdns_c07dc387-d9a1-4d54-a531-27effdd26842
 _c118dcb76f6b712bb5fc5d2514f42d46.mta-sts:
   ttl: 60
   type: CNAME
