@@ -3,13 +3,6 @@
   - ttl: 600
     type: A
     value: 35.177.235.232
-  - ttl: 600
-    type: MX
-    values:
-      - exchange: mx1.bangdynamics.com.
-        preference: 10
-      - exchange: mx2.bangdynamics.com.
-        preference: 20
   - ttl: 172800
     type: NS
     values:
@@ -17,9 +10,6 @@
       - ns-1947.awsdns-51.co.uk.
       - ns-337.awsdns-42.com.
       - ns-771.awsdns-32.net.
-  - ttl: 300
-    type: TXT
-    value: v=spf1 a mx ~all
 _asvdns-82dce4ea-c071-49e9-9164-f556aa6a2d32:
   ttl: 300
   type: TXT
@@ -28,10 +18,6 @@ _c118dcb76f6b712bb5fc5d2514f42d46.mta-sts:
   ttl: 60
   type: CNAME
   value: _fe3ef0a59165845368320f32ba38ee8e.nhsllhhtvj.acm-validations.aws.
-_dmarc:
-  ttl: 300
-  type: TXT
-  value: v=DMARC1\;p=none\;sp=none\;fo=1\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
 _mta-sts:
   ttl: 300
   type: TXT
