@@ -795,14 +795,6 @@ familymediators:
     - ns-1813.awsdns-34.co.uk.
     - ns-500.awsdns-62.com.
     - ns-912.awsdns-50.net.
-find-google-file:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1344.awsdns-40.org.
-    - ns-1617.awsdns-10.co.uk.
-    - ns-348.awsdns-43.com.
-    - ns-988.awsdns-59.net.
 find-moj-data:
   ttl: 86400
   type: NS
