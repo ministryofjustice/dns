@@ -69,6 +69,14 @@ _501b4543309e365daa9988b0f8f5bf75.cshrcaseworkcma:
   ttl: 300
   type: CNAME
   value: _e96d484b8d32bf4fe131ccbf27150b2b.zfyfvmchrl.acm-validations.aws.
+_88kq8trk214jbff1dx1237ek922q2o0.bench.courtstore:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_88kq8trk214jbff1dx1237ek922q2o0.www.bench.courtstore:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _956e7fb445bb521906e78cc188987061.mta-sts.administrativecourtoffice:
   ttl: 60
   type: CNAME
