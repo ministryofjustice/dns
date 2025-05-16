@@ -359,10 +359,6 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
-_ujpkhbu0nqm5hbjue49hx3xz66dq2bc.equip:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 access.platforms:
   type: NS
   values:
