@@ -29,6 +29,7 @@
       - teamviewer-sso-verification=a32cc5b325ca4b98ad15a722ebd63437
       - v=spf1 include:_spf.google.com include:sendgrid.net include:amazonses.com include:spf.protection.outlook.com ip4:54.194.156.23 ~all
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
+      - MS=77F6B29953B5B4241F92A29E1C5632174D184A59
 6vme3s556zqhosnlbiu452qmnd7g2zi3._domainkey:
   ttl: 1800
   type: CNAME
