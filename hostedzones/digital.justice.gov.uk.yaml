@@ -2,16 +2,8 @@
 '':
   - type: MX
     values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: aspmx2.googlemail.com.
-        preference: 10
-      - exchange: aspmx3.googlemail.com.
-        preference: 10
+      - exchange: digital-justice-gov-uk.mail.protection.outlook.com
+        preference: 0
   - ttl: 172800
     type: NS
     values:
@@ -83,6 +75,14 @@ _pop3s._tcp:
     priority: 10
     target: pop.gmail.com.
     weight: 0
+_sip._tls:
+  ttl: 3600
+  type: SRV
+  values:
+    - port: 443
+      priority: 100
+      target: sipdir.online.lync.com
+      weight: 1
 _sip._tls.test:
   ttl: 3600
   type: SRV
@@ -91,6 +91,14 @@ _sip._tls.test:
       priority: 100
       target: sipdir.online.lync.com
       weight: 1
+_sipfederationtls._tcp:
+  ttl: 3600
+  type: SRV
+  values:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
 _sipfederationtls._tcp.test:
   ttl: 3600
   type: SRV
@@ -119,6 +127,10 @@ _submission._tcp:
     priority: 0
     target: smtp.gmail.com.
     weight: 0
+autodiscover:
+  ttl: 3600
+  type: CNAME
+  value: autodiscover.outlook.com
 autodiscover.g.test:
   ttl: 300
   type: A
@@ -131,10 +143,18 @@ email.prisonvisits.service.gov.uk._report._dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1
+enterpriseenrollment:
+  ttl: 3600
+  type: CNAME
+  value: enterpriseenrollment-s.manage.microsoft.com
 enterpriseenrollment.test:
   ttl: 300
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com.
+enterpriseregistration:
+  ttl: 3600
+  type: CNAME
+  value: enterpriseregistration.windows.net
 enterpriseregistration.test:
   ttl: 3600
   type: CNAME
@@ -203,6 +223,10 @@ legalservices.gov.uk._report._dmarc:
   ttl: 36000
   type: TXT
   value: v=DMARC1
+lyncdiscover:
+  ttl: 3600
+  type: CNAME
+  value: webdir.online.lync.com
 mail.test:
   ttl: 300
   type: A
@@ -280,6 +304,10 @@ sfpp.mobile:
   ttl: 300
   type: A
   value: 157.203.177.166
+sip:
+  ttl: 3600
+  type: CNAME
+  value: sipdir.online.lync.com
 sso:
   ttl: 300
   type: CNAME
