@@ -56,25 +56,10 @@ _github-challenge-moj-analytical-services:
   ttl: 300
   type: TXT
   value: 7c40543dec
-_imaps._tcp:
-  type: SRV
-  value:
-    port: 993
-    priority: 0
-    target: imap.gmail.com.
-    weight: 0
 _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=f3e2f7bcead73fda65fa4f1ff7815e97
-_pop3s._tcp:
-  ttl: 300
-  type: SRV
-  value:
-    port: 995
-    priority: 10
-    target: pop.gmail.com.
-    weight: 0
 _sip._tls:
   ttl: 3600
   type: SRV
@@ -107,26 +92,10 @@ _sipfederationtls._tcp.test:
     priority: 100
     target: sipfed.online.lync.com
     weight: 1
-_smtp._tcp:
-  ttl: 300
-  type: SRV
-  value:
-    port: 25
-    priority: 0
-    target: smtp.gmail.com.
-    weight: 0
 _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
-_submission._tcp:
-  ttl: 300
-  type: SRV
-  value:
-    port: 587
-    priority: 0
-    target: smtp.gmail.com.
-    weight: 0
 autodiscover:
   ttl: 3600
   type: CNAME
