@@ -1078,6 +1078,14 @@ management.analytical-platform:
     - ns-1541.awsdns-00.co.uk.
     - ns-228.awsdns-28.com.
     - ns-602.awsdns-11.net.
+means-assessment-administration:
+  ttl: 300
+  type: NS
+  values:
+    - ns-218.awsdns-27.com.
+    - ns-1217.awsdns-24.org.
+    - ns-1700.awsdns-20.co.uk.
+    - ns-820.awsdns-38.net.
 mercury:
   type: NS
   values:
