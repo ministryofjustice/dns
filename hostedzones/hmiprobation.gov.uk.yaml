@@ -19,6 +19,7 @@
       - v=spf1 include:_spf.mlsend.com ip4:194.33.196.8/32 ip4:194.33.192.8/32 include:spf.protection.outlook.com
         -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - openai-domain-verification=dv-nenTePzIy8R3cBqNQiZApJZz
 _90a26ed25d4dc817fe7ddb874d5fc26c.mta-sts:
   ttl: 60
   type: CNAME
