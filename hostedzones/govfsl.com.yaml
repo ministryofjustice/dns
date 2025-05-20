@@ -22,6 +22,7 @@
       - v=spf1 include:spf.protection.outlook.com include:spf_c.oracle.com include:spf_c.oraclecloud.com ip4:188.65.119.39 ip4:188.65.119.42 ip4:87.247.244.98 ip4:195.62.28.68 ip4:185.24.97.25 -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
+      - openai-domain-verification=dv-7V2ew1gVYHyb1v6qudyNrZZP
 _94027e3232a87bef15c3cfb7834ff05c.mta-sts:
   ttl: 60
   type: CNAME
