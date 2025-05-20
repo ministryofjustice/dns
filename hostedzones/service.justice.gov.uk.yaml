@@ -1066,6 +1066,10 @@ manage-key-workers:
     - ns-1932.awsdns-49.co.uk.
     - ns-62.awsdns-07.com.
     - ns-887.awsdns-46.net.
+manage.dev.laa-online:
+  ttl: 300
+  type: CNAME
+  value: endpoint-admin-001-frcrh6hje3c7azcd.a01.azurefd.net
 management.analytical-platform:
   ttl: 300
   type: NS
@@ -1531,6 +1535,10 @@ refer-monitor-intervention:
     - ns-1460.awsdns-54.org.
     - ns-1824.awsdns-36.co.uk.
     - ns-423.awsdns-52.com.
+register.dev.laa-online:
+  ttl: 300
+  type: CNAME
+  value: endpoint-registration-001-gng9gcaqakdbfve6.a01.azurefd.net
 request-for-personal-information:
   ttl: 3600
   type: NS
