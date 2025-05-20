@@ -26,6 +26,7 @@
       - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com
         -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
+      - openai-domain-verification=dv-KB38UaPRlySfCNSkLPKqSZaZ
 2dbx4addpy7nyj76mioylqhzphrymyma._domainkey:
   ttl: 300
   type: CNAME
