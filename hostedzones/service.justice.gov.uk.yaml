@@ -167,10 +167,18 @@ _dnsauth.manage.dev.laa-online:
   ttl: 300
   type: TXT
   value: _c10if6cs0hjwzkve54i6zzaro6l1c0w
+_dnsauth.manage.laa-online:
+  ttl: 300
+  type: TXT
+  value: _guqranwdfrzf1hrjj69pcrrh881x8dn
 _dnsauth.register.dev.laa-online:
   ttl: 300
   type: TXT
   value: _ybr5jnrkxbizmhqfv5lddqosywc1r5k
+_dnsauth.register.laa-online:
+  ttl: 300
+  type: TXT
+  value: _7mxda2m7si2greeh8ddkgy6j1qugjm5
 _domainkey.recruitment:
   ttl: 300
   type: TXT
@@ -1070,6 +1078,10 @@ manage.dev.laa-online:
   ttl: 300
   type: CNAME
   value: endpoint-admin-001-frcrh6hje3c7azcd.a01.azurefd.net
+manage.laa-online:
+  ttl: 300
+  type: CNAME
+  value: afd-endpoint-management-003-h6f6daejfsdngzdy.a02.azurefd.net
 management.analytical-platform:
   ttl: 300
   type: NS
@@ -1547,6 +1559,10 @@ register.dev.laa-online:
   ttl: 300
   type: CNAME
   value: endpoint-registration-001-gng9gcaqakdbfve6.a01.azurefd.net
+register.laa-online:
+  ttl: 300
+  type: CNAME
+  value: afd-endpoint-registration-003-h2ehcggkhag7aedb.a02.azurefd.net
 request-for-personal-information:
   ttl: 3600
   type: NS
