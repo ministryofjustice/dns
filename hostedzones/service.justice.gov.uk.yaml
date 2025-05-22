@@ -163,10 +163,18 @@ _dmarc.recruitment:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=none\;rua=mailto:N4rHXmBVPY@dmarc.inboxmonster.com\;fo=0\;adkim=r\;aspf=r\;rf=afrf\;pct=100\;
+_dnsauth.manage.laa-online:
+  ttl: 300
+  type: TXT
+  value: _guqranwdfrzf1hrjj69pcrrh881x8dn
 _dnsauth.manage.dev.laa-online:
   ttl: 300
   type: TXT
   value: _c10if6cs0hjwzkve54i6zzaro6l1c0w
+_dnsauth.register.laa-online:
+  ttl: 300
+  type: TXT
+  value: _7mxda2m7si2greeh8ddkgy6j1qugjm5
 _dnsauth.register.dev.laa-online:
   ttl: 300
   type: TXT
@@ -1066,6 +1074,10 @@ manage-key-workers:
     - ns-1932.awsdns-49.co.uk.
     - ns-62.awsdns-07.com.
     - ns-887.awsdns-46.net.
+manage.laa-online:
+  ttl: 300
+  type: CNAME
+  value: afd-endpoint-management-003-h6f6daejfsdngzdy.a02.azurefd.net
 manage.dev.laa-online:
   ttl: 300
   type: CNAME
@@ -1543,6 +1555,10 @@ refer-monitor-intervention:
     - ns-1460.awsdns-54.org.
     - ns-1824.awsdns-36.co.uk.
     - ns-423.awsdns-52.com.
+register.laa-online:
+  ttl: 300
+  type: CNAME
+  value: afd-endpoint-registration-003-h2ehcggkhag7aedb.a02.azurefd.net
 register.dev.laa-online:
   ttl: 300
   type: CNAME
