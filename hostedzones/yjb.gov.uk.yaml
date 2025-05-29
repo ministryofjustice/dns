@@ -222,6 +222,9 @@ mta-sts.youthjusticepp:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d2vx1dz28thhfh.cloudfront.net.
     type: A
+nhmgbfoqnj4ppeqdcjvlrxhbdkrywvnd._domainkey:
+  type: CNAME
+  value: nhmgbfoqnj4ppeqdcjvlrxhbdkrywvnd.dkim.amazonses.com
 nleidm:
   type: A
   value: 82.153.133.251
@@ -331,6 +334,12 @@ ukcloud:
   ttl: 300
   type: A
   value: 51.231.96.86
+uxthla62n2r3e2xi24eg4bm6cwi6dlim._domainkey:
+  type: CNAME
+  value: uxthla62n2r3e2xi24eg4bm6cwi6dlim.dkim.amazonses.com
+vho227htc4ofmjdtbhtcqkvgvcdq7uo5._domainkey:
+  type: CNAME
+  value: vho227htc4ofmjdtbhtcqkvgvcdq7uo5.dkim.amazonses.com
 wfsjcdiwg5pc3ylq2vsglviwye5xwdvm._domainkey:
   ttl: 300
   type: CNAME
