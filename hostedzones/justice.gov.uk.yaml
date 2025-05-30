@@ -1141,6 +1141,9 @@ jaama._domainkey.fleetmanagementteam:
   ttl: 300
   type: TXT
   value: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeFclAkZdVjMAlrr5kkUVGNvJcb0DWEJngIMSNd4ApsfzMSjYVV+HkKRlvCIP8eiefG0guBfkz/f8MHbut+BwvLNM7IKLcHOrADKJDq5IVBpFtxLy5CuFIgdM0HQwmyweckVqEjLkQEIWVRTTb5FAkuVHFqfwSTPTbJoCqY41rcwIDAQAB
+ji5zfkk524tj2mop443trdi7xgvrgrin._domainkey:
+  type: CNAME
+  value: ji5zfkk524tj2mop443trdi7xgvrgrin.dkim.amazonses.com
 jira.cjscp:
   ttl: 600
   type: CNAME
@@ -1368,6 +1371,9 @@ mppmid:
   ttl: 600
   type: A
   value: 10.40.54.14
+mprntuj2igfe25oxu6qutwu3dlvvan5f._domainkey:
+  type: CNAME
+  value: mprntuj2igfe25oxu6qutwu3dlvvan5f.dkim.amazonses.com
 mrs:
   ttl: 600
   type: A
@@ -1944,6 +1950,9 @@ vpn:
     - ns-1588.awsdns-06.co.uk.
     - ns-388.awsdns-48.com.
     - ns-667.awsdns-19.net.
+w3efbvb4vxj3ty77s2opj2c35h6hhgqz._domainkey:
+  type: CNAME
+  value: w3efbvb4vxj3ty77s2opj2c35h6hhgqz.dkim.amazonses.com
 wam.ppud:
   ttl: 942942942
   type: Route53Provider/ALIAS
