@@ -195,6 +195,9 @@ elinks:
     values:
       - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
       - v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 300
+    type: A
+    value: 172.166.178.94
 elinks-edge-email.elinks:
   ttl: 300
   type: MX
