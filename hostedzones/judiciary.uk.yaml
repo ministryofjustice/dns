@@ -64,20 +64,6 @@ _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME
   value: _ee606fbc945495779ce81e0927f3b51a.hzdbphtyvy.acm-validations.aws.
-_amazonses.elinks-edge-email.elinks:
-  ttl: 300
-  type: TXT
-  value: ykNvooXBrlUupYPyUxqxKMbzm/EEapnclpbd1YCs8Z0=
-_amazonses.elinks-jo-staging-email:
-  type: TXT
-  value: Grb1W053MOR1pUfrBYERCNHA2hh7d9SOehGj+9lTN90=
-_amazonses.elinks-staging-email:
-  ttl: 300
-  type: TXT
-  value: WRoBHiuOz3lF71aqrz4bsFO8jLf0+DNKCzz6/RFlo4E=
-_amazonses.email.elinks:
-  type: TXT
-  value: Uv7Fm9ivI77hfVT/cB/cHV1gTdKpRtWMoSkJZqdeTGc=
 _asvdns-645286aa-830f-4a66-8c56-7a096583a55c.elinks:
   ttl: 300
   type: TXT
@@ -141,30 +127,6 @@ admin.myhr:
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
-bounce.elinks-edge-email.elinks:
-  ttl: 600
-  type: MX
-  value:
-    exchange: feedback-smtp.eu-west-1.amazonses.com
-    preference: 10
-bounce.elinks-jo-staging-email.elinks:
-  ttl: 600
-  type: MX
-  value:
-    exchange: feedback-smtp.eu-west-1.amazonses.com
-    preference: 10
-bounce.elinks-staging-email.elinks:
-  ttl: 600
-  type: MX
-  value:
-    exchange: feedback-smtp.eu-west-1.amazonses.com
-    preference: 10
-bounce.email.elinks:
-  ttl: 600
-  type: MX
-  value:
-    exchange: feedback-smtp.eu-west-1.amazonses.com
-    preference: 10
 crossdeployment:
   ttl: 300
   type: A
@@ -177,42 +139,12 @@ development.hr:
   ttl: 300
   type: CNAME
   value: dev-hr.uksouth.cloudapp.azure.com
-edge.elinks:
-  ttl: 300
-  type: CNAME
-  value: infinite-brachiosaurus-2eosgo9zoh46pr5stavr067w.herokudns.com
-ej-replica-edge.elinks:
-  ttl: 300
-  type: CNAME
-  value: cellular-hookworm-4q4v96irml4zyb4mkdr3599n.herokudns.com
-ej-replica-jo-staging.elinks:
-  ttl: 300
-  type: CNAME
-  value: curly-hollows-znp74u6pbymv9a7batorb929.herokudns.com
 elinks:
   - ttl: 300
     type: TXT
     values:
       - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
       - v=spf1 include:spf.protection.outlook.com -all
-elinks-edge-email.elinks:
-  ttl: 300
-  type: MX
-  value:
-    exchange: mail.dxw.net
-    preference: 10
-elinks-jo-staging-email.elinks:
-  ttl: 300
-  type: MX
-  value:
-    exchange: mail.dxw.net
-    preference: 10
-elinks-staging-email.elinks:
-  ttl: 300
-  type: MX
-  value:
-    exchange: mail.dxw.net
-    preference: 10
 em1999.hr:
   ttl: 300
   type: CNAME
@@ -225,12 +157,6 @@ em8445.development.hr:
   ttl: 300
   type: CNAME
   value: u29050082.wl083.sendgrid.net
-email.elinks:
-  ttl: 300
-  type: MX
-  value:
-    exchange: mail.dxw.net
-    preference: 10
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com.
@@ -301,7 +227,9 @@ prod.elinks:
     value: 172.166.178.94
   - ttl: 3600
     type: TXT
-    value: ms-domain-verification=ddeaab7f-106a-4018-885a-8fba7a19ad83
+    values:
+      - ms-domain-verification=ddeaab7f-106a-4018-885a-8fba7a19ad83
+      - v=spf1 include:spf.protection.outlook.com -all
 s1._domainkey.development.hr:
   ttl: 300
   type: CNAME
