@@ -296,9 +296,12 @@ myhr:
   type: CNAME
   value: ministryofjustice-portal.haloitsm.com
 prod.elinks:
-  ttl: 300
-  type: A
-  value: 172.166.178.94
+  - ttl: 300
+    type: A
+    value: 172.166.178.94
+  - ttl: 3600
+    type: TXT
+    value: ms-domain-verification=ddeaab7f-106a-4018-885a-8fba7a19ad83
 s1._domainkey.development.hr:
   ttl: 300
   type: CNAME
