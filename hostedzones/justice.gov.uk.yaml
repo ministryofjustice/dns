@@ -37,6 +37,10 @@
   ttl: 300
   type: CNAME
   value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com
+4x4t55iiruwexuw5utiherl23yr3igog._domainkey.HMCTS-feedback-survey:
+  ttl: 300
+  type: CNAME
+  value: 4x4t55iiruwexuw5utiherl23yr3igog.dkim.amazonses.com
 5axyevlb23jr5vn7z4uqemmr6llzuuy3._domainkey.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
@@ -99,6 +103,10 @@ _amazonses.cshrcaseworkcma:
   ttl: 300
   type: TXT
   value: Mmb+MWTjhMO4uzDIGEDFfagJGpbbN7h8BqVpAbuUDPQ=
+_amazonses.HMCTS-feedback-survey:
+  ttl: 300
+  type: TXT
+  value: 8K/hRxY6AfvqSMrEKhMer8Lh+7F1akMd+9VB/ETgEz8=
 _amazonses.optic:
   ttl: 300
   type: TXT
@@ -1580,6 +1588,10 @@ perf.courtstore:
     values:
       - google-site-verification=_ddDla0QaTcjKV5-KS1pOP5mPawCieNoirKehWsPo2E
       - v=spf1 include:_spf.google.com -all
+pi6ht3npl3b7pli4gzg5jeck25eyb5zz._domainkey.HMCTS-feedback-survey:
+  ttl: 300
+  type: CNAME
+  value: pi6ht3npl3b7pli4gzg5jeck25eyb5zz.dkim.amazonses.com
 pleuralplaques:
   ttl: 600
   type: A
@@ -1790,6 +1802,10 @@ service:
     - ns-1621.awsdns-10.co.uk.
     - ns-187.awsdns-23.com.
     - ns-978.awsdns-58.net.
+sfhnklauxsepzko2ikxwhzsmu54jgwno._domainkey.HMCTS-feedback-survey:
+  ttl: 300
+  type: CNAME
+  value: sfhnklauxsepzko2ikxwhzsmu54jgwno.dkim.amazonses.com
 sip.video:
   ttl: 300
   type: A
