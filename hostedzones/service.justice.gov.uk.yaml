@@ -534,6 +534,14 @@ checkmydiary:
     - ns-2009.awsdns-59.co.uk.
     - ns-695.awsdns-22.net.
     - ns-81.awsdns-10.com.
+child-arrangements-plan:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1020.awsdns-63.net
+    - ns-1256.awsdns-29.org
+    - ns-146.awsdns-18.com
+    - ns-1869.awsdns-41.co.uk
 cid2._domainkey.recruitment:
   ttl: 300
   type: CNAME
