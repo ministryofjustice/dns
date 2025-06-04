@@ -99,14 +99,14 @@ _amazonses:
   values:
     - 7TpoWZygS3NuQ4e4VDNJ7yM1uQtxz7ZTVuPQ57Njtog=
     - V9UFWT58TFN4bvzNq3kucIBHJ0LvG2tzcyO4XMcux5M=
-_amazonses.cshrcaseworkcma:
-  ttl: 300
-  type: TXT
-  value: Mmb+MWTjhMO4uzDIGEDFfagJGpbbN7h8BqVpAbuUDPQ=
 _amazonses.HMCTS-feedback-survey:
   ttl: 300
   type: TXT
   value: 8K/hRxY6AfvqSMrEKhMer8Lh+7F1akMd+9VB/ETgEz8=
+_amazonses.cshrcaseworkcma:
+  ttl: 300
+  type: TXT
+  value: Mmb+MWTjhMO4uzDIGEDFfagJGpbbN7h8BqVpAbuUDPQ=
 _amazonses.optic:
   ttl: 300
   type: TXT
