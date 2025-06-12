@@ -98,14 +98,6 @@ selector2._domainkey:
   ttl: 300
   type: CNAME
   value: selector2-publicguardian-gov-uk._domainkey.justiceuk.onmicrosoft.com
-sirius:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1083.awsdns-07.org.
-    - ns-1770.awsdns-29.co.uk.
-    - ns-486.awsdns-60.com.
-    - ns-870.awsdns-44.net.
 www:
   ttl: 942942942
   type: Route53Provider/ALIAS
