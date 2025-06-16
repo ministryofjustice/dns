@@ -249,6 +249,10 @@ _github-challenge-moj-analytical-services:
   ttl: 300
   type: TXT
   value: 610cab0fa8
+_github-pages-challenge-ministryofjustice.cloud-optimisation-and-accountability:
+  ttl: 300
+  type: TXT
+  value: 850a9bad548ca4fef49a6404f3df8c
 _h323cs._tcp.meet.video:
   ttl: 300
   type: SRV
