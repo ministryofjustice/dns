@@ -965,7 +965,7 @@ hmppsinsights:
 infox:
   ttl: 300
   type: NS
-  values: 
+  values:
     - ns-1487.awsdns-57.org
     - ns-1796.awsdns-32.co.uk
     - ns-379.awsdns-47.com
