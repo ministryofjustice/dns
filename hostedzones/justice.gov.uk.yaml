@@ -650,6 +650,10 @@ cjsm.secure-email.ppud:
   - ttl: 300
     type: TXT
     value: v=spf1 ip4:18.169.26.236 ip4:3.9.111.144 ~all
+cloud-optimisation-and-accountability:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
 cms-staging.court.store:
   ttl: 300
   type: A
