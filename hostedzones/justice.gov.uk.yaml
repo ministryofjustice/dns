@@ -1170,14 +1170,6 @@ intranet:
     - ns-1773.awsdns-29.co.uk.
     - ns-697.awsdns-23.net.
     - ns-77.awsdns-09.com.
-ise:
-  ttl: 600
-  type: NS
-  values:
-    - ns-245.awsdns-30.com
-    - ns-1809.awsdns-34.co.uk
-    - ns-967.awsdns-56.net
-    - ns-1150.awsdns-15.org
 jaama._domainkey.fleetmanagementteam:
   ttl: 300
   type: TXT
