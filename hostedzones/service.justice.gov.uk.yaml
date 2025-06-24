@@ -602,14 +602,6 @@ court-data-adaptor:
     - ns-1859.awsdns-40.co.uk.
     - ns-377.awsdns-47.com.
     - ns-888.awsdns-47.net.
-court-data-api:
-  ttl: 300
-  type: NS
-  values:
-    - ns-135.awsdns-16.com
-    - ns-1496.awsdns-59.org
-    - ns-1672.awsdns-17.co.uk
-    - ns-596.awsdns-10.net
 court-transcription:
   - ttl: 300
     type: MX
