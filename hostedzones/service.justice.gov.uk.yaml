@@ -319,6 +319,10 @@ _pexapp._tcp.courts-video-link:
       priority: 20
       target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
       weight: 10
+_qcvesiqcw4qpu2s1gcp9jjtdhju8zl2.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _sip._tcp.courts-video-link:
   ttl: 300
   type: SRV
