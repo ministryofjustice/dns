@@ -387,9 +387,17 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+_vchh259crsp04atci3tu9frnqtxfnvc.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_vchh259crsp04atci3tu9frnqtxfnvc.www.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value:
 access.platforms:
   type: NS
-  values:
+  values: dcv.digicert.com.
     - ns-1192.awsdns-21.org.
     - ns-1636.awsdns-12.co.uk.
     - ns-325.awsdns-40.com.
