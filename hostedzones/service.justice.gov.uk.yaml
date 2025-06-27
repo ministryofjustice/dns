@@ -394,10 +394,10 @@ _vchh259crsp04atci3tu9frnqtxfnvc.hmpps-canine-management:
 _vchh259crsp04atci3tu9frnqtxfnvc.www.hmpps-canine-management:
   ttl: 300
   type: CNAME
-  value:
+  value: dcv.digicert.com.
 access.platforms:
   type: NS
-  values: dcv.digicert.com.
+  values:
     - ns-1192.awsdns-21.org.
     - ns-1636.awsdns-12.co.uk.
     - ns-325.awsdns-40.com.
