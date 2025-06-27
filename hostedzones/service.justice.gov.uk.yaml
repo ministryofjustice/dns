@@ -153,6 +153,18 @@ _d77aef5e838aac4d3d7761ad92401c78.legacy.manage-external-funded-offender-provisi
   ttl: 300
   type: CNAME
   value: _414290eebad8535f016569d8e6055684.sdgjtdhdhz.acm-validations.aws.
+_dbcrz57yywnvkjhv79xpnbz71a4f8i7.exisspp.q-solution.net:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_dbcrz57yywnvkjhv79xpnbz71a4f8i7.pp.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_dbcrz57yywnvkjhv79xpnbz71a4f8i7.preprod.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _dmarc:
   type: TXT
   value: v=DMARC1\;p=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@digitaljustice.gov.uk\;
