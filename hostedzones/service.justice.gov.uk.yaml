@@ -153,14 +153,6 @@ _d77aef5e838aac4d3d7761ad92401c78.legacy.manage-external-funded-offender-provisi
   ttl: 300
   type: CNAME
   value: _414290eebad8535f016569d8e6055684.sdgjtdhdhz.acm-validations.aws.
-_dbcrz57yywnvkjhv79xpnbz71a4f8i7.pp.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_dbcrz57yywnvkjhv79xpnbz71a4f8i7.preprod.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _dmarc:
   type: TXT
   value: v=DMARC1\;p=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@digitaljustice.gov.uk\;
@@ -319,10 +311,6 @@ _pexapp._tcp.courts-video-link:
       priority: 20
       target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
       weight: 10
-_qcvesiqcw4qpu2s1gcp9jjtdhju8zl2.exchange-integration-services-stream:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _sip._tcp.courts-video-link:
   ttl: 300
   type: SRV
@@ -387,14 +375,6 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
-_vchh259crsp04atci3tu9frnqtxfnvc.hmpps-canine-management:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_vchh259crsp04atci3tu9frnqtxfnvc.www.hmpps-canine-management:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 access.platforms:
   type: NS
   values:
