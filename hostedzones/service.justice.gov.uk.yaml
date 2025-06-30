@@ -1834,10 +1834,6 @@ user-guide.laa-operations:
   ttl: 300
   type: CNAME
   value: ministryofjustice.github.io
-user-guide.operations-engineering:
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
 user-guide.staff-identity:
   ttl: 300
   type: CNAME
