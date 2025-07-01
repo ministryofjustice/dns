@@ -1619,10 +1619,6 @@ review-criminal-legal-aid:
     - ns-1936.awsdns-50.co.uk.
     - ns-295.awsdns-36.com.
     - ns-604.awsdns-11.net.
-runbooks.operations-engineering:
-  ttl: 300
-  type: CNAME
-  value: ministryofjustice.github.io
 s1._domainkey.jac.intranet:
   ttl: 300
   type: CNAME
