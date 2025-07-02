@@ -24,6 +24,14 @@ _dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_owup1kguxlib7j8lvfmwno5ixpw7v9n:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_owup1kguxlib7j8lvfmwno5ixpw7v9n.www:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _smtp._tls:
   ttl: 300
   type: TXT
