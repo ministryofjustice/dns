@@ -171,6 +171,10 @@ _dmarc.recruitment:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=none\;rua=mailto:N4rHXmBVPY@dmarc.inboxmonster.com\;fo=0\;adkim=r\;aspf=r\;rf=afrf\;pct=100\;
+_dnsauth.apply-for-hmpps-research:
+  ttl: 300
+  type: TXT
+  value: _ofnpi6l7fwvr2nln0f9ikpmmyjdsciz
 _dnsauth.manage.dev.laa-online:
   ttl: 300
   type: TXT
@@ -179,10 +183,6 @@ _dnsauth.manage.laa-online:
   ttl: 300
   type: TXT
   value: _guqranwdfrzf1hrjj69pcrrh881x8dn
-_dnsauth.apply-for-hmpps-research:
-  ttl: 300
-  type: TXT
-  value: _ofnpi6l7fwvr2nln0f9ikpmmyjdsciz
 _dnsauth.register.dev.laa-online:
   ttl: 300
   type: TXT
