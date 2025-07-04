@@ -414,6 +414,10 @@ advance-into-justice:
     - ns-1850.awsdns-39.co.uk.
     - ns-1059.awsdns-04.org.
     - ns-1016.awsdns-63.net.
+ah4lnpydpjs5l5z35kmxmnp4r4bkgg27._domainkey:
+  ttl: 300
+  type: CNAME
+  value: ah4lnpydpjs5l5z35kmxmnp4r4bkgg27.dkim.amazonses.com
 analytical-evidence-library:
   ttl: 300
   type: NS
@@ -515,6 +519,10 @@ c100:
     - ns-1553.awsdns-02.co.uk.
     - ns-374.awsdns-46.com.
     - ns-656.awsdns-18.net.
+ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
+  ttl: 300
+  type: CNAME
+  value: ccdw2w6jvkr2vreletczhejsrnfecbbr.dkim.amazonses.com
 ccms-ebs:
   type: NS
   values:
@@ -1026,6 +1034,10 @@ jury:
   ttl: 60
   type: CNAME
   value: jury-prototype.herokuapp.com
+k5l5ighhdj3e7e4wunbkxfspgg3nl4hv._domainkey:
+  ttl: 300
+  type: CNAME
+  value: k5l5ighhdj3e7e4wunbkxfspgg3nl4hv.dkim.amazonses.com
 laa-apex:
   ttl: 86400
   type: NS
