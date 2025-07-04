@@ -122,6 +122,10 @@ _smtp._tls.youthjusticepp:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+ah4lnpydpjs5l5z35kmxmnp4r4bkgg27._domainkey:
+  ttl: 300
+  type: CNAME
+  value: ah4lnpydpjs5l5z35kmxmnp4r4bkgg27.dkim.amazonses.com
 anugym6qhqpgzbegpxrp26htx36nixrm._domainkey:
   ttl: 300
   type: CNAME
@@ -133,6 +137,10 @@ ba57tyzq6qama5pndafilxh57qhain5m._domainkey:
   ttl: 300
   type: CNAME
   value: ba57tyzq6qama5pndafilxh57qhain5m.dkim.amazonses.com
+ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
+  ttl: 300
+  type: CNAME
+  value: ccdw2w6jvkr2vreletczhejsrnfecbbr.dkim.amazonses.com
 coo6soxcnaluiv3zpqvxtfdzo5wkoyup._domainkey:
   ttl: 300
   type: CNAME
@@ -172,6 +180,10 @@ juniper-smtp:
   - ttl: 300
     type: TXT
     value: v=spf1 include:amazonses.com -all
+k5l5ighhdj3e7e4wunbkxfspgg3nl4hv._domainkey:
+  ttl: 300
+  type: CNAME
+  value: k5l5ighhdj3e7e4wunbkxfspgg3nl4hv.dkim.amazonses.com
 kr2ub2cm6agxllr4lc4wjibgsvu2ph44._domainkey:
   ttl: 300
   type: CNAME
