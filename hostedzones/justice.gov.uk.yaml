@@ -1293,7 +1293,7 @@ llrs.nle:
   ttl: 60
   type: A
   value: 195.59.75.138
-lng.ai:
+langf:
   ttl: 3600
   type: A
   value: 108.142.104.36
