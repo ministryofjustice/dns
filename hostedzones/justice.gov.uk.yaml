@@ -1217,6 +1217,10 @@ k3._domainkey:
   ttl: 300
   type: CNAME
   value: dkim3.mcsv.net
+langf:
+  ttl: 3600
+  type: A
+  value: 108.142.104.36
 lawcommission:
   ttl: 600
   type: A
@@ -1293,10 +1297,6 @@ llrs.nle:
   ttl: 60
   type: A
   value: 195.59.75.138
-langf:
-  ttl: 3600
-  type: A
-  value: 108.142.104.36
 locateaprison:
   ttl: 600
   type: A
