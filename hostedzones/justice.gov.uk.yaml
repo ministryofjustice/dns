@@ -1220,7 +1220,7 @@ k3._domainkey:
 langfuse-ai:
   ttl: 3600
   type: NS
-  value: 
+  value:
     - ns1-06.azure-dns.com.
     - ns2-06.azure-dns.net.
     - ns3-06.azure-dns.org.
