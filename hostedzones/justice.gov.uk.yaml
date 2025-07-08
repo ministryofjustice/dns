@@ -1219,8 +1219,12 @@ k3._domainkey:
   value: dkim3.mcsv.net
 langfuse-ai:
   ttl: 3600
-  type: A
-  value: 108.141.186.61
+  type: NS
+  value:
+    - ns1-06.azure-dns.com.
+    - ns2-06.azure-dns.net.
+    - ns3-06.azure-dns.org.
+    - ns4-06.azure-dns.info.
 lawcommission:
   ttl: 600
   type: A
