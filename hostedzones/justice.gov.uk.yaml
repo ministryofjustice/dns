@@ -1217,10 +1217,10 @@ k3._domainkey:
   ttl: 300
   type: CNAME
   value: dkim3.mcsv.net
-langf:
+langfuse-ai:
   ttl: 3600
   type: A
-  value: 108.142.104.36
+  value: 108.141.186.61
 lawcommission:
   ttl: 600
   type: A
