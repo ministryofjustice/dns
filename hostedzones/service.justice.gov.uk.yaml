@@ -167,6 +167,10 @@ _domainkey.recruitment:
   ttl: 300
   type: TXT
   value: t=y\; o=~\;
+_dnsauth.apply-for-hmpps-research:
+  ttl: 300
+  type: TXT
+  value: _ofnpi6l7fwvr2nln0f9ikpmmyjdsciz
 _e423c56d23dc0dce73d7af3276cfd0e6.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
