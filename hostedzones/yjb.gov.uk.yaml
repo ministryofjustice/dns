@@ -409,20 +409,12 @@ yjaf-smtp-pp:
   value: 23.249.219.93
 yjbservices:
   - ttl: 300
-    type: MX
-    value:
-      exchange: yjbservices-yjb-gov-uk.mail.protection.outlook.com.
-      preference: 0
-  - ttl: 300
     type: NS
     values:
       - ns-1417.awsdns-49.org.
       - ns-1595.awsdns-07.co.uk.
       - ns-397.awsdns-49.com.
       - ns-844.awsdns-41.net.
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:spf.protection.outlook.com -all
 yjbservicespp:
   - ttl: 300
     type: MX
