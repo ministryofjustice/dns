@@ -1218,13 +1218,17 @@ k3._domainkey:
   type: CNAME
   value: dkim3.mcsv.net
 langfuse-ai:
-  ttl: 3600
-  type: NS
-  value:
-    - ns1-06.azure-dns.com.
-    - ns2-06.azure-dns.net.
-    - ns3-06.azure-dns.org.
-    - ns4-06.azure-dns.info.
+  - ttl: 3600
+    type: NS
+    value:
+      - ns1-06.azure-dns.com.
+      - ns2-06.azure-dns.net.
+      - ns3-06.azure-dns.org.
+      - ns4-06.azure-dns.info.
+  - ttl: 3600
+    type: TXT
+    name: langfuse-ai.justice.gov.uk
+    value: ms-domain-verification=c8a6f693-007d-4cc6-bfa4-f6c2949da4f3
 lawcommission:
   ttl: 600
   type: A
