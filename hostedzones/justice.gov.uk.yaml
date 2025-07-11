@@ -1418,7 +1418,7 @@ mppmid:
   type: A
   value: 10.40.54.14
 mprntuj2igfe25oxu6qutwu3dlvvan5f._domainkey:
-  ttl:300
+  ttl: 300
   type: CNAME
   value: mprntuj2igfe25oxu6qutwu3dlvvan5f.dkim.amazonses.com
 mrs:
