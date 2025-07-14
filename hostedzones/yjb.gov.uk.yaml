@@ -411,10 +411,10 @@ yjbservices:
   - ttl: 300
     type: NS
     values:
-      - ns-1417.awsdns-49.org.
-      - ns-1595.awsdns-07.co.uk.
-      - ns-397.awsdns-49.com.
-      - ns-844.awsdns-41.net.
+      - ns-1728.awsdns-24.co.uk
+      - ns-168.awsdns-21.com
+      - ns-997.awsdns-60.net
+      - ns-1118.awsdns-11.org
 yjbservicespp:
   - ttl: 300
     type: MX
