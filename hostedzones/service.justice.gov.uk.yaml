@@ -167,6 +167,14 @@ _dnsauth.apply-for-hmpps-research:
   ttl: 300
   type: TXT
   value: _ofnpi6l7fwvr2nln0f9ikpmmyjdsciz
+_dnsauth.portal-laa.dev.external-identity:
+  ttl: 300
+  type: TXT
+  value: _uet60uwc7jz3ql5l2bec3o1g2qw7jf9
+_dnsauth.portal.dev.external-identity:
+  ttl: 300
+  type: TXT
+  value: _i9hty6rziza05xmhcbzhg1gzr25uq0o
 _domainkey.recruitment:
   ttl: 300
   type: TXT
@@ -1312,6 +1320,14 @@ planetfm:
     - ns-1749.awsdns-26.co.uk
     - ns-219.awsdns-27.com
     - ns-609.awsdns-12.net
+portal-laa.dev.external-identity:
+  ttl: 300
+  type: CNAME
+  value: afd-endpoint-eucs-entra-ext-activation-001-bucxcyfdhzfea5ap.a01.azurefd.net
+portal.dev.external-identity:
+  ttl: 300
+  type: CNAME
+  value: afd-endpoint-eucs-entra-ext-activation-001-bucxcyfdhzfea5ap.a01.azurefd.net
 pqzo3wwgkdgsl3s5fmad52yftinv4hvm._domainkey:
   ttl: 1800
   type: CNAME
