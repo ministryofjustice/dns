@@ -7,11 +7,11 @@
       - ns-573.awsdns-07.net.
       - ns-1129.awsdns-13.org.
       - ns-1793.awsdns-32.co.uk.
-  - ttl: 3600
+  - ttl: 300
     type: A
     value: 35.214.53.226
 _17f1a5ff0645fabb456800298990b973:
-    ttl: 86400
+    ttl: 120
     type: NS
     values:
       - 567.dns-approval.sslmate.com.
@@ -26,6 +26,6 @@ _b5ac0b5abd9fcb994ba26c5369478a23.www:
     values:
       - 567.dns-approval.sslmate.com.
 www:
-  ttl: 43200
+  ttl: 300
   type: CNAME
   value: youbethejudge.org.uk.
