@@ -11,20 +11,20 @@
     type: A
     value: 35.214.53.226
 _17f1a5ff0645fabb456800298990b973:
-    ttl: 120
-    type: NS
-    values:
-      - 567.dns-approval.sslmate.com.
+  ttl: 120
+  type: NS
+  values:
+    - 567.dns-approval.sslmate.com.
 _b5ac0b5abd9fcb994ba26c5369478a23:
-    ttl: 120
-    type: NS
-    values:
+  ttl: 120
+  type: NS
+  values:
       - 567.dns-approval.sslmate.com.
 _b5ac0b5abd9fcb994ba26c5369478a23.www:
-    ttl: 120
-    type: NS
-    values:
-      - 567.dns-approval.sslmate.com.
+  ttl: 120
+  type: NS
+  values:
+    - 567.dns-approval.sslmate.com.
 www:
   ttl: 300
   type: CNAME
