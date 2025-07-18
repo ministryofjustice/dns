@@ -485,6 +485,10 @@ ai:
     - ns-1491.awsdns-58.org
     - ns-1856.awsdns-40.co.uk
     - ns-408.awsdns-51.com
+ai-for-all:
+  ttl: 300
+  type: CNAME
+  value: prompthub-prod-frontend.azurewebsites.net
 aka:
   ttl: 300
   type: CNAME
