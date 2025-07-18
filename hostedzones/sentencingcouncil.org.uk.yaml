@@ -1,6 +1,6 @@
 ---
 '':
-  - ttl: 600
+  - ttl: 300
     type: A
     value: 35.177.235.232
   - ttl: 172800
@@ -15,6 +15,6 @@ _asvdns-82dce4ea-c071-49e9-9164-f556aa6a2d32:
   type: TXT
   value: asvdns_c07dc387-d9a1-4d54-a531-27effdd26842
 www:
-  ttl: 1800
+  ttl: 300
   type: CNAME
   value: sentencing.live.bangdynamics.com.
