@@ -19,7 +19,7 @@ _b5ac0b5abd9fcb994ba26c5369478a23:
   ttl: 120
   type: NS
   values:
-      - 567.dns-approval.sslmate.com.
+    - 567.dns-approval.sslmate.com.
 _b5ac0b5abd9fcb994ba26c5369478a23.www:
   ttl: 120
   type: NS
