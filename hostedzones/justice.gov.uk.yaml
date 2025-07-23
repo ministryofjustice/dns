@@ -1339,17 +1339,9 @@ mal03:
   type: A
   value: 195.59.62.70
 mappa:
-  - ttl: 600
-    type: A
-    value: 31.25.189.126
-  - ttl: 600
-    type: MX
-    value:
-      exchange: mail.hosting.inovem.com.
-      preference: 5
-  - ttl: 300
-    type: TXT
-    value: v=spf1 ~all
+  - ttl: 3600
+    type: CNAME
+    value: mappa-justice-gov-uk.map.kahootz.com.
 markuppp:
   ttl: 600
   type: A
