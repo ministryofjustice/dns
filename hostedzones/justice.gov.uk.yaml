@@ -1127,6 +1127,10 @@ hmpps-az-gw1:
     - ns2-06.azure-dns.net.
     - ns3-06.azure-dns.org.
     - ns4-06.azure-dns.info.
+ideas:
+  ttl: 300
+  type: CNAME
+  value: da-moj.delib.net.
 immigrationappealsonline:
   ttl: 600
   type: NS
