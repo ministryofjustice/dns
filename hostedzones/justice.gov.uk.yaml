@@ -1130,7 +1130,7 @@ hmpps-az-gw1:
 ideas:
   ttl: 300
   type: CNAME
-  value: da-moj.delib.net
+  value: da-moj.delib.net.
 immigrationappealsonline:
   ttl: 600
   type: NS
