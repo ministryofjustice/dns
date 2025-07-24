@@ -173,7 +173,7 @@ _dnsauth.portal-laa.dev.external-identity:
   value: _uet60uwc7jz3ql5l2bec3o1g2qw7jf9
 _dnsauth.portal-laa.test.external-identity:
   ttl: 300
-  type: CNAME
+  type: TXT
   value: _95lxmd5t6oy612zrago8xb52z01fqti
 _dnsauth.portal.dev.external-identity:
   ttl: 300
