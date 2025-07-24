@@ -329,6 +329,38 @@ _h323rs._udp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback.video.service:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback1.video.service:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback2.video.service:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback3.video.service:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback4.video.service:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback5.video.service:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback6.video.service:  
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_lguoa2m4p2jicwdnc3k4evg3cnqleao.www.playback.video.service:
+  ttl: 300
+  type: CNAME
+  value:
 _mta-sts:
   ttl: 300
   type: TXT
