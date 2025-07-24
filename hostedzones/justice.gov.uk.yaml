@@ -360,7 +360,7 @@ _lguoa2m4p2jicwdnc3k4evg3cnqleao.playback.video.service:
 _lguoa2m4p2jicwdnc3k4evg3cnqleao.www.playback.video.service:
   ttl: 300
   type: CNAME
-  value:
+  value: dcv.digicert.com.
 _mta-sts:
   ttl: 300
   type: TXT
