@@ -287,38 +287,6 @@ _h323ls._udp.courts-video-link:
       priority: 20
       target: pxpxy004-dc02.courts-video-link.service.justice.gov.uk
       weight: 10
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback1.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback2.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback3.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback4.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback5.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback6.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.playback.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_lguoa2m4p2jicwdnc3k4evg3cnqleao.www.playback.video:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _pexapp._tcp.courts-video-link:
   ttl: 300
   type: SRV
