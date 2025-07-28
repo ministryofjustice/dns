@@ -69,7 +69,7 @@ _cdb8a1ec6dba331f6b47645d09fdaf73.pentaho8.yjbservices:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=none;
+  value: v=DMARC1; p=reject;
 _dmarc.yjbservices:
   ttl: 300
   type: CNAME
