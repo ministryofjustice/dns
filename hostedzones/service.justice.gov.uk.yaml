@@ -170,7 +170,7 @@ _dnsauth.apply-for-hmpps-research:
 _dnsauth.portal-laa.dev.external-identity:
   ttl: 300
   type: TXT
-  value: _uet60uwc7jz3ql5l2bec3o1g2qw7jf9
+  value: _dh288jvgo25qxn0zv2r0nyx4av1b7ly
 _dnsauth.portal-laa.test.external-identity:
   ttl: 300
   type: TXT
@@ -178,7 +178,7 @@ _dnsauth.portal-laa.test.external-identity:
 _dnsauth.portal.dev.external-identity:
   ttl: 300
   type: TXT
-  value: _i9hty6rziza05xmhcbzhg1gzr25uq0o
+  value: _hf59uuh2jwophvxejoaao0lx2e2yoxv
 _dnsauth.portal.test.external-identity:
   ttl: 300
   type: TXT
