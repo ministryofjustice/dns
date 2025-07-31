@@ -7,22 +7,6 @@
     - ns-1867.awsdns-41.co.uk.
     - ns-52.awsdns-06.com.
     - ns-936.awsdns-53.net.
-_h1bwzd6mwjxszqldanw0t604v6hggw1.playback:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_h1bwzd6mwjxszqldanw0t604v6hggw1.playback1:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_h1bwzd6mwjxszqldanw0t604v6hggw1.playback2:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_h1bwzd6mwjxszqldanw0t604v6hggw1.playback3:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _h1bwzd6mwjxszqldanw0t604v6hggw1.playback4:
   ttl: 300
   type: CNAME
