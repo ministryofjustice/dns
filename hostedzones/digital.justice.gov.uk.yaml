@@ -22,6 +22,7 @@
       - v=spf1 include:_spf.google.com include:sendgrid.net include:amazonses.com include:spf.protection.outlook.com ip4:54.194.156.23 ~all
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
       - MS=77F6B29953B5B4241F92A29E1C5632174D184A59
+      - atlassian-sending-domain-verification=37c6b6a0-c1f9-4043-8f06-b33908d8826f
 6vme3s556zqhosnlbiu452qmnd7g2zi3._domainkey:
   ttl: 1800
   type: CNAME
@@ -96,6 +97,18 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+atlassian-251101._domainkey:
+  ttl: 300
+  type: CNAME
+  value: atlassian-251101.dkim.atlassian.net.
+atlassian-a32d31._domainkey:
+  ttl: 300
+  type: CNAME
+  value: atlassian-a32d31.dkim.atlassian.net.
+atlassian-bounces:
+  ttl: 300
+  type: CNAME
+  value: bounces.mail-us.atlassian.net.
 autodiscover:
   ttl: 3600
   type: CNAME
