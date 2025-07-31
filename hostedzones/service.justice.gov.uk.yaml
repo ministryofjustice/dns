@@ -174,7 +174,7 @@ _dnsauth.portal-laa.dev.external-identity:
 _dnsauth.portal-laa.test.external-identity:
   ttl: 300
   type: TXT
-  value: _95lxmd5t6oy612zrago8xb52z01fqti
+  value: _oiud3vqvakr78gwkpm52yyta7befa6x
 _dnsauth.portal.dev.external-identity:
   ttl: 300
   type: TXT
@@ -182,7 +182,7 @@ _dnsauth.portal.dev.external-identity:
 _dnsauth.portal.test.external-identity:
   ttl: 300
   type: TXT
-  value: _pukihwujxune214qc6iv936j8nol3qr
+  value: _vgooxurtcud56hxdr7mu0cqm25r0l3w
 _domainkey.recruitment:
   ttl: 300
   type: TXT
