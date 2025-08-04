@@ -167,6 +167,10 @@ _dnsauth.apply-for-hmpps-research:
   ttl: 300
   type: TXT
   value: _ofnpi6l7fwvr2nln0f9ikpmmyjdsciz
+_dnsauth.laa-sign-in.external-identity:
+  ttl: 300
+  type: TXT
+  value: _0ovxhkohffn19tf361x7jtobg3t4mct
 _dnsauth.portal-laa.dev.external-identity:
   ttl: 300
   type: TXT
@@ -1046,6 +1050,10 @@ laa-finance-data:
     - ns-1932.awsdns-49.co.uk.
     - ns-403.awsdns-50.com.
     - ns-834.awsdns-40.net.
+laa-sign-in.external-identity:
+  ttl: 300
+  type: CNAME
+  value: afd-endpoint-eucs-entra-ext-activation-003-adejdchyaehah4a9.a02.azurefd.net
 laa-status-dashboard:
   ttl: 300
   type: NS
