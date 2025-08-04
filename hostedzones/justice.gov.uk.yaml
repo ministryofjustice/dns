@@ -233,6 +233,14 @@ _domainkey.people-development:
   ttl: 300
   type: TXT
   value: t=y\; o=~\;
+_fe8g7ovy35a3dkk5xp0psykepdvwpd2.staff.court.store:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_fe8g7ovy35a3dkk5xp0psykepdvwpd2.www.staff.court.store:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _github-challenge-hmcts:
   ttl: 300
   type: TXT
@@ -329,6 +337,14 @@ _h323rs._udp.video:
       priority: 10
       target: px02.video.justice.gov.uk
       weight: 10
+_hiz30bow5wg4yp0k7o078z2s90s6fef.courtstore:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_hiz30bow5wg4yp0k7o078z2s90s6fef.www.courtstore:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _mta-sts:
   ttl: 300
   type: TXT
