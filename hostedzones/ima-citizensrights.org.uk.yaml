@@ -21,9 +21,10 @@
       - MS=ms27470079
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
       - google-site-verification=ZF9wtpT_YiWaUp4t18aOheIRck4ZM6F4ejm80HGAsmc
-      - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 include:spf.protection.outlook.com include:_spf.google.com include:spf.mandrillapp.com -all
+      - v=spf1 mx ip4:194.33.196.0/24 ip4:194.33.192.0/24 ip4:172.246.41.121 include:spf.protection.outlook.com include:_spf.google.com include:spf.mandrillapp.com -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-reBVNpFQ525quczdx3kxrQpP
+      - brevo-code:70df7540dafa8ea20f0eccbc493bb5ae
 129688:
   ttl: 300
   type: CNAME
@@ -63,7 +64,7 @@ _cf-custom-hostname:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+  value: v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com
 _dmarc.newsletter:
   ttl: 300
   type: TXT
@@ -126,6 +127,10 @@ k3._domainkey:
   ttl: 300
   type: CNAME
   value: dkim3.mcsv.net
+mail._domainkey:
+  ttl: 300
+  type: TXT
+  value: k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB
 mhq1449:
   ttl: 300
   type: CNAME
