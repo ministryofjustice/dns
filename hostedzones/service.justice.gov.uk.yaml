@@ -1022,6 +1022,14 @@ laa-apex:
     - ns-484.awsdns-60.com.
     - ns-1921.awsdns-48.co.uk.
     - ns-1158.awsdns-16.org.
+laa-benefit-checker:
+  ttl: 300
+  type: NS
+  values: 
+    - ns-1494.awsdns-58.org
+    - ns-1921.awsdns-48.co.uk
+    - ns-64.awsdns-08.com
+    - ns-916.awsdns-50.net
 laa-crime:
   ttl: 300
   type: TXT
