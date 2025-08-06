@@ -1025,7 +1025,7 @@ laa-apex:
 laa-benefit-checker:
   ttl: 300
   type: NS
-  values: 
+  values:
     - ns-1494.awsdns-58.org
     - ns-1921.awsdns-48.co.uk
     - ns-64.awsdns-08.com
