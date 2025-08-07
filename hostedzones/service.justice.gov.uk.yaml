@@ -33,14 +33,6 @@ _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-
   ttl: 300
   type: CNAME
   value: _a7dcc4b9fda9896900ae733516c6193d.xlfgrmvvlj.acm-validations.aws.
-_2txda07ippujatlt6lwrmtg03o007ne.uat.laa-benefit-checker:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_2txda07ippujatlt6lwrmtg03o007ne.www.uat.laa-benefit-checker:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
   ttl: 300
   type: CNAME
