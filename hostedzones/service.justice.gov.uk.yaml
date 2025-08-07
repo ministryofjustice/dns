@@ -29,14 +29,6 @@ _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
-_1t62whbcnt4ej6waw9jbruabyybsj63.laa-benefit-checker:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_1t62whbcnt4ej6waw9jbruabyybsj63.www.laa-benefit-checker:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
