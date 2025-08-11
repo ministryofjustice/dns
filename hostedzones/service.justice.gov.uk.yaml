@@ -717,6 +717,14 @@ dev.manage-external-funded-offender-provision:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d3gjnixuqv4h4f.cloudfront.net.
     type: A
+dev.manage-your-legal-aid-users:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1170.awsdns-18.org
+    - ns-1947.awsdns-51.co.uk
+    - ns-403.awsdns-50.com
+    - ns-927.awsdns-51.net
 dev.network-access-control:
   ttl: 300
   type: NS
@@ -733,6 +741,14 @@ dev.victim-case-management:
     - ns-1605.awsdns-08.co.uk
     - ns-240.awsdns-30.com
     - ns-967.awsdns-56.net
+dev.your-legal-aid-services:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1473.awsdns-56.org
+    - ns-1885.awsdns-43.co.uk
+    - ns-363.awsdns-45.com
+    - ns-602.awsdns-11.net
 development.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
@@ -1114,6 +1130,14 @@ management.analytical-platform:
     - ns-1541.awsdns-00.co.uk.
     - ns-228.awsdns-28.com.
     - ns-602.awsdns-11.net.
+manage-your-legal-aid-users:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1156.awsdns-16.org
+    - ns-1969.awsdns-54.co.uk
+    - ns-761.awsdns-31.net
+    - ns-97.awsdns-12.com
 means-assessment-administration:
   ttl: 300
   type: NS
@@ -1770,6 +1794,14 @@ test.crown-court-remuneration:
   ttl: 300
   type: CNAME
   value: d11b6vfzzycae4.cloudfront.net
+test.manage-your-legal-aid-users:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1416.awsdns-49.org
+    - ns-1685.awsdns-18.co.uk
+    - ns-477.awsdns-59.com
+    - ns-855.awsdns-42.net
 test.victim-case-management:
   ttl: 300
   type: NS
@@ -1778,6 +1810,14 @@ test.victim-case-management:
     - ns-1346.awsdns-40.org.
     - ns-1540.awsdns-00.co.uk.
     - ns-642.awsdns-16.net.
+test.your-legal-aid-services:
+  ttl: 300
+  type: NS
+  values:
+   - ns-121.awsdns-15.com
+   - ns-1361.awsdns-42.org
+   - ns-1707.awsdns-21.co.uk
+   - ns-780.awsdns-33.net
 tipstaff:
   ttl: 172800
   type: NS
@@ -1962,6 +2002,14 @@ yokjyxwd7trqo3yra5buqzqzx7lx3phg._domainkey.recruitment:
   ttl: 300
   type: CNAME
   value: yokjyxwd7trqo3yra5buqzqzx7lx3phg.dkim.amazonses.com
+your-legal-aid-services:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1416.awsdns-49.org
+    - ns-2017.awsdns-60.co.uk
+    - ns-305.awsdns-38.com
+    - ns-849.awsdns-42.net
 youth-justice-worker-online-assessment:
   ttl: 300
   type: CNAME
