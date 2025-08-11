@@ -1814,10 +1814,10 @@ test.your-legal-aid-services:
   ttl: 300
   type: NS
   values:
-   - ns-121.awsdns-15.com
-   - ns-1361.awsdns-42.org
-   - ns-1707.awsdns-21.co.uk
-   - ns-780.awsdns-33.net
+    - ns-121.awsdns-15.com
+    - ns-1361.awsdns-42.org
+    - ns-1707.awsdns-21.co.uk
+    - ns-780.awsdns-33.net
 tipstaff:
   ttl: 172800
   type: NS
