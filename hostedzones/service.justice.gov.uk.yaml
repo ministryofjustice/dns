@@ -1122,14 +1122,6 @@ manage-key-workers:
     - ns-1932.awsdns-49.co.uk.
     - ns-62.awsdns-07.com.
     - ns-887.awsdns-46.net.
-management.analytical-platform:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1266.awsdns-30.org.
-    - ns-1541.awsdns-00.co.uk.
-    - ns-228.awsdns-28.com.
-    - ns-602.awsdns-11.net.
 manage-your-legal-aid-users:
   ttl: 300
   type: NS
@@ -1138,6 +1130,14 @@ manage-your-legal-aid-users:
     - ns-1969.awsdns-54.co.uk
     - ns-761.awsdns-31.net
     - ns-97.awsdns-12.com
+management.analytical-platform:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1266.awsdns-30.org.
+    - ns-1541.awsdns-00.co.uk.
+    - ns-228.awsdns-28.com.
+    - ns-602.awsdns-11.net.
 means-assessment-administration:
   ttl: 300
   type: NS
