@@ -165,12 +165,20 @@ gbqwy5gdcrmac5t7ulfw3fzond3hosyx._domainkey:
   ttl: 300
   type: CNAME
   value: gbqwy5gdcrmac5t7ulfw3fzond3hosyx.dkim.amazonses.com
+hpa65gtvpat7nktymcohpntuka3hfzq4._domainkey:
+  ttl: 300
+  type: CNAME
+  value: hpa65gtvpat7nktymcohpntuka3hfzq4.dkim.amazonses.com
 idm:
   type: A
   value: 82.153.133.251
 idm.y2a:
   type: A
   value: 62.232.198.68
+jhyomqeddtgcsqshskhybjnznal77jrr._domainkey:
+  ttl: 300
+  type: CNAME
+  value: jhyomqeddtgcsqshskhybjnznal77jrr.dkim.amazonses.com
 juniper-smtp:
   - ttl: 300
     type: MX
@@ -342,6 +350,10 @@ uat.y2a:
 uatlogin.y2a:
   type: A
   value: 62.232.198.68
+uezawpevnykgdoztcknm6y5uyx27apaq._domainkey:
+  ttl: 300
+  type: CNAME
+  value: uezawpevnykgdoztcknm6y5uyx27apaq.dkim.amazonses.com
 ukcloud:
   ttl: 300
   type: A
