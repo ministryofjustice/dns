@@ -1802,6 +1802,10 @@ training.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: d2xa34imt80u6b.cloudfront.net
+transcription:
+  ttl: 300
+  type: CNAME
+  value: justicetranscribe-prod-frontend.azurewebsites.net
 trg.list-assist:
   ttl: 300
   type: A
