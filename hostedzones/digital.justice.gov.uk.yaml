@@ -23,6 +23,7 @@
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
       - MS=77F6B29953B5B4241F92A29E1C5632174D184A59
       - atlassian-sending-domain-verification=37c6b6a0-c1f9-4043-8f06-b33908d8826f
+      - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
 6vme3s556zqhosnlbiu452qmnd7g2zi3._domainkey:
   ttl: 1800
   type: CNAME
