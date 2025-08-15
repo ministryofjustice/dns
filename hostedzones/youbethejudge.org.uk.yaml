@@ -1,6 +1,6 @@
 ---
 '':
-  - ttl: 172800
+  - ttl: 300
     type: NS
     values:
       - ns-136.awsdns-17.com.
