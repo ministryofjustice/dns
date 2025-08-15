@@ -3,7 +3,7 @@
   - ttl: 300
     type: A
     value: 35.177.235.232
-  - ttl: 172800
+  - ttl: 300
     type: NS
     values:
       - ns-1424.awsdns-50.org.
