@@ -1586,7 +1586,7 @@ recruitment:
         preference: 10
   - ttl: 300
     type: TXT
-    value: v=spf1 include:spf.dotmailer.com -all
+    value: v=spf1 include:spf.dotmailer.com include:sendgrid.net -all
 refer-monitor-intervention:
   ttl: 300
   type: NS
