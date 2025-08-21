@@ -19,7 +19,7 @@ admin:
   ttl: 300
   type: NS
   values:
-    - ns-1415.awsdns-48.org
-    - ns-1601.awsdns-08.co.uk
-    - ns-225.awsdns-28.com
-    - ns-790.awsdns-34.net
+    - ns-1415.awsdns-48.org.
+    - ns-1564.awsdns-03.co.uk.
+    - ns-252.awsdns-31.com.
+    - ns-812.awsdns-37.net.
