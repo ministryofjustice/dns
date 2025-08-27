@@ -868,10 +868,6 @@ dkim2048._domainkey.people-development:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA37IkYQ4qfWIHIF44LxwMOvrp2gZ36lV03BPO1J8zy+pDwznnXvH1J8nmWU/db2Lo61pVTaUxWOv5m1c4ng2GhjObBaey27UMbRYjNjOAoyPOp/WX0yK6YCeDKyNhoumLr/PqJO1IJpfq1X9EoCKhbpR8p5U""92jiS9zLaluwBHo37nO04YSK8qvpPuVj2IDlIdVNuH+wuzlYxtNoLJ4vUnl95Re+3p89Yaplh1vdRWXfDK/tzbO7F+jLOBxaLURD+wjYAcOUh/q+GyG5YT8md6RYGKs7Fl3TWOu90so5MCl8ropqcGwAr9sXHu6ELIyNGOO7gllWTGHjEoWDfxskQSQIDAQAB
-dkim.co._domainkey:
-  ttl: 60
-  type: TXT
-  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4qJi51KV7QeEoq6NT3KdI33PpanNW7emjHVt1twUB9UfKO6YeFihVHfHFfw/IVYOJ8malWOHkVHeP2DOCXg1dJYNmxER/5wnHpVaIjIU1FnoRAnLTLmgU0QqeEzhG8""xd6edSMgKj+GnpTb/zja0aNyKNi4Osd8sRXwwY/Fa7n2yT4JT/XgDCjnK591+jtVcOzqPGGD1wyaZSDROc8twRBnwk1w2udWmXLWilj0H2/r4oiX6DnDIQYBK1k2px+VWm8dta5HG15C0POv90/pZPlppa51EBEjB2jWH4xWMc/XLCuwqEbtaBCxpTQR8QJJY1fM6cDcwWhJpvsbWo4OYbmwIDAQAB
 dkim.justicejobs._domainkey.jobs:
   ttl: 300
   type: TXT
