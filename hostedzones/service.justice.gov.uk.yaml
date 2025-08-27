@@ -1329,9 +1329,9 @@ plan-your-future:
   ttl: 300
   type: NS
   values:
-    - nns-1740.awsdns-25.co.uk
-    - nns-304.awsdns-38.com
-    - nns-956.awsdns-55.net
+    - ns-1740.awsdns-25.co.uk
+    - ns-304.awsdns-38.com
+    - ns-956.awsdns-55.net
     - ns-1035.awsdns-01.org
 planetfm:
   type: NS
