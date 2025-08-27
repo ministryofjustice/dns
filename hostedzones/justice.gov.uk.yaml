@@ -871,7 +871,7 @@ dkim2048._domainkey.people-development:
 dkim.co._domainkey:
   ttl: 60
   type: TXT
-  value: v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4qJi51KV7QeEoq6NT3KdI33PpanNW7emjHVt1twUB9UfKO6YeFihVHfHFfw/IVYOJ8malWOHkVHeP2DOCXg1dJYNmxER/5wnHpVaIjIU1FnoRAnLTLmgU0QqeEzhG8\"\"xd6edSMgKj+GnpTb/zja0aNyKNi4Osd8sRXwwY/Fa7n2yT4JT/XgD""CjnK591+jtVcOzqPGGD1wyaZSDROc8twRBnwk1w2udWmXLWilj0H2/r4oiX6DnDIQYBK1k2px+VWm8dta5HG15C0POv90/pZPlppa51EBEjB2jWH4xWMc/XLCuwqEbtaBCxpTQR8QJJY1fM6cDcwWhJpvsbWo4OYbmwIDAQAB
+  value: '"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4qJi51KV7QeEoq6NT3KdI33PpanNW7emjHVt1twUB9UfKO6YeFihVHfHFfw/IVYOJ8malWOHkVHeP2DOCXg1dJYNmxER/5wnHpVaIjIU1FnoRAnLTLmgU0QqeEzhG8xd6edSMgKj+GnpTb/zja0aNyKNi4Osd8sRXwwY/Fa7n2yT4JT/XgDCjnK591+jtVcOzqPGGD1wyaZSDROc8twRBnwk1w2udWmXLWilj0H2/r4oiX6DnDIQYBK1k2px+VWm8dta5HG15C0POv90/pZPlppa51EBEjB2jWH4xWMc/XLCuwqEbtaBCxpTQR8QJJY1fM6cDcwWhJpvsbWo4OYbmwIDAQAB"'
 dkim.justicejobs._domainkey.jobs:
   ttl: 300
   type: TXT
