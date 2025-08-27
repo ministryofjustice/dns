@@ -1010,10 +1010,6 @@ judicialoffice.intranet:
   ttl: 300
   type: CNAME
   value: jointranet.prod.wp.dsd.io
-jury:
-  ttl: 60
-  type: CNAME
-  value: jury-prototype.herokuapp.com
 laa-apex:
   ttl: 86400
   type: NS
