@@ -1322,14 +1322,6 @@ mail.contact:
   ttl: 300
   type: A
   value: 51.143.128.114
-makeaplea:
-  ttl: 600
-  type: NS
-  values:
-    - ns-1074.awsdns-06.org.
-    - ns-1720.awsdns-23.co.uk.
-    - ns-427.awsdns-53.com.
-    - ns-895.awsdns-47.net.
 mal01:
   ttl: 600
   type: A
