@@ -35,6 +35,22 @@ _mta-sts:
   ttl: 300
   type: TXT
   value: v=STSv1\; id=a9e2b55dbbb2b9e38e8ccf6b9a194dd8
+_sip._tls.devl:
+  ttl: 3600
+  type: SRV
+  values:
+    - port: 443
+      priority: 100
+      target: sipdir.online.lync.com
+      weight: 1
+_sipfederationtls._tcp.devl:
+  ttl: 3600
+  type: SRV
+  values:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
 _smtp._tls:
   ttl: 300
   type: TXT
@@ -42,10 +58,16 @@ _smtp._tls:
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com
+autodiscover.devl:
+  ttl: 300
+  type: CNAME
+  value: autodiscover.outlook.com.
 devl:
   - ttl: 300
     type: TXT
-    value: MS=ms56207796
+    values:
+      - MS=ms56207796
+      - v=spf1 include:spf.protection.outlook.com -all
   - ttl: 3600
     type: MX
     value:
@@ -54,9 +76,17 @@ devl:
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com
+enterpriseenrollment.devl:
+  ttl: 300
+  type: CNAME
+  value: enterpriseenrollment-s.manage.microsoft.com.
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net
+enterpriseregistration.devl:
+  ttl: 300
+  type: CNAME
+  value: enterpriseregistration.windows.net.
 fp01._domainkey:
   ttl: 300
   type: TXT
@@ -64,6 +94,10 @@ fp01._domainkey:
 litesrv._domainkey:
   type: TXT
   value: litesrv._domainkey.mlsend.com
+lyncdiscover.devl:
+  ttl: 300
+  type: CNAME
+  value: webdir.online.lync.com.
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net
@@ -81,3 +115,7 @@ selector1._domainkey:
 selector2._domainkey:
   type: CNAME
   value: selector2-hmiprisons-gov-uk._domainkey.justiceuk.onmicrosoft.com
+sip.devl:
+  ttl: 300
+  type: CNAME
+  value: sipdir.online.lync.com.
