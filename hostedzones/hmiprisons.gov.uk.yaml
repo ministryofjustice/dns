@@ -43,14 +43,14 @@ autodiscover:
   type: CNAME
   value: autodiscover.outlook.com
 devl:
-    - ttl: 300
-      type: TXT
-      value: MS=ms56207796
-    - ttl: 3600
-      type: MX
-      value:
-        exchange: devl-hmiprisons-gov-uk.mail.protection.outlook.com.
-        preference: 0
+  - ttl: 300
+    type: TXT
+    value: MS=ms56207796
+  - ttl: 3600
+    type: MX
+    value:
+      exchange: devl-hmiprisons-gov-uk.mail.protection.outlook.com.
+      preference: 0
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com
