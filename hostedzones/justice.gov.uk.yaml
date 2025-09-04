@@ -14,7 +14,7 @@
   - ttl: 600
     type: TXT
     values:
-      - 2024092711172121ni7tnf9yvm6mf9k5z9ahrqdpmoctc1k9lpkic5vaq1fvwqur
+      - 202509031251471dcb3cbykr3491d4rxt7zubx1mfnez7jnpvyciqqaje7aj2lld
       - BTUhp9Uq4ukuVfeGN5jrIsf32ll79sBSGRw0qc+3XoO2ewFCNNdhMIMb+tj5xdom8y7CWGgxtthH/9mE/p8+Yg==
       - Dynatrace-site-verification=b3468c91-d00e-4550-b156-92df0139d471__5ae4ot4eoj67h6tepojhf93del
       - MS=ms58266631
@@ -1309,7 +1309,7 @@ mail1.criminalappealoffice:
     value: 178.248.34.43
   - ttl: 300
     type: TXT
-    value: 2024092711172121ni7tnf9yvm6mf9k5z9ahrqdpmoctc1k9lpkic5vaq1fvwqur
+    value: 202509031251471dcb3cbykr3491d4rxt7zubx1mfnez7jnpvyciqqaje7aj2lld
 mail2:
   ttl: 600
   type: A
