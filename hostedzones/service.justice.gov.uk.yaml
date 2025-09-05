@@ -29,6 +29,14 @@ _0cbf0f810ad5c633d700bb504ca45b1f.intranet:
   ttl: 300
   type: CNAME
   value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
+_0h3hxa6imi5iind3wlymd319qz1fg0g.staging.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_0h3hxa6imi5iind3wlymd319qz1fg0g.www.staging.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
