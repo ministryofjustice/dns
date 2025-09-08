@@ -46,14 +46,6 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
-_tomhq65uka92istoi2nu6m4kp8ke2i7.sopvpn:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_tomhq65uka92istoi2nu6m4kp8ke2i7.www.sopvpn:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 asuid.search-policy-and-guidance:
   ttl: 300
   type: TXT
