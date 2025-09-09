@@ -43,7 +43,23 @@ _sip._tls.devl:
       priority: 100
       target: sipdir.online.lync.com
       weight: 1
+_sip._tls.nle:
+  ttl: 3600
+  type: SRV
+  values:
+    - port: 443
+      priority: 100
+      target: sipdir.online.lync.com
+      weight: 1
 _sipfederationtls._tcp.devl:
+  ttl: 3600
+  type: SRV
+  values:
+    port: 5061
+    priority: 100
+    target: sipfed.online.lync.com
+    weight: 1
+_sipfederationtls._tcp.nle:
   ttl: 3600
   type: SRV
   values:
@@ -59,6 +75,10 @@ autodiscover:
   type: CNAME
   value: autodiscover.outlook.com
 autodiscover.devl:
+  ttl: 300
+  type: CNAME
+  value: autodiscover.outlook.com.
+autodiscover.nle:
   ttl: 300
   type: CNAME
   value: autodiscover.outlook.com.
@@ -80,10 +100,18 @@ enterpriseenrollment.devl:
   ttl: 300
   type: CNAME
   value: enterpriseenrollment-s.manage.microsoft.com.
+enterpriseenrollment.nle:
+  ttl: 300
+  type: CNAME
+  value: enterpriseenrollment-s.manage.microsoft.com.
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net
 enterpriseregistration.devl:
+  ttl: 300
+  type: CNAME
+  value: enterpriseregistration.windows.net.
+enterpriseregistration.nle:
   ttl: 300
   type: CNAME
   value: enterpriseregistration.windows.net.
@@ -95,6 +123,10 @@ litesrv._domainkey:
   type: TXT
   value: litesrv._domainkey.mlsend.com
 lyncdiscover.devl:
+  ttl: 300
+  type: CNAME
+  value: webdir.online.lync.com.
+lyncdiscover.nle:
   ttl: 300
   type: CNAME
   value: webdir.online.lync.com.
@@ -110,9 +142,16 @@ mta-sts:
     name: d1tjzr1uxijqgl.cloudfront.net.
     type: A
 nle:
-  ttl: 300
-  type: TXT
-  value: MS=ms88411109
+  - ttl: 300
+    type: TXT
+    values:
+      - MS=ms88411109
+      - v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 3600
+    type: MX
+    value:
+      exchange: nle-hmiprisons-gov-uk.mail.protection.outlook.com.
+      preference: 0
 selector1._domainkey:
   type: CNAME
   value: selector1-hmiprisons-gov-uk._domainkey.justiceuk.onmicrosoft.com
@@ -120,6 +159,10 @@ selector2._domainkey:
   type: CNAME
   value: selector2-hmiprisons-gov-uk._domainkey.justiceuk.onmicrosoft.com
 sip.devl:
+  ttl: 300
+  type: CNAME
+  value: sipdir.online.lync.com.
+sip.nle:
   ttl: 300
   type: CNAME
   value: sipdir.online.lync.com.
