@@ -109,6 +109,10 @@ mta-sts:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d1tjzr1uxijqgl.cloudfront.net.
     type: A
+nle:
+  ttl: 300
+  type: TXT
+  value: MS=ms88411109
 selector1._domainkey:
   type: CNAME
   value: selector1-hmiprisons-gov-uk._domainkey.justiceuk.onmicrosoft.com
