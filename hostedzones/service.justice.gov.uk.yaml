@@ -1313,6 +1313,14 @@ pathfinder:
     - ns-1625.awsdns-11.co.uk.
     - ns-391.awsdns-48.com.
     - ns-855.awsdns-42.net.
+pecs-contract-guide:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1150.awsdns-15.org.
+    - ns-1656.awsdns-15.co.uk.
+    - ns-480.awsdns-60.com.
+    - ns-581.awsdns-08.net.
 perf.victim-case-management:
   ttl: 300
   type: NS
