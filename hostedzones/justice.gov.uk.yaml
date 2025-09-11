@@ -30,6 +30,7 @@
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
       - openai-domain-verification=dv-K7YKE7fDeUHEZaXrnMLEVLOQ
       - brevo-code:5df81568a8579db8c5271574de58f6bb
+      - jamf-site-verification=7hKH_tP5JKaZNA5AhAn2kA
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
