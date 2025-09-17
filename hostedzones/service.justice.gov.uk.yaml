@@ -69,6 +69,10 @@ _184ea2e06cb78e1139bdba40932f8753.training.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _545a78ac6039acf48eddbf6c977afe0b.djqtsrsxkq.acm-validations.aws.
+_406ca2868cb392d49a74fea7032d0c11.status.hosting:
+  ttl: 300
+  type: CNAME
+  value: _be2fc50463d76f7146acf4d72795d0db.xlfgrmvvlj.acm-validations.aws.
 _862ab8fd914ba85df7f632f9039ec540.crown-court-remuneration:
   ttl: 300
   type: CNAME
