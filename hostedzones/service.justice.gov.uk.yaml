@@ -769,6 +769,10 @@ em1689.officialsolicitorandpublictrustee.intranet:
   ttl: 300
   type: CNAME
   value: u2320754.wl005.sendgrid.net
+em1979.status.hosting:
+  ttl: 300
+  type: CNAME
+  value: u31181182.wl183.sendgrid.net
 email.email:
   ttl: 300
   type: CNAME
@@ -1313,6 +1317,14 @@ pathfinder:
     - ns-1625.awsdns-11.co.uk.
     - ns-391.awsdns-48.com.
     - ns-855.awsdns-42.net.
+pdt2._domainkey.status.hosting:
+  ttl: 300
+  type: CNAME
+  value: pdt2.domainkey.u31181182.wl183.sendgrid.net
+pdt._domainkey.status.hosting:
+  ttl: 300
+  type: CNAME
+  value: pdt.domainkey.u31181182.wl183.sendgrid.net
 pecs-contract-guide:
   ttl: 300
   type: NS
@@ -1730,6 +1742,10 @@ staging.hmpps-performance-hub:
   ttl: 300
   type: CNAME
   value: performance-hub.hmpps-preproduction.modernisation-platform.service.justice.gov.uk
+status.hosting:
+  ttl: 300
+  type: CNAME
+  value: cd-390cfd557b84f57b525c40af524095b2.hosted-status.pagerduty.com
 suaehjnchl4x3uc37ltzv4sjvox32tsg._domainkey:
   ttl: 1800
   type: CNAME
