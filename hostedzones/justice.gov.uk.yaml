@@ -31,6 +31,7 @@
       - openai-domain-verification=dv-K7YKE7fDeUHEZaXrnMLEVLOQ
       - brevo-code:5df81568a8579db8c5271574de58f6bb
       - jamf-site-verification=7hKH_tP5JKaZNA5AhAn2kA
+      - onetrust-domain-verification=10706c89653e4a11b20a5c0dc2410bf2
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
