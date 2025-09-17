@@ -1317,14 +1317,14 @@ pathfinder:
     - ns-1625.awsdns-11.co.uk.
     - ns-391.awsdns-48.com.
     - ns-855.awsdns-42.net.
-pdt._domainkey.status.hosting:
-  ttl: 300
-  type: CNAME
-  value: pdt.domainkey.u31181182.wl183.sendgrid.net
 pdt2._domainkey.status.hosting:
   ttl: 300
   type: CNAME
   value: pdt2.domainkey.u31181182.wl183.sendgrid.net
+pdt._domainkey.status.hosting:
+  ttl: 300
+  type: CNAME
+  value: pdt.domainkey.u31181182.wl183.sendgrid.net
 pecs-contract-guide:
   ttl: 300
   type: NS
