@@ -33,6 +33,10 @@ _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-
   ttl: 300
   type: CNAME
   value: _a7dcc4b9fda9896900ae733516c6193d.xlfgrmvvlj.acm-validations.aws.
+_406ca2868cb392d49a74fea7032d0c11.status.hosting:
+  ttl: 300
+  type: CNAME
+  value: _be2fc50463d76f7146acf4d72795d0db.xlfgrmvvlj.acm-validations.aws.
 _6f2592c897ce1cb57321ce86823bba01.www.find-unclaimed-court-money:
   ttl: 300
   type: CNAME
