@@ -199,6 +199,10 @@ kr2ub2cm6agxllr4lc4wjibgsvu2ph44._domainkey:
 login.y2a:
   type: A
   value: 62.232.198.68
+m4qkvrkmpxxeubciw72ju2im3dvpi2vu._domainkey:
+  ttl: 300
+  type: CNAME
+  value: m4qkvrkmpxxeubciw72ju2im3dvpi2vu.dkim.amazonses.com
 mail-acp1:
   ttl: 300
   type: A
@@ -274,6 +278,10 @@ portal.y2a:
 portal.yjbservices:
   type: A
   value: 83.151.208.61
+qpaef4tkj4d6ficg36wluu3wctyhgxin._domainkey:
+  ttl: 300
+  type: CNAME
+  value: qpaef4tkj4d6ficg36wluu3wctyhgxin.dkim.amazonses.com
 portal.yjbservicespp:
   type: A
   value: 83.151.208.61
@@ -462,3 +470,7 @@ youthjusticepp:
   - ttl: 300
     type: TXT
     value: v=spf1 include:spf.protection.outlook.com -all
+yxbhmn6koyegtmg2okc2woalk2tkcbop._domainkey:
+  ttl: 300
+  type: CNAME
+  value: yxbhmn6koyegtmg2okc2woalk2tkcbop.dkim.amazonses.com
