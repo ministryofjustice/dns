@@ -278,13 +278,13 @@ portal.y2a:
 portal.yjbservices:
   type: A
   value: 83.151.208.61
+portal.yjbservicespp:
+  type: A
+  value: 83.151.208.61
 qpaef4tkj4d6ficg36wluu3wctyhgxin._domainkey:
   ttl: 300
   type: CNAME
   value: qpaef4tkj4d6ficg36wluu3wctyhgxin.dkim.amazonses.com
-portal.yjbservicespp:
-  type: A
-  value: 83.151.208.61
 selector1._domainkey:
   type: CNAME
   value: selector1-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
