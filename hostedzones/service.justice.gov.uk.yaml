@@ -729,6 +729,14 @@ dev.network-access-control:
     - ns-1990.awsdns-56.co.uk.
     - ns-4.awsdns-00.com.
     - ns-650.awsdns-17.net.
+dev.reuselibrary:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1105.awsdns-10.org.
+    - ns-1748.awsdns-26.co.uk.
+    - ns-500.awsdns-62.com.
+    - ns-698.awsdns-23.net.
 dev.victim-case-management:
   ttl: 300
   type: NS
