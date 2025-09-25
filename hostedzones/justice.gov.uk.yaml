@@ -68,10 +68,18 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
+_08e7ccfff3521b640f7cfcccbc56d932.uat.ppud:
+  ttl: 300
+  type: CNAME
+  value: _7636e84d1d69c586013ba2dae7d17f6c.xlfgrmvvlj.acm-validations.aws.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_68d42b6ad48ac655c9781fa6ddb71cb6.www.uat.ppud:
+  ttl: 300
+  type: CNAME
+  value: _1fd78d6844d7ebc7516d551cd52d4d63.xlfgrmvvlj.acm-validations.aws.
 _501b4543309e365daa9988b0f8f5bf75.cshrcaseworkcma:
   ttl: 300
   type: CNAME
@@ -235,6 +243,14 @@ _domainkey.people-development:
   ttl: 300
   type: TXT
   value: t=y\; o=~\;
+_e5502c3792a406f2aa03405f40e6b15d.wamuat.ppud:
+  ttl: 300
+  type: CNAME
+  value: _7934e6ab32c7d9d155f365b26beda5ff.xlfgrmvvlj.acm-validations.aws
+_fb2dacaf46c7ec95ab26455b4453e494.www.wamuat.ppud:
+  ttl: 300
+  type: CNAME
+  value: _964f7e33c533d6cc857633bd6f88fc20.xlfgrmvvlj.acm-validations.aws.
 _github-challenge-hmcts:
   ttl: 300
   type: TXT
