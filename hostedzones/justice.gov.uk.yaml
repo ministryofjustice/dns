@@ -68,6 +68,10 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
+_08e7ccfff3521b640f7cfcccbc56d932.uat.ppud:
+  ttl: 300
+  type: CNAME
+  value: _7636e84d1d69c586013ba2dae7d17f6c.xlfgrmvvlj.acm-validations.aws.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
@@ -76,10 +80,6 @@ _501b4543309e365daa9988b0f8f5bf75.cshrcaseworkcma:
   ttl: 300
   type: CNAME
   value: _e96d484b8d32bf4fe131ccbf27150b2b.zfyfvmchrl.acm-validations.aws.
-_08e7ccfff3521b640f7cfcccbc56d932.uat.ppud:
-  ttl: 300
-  type: CNAME
-  value: _7636e84d1d69c586013ba2dae7d17f6c.xlfgrmvvlj.acm-validations.aws
 _956e7fb445bb521906e78cc188987061.mta-sts.administrativecourtoffice:
   ttl: 60
   type: CNAME
