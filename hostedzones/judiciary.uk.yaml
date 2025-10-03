@@ -68,6 +68,10 @@ _asvdns-645286aa-830f-4a66-8c56-7a096583a55c.elinks:
   ttl: 300
   type: TXT
   value: asvdns_56e3b042-95f2-47f4-900c-c5aa7e7de925
+_asvdns-a86da8ae-ae4e-458b-b180-72f2dc04e8ac.jcm:
+  ttl: 300
+  type: TXT
+  value: asvdns_b9fc3196-2d5e-49e5-ac3a-cf3e895f549e
 _asvdns-afe65593-7e9d-4bcc-86ca-8ed9fc31be68.intranet:
   ttl: 300
   type: TXT
