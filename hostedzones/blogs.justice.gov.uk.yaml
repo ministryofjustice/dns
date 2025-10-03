@@ -50,10 +50,6 @@ opgsenior:
   ttl: 300
   type: CNAME
   value: opgsenior.wpengine.com
-opgtransformation:
-  ttl: 300
-  type: CNAME
-  value: opgblog.wpengine.com
 www:
   ttl: 300
   type: A
