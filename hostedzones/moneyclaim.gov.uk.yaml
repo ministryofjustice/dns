@@ -14,14 +14,10 @@
       hosted-zone-id: Z1BKCTXD74EZPE
       name: s3-website-eu-west-1.amazonaws.com.
       type: A
-_asvdns-4d852592-5da4-4a75-b244-ee709e15426a.www:
+_asvdns-9e9e2fdf-27e7-4e91-9dfe-7570e68f2ff6:
   ttl: 300
   type: TXT
-  value: asvdns_7e9282c1-3273-498a-98e0-e20b126a1e7d
-_asvdns-d22a1696-0e65-46b3-92a2-678040d1755d:
-  ttl: 300
-  type: TXT
-  value: asvdns_5d04784c-c491-442a-9d24-8e762212bc06
+  value: asvdns_65ecdd20-600e-43b2-8e9f-1236a3dbe1d0
 www:
   ttl: 300
   type: CNAME
