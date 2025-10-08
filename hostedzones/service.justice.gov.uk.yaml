@@ -1026,6 +1026,14 @@ judicialoffice.intranet:
   ttl: 300
   type: CNAME
   value: jointranet.prod.wp.dsd.io
+laa:
+  ttl: 86400
+  type: NS
+  values:
+    - ns-1755.awsdns-27.co.uk.
+    - ns-855.awsdns-42.net.
+    - ns-432.awsdns-54.com.
+    - ns-1531.awsdns-63.org.
 laa-apex:
   ttl: 86400
   type: NS
