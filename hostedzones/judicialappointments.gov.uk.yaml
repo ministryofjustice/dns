@@ -31,11 +31,9 @@ _asvdns-dbc20bcc-93bd-4de9-a347-c6f3ee0fe0cb:
   type: TXT
   value: asvdns_c3033785-ef9f-432b-ae81-93d0b6eaac0e
 _dmarc:
-  - ttl: 300
-    type: CNAME
-    value: _dmarc_ttp_policy.justice.gov.uk
-  - type: TXT
-    value: v=DMARC1; p=none;
+  ttl: 300
+  type: CNAME
+  value: _dmarc_ttp_policy.justice.gov.uk
 _github-challenge-moj-analytical-services:
   ttl: 60
   type: TXT
