@@ -31,9 +31,11 @@ _asvdns-dbc20bcc-93bd-4de9-a347-c6f3ee0fe0cb:
   type: TXT
   value: asvdns_c3033785-ef9f-432b-ae81-93d0b6eaac0e
 _dmarc:
-  ttl: 300
-  type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+    - ttl: 300
+      type: CNAME
+      value: _dmarc_ttp_policy.justice.gov.uk
+    - type: TXT
+      value: v=DMARC1; p=none;
 _github-challenge-moj-analytical-services:
   ttl: 60
   type: TXT
@@ -59,6 +61,12 @@ fp01._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+k2._domainkey:
+  type: CNAME
+  value: dkim2.mcsv.net
+k3._domainkey:
+  type: CNAME
+  value: dkim3.mcsv.net
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net
