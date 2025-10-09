@@ -59,6 +59,12 @@ fp01._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+k2._domainkey:
+  type: CNAME
+  value: dkim2.mcsv.net
+k3._domainkey:
+  type: CNAME
+  value: dkim3.mcsv.net
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net
