@@ -80,6 +80,10 @@ _68d42b6ad48ac655c9781fa6ddb71cb6.www.uat.ppud:
   ttl: 300
   type: CNAME
   value: _1fd78d6844d7ebc7516d551cd52d4d63.xlfgrmvvlj.acm-validations.aws.
+_095a63271c706ca475268956d4f33243.www.training.ppud:
+  ttl: 300
+  type: CNAME
+  value: _983e29d9e23e70fb56d73b737037ae3b.xlfgrmvvlj.acm-validations.aws.
 _501b4543309e365daa9988b0f8f5bf75.cshrcaseworkcma:
   ttl: 300
   type: CNAME
@@ -247,6 +251,10 @@ _e5502c3792a406f2aa03405f40e6b15d.wamuat.ppud:
   ttl: 300
   type: CNAME
   value: _7934e6ab32c7d9d155f365b26beda5ff.xlfgrmvvlj.acm-validations.aws
+_f1398d958bbde780dbd521197c34cf97.training.ppud:
+  ttl: 300
+  type: CNAME
+  value: _87f9794af3411be1c5672e2e29cd3098.xlfgrmvvlj.acm-validations.aws.
 _fb2dacaf46c7ec95ab26455b4453e494.www.wamuat.ppud:
   ttl: 300
   type: CNAME
