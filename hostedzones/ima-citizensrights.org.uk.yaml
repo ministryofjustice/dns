@@ -29,6 +29,14 @@
   ttl: 300
   type: CNAME
   value: sendgrid.net
+_3ox3163m4nuze1yepnpjvhcffu5ce25.complaints:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
+_3ox3163m4nuze1yepnpjvhcffu5ce25.www.complaints:
+  ttl: 300
+  type: CNAME
+  value: dcv.digicert.com.
 _6a19d3849cc84ad68c492edf9ce06d44:
   ttl: 300
   type: CNAME
