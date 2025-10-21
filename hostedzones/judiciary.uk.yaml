@@ -205,6 +205,14 @@ judicialcareers:
   - ttl: 300
     type: TXT
     value: v=spf1 ip4:18.132.221.238 -all
+library:
+  ttl: 300
+  type: CNAME
+  value: moj.koha.servers.openfifth.org
+libstaff:
+  ttl: 300
+  type: CNAME
+  value: moj.koha.servers.openfifth.org
 magistrates:
   - ttl: 300
     type: NS
