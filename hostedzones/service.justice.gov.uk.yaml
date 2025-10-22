@@ -1878,6 +1878,10 @@ uat.list-assist:
   ttl: 300
   type: A
   value: 20.49.165.220
+uat.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: d35an6ch35u5jb.cloudfront.net
 use-of-force:
   ttl: 300
   type: NS
