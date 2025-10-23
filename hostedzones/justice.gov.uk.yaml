@@ -68,14 +68,6 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
-_6c1g41buzp92az8h9buf1f3qwbm55fx.jobs:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
-_6c1g41buzp92az8h9buf1f3qwbm55fx.www.jobs:
-  ttl: 300
-  type: CNAME
-  value: dcv.digicert.com.
 _08e7ccfff3521b640f7cfcccbc56d932.uat.ppud:
   ttl: 300
   type: CNAME
