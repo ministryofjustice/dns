@@ -50,23 +50,3 @@ jobs:
           branch: update-github-pages
           delete-branch: true
           base: main
-
-      - name: Send notification to Slack
-        if: env.no_changes == 'false'
-        uses: slackapi/slack-github-action@e28cf165c92ffef168d23c5c9000cffc8a25e117 #v1.24.0
-        with:
-          payload: |
-            {
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "The following GitHub Pages delegations have been added:\n\n${{ env.new_domains }}\nMake sure to manually verify new GitHub Pages domains <https://github.com/organizations/ministryofjustice/settings/pages|here> to keep them secure."
-                  }
-                }
-              ]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
