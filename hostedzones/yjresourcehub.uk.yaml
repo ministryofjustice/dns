@@ -9,7 +9,7 @@
       - ns-1854.awsdns-39.co.uk.
   - ttl: 300
     type: A
-    Values:
+    values:
       - 162.159.136.54
       - 162.159.137.54
 _cf-custom-hostname:
