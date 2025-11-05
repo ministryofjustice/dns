@@ -1794,6 +1794,14 @@ suaehjnchl4x3uc37ltzv4sjvox32tsg._domainkey:
   ttl: 1800
   type: CNAME
   value: suaehjnchl4x3uc37ltzv4sjvox32tsg.dkim.amazonses.com
+submit-a-bulk-claim.laa:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1297.awsdns-34.org
+    - ns-167.awsdns-20.com
+    - ns-1932.awsdns-49.co.uk
+    - ns-513.awsdns-00.net
 submit-crime-forms:
   ttl: 86400
   type: NS
