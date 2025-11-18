@@ -1610,9 +1610,6 @@ pxpxy014-dc02.courts-video-link:
   value: 217.135.104.207
 recruitment:
   - ttl: 300
-    type: A
-    values: [162.159.140.128, 172.66.0.126]
-  - ttl: 300
     type: CAA
     value:
       flags: 0
