@@ -235,6 +235,10 @@ _dmarc.people-development:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=none\;rua=mailto:N4rHXmBVPY@dmarc.inboxmonster.com\;fo=0\;adkim=r\;aspf=r\;rf=afrf\;pct=100\;
+_dmarc.uat.ppud:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1; p=none;
 _dmarc_legacydomain_policy:
   ttl: 300
   type: TXT
@@ -243,10 +247,6 @@ _dmarc_ttp_policy:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
-_dmarc.uat.ppud:
-  ttl: 300
-  type: TXT
-  value: v=DMARC1; p=none;
 _dnsauth:
   ttl: 300
   type: TXT
