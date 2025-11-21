@@ -15,8 +15,8 @@
     type: Route53Provider/ALIAS
     value:
       evaluate-target-health: false
-      hosted-zone-id: Z32O12XQLNTSW2
-      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d30hpafvgbdc0e.cloudfront.net.
       type: A
   - type: TXT
     values:
