@@ -18,8 +18,8 @@
     type: Route53Provider/ALIAS
     value:
       evaluate-target-health: false
-      hosted-zone-id: Z32O12XQLNTSW2
-      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d30hpafvgbdc0e.cloudfront.net.
       type: A
   - ttl: 300
     type: TXT
@@ -157,13 +157,9 @@ useradmin:
   type: A
   value: 194.176.211.114
 www:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
-    type: A
+  ttl: 300
+  type: CNAME
+  value: cjsonline.gov.uk
 xpportal:
   ttl: 300
   type: A
