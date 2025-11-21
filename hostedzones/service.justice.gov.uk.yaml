@@ -172,6 +172,10 @@ _dnsauth.laa-sign-in.external-identity:
   ttl: 300
   type: TXT
   value: _0ovxhkohffn19tf361x7jtobg3t4mct
+_dnsauth.list-assist:
+  ttl: 300
+  type: CNAME
+  value: _efye7ylcfayrppby711cv39muyvdzs3.dcv.digicert.com.
 _dnsauth.portal-laa.dev.external-identity:
   ttl: 300
   type: TXT
@@ -188,6 +192,26 @@ _dnsauth.portal.test.external-identity:
   ttl: 300
   type: TXT
   value: _vgooxurtcud56hxdr7mu0cqm25r0l3w
+_dnsauth.sit.list-assist:
+  ttl: 300
+  type: CNAME
+  value: _qgz9yytrp2tn0whfy8maqiq9el9a3t0.dcv.digicert.com.
+_dnsauth.trg.list-assist:
+  ttl: 300
+  type: CNAME
+  value: _5aw3jrtrxougoqbkmk363y8x5qdq538.dcv.digicert.com.
+_dnsauth.www.list-assist:
+  ttl: 300
+  type: CNAME
+  value: _efye7ylcfayrppby711cv39muyvdzs3.dcv.digicert.com.
+_dnsauth.www.sit.list-assist:
+  ttl: 300
+  type: CNAME
+  value: _qgz9yytrp2tn0whfy8maqiq9el9a3t0.dcv.digicert.com.
+_dnsauth.www.trg.list-assist:
+  ttl: 300
+  type: CNAME
+  value: _5aw3jrtrxougoqbkmk363y8x5qdq538.dcv.digicert.com.
 _domainkey.recruitment:
   ttl: 300
   type: TXT
