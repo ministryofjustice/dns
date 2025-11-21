@@ -15,8 +15,8 @@
     type: Route53Provider/ALIAS
     value:
       evaluate-target-health: false
-      hosted-zone-id: Z32O12XQLNTSW2
-      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d30hpafvgbdc0e.cloudfront.net.
       type: A
   - type: TXT
     values:
@@ -93,13 +93,9 @@ sopvpn:
   type: A
   value: 20.50.110.11
 www:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
-    type: A
+  ttl: 300
+  type: CNAME
+  value: paroleboard.gov.uk
 zendesk1._domainkey:
   ttl: 300
   type: CNAME
