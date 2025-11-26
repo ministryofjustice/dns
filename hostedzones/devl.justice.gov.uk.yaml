@@ -15,7 +15,7 @@
     values:
       - v=spf1 include:spf.protection.outlook.com include:smtp-relay.dev.staff.service.justice.gov.uk -all
       - google-site-verification=HhPu9-ILo7FvJ9FGjbGLyiavc4F8Pqt5tgqozUg3ah0
-      - openai-domain-verification=dv-JD2RlkqbJkgYHu1B3vM7PgqU
+      - openai-domain-verification=dv-t9kGFOitCViECSPfVbvpJoob
 _735b486553cdfa713eebbd5f2ff3d69b.mta-sts:
   ttl: 60
   type: CNAME
