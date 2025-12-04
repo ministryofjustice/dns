@@ -25,3 +25,7 @@ selector1._domainkey:
   - ttl: 300
     type: CNAME
     value: selector1-NottinghamInquiry-uk._domainkey.JusticeUK.w-v1.dkim.mail.microsoft
+selector2._domainkey:
+  - ttl: 300
+    type: CNAME
+    value: selector2-NottinghamInquiry-uk._domainkey.JusticeUK.w-v1.dkim.mail.microsoft
