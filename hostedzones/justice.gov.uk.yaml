@@ -513,12 +513,8 @@ agrvnzw2vg3wnycautqlvm6ojvgnoin7._domainkey:
   value: agrvnzw2vg3wnycautqlvm6ojvgnoin7.dkim.amazonses.com
 ai:
   ttl: 300
-  type: NS
-  values:
-    - ns-1018.awsdns-63.net
-    - ns-1491.awsdns-58.org
-    - ns-1856.awsdns-40.co.uk
-    - ns-408.awsdns-51.com
+  type: CNAME
+  value: c767743378c2b688.vercel-dns-017.com.
 ai-for-all:
   ttl: 300
   type: CNAME
