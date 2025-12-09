@@ -68,6 +68,10 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
+_03d1eb0e883bc23ac9d78786ef9d26e5.www.wam.ppud:
+  ttl: 300
+  type: CNAME
+  value: _74480356b952a802e4cef75f32686540.jkddzztszm.acm-validations.aws.
 _08e7ccfff3521b640f7cfcccbc56d932.uat.ppud:
   ttl: 300
   type: CNAME
@@ -96,10 +100,18 @@ _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
+_6357ae13838654b073ab9a14e3c228df.www.ppud:
+  ttl: 300
+  type: CNAME
+  value: _17da8bddded667bbf96bcf6991e8aae3.jkddzztszm.acm-validations.aws.
 _327813f530886de852b66bc68c3300e0.www.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
   value: _5de147b37594c7397631121d423d8197.mhbtsbpdnt.acm-validations.aws.
+_012236134fb7b0f49dd59604709f4e2f.ppud:
+  ttl: 300
+  type: CNAME
+  value: _71124d1152f6e28780b72b6f533c128c.jkddzztszm.acm-validations.aws.
 _acme-challenge.aka:
   ttl: 300
   type: CNAME
@@ -255,6 +267,10 @@ _domainkey.people-development:
   ttl: 300
   type: TXT
   value: t=y\; o=~\;
+_e1c81dbf632a12763c1dfdfdc6d5f37c.wam.ppud:
+  ttl: 300
+  type: CNAME
+  value: _3ed770079b136a1159c66b17042e2218.jkddzztszm.acm-validations.aws.
 _e5502c3792a406f2aa03405f40e6b15d.wamuat.ppud:
   ttl: 300
   type: CNAME
