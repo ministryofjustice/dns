@@ -80,10 +80,6 @@ _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
-_6357ae13838654b073ab9a14e3c228df.www.ppud:
-  ttl: 300
-  type: CNAME
-  value: _17da8bddded667bbf96bcf6991e8aae3.jkddzztszm.acm-validations.aws.
 _68d42b6ad48ac655c9781fa6ddb71cb6.www.uat.ppud:
   ttl: 300
   type: CNAME
@@ -104,6 +100,10 @@ _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
+_6357ae13838654b073ab9a14e3c228df.www.ppud:
+  ttl: 300
+  type: CNAME
+  value: _17da8bddded667bbf96bcf6991e8aae3.jkddzztszm.acm-validations.aws.
 _012236134fb7b0f49dd59604709f4e2f.ppud:
   ttl: 300
   type: CNAME
