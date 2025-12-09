@@ -104,14 +104,14 @@ _6357ae13838654b073ab9a14e3c228df.www.ppud:
   ttl: 300
   type: CNAME
   value: _17da8bddded667bbf96bcf6991e8aae3.jkddzztszm.acm-validations.aws.
-_012236134fb7b0f49dd59604709f4e2f.ppud:
-  ttl: 300
-  type: CNAME
-  value: _71124d1152f6e28780b72b6f533c128c.jkddzztszm.acm-validations.aws.
 _327813f530886de852b66bc68c3300e0.www.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
   value: _5de147b37594c7397631121d423d8197.mhbtsbpdnt.acm-validations.aws.
+_012236134fb7b0f49dd59604709f4e2f.ppud:
+  ttl: 300
+  type: CNAME
+  value: _71124d1152f6e28780b72b6f533c128c.jkddzztszm.acm-validations.aws.
 _acme-challenge.aka:
   ttl: 300
   type: CNAME
