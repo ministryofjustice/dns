@@ -76,14 +76,14 @@ _08e7ccfff3521b640f7cfcccbc56d932.uat.ppud:
   ttl: 300
   type: CNAME
   value: _7636e84d1d69c586013ba2dae7d17f6c.xlfgrmvvlj.acm-validations.aws.
-_012236134fb7b0f49dd59604709f4e2f.ppud:
-  ttl: 300
-  type: CNAME
-  value: _71124d1152f6e28780b72b6f533c128c.jkddzztszm.acm-validations.aws.
 _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_012236134fb7b0f49dd59604709f4e2f.ppud:
+  ttl: 300
+  type: CNAME
+  value: _71124d1152f6e28780b72b6f533c128c.jkddzztszm.acm-validations.aws.
 _6357ae13838654b073ab9a14e3c228df.www.ppud:
   ttl: 300
   type: CNAME
