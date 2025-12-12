@@ -1453,6 +1453,10 @@ prison:
     - ns-1688.awsdns-19.co.uk.
     - ns-203.awsdns-25.com.
     - ns-639.awsdns-15.net.
+prison.transcription:
+  ttl: 300
+  type: CNAME
+  value: prisontranscribe-prod-frontend.azurewebsites.net.
 prison-education-support:
   - ttl: 300
     type: MX
