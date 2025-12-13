@@ -1478,6 +1478,10 @@ prison-visits:
     - ns-1880.awsdns-43.co.uk
     - ns-411.awsdns-51.com
     - ns-587.awsdns-09.net
+prison.transcription:
+  ttl: 300
+  type: CNAME
+  value: prisontranscribe-prod-frontend.azurewebsites.net.
 prisoner:
   ttl: 300
   type: NS
