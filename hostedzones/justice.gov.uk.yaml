@@ -1141,30 +1141,6 @@ hmiprobationeforms:
   ttl: 600
   type: A
   value: 81.171.138.201
-hmpp-azdt:
-  ttl: 300
-  type: NS
-  values:
-    - ns1-08.azure-dns.com.
-    - ns2-08.azure-dns.net.
-    - ns3-08.azure-dns.org.
-    - ns4-08.azure-dns.info.
-hmppgw1:
-  ttl: 600
-  type: NS
-  values:
-    - ns1-06.azure-dns.com.
-    - ns2-06.azure-dns.net.
-    - ns3-06.azure-dns.org.
-    - ns4-06.azure-dns.info.
-hmppgw2:
-  ttl: 600
-  type: NS
-  values:
-    - ns1-04.azure-dns.com.
-    - ns2-04.azure-dns.net.
-    - ns3-04.azure-dns.org.
-    - ns4-04.azure-dns.info.
 hmpps-az-gw1:
   ttl: 300
   type: NS
