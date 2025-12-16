@@ -10,16 +10,16 @@
 '108':
   ttl: 300
   type: PTR
-  value: mail1.brookhouseinquiry.org.uk
+  value: mail1.brookhouseinquiry.org.uk.
 '109':
   ttl: 300
   type: PTR
-  value: mail2.brookhouseinquiry.org.uk
+  value: mail2.brookhouseinquiry.org.uk.
 '110':
   ttl: 300
   type: PTR
-  value: mail3.brookhouseinquiry.org.uk
+  value: mail3.brookhouseinquiry.org.uk.
 '111':
   ttl: 300
   type: PTR
-  value: mail4.brookhouseinquiry.org.uk
+  value: mail4.brookhouseinquiry.org.uk.
