@@ -3,7 +3,7 @@
   - ttl: 300
     type: MX
     value:
-      exchange: hmiprisons-gov-uk.mail.protection.outlook.com
+      exchange: hmiprisons-gov-uk.mail.protection.outlook.com.
       preference: 0
   - ttl: 172800
     type: NS
@@ -26,7 +26,7 @@ _asvdns-ee832343-ceef-4fc6-ba97-68aa978af228:
 _dmarc:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: _dmarc_ttp_policy.justice.gov.uk.
 _e78bfc9e1e00e45bc5fcf5fb02f0a6a1.mta-sts:
   ttl: 60
   type: CNAME
@@ -122,14 +122,6 @@ fp01._domainkey:
 litesrv._domainkey:
   type: CNAME
   value: litesrv._domainkey.mlsend.com
-lyncdiscover.devl:
-  ttl: 300
-  type: CNAME
-  value: webdir.online.lync.com.
-lyncdiscover.nle:
-  ttl: 300
-  type: CNAME
-  value: webdir.online.lync.com.
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net
@@ -158,11 +150,3 @@ selector1._domainkey:
 selector2._domainkey:
   type: CNAME
   value: selector2-hmiprisons-gov-uk._domainkey.justiceuk.onmicrosoft.com
-sip.devl:
-  ttl: 300
-  type: CNAME
-  value: sipdir.online.lync.com.
-sip.nle:
-  ttl: 300
-  type: CNAME
-  value: sipdir.online.lync.com.
