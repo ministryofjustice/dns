@@ -30,15 +30,15 @@
 2dbx4addpy7nyj76mioylqhzphrymyma._domainkey:
   ttl: 300
   type: CNAME
-  value: 2dbx4addpy7nyj76mioylqhzphrymyma.dkim.amazonses.com
+  value: 2dbx4addpy7nyj76mioylqhzphrymyma.dkim.amazonses.com.
 4odkx3g7muxcfn5eydas4f3kslwcp3h6._domainkey:
   ttl: 300
   type: CNAME
-  value: 4odkx3g7muxcfn5eydas4f3kslwcp3h6.dkim.amazonses.com
+  value: 4odkx3g7muxcfn5eydas4f3kslwcp3h6.dkim.amazonses.com.
 74ipytkywwg56t5grugytb2nbnswmfua._domainkey:
   ttl: 300
   type: CNAME
-  value: 74ipytkywwg56t5grugytb2nbnswmfua.dkim.amazonses.com
+  value: 74ipytkywwg56t5grugytb2nbnswmfua.dkim.amazonses.com.
 _5da1f4abf8fa71e51d3aaaf2073846e9.mta-sts.youthjusticepp:
   ttl: 60
   type: CNAME
@@ -54,14 +54,14 @@ _amazonses:
     - X3sGvECv6KhfD+HIJ8qEaK+f9WTn/qe+so/J2QGfOes=
     - tkpUbxjtqBJZ7omYLX6y95ukBWnkHuaLygBD6VQ7his=
     - umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
+_asvdns-5982a691-4e72-405d-826d-775a0136a84b:
+  ttl: 300
+  type: TXT
+  value: asvdns_e28d11ec-bca2-46fa-8115-1630d08608eb
 _asvdns-aa57e22d-67bb-4736-a0df-0d273089ecdf.yjbservicespp:
   ttl: 300
   type: TXT
   value: asvdns_900fd77e-dcde-4f45-8112-b094f282506e
-_asvdns-bbb18aea-9f3c-4a4e-830c-583e1761b969:
-  ttl: 300
-  type: TXT
-  value: asvdns_0e85b4ce-2d1c-48a7-be74-3eb5c58ef2f6
 _cdb8a1ec6dba331f6b47645d09fdaf73.pentaho8.yjbservices:
   ttl: 300
   type: CNAME
@@ -73,19 +73,19 @@ _dmarc:
 _dmarc.yjbservices:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: _dmarc_ttp_policy.justice.gov.uk.
 _dmarc.yjbservicespp:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: _dmarc_ttp_policy.justice.gov.uk.
 _dmarc.youthjustice:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: _dmarc_ttp_policy.justice.gov.uk.
 _dmarc.youthjusticepp:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: _dmarc_ttp_policy.justice.gov.uk.
 _ea04aed3f6b025ff8ed3826fd6a81f16.mta-sts.yjbservicespp:
   ttl: 60
   type: CNAME
@@ -125,33 +125,33 @@ _smtp._tls.youthjusticepp:
 ah4lnpydpjs5l5z35kmxmnp4r4bkgg27._domainkey:
   ttl: 300
   type: CNAME
-  value: ah4lnpydpjs5l5z35kmxmnp4r4bkgg27.dkim.amazonses.com
+  value: ah4lnpydpjs5l5z35kmxmnp4r4bkgg27.dkim.amazonses.com.
 anugym6qhqpgzbegpxrp26htx36nixrm._domainkey:
   ttl: 300
   type: CNAME
-  value: anugym6qhqpgzbegpxrp26htx36nixrm.dkim.amazonses.com
+  value: anugym6qhqpgzbegpxrp26htx36nixrm.dkim.amazonses.com.
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
 ba57tyzq6qama5pndafilxh57qhain5m._domainkey:
   ttl: 300
   type: CNAME
-  value: ba57tyzq6qama5pndafilxh57qhain5m.dkim.amazonses.com
+  value: ba57tyzq6qama5pndafilxh57qhain5m.dkim.amazonses.com.
 ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
   ttl: 300
   type: CNAME
-  value: ccdw2w6jvkr2vreletczhejsrnfecbbr.dkim.amazonses.com
+  value: ccdw2w6jvkr2vreletczhejsrnfecbbr.dkim.amazonses.com.
 coo6soxcnaluiv3zpqvxtfdzo5wkoyup._domainkey:
   ttl: 300
   type: CNAME
-  value: coo6soxcnaluiv3zpqvxtfdzo5wkoyup.dkim.amazonses.com
+  value: coo6soxcnaluiv3zpqvxtfdzo5wkoyup.dkim.amazonses.com.
 e7gd2dqpsoczd4yaw6o2wr3jdjevenke._domainkey:
   ttl: 300
   type: CNAME
-  value: e7gd2dqpsoczd4yaw6o2wr3jdjevenke.dkim.amazonses.com
+  value: e7gd2dqpsoczd4yaw6o2wr3jdjevenke.dkim.amazonses.com.
 elyq4rc45cnfmpaiirnnonsbkiohel6v._domainkey:
   type: CNAME
-  value: elyq4rc45cnfmpaiirnnonsbkiohel6v.dkim.amazonses.com
+  value: elyq4rc45cnfmpaiirnnonsbkiohel6v.dkim.amazonses.com.
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com.
@@ -164,11 +164,11 @@ fp01._domainkey:
 gbqwy5gdcrmac5t7ulfw3fzond3hosyx._domainkey:
   ttl: 300
   type: CNAME
-  value: gbqwy5gdcrmac5t7ulfw3fzond3hosyx.dkim.amazonses.com
+  value: gbqwy5gdcrmac5t7ulfw3fzond3hosyx.dkim.amazonses.com.
 hpa65gtvpat7nktymcohpntuka3hfzq4._domainkey:
   ttl: 300
   type: CNAME
-  value: hpa65gtvpat7nktymcohpntuka3hfzq4.dkim.amazonses.com
+  value: hpa65gtvpat7nktymcohpntuka3hfzq4.dkim.amazonses.com.
 idm:
   type: A
   value: 82.153.133.251
@@ -178,12 +178,12 @@ idm.y2a:
 jhyomqeddtgcsqshskhybjnznal77jrr._domainkey:
   ttl: 300
   type: CNAME
-  value: jhyomqeddtgcsqshskhybjnznal77jrr.dkim.amazonses.com
+  value: jhyomqeddtgcsqshskhybjnznal77jrr.dkim.amazonses.com.
 juniper-smtp:
   - ttl: 300
     type: MX
     value:
-      exchange: feedback-smtp.eu-west-2.amazonses.com
+      exchange: feedback-smtp.eu-west-2.amazonses.com.
       preference: 10
   - ttl: 300
     type: TXT
@@ -191,18 +191,18 @@ juniper-smtp:
 k5l5ighhdj3e7e4wunbkxfspgg3nl4hv._domainkey:
   ttl: 300
   type: CNAME
-  value: k5l5ighhdj3e7e4wunbkxfspgg3nl4hv.dkim.amazonses.com
+  value: k5l5ighhdj3e7e4wunbkxfspgg3nl4hv.dkim.amazonses.com.
 kr2ub2cm6agxllr4lc4wjibgsvu2ph44._domainkey:
   ttl: 300
   type: CNAME
-  value: kr2ub2cm6agxllr4lc4wjibgsvu2ph44.dkim.amazonses.com
+  value: kr2ub2cm6agxllr4lc4wjibgsvu2ph44.dkim.amazonses.com.
 login.y2a:
   type: A
   value: 62.232.198.68
 m4qkvrkmpxxeubciw72ju2im3dvpi2vu._domainkey:
   ttl: 300
   type: CNAME
-  value: m4qkvrkmpxxeubciw72ju2im3dvpi2vu.dkim.amazonses.com
+  value: m4qkvrkmpxxeubciw72ju2im3dvpi2vu.dkim.amazonses.com.
 mail-acp1:
   ttl: 300
   type: A
@@ -248,7 +248,7 @@ mta-sts.youthjusticepp:
     type: A
 nhmgbfoqnj4ppeqdcjvlrxhbdkrywvnd._domainkey:
   type: CNAME
-  value: nhmgbfoqnj4ppeqdcjvlrxhbdkrywvnd.dkim.amazonses.com
+  value: nhmgbfoqnj4ppeqdcjvlrxhbdkrywvnd.dkim.amazonses.com.
 nleidm:
   type: A
   value: 82.153.133.251
@@ -284,45 +284,45 @@ portal.yjbservicespp:
 qpaef4tkj4d6ficg36wluu3wctyhgxin._domainkey:
   ttl: 300
   type: CNAME
-  value: qpaef4tkj4d6ficg36wluu3wctyhgxin.dkim.amazonses.com
+  value: qpaef4tkj4d6ficg36wluu3wctyhgxin.dkim.amazonses.com.
 selector1._domainkey:
   type: CNAME
   value: selector1-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector1._domainkey.yjbservices:
   ttl: 300
   type: CNAME
-  value: selector1-yjbservices-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector1-yjbservices-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector1._domainkey.yjbservicespp:
   ttl: 300
   type: TXT
-  value: selector1-yjbservicespp-yjb-gov-uk._domainkey.JusticeUK.onmicrosoft.com
+  value: selector1-yjbservicespp-yjb-gov-uk._domainkey.JusticeUK.onmicrosoft.com.
 selector1._domainkey.youthjustice:
   ttl: 300
   type: CNAME
-  value: selector1-youthjustice-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector1-youthjustice-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector1._domainkey.youthjusticepp:
   ttl: 300
   type: CNAME
-  value: selector1-youthjusticepp-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector1-youthjusticepp-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2._domainkey:
   type: CNAME
   value: selector2-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2._domainkey.yjbservices:
   ttl: 300
   type: CNAME
-  value: selector2-yjbservices-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector2-yjbservices-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2._domainkey.yjbservicespp:
   ttl: 300
   type: CNAME
-  value: selector2-yjbservicespp-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector2-yjbservicespp-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2._domainkey.youthjustice:
   ttl: 300
   type: CNAME
-  value: selector2-youthjustice-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector2-youthjustice-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2._domainkey.youthjusticepp:
   ttl: 300
   type: CNAME
-  value: selector2-youthjusticepp-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector2-youthjusticepp-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selfservice:
   type: A
   value: 82.153.133.251
@@ -345,7 +345,7 @@ theexchange:
 tolamciho27aogjqkgrq6iok5v7px6nd._domainkey:
   ttl: 300
   type: CNAME
-  value: tolamciho27aogjqkgrq6iok5v7px6nd.dkim.amazonses.com
+  value: tolamciho27aogjqkgrq6iok5v7px6nd.dkim.amazonses.com.
 train.y2a:
   type: A
   value: 62.232.198.68
@@ -418,7 +418,7 @@ yjaf-smtp:
   - ttl: 300
     type: MX
     value:
-      exchange: feedback-smtp.eu-west-2.amazonses.com
+      exchange: feedback-smtp.eu-west-2.amazonses.com.
       preference: 10
   - ttl: 300
     type: TXT
