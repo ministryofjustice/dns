@@ -431,10 +431,10 @@ yjbservices:
   - ttl: 300
     type: NS
     values:
-      - ns-1728.awsdns-24.co.uk.
-      - ns-168.awsdns-21.com.
-      - ns-997.awsdns-60.net.
-      - ns-1118.awsdns-11.org.
+      - ns-1728.awsdns-24.co.uk
+      - ns-168.awsdns-21.com
+      - ns-997.awsdns-60.net
+      - ns-1118.awsdns-11.org
 yjbservicespp:
   - ttl: 300
     type: MX
