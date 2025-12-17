@@ -1,12 +1,5 @@
 ---
 '':
-  - ttl: 300
-    type: MX
-    values:
-      - exchange: mail.cjsonline.gov.uk.
-        preference: 5
-      - exchange: mx1.cjsdigital.org.
-        preference: 10
   - ttl: 172800
     type: NS
     values:
