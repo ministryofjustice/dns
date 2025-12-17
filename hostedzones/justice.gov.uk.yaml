@@ -777,14 +777,6 @@ crimcourt._domainkey.criminalappealoffice:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; t=s\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoN235ryj/6Ca/yN0JR71q8gM7CCjNLOFKiq08sX2ZO9fuKGHCIJYrcfLJI0zfEKUjbB3soLt7Y4fFf3QsCWNYreutXkmVqoVvakegZhFHSiWhWf/IjQ/S5gbYEJna""wpiZj9QjJXV1f1AcYHCCfWYiiyoY6VPI498vEMNyTCcqN7O4N30Xkgkg1Vij77IH38f7iod0Hpx/LpBCxW/7N9DE+hkvnDBcSLpJpVwM43LFu44TWjqir4rIX7lHXmkHSashY2dEibkfr65SJzVFsRgrTeXI//yrfjfXUQ20la61i3XbGkalJlva34ukl9Vc7vz5giSzyoJEO8d1d8+7IVdRwIDAQAB
-crimeportal:
-  ttl: 300
-  type: NS
-  values:
-    - ns1-01.azure-dns.com
-    - ns2-01.azure-dns.net
-    - ns3-01.azure-dns.org
-    - ns4-01.azure-dns.info
 criminal-justice-delivery-data-dashboards:
   ttl: 300
   type: NS
