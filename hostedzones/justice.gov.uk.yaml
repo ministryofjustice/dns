@@ -650,18 +650,10 @@ certificatedbailiffs:
   ttl: 60
   type: NS
   values:
-    - ns-1051.awsdns-03.org
-    - ns-1940.awsdns-50.co.uk
-    - ns-347.awsdns-43.com
-    - ns-587.awsdns-09.net
-certificates:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1398.awsdns-46.org.
-    - ns-2033.awsdns-62.co.uk.
-    - ns-466.awsdns-58.com.
-    - ns-722.awsdns-26.net.
+    - ns-1051.awsdns-03.org.
+    - ns-1940.awsdns-50.co.uk.
+    - ns-347.awsdns-43.com.
+    - ns-587.awsdns-09.net.
 civil-casetracker:
   ttl: 300
   type: NS
