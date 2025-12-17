@@ -361,21 +361,21 @@ uatlogin.y2a:
 uezawpevnykgdoztcknm6y5uyx27apaq._domainkey:
   ttl: 300
   type: CNAME
-  value: uezawpevnykgdoztcknm6y5uyx27apaq.dkim.amazonses.com.
+  value: uezawpevnykgdoztcknm6y5uyx27apaq.dkim.amazonses.com
 ukcloud:
   ttl: 300
   type: A
   value: 51.231.96.86
 uxthla62n2r3e2xi24eg4bm6cwi6dlim._domainkey:
   type: CNAME
-  value: uxthla62n2r3e2xi24eg4bm6cwi6dlim.dkim.amazonses.com.
+  value: uxthla62n2r3e2xi24eg4bm6cwi6dlim.dkim.amazonses.com
 vho227htc4ofmjdtbhtcqkvgvcdq7uo5._domainkey:
   type: CNAME
-  value: vho227htc4ofmjdtbhtcqkvgvcdq7uo5.dkim.amazonses.com.
+  value: vho227htc4ofmjdtbhtcqkvgvcdq7uo5.dkim.amazonses.com
 wfsjcdiwg5pc3ylq2vsglviwye5xwdvm._domainkey:
   ttl: 300
   type: CNAME
-  value: wfsjcdiwg5pc3ylq2vsglviwye5xwdvm.dkim.amazonses.com.
+  value: wfsjcdiwg5pc3ylq2vsglviwye5xwdvm.dkim.amazonses.com
 www:
   type: A
   value: 80.86.42.110
@@ -473,4 +473,4 @@ youthjusticepp:
 yxbhmn6koyegtmg2okc2woalk2tkcbop._domainkey:
   ttl: 300
   type: CNAME
-  value: yxbhmn6koyegtmg2okc2woalk2tkcbop.dkim.amazonses.com.
+  value: yxbhmn6koyegtmg2okc2woalk2tkcbop.dkim.amazonses.com
