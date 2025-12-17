@@ -54,14 +54,14 @@ _amazonses:
     - X3sGvECv6KhfD+HIJ8qEaK+f9WTn/qe+so/J2QGfOes=
     - tkpUbxjtqBJZ7omYLX6y95ukBWnkHuaLygBD6VQ7his=
     - umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
-_asvdns-aa57e22d-67bb-4736-a0df-0d273089ecdf.yjbservicespp:
-  ttl: 300
-  type: TXT
-  value: asvdns_900fd77e-dcde-4f45-8112-b094f282506e
 _asvdns-5982a691-4e72-405d-826d-775a0136a84b:
   ttl: 300
   type: TXT
   value: asvdns_e28d11ec-bca2-46fa-8115-1630d08608eb
+_asvdns-aa57e22d-67bb-4736-a0df-0d273089ecdf.yjbservicespp:
+  ttl: 300
+  type: TXT
+  value: asvdns_900fd77e-dcde-4f45-8112-b094f282506e
 _cdb8a1ec6dba331f6b47645d09fdaf73.pentaho8.yjbservices:
   ttl: 300
   type: CNAME
