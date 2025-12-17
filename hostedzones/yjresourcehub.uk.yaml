@@ -12,6 +12,10 @@
     values:
       - 162.159.136.54
       - 162.159.137.54
+_asvdns-b00d86d0-bca4-47aa-9475-64cbe5e0387e:
+  ttl: 300
+  type: TXT
+  value: asvdns_7edf0e83-55cc-4a16-8af4-2f7cf7f151a3
 _cf-custom-hostname:
   ttl: 300
   type: TXT
@@ -19,15 +23,15 @@ _cf-custom-hostname:
 em7378:
   ttl: 1800
   type: CNAME
-  value: u43796410.wl161.sendgrid.net
+  value: u43796410.wl161.sendgrid.net.
 s1._domainkey:
   ttl: 1800
   type: CNAME
-  value: s1.domainkey.u43796410.wl161.sendgrid.net
+  value: s1.domainkey.u43796410.wl161.sendgrid.net.
 s2._domainkey:
   ttl: 1800
   type: CNAME
-  value: s2.domainkey.u43796410.wl161.sendgrid.net
+  value: s2.domainkey.u43796410.wl161.sendgrid.net.
 www:
   ttl: 300
   type: CNAME
