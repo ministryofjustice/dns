@@ -35,4 +35,4 @@ s2._domainkey:
 www:
   ttl: 300
   type: CNAME
-  value: ecure.cloudways.cloud.
+  value: ecure.cloudways.cloud
