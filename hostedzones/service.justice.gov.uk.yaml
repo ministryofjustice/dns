@@ -160,6 +160,10 @@ _dmarc:
 _dmarc.email.signon:
   type: TXT
   value: v=DMARC1\;p=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@digitaljustice.gov.uk\;
+_dmarc.recruit:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1; p=quarantine
 _dmarc.recruitment:
   ttl: 300
   type: TXT
@@ -782,6 +786,10 @@ em1979.status.hosting:
   ttl: 300
   type: CNAME
   value: u31181182.wl183.sendgrid.net
+em7850.recruit:
+  ttl: 300
+  type: CNAME
+  value: u8067113.wl114.sendgrid.net
 email.email:
   ttl: 300
   type: CNAME
@@ -1545,6 +1553,14 @@ provider-ui.ccms:
     - ns-1565.awsdns-03.co.uk.
     - ns-502.awsdns-62.com.
     - ns-811.awsdns-37.net.
+ps._domainkey.recruit:
+  ttl: 300
+  type: CNAME
+  value: ps.domainkey.u8067113.wl114.sendgrid.net
+ps2._domainkey.recruit:
+  ttl: 300
+  type: CNAME
+  value: ps2.domainkey.u8067113.wl114.sendgrid.net
 pvlbookingsystem:
   ttl: 600
   type: A
@@ -1612,6 +1628,10 @@ pxpxy014-dc02.courts-video-link:
   ttl: 300
   type: A
   value: 217.135.104.207
+recruit:
+  ttl: 300
+  type: TXT
+  value: v=spf1 include:sendgrid.net -all
 recruitment:
   - ttl: 300
     type: CAA
@@ -1628,7 +1648,7 @@ recruitment:
         preference: 10
   - ttl: 300
     type: TXT
-    value: v=spf1 include:spf.dotmailer.com include:sendgrid.net -all
+    value: v=spf1 include:spf.dotmailer.com -all
 refer-monitor-intervention:
   ttl: 300
   type: NS
