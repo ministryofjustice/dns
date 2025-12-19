@@ -1553,14 +1553,14 @@ provider-ui.ccms:
     - ns-1565.awsdns-03.co.uk.
     - ns-502.awsdns-62.com.
     - ns-811.awsdns-37.net.
-ps._domainkey.recruit:
-  ttl: 300
-  type: CNAME
-  value: ps.domainkey.u8067113.wl114.sendgrid.net
 ps2._domainkey.recruit:
   ttl: 300
   type: CNAME
   value: ps2.domainkey.u8067113.wl114.sendgrid.net
+ps._domainkey.recruit:
+  ttl: 300
+  type: CNAME
+  value: ps.domainkey.u8067113.wl114.sendgrid.net
 pvlbookingsystem:
   ttl: 600
   type: A
