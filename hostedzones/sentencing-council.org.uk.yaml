@@ -24,14 +24,14 @@
   - ttl: 300
     type: TXT
     value: v=spf1 -all
-_asvdns-b883a648-5d04-43fc-b885-14b01b8166ac.www:
-  ttl: 300
-  type: TXT
-  value: asvdns_379b4a67-4d77-4c7a-8f4e-a0a21b64232d
 '*._domainkey':
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=
+_asvdns-b883a648-5d04-43fc-b885-14b01b8166ac.www:
+  ttl: 300
+  type: TXT
+  value: asvdns_379b4a67-4d77-4c7a-8f4e-a0a21b64232d
 _dmarc:
   ttl: 300
   type: TXT
