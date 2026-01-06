@@ -263,6 +263,22 @@ _dnsauth:
   ttl: 300
   type: TXT
   value: k85gchvy2hq9nrf470ljl9bd9hb8v495
+_dnsauth.bench.staging.courtstore:
+  ttl: 300
+  type: CNAME
+  value: _9s060s1kzeo17cexek121ko6nee9v2a.dcv.digicert.com.
+_dnsauth.staging.courtstore:
+  ttl: 300
+  type: CNAME
+  value: _ht463ys44ncxqb78b5of4hj7t5z9jry.dcv.digicert.com.
+_dnsauth.www.bench.staging.courtstore:
+  ttl: 300
+  type: CNAME
+  value: _9s060s1kzeo17cexek121ko6nee9v2a.dcv.digicert.com.
+_dnsauth.www.staging.courtstore:
+  ttl: 300
+  type: CNAME
+  value: _ht463ys44ncxqb78b5of4hj7t5z9jry.dcv.digicert.com.
 _domainkey.people-development:
   ttl: 300
   type: TXT
