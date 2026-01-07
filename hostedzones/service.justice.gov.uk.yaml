@@ -1634,6 +1634,9 @@ recruit:
   value: v=spf1 include:sendgrid.net -all
 recruitment:
   - ttl: 300
+    type: A
+    values: [162.159.140.128, 172.66.0.126]
+  - ttl: 300
     type: CAA
     value:
       flags: 0
