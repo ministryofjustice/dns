@@ -633,6 +633,10 @@ bs7fgun22ztsnycpk3h3kz55apoqkmpw._domainkey.uat.ppud:
   ttl: 300
   type: CNAME
   value: bs7fgun22ztsnycpk3h3kz55apoqkmpw.dkim.amazonses.com
+c2:
+  ttl: 300
+  type: A
+  value: 18.169.126.19
 ca:
   - ttl: 300
     type: MX
