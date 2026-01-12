@@ -190,14 +190,6 @@ iued6cupjuexcgiohncgufzr754esjti._domainkey:
   ttl: 300
   type: CNAME
   value: iued6cupjuexcgiohncgufzr754esjti.dkim.amazonses.com
-jim1:
-  ttl: 300
-  type: A
-  value: 35.177.142.183
-jim2:
-  ttl: 300
-  type: A
-  value: 35.177.188.190
 kcoairnvt3bxowqhgigzmhzeaf3pkpsr._domainkey:
   ttl: 1800
   type: CNAME
