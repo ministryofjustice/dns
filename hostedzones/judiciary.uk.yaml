@@ -103,11 +103,11 @@ _dmarc.elinks:
 _dnsauth.hr:
   ttl: 10800
   type: CNAME
-  value: _7fyt7s1n5qqtl1wb21dqyvqp4coq64x.dcv.digicert.com.
+  value: _3gemness6ts1ibhlej30p8rng1uamnd.dcv.digicert.com.
 _dnsauth.www.hr:
   ttl: 10800
   type: CNAME
-  value: _7fyt7s1n5qqtl1wb21dqyvqp4coq64x.dcv.digicert.com.
+  value: _3gemness6ts1ibhlej30p8rng1uamnd.dcv.digicert.com.
 _f9a2000001cb4381c8449175c6c006de.www:
   ttl: 300
   type: CNAME
