@@ -26,10 +26,18 @@
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=
+_5eb44a046f204678a70996ed0db52897.www:
+  ttl: 300
+  type: CNAME
+  value: _6a26b7fb50462fab008b715d69e658b9.jkddzztszm.acm-validations.aws.
 _asvdns-30e30aac-3ee2-4a03-99bf-c30a13da5a7a:
   ttl: 300
   type: TXT
   value: asvdns_e9cfc72a-3bb4-47bb-98fd-45c560206051
+_d0df420603dfbad3e8d03257d1a425e1:
+  ttl: 300
+  type: CNAME
+  value: _5cf81cc298764cb9024407dd8f7b7e90.jkddzztszm.acm-validations.aws.
 _dmarc:
   ttl: 300
   type: TXT
