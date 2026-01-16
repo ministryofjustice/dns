@@ -10,6 +10,14 @@
       - ns-1779.awsdns-30.co.uk.
       - ns-475.awsdns-59.com.
       - ns-844.awsdns-41.net.
+_8957ab0ba9eb91ec0345782201852780:
+  ttl: 300
+  type: CNAME
+  value: _50f35bf980793dd144db033bc4bfc7d2.jkddzztszm.acm-validations.aws.
+_a78f3e4c310da391d08f779d111b4312.www:
+  ttl: 300
+  type: CNAME
+  value: _c8f52e00783b21af52049ecd8e7b84bd.jkddzztszm.acm-validations.aws.
 _dmarc:
   ttl: 300
   type: TXT

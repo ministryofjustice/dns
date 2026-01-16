@@ -21,6 +21,14 @@
       hosted-zone-id: Z32O12XQLNTSW2
       name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
       type: A
+_93c55b22273b2902e922712a238c1274.www:
+  ttl: 300
+  type: CNAME
+  value: _cd9fdcf9fb5189153f2f5b312ba06378.jkddzztszm.acm-validations.aws.
+_732640040c1ab18b962520c204b5124d:
+  ttl: 300
+  type: CNAME
+  value: _b628bc8b37d6f5862f74158874940fac.jkddzztszm.acm-validations.aws.
 _dmarc:
   ttl: 300
   type: TXT
