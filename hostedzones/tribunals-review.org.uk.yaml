@@ -1,8 +1,12 @@
 ---
 '':
-  - ttl: 600
-    type: A
-    value: 52.30.196.9
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d2cjhy4mdjryhe.cloudfront.net.
+      type: A
   - ttl: 172800
     type: NS
     values:
