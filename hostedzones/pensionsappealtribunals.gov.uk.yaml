@@ -11,8 +11,8 @@
     type: Route53Provider/ALIAS
     value:
       evaluate-target-health: false
-      hosted-zone-id: Z32O12XQLNTSW2
-      name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: d2cjhy4mdjryhe.cloudfront.net.
       type: A
 _a5426aac71a1eb1aafae5dd9d6a23672.www:
   ttl: 300
@@ -39,6 +39,6 @@ www:
   type: Route53Provider/ALIAS
   value:
     evaluate-target-health: false
-    hosted-zone-id: Z32O12XQLNTSW2
-    name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d2cjhy4mdjryhe.cloudfront.net.
     type: A
