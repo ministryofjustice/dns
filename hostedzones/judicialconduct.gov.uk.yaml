@@ -64,7 +64,7 @@ complaints:
     value:
       evaluate-target-health: false
       hosted-zone-id: Z2FDTNDATAQYW2
-      name: d30hpafvgbdc0e.cloudfront.net
+      name: d30hpafvgbdc0e.cloudfront.net.
       type: A
   - ttl: 600
     type: TXT
