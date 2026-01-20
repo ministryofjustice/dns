@@ -1071,10 +1071,6 @@ governance:
   ttl: 600
   type: A
   value: 195.92.125.236
-gqfoktjhnbvi6ffqmjofiys7rslq42ye._domainkey.certificates:
-  ttl: 1800
-  type: CNAME
-  value: gqfoktjhnbvi6ffqmjofiys7rslq42ye.dkim.amazonses.com
 gs:
   - ttl: 300
     type: MX
