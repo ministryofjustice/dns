@@ -1463,7 +1463,7 @@ preprod.visualiser.manage-external-funded-offender-provision:
   value:
     evaluate-target-health: false
     hosted-zone-id: Z2FDTNDATAQYW2
-    name: d3cd0xnynauvqw.cloudfront.net
+    name: d3cd0xnynauvqw.cloudfront.net.
     type: A
 prison:
   ttl: 300
