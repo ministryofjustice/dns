@@ -1458,13 +1458,9 @@ preprod.victim-case-management:
     - ns-902.awsdns-48.net.
     - ns-99.awsdns-12.com.
 preprod.visualiser.manage-external-funded-offender-provision:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: false
-    hosted-zone-id: Z2FDTNDATAQYW2
-    name: d3cd0xnynauvqw.cloudfront.net.
-    type: A
+  ttl: 300
+  type: CNAME
+  value: d3cd0xnynauvqw.cloudfront.net.
 prison:
   ttl: 300
   type: NS
