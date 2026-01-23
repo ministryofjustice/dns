@@ -126,6 +126,10 @@ _b932d43205e09e4f3924db0eca5bc86d.dev.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _067ced5bba4174f15cd3b23d291ad16c.sdgjtdhdhz.acm-validations.aws.
+_bdcfe721a7cbf0bcfed8b2dc6a8a6512.preprod.visualiser.manage-external-funded-offender-provision:
+  ttl: 300
+  type: CNAME
+  value: _4a0d681394880a4236091bb3f5030875.jkddzztszm.acm-validations.aws.
 _c465a81d426f9c23ea655e52085f8d4a.crown-court-litigator-fees:
   ttl: 300
   type: CNAME
@@ -1453,6 +1457,14 @@ preprod.victim-case-management:
     - ns-1960.awsdns-53.co.uk.
     - ns-902.awsdns-48.net.
     - ns-99.awsdns-12.com.
+preprod.visualiser.manage-external-funded-offender-provision:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: d3cd0xnynauvqw.cloudfront.net
+    type: A
 prison:
   ttl: 300
   type: NS
