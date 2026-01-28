@@ -746,10 +746,10 @@ courtfines:
   ttl: 172800
   type: NS
   values:
-    - ns-1087.awsdns-07.org.
-    - ns-1734.awsdns-24.co.uk.
-    - ns-45.awsdns-05.com.
-    - ns-649.awsdns-17.net.
+    - ns1-04.azure-dns.com.
+    - ns2-04.azure-dns.net.
+    - ns3-04.azure-dns.org.
+    - ns4-04.azure-dns.info.
 courtstore:
   - ttl: 600
     type: A
