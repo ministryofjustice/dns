@@ -23,8 +23,7 @@
       - MS=ms19252221
       - amazonses:umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com
-        -all
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com include:spf-ps.e-shot.org -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-KB38UaPRlySfCNSkLPKqSZaZ
 2dbx4addpy7nyj76mioylqhzphrymyma._domainkey:
@@ -47,6 +46,10 @@ _a76e6773553c813f019114fddd0dbf83.mta-sts:
   ttl: 60
   type: CNAME
   value: _bf9999d827e0c7b157bb1b0ac02a8755.nhsllhhtvj.acm-validations.aws.
+_adsp._domainkey.communications:
+  ttl: 300
+  type: TXT
+  value: dkim=all
 _amazonses:
   ttl: 300
   type: TXT
@@ -70,6 +73,10 @@ _dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1; p=reject;
+_dmarc.communications:
+  ttl: 300
+  type: CNAME
+  value: _dmarc-ps.e-shot.org
 _dmarc.yjbservices:
   ttl: 300
   type: CNAME
@@ -141,6 +148,10 @@ ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
   ttl: 300
   type: CNAME
   value: ccdw2w6jvkr2vreletczhejsrnfecbbr.dkim.amazonses.com.
+communications:
+  value:
+    exchange: mail-ps.e-shot.org.
+    preference: 5
 coo6soxcnaluiv3zpqvxtfdzo5wkoyup._domainkey:
   ttl: 300
   type: CNAME
@@ -158,6 +169,14 @@ enterpriseenrollment:
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net.
+eshot._domainkey.communications:
+  ttl: 300
+  type: CNAME
+  value: eshotdkim-ps.e-shot.org
+eshot2._domainkey.communications:
+  ttl: 300
+  type: CNAME
+  value: eshotdkim2-ps.e-shot.org
 fp01._domainkey:
   type: TXT
   value: v=DKIM1\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
@@ -246,6 +265,10 @@ mta-sts.youthjusticepp:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d2vx1dz28thhfh.cloudfront.net.
     type: A
+news.communications:
+  ttl: 300
+  type: CNAME
+  value: vesc-ps.e-shot.org
 nhmgbfoqnj4ppeqdcjvlrxhbdkrywvnd._domainkey:
   type: CNAME
   value: nhmgbfoqnj4ppeqdcjvlrxhbdkrywvnd.dkim.amazonses.com.
@@ -268,6 +291,10 @@ owa:
   ttl: 300
   type: A
   value: 51.130.81.99
+pages.communications:
+  ttl: 300
+  type: CNAME
+  value: pages-ps.e-shot.org
 poppulo._domainkey:
   ttl: 300
   type: TXT
