@@ -100,6 +100,10 @@ _0970bea3431bc1236acaba02e9f46366.www.civilmediation:
   ttl: 300
   type: CNAME
   value: _06d0edbac8d4d3afa9588239dd3d341d.ltfvzjuylp.acm-validations.aws.
+_2057b7247c1a0f3ac1ce507d82d05584.videoportal:
+  ttl: 300
+  type: CNAME
+  value: _74638a5c7deb9f72cb6e0faa90bf9c4e.jkddzztszm.acm-validations.aws.
 _6357ae13838654b073ab9a14e3c228df.www.ppud:
   ttl: 300
   type: CNAME
