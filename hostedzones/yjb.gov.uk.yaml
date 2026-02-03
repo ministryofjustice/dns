@@ -26,10 +26,6 @@
       - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com include:spf-ps.e-shot.org -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-KB38UaPRlySfCNSkLPKqSZaZ
-2dbx4addpy7nyj76mioylqhzphrymyma._domainkey:
-  ttl: 300
-  type: CNAME
-  value: 2dbx4addpy7nyj76mioylqhzphrymyma.dkim.amazonses.com.
 4odkx3g7muxcfn5eydas4f3kslwcp3h6._domainkey:
   ttl: 300
   type: CNAME
@@ -154,10 +150,6 @@ communications:
   value:
     exchange: mail-ps.e-shot.org.
     preference: 5
-coo6soxcnaluiv3zpqvxtfdzo5wkoyup._domainkey:
-  ttl: 300
-  type: CNAME
-  value: coo6soxcnaluiv3zpqvxtfdzo5wkoyup.dkim.amazonses.com.
 e7gd2dqpsoczd4yaw6o2wr3jdjevenke._domainkey:
   ttl: 300
   type: CNAME
@@ -182,10 +174,6 @@ eshot._domainkey.communications:
 fp01._domainkey:
   type: TXT
   value: v=DKIM1\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
-gbqwy5gdcrmac5t7ulfw3fzond3hosyx._domainkey:
-  ttl: 300
-  type: CNAME
-  value: gbqwy5gdcrmac5t7ulfw3fzond3hosyx.dkim.amazonses.com.
 hpa65gtvpat7nktymcohpntuka3hfzq4._domainkey:
   ttl: 300
   type: CNAME
