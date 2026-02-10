@@ -15,7 +15,7 @@
     values:
       - MS=ms11088500
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32  include:spf.protection.outlook.com
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:159.183.33.34/32 ip4:172.246.41.121/32 include:spf.protection.outlook.com
         -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-g6sLeaspwAb5gtI16d1YxOb6
