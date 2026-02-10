@@ -1498,14 +1498,6 @@ prisoner:
     - ns2-08.azure-dns.net.
     - ns3-08.azure-dns.org.
     - ns4-08.azure-dns.info.
-prisoner-intelligence-notifications:
-  ttl: 60
-  type: NS
-  values:
-    - ns1-03.azure-dns.com.
-    - ns2-03.azure-dns.net.
-    - ns3-03.azure-dns.org.
-    - ns4-03.azure-dns.info.
 prisoner-money:
   type: NS
   values:
