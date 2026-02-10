@@ -19,9 +19,13 @@
         -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-g6sLeaspwAb5gtI16d1YxOb6
+      - brevo-code:70df7540dafa8ea20f0eccbc493bb5ae
 129688:
   type: CNAME
   value: sendgrid.net
+57088376:
+  type: CNAME
+  value: eu.sendgrid.net
 _asvdns-7f96cfbc-c539-4350-9631-a61dfcdba928:
   ttl: 300
   type: TXT
@@ -33,7 +37,7 @@ _d3c63817e9230a6cfa3a831ad8b2dddc.mta-sts:
 _dmarc:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com
 _mta-sts:
   ttl: 300
   type: TXT
@@ -45,6 +49,9 @@ _smtp._tls:
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com
+em3702:
+  type: CNAME
+  value: u57088376.eu.wl.sendgrid.net
 enterpriseenrollment:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com
@@ -55,6 +62,16 @@ fp01._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN/Dnp6gO1PJVQgLljNpkkvVUH/G04C2QkC28j8ddX13V7MAvDWpCxnUfTPy8C27njUImSa8b2TwyeA0P2ONPHQhW652tSxZa0+VT2b5qRFhne3UigZEeKhix988mhlOTO+6PN4+JR7MPXSeE0iGGPWm8m4JsxeaVvwN0XC92yvQIDAQAB\;
+mail._domainkey:
+  ttl: 300
+  type: TXT
+  value: k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB
+meu._domainkey:
+  type: CNAME
+  value: meu.domainkey.u57088376.eu.wl.sendgrid.net
+meu2._domainkey:
+  type: CNAME
+  value: meu2.domainkey.u57088376.eu.wl.sendgrid.net
 mhq154036d:
   type: CNAME
   value: u129688.wl189.sendgrid.net
@@ -84,3 +101,6 @@ selector1._domainkey:
 selector2._domainkey:
   type: CNAME
   value: selector2-lawcommission-gov-uk._domainkey.justiceuk.onmicrosoft.com
+url7217:
+  type: CNAME
+  value: eu.sendgrid.net
