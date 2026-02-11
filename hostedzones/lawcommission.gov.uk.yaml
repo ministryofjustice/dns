@@ -36,7 +36,7 @@ _d3c63817e9230a6cfa3a831ad8b2dddc.mta-sts:
   value: _fbf22bb8549a2061600873db82c8a490.nhsllhhtvj.acm-validations.aws.
 _dmarc:
   ttl: 300
-  type: CNAME
+  type: TXT
   value: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:rua@dmarc.brevo.com
 _mta-sts:
   ttl: 300
