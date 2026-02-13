@@ -1829,10 +1829,6 @@ selector2._domainkey.nicts:
   ttl: 300
   type: CNAME
   value: selector2-nicts-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com
-selector2._domainkey.optic:
-  ttl: 300
-  type: CNAME
-  value: selector2-optic-justice-gov-uk._domainkey.JusticeUK.p-v1.dkim.mail.microsoft
 selector._domainkey.hmctssurvey:
   ttl: 300
   type: CNAME
