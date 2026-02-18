@@ -271,6 +271,10 @@ _dnsauth.bench.staging.courtstore:
   ttl: 300
   type: CNAME
   value: _9s060s1kzeo17cexek121ko6nee9v2a.dcv.digicert.com.
+_dnsauth.staff-staging.court.store:
+  ttl: 300
+  type: CNAME
+  value: _3efxyhlli39xz3dvw6l5h5mu39s9xeq.dcv.digicert.com.
 _dnsauth.staging.courtstore:
   ttl: 300
   type: CNAME
@@ -283,6 +287,10 @@ _dnsauth.www.bench.staging.courtstore:
   ttl: 300
   type: CNAME
   value: _9s060s1kzeo17cexek121ko6nee9v2a.dcv.digicert.com.
+_dnsauth.www.staff-staging.court.store:
+  ttl: 300
+  type: CNAME
+  value: _3efxyhlli39xz3dvw6l5h5mu39s9xeq.dcv.digicert.com.
 _dnsauth.www.staging.courtstore:
   ttl: 300
   type: CNAME
