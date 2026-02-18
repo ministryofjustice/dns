@@ -56,10 +56,6 @@ enterpriseenrollment:
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net
-fs._domainkey:
-  ttl: 300
-  type: CNAME
-  value: wl252532s1.domainkey.freshemail.io
 fs2._domainkey:
   ttl: 300
   type: CNAME
@@ -68,6 +64,10 @@ fs3._domainkey:
   ttl: 300
   type: CNAME
   value: wl252532s3.domainkey.freshemail.io
+fs._domainkey:
+  ttl: 300
+  type: CNAME
+  value: wl252532s1.domainkey.freshemail.io
 fsdkim:
   ttl: 300
   type: CNAME
