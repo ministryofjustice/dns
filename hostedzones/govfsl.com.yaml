@@ -19,7 +19,7 @@
       - MS=ms10443166
       - apple-domain-verification=X27AYsxWvqjiHs8k
       - google-site-verification=y13dLG-4NRFPZgOO6aIVATIWaBcDAsmAVTy-_TD5M2M
-      - v=spf1 include:spf.protection.outlook.com include:spf_c.oracle.com include:spf_c.oraclecloud.com ip4:188.65.119.39 ip4:188.65.119.42 ip4:87.247.244.98 ip4:195.62.28.68 ip4:185.24.97.25 -all
+      - v=spf1 include:spf.protection.outlook.com include:spf_c.oracle.com include:spf_c.oraclecloud.com include:email.freshservice.com -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
       - openai-domain-verification=dv-7V2ew1gVYHyb1v6qudyNrZZP
@@ -56,10 +56,30 @@ enterpriseenrollment:
 enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net
+fs2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: wl252532s2.domainkey.freshemail.io
+fs3._domainkey:
+  ttl: 300
+  type: CNAME
+  value: wl252532s3.domainkey.freshemail.io
+fs._domainkey:
+  ttl: 300
+  type: CNAME
+  value: wl252532s1.domainkey.freshemail.io
+fsdkim:
+  ttl: 300
+  type: CNAME
+  value: spfmx3.domainkey.freshemail.io
 google._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsEN1LacYMsFqKvQ5uXr4w2BlNiItks7l4rTu5L+5qJr3z9PCURsZA0IgImUpTYTf3W611mQ1JnR7DSj/Q/0lb0vq8Ypq0BrsS1RhWCJMzdbKm3DrOLAP+I/djyZf3YqBczqqRXowIgAmts8AGS1ncUMxqGpBuV+zwSzWX6P7mjQIDAQAB
+helpdesk:
+  ttl: 300
+  type: CNAME
+  value: b42941697c5cdcbeb7ab15b83e1322a5.freshservice.com
 mta-sts:
   ttl: 942942942
   type: Route53Provider/ALIAS
