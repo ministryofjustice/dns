@@ -29,10 +29,6 @@
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
       - openai-domain-verification=dv-Q3prkKonRc2hFj5Xa8uAaI2b
-_7de5a7a6bca330e18b1999854dc49008.cintra-vpn:
-  ttl: 300
-  type: CNAME
-  value: _d275fbd9fe03df18b419a0f0eb620c2e.jkddzztszm.acm-validations.aws.
 _56a37ebc38b8f47a75fe557fc29d22dd.mta-sts:
   ttl: 60
   type: CNAME
