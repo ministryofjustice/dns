@@ -444,22 +444,6 @@ staging.landschamber:
   ttl: 300
   type: CNAME
   value: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-tactical-products:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1081.awsdns-07.org.
-    - ns-1982.awsdns-55.co.uk.
-    - ns-221.awsdns-27.com.
-    - ns-832.awsdns-40.net.
-tacticalproductsalb:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1122.awsdns-12.org.
-    - ns-1811.awsdns-34.co.uk.
-    - ns-448.awsdns-56.com.
-    - ns-826.awsdns-39.net.
 tacticalproductshmcts:
   ttl: 300
   type: NS
