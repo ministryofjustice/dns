@@ -1432,6 +1432,14 @@ modeloffice.cjscp:
   ttl: 600
   type: A
   value: 83.151.216.178
+modernising:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1502.awsdns-59.org
+    - ns-1631.awsdns-11.co.uk
+    - ns-203.awsdns-25.com
+    - ns-989.awsdns-59.net
 mppconfig:
   ttl: 600
   type: A
