@@ -923,14 +923,6 @@ helpwithchildarrangements:
     - ns-2000.awsdns-58.co.uk.
     - ns-465.awsdns-58.com.
     - ns-989.awsdns-59.net.
-hmcts-risk-assurance-operating-controls:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1306.awsdns-35.org.
-    - ns-1537.awsdns-00.co.uk.
-    - ns-456.awsdns-57.com.
-    - ns-838.awsdns-40.net.
 hmcts-sif-reporting-tool:
   ttl: 172800
   type: NS
