@@ -18,10 +18,6 @@
   - ttl: 300
     type: TXT
     values: [MS=ms96686635, v=spf1 ~all]
-_0cbf0f810ad5c633d700bb504ca45b1f.intranet:
-  ttl: 300
-  type: CNAME
-  value: _d54a4c592ad02000b032201b8e535d4b.btsqtkxpyp.acm-validations.aws.
 _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
@@ -778,14 +774,6 @@ electronic-monitoring:
     - ns-1969.awsdns-54.co.uk.
     - ns-447.awsdns-55.com.
     - ns-521.awsdns-01.net.
-em1424.jac.intranet:
-  ttl: 300
-  type: CNAME
-  value: u2320754.wl005.sendgrid.net
-em1689.officialsolicitorandpublictrustee.intranet:
-  ttl: 300
-  type: CNAME
-  value: u2320754.wl005.sendgrid.net
 em1979.status.hosting:
   ttl: 300
   type: CNAME
@@ -939,10 +927,6 @@ hmcts-sif-reporting-tool:
     - ns-1437.awsdns-51.org.
     - ns-1610.awsdns-09.co.uk.
     - ns-403.awsdns-50.com.
-hmcts.intranet:
-  ttl: 300
-  type: A
-  value: 54.72.29.113
 hmpps:
   ttl: 300
   type: NS
@@ -1031,10 +1015,6 @@ judicialappointmentscommission.intranet:
   ttl: 300
   type: CNAME
   value: jac.intranet.service.justice.gov.uk
-judicialoffice.intranet:
-  ttl: 300
-  type: CNAME
-  value: jointranet.prod.wp.dsd.io
 laa:
   ttl: 86400
   type: NS
@@ -1111,10 +1091,6 @@ legacy.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
   value: d2p66dhqonjkjj.cloudfront.net
-legalaidagency.intranet:
-  ttl: 300
-  type: A
-  value: 134.213.160.26
 list-assist:
   ttl: 300
   type: A
@@ -1302,10 +1278,6 @@ offenders-9bee1354:
     hosted-zone-id: ZHURV8PSTC4K8
     name: prisoners-elboffen-tihe091e7s7f-723595351.eu-west-2.elb.amazonaws.com.
     type: A
-officialsolicitorandpublictrustee.intranet:
-  ttl: 60
-  type: CNAME
-  value: osptintranet.prod.wp.dsd.io
 offloc:
   ttl: 300
   type: NS
@@ -1676,22 +1648,6 @@ review-criminal-legal-aid:
     - ns-1936.awsdns-50.co.uk.
     - ns-295.awsdns-36.com.
     - ns-604.awsdns-11.net.
-s1._domainkey.jac.intranet:
-  ttl: 300
-  type: CNAME
-  value: s1.domainkey.u2320754.wl005.sendgrid.net
-s1._domainkey.officialsolicitorandpublictrustee.intranet:
-  ttl: 300
-  type: CNAME
-  value: s1.domainkey.u2320754.wl005.sendgrid.net
-s2._domainkey.jac.intranet:
-  ttl: 300
-  type: CNAME
-  value: s2.domainkey.u2320754.wl005.sendgrid.net
-s2._domainkey.officialsolicitorandpublictrustee.intranet:
-  ttl: 300
-  type: CNAME
-  value: s2.domainkey.u2320754.wl005.sendgrid.net
 sandbox.list-assist:
   ttl: 300
   type: A
