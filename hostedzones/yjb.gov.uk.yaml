@@ -145,11 +145,14 @@ ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
   type: CNAME
   value: ccdw2w6jvkr2vreletczhejsrnfecbbr.dkim.amazonses.com.
 communications:
-  ttl: 300
-  type: MX
-  value:
-    exchange: mail-ps.e-shot.org.
-    preference: 5
+  - ttl: 300
+    type: MX
+    value:
+      exchange: mail-ps.e-shot.org.
+      preference: 5
+  - ttl: 300
+    type: TXT
+    value: v=spf1 include:spf-ps.e-shot.org -all
 e7gd2dqpsoczd4yaw6o2wr3jdjevenke._domainkey:
   ttl: 300
   type: CNAME
