@@ -61,14 +61,6 @@ backup.tax-tribunals-datacapture-staging:
     hosted-zone-id: Z32O12XQLNTSW2
     name: tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com.
     type: A
-cait:
-  ttl: 600
-  type: NS
-  values:
-    - ns-1021.awsdns-63.net.
-    - ns-1096.awsdns-09.org.
-    - ns-1729.awsdns-24.co.uk.
-    - ns-199.awsdns-24.com.
 ci-hmcts.service:
   ttl: 942942942
   type: Route53Provider/ALIAS
