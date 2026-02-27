@@ -37,14 +37,6 @@ _dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1;p=reject;rua=mailto:dmarc-rua@dmarc.service.gov.uk;
-acceleratedpossession:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1114.awsdns-11.org.
-    - ns-1772.awsdns-29.co.uk.
-    - ns-325.awsdns-40.com.
-    - ns-941.awsdns-53.net.
 azure:
   ttl: 300
   type: NS
