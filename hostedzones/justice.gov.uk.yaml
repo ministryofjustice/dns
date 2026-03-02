@@ -942,6 +942,10 @@ digital:
     - ns-1776.awsdns-30.co.uk.
     - ns-284.awsdns-35.com.
     - ns-527.awsdns-01.net.
+dkfusion260227cd15._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1; g=*; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArvpXFM5ZdCJNU23bBZ+oStjQKa1+dJ00uqnyQ3uXu5es1kqXYb5Lxi2uyG+kGGvXMeyO/1/4Ntr2zSHs8EiNytUod9n1PC3QWa2kgs7Zx5eS9wKlwxsdFDw/3beLg1yJ8dcT4tFRSTXQcJXiriQQozQ7UAE3mara7C4tv6bhqOvZqKdZKFJ1dFyeOhCxI+iGF34DMTT3mlJLqFzhesNUJgnmLKLn7wGAqKHHlWaeR1rfdqcFbmEtPZR4JLp9CLG9qGd8JFfdOsddBhAfZvzkMack2qk6gmHXSCaGoHNh/htqMLpYDnIZWia0o++ZnZspTWelkoqhOuvEU46cFz47kQIDAQAB
 dkim2048._domainkey.people-development:
   ttl: 300
   type: TXT
