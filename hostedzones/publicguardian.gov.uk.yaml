@@ -30,6 +30,7 @@
       - google-gws-recovery-domain-verification=57195953
       - google-site-verification=kvDuEESo0CdZs7pRtvXEoy7L176lTbyQqsFPo-v2qbw
       - openai-domain-verification=dv-horegd4wk8DAhov1eFYWXQwu
+      - figma-domain-verification=299a0c39fc6ac54f49ab24708bb13153a98ad2c0f57b1f073958ea3390e9fcce-1772446492
 _asvdns-8a5e9946-76d7-4e78-83b0-5f3be2e0e7b0:
   ttl: 300
   type: TXT
