@@ -42,10 +42,6 @@ _dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
-_dmarc.test:
-  ttl: 600
-  type: TXT
-  value: v=DMARC1\;p=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
 _fe6a4e96a2fc9bdf63a353010447e213.mta-sts:
   ttl: 60
   type: CNAME
@@ -70,23 +66,7 @@ _sip._tls:
       priority: 100
       target: sipdir.online.lync.com
       weight: 1
-_sip._tls.test:
-  ttl: 3600
-  type: SRV
-  values:
-    - port: 443
-      priority: 100
-      target: sipdir.online.lync.com
-      weight: 1
 _sipfederationtls._tcp:
-  ttl: 3600
-  type: SRV
-  values:
-    port: 5061
-    priority: 100
-    target: sipfed.online.lync.com
-    weight: 1
-_sipfederationtls._tcp.test:
   ttl: 3600
   type: SRV
   values:
@@ -114,14 +94,6 @@ autodiscover:
   ttl: 3600
   type: CNAME
   value: autodiscover.outlook.com
-autodiscover.g.test:
-  ttl: 300
-  type: A
-  value: 18.130.201.170
-autodiscover.test:
-  ttl: 3600
-  type: CNAME
-  value: autodiscover.outlook.com
 email.prisonvisits.service.gov.uk._report._dmarc:
   ttl: 300
   type: TXT
@@ -130,58 +102,14 @@ enterpriseenrollment:
   ttl: 3600
   type: CNAME
   value: enterpriseenrollment-s.manage.microsoft.com
-enterpriseenrollment.test:
-  ttl: 300
-  type: CNAME
-  value: enterpriseenrollment.manage.microsoft.com.
 enterpriseregistration:
   ttl: 3600
   type: CNAME
   value: enterpriseregistration.windows.net
-enterpriseregistration.test:
-  ttl: 3600
-  type: CNAME
-  value: enterpriseregistration.windows.net.
-g.test:
-  - ttl: 300
-    type: A
-    value: 18.130.201.170
-  - ttl: 600
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: aspmx2.googlemail.com.
-        preference: 10
-      - exchange: aspmx3.googlemail.com.
-        preference: 10
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:spf.protection.outlook.com include:_spf.google.com ip4:18.130.205.7
-      ~all
 google._domainkey:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1snHP8lvv0mZX79qVzSnboSIqgO9B9+K2l7vdCtziZ9MiyFhOQr+jNwFA3DAfl+Lw3/8KhLyxWI7+kK5aYZrle9ugWQPKqOGhs/17vH4Ow5LNFmtwpJMWIfO6HwqhQxSQSBsIoy45+ZeDK1cD4YBFYpTu4tfeWW2BLlz/alB+PwIDAQAB
-google._domainkey.test:
-  ttl: 600
-  type: TXT
-  value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQyKMZ9GXNVq2wdHvjpDoQaiOc9OUoXUc/uqToKO+d+7IGoPDF3QVvoTNQ2Xw5nGHu/6Obstl+7yCJS4YiCD0MwtrQINwd7L3Ky2FxjQRs4NXeg8gNgReGET5NrVRDCjBS4ELBnBcq9/Zlexe9bkw46VPl6tdfSPqsydlWhwRbzQIDAQAB
-gsi.test:
-  - ttl: 300
-    type: MX
-    value:
-      exchange: .
-      preference: 0
-  - ttl: 300
-    type: TXT
-    values:
-      - auZnAusRNbOx1OFTpjE5EYTgjG76iK7qhmhEqcm6Jg/6S9nXJ7HntCo8S8X0G9+Q0BjdYyWuzw4n40UU2CgH0w==
-      - v=spf1 ip4:18.130.205.7 ~all
 gwvr3t44mndxjndlxq3husq4pfpr35f7._domainkey:
   ttl: 300
   type: CNAME
@@ -202,10 +130,6 @@ lyncdiscover:
   ttl: 3600
   type: CNAME
   value: webdir.online.lync.com
-mail.test:
-  ttl: 300
-  type: A
-  value: 18.130.205.7
 mam.mobile:
   ttl: 300
   type: A
@@ -260,17 +184,9 @@ psn:
 selector1._domainkey:
   type: CNAME
   value: selector1-digital-justice-gov-uk._domainkey.asperitas.onmicrosoft.com
-selector1._domainkey.test:
-  ttl: 600
-  type: CNAME
-  value: selector1-test-digital-justice-gov-uk._domainkey.testasperitas.onmicrosoft.com
 selector2._domainkey:
   type: CNAME
   value: selector2-digital-justice-gov-uk._domainkey.asperitas.onmicrosoft.com
-selector2._domainkey.test:
-  ttl: 600
-  type: CNAME
-  value: selector2-test-digital-justice-gov-uk._domainkey.testasperitas.onmicrosoft.com
 sf.mobile:
   ttl: 300
   type: A
@@ -295,20 +211,6 @@ temp:
     hosted-zone-id: Z32O12XQLNTSW2
     name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
     type: A
-test:
-  - ttl: 600
-    type: MX
-    values:
-      - exchange: test-digital-justice-gov-uk.mail.protection.outlook.com
-        preference: 0
-  - ttl: 600
-    type: TXT
-    values:
-      - GFTBshQ/pI5XCTq5DxCKe9CZzVNocf4/9yYGIcqmLJKHduGUWltgiAack/3zTznC1VsFu0poNqbwPWZoZUIDuQ==
-      - MS=ms29740004
-      - MS=ms36924066
-      - google-site-verification=eKrQOC2iPS1lEVnT_dPfGq4GGfEiWkICwBIQKDMK24s
-      - v=spf1 include:spf.protection.outlook.com include:_spf.google.com -all
 w3lfdwhi4uimdhfijhgb7slpiossuoz7._domainkey:
   ttl: 300
   type: CNAME
