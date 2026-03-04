@@ -1181,14 +1181,6 @@ ideas:
   ttl: 300
   type: CNAME
   value: da-moj.delib.net.
-immigrationappealsonline:
-  ttl: 600
-  type: NS
-  values:
-    - ns-1400.awsdns-47.org
-    - ns-20.awsdns-02.com
-    - ns-2045.awsdns-63.co.uk
-    - ns-670.awsdns-19.net
 in-addr:
   ttl: 300
   type: NS
