@@ -7,6 +7,10 @@
     - ns-2038.awsdns-62.co.uk.
     - ns-273.awsdns-34.com.
     - ns-553.awsdns-05.net.
+_asvdns-5d0ed4b7-fba8-4374-b371-9148359ba8bd:
+  ttl: 300
+  type: TXT
+  value: asvdns_64b56289-1c2f-4bf4-999f-5cb9a541ed1f
 _dmarc:
   ttl: 300
   type: TXT
