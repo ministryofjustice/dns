@@ -29,6 +29,10 @@ _732640040c1ab18b962520c204b5124d:
   ttl: 300
   type: CNAME
   value: _b628bc8b37d6f5862f74158874940fac.jkddzztszm.acm-validations.aws.
+_asvdns-b05e7017-2138-4d37-8c77-0f649a77f446:
+  ttl: 300
+  type: TXT
+  value: asvdns_4baa0c7f-d253-4784-b5f9-84ede9be8c24
 _dmarc:
   ttl: 300
   type: TXT
