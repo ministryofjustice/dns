@@ -7,6 +7,10 @@
     - ns-1856.awsdns-40.co.uk.
     - ns-323.awsdns-40.com.
     - ns-770.awsdns-32.net.
+_asvdns-566f74aa-b1b9-42f1-8b1d-557adf38f9e9:
+  ttl: 300
+  type: TXT
+  value: asvdns_26689f5a-829f-49f2-8f4f-66fe71d8f010
 _dmarc:
   ttl: 300
   type: TXT
