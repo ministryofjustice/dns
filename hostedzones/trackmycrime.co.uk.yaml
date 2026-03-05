@@ -7,6 +7,10 @@
     - ns-1681.awsdns-18.co.uk.
     - ns-187.awsdns-23.com.
     - ns-757.awsdns-30.net.
+_asvdns-305aef08-27b6-48bd-8b0e-17a779cadff5:
+  ttl: 300
+  type: TXT
+  value: asvdns_63544d41-ae26-4d69-aef3-5cc3656bffd2
 _dmarc:
   ttl: 300
   type: TXT

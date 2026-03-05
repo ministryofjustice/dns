@@ -10,6 +10,10 @@
       - ns-1600.awsdns-08.co.uk.
       - ns-462.awsdns-57.com.
       - ns-702.awsdns-23.net.
+_asvdns-a194891a-abb1-4338-b356-bec51a809f03:
+  ttl: 300
+  type: TXT
+  value: asvdns_c158f1b2-152c-4989-b49e-0a81d89852e2
 _dmarc:
   ttl: 300
   type: TXT

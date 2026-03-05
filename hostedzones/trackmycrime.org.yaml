@@ -7,6 +7,10 @@
     - ns-1740.awsdns-25.co.uk.
     - ns-5.awsdns-00.com.
     - ns-823.awsdns-38.net.
+_asvdns-90f62f0d-d47f-4a11-9a87-1b910cb6b953:
+  ttl: 300
+  type: TXT
+  value: asvdns_c1c05118-d4af-4584-9d45-5469775794d8
 _dmarc:
   ttl: 300
   type: TXT

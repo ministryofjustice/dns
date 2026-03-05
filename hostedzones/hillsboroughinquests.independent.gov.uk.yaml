@@ -18,6 +18,10 @@ _404c4a61de1b9aed45c6e59cd837dc04.www:
   ttl: 300
   type: CNAME
   value: _2762b8e44eeffa9ca012abc881f5d403.hkvuiqjoua.acm-validations.aws.
+_asvdns-bc31bf20-6b5d-4078-a850-d9d76b49f693:
+  ttl: 300
+  type: TXT
+  value: asvdns_19039d26-7c4b-4183-b8f2-90503162ca2c
 _dbba0a299a5085e687f708e302c2089c:
   ttl: 300
   type: CNAME

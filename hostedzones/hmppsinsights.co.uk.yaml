@@ -36,10 +36,10 @@ _268633694c48b2e8a33dd9f26d40be8a.www:
   ttl: 300
   type: CNAME
   value: _ebd8224f4701df58162d51f189143f6f.tctzzymbbs.acm-validations.aws.
-_asvdns-f386b266-962b-4b39-ae5c-019e53c86b85:
+_asvdns-a01fd7b3-8daf-4d31-a2b8-5631ad423fb4:
   ttl: 300
   type: TXT
-  value: asvdns_3914be41-0787-492d-9c0a-3d5270ca2300
+  value: asvdns_c9ae79a9-b1e1-4c5b-befd-f461fc8a9136
 _domainkey:
   ttl: 300
   type: TXT

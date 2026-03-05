@@ -14,6 +14,10 @@
       hosted-zone-id: ZHURV8PSTC4K8
       name: dualstack.accou-loadb-ndv9g9n5b0v9-1351342179.eu-west-2.elb.amazonaws.com.
       type: A
+_asvdns-3f49a72f-989e-43ae-8eec-e620523e9711:
+  ttl: 300
+  type: TXT
+  value: asvdns_866e777a-df48-4192-b20b-b2d2d2d15749
 _dmarc:
   ttl: 300
   type: TXT

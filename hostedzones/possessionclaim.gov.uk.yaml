@@ -14,6 +14,10 @@
       hosted-zone-id: Z3GKZC51ZF0DB4
       name: s3-website.eu-west-2.amazonaws.com.
       type: A
+_asvdns-258288e9-92f1-4a3f-a914-d1667ff34913:
+  ttl: 300
+  type: TXT
+  value: asvdns_ac078ee6-5ae6-4a89-87f3-ea2792e1fd58
 _dmarc:
   ttl: 300
   type: TXT
