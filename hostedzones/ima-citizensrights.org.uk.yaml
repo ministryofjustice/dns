@@ -53,6 +53,10 @@ _adsp._domainkey.newsletter:
   ttl: 300
   type: TXT
   value: dkim=all
+_asvdns-1fc5d474-6d6d-4ab9-b674-091bcced4a9d:
+  ttl: 300
+  type: TXT
+  value: asvdns_f89f82f2-8f2e-4dda-a0bd-1edca7690f39
 _asvdns-32a477b9-ad5c-4540-8b75-0cf4af2ede01:
   ttl: 300
   type: TXT
