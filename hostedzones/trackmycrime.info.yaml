@@ -7,6 +7,10 @@
     - ns-1850.awsdns-39.co.uk.
     - ns-278.awsdns-34.com.
     - ns-788.awsdns-34.net.
+_asvdns-0093f355-0d35-4a8e-83ef-e05137d2afad:
+  ttl: 300
+  type: TXT
+  value: asvdns_b94c7fd7-693c-472b-892d-2cd3db8897b8
 _dmarc:
   ttl: 300
   type: TXT
