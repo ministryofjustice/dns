@@ -10,6 +10,10 @@
       - ns-1693.awsdns-19.co.uk.
       - ns-477.awsdns-59.com.
       - ns-834.awsdns-40.net.
+_asvdns-a3e5c0b3-7132-4da7-864b-e844391ffa33:
+  ttl: 300
+  type: TXT
+  value: asvdns_693c9ef7-906c-442f-99f6-558f97b11eb2
 _dmarc:
   ttl: 300
   type: TXT

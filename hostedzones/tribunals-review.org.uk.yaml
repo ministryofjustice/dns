@@ -22,6 +22,10 @@ _a78f3e4c310da391d08f779d111b4312.www:
   ttl: 300
   type: CNAME
   value: _c8f52e00783b21af52049ecd8e7b84bd.jkddzztszm.acm-validations.aws.
+_asvdns-674fa1ea-0ec1-4a4a-8ea1-b5505da9b3ec:
+  ttl: 300
+  type: TXT
+  value: asvdns_fef10837-859a-4c0e-90ef-94fc3798957f
 _dmarc:
   ttl: 300
   type: TXT

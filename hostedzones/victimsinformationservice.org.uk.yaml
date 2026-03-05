@@ -10,10 +10,10 @@
   - ttl: 300
     type: TXT
     value: google-site-verification=LtAf4X0uzrFwmWaywoLQSinsMjrQeWBetT8hTDvy__4
-07dfcb8fcbca67bdfc306d907236a42d:
+_asvdns-ecac10f0-dc2e-4069-9c34-08813d77dd8e:
   ttl: 300
-  type: CNAME
-  value: 21d0f61ea07454a56411e203b96afbdbeed5c584.comodoca.com
+  type: TXT
+  value: asvdns_c0436b8e-19ab-4904-84a7-7d6c41299880
 _dmarc:
   ttl: 300
   type: TXT
@@ -22,10 +22,6 @@ _ec889d6bdfaec482e123675cd4f4b3c0:
   ttl: 300
   type: CNAME
   value: _1a89d45a002f935f9e89b77c7d71dbaf.tljzshvwok.acm-validations.aws.
-cfc8bc4049726d66957e9416c9578f48:
-  ttl: 10800
-  type: CNAME
-  value: c0efdb0959d72f7ac45a36af416243e4b7d47804.comodoca.com.
 cloudfront:
   ttl: 60
   type: CNAME
