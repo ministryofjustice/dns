@@ -14,6 +14,10 @@
       hosted-zone-id: Z2FDTNDATAQYW2
       name: d30hpafvgbdc0e.cloudfront.net.
       type: A
+_asvdns-d7802ce0-20e6-4356-af34-a9dd18961ab5:
+  ttl: 300
+  type: TXT
+  value: asvdns_446252cc-2150-4cbe-b5ce-39f3505cfed6
 _dmarc:
   ttl: 300
   type: TXT
