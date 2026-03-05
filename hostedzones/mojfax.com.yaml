@@ -28,6 +28,10 @@
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=
+_asvdns-4702d1b7-6319-4279-b3fa-63790f774869:
+  ttl: 300
+  type: TXT
+  value: asvdns_03a838cd-9e7e-497d-b26b-aaa3aa42e3d6
 _dmarc:
   ttl: 300
   type: TXT
