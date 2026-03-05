@@ -778,7 +778,7 @@ em1979.status.hosting:
   ttl: 300
   type: CNAME
   value: u31181182.wl183.sendgrid.net
-em7850.recruit:
+em6169.recruit:
   ttl: 300
   type: CNAME
   value: u8067113.wl114.sendgrid.net
@@ -1517,14 +1517,6 @@ provider-ui.ccms:
     - ns-1565.awsdns-03.co.uk.
     - ns-502.awsdns-62.com.
     - ns-811.awsdns-37.net.
-ps2._domainkey.recruit:
-  ttl: 300
-  type: CNAME
-  value: ps2.domainkey.u8067113.wl114.sendgrid.net
-ps._domainkey.recruit:
-  ttl: 300
-  type: CNAME
-  value: ps.domainkey.u8067113.wl114.sendgrid.net
 pvlbookingsystem:
   ttl: 600
   type: A
@@ -1648,6 +1640,14 @@ review-criminal-legal-aid:
     - ns-1936.awsdns-50.co.uk.
     - ns-295.awsdns-36.com.
     - ns-604.awsdns-11.net.
+s1._domainkey.recruit:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u8067113.wl114.sendgrid.net
+s2._domainkey.recruit:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u8067113.wl114.sendgrid.net
 sandbox.list-assist:
   ttl: 300
   type: A
