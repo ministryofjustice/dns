@@ -607,6 +607,10 @@ autodiscover.ca:
   ttl: 300
   type: CNAME
   value: autodiscover.outlook.com.
+autodiscover.criminalappealoffice:
+  ttl: 3600
+  type: CNAME
+  value: autodiscover.outlook.com.
 autodiscover.cshrcasework:
   type: CNAME
   value: autodiscover.outlook.com
@@ -833,18 +837,16 @@ criminal-justice-scorecard:
     type: TXT
     value: Reserved for the Criminal Justice Scorecard project
 criminalappealoffice:
-  - ttl: 300
+  - ttl: 3600
     type: MX
     values:
-      - exchange: cluster5.eu.messagelabs.com
-        preference: 10
-      - exchange: cluster5a.eu.messagelabs.com
-        preference: 20
+      - exchange: criminalappealoffice-justice-gov-uk.mail.protection.outlook.com
+        preference: 0
   - type: TXT
     values:
       - C0E4N61551
       - MS=ms43105042
-      - v=spf1 include:spf.messagelabs.com -all
+      - v=spf1 include:spf.protection.outlook.com -all
 cshrcasework:
   - type: MX
     value:
@@ -1006,6 +1008,10 @@ enterpriseenrollment.administrativecourtoffice:
   ttl: 3600
   type: CNAME
   value: enterpriseenrollment-s.manage.microsoft.com
+enterpriseenrollment.criminalappealoffice:
+  ttl: 3600
+  type: CNAME
+  value: enterpriseenrollment-s.manage.microsoft.com
 enterpriseenrollment.cshrcasework:
   type: CNAME
   value: enterpriseenrollment.manage.microsoft.com
@@ -1017,6 +1023,10 @@ enterpriseregistration:
   type: CNAME
   value: enterpriseregistration.windows.net.
 enterpriseregistration.administrativecourtoffice:
+  ttl: 3600
+  type: CNAME
+  value: enterpriseregistration.windows.net
+enterpriseregistration.criminalappealoffice:
   ttl: 3600
   type: CNAME
   value: enterpriseregistration.windows.net
