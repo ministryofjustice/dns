@@ -1809,6 +1809,10 @@ selector1._domainkey.ca:
   ttl: 300
   type: CNAME
   value: selector1-ca-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
+selector1._domainkey.criminalappealoffice:
+  ttl: 300
+  type: CNAME
+  value: selector1-criminalappealoffice-justice-gov-uk._domainkey.JusticeUK.d-v1.dkim.mail.microsoft
 selector1._domainkey.cshrcasework:
   ttl: 300
   type: CNAME
@@ -1840,6 +1844,10 @@ selector2._domainkey.ca:
   ttl: 300
   type: CNAME
   value: selector2-ca-justice-gov-uk._domainkey.justiceuk.onmicrosoft.com.
+selector2._domainkey.criminalappealoffice:
+  ttl: 300
+  type: CNAME
+  value: selector2-criminalappealoffice-justice-gov-uk._domainkey.JusticeUK.d-v1.dkim.mail.microsoft
 selector2._domainkey.cshrcasework:
   ttl: 300
   type: CNAME
