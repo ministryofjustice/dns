@@ -210,14 +210,14 @@ _c7bbc7af90584dc133b1091ece103f81.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
   value: _53e1facf76e62874565e3dc1c0084604.mhbtsbpdnt.acm-validations.aws.
-_d199ac4426363612824b4dcc768ed024.www.internaltest.ppud:
-  ttl: 300
-  type: CNAME
-  value: _a9144ba7f85f0e42713fa3a70ed7873c.jkddzztszm.acm-validations.aws.
 _d97fb4f4ad2c4d0e83508935752915f1.ccmstraining:
   ttl: 300
   type: CNAME
   value: _b29507f55a1a8cfff56166f65e9f5b81.wggjkglgrm.acm-validations.aws.
+_d199ac4426363612824b4dcc768ed024.www.internaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: _a9144ba7f85f0e42713fa3a70ed7873c.jkddzztszm.acm-validations.aws.
 _dmarc:
   type: TXT
   value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
