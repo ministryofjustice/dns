@@ -94,10 +94,6 @@ _a8991aef56b71d5c328ddcb4789afae0.crown-court-remuneration:
   ttl: 300
   type: CNAME
   value: _7a7caa8732d309945f45d19490d357c8.sdgjtdhdhz.acm-validations.aws.
-_b80f14b653c705ed40fd375c3883907a.staging.hmpps-performance-hub:
-  ttl: 300
-  type: CNAME
-  value: _226833c0c6a8f5ab0ee5e5b575abbf15.jkddzztszm.acm-validations.aws.
 _acme-challenge:
   ttl: 60
   type: TXT
@@ -122,6 +118,10 @@ _asvdns-1368460e-82b0-4fe6-8159-ba7532c2e9a9.email.signon:
   ttl: 300
   type: TXT
   value: asvdns_ccbe4dca-c769-4946-b932-68d66b91d6a1
+_b80f14b653c705ed40fd375c3883907a.staging.hmpps-performance-hub:
+  ttl: 300
+  type: CNAME
+  value: _226833c0c6a8f5ab0ee5e5b575abbf15.jkddzztszm.acm-validations.aws.
 _b932d43205e09e4f3924db0eca5bc86d.dev.creatingfutureopportunities:
   ttl: 300
   type: CNAME
