@@ -1428,7 +1428,7 @@ preprod.victim-case-management:
 preprod.visualiser.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
-  value: d3cd0xnynauvqw.cloudfront.net.
+  value: d3jlsovjv477z1.cloudfront.net.
 prison:
   ttl: 300
   type: NS
