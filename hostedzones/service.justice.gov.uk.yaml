@@ -126,6 +126,10 @@ _b932d43205e09e4f3924db0eca5bc86d.dev.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _067ced5bba4174f15cd3b23d291ad16c.sdgjtdhdhz.acm-validations.aws.
+_b4401301b9114f65bad7c7578f1ffca8.courts-video-link:
+  ttl: 300
+  type: CNAME
+  value: _cc17f15faec0c3cb2e81b29af4623a26.jkddzztszm.acm-validations.aws.
 _bdcfe721a7cbf0bcfed8b2dc6a8a6512.preprod.visualiser.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
