@@ -118,10 +118,6 @@ _asvdns-1368460e-82b0-4fe6-8159-ba7532c2e9a9.email.signon:
   ttl: 300
   type: TXT
   value: asvdns_ccbe4dca-c769-4946-b932-68d66b91d6a1
-_b4401301b9114f65bad7c7578f1ffca8.courts-video-link:
-  ttl: 300
-  type: CNAME
-  value: _cc17f15faec0c3cb2e81b29af4623a26.jkddzztszm.acm-validations.aws.
 _b80f14b653c705ed40fd375c3883907a.staging.hmpps-performance-hub:
   ttl: 300
   type: CNAME
@@ -130,6 +126,10 @@ _b932d43205e09e4f3924db0eca5bc86d.dev.creatingfutureopportunities:
   ttl: 300
   type: CNAME
   value: _067ced5bba4174f15cd3b23d291ad16c.sdgjtdhdhz.acm-validations.aws.
+_b4401301b9114f65bad7c7578f1ffca8.courts-video-link:
+  ttl: 300
+  type: CNAME
+  value: _cc17f15faec0c3cb2e81b29af4623a26.jkddzztszm.acm-validations.aws.
 _bdcfe721a7cbf0bcfed8b2dc6a8a6512.preprod.visualiser.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
