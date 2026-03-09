@@ -68,6 +68,10 @@ _1b792c2153cf927328615e78010f7852.civilmediation:
   ttl: 300
   type: CNAME
   value: _672e46231dca8c8a2e623dbbe513ce63.ltfvzjuylp.acm-validations.aws.
+_2a57c30cd35c8e6904cd8ae169c6f669.internaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: _b2d8ea129253f845544d182e893b6623.jkddzztszm.acm-validations.aws.
 _03d1eb0e883bc23ac9d78786ef9d26e5.www.wam.ppud:
   ttl: 300
   type: CNAME
@@ -80,6 +84,10 @@ _19c1935c338c1a473a54c55c3260a113.mta-sts:
   ttl: 60
   type: CNAME
   value: _deaf7cf7dd6d67b9f69b147486e6a1c9.pczglchxlc.acm-validations.aws.
+_57c71ec99eb32fba6682b454a53e313e.www.waminternaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: _94104e81b172cac85e36b501149e3c4d.jkddzztszm.acm-validations.aws.
 _68d42b6ad48ac655c9781fa6ddb71cb6.www.uat.ppud:
   ttl: 300
   type: CNAME
@@ -88,6 +96,10 @@ _095a63271c706ca475268956d4f33243.www.training.ppud:
   ttl: 300
   type: CNAME
   value: _983e29d9e23e70fb56d73b737037ae3b.xlfgrmvvlj.acm-validations.aws.
+_391f53659698b5cab10a4f2f4ae7f6e6.waminternaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: _1665853770f8855286a836e9efc60440.jkddzztszm.acm-validations.aws.
 _501b4543309e365daa9988b0f8f5bf75.cshrcaseworkcma:
   ttl: 300
   type: CNAME
@@ -202,6 +214,10 @@ _d97fb4f4ad2c4d0e83508935752915f1.ccmstraining:
   ttl: 300
   type: CNAME
   value: _b29507f55a1a8cfff56166f65e9f5b81.wggjkglgrm.acm-validations.aws.
+_d199ac4426363612824b4dcc768ed024.www.internaltest.ppud:
+  ttl: 300
+  type: CNAME
+  value: _a9144ba7f85f0e42713fa3a70ed7873c.jkddzztszm.acm-validations.aws.
 _dmarc:
   type: TXT
   value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
