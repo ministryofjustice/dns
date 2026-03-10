@@ -118,6 +118,10 @@ _asvdns-1368460e-82b0-4fe6-8159-ba7532c2e9a9.email.signon:
   ttl: 300
   type: TXT
   value: asvdns_ccbe4dca-c769-4946-b932-68d66b91d6a1
+_b08b7d7d0d11ff8dc570e7d8de3c5acd.hmpps-performance-hub:
+  ttl: 300
+  type: CNAME
+  value: _e5a2f73ddce1d3887ef3159afcc6e9b4.jkddzztszm.acm-validations.aws.
 _b80f14b653c705ed40fd375c3883907a.staging.hmpps-performance-hub:
   ttl: 300
   type: CNAME
