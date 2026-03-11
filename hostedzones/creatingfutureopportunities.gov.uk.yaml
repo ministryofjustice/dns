@@ -20,7 +20,7 @@ _364180067594c61d67a9d5a108ca1941.statistics:
   value: _85c7b8ca389fe12e223f99fe4f0cec58.djqtsrsxkq.acm-validations.aws.
 _asvdns-9a9f02ff-fecd-4c4f-b6eb-32f84d66748b:
   ttl: 300
-  type: CNAME
+  type: TXT
   value: asvdns_d5f38514-38fa-4cf6-b3dd-4aa85a9cca38
 _e55772ae7a2fd72289d5a4a9ab74f48f.www:
   ttl: 300
