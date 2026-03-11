@@ -7,6 +7,10 @@
     - ns-1810.awsdns-34.co.uk.
     - ns-76.awsdns-09.com.
     - ns-943.awsdns-53.net.
+_asvdns-9d682130-1dc2-4234-994f-c38a30453cd1:
+  ttl: 300
+  type: TXT
+  value: asvdns_cf6855a9-2cd8-4be9-9476-906bd90a105b
 aka:
   ttl: 300
   type: CNAME
