@@ -1704,10 +1704,6 @@ preprod.courtstore:
   ttl: 300
   type: A
   value: 51.179.193.66
-probation:
-  ttl: 600
-  type: CNAME
-  value: probation.homeoffice.gov.uk.
 procurement:
   ttl: 600
   type: A
