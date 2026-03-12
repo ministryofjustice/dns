@@ -98,18 +98,10 @@ selector1._domainkey:
   ttl: 300
   type: CNAME
   value: selector1-test-justice-gov-uk._domainkey.testjusticeuk.onmicrosoft.com
-selector1._domainkey.fax:
-  ttl: 300
-  type: CNAME
-  value: selector1-fax.test.justice.gov.uk._domainkey.justiceuk.onmicrosoft.com
 selector2._domainkey:
   ttl: 300
   type: CNAME
   value: selector2-test-justice-gov-uk._domainkey.testjusticeuk.onmicrosoft.com
-selector2._domainkey.fax:
-  ttl: 300
-  type: CNAME
-  value: selector2-fax.test.justice.gov.uk._domainkey.justiceuk.onmicrosoft.com
 smtp:
   ttl: 600
   type: A

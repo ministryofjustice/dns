@@ -234,8 +234,8 @@ _dmarc.cjsm.secure-email.ppud:
   value: v=DMARC1\; p=quarantine\; rua=mailto:cjsm.helpdesk@egress.com\;
 _dmarc.courtstore:
   ttl: 300
-  type: CNAME
-  value: v=dmarc1;p=reject;sp=reject;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+  type: TXT
+  value: v=DMARC1\;p=reject;sp=reject;rua=mailto:dmarc-rua@dmarc.service.gov.uk
 _dmarc.cshrcasework:
   ttl: 300
   type: TXT
@@ -1704,10 +1704,6 @@ preprod.courtstore:
   ttl: 300
   type: A
   value: 51.179.193.66
-probation:
-  ttl: 600
-  type: CNAME
-  value: probation.homeoffice.gov.uk.
 procurement:
   ttl: 600
   type: A
@@ -2202,10 +2198,6 @@ www.ppud:
     hosted-zone-id: ZHURV8PSTC4K8
     name: internal-ppud-alb-108079999.eu-west-2.elb.amazonaws.com.
     type: A
-www.probation:
-  ttl: 600
-  type: CNAME
-  value: www.probation.homeoffice.gov.uk.
 www.sentencing:
   ttl: 600
   type: A

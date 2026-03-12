@@ -94,10 +94,6 @@ pso:
     hosted-zone-id: Z32O12XQLNTSW2
     name: tribunals-nginx-1184258455.eu-west-1.elb.amazonaws.com.
     type: A
-search:
-  ttl: 600
-  type: CNAME
-  value: search.hmprisonservice.gov.uk.openobjects.com.
 staging:
   ttl: 942942942
   type: Route53Provider/ALIAS
