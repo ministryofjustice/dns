@@ -126,10 +126,6 @@ legalservices.gov.uk._report._dmarc:
   ttl: 36000
   type: TXT
   value: v=DMARC1
-lyncdiscover:
-  ttl: 3600
-  type: CNAME
-  value: webdir.online.lync.com
 mam.mobile:
   ttl: 300
   type: A
@@ -195,10 +191,6 @@ sfpp.mobile:
   ttl: 300
   type: A
   value: 157.203.177.166
-sip:
-  ttl: 3600
-  type: CNAME
-  value: sipdir.online.lync.com
 sso:
   ttl: 300
   type: CNAME
