@@ -1703,14 +1703,6 @@ sit.list-assist:
   ttl: 300
   type: A
   value: 51.104.255.139
-social-justice-problems:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1452.awsdns-53.org
-    - ns-2019.awsdns-60.co.uk
-    - ns-280.awsdns-35.com
-    - ns-840.awsdns-41.net
 staff:
   ttl: 300
   type: NS
