@@ -287,6 +287,10 @@ _dnsauth.bench.staging.courtstore:
   ttl: 300
   type: CNAME
   value: _9s060s1kzeo17cexek121ko6nee9v2a.dcv.digicert.com.
+_dnsauth.moj-pension-relief:
+  ttl: 300
+  type: CNAME
+  value: _zutfogx5mm4cl5a8opmxigrelxtzmiw.dcv.digicert.com.
 _dnsauth.staff-staging.court.store:
   ttl: 300
   type: CNAME
@@ -303,6 +307,10 @@ _dnsauth.www.bench.staging.courtstore:
   ttl: 300
   type: CNAME
   value: _9s060s1kzeo17cexek121ko6nee9v2a.dcv.digicert.com.
+_dnsauth.www.moj-pension-relief:
+  ttl: 300
+  type: CNAME
+  value: _zutfogx5mm4cl5a8opmxigrelxtzmiw.dcv.digicert.com.
 _dnsauth.www.staff-staging.court.store:
   ttl: 300
   type: CNAME
