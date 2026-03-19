@@ -9,4 +9,22 @@
       - ns-1118.awsdns-11.org.
   - ttl: 3600
     type: TXT
-    value: MS=ms41145103
+    values:
+      - MS=ms41145103
+      - v=spf1 include:spf.protection.outlook.com -all
+  - type: MX
+    value:
+      exchange: odpm-gov-uk.mail.protection.outlook.com
+      preference: 0
+autodiscover:
+  ttl: 3600
+  type: CNAME
+  value: autodiscover.outlook.com
+selector1._domainkey:
+  ttl: 3600
+  type: CNAME
+  value: selector1-odpm-gov-uk._domainkey.JusticeUK.p-v1.dkim.mail.microsoft
+selector2._domainkey:
+  ttl: 3600
+  type: CNAME
+  value: selector2-odpm-gov-uk._domainkey.JusticeUK.p-v1.dkim.mail.microsoft
