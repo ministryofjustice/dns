@@ -9,3 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+  - package-ecosystem: "pipenv"
+    directory: "/" # Location of Pipfile and Pipfile.lock
+    schedule:
+      interval: "weekly"
