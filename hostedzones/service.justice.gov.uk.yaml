@@ -15,7 +15,7 @@
   - ttl: 300
     type: TXT
     values: 
-      - [MS=ms96686635, v=spf1 ~all]
+      - MS=ms96686635
       - v=spf1 -all
 _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-provision:
   ttl: 300
