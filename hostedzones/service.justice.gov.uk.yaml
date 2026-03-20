@@ -12,12 +12,11 @@
       - ns-1621.awsdns-10.co.uk.
       - ns-187.awsdns-23.com.
       - ns-978.awsdns-58.net.
-  - ttl: 600
-    type: TXT
-    value: v=spf1 -all
   - ttl: 300
     type: TXT
-    values: [MS=ms96686635, v=spf1 ~all]
+    values: 
+      [MS=ms96686635, v=spf1 ~all]
+      v=spf1 -all
 _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
