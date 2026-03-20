@@ -541,11 +541,3 @@ tax-tribunals-uploader-staging:
     hosted-zone-id: Z32O12XQLNTSW2
     name: tax-tribu-elbtaxtr-8b5enk4npxdw-2132578496.eu-west-1.elb.amazonaws.com.
     type: A
-taxtribunals:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1245.awsdns-27.org.
-    - ns-1924.awsdns-48.co.uk.
-    - ns-280.awsdns-35.com.
-    - ns-984.awsdns-59.net.
