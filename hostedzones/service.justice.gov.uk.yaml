@@ -13,7 +13,7 @@
       - ns-187.awsdns-23.com.
       - ns-978.awsdns-58.net.
   - ttl: 600
-    type: SPF
+    type: TXT
     value: v=spf1 -all
   - ttl: 300
     type: TXT
