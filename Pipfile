@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 boto3 = "==1.42.72"
-octodns = "==1.9.1"
+octodns = "==1.15.0"
 octodns-route53 = "==0.0.7"
 pytest = "==9.0.2"
 pyyaml = "==6.0.3"
