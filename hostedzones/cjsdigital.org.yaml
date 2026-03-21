@@ -27,7 +27,7 @@
       - ns-507.awsdns-63.com.
       - ns-625.awsdns-14.net.
   - ttl: 300
-    type: SPF
+    type: TXT
     value: v=spf1 mx a ip4:109.70.150.133/32 ip4:109.70.150.134/32 -all
 _asvdns-4fdf6b6c-ae95-44a4-b6f7-fbb59944a9b8:
   ttl: 300
