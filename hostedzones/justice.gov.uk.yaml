@@ -291,6 +291,38 @@ _dnsauth.moj-pension-relief:
   ttl: 300
   type: CNAME
   value: _zutfogx5mm4cl5a8opmxigrelxtzmiw.dcv.digicert.com.
+_dnsauth.prep-sop-a.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: _89cqs3y4s2va5fic6chyqiewzpkmiks.dcv.digicert.com.
+_dnsauth.prep-sop-b.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: _akrd414y4cf7ekycyo60iu1np08vulh.dcv.digicert.com.
+_dnsauth.prod-sop-a.vpn:
+  ttl: 300
+  type: CNAME
+  value: _9v9ue6cjf5qt6ft2z5ixdqp4hhvi1m9.dcv.digicert.com.
+_dnsauth.prod-sop-b.vpn:
+  ttl: 300
+  type: CNAME
+  value: _1509hpbm87hk9izbwpzdajjf5sgfu6u.dcv.digicert.com
+_dnsauth.www.prep-sop-a.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: _89cqs3y4s2va5fic6chyqiewzpkmiks.dcv.digicert.com.
+_dnsauth.www.prep-sop-b.prep.vpn:
+  ttl: 300
+  type: CNAME
+  value: _akrd414y4cf7ekycyo60iu1np08vulh.dcv.digicert.com.
+_dnsauth.www.prod-sop-a.vpn:
+  ttl: 300
+  type: CNAME
+  value: _9v9ue6cjf5qt6ft2z5ixdqp4hhvi1m9.dcv.digicert.com.
+_dnsauth.www.prod-sop-b.vpn:
+  ttl: 300
+  type: CNAME
+  value: _akrd414y4cf7ekycyo60iu1np08vulh.dcv.digicert.com.
 _dnsauth.staff-staging.court.store:
   ttl: 300
   type: CNAME
