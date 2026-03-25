@@ -1,12 +1,12 @@
 ---
 '':
   - ttl: 172800
-  type: NS
-  values:
-    - ns-1464.awsdns-55.org.
-    - ns-1867.awsdns-41.co.uk.
-    - ns-52.awsdns-06.com.
-    - ns-936.awsdns-53.net.
+    type: NS
+    values:
+      - ns-1464.awsdns-55.org.
+      - ns-1867.awsdns-41.co.uk.
+      - ns-52.awsdns-06.com.
+      - ns-936.awsdns-53.net.
 playback:
   ttl: 60
   type: A
