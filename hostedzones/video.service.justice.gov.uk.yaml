@@ -7,25 +7,6 @@
     - ns-1867.awsdns-41.co.uk.
     - ns-52.awsdns-06.com.
     - ns-936.awsdns-53.net.
-playback.video.service.justice.gov.uk.:
-  - type: A
-    ttl: 60
-    values:
-      - 217.135.104.158
-    set_identifier: primary
-    routing_policy:
-      type: failover
-      role: PRIMARY
-    octodns:
-      healthcheck_id: 09a1e2a7-8c34-410f-a3cf-a355bc0d069c
-  - type: A
-    ttl: 60
-    values:
-      - 213.216.136.30
-    set_identifier: secondary
-    routing_policy:
-      type: failover
-      role: SECONDARY
 playback1:
   ttl: 60
   type: CNAME
@@ -50,6 +31,25 @@ playback6:
   ttl: 60
   type: CNAME
   value: playback.video.service.justice.gov.uk
+playback.video.service.justice.gov.uk.:
+  - type: A
+    ttl: 60
+    values:
+      - 217.135.104.158
+    set_identifier: primary
+    routing_policy:
+      type: failover
+      role: PRIMARY
+    octodns:
+      healthcheck_id: 09a1e2a7-8c34-410f-a3cf-a355bc0d069c
+  - type: A
+    ttl: 60
+    values:
+      - 213.216.136.30
+    set_identifier: secondary
+    routing_policy:
+      type: failover
+      role: SECONDARY
 sip:
   ttl: 300
   type: A
