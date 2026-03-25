@@ -8,8 +8,8 @@
     - ns-52.awsdns-06.com.
     - ns-936.awsdns-53.net.
 playback:
-  - ttl: 60
-    type: A
+  - type: A
+    ttl: 60
     values:
       - 217.135.104.158
     set_identifier: primary
@@ -17,8 +17,8 @@ playback:
       failover:
         health_check: 09a1e2a7-8c34-410f-a3cf-a355bc0d069c
         role: primary
-  - ttl: 60
-    type: A
+  - type: A
+    ttl: 60
     values: 
       - 213.216.136.30
     set_identifier: secondary
