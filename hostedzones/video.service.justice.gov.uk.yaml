@@ -16,7 +16,7 @@ playback:
         failover:
           healthcheck: 09a1e2a7-8c34-410f-a3cf-a355bc0d069c
           role: primary
-        setidentity: primary
+      setidentity: primary
   - type: A
     ttl: 60
     value: 213.216.136.30
@@ -24,7 +24,7 @@ playback:
       routing_policy:
         failover:
           role: secondary
-        setidentity: secondary
+      setidentity: secondary
 playback1:
   ttl: 60
   type: CNAME
