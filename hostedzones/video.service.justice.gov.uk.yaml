@@ -7,7 +7,7 @@
     - ns-1867.awsdns-41.co.uk.
     - ns-52.awsdns-06.com.
     - ns-936.awsdns-53.net.
-playback:
+playback.video.service.justice.gov.uk.:
   - type: A
     ttl: 60
     values:
