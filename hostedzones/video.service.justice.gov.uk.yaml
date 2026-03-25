@@ -10,19 +10,19 @@
 playback:
   - ttl: 60
     type: A
-    values: 217.135.104.158
-      set_identifier: primary
+    value: 217.135.104.158
+    set_identifier: primary
     routing_policy:
       type: failover
-      role: primary
-      health_check: 09a1e2a7-8c34-410f-a3cf-a355bc0d069c
+        role: primary
+        health_check: 09a1e2a7-8c34-410f-a3cf-a355bc0d069c
   - ttl: 60
     type: A
-    values: 213.216.136.30
-      set_identifier: secondary
+    value: 213.216.136.30
+    set_identifier: secondary
     routing_policy:
       type: failover
-      role: secondary
+        role: secondary
 playback1:
   ttl: 60
   type: CNAME
