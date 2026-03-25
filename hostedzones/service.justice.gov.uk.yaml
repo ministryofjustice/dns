@@ -657,7 +657,7 @@ courts-video-link:
   ttl: 30
   type: A
   value: 213.216.136.72
-courts.transcribe:
+courts.transcription:
   ttl: 300
   type: CNAME
   value: courtstranscribe-prod-frontend.azurewebsites.net
