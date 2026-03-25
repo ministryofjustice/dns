@@ -25,9 +25,6 @@ playback:
         failover:
           role: secondary
         setidentity: secondary
-  ttl: 60
-  type: A
-  value: 213.216.136.30
 playback1:
   ttl: 60
   type: CNAME
