@@ -10,7 +10,7 @@
 playback:
   ttl: 60
   type: A
-  value: 213.216.136.30
+  value: 217.135.104.158
 playback1:
   ttl: 60
   type: CNAME
