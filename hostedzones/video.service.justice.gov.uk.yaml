@@ -8,23 +8,25 @@
     - ns-52.awsdns-06.com.
     - ns-936.awsdns-53.net.
 playback:
-  - type: A
-    ttl: 60
-    value: 217.135.104.158
-    octodns:
+  - octodns:
       routing_policy:
         failover:
           healthcheck: 09a1e2a7-8c34-410f-a3cf-a355bc0d069c
           role: primary
-      setidentity: primary
-  - type: A
+      set_identifier: primary
+    type: A
     ttl: 60
-    value: 213.216.136.30
-    octodns:
+    values:
+      - 217.135.104.158
+  - octodns:
       routing_policy:
         failover:
           role: secondary
-      setidentity: secondary
+      set_identifier: secondary
+    type: A
+    ttl: 60
+    values:
+      - 213.216.136.30
 playback1:
   ttl: 60
   type: CNAME
