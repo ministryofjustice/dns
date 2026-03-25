@@ -653,10 +653,10 @@ az:
   ttl: 300
   type: NS
   values:
-    - ns1-09.azure-dns.com
-    - ns2-09.azure-dns.net
-    - ns3-09.azure-dns.org
-    - ns4-09.azure-dns.info
+    - ns-349.awsdns-43.com. 
+    - ns-1418.awsdns-49.org. 
+    - ns-1718.awsdns-22.co.uk. 
+    - ns-1014.awsdns-62.net.
 b5syah776wafoph5prwdqqnigtjyik6w._domainkey:
   ttl: 300
   type: CNAME
