@@ -26,10 +26,6 @@ cloudfront:
   ttl: 60
   type: CNAME
   value: d4s7o73iukmvm.cloudfront.net
-live:
-  ttl: 300
-  type: CNAME
-  value: live.victimsinformationservice.org.uk.herokudns.com
 origin:
   ttl: 60
   type: CNAME
@@ -46,15 +42,7 @@ staging:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d1rm5nq8qvde2m.cloudfront.net.
     type: A
-testprod:
-  ttl: 300
-  type: CNAME
-  value: testprod.victimsinformationservice.org.uk.herokudns.com
 teststaging:
   ttl: 300
   type: CNAME
   value: d35k9vhuxjboel.cloudfront.net
-www:
-  ttl: 300
-  type: CNAME
-  value: www.victimsinformationservice.org.uk.herokudns.com
