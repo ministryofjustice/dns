@@ -21,8 +21,8 @@ _asvdns-dbf41e65-4666-4d62-b9e0-78385f0f7317:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+  value: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc-rua@dmarc.service.gov.uk;
 www:
   ttl: 300
   type: CNAME
-  value: appeals-service.gov.uk
+  value: appeals-service.gov.uk.
