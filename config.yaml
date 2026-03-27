@@ -1,7 +1,7 @@
 ---
 manager:
   max_changes: 0.6
-  
+
 providers:
   config:
     class: octodns.provider.yaml.YamlProvider
