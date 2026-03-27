@@ -27,23 +27,11 @@ h5qw7hvcqrddaov2dre75vy4jzchkbsq._domainkey.cs:
   ttl: 1800
   type: CNAME
   value: h5qw7hvcqrddaov2dre75vy4jzchkbsq.dkim.amazonses.com.
-hmcts:
-  ttl: 300
-  type: CNAME
-  value: hmctsblog.wpengine.com
 kt3d3bftgv4mmzduqwxpvxh3bbjfps72._domainkey.cs:
   ttl: 1800
   type: CNAME
-  value: kt3d3bftgv4mmzduqwxpvxh3bbjfps72.dkim.amazonses.com
-natalie:
-  ttl: 300
-  type: CNAME
-  value: hmctsblog.wpengine.com
+  value: kt3d3bftgv4mmzduqwxpvxh3bbjfps72.dkim.amazonses.com.
 oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs:
   ttl: 1800
   type: CNAME
-  value: oajjnj7slmrbukrr5c6crn3sv35g5tpi.dkim.amazonses.com
-opgsenior:
-  ttl: 300
-  type: CNAME
-  value: opgsenior.wpengine.com
+  value: oajjnj7slmrbukrr5c6crn3sv35g5tpi.dkim.amazonses.com.
