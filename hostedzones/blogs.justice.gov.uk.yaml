@@ -35,3 +35,11 @@ oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs:
   ttl: 1800
   type: CNAME
   value: oajjnj7slmrbukrr5c6crn3sv35g5tpi.dkim.amazonses.com.
+opgsenior:
+  ttl: 300
+  type: CNAME
+  value: opgsenior.wpengine.com
+www:
+  ttl: 300
+  type: A
+  value: 54.194.93.232
