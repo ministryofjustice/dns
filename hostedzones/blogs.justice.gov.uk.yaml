@@ -31,6 +31,10 @@ kt3d3bftgv4mmzduqwxpvxh3bbjfps72._domainkey.cs:
   ttl: 1800
   type: CNAME
   value: kt3d3bftgv4mmzduqwxpvxh3bbjfps72.dkim.amazonses.com.
+natalie:
+  ttl: 300
+  type: CNAME
+  value: hmctsblog.wpengine.com
 oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs:
   ttl: 1800
   type: CNAME
