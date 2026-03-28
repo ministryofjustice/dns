@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 boto3 = "==1.42.74"
 octodns = "==1.9.1"
-octodns-route53 = "==0.0.7"
+octodns-route53 = "==1.0.1"
 pytest = "==9.0.2"
 pyyaml = "==6.0.3"
 "ruamel.yaml" = "==0.18.6"
