@@ -3,9 +3,13 @@ name: Print out empty hosted zones # A hosted zone with only an NS and SOA recor
 on:
   workflow_dispatch: # Allows manual triggering
 
+permissions: {}
+
 jobs:
   check-for-empty-zones:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 

@@ -9,9 +9,13 @@ on:
     branches:
       - main
 
+permissions: {}
+
 jobs:
   sync-with-route53:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository

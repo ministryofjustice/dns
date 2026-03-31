@@ -18,6 +18,8 @@ concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   megalinter:
     name: MegaLinter
@@ -42,7 +44,7 @@ jobs:
         # DISABLE: COPYPASTE,SPELL # Uncomment to disable copy-paste and spell checks
         # You can override MegaLinter flavor used to have faster performances
         # More info at https://megalinter.io/latest/flavors/
-        uses: oxsecurity/megalinter/flavors/python@17b279e96770957b09867ff0977571c4a0e1bac5 # v7.12.0
+        uses: oxsecurity/megalinter/flavors/python@8fbdead70d1409964ab3d5afa885e18ee85388bb # v9.4.0
         env:
           # All available variables are described in documentation
           # https://megalinter.io/latest/configuration/
