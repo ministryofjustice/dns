@@ -76,6 +76,10 @@ _03d1eb0e883bc23ac9d78786ef9d26e5.www.wam.ppud:
   ttl: 300
   type: CNAME
   value: _74480356b952a802e4cef75f32686540.jkddzztszm.acm-validations.aws.
+_5fbc904e08ce69cb4572a89a26cbfa2c.nces.blogs:
+  ttl: 60
+  type: CNAME
+  value: _eae5da7cfc7975f3afc2fad488637b85.vhzmpjdqfx.acm-validations.aws.
 _08e7ccfff3521b640f7cfcccbc56d932.uat.ppud:
   ttl: 300
   type: CNAME
@@ -142,6 +146,10 @@ _amazonses.HMCTS-feedback-survey:
   ttl: 300
   type: TXT
   value: 8K/hRxY6AfvqSMrEKhMer8Lh+7F1akMd+9VB/ETgEz8=
+_amazonses.cs.blogs:
+  ttl: 1800
+  type: TXT
+  value: R8EW9mewy4l2teMYyUK0kyuXGCDnuhB1RnXtyndZ8rU=
 _amazonses.cshrcaseworkcma:
   ttl: 300
   type: TXT
@@ -871,6 +879,10 @@ criminalappealoffice:
       - C0E4N61551
       - MS=ms43105042
       - v=spf1 include:spf.protection.outlook.com -all
+cs.blogs:
+  ttl: 300
+  type: CNAME
+  value: ec2-54-194-93-232.eu-west-1.compute.amazonaws.com.
 cshrcasework:
   - type: MX
     value:
@@ -968,6 +980,10 @@ digital:
     - ns-1776.awsdns-30.co.uk.
     - ns-284.awsdns-35.com.
     - ns-527.awsdns-01.net.
+digital.blogs:
+  ttl: 300
+  type: CNAME
+  value: redirector-cdn.production.govuk.service.gov.uk.
 dkfusion260227cd15._domainkey:
   ttl: 300
   type: TXT
@@ -1158,6 +1174,10 @@ gs:
   - ttl: 600
     type: TXT
     value: google-site-verification=zTDywdx3jcS5WvIZ7jT1T7gXqfo7RPo3ZfLfJA_rIZQ
+h5qw7hvcqrddaov2dre75vy4jzchkbsq._domainkey.cs.blogs:
+  ttl: 1800
+  type: CNAME
+  value: h5qw7hvcqrddaov2dre75vy4jzchkbsq.dkim.amazonses.com.
 hmctscourtfinder:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1299,6 +1319,10 @@ k3._domainkey:
   ttl: 300
   type: CNAME
   value: dkim3.mcsv.net
+kt3d3bftgv4mmzduqwxpvxh3bbjfps72._domainkey.cs.blogs:
+  ttl: 1800
+  type: CNAME
+  value: kt3d3bftgv4mmzduqwxpvxh3bbjfps72.dkim.amazonses.com.
 lawcommission:
   ttl: 600
   type: A
@@ -1594,6 +1618,10 @@ noreply.uat.ppud:
   - ttl: 300
     type: TXT
     value: v=spf1 include:amazonses.com ~all
+oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs.blogs:
+  ttl: 1800
+  type: CNAME
+  value: oajjnj7slmrbukrr5c6crn3sv35g5tpi.dkim.amazonses.com.
 oe3ypkjre4ra5oziwhkhas46xq7zomtm._domainkey.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
