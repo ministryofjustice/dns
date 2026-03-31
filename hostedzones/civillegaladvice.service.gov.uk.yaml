@@ -9,7 +9,7 @@
       - ns-640.awsdns-16.net.
   - ttl: 300
     type: TXT
-    value: v=spf1 include:sendgrid.net -all
+    value: v=spf1 include:sendgrid.net ~all
 _a1fd4d292d772692a54d0137560e3592.cases:
   ttl: 300
   type: CNAME
@@ -17,7 +17,7 @@ _a1fd4d292d772692a54d0137560e3592.cases:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=none; rua=mailto:yl0zvgmk@ag.dmarcian.com; ruf=mailto:yl0zvgmk@fr.dmarcian.com;
+  value: v=DMARC1\; p=none\; rua=mailto:yl0zvgmk@ag.dmarcian.com\; ruf=mailto:yl0zvgmk@fr.dmarcian.com\;
 cases:
   ttl: 300
   type: NS
@@ -29,7 +29,7 @@ cases:
 email:
   ttl: 300
   type: CNAME
-  value: sendgrid.net.
+  value: sendgrid.net
 fox:
   ttl: 60
   type: NS
@@ -53,8 +53,8 @@ redirect:
 smtpapi._domainkey:
   ttl: 300
   type: TXT
-  value: k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
 smtpapi._domainkey.email:
   ttl: 300
   type: TXT
-  value: k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB
