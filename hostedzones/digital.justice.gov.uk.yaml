@@ -1,5 +1,5 @@
 ---
-'':
+"":
   - type: MX
     values:
       - exchange: digital-justice-gov-uk.mail.protection.outlook.com
@@ -57,7 +57,7 @@ _github-challenge-moj-analytical-services:
 _mta-sts:
   ttl: 300
   type: TXT
-  value: v=STSv1\; id=f3e2f7bcead73fda65fa4f1ff7815e97
+  value: v=STSv1\; id=9d41be0a3725ad8e23362f3c6f29eabc
 _sip._tls:
   ttl: 3600
   type: SRV
