@@ -5,9 +5,13 @@ on:
     - cron: "0 0 * * 0" # This runs every Sunday at midnight UTC
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   update_records:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository
