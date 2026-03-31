@@ -1,5 +1,5 @@
 ---
-"":
+'':
   - type: MX
     value:
       exchange: justice-gov-uk.mail.protection.outlook.com.
@@ -56,11 +56,11 @@
   ttl: 300
   type: CNAME
   value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
-"#civilmediation":
+'#civilmediation':
   ttl: 600
   type: A
   value: 92.63.139.212
-"*._domainkey.cshrcasework":
+'*._domainkey.cshrcasework':
   ttl: 300
   type: TXT
   value: v=DKIM1\; p=
