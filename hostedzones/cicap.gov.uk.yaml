@@ -26,11 +26,11 @@ _asvdns-03b6f09c-39de-49bb-ab61-98904b93aa95:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\;p=none\;sp=none\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+  value: v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@dmarc.service.gov.uk
 _smtp._tls:
   ttl: 300
   type: TXT
-  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+  value: v=TLSRPTv1; rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
 mailhost:
   ttl: 300
   type: A
@@ -38,4 +38,4 @@ mailhost:
 www:
   ttl: 300
   type: CNAME
-  value: cicap.gov.uk
+  value: cicap.gov.uk.
