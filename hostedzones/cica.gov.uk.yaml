@@ -56,7 +56,7 @@ _asvdns-8c41ef98-16cc-4dc1-a22f-f92c494c210d:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\; p=quarantine\; sp=quarantine\; fo=1\; rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@cica.gov.uk\;ruf=mailto:dmarc@cica.gov.uk
+  value: v=DMARC1; p=quarantine; sp=quarantine; fo=1; rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:dmarc@cica.gov.uk;ruf=mailto:dmarc@cica.gov.uk
 _dnsauth.cintra-vpn:
   ttl: 300
   type: CNAME
@@ -68,11 +68,11 @@ _dnsauth.www.cintra-vpn:
 _mta-sts:
   ttl: 300
   type: TXT
-  value: v=STSv1\; id=7bd4f1c2d2feafeece15ae01bf67b678
+  value: v=STSv1; id=7bd4f1c2d2feafeece15ae01bf67b678
 _smtp._tls:
   ttl: 300
   type: TXT
-  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+  value: v=TLSRPTv1; rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
