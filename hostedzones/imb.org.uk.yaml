@@ -18,13 +18,13 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
+bec7b6a29ca37a0129b2033111e16a61.mta-sts:
+  ttl: 60
+  type: CNAME
+  value: _9d4ff3184451a4b050bbfa16a32b366d.bkngfjypgb.acm-validations.aws.
 mta-sts:
   type: Route53Provider/ALIAS
   value:
     hosted-zone-id: Z06517243T4M8XBCHE55X
     name: da2bepqjpkqoi.cloudfront.net.
     type: A
-bec7b6a29ca37a0129b2033111e16a61.mta-sts:
-  ttl: 60
-  type: CNAME
-  value: _9d4ff3184451a4b050bbfa16a32b366d.bkngfjypgb.acm-validations.aws.
