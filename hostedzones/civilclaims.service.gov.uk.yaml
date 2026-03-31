@@ -3,10 +3,10 @@
   - ttl: 172800
     type: NS
     values:
-      - ns-1049.awsdns-03.org
-      - ns-1876.awsdns-42.co.uk
-      - ns-399.awsdns-49.com
-      - ns-723.awsdns-26.net
+      - ns-1049.awsdns-03.org.
+      - ns-1876.awsdns-42.co.uk.
+      - ns-399.awsdns-49.com.
+      - ns-723.awsdns-26.net.
   - ttl: 942942942
     type: Route53Provider/ALIAS
     value:
@@ -29,7 +29,7 @@ _b4efa533ba7d2892b38cdf1567df14bd:
 _dmarc:
   ttl: 7200
   type: TXT
-  value: v=DMARC1\; p=none\; rua=mailto:yl0zvgmk@ag.dmarcian.com\; ruf=mailto:yl0zvgmk@fr.dmarcian.com\;
+  value: v=DMARC1; p=none; rua=mailto:yl0zvgmk@ag.dmarcian.com; ruf=mailto:yl0zvgmk@fr.dmarcian.com;
 holding:
   ttl: 300
   type: A
