@@ -1,6 +1,6 @@
 ---
 '':
-  - ttl: 172800
+  - ttl: 600
     type: NS
     values:
       - ns-1034.awsdns-01.org.
