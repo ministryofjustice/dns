@@ -17,11 +17,11 @@ _9e111899dbb1e73aed800dd796c849f4.mta-sts:
 _mta-sts:
   ttl: 300
   type: TXT
-  value: v=STSv1\; id=61658d49bbc2aee51b11cebf1d37ae83
+  value: v=STSv1; id=61658d49bbc2aee51b11cebf1d37ae83
 _smtp._tls:
   ttl: 300
   type: TXT
-  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+  value: v=TLSRPTv1; rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
 mta-sts:
   ttl: 942942942
   type: Route53Provider/ALIAS
