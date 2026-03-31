@@ -7,9 +7,6 @@
       - ns-1503.awsdns-59.org.
       - ns-515.awsdns-00.net.
       - ns-1544.awsdns-01.co.uk.
-  - ttl: 900
-    type: SOA
-    value: ns-81.awsdns-10.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
 _mta-sts:
   ttl: 300
   type: TXT
