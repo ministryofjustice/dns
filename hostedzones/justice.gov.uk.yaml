@@ -454,7 +454,7 @@ _mta-sts:
 _mta-sts.administrativecourtoffice:
   ttl: 300
   type: TXT
-  value: v=STSv1; id=6635d30aeefe09475a70f59c9e98c6eb
+  value: v=STSv1; id=88829859a7d277a616e922ebb30e9b32
 _mta-sts.cshrcasework:
   ttl: 300
   type: TXT
@@ -661,9 +661,9 @@ az:
   ttl: 300
   type: NS
   values:
-    - ns-349.awsdns-43.com. 
-    - ns-1418.awsdns-49.org. 
-    - ns-1718.awsdns-22.co.uk. 
+    - ns-349.awsdns-43.com.
+    - ns-1418.awsdns-49.org.
+    - ns-1718.awsdns-22.co.uk.
     - ns-1014.awsdns-62.net.
 b5syah776wafoph5prwdqqnigtjyik6w._domainkey:
   ttl: 300
