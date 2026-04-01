@@ -681,14 +681,6 @@ bench.staging.courtstore:
   ttl: 300
   type: A
   value: 18.135.237.205
-blogs:
-  ttl: 900
-  type: NS
-  values:
-    - ns-1034.awsdns-01.org.
-    - ns-1678.awsdns-17.co.uk.
-    - ns-393.awsdns-49.com.
-    - ns-856.awsdns-43.net.
 brevo1._domainkey:
   ttl: 300
   type: CNAME
