@@ -351,6 +351,10 @@ _fb2dacaf46c7ec95ab26455b4453e494.www.wamuat.ppud:
   ttl: 300
   type: CNAME
   value: _964f7e33c533d6cc857633bd6f88fc20.xlfgrmvvlj.acm-validations.aws.
+_gh-ministry-of-justice-uk-e.tech-radar:
+  ttl: 300
+  type: TXT
+  value: ce11a11765
 _github-challenge-hmcts:
   ttl: 300
   type: TXT
