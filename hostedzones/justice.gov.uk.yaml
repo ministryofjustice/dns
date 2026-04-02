@@ -374,7 +374,11 @@ _github-pages-challenge-ministryofjustice.cjsm:
 _github-pages-challenge-ministryofjustice.cloud-optimisation-and-accountability:
   ttl: 300
   type: TXT
-  value: 850a9bad548ca4fef49a6404f3df8c
+  value: 850a9bad548ca4fef49a6404f3df8
+_github-pages-challenge-ministryofjustice.tech-radar:
+  ttl: 300
+  type: TXT
+  value: 2a7972774d636911c589281c5192a2
 _h323cs._tcp.meet.video:
   ttl: 300
   type: SRV
