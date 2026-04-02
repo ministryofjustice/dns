@@ -26,14 +26,6 @@ cloudfront:
   ttl: 60
   type: CNAME
   value: d4s7o73iukmvm.cloudfront.net
-origin:
-  ttl: 60
-  type: CNAME
-  value: origin.victimsinformationservice.org.uk.herokudns.com
-origin-staging:
-  ttl: 300
-  type: CNAME
-  value: vis-staging.herokuapp.com
 staging:
   ttl: 942942942
   type: Route53Provider/ALIAS
