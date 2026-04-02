@@ -353,9 +353,6 @@ selfservice:
 selfservice.y2a:
   type: A
   value: 62.232.198.68
-servicedesk:
-  type: NS
-  values: [ns1.gradwellcloud.com., ns2.gradwellcloud.com.]
 smtp.y2a:
   type: A
   value: 83.151.208.61
