@@ -2030,6 +2030,10 @@ tbm6oiqakgjs7zp7ufy2w3dagkonfrry._domainkey.cshrcaseworkcma:
   ttl: 300
   type: CNAME
   value: tbm6oiqakgjs7zp7ufy2w3dagkonfrry.dkim.amazonses.com
+tech-radar:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
 test:
   ttl: 600
   type: NS
