@@ -28,6 +28,10 @@
       - vt7q2faup5oj7stn1igpl9m93c
       - atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua
       - openai-domain-verification=dv-zpF9jWw43jaejkh4OyerdbFJ
+      - 3h628d5kc8stj7r2iqae8kpef
+      - vo1f8h1aa40bolr4qpnq0j5msl
+      - 4kaf48jlthkt0vgfvbl54qcedn
+      - ckilvpgasedl81llr0rno7521c
 _2cfb3230475e3689609b3297ae4656c4:
   ttl: 300
   type: CNAME
@@ -157,7 +161,6 @@ elinks:
     values:
       - ms-domain-verification=9fbe3967-3f4d-4019-9e59-18cda4361c07
       - v=spf1 include:spf.protection.outlook.com -all
-      - 3h628d5kc8stj7r2iqae8kpef
   - ttl: 300
     type: A
     value: 172.166.178.94
@@ -321,7 +324,6 @@ staging.elinks:
     values:
       - ms-domain-verification=5940952c-82d9-46b8-8716-1fb3c0cc60d2
       - v=spf1 include:spf.protection.outlook.com -all
-      - vo1f8h1aa40bolr4qpnq0j5msl
 staging.hr:
   ttl: 300
   type: CNAME
