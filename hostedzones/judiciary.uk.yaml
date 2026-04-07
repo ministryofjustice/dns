@@ -147,9 +147,6 @@ developer.staging.elinks:
   - ttl: 300
     type: CNAME
     value: apim-elinks-stg-uks-001.developer.azure-api.net
-  - ttl: 300
-    type: TXT
-    value: ckilvpgasedl81llr0rno7521c
 development.hr:
   ttl: 300
   type: CNAME
@@ -194,9 +191,6 @@ gateway.staging.elinks:
   - ttl: 300
     type: CNAME
     value: apim-elinks-stg-uks-001.azure-api.net
-  - ttl: 300
-    type: TXT
-    value: 4kaf48jlthkt0vgfvbl54qcedn
 hr:
   ttl: 300
   type: CNAME
