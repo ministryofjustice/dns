@@ -38,10 +38,18 @@ _dnsauth.search-policy-and-guidance:
   ttl: 300
   type: CNAME
   value: _lln04n2c725kiq655hxbey3kwu8k9ki.dcv.digicert.com.
+_dnsauth.sopvpn:
+  ttl: 300
+  type: CNAME
+  value: _6otgy8kmcdhg5a2rzpjelisqw271bqp.dcv.digicert.com.
 _dnsauth.www.search-policy-and-guidance:
   ttl: 300
   type: CNAME
   value: _lln04n2c725kiq655hxbey3kwu8k9ki.dcv.digicert.com.
+_dnsauth.www.sopvpn:
+  ttl: 300
+  type: CNAME
+  value: _6otgy8kmcdhg5a2rzpjelisqw271bqp.dcv.digicert.com.
 _msradc:
   ttl: 300
   type: TXT
