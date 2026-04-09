@@ -1673,7 +1673,9 @@ optic:
 pay-by-account:
   - ttl: 3600
     type: MX
-    value: paybyaccount-justice-gov-uk0ie.mail.protection.outlook.com.
+    value: 
+      exchange: paybyaccount-justice-gov-uk0ie.mail.protection.outlook.com.
+      preference: 0
   - ttl: 3600
     type: TXT
     value: v=spf1 include:spf.protection.outlook.com -all
