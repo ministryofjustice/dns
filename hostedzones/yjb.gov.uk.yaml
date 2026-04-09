@@ -26,6 +26,7 @@
       - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com include:spf-ps.e-shot.org -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-KB38UaPRlySfCNSkLPKqSZaZ
+      - brevo-code:f053f16ebd5efa0b339517a4522baaac
 4odkx3g7muxcfn5eydas4f3kslwcp3h6._domainkey:
   ttl: 300
   type: CNAME
@@ -72,7 +73,7 @@ _cdb8a1ec6dba331f6b47645d09fdaf73.pentaho8.yjbservices:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=reject;
+  value: v=DMARC1; p=reject; v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com
 _dmarc.communications:
   ttl: 300
   type: CNAME
@@ -144,6 +145,14 @@ ba57tyzq6qama5pndafilxh57qhain5m._domainkey:
   ttl: 300
   type: CNAME
   value: ba57tyzq6qama5pndafilxh57qhain5m.dkim.amazonses.com.
+brevo1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: b1.yjb-gov-uk.dkim.brevo.com.
+brevo2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: b2.yjb-gov-uk.dkim.brevo.com.
 ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
   ttl: 300
   type: CNAME
