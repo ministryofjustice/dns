@@ -32,30 +32,34 @@
       - brevo-code:5df81568a8579db8c5271574de58f6bb
       - jamf-site-verification=7hKH_tP5JKaZNA5AhAn2kA
       - onetrust-domain-verification=10706c89653e4a11b20a5c0dc2410bf2
+2b43tckulbxzc2v4aqm57pomnc3q62un._domainkey:
+  ttl: 300
+  type: CNAME
+  value: 2b43tckulbxzc2v4aqm57pomnc3q62un.dkim.amazonses.com.
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
-  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com
+  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com.
 4wlxo7xgsbccmlyejcjro4pldynv4jnc._domainkey.optic:
   ttl: 300
   type: CNAME
-  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com
+  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com.
 4x4t55iiruwexuw5utiherl23yr3igog._domainkey.HMCTS-feedback-survey:
   ttl: 300
   type: CNAME
-  value: 4x4t55iiruwexuw5utiherl23yr3igog.dkim.amazonses.com
+  value: 4x4t55iiruwexuw5utiherl23yr3igog.dkim.amazonses.com.
 5axyevlb23jr5vn7z4uqemmr6llzuuy3._domainkey.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
-  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com
+  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com.
 6zbhv7347nomwa5tilvvgcmsdknyag4i._domainkey:
   ttl: 300
   type: CNAME
-  value: 6zbhv7347nomwa5tilvvgcmsdknyag4i.dkim.amazonses.com
+  value: 6zbhv7347nomwa5tilvvgcmsdknyag4i.dkim.amazonses.com.
 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
   ttl: 300
   type: CNAME
-  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
+  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com.
 '#civilmediation':
   ttl: 600
   type: A
@@ -1331,6 +1335,10 @@ k3._domainkey:
   ttl: 300
   type: CNAME
   value: dkim3.mcsv.net
+kho727t6oqqbvq5hl2amzi2q3taf4pbb._domainkey:
+  ttl: 300
+  type: CNAME
+  value: kho727t6oqqbvq5hl2amzi2q3taf4pbb.dkim.amazonses.com.
 kt3d3bftgv4mmzduqwxpvxh3bbjfps72._domainkey.cs.blogs:
   ttl: 1800
   type: CNAME
@@ -1806,6 +1814,10 @@ relay2.cjsm.secure-email.ppud:
   - ttl: 300
     type: PTR
     value: 18.169.26.236
+rj2frucq7wtst5c2gojq3k6j23pkycz7._domainkey:
+  ttl: 300
+  type: CNAME
+  value: rj2frucq7wtst5c2gojq3k6j23pkycz7.dkim.amazonses.com.
 rvc1.lrc:
   ttl: 600
   type: A
