@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-boto3 = "==1.42.82"
+boto3 = "==1.42.87"
 octodns = "==1.9.1"
 octodns-route53 = "==0.0.7"
 pytest = "==9.0.2"
