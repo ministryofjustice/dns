@@ -382,7 +382,7 @@ _github-pages-challenge-ministryofjustice.cjsm:
 _github-pages-challenge-ministryofjustice.cloud-optimisation-and-accountability:
   ttl: 300
   type: TXT
-  value: 850a9bad548ca4fef49a6404f3df8
+  value: 850a9bad548ca4fef49a6404f3df8c
 _github-pages-challenge-ministryofjustice.tech-radar:
   ttl: 300
   type: TXT
