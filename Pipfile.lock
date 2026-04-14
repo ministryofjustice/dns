@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "51e3055f98648432b26ff38e585ecd9358cd2a56e8de1f0bb003d078fe3e93ba"
+            "sha256": "1e2c949fb88a38f611860a5e52477e224138036e69a55a6eef109ae5c0f40957"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -27,11 +27,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:032375b213305b6b81eedb269eaeefdf96f674620799bbf96117dca86052cc1a",
-                "sha256:cbb59ee464662039b0c2c95a520cdf85b1e8ce00b72375ab9cd9f842cc001301"
+                "sha256:95ac52f472dad29942f3088b278ab493044516c16dbf9133c975af16527baa99",
+                "sha256:d9b786c8d9db6473063b4cc5be0ba7e6a381082307bd6afb69d4216f9fa95f35"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==1.42.88"
+            "version": "==1.42.89"
         },
         "coverage": {
             "extras": [
@@ -207,12 +207,12 @@
         },
         "octodns-route53": {
             "hashes": [
-                "sha256:bc0f2f8ad0d71a92f4a047ec4d440bebe1057b018e4a576de219d262e87738f0",
-                "sha256:e3f70f58eace6be5299dfe8ec37ee9d16fd6d934382bc1c4bf3257f3ef8ff5ca"
+                "sha256:77d4bb34d5cb3e106074a1308fdadbf15a95b26086434fd6679d4fb9cae842fb",
+                "sha256:cc0fb2261ec1a0b5e90d42ba90c261835b32e5c3c897a49d0e4ab7adbc884b4b"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.6'",
-            "version": "==0.0.7"
+            "markers": "python_version >= '3.9'",
+            "version": "==1.0.1"
         },
         "packaging": {
             "hashes": [
