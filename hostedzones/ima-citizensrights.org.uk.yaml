@@ -33,6 +33,10 @@ _6a19d3849cc84ad68c492edf9ce06d44:
   ttl: 300
   type: CNAME
   value: _fb79df8be83f15567abc227eb0b6d426.zbkrxsrfvj.acm-validations.aws.
+_7a65ef471ca72e0a4985ca5c371b350f.mailcatcher.myima:
+  ttl: 300
+  type: CNAME
+  value: _61ce0f861b4b7c013a75facb81e27947.jkddzztszm.acm-validations.aws.
 _34e9ff99a37759d06a070be2480f6d3d.mta-sts:
   ttl: 60
   type: CNAME
