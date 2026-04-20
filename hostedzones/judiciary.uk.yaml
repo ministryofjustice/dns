@@ -328,6 +328,9 @@ staging.elinks:
     values:
       - ms-domain-verification=5940952c-82d9-46b8-8716-1fb3c0cc60d2
       - v=spf1 include:spf.protection.outlook.com -all
+  - ttl: 300
+    type: TXT
+    value: qbq9ivqva5vbdt104ivas3ik1l
 staging.hr:
   ttl: 300
   type: CNAME
