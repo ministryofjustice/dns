@@ -68,6 +68,10 @@ _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME
   value: _ee606fbc945495779ce81e0927f3b51a.hzdbphtyvy.acm-validations.aws.
+_asvdns-34ca88b1-a983-40ad-b588-f73efa340c97.judicialcareers:
+  ttl: 300
+  type: TXT
+  value: asvdns_153c876d-0a15-48fc-a5ce-55e982e52b51
 _asvdns-645286aa-830f-4a66-8c56-7a096583a55c.elinks:
   ttl: 300
   type: TXT
