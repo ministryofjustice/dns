@@ -578,6 +578,14 @@ contact-moj:
     - ns-1364.awsdns-42.org.
     - ns-1699.awsdns-20.co.uk.
     - ns-877.awsdns-45.net.
+container-platform:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1093.awsdns-08.org.
+    - ns-493.awsdns-61.com.
+    - ns-971.awsdns-57.net.
+    - ns-2004.awsdns-58.co.uk.
 correspondence-handling-and-processing:
   ttl: 86400
   type: NS
