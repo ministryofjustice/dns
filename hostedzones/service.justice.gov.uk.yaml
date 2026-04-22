@@ -697,6 +697,14 @@ design-patterns:
     - ns-1918.awsdns-47.co.uk.
     - ns-208.awsdns-26.com.
     - ns-836.awsdns-40.net.
+dev.developer-portal:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1230.awsdns-25.org.
+    - ns-1738.awsdns-25.co.uk.
+    - ns-228.awsdns-28.com.
+    - ns-835.awsdns-40.net.
 dev.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -729,6 +737,14 @@ dev.victim-case-management:
     - ns-1605.awsdns-08.co.uk
     - ns-240.awsdns-30.com
     - ns-967.awsdns-56.net
+developer-portal:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1027.awsdns-00.org.
+    - ns-1643.awsdns-13.co.uk.
+    - ns-327.awsdns-40.com.
+    - ns-844.awsdns-41.net.
 divorce-section-search:
   ttl: 300
   type: NS
