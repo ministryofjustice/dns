@@ -1197,14 +1197,6 @@ nomis:
     - ns-1927.awsdns-48.co.uk.
     - ns-492.awsdns-61.com.
     - ns-797.awsdns-35.net.
-nomis-api:
-  ttl: 300
-  type: NS
-  values:
-    - ns1-01.azure-dns.com.
-    - ns2-01.azure-dns.net.
-    - ns3-01.azure-dns.org.
-    - ns4-01.azure-dns.info.
 noms-api:
   ttl: 942942942
   type: Route53Provider/ALIAS
