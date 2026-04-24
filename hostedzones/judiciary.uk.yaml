@@ -48,11 +48,11 @@ _5dd4ff6618685d9724e117cdc2bfa5d5.www:
 _5ecfb849dc48eea11d818fd219b68bb1.jcm:
   ttl: 300
   type: CNAME
-  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com
+  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com.
 _5ecfb849dc48eea11d818fd219b68bb1.www.jcm:
   ttl: 300
   type: CNAME
-  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com
+  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com.
 _9b95e0916934b7a53b18c71c7b89f350.intranet:
   ttl: 600
   type: CNAME
@@ -120,7 +120,7 @@ _d740b088e87612bb0c57de00dd5a0d91.www.judicialcareers:
 _dmarc:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: _dmarc_ttp_policy.justice.gov.uk.
 _dmarc.elinks:
   ttl: 300
   type: TXT
@@ -164,7 +164,7 @@ admin.digitalservices:
 admin.myhr:
   ttl: 300
   type: CNAME
-  value: ministryofjustice.haloitsm.com
+  value: ministryofjustice.haloitsm.com.
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
@@ -175,11 +175,11 @@ crossdeployment:
 developer.staging.elinks:
   - ttl: 300
     type: CNAME
-    value: apim-elinks-stg-uks-001.developer.azure-api.net
+    value: apim-elinks-stg-uks-001.developer.azure-api.net.
 development.hr:
   ttl: 300
   type: CNAME
-  value: dev-hr.uksouth.cloudapp.azure.com
+  value: dev-hr.uksouth.cloudapp.azure.com.
 digitalservices:
   ttl: 300
   type: CNAME
