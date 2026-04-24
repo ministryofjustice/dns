@@ -37,6 +37,10 @@ _2cfb3230475e3689609b3297ae4656c4:
   ttl: 300
   type: CNAME
   value: _3406d52cab14ed3ad6278fd834757ab6.rvctyfnwhz.acm-validations.aws.
+_03c86433651bbb21abd78e5b922cb923.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: _298aa235790133f350140083d88e2780.jkddzztszm.acm-validations.aws.
 _5dd4ff6618685d9724e117cdc2bfa5d5.www:
   ttl: 600
   type: CNAME
@@ -44,11 +48,11 @@ _5dd4ff6618685d9724e117cdc2bfa5d5.www:
 _5ecfb849dc48eea11d818fd219b68bb1.jcm:
   ttl: 300
   type: CNAME
-  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com
+  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com.
 _5ecfb849dc48eea11d818fd219b68bb1.www.jcm:
   ttl: 300
   type: CNAME
-  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com
+  value: 2ca16b148a8386a15dd52d1b6ff6ed42.a81c8a2ea633b271718353b91541677a.907de5e1e92c840c8a42.comodoca.com.
 _9b95e0916934b7a53b18c71c7b89f350.intranet:
   ttl: 600
   type: CNAME
@@ -57,6 +61,10 @@ _36a868734c47d6b413ca1ff1fa403c96.mta-sts:
   ttl: 60
   type: CNAME
   value: _422367411a20d22ae1a4cac085b8ac38.nhsllhhtvj.acm-validations.aws.
+_78f4893b79cf595b08c903f598389f86.staging.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: _71c63316b219b961fd43009fc5a17860.jkddzztszm.acm-validations.aws.
 _84bd339a1a9c0007f5b0f5de1f76597e.admin.myhr:
   ttl: 300
   type: CNAME
@@ -65,6 +73,10 @@ _617aa7dd1b481bab674133c622155ffa.myhr:
   ttl: 300
   type: CNAME
   value: _2ad22899d6a8ab60457239d43f80c173.sdgjtdhdhz.acm-validations.aws.
+_9555e496f358c99507f3f9c995218689.staging.admin.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: _f068907f9187950be826d26aafec75f1.jkddzztszm.acm-validations.aws.
 _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME
@@ -89,6 +101,10 @@ _asvdns-bb2fcf93-3a69-47ca-9fe2-7f12642545ce:
   ttl: 300
   type: TXT
   value: asvdns_6db9e455-1686-455c-8530-622039b8e5d7
+_b4ae5a321f49ab9c727d6cc76362e9a1.admin.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: _a30b3ee7a75224501f7c798c5b88894e.jkddzztszm.acm-validations.aws.
 _b080a2ca741a04bdaac5d34276eae7a2.jcm:
   ttl: 300
   type: CNAME
@@ -104,7 +120,7 @@ _d740b088e87612bb0c57de00dd5a0d91.www.judicialcareers:
 _dmarc:
   ttl: 300
   type: CNAME
-  value: _dmarc_ttp_policy.justice.gov.uk
+  value: _dmarc_ttp_policy.justice.gov.uk.
 _dmarc.elinks:
   ttl: 300
   type: TXT
@@ -141,10 +157,14 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+admin.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: judicialdigitalservices.haloitsm.com.
 admin.myhr:
   ttl: 300
   type: CNAME
-  value: ministryofjustice.haloitsm.com
+  value: ministryofjustice.haloitsm.com.
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
@@ -155,11 +175,15 @@ crossdeployment:
 developer.staging.elinks:
   - ttl: 300
     type: CNAME
-    value: apim-elinks-stg-uks-001.developer.azure-api.net
+    value: apim-elinks-stg-uks-001.developer.azure-api.net.
 development.hr:
   ttl: 300
   type: CNAME
-  value: dev-hr.uksouth.cloudapp.azure.com
+  value: dev-hr.uksouth.cloudapp.azure.com.
+digitalservices:
+  ttl: 300
+  type: CNAME
+  value: jdssd-portal.haloitsm.com.
 elinks:
   - ttl: 300
     type: TXT
@@ -316,10 +340,18 @@ selector2-azurecomm-prod-net._domainkey.staging.elinks:
 selector2._domainkey:
   type: CNAME
   value: selector2-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
+staging.admin.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: judicialdigitalservicesstaging.haloitsm.com.
 staging.admin.myhr:
   ttl: 300
   type: CNAME
   value: ministryofjustice-staging.haloitsm.com
+staging.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: jdssddev-portal.haloitsm.com.
 staging.elinks:
   - ttl: 300
     type: A
