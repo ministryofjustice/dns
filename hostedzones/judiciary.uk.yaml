@@ -57,6 +57,10 @@ _36a868734c47d6b413ca1ff1fa403c96.mta-sts:
   ttl: 60
   type: CNAME
   value: _422367411a20d22ae1a4cac085b8ac38.nhsllhhtvj.acm-validations.aws.
+_78f4893b79cf595b08c903f598389f86.staging.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: _71c63316b219b961fd43009fc5a17860.jkddzztszm.acm-validations.aws.
 _84bd339a1a9c0007f5b0f5de1f76597e.admin.myhr:
   ttl: 300
   type: CNAME
@@ -65,6 +69,10 @@ _617aa7dd1b481bab674133c622155ffa.myhr:
   ttl: 300
   type: CNAME
   value: _2ad22899d6a8ab60457239d43f80c173.sdgjtdhdhz.acm-validations.aws.
+_9555e496f358c99507f3f9c995218689.staging.admin.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: _f068907f9187950be826d26aafec75f1.jkddzztszm.acm-validations.aws.
 _a61066f5a9c5504eb3d4b7d655697409.intranet:
   ttl: 300
   type: CNAME
@@ -316,10 +324,18 @@ selector2-azurecomm-prod-net._domainkey.staging.elinks:
 selector2._domainkey:
   type: CNAME
   value: selector2-judiciary-uk._domainkey.justiceuk.onmicrosoft.com.
+staging.admin.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: judicialdigitalservicesstaging.haloitsm.com.
 staging.admin.myhr:
   ttl: 300
   type: CNAME
   value: ministryofjustice-staging.haloitsm.com
+staging.digitalservices:
+  ttl: 300
+  type: CNAME
+  value: jdssddev-portal.haloitsm.com.
 staging.elinks:
   - ttl: 300
     type: A
