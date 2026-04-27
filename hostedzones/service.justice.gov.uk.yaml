@@ -1070,14 +1070,6 @@ laa-sign-in.external-identity:
   ttl: 300
   type: CNAME
   value: afd-endpoint-eucs-entra-ext-activation-003-adejdchyaehah4a9.a02.azurefd.net
-laa-status-dashboard:
-  ttl: 300
-  type: NS
-  values:
-    - ns-1144.awsdns-15.org.
-    - ns-1723.awsdns-23.co.uk.
-    - ns-209.awsdns-26.com.
-    - ns-925.awsdns-51.net.
 legacy.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
