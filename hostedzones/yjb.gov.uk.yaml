@@ -76,7 +76,7 @@ _dmarc:
 _dmarc.communications:
   ttl: 300
   type: CNAME
-  value: _dmarc-ps.e-shot.org.
+  value: _dmarc-ps.e-shot.org
 _dmarc.yjbservices:
   ttl: 300
   type: CNAME
@@ -291,7 +291,7 @@ owa:
 pages.communications:
   ttl: 300
   type: CNAME
-  value: pages-ps.e-shot.org.
+  value: pages-ps.e-shot.org
 poppulo._domainkey:
   ttl: 300
   type: TXT
@@ -494,4 +494,4 @@ youthjusticepp:
 yxbhmn6koyegtmg2okc2woalk2tkcbop._domainkey:
   ttl: 300
   type: CNAME
-  value: yxbhmn6koyegtmg2okc2woalk2tkcbop.dkim.amazonses.com.
+  value: yxbhmn6koyegtmg2okc2woalk2tkcbop.dkim.amazonses.com
