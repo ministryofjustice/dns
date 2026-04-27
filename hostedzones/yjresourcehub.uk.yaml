@@ -14,7 +14,7 @@
       - 162.159.137.54
   - ttl: 300
     type: TXT
-    value2:
+    values:
       - v=spf1 include:spf.brevo.com ~all
       - brevo-code:f053f16ebd5efa0b339517a4522baaac
 _asvdns-b00d86d0-bca4-47aa-9475-64cbe5e0387e:
