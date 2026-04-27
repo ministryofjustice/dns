@@ -23,10 +23,9 @@
       - MS=ms19252221
       - amazonses:umSaWIsothFWgBUFNjeubrOCY2aZngv3GZdQC//l9pw=
       - atlassian-domain-verification=eZYa71sfUYC3GKWDAnR6IDBAD7m0PkEaKKOYkM2cjWj8or0XT0PwqvFpqTLtaNby
-      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com include:spf-ps.e-shot.org Include:spf.brevo.com -all
+      - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com include:spf-ps.e-shot.org -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-KB38UaPRlySfCNSkLPKqSZaZ
-      - brevo-code:f053f16ebd5efa0b339517a4522baaac
 4odkx3g7muxcfn5eydas4f3kslwcp3h6._domainkey:
   ttl: 300
   type: CNAME
@@ -73,7 +72,7 @@ _cdb8a1ec6dba331f6b47645d09fdaf73.pentaho8.yjbservices:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=reject; rua=mailto:rua@dmarc.brevo.com
+  value: v=DMARC1; p=reject;
 _dmarc.communications:
   ttl: 300
   type: CNAME
@@ -145,14 +144,6 @@ ba57tyzq6qama5pndafilxh57qhain5m._domainkey:
   ttl: 300
   type: CNAME
   value: ba57tyzq6qama5pndafilxh57qhain5m.dkim.amazonses.com.
-brevo1._domainkey:
-  ttl: 300
-  type: CNAME
-  value: b1.yjb-gov-uk.dkim.brevo.com.
-brevo2._domainkey:
-  ttl: 300
-  type: CNAME
-  value: b2.yjb-gov-uk.dkim.brevo.com.
 ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
   ttl: 300
   type: CNAME
@@ -391,21 +382,21 @@ uatlogin.y2a:
 uezawpevnykgdoztcknm6y5uyx27apaq._domainkey:
   ttl: 300
   type: CNAME
-  value: uezawpevnykgdoztcknm6y5uyx27apaq.dkim.amazonses.com
+  value: uezawpevnykgdoztcknm6y5uyx27apaq.dkim.amazonses.com.
 ukcloud:
   ttl: 300
   type: A
   value: 51.231.96.86
 uxthla62n2r3e2xi24eg4bm6cwi6dlim._domainkey:
   type: CNAME
-  value: uxthla62n2r3e2xi24eg4bm6cwi6dlim.dkim.amazonses.com
+  value: uxthla62n2r3e2xi24eg4bm6cwi6dlim.dkim.amazonses.com.
 vho227htc4ofmjdtbhtcqkvgvcdq7uo5._domainkey:
   type: CNAME
-  value: vho227htc4ofmjdtbhtcqkvgvcdq7uo5.dkim.amazonses.com
+  value: vho227htc4ofmjdtbhtcqkvgvcdq7uo5.dkim.amazonses.com.
 wfsjcdiwg5pc3ylq2vsglviwye5xwdvm._domainkey:
   ttl: 300
   type: CNAME
-  value: wfsjcdiwg5pc3ylq2vsglviwye5xwdvm.dkim.amazonses.com
+  value: wfsjcdiwg5pc3ylq2vsglviwye5xwdvm.dkim.amazonses.com.
 www:
   type: A
   value: 80.86.42.110
