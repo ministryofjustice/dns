@@ -217,10 +217,10 @@ hmpps:
   ttl: 300
   type: NS
   values:
-    - ns1-09.azure-dns.com.
-    - ns2-09.azure-dns.net.
-    - ns3-09.azure-dns.org.
-    - ns4-09.azure-dns.info.
+    - ns-134.awsdns-16.com.
+    - ns-1067.awsdns-05.org.
+    - ns-1629.awsdns-11.co.uk.
+    - ns-983.awsdns-58.net.
 hwf:
   ttl: 300
   type: NS
