@@ -1,0 +1,55 @@
+---
+'':
+  - ttl: 172800
+    type: NS
+    values:
+      - ns-442.awsdns-55.com.
+      - ns-690.awsdns-22.net.
+      - ns-1275.awsdns-31.org.
+      - ns-1854.awsdns-39.co.uk.
+  - ttl: 300
+    type: A
+    values:
+      - 162.159.136.54
+      - 162.159.137.54
+  - ttl: 300
+    type: TXT
+    values:
+      - v=spf1 include:spf.brevo.com ~all
+      - brevo-code:f053f16ebd5efa0b339517a4522baaac
+_asvdns-b00d86d0-bca4-47aa-9475-64cbe5e0387e:
+  ttl: 300
+  type: TXT
+  value: asvdns_7edf0e83-55cc-4a16-8af4-2f7cf7f151a3
+_cf-custom-hostname:
+  ttl: 300
+  type: TXT
+  value: 18907e81-b8ad-4064-8255-97a098f4d61d
+_dmarc:
+  ttl: 300
+  type: TXT
+  value: v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com
+brevo1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: b1.yjresourcehub-uk.dkim.brevo.com.
+brevo2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: b2.yjresourcehub-uk.dkim.brevo.com.
+em7378:
+  ttl: 1800
+  type: CNAME
+  value: u43796410.wl161.sendgrid.net.
+s1._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: s1.domainkey.u43796410.wl161.sendgrid.net.
+s2._domainkey:
+  ttl: 1800
+  type: CNAME
+  value: s2.domainkey.u43796410.wl161.sendgrid.net.
+www:
+  ttl: 300
+  type: CNAME
+  value: yjresourcehub.uk.
