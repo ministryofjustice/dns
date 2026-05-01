@@ -453,6 +453,10 @@ assess-crime-forms:
     - ns-1866.awsdns-41.co.uk
     - ns-481.awsdns-60.com
     - ns-950.awsdns-54.net
+asuid.prison.transcription:
+  ttl: 300
+  type: TXT
+  value: B478055B1641E4BDDCE59535A9CA55DB92982C47B7FD476C29EEB53FBB5A8D67
 auth:
   ttl: 300
   type: NS
