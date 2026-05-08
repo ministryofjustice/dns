@@ -1863,6 +1863,10 @@ s2._domainkey.design102:
   ttl: 300
   type: CNAME
   value: s2.domainkey.u45811675.wl176.sendgrid.net
+salesforce03._domainkey.cjsm:
+  ttl: 300
+  type: CNAME
+  value: salesforce03.u763xu.custdkim.salesforce.com.
 sbc1:
   ttl: 300
   type: A
