@@ -299,6 +299,14 @@ _dnsauth.bench.staging.courtstore:
   ttl: 300
   type: CNAME
   value: _9s060s1kzeo17cexek121ko6nee9v2a.dcv.digicert.com.
+_dnsauth.join.meet.video:
+  ttl: 300
+  type: CNAME
+  value: _s5vgdspsdrct9vq4e68r7lbhhw7wdb8.dcv.digicert.com.
+_dnsauth.meet.video:
+  ttl: 300
+  type: CNAME
+  value: _s5vgdspsdrct9vq4e68r7lbhhw7wdb8.dcv.digicert.com.
 _dnsauth.moj-pension-relief:
   ttl: 300
   type: CNAME
