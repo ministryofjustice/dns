@@ -8,10 +8,10 @@
   - ttl: 172800
     type: NS
     values:
-      - ns-1224.awsdns-25.org.
-      - ns-1875.awsdns-42.co.uk.
-      - ns-290.awsdns-36.com.
-      - ns-946.awsdns-54.net.
+      - ns-81.awsdns-10.com.
+      - ns-1956.awsdns-52.co.uk.
+      - ns-821.awsdns-38.net.
+      - ns-1099.awsdns-09.org.
   - ttl: 300
     type: TXT
     value: v=spf1 -all
