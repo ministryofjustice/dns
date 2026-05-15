@@ -34,7 +34,7 @@ _smtp._tls:
 em5025:
   ttl: 300
   type: CNAME
-  value: em5025.sifocc.org.
+  value: u2320754.wl005.sendgrid.net.
 s1._domainkey:
   ttl: 300
   type: CNAME
