@@ -15,6 +15,10 @@
   - ttl: 300
     type: TXT
     value: v=spf1 -all
+'*._domainkey':
+  ttl: 300
+  type: TXT
+  value: v=DKIM1; p=
 _asvdns-83a63262-df87-4cb1-aad8-bc508b6f5fb1:
   ttl: 300
   type: TXT
@@ -27,10 +31,6 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
-*._domainkey:
-  ttl: 300
-  type: TXT
-  value: v=DKIM1; p=
 em5025:
   ttl: 300
   type: CNAME
