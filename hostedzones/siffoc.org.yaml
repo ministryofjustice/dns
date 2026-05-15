@@ -1,13 +1,45 @@
 ---
 '':
-  ttl: 172800
-  type: NS
-  values:
-    - ns-1224.awsdns-25.org.
-    - ns-1875.awsdns-42.co.uk.
-    - ns-290.awsdns-36.com.
-    - ns-946.awsdns-54.net.
+  - ttl: 900
+    type: MX
+    value:
+      exchange: mail.dxw.net.
+      preference: 10
+  - ttl: 172800
+    type: NS
+    values:
+      - ns-1224.awsdns-25.org.
+      - ns-1875.awsdns-42.co.uk.
+      - ns-290.awsdns-36.com.
+      - ns-946.awsdns-54.net.
+  - ttl: 300
+    type: TXT
+    value: v=spf1 -all
+_asvdns-83a63262-df87-4cb1-aad8-bc508b6f5fb1:
+  ttl: 300
+  type: TXT
+  value: asvdns_46c60e1b-f01b-4ad9-b727-84f8cebe720e
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
+  value: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc-rua@dmarc.service.gov.uk
+_smtp._tls:
+  ttl: 300
+  type: TXT
+  value: v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+*._domainkey:
+  ttl: 300
+  type: TXT
+  value: v=DKIM1; p=
+em5025:
+  ttl: 300
+  type: CNAME
+  value: em5025.sifocc.org.
+s1._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s1.domainkey.u2320754.wl005.sendgrid.net.
+s2._domainkey:
+  ttl: 300
+  type: CNAME
+  value: s2.domainkey.u2320754.wl005.sendgrid.net.
