@@ -14,7 +14,12 @@
       - ns-1099.awsdns-09.org.
   - ttl: 300
     type: TXT
-    value: v=spf1 -all
+    values:
+      - v=spf1 -all
+      - hosting-site=sifocc-a8bea
+  - ttl: 300
+    type: A
+    value: 199.36.158.100
 '*._domainkey':
   ttl: 300
   type: TXT
