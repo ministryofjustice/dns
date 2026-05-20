@@ -26,14 +26,6 @@
       - v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:5.61.115.16/28  include:spf.protection.outlook.com include:spf-ps.e-shot.org -all
       - miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab
       - openai-domain-verification=dv-KB38UaPRlySfCNSkLPKqSZaZ
-4odkx3g7muxcfn5eydas4f3kslwcp3h6._domainkey:
-  ttl: 300
-  type: CNAME
-  value: 4odkx3g7muxcfn5eydas4f3kslwcp3h6.dkim.amazonses.com.
-74ipytkywwg56t5grugytb2nbnswmfua._domainkey:
-  ttl: 300
-  type: CNAME
-  value: 74ipytkywwg56t5grugytb2nbnswmfua.dkim.amazonses.com.
 _5da1f4abf8fa71e51d3aaaf2073846e9.mta-sts.youthjusticepp:
   ttl: 60
   type: CNAME
@@ -133,17 +125,9 @@ ah4lnpydpjs5l5z35kmxmnp4r4bkgg27._domainkey:
   ttl: 300
   type: CNAME
   value: ah4lnpydpjs5l5z35kmxmnp4r4bkgg27.dkim.amazonses.com.
-anugym6qhqpgzbegpxrp26htx36nixrm._domainkey:
-  ttl: 300
-  type: CNAME
-  value: anugym6qhqpgzbegpxrp26htx36nixrm.dkim.amazonses.com.
 autodiscover:
   type: CNAME
   value: autodiscover.outlook.com.
-ba57tyzq6qama5pndafilxh57qhain5m._domainkey:
-  ttl: 300
-  type: CNAME
-  value: ba57tyzq6qama5pndafilxh57qhain5m.dkim.amazonses.com.
 ccdw2w6jvkr2vreletczhejsrnfecbbr._domainkey:
   ttl: 300
   type: CNAME
@@ -157,10 +141,6 @@ communications:
   - ttl: 300
     type: TXT
     value: v=spf1 include:spf-ps.e-shot.org -all
-e7gd2dqpsoczd4yaw6o2wr3jdjevenke._domainkey:
-  ttl: 300
-  type: CNAME
-  value: e7gd2dqpsoczd4yaw6o2wr3jdjevenke.dkim.amazonses.com.
 elyq4rc45cnfmpaiirnnonsbkiohel6v._domainkey:
   type: CNAME
   value: elyq4rc45cnfmpaiirnnonsbkiohel6v.dkim.amazonses.com.
@@ -393,10 +373,6 @@ uxthla62n2r3e2xi24eg4bm6cwi6dlim._domainkey:
 vho227htc4ofmjdtbhtcqkvgvcdq7uo5._domainkey:
   type: CNAME
   value: vho227htc4ofmjdtbhtcqkvgvcdq7uo5.dkim.amazonses.com.
-wfsjcdiwg5pc3ylq2vsglviwye5xwdvm._domainkey:
-  ttl: 300
-  type: CNAME
-  value: wfsjcdiwg5pc3ylq2vsglviwye5xwdvm.dkim.amazonses.com.
 www:
   type: A
   value: 80.86.42.110
