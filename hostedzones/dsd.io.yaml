@@ -16,7 +16,7 @@
     type: TXT
     values:
       - v=spf1 -all
-      - v=DKIM1; p=
+      - v=DKIM1\; p=
 _6b6253eac9e7549bb70b0e42830e95b9.ci-hmcts.service:
   ttl: 300
   type: CNAME
@@ -36,7 +36,7 @@ _bfa871d9ae35776361503dc9a3a10db1.tax-tribunals-datacapture-staging:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1;p=reject;rua=mailto:dmarc-rua@dmarc.service.gov.uk;
+  value: v=DMARC1\;p=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk\;
 backup.tax-tribunals-datacapture-staging:
   ttl: 942942942
   type: Route53Provider/ALIAS
