@@ -591,7 +591,7 @@ _smtp._tls:
 _smtp._tls.administrativecourtoffice:
   ttl: 300
   type: TXT
-  value: "v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
+  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
 _smtp._tls.cjscp:
   ttl: 300
   type: TXT
