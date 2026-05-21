@@ -40,27 +40,27 @@
 2ma4ihuxerbnpfigizw76xlnnxmw6zdr._domainkey.magistrates-recruitment:
   ttl: 300
   type: CNAME
-  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com.
+  value: 2ma4ihuxerbnpfigizw76xlnnxmw6zdr.dkim.amazonses.com
 4wlxo7xgsbccmlyejcjro4pldynv4jnc._domainkey.optic:
   ttl: 300
   type: CNAME
-  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com.
+  value: 4wlxo7xgsbccmlyejcjro4pldynv4jnc.dkim.amazonses.com
 4x4t55iiruwexuw5utiherl23yr3igog._domainkey.HMCTS-feedback-survey:
   ttl: 300
   type: CNAME
-  value: 4x4t55iiruwexuw5utiherl23yr3igog.dkim.amazonses.com.
+  value: 4x4t55iiruwexuw5utiherl23yr3igog.dkim.amazonses.com
 5axyevlb23jr5vn7z4uqemmr6llzuuy3._domainkey.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
-  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com.
+  value: 5axyevlb23jr5vn7z4uqemmr6llzuuy3.dkim.amazonses.com
 6zbhv7347nomwa5tilvvgcmsdknyag4i._domainkey:
   ttl: 300
   type: CNAME
-  value: 6zbhv7347nomwa5tilvvgcmsdknyag4i.dkim.amazonses.com.
+  value: 6zbhv7347nomwa5tilvvgcmsdknyag4i.dkim.amazonses.com
 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp._domainkey.cshrcaseworkcma:
   ttl: 300
   type: CNAME
-  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com.
+  value: 42qrvtxqjfjkvgvvuwhnbqmj6gjiimyp.dkim.amazonses.com
 '#civilmediation':
   ttl: 600
   type: A
@@ -248,7 +248,7 @@ _dmarc.cjsm.secure-email.ppud:
 _dmarc.courtstore:
   ttl: 300
   type: TXT
-  value: v=DMARC1\;p=reject;sp=reject;rua=mailto:dmarc-rua@dmarc.service.gov.uk
+  value: v=DMARC1\;p=reject\;sp=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
 _dmarc.cshrcasework:
   ttl: 300
   type: TXT
@@ -263,11 +263,11 @@ _dmarc.gs:
 _dmarc.internaltest.ppud:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=none;
+  value: v=DMARC1\; p=none\;
 _dmarc.jobs:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=reject; rua=mailto:dmarc-rua@dmarc.service.gov.uk
+  value: v=DMARC1\; p=reject\; rua=mailto:dmarc-rua@dmarc.service.gov.uk
 _dmarc.mappa:
   ttl: 300
   type: TXT
@@ -283,7 +283,7 @@ _dmarc.people-development:
 _dmarc.uat.ppud:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=none;
+  value: v=DMARC1\; p=none\;
 _dmarc_legacydomain_policy:
   ttl: 300
   type: TXT
@@ -296,6 +296,10 @@ _dnsauth:
   ttl: 300
   type: TXT
   value: k85gchvy2hq9nrf470ljl9bd9hb8v495
+_dnsauth.bench.courtstore:
+  ttl: 300
+  type: CNAME
+  value: _4q74fjjfk6abt4xj6ryf3ao9i4rzf8o.dcv.digicert.com.
 _dnsauth.bench.staging.courtstore:
   ttl: 300
   type: CNAME
@@ -324,6 +328,10 @@ _dnsauth.videoportal:
   ttl: 300
   type: CNAME
   value: _a6zpt3837jggo6bozbdtpnesr1yy37h.dcv.digicert.com.
+_dnsauth.www.bench.courtstore:
+  ttl: 300
+  type: CNAME
+  value: _4q74fjjfk6abt4xj6ryf3ao9i4rzf8o.dcv.digicert.com.
 _dnsauth.www.bench.staging.courtstore:
   ttl: 300
   type: CNAME
@@ -475,7 +483,7 @@ _mta-sts:
 _mta-sts.administrativecourtoffice:
   ttl: 300
   type: TXT
-  value: v=STSv1; id=88829859a7d277a616e922ebb30e9b32
+  value: v=STSv1\; id=88829859a7d277a616e922ebb30e9b32
 _mta-sts.cshrcasework:
   ttl: 300
   type: TXT
@@ -583,7 +591,7 @@ _smtp._tls:
 _smtp._tls.administrativecourtoffice:
   ttl: 300
   type: TXT
-  value: "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
+  value: "v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
 _smtp._tls.cjscp:
   ttl: 300
   type: TXT
@@ -681,7 +689,7 @@ autodiscover.pay-by-account:
 avature-ext._domainkey:
   ttl: 300
   type: TXT
-  value: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyaagfbsWcC1dEvlq2kZDjOPijYivRZNRC/RQa0hPevdzDG0w+OC62dnu9cMT5uO8j5CEcGW3Siv5QQUbIXVf7svmTkRL/rlb+TyvQtzB7PAG9Dj4PCJegbsBJMUDvQRHQ8WXXA3AIaSXD/r469N81lETpP3PjL8dORqLObDOgpwIDAQAB
+  value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyaagfbsWcC1dEvlq2kZDjOPijYivRZNRC/RQa0hPevdzDG0w+OC62dnu9cMT5uO8j5CEcGW3Siv5QQUbIXVf7svmTkRL/rlb+TyvQtzB7PAG9Dj4PCJegbsBJMUDvQRHQ8WXXA3AIaSXD/r469N81lETpP3PjL8dORqLObDOgpwIDAQAB
 az:
   ttl: 300
   type: NS
@@ -755,10 +763,10 @@ certificatedbailiffs:
   ttl: 60
   type: NS
   values:
-    - ns-1051.awsdns-03.org.
-    - ns-1940.awsdns-50.co.uk.
-    - ns-347.awsdns-43.com.
-    - ns-587.awsdns-09.net.
+    - ns-1051.awsdns-03.org
+    - ns-1940.awsdns-50.co.uk
+    - ns-347.awsdns-43.com
+    - ns-587.awsdns-09.net
 civilmediation:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -1004,15 +1012,15 @@ digital.blogs:
 dkfusion260227cd15._domainkey:
   ttl: 300
   type: TXT
-  value: v=DKIM1; g=*; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArvpXFM5ZdCJNU23bBZ+oStjQKa1+dJ00uqnyQ3uXu5es1kqXYb5Lxi2uyG+kGGvXMeyO/1/4Ntr2zSHs8EiNytUod9n1PC3QWa2kgs7Zx5eS9wKlwxsdFDw/3beLg1yJ8dcT4tFRSTXQcJXiriQQozQ7UAE3mara7C4tv6bhqOvZqKdZKFJ1dFyeOhCxI+iGF34DMTT3mlJLqFzhesNUJgnmLKLn7wGAqKHHlWaeR1rfdqcFbmEtPZR4JLp9CLG9qGd8JFfdOsddBhAfZvzkMack2qk6gmHXSCaGoHNh/htqMLpYDnIZWia0o++ZnZspTWelkoqhOuvEU46cFz47kQIDAQAB
+  value: v=DKIM1\; g=*\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArvpXFM5ZdCJNU23bBZ+oStjQKa1+dJ00uqnyQ3uXu5es1kqXYb5Lxi2uyG+kGGvXMeyO/1/4Ntr2zSHs8EiNytUod9n1PC3QWa2kgs7Zx5eS9wKlwxsdFDw/3beLg1yJ8dcT4tFRSTXQcJXiriQQozQ7UAE3mara7C4tv6bhqOvZqKdZKFJ1dFyeOhCxI+iGF34DMTT3mlJLqFzhesNUJgnmLKLn7wGAqKHHlWaeR1rfdqcFbmEtPZR4JLp9CLG9qGd8JFfdOsddBhAfZvzkMack2qk6gmHXSCaGoHNh/htqMLpYDnIZWia0o++ZnZspTWelkoqhOuvEU46cFz47kQIDAQAB
 dkim2048._domainkey.people-development:
   ttl: 300
   type: TXT
-  value: v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA37IkYQ4qfWIHIF44LxwMOvrp2gZ36lV03BPO1J8zy+pDwznnXvH1J8nmWU/db2Lo61pVTaUxWOv5m1c4ng2GhjObBaey27UMbRYjNjOAoyPOp/WX0yK6YCeDKyNhoumLr/PqJO1IJpfq1X9EoCKhbpR8p5U""92jiS9zLaluwBHo37nO04YSK8qvpPuVj2IDlIdVNuH+wuzlYxtNoLJ4vUnl95Re+3p89Yaplh1vdRWXfDK/tzbO7F+jLOBxaLURD+wjYAcOUh/q+GyG5YT8md6RYGKs7Fl3TWOu90so5MCl8ropqcGwAr9sXHu6ELIyNGOO7gllWTGHjEoWDfxskQSQIDAQAB
+  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA37IkYQ4qfWIHIF44LxwMOvrp2gZ36lV03BPO1J8zy+pDwznnXvH1J8nmWU/db2Lo61pVTaUxWOv5m1c4ng2GhjObBaey27UMbRYjNjOAoyPOp/WX0yK6YCeDKyNhoumLr/PqJO1IJpfq1X9EoCKhbpR8p5U""92jiS9zLaluwBHo37nO04YSK8qvpPuVj2IDlIdVNuH+wuzlYxtNoLJ4vUnl95Re+3p89Yaplh1vdRWXfDK/tzbO7F+jLOBxaLURD+wjYAcOUh/q+GyG5YT8md6RYGKs7Fl3TWOu90so5MCl8ropqcGwAr9sXHu6ELIyNGOO7gllWTGHjEoWDfxskQSQIDAQAB
 dkim.justicejobs._domainkey.jobs:
   ttl: 300
   type: TXT
-  value: v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1UkRKlZ/DmId+dcvZ8O0w9fD6W56dVO6sDVzjvjZXJAmnknQgdSRGWIH6NgrJodrwkcR8AwCGPhYQtdbkHHD9UIXffJOzjA30c24QBD92iI0cWYpDSJ6wu6NlB+m5512MhUbeNe0ZfRgcY2SViZqY21VUnVbavAjQAfnj6ouDfnwoKBNFfdhTzznaKB2wzivY6Bprx5x0KUx4wll0HbswgZdefbOhdnrVtC1/yrh64f92CJC4f1j8GZWeK3Of+JOs6oDraHGGPBowQssseEjmrwuMn/7Fus0KpdED2NEmoBAo7BqqGflFO5YfpnGFNeJVhrhnLU067NWORVFM7//FwIDAQAB
+  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1UkRKlZ/DmId+dcvZ8O0w9fD6W56dVO6sDVzjvjZXJAmnknQgdSRGWIH6NgrJodrwkcR8AwCGPhYQtdbkHHD9UIXffJOzjA30c24QBD92iI0cWYpDSJ6wu6NlB+m5512MhUbeNe0ZfRgcY2SViZqY21VUnVbavAjQAfnj6ouDfnwoKBNFfdhTzznaKB2wzivY6Bprx5x0KUx4wll0HbswgZdefbOhdnrVtC1/yrh64f92CJC4f1j8GZWeK3Of+JOs6oDraHGGPBowQssseEjmrwuMn/7Fus0KpdED2NEmoBAo7BqqGflFO5YfpnGFNeJVhrhnLU067NWORVFM7//FwIDAQAB
 drs:
   ttl: 600
   type: A
@@ -1295,7 +1303,7 @@ intranet:
 jaama._domainkey.fleetmanagementteam:
   ttl: 300
   type: TXT
-  value: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeFclAkZdVjMAlrr5kkUVGNvJcb0DWEJngIMSNd4ApsfzMSjYVV+HkKRlvCIP8eiefG0guBfkz/f8MHbut+BwvLNM7IKLcHOrADKJDq5IVBpFtxLy5CuFIgdM0HQwmyweckVqEjLkQEIWVRTTb5FAkuVHFqfwSTPTbJoCqY41rcwIDAQAB
+  value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeFclAkZdVjMAlrr5kkUVGNvJcb0DWEJngIMSNd4ApsfzMSjYVV+HkKRlvCIP8eiefG0guBfkz/f8MHbut+BwvLNM7IKLcHOrADKJDq5IVBpFtxLy5CuFIgdM0HQwmyweckVqEjLkQEIWVRTTb5FAkuVHFqfwSTPTbJoCqY41rcwIDAQAB
 jfeps._domainkey:
   ttl: 300
   type: CNAME
