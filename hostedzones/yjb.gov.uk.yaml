@@ -291,7 +291,7 @@ qpaef4tkj4d6ficg36wluu3wctyhgxin._domainkey:
   value: qpaef4tkj4d6ficg36wluu3wctyhgxin.dkim.amazonses.com
 selector1._domainkey:
   type: CNAME
-  value: selector1-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector1-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector1._domainkey.yjbservices:
   ttl: 300
   type: CNAME
@@ -310,7 +310,7 @@ selector1._domainkey.youthjusticepp:
   value: selector1-youthjusticepp-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
 selector2._domainkey:
   type: CNAME
-  value: selector2-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com
+  value: selector2-yjb-gov-uk._domainkey.justiceuk.onmicrosoft.com.
 selector2._domainkey.yjbservices:
   ttl: 300
   type: CNAME
@@ -415,7 +415,7 @@ yjaf-smtp:
   - ttl: 300
     type: MX
     value:
-      exchange: feedback-smtp.eu-west-2.amazonses.com.
+      exchange: feedback-smtp.eu-west-2.amazonses.com
       preference: 10
   - ttl: 300
     type: TXT
@@ -436,7 +436,7 @@ yjbservicespp:
   - ttl: 300
     type: MX
     value:
-      exchange: yjbservicespp-yjb-gov-uk.mail.protection.outlook.com
+      exchange: yjbservicespp-yjb-gov-uk.mail.protection.outlook.com.
       preference: 0
   - ttl: 300
     type: TXT
