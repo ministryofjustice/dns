@@ -1591,6 +1591,14 @@ restricted-patients-api:
     - ns-1717.awsdns-22.co.uk.
     - ns-46.awsdns-05.com.
     - ns-704.awsdns-24.net.
+reuselibrary:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1505.awsdns-60.org.
+    - ns-1900.awsdns-45.co.uk.
+    - ns-305.awsdns-38.com.
+    - ns-643.awsdns-16.net.
 review-criminal-legal-aid:
   ttl: 300
   type: NS
