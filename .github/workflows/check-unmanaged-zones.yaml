@@ -32,7 +32,15 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.OCTODNS_AWS_SECRET_ACCESS_KEY }}
           PYTHONUNBUFFERED: 1
         run: |
-          output=$(make check-unmanaged-zones)
-          echo "result<<EOF" >> $GITHUB_OUTPUT
-          echo "$output" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          set -o pipefail
+          if make check-unmanaged-zones 2>&1 | tee /tmp/check-unmanaged-zones.log; then
+            status=0
+          else
+            status=$?
+          fi
+          {
+            echo "result<<EOF"
+            cat /tmp/check-unmanaged-zones.log
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          exit "$status"
