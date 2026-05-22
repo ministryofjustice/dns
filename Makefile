@@ -87,7 +87,7 @@ compare-zone:
 
 check-unmanaged-zones: install
 	$(call check_aws_creds)
-	@pipenv run python3 -m  bin.check_unmanaged_zones
+	@pipenv run python3 -m bin.check_unmanaged_zones
 
 check-empty-zones: install
 	$(call check_aws_creds)
