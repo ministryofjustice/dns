@@ -28,7 +28,7 @@ _cf-custom-hostname:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com
+  value: v=DMARC1\; p=none\; rua=mailto:rua@dmarc.brevo.com
 brevo1._domainkey:
   ttl: 300
   type: CNAME
@@ -40,16 +40,16 @@ brevo2._domainkey:
 em7378:
   ttl: 1800
   type: CNAME
-  value: u43796410.wl161.sendgrid.net.
+  value: u43796410.wl161.sendgrid.net
 s1._domainkey:
   ttl: 1800
   type: CNAME
-  value: s1.domainkey.u43796410.wl161.sendgrid.net.
+  value: s1.domainkey.u43796410.wl161.sendgrid.net
 s2._domainkey:
   ttl: 1800
   type: CNAME
-  value: s2.domainkey.u43796410.wl161.sendgrid.net.
+  value: s2.domainkey.u43796410.wl161.sendgrid.net
 www:
   ttl: 300
   type: CNAME
-  value: yjresourcehub.uk.
+  value: yjresourcehub.uk
