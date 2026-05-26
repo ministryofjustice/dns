@@ -737,6 +737,10 @@ divorce-section-search:
     - ns-2014.awsdns-59.co.uk
     - ns-315.awsdns-39.com
     - ns-603.awsdns-11.net
+docket:
+  ttl: 300
+  type: CNAME
+  value: docket-prod-frontend.azurewebsites.net.
 dkim2048._domainkey.recruitment:
   ttl: 300
   type: TXT
