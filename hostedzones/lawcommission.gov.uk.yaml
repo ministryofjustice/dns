@@ -37,7 +37,7 @@ _d3c63817e9230a6cfa3a831ad8b2dddc.mta-sts:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:rua@dmarc.brevo.com
+  value: v=DMARC1\; p=reject\; sp=reject\; rua=mailto:dmarc-rua@dmarc.service.gov.uk,mailto:rua@dmarc.brevo.com
 _mta-sts:
   ttl: 300
   type: TXT
@@ -65,7 +65,7 @@ fp01._domainkey:
 mail._domainkey:
   ttl: 300
   type: TXT
-  value: k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB
 meu2._domainkey:
   type: CNAME
   value: meu2.domainkey.u57088376.eu.wl.sendgrid.net

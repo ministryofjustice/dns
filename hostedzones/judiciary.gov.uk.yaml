@@ -85,7 +85,7 @@ jars.jac:
 judicial._domainkey.judicialcollege:
   ttl: 300
   type: TXT
-  value: "v=DKIM1; k=rsa; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw5LIWGsIA8LkFUYzDYvEHUdWh1uGYRbCH71ondnfkb+aR+x6tLGIhEkftLi9h5AQZASpWzYZotqw1FQ5ppt1tAgN7HkCBEs+R+WQUNaqt1Op680V7qXKxrfNIMSk8tqnk47kX7CjcjrkG7cMACNjxyJHzZibi/q5xG0S4NZmnJ40FOQgY0GDB6lT/zarCeKMuma6yLwXxnaOkK8SASXlLDVxMbayN4KnM2GWxZ8uzcFcfqP7pIk61j4zY7tUqMXNAWpIbo1byslztYAEqbgNiCt7/aVCLSLzpEm4OqDjkCuFomSNuIwU2kkhZpFks/aFCu3EuHoDppIH7agJrJo/aQIDAQAB"
+  value: v=DKIM1\; k=rsa\; t=s\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw5LIWGsIA8LkFUYzDYvEHUdWh1uGYRbCH71ondnfkb+aR+x6tLGIhEkftLi9h5AQZASpWzYZotqw1FQ5ppt1tAgN7HkCBEs+R+WQUNaqt1Op680V7qXKxrfNIMSk8tqnk47kX7CjcjrkG7cMACNjxyJHzZibi/q5xG0S4NZmnJ40FOQgY0GDB6lT/zarCeKMuma6yLwXxnaOkK8SASXlLDVxMbayN4KnM2GWxZ8uzcFcfqP7pIk61j4zY7tUqMXNAWpIbo1byslztYAEqbgNiCt7/aVCLSLzpEm4OqDjkCuFomSNuIwU2kkhZpFks/aFCu3EuHoDppIH7agJrJo/aQIDAQAB
 judicialcollege:
   - ttl: 300
     type: A
