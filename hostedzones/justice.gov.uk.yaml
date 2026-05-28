@@ -392,10 +392,6 @@ _github-challenge-moj-analytical-services:
   ttl: 300
   type: TXT
   value: 610cab0fa8
-_github-pages-challenge-ministryofjustice.cjsm:
-  ttl: 300
-  type: TXT
-  value: 5bd5cba430ba2c447f57895913e20b
 _github-pages-challenge-ministryofjustice.cloud-optimisation-and-accountability:
   ttl: 300
   type: TXT
@@ -1880,10 +1876,6 @@ s2._domainkey.design102:
   ttl: 300
   type: CNAME
   value: s2.domainkey.u45811675.wl176.sendgrid.net
-salesforce03._domainkey.cjsm:
-  ttl: 300
-  type: CNAME
-  value: salesforce03.u763xu.custdkim.salesforce.com.
 sbc1:
   ttl: 300
   type: A
