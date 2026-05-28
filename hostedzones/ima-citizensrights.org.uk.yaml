@@ -72,7 +72,7 @@ _cf-custom-hostname:
 _dmarc:
   ttl: 300
   type: TXT
-  value: v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com
+  value: v=DMARC1\; p=none\; rua=mailto:rua@dmarc.brevo.com
 _dmarc.newsletter:
   ttl: 300
   type: TXT
@@ -138,7 +138,7 @@ k3._domainkey:
 mail._domainkey:
   ttl: 300
   type: TXT
-  value: k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB
 mhq1449:
   ttl: 300
   type: CNAME
