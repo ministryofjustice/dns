@@ -882,14 +882,6 @@ haletest1:
     - ns-1923.awsdns-48.co.uk.
     - ns-64.awsdns-08.com.
     - ns-748.awsdns-29.net.
-helpwithchildarrangements:
-  ttl: 100
-  type: NS
-  values:
-    - ns-1099.awsdns-09.org.
-    - ns-2000.awsdns-58.co.uk.
-    - ns-465.awsdns-58.com.
-    - ns-989.awsdns-59.net.
 hmcts-risk-assurance-operating-controls:
   ttl: 300
   type: NS
