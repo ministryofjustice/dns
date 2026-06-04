@@ -17,6 +17,10 @@
     values: 
       - MS=ms96686635
       - v=spf1 -all
+'*.jaiu-tools-beta':
+  ttl: 600
+  type: A
+  value: 20.26.96.23
 _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
@@ -982,6 +986,10 @@ jacksapp-devs:
     - ns-1721.awsdns-23.co.uk.
     - ns-455.awsdns-56.com.
     - ns-848.awsdns-42.net.
+jaiu-tools-beta:
+  ttl: 600
+  type: A
+  value: 20.26.96.23
 judicialappointmentscommission.intranet:
   ttl: 300
   type: CNAME
