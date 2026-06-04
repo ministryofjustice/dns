@@ -1300,14 +1300,6 @@ jaama._domainkey.fleetmanagementteam:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeFclAkZdVjMAlrr5kkUVGNvJcb0DWEJngIMSNd4ApsfzMSjYVV+HkKRlvCIP8eiefG0guBfkz/f8MHbut+BwvLNM7IKLcHOrADKJDq5IVBpFtxLy5CuFIgdM0HQwmyweckVqEjLkQEIWVRTTb5FAkuVHFqfwSTPTbJoCqY41rcwIDAQAB
-'*.jaiu-tools-beta':
-  ttl: 600
-  type: A
-  value: 20.26.96.23
-jaiu-tools-beta:
-  ttl: 600
-  type: A
-  value: 20.26.96.23
 jfeps._domainkey:
   ttl: 300
   type: CNAME

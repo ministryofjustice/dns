@@ -367,6 +367,10 @@ _smtp._tls:
   ttl: 300
   type: TXT
   value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
+'*.jaiu-tools-beta':
+  ttl: 600
+  type: A
+  value: 20.26.96.23
 access.platforms:
   type: NS
   values:
@@ -982,6 +986,10 @@ jacksapp-devs:
     - ns-1721.awsdns-23.co.uk.
     - ns-455.awsdns-56.com.
     - ns-848.awsdns-42.net.
+jaiu-tools-beta:
+  ttl: 600
+  type: A
+  value: 20.26.96.23
 judicialappointmentscommission.intranet:
   ttl: 300
   type: CNAME
