@@ -151,6 +151,10 @@ _dnsauth.apply-for-hmpps-research:
   ttl: 300
   type: TXT
   value: _ofnpi6l7fwvr2nln0f9ikpmmyjdsciz
+_dnsauth.azure-landing-zone.dev.test-origin:
+  ttl: 300
+  type: TXT
+  value: _nrenxvww6l0arkr9y1tvhr80pcfs8rt
 _dnsauth.laa-sign-in.external-identity:
   ttl: 300
   type: TXT
@@ -467,6 +471,10 @@ auth:
   values:
     - ns1.auth.service.justice.gov.uk
     - ns2.auth.service.justice.gov.uk
+azure-landing-zone.dev.test-origin:
+  ttl: 300
+  type: CNAME
+  value: fde-hub-afdaas-dev-001-a8eqbpdmd5dzdqbe.a01.azurefd.net.
 bichard7:
   ttl: 300
   type: NS
