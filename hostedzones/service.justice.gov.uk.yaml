@@ -606,10 +606,10 @@ correspondence-handling-and-processing:
   ttl: 300
   type: NS
   values:
-    - ns-1264.awsdns-30.org
-    - ns-1663.awsdns-15.co.uk
-    - ns-44.awsdns-05.com
-    - ns-910.awsdns-49.net
+    - ns-1172.awsdns-18.org.
+    - ns-1888.awsdns-44.co.uk.
+    - ns-215.awsdns-26.com
+    - ns-546.awsdns-04.net
 court-data-adaptor:
   ttl: 300
   type: NS
