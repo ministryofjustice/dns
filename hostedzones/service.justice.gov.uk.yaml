@@ -1010,6 +1010,10 @@ jaiu-tools-beta:
   ttl: 600
   type: A
   value: 20.26.96.23
+jdds-policy-hub:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
 judicialappointmentscommission.intranet:
   ttl: 300
   type: CNAME
