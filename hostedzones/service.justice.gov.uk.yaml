@@ -226,6 +226,10 @@ _github-challenge-ministryof-org.operations-engineering:
 _github-pages-challenge-ministryofjustice.hmpps-architecture-blueprint:
   type: TXT
   value: 141f40bc46f8e9900ac2f8ba7b447a
+_github-pages-challenge-ministryofjustice.jdds-policy-hub:
+  ttl: 300
+  type: TXT
+  value: f3d2a01df0db2f216702747d8a564a
 _github-pages-challenge-ministryofjustice.operations-engineering:
   ttl: 300
   type: TXT
