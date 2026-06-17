@@ -19,6 +19,10 @@
     values:
       - MS=ms36435977
       - v=spf1 include:spf.protection.outlook.com include:eu.rp.oracleemaildelivery.com -all
+_ab11aa317449a24cd05633501ad88caa.www:
+  ttl: 300
+  type: CNAME
+  value: _cea44278b55b457ce4707145cc1dd6ba.jkddzztszm.acm-validations.aws.
 _asvdns-a5910d32-6e1c-4edf-92be-8ae6cdedbc31:
   ttl: 300
   type: TXT
