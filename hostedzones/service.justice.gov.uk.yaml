@@ -1135,6 +1135,14 @@ manage-external-funded-offender-provision:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d3tubljexqypxg.cloudfront.net.
     type: A
+managed-file-transfer:
+  ttl: 300
+  type: NS
+  values:
+    - ns-71.awsdns-08.com.
+    - ns-860.awsdns-43.net.
+    - ns-1248.awsdns-28.org.
+    - ns-1624.awsdns-11.co.uk.
 management.analytical-platform:
   ttl: 300
   type: NS
