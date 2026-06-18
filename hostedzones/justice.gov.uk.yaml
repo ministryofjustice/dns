@@ -1694,7 +1694,7 @@ optic:
 participant:
     ttl: 300
     type: TXT
-    valie: v=spf1 include:_spf.participantkit.com ~all
+    value: v=spf1 include:_spf.participantkit.com ~all
 pay-by-account:
   - ttl: 3600
     type: MX
