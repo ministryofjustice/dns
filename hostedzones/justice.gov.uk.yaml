@@ -1691,6 +1691,10 @@ optic:
     values:
       - amazonses:brpgA+nYWbeXbq05BWkw0znt7qzeOXcRRork8ZaTJlQ=
       - v=spf1 include:spf.protection.outlook.com include:amazonses.com -all
+participant:
+    ttl: 300
+    type: TXT
+    valie: v=spf1 include:_spf.participantkit.com ~all
 pay-by-account:
   - ttl: 3600
     type: MX
@@ -1798,6 +1802,14 @@ producttracker:
     - ns-2000.awsdns-58.co.uk.
     - ns-58.awsdns-07.com.
     - ns-597.awsdns-10.net.
+ptk1-a91c298d._domainkey.participant:
+  ttl: 300
+  type: CNAME
+  value: pdk1._domainkey.dkim.participantkit.com.
+ptk2-a91c298d._domainkey.participant:
+  ttl: 300
+  type: CNAME
+  value: pdk2._domainkey.dkim.participantkit.com.
 px01.video:
   ttl: 300
   type: A
