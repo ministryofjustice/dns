@@ -7,6 +7,13 @@
       - ns-125.awsdns-15.com.
       - ns-1682.awsdns-18.co.uk.
       - ns-914.awsdns-50.net.
+  - ttl: 942942942
+    type: Route53Provider/ALIAS
+    value:
+      evaluate-target-health: false
+      hosted-zone-id: Z2FDTNDATAQYW2
+      name: dvmu1s23qobce.cloudfront.net
+      type: A
 _18ec1ad5af1cdc12f4a74c223dd8968f:
   ttl: 300
   type: CNAME
@@ -15,3 +22,11 @@ _af9d2698edfd56e59653ed2053c9cb5c.www:
   ttl: 300
   type: CNAME
   value: _00b3ada26ee032e2ac330e6885640cfc.jkddzztszm.acm-validations.aws.
+www:
+  ttl: 942942942
+  type: Route53Provider/ALIAS
+  value:
+    evaluate-target-health: false
+    hosted-zone-id: Z2FDTNDATAQYW2
+    name: dvmu1s23qobce.cloudfront.net
+    type: A
