@@ -12,7 +12,7 @@
     value:
       evaluate-target-health: false
       hosted-zone-id: Z2FDTNDATAQYW2
-      name: dvmu1s23qobce.cloudfront.net
+      name: dvmu1s23qobce.cloudfront.net.
       type: A
 _18ec1ad5af1cdc12f4a74c223dd8968f:
   ttl: 300
@@ -28,5 +28,5 @@ www:
   value:
     evaluate-target-health: false
     hosted-zone-id: Z2FDTNDATAQYW2
-    name: dvmu1s23qobce.cloudfront.net
+    name: dvmu1s23qobce.cloudfront.net.
     type: A
