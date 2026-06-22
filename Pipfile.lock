@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6d5d853751e95d3fc0ddaf1612ca64f002b1a8a70141a8530557bd24134179ca"
+            "sha256": "b660c7e9b7368e76c33515a801fd0bb867e2f3dc757f2cd2159dc2e06f9df720"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -198,12 +198,12 @@
         },
         "octodns": {
             "hashes": [
-                "sha256:33165111c8e6cb2c419867ce7e0b7b7315f385f48c0e20689fabad2e7cf986f5",
-                "sha256:e8693bb49e6e64d0f5de1dacfcbd4972655aa9741661f8dc3377e957e1d392ec"
+                "sha256:eb6dbca929ed9db6008452a3c77107ff0aeeeb94cb186221f0512e8899911b91",
+                "sha256:fc2f833fd7ad9bc2b604dc7756def49172a9be207ff4256cab0a46cffc9112a5"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==1.9.1"
+            "markers": "python_version >= '3.9'",
+            "version": "==1.19.0"
         },
         "octodns-route53": {
             "hashes": [
