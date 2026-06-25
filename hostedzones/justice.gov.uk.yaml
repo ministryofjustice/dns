@@ -1692,9 +1692,16 @@ optic:
       - amazonses:brpgA+nYWbeXbq05BWkw0znt7qzeOXcRRork8ZaTJlQ=
       - v=spf1 include:spf.protection.outlook.com include:amazonses.com -all
 participant:
-    ttl: 300
-    type: TXT
-    value: v=spf1 include:_spf.participantkit.com ~all
+    - ttl: 300
+      type: TXT
+      value: v=spf1 include:_spf.participantkit.com ~all
+    - ttl: 3600
+      type: MX
+      value: 
+        - exchange: mxa.eu.mailgun.org.
+          preference: 10
+        - exchange: mxb.eu.mailgun.org. 
+          preference: 10
 pay-by-account:
   - ttl: 3600
     type: MX
