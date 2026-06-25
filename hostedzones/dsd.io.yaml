@@ -161,10 +161,6 @@ dev.nomis-api-access:
     - ns-1627.awsdns-11.co.uk.
     - ns-206.awsdns-25.com.
     - ns-654.awsdns-17.net.
-es-hmcts:
-  ttl: 300
-  type: CNAME
-  value: search-elasticseach-hmcts-z5qgdijlc4irggzljjowt2xwby.eu-west-1.es.amazonaws.com
 et:
   ttl: 300
   type: NS
