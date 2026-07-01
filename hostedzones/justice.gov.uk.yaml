@@ -942,14 +942,6 @@ data:
     - ns-1660.awsdns-15.co.uk.
     - ns-223.awsdns-27.com.
     - ns-640.awsdns-16.net.
-demo:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1143.awsdns-14.org
-    - ns-1918.awsdns-47.co.uk
-    - ns-487.awsdns-60.com
-    - ns-841.awsdns-41.net
 demo.courtstore:
   ttl: 600
   type: A
