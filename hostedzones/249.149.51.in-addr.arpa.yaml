@@ -1,0 +1,9 @@
+---
+'':
+  - ttl: 172800
+    type: NS
+    values:
+      - ns-1577.awsdns-05.co.uk.
+      - ns-975.awsdns-57.net.
+      - ns-442.awsdns-55.com.
+      - ns-1223.awsdns-24.org.
