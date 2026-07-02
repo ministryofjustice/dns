@@ -7,3 +7,11 @@
       - ns-975.awsdns-57.net.
       - ns-442.awsdns-55.com.
       - ns-1223.awsdns-24.org.
+'8':
+  ttl: 300
+  type: PTR
+  value: smtp.justice.gov.uk
+'40':
+  ttl: 300
+  type: PTR
+  value: smtp.justice.gov.uk
