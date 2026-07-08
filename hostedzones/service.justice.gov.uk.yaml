@@ -721,6 +721,10 @@ design-patterns:
     - ns-1918.awsdns-47.co.uk.
     - ns-208.awsdns-26.com.
     - ns-836.awsdns-40.net.
+dev.fms:
+  ttl: 300
+  type: CNAME
+  value: enhancedreceptionchecks-dev-frontend.azurewebsites.net
 dev.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -862,6 +866,10 @@ find-unclaimed-court-money:
       hosted-zone-id: ZHURV8PSTC4K8
       name: dualstack.ubi-p-loadb-1rk7d55h8z4t3-1469044134.eu-west-2.elb.amazonaws.com.
       type: A
+fms:
+  ttl: 300
+  type: CNAME
+  value: enhancedreceptionchecks-prod-frontend.azurewebsites.net
 form:
   ttl: 300
   type: NS
