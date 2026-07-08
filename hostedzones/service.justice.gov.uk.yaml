@@ -765,6 +765,10 @@ dkim2048._domainkey.recruitment:
   ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv5CO7Sjd3Nza40/rw4Cf6MuDRQqL65oP2qPsAraK2IW8uE6+GDFq9sC8gmitBqghP5QcsuSjvXGP2h1Lsup+u2U0DLgl+WcyjCU9ITb6npsoS124O/d+Zq0bpSSh3R8pEiEFkPQ19LEZsTo92CdEbq5mly""13goYsCJnx94sbPTTRWs0lZwwgQrDjSxyU998TXYX0zXKR9of8TKWGDlr020TaUa4z4NX4uK2oc5n6GJ1tl7wotfEl/QUM5Ww8MSQHpE8v9x3S+agpPOyHkIGCP6KvTo5722qeTaKUWAgKFq9Ydbm8Lm7VTj431Kz3gRHtyE8vG7dVNpPfgQCH+pQeZQIDAQAB
+dev.fms:
+  ttl: 300
+  type: CNAME
+  value: enhancedreceptionchecks-dev-frontend.azurewebsites.net
 docket:
   ttl: 300
   type: CNAME
@@ -866,10 +870,6 @@ fms:
   ttl: 300
   type: CNAME
   value: enhancedreceptionchecks-prod-frontend.azurewebsites.net
-fms.dev:
-  ttl: 300
-  type: CNAME
-  value: enhancedreceptionchecks-dev-frontend.azurewebsites.net
 form:
   ttl: 300
   type: NS
