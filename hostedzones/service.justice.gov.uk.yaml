@@ -862,6 +862,14 @@ find-unclaimed-court-money:
       hosted-zone-id: ZHURV8PSTC4K8
       name: dualstack.ubi-p-loadb-1rk7d55h8z4t3-1469044134.eu-west-2.elb.amazonaws.com.
       type: A
+fms:
+  ttl: 300
+  type: CNAME
+  value: enhancedreceptionchecks-prod-frontend.azurewebsites.net
+fms.dev:
+  ttl: 300
+  type: CNAME
+  value: enhancedreceptionchecks-dev-frontend.azurewebsites.net
 form:
   ttl: 300
   type: NS
