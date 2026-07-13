@@ -73,10 +73,6 @@ deployarn.active.dev.accelerated-claims:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/accelerated-claims-dev-c3477c63-CrossAccountRole-1MLS9UADWIMB3
-deployarn.active.dev.courtfinder:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/courtfinder-dev-97187eb9-CrossAccountRole-ZOS047VPE89X
 deployarn.active.dev.tax-tribunals-downloader:
   ttl: 60
   type: TXT
@@ -97,10 +93,6 @@ deployarn.active.staging.accelerated-claims:
   ttl: 60
   type: TXT
   value: arn:aws:iam::880656497252:role/accelerated-claims-staging-bf8677-CrossAccountRole-HO34YH5ZZYJK
-deployarn.active.staging.courtfinder:
-  ttl: 60
-  type: TXT
-  value: arn:aws:iam::880656497252:role/courtfinder-staging-dc5f8e4d-CrossAccountRole-6BX6WNAI0HKC
 deployarn.active.staging.tax-tribunals-fees:
   ttl: 60
   type: TXT
@@ -257,10 +249,6 @@ stack.68ade87f.tax-tribunals-uploader-downloader-staging:
   ttl: 60
   type: TXT
   value: 68ade87f
-stack.910a5789.courtfinder-dev:
-  ttl: 60
-  type: TXT
-  value: 910a5789
 stack.1049b7df.tax-tribunals-fees-staging:
   ttl: 60
   type: TXT
@@ -277,10 +265,6 @@ stack.563646a3.tax-tribunals-uploader-downloader-dev:
   ttl: 60
   type: TXT
   value: 563646a3
-stack.a14bdbf7.courtfinder-dev:
-  ttl: 60
-  type: TXT
-  value: a14bdbf7
 stack.active.accelerated-claims-dev:
   ttl: 60
   type: TXT
@@ -297,14 +281,6 @@ stack.active.ci-hmcts:
   ttl: 60
   type: TXT
   value: 947d340b
-stack.active.courtfinder-dev:
-  ttl: 60
-  type: TXT
-  value: 97187eb9
-stack.active.courtfinder-staging:
-  ttl: 60
-  type: TXT
-  value: dc5f8e4d
 stack.active.tax-tribunals-downloader-dev:
   ttl: 60
   type: TXT
