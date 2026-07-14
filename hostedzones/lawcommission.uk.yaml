@@ -1,0 +1,9 @@
+---
+'':
+  - ttl: 172800
+    type: NS
+    values:
+      - ns-566.awsdns-06.net.
+      - ns-1296.awsdns-34.org.
+      - ns-241.awsdns-30.com.
+      - ns-1548.awsdns-01.co.uk.
