@@ -155,6 +155,10 @@ _dnsauth.azure-landing-zone.dev.test-origin:
   ttl: 300
   type: TXT
   value: _nrenxvww6l0arkr9y1tvhr80pcfs8rt
+_dnsauth.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: _nmnhzcppyoute1wqw4r3ribf46a8axa.dcv.digicert.com.
 _dnsauth.laa-sign-in.external-identity:
   ttl: 300
   type: TXT
@@ -175,6 +179,14 @@ _dnsauth.portal.test.external-identity:
   ttl: 300
   type: TXT
   value: _vgooxurtcud56hxdr7mu0cqm25r0l3w
+_dnsauth.pp.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: _1d8y1q34ioupm2flfv6o4jwbyzp8xh5.dcv.digicert.com.
+_dnsauth.preprod.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: _1d8y1q34ioupm2flfv6o4jwbyzp8xh5.dcv.digicert.com.
 _dnsauth.uat.laa-benefitchecker:
   ttl: 300
   type: CNAME
