@@ -41,7 +41,7 @@ _dmarc:
 _mta-sts:
   ttl: 300
   type: TXT
-  value: v=STSv1\; id=4343bbedbf07cb2a94a7591249b4c9dc
+  value: v=STSv1\; id=2d24570f0e9f87d7f5b7b07b8bf02325
 _smtp._tls:
   ttl: 300
   type: TXT
