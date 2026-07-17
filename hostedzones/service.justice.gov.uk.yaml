@@ -159,7 +159,7 @@ _dnsauth.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
   value: _nmnhzcppyoute1wqw4r3ribf46a8axa.dcv.digicert.com.
- _dnsauth.hmpps-canine-management:
+_dnsauth.hmpps-canine-management:
   ttl: 300
   type: CNAME
   value: _17848iz5vmtc3zuexclnxqrofdf4vwc.dcv.digicert.com.
