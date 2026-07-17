@@ -159,6 +159,10 @@ _dnsauth.exchange-integration-services-stream:
   ttl: 300
   type: CNAME
   value: _nmnhzcppyoute1wqw4r3ribf46a8axa.dcv.digicert.com.
+ _dnsauth.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: _17848iz5vmtc3zuexclnxqrofdf4vwc.dcv.digicert.com.
 _dnsauth.laa-sign-in.external-identity:
   ttl: 300
   type: TXT
@@ -191,6 +195,10 @@ _dnsauth.uat.laa-benefitchecker:
   ttl: 300
   type: CNAME
   value: _pw9pekomkfva2szia9egoq2hr6ynz21.dcv.digicert.com.
+_dnsauth.www.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: _17848iz5vmtc3zuexclnxqrofdf4vwc.dcv.digicert.com.
 _dnsauth.www.uat.laa-benefitchecker:
   ttl: 300
   type: CNAME
