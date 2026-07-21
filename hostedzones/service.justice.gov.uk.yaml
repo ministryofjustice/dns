@@ -1158,13 +1158,6 @@ means-assessment-administration:
     - ns-1217.awsdns-24.org.
     - ns-1700.awsdns-20.co.uk.
     - ns-820.awsdns-38.net.
-mercury:
-  type: NS
-  values:
-    - ns1-01.azure-dns.com.
-    - ns2-01.azure-dns.net.
-    - ns3-01.azure-dns.org.
-    - ns4-01.azure-dns.info.
 mod-platform-monitoring:
   ttl: 300
   type: NS
