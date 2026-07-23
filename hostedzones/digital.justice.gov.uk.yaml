@@ -42,10 +42,6 @@ _dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1\;p=reject\;rua=mailto:dmarc-rua@dmarc.service.gov.uk
-_fe6a4e96a2fc9bdf63a353010447e213.mta-sts:
-  ttl: 60
-  type: CNAME
-  value: _a423e85dfb5e6679546411d704c037f3.mhbtsbpdnt.acm-validations.aws.
 _github-challenge-ministryofjustice:
   ttl: 300
   type: TXT
@@ -54,10 +50,6 @@ _github-challenge-moj-analytical-services:
   ttl: 300
   type: TXT
   value: 7c40543dec
-_mta-sts:
-  ttl: 300
-  type: TXT
-  value: v=STSv1\; id=9d41be0a3725ad8e23362f3c6f29eabc
 _sip._tls:
   ttl: 3600
   type: SRV
@@ -74,10 +66,6 @@ _sipfederationtls._tcp:
     priority: 100
     target: sipfed.online.lync.com
     weight: 1
-_smtp._tls:
-  ttl: 300
-  type: TXT
-  value: v=TLSRPTv1\;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk
 atlassian-251101._domainkey:
   ttl: 300
   type: CNAME
@@ -149,14 +137,6 @@ mqhkirtwekobe7x4elyjxb76h2hjdhfs._domainkey:
 msoid:
   type: CNAME
   value: clientconfig.microsoftonline-p.net
-mta-sts:
-  ttl: 942942942
-  type: Route53Provider/ALIAS
-  value:
-    evaluate-target-health: true
-    hosted-zone-id: Z2FDTNDATAQYW2
-    name: dq5u7fyz5mukp.cloudfront.net.
-    type: A
 pki:
   ttl: 300
   type: TXT
