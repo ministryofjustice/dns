@@ -551,7 +551,7 @@ check-clients-details-using-hmrc-data:
     - ns-429.awsdns-53.com
     - ns-753.awsdns-30.net
 check-my-copilot-ai-credits-usage:
-  ttl: 172,800
+  ttl: 172800
   type: NS
   values:
     - ns-806.awsdns-36.net.
