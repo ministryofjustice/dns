@@ -507,6 +507,14 @@ bichard7:
     - ns-1665.awsdns-16.co.uk
     - ns-178.awsdns-22.com
     - ns-621.awsdns-13.net
+biometric:
+  ttl: 172800
+  type: NS
+  values:
+    - ns-542.awsdns-03.net.
+    - ns-280.awsdns-35.com.
+    - ns-1121.awsdns-12.org.
+    - ns-1898.awsdns-45.co.uk.
 bm4eh3fe5tzqaedogvql4r27syh3gry5._domainkey.recruitment:
   ttl: 300
   type: CNAME
