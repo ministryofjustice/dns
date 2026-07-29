@@ -1647,6 +1647,14 @@ oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs.blogs:
   ttl: 1800
   type: CNAME
   value: oajjnj7slmrbukrr5c6crn3sv35g5tpi.dkim.amazonses.com.
+octo-documentation:
+  ttl: 172800
+  type: NS
+  values:
+    - ns-1450.awsdns-53.org.
+    - ns-1944.awsdns-51.co.uk.
+    - ns-138.awsdns-17.com.
+    - ns-909.awsdns-49.net.
 oe3ypkjre4ra5oziwhkhas46xq7zomtm._domainkey.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
