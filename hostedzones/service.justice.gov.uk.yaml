@@ -1839,6 +1839,10 @@ use-of-force:
     - ns-181.awsdns-22.com.
     - ns-1845.awsdns-38.co.uk.
     - ns-696.awsdns-23.net.
+user-guide.integration-hub:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
 user-guide.laa-operations:
   ttl: 300
   type: CNAME
