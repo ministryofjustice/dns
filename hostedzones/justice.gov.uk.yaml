@@ -942,14 +942,6 @@ data:
     - ns-1660.awsdns-15.co.uk.
     - ns-223.awsdns-27.com.
     - ns-640.awsdns-16.net.
-demo:
-  ttl: 86400
-  type: NS
-  values:
-    - ns-1143.awsdns-14.org
-    - ns-1918.awsdns-47.co.uk
-    - ns-487.awsdns-60.com
-    - ns-841.awsdns-41.net
 demo.courtstore:
   ttl: 600
   type: A
@@ -1632,7 +1624,7 @@ noreply:
       preference: 0
   - ttl: 300
     type: TXT
-    value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:194.33.192.201/32 ip4:194.33.192.202/32 ip4:194.33.196.201/32 ip4:194.33.196.202/32 ip4:195.59.75.140/32 ip4:195.59.75.12/32 -all
+    value: v=spf1 ip4:194.33.196.8/32 ip4:194.33.192.8/32 ip4:194.33.192.201/32 ip4:194.33.192.202/32 ip4:194.33.196.201/32 ip4:194.33.196.202/32 ip4:195.59.75.140/32 ip4:195.59.75.12/32 ip4:194.33.248.8 ip4:194.33.249.8 ip4:51.149.249.8 ip4:51.149.249.40 -all 
 noreply.internaltest.ppud:
   - ttl: 300
     type: MX
@@ -1655,6 +1647,14 @@ oajjnj7slmrbukrr5c6crn3sv35g5tpi._domainkey.cs.blogs:
   ttl: 1800
   type: CNAME
   value: oajjnj7slmrbukrr5c6crn3sv35g5tpi.dkim.amazonses.com.
+octo-documentation:
+  ttl: 172800
+  type: NS
+  values:
+    - ns-1450.awsdns-53.org.
+    - ns-1944.awsdns-51.co.uk.
+    - ns-138.awsdns-17.com.
+    - ns-909.awsdns-49.net.
 oe3ypkjre4ra5oziwhkhas46xq7zomtm._domainkey.uat.cshrcaseworkcma:
   ttl: 300
   type: CNAME
@@ -1691,6 +1691,17 @@ optic:
     values:
       - amazonses:brpgA+nYWbeXbq05BWkw0znt7qzeOXcRRork8ZaTJlQ=
       - v=spf1 include:spf.protection.outlook.com include:amazonses.com -all
+participant:
+    - ttl: 300
+      type: TXT
+      value: v=spf1 include:_spf.participantkit.com ~all
+    - ttl: 3600
+      type: MX
+      value: 
+        - exchange: mxa.eu.mailgun.org.
+          preference: 10
+        - exchange: mxb.eu.mailgun.org. 
+          preference: 10
 pay-by-account:
   - ttl: 3600
     type: MX
@@ -1798,6 +1809,14 @@ producttracker:
     - ns-2000.awsdns-58.co.uk.
     - ns-58.awsdns-07.com.
     - ns-597.awsdns-10.net.
+ptk1-a91c298d._domainkey.participant:
+  ttl: 300
+  type: CNAME
+  value: pdk1._domainkey.dkim.participantkit.com.
+ptk2-a91c298d._domainkey.participant:
+  ttl: 300
+  type: CNAME
+  value: pdk2._domainkey.dkim.participantkit.com.
 px01.video:
   ttl: 300
   type: A
@@ -1991,7 +2010,13 @@ sip.video:
 smtp:
   ttl: 600
   type: A
-  values: [194.33.192.8, 194.33.196.8]
+  values:
+    - 194.33.192.8
+    - 194.33.196.8
+    - 194.33.248.8
+    - 194.33.249.8
+    - 51.149.249.8
+    - 51.149.249.40
 smtp01:
   ttl: 300
   type: A

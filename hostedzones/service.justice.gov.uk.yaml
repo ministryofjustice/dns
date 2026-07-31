@@ -17,6 +17,10 @@
     values: 
       - MS=ms96686635
       - v=spf1 -all
+'*.jaiu-tools-beta':
+  ttl: 600
+  type: A
+  value: 20.26.96.23
 _2cf3aee75260c043ab7bf7625aa4b527.accessibility.manage-external-funded-offender-provision:
   ttl: 300
   type: CNAME
@@ -147,6 +151,18 @@ _dnsauth.apply-for-hmpps-research:
   ttl: 300
   type: TXT
   value: _ofnpi6l7fwvr2nln0f9ikpmmyjdsciz
+_dnsauth.azure-landing-zone.dev.test-origin:
+  ttl: 300
+  type: TXT
+  value: _nrenxvww6l0arkr9y1tvhr80pcfs8rt
+_dnsauth.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: _nmnhzcppyoute1wqw4r3ribf46a8axa.dcv.digicert.com.
+_dnsauth.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: _17848iz5vmtc3zuexclnxqrofdf4vwc.dcv.digicert.com.
 _dnsauth.laa-sign-in.external-identity:
   ttl: 300
   type: TXT
@@ -167,10 +183,22 @@ _dnsauth.portal.test.external-identity:
   ttl: 300
   type: TXT
   value: _vgooxurtcud56hxdr7mu0cqm25r0l3w
+_dnsauth.pp.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: _1d8y1q34ioupm2flfv6o4jwbyzp8xh5.dcv.digicert.com.
+_dnsauth.preprod.exchange-integration-services-stream:
+  ttl: 300
+  type: CNAME
+  value: _1d8y1q34ioupm2flfv6o4jwbyzp8xh5.dcv.digicert.com.
 _dnsauth.uat.laa-benefitchecker:
   ttl: 300
   type: CNAME
   value: _pw9pekomkfva2szia9egoq2hr6ynz21.dcv.digicert.com.
+_dnsauth.www.hmpps-canine-management:
+  ttl: 300
+  type: CNAME
+  value: _17848iz5vmtc3zuexclnxqrofdf4vwc.dcv.digicert.com.
 _dnsauth.www.uat.laa-benefitchecker:
   ttl: 300
   type: CNAME
@@ -218,6 +246,10 @@ _github-challenge-ministryof-org.operations-engineering:
 _github-pages-challenge-ministryofjustice.hmpps-architecture-blueprint:
   type: TXT
   value: 141f40bc46f8e9900ac2f8ba7b447a
+_github-pages-challenge-ministryofjustice.jdds-policy-hub:
+  ttl: 300
+  type: TXT
+  value: f3d2a01df0db2f216702747d8a564a
 _github-pages-challenge-ministryofjustice.operations-engineering:
   ttl: 300
   type: TXT
@@ -463,6 +495,10 @@ auth:
   values:
     - ns1.auth.service.justice.gov.uk
     - ns2.auth.service.justice.gov.uk
+azure-landing-zone.dev.test-origin:
+  ttl: 300
+  type: CNAME
+  value: fde-hub-afdaas-dev-001-a8eqbpdmd5dzdqbe.a01.azurefd.net.
 bichard7:
   ttl: 300
   type: NS
@@ -471,6 +507,14 @@ bichard7:
     - ns-1665.awsdns-16.co.uk
     - ns-178.awsdns-22.com
     - ns-621.awsdns-13.net
+biometrics:
+  ttl: 172800
+  type: NS
+  values:
+    - ns-857.awsdns-43.net.
+    - ns-396.awsdns-49.com.
+    - ns-1623.awsdns-10.co.uk.
+    - ns-1433.awsdns-51.org.
 bm4eh3fe5tzqaedogvql4r27syh3gry5._domainkey.recruitment:
   ttl: 300
   type: CNAME
@@ -514,6 +558,14 @@ check-clients-details-using-hmrc-data:
     - ns-1796.awsdns-32.co.uk
     - ns-429.awsdns-53.com
     - ns-753.awsdns-30.net
+check-my-copilot-ai-credits-usage:
+  ttl: 172800
+  type: NS
+  values:
+    - ns-806.awsdns-36.net.
+    - ns-1069.awsdns-05.org.
+    - ns-487.awsdns-60.com.
+    - ns-1809.awsdns-34.co.uk.
 check-when-to-disclose-caution-conviction:
   ttl: 300
   type: NS
@@ -550,6 +602,14 @@ cidmail.recruitment:
   ttl: 300
   type: CNAME
   value: u19196707.wl208.sendgrid.net
+cis-pp:
+  ttl: 300
+  type: NS
+  values:
+    - ns-1501.awsdns-59.org.
+    - ns-1813.awsdns-34.co.uk.
+    - ns-327.awsdns-40.com.
+    - ns-538.awsdns-03.net.
 claim-criminal-injuries-compensation:
   ttl: 300
   type: NS
@@ -591,13 +651,13 @@ container-platform:
     - ns-971.awsdns-57.net.
     - ns-2004.awsdns-58.co.uk.
 correspondence-handling-and-processing:
-  ttl: 86400
+  ttl: 300
   type: NS
   values:
-    - ns-1264.awsdns-30.org
-    - ns-1663.awsdns-15.co.uk
-    - ns-44.awsdns-05.com
-    - ns-910.awsdns-49.net
+    - ns-1172.awsdns-18.org.
+    - ns-1888.awsdns-44.co.uk.
+    - ns-215.awsdns-26.com
+    - ns-546.awsdns-04.net
 court-data-adaptor:
   ttl: 300
   type: NS
@@ -697,6 +757,10 @@ design-patterns:
     - ns-1918.awsdns-47.co.uk.
     - ns-208.awsdns-26.com.
     - ns-836.awsdns-40.net.
+dev.fms:
+  ttl: 300
+  type: CNAME
+  value: enhancedreceptionchecks-dev-frontend.azurewebsites.net
 dev.manage-external-funded-offender-provision:
   ttl: 942942942
   type: Route53Provider/ALIAS
@@ -838,6 +902,10 @@ find-unclaimed-court-money:
       hosted-zone-id: ZHURV8PSTC4K8
       name: dualstack.ubi-p-loadb-1rk7d55h8z4t3-1469044134.eu-west-2.elb.amazonaws.com.
       type: A
+fms:
+  ttl: 300
+  type: CNAME
+  value: enhancedreceptionchecks-prod-frontend.azurewebsites.net
 form:
   ttl: 300
   type: NS
@@ -882,14 +950,6 @@ haletest1:
     - ns-1923.awsdns-48.co.uk.
     - ns-64.awsdns-08.com.
     - ns-748.awsdns-29.net.
-helpwithchildarrangements:
-  ttl: 100
-  type: NS
-  values:
-    - ns-1099.awsdns-09.org.
-    - ns-2000.awsdns-58.co.uk.
-    - ns-465.awsdns-58.com.
-    - ns-989.awsdns-59.net.
 hmcts-risk-assurance-operating-controls:
   ttl: 300
   type: NS
@@ -990,6 +1050,14 @@ jacksapp-devs:
     - ns-1721.awsdns-23.co.uk.
     - ns-455.awsdns-56.com.
     - ns-848.awsdns-42.net.
+jaiu-tools-beta:
+  ttl: 600
+  type: A
+  value: 20.26.96.23
+jdds-policy-hub:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
 judicialappointmentscommission.intranet:
   ttl: 300
   type: CNAME
@@ -1082,6 +1150,14 @@ manage-external-funded-offender-provision:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d3tubljexqypxg.cloudfront.net.
     type: A
+managed-file-transfer:
+  ttl: 300
+  type: NS
+  values:
+    - ns-71.awsdns-08.com.
+    - ns-860.awsdns-43.net.
+    - ns-1248.awsdns-28.org.
+    - ns-1624.awsdns-11.co.uk.
 management.analytical-platform:
   ttl: 300
   type: NS
@@ -1098,13 +1174,6 @@ means-assessment-administration:
     - ns-1217.awsdns-24.org.
     - ns-1700.awsdns-20.co.uk.
     - ns-820.awsdns-38.net.
-mercury:
-  type: NS
-  values:
-    - ns1-01.azure-dns.com.
-    - ns2-01.azure-dns.net.
-    - ns3-01.azure-dns.org.
-    - ns4-01.azure-dns.info.
 mod-platform-monitoring:
   ttl: 300
   type: NS
@@ -1241,14 +1310,6 @@ offenders-9bee1354:
     hosted-zone-id: ZHURV8PSTC4K8
     name: prisoners-elboffen-tihe091e7s7f-723595351.eu-west-2.elb.amazonaws.com.
     type: A
-offloc:
-  ttl: 300
-  type: NS
-  values:
-    - ns1-09.azure-dns.com
-    - ns2-09.azure-dns.net
-    - ns3-09.azure-dns.org
-    - ns4-09.azure-dns.info
 opg:
   ttl: 300
   type: NS
@@ -1778,6 +1839,10 @@ use-of-force:
     - ns-181.awsdns-22.com.
     - ns-1845.awsdns-38.co.uk.
     - ns-696.awsdns-23.net.
+user-guide.integration-hub:
+  ttl: 300
+  type: CNAME
+  value: ministryofjustice.github.io
 user-guide.laa-operations:
   ttl: 300
   type: CNAME
