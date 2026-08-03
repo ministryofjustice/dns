@@ -239,6 +239,10 @@ _gh-ministryofjustice-o.user-guide.data-catalogue:
   ttl: 300
   type: TXT
   value: 9d4224abcb
+_gh-ministryofjustice-o.user-guide.integration-hub:
+  ttl: 300
+  type: TXT
+  value: b0f270b16d
 _github-challenge-ministryof-org.operations-engineering:
   ttl: 300
   type: TXT
