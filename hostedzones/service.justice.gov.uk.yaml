@@ -773,6 +773,10 @@ dev.manage-external-funded-offender-provision:
     hosted-zone-id: Z2FDTNDATAQYW2
     name: d3gjnixuqv4h4f.cloudfront.net.
     type: A
+dev.moj-org-chart:
+  ttl: 300
+  type: CNAME
+  value: sop-derived-organogram-dev.apps.live.cloud-platform.service.justice.gov.uk.
 dev.network-access-control:
   ttl: 300
   type: NS
@@ -1218,6 +1222,10 @@ moj-forms-editor:
     - ns-1824.awsdns-36.co.uk.
     - ns-228.awsdns-28.com.
     - ns-712.awsdns-25.net.
+moj-org-chart:
+  ttl: 300
+  type: CNAME
+  value: sop-derived-organogram-prod.apps.live.cloud-platform.service.justice.gov.uk.
 mx._domainkey.email.signon:
   ttl: 300
   type: TXT
